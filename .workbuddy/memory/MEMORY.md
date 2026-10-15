@@ -36,7 +36,7 @@
 - **按场景定点覆盖层＋第三真源入库**（docs\49/50）：`scn-place-override.tsv` 空表回归 0 变化；`_scn-file-overrides.tsv` 已并入词库（收 271 键，门 555 偏离全登记 ✅）；⚠️ 生成器应记录每行命中来源，防「成品对而真源错」倒挂。
 - **cat 误标治理**：`work\glossary\cat_fix_rules.py` 挂 `build_glossary.py` merge 末尾（PLACE 7120→6216）。⚠️ 规则改动必须抽看命中样本。
 - **残留专名定名**（docs\51/52）：95 条 146 处已落盘；遗留待裁定 4 项家族分歧（African D `南非师`/`非洲师` 等）；🔴 **系统性误译 `Bon.→第76营`**（25 槽）待用户裁定修法。
-- ⚠️ 环境：用 `C:\Python314\python.exe`（旧 venv 失效）；跑脚本前设 `PYTHONIOENCODING=utf-8; PYTHONUTF8=1`；PowerShell 别包管道。
+- ⚠️ 环境**真源**：`env.cmd` ＋ `requirements.txt`（工作区根目录）｜解释器 `C:\Python314\python.exe`＝Python 3.14.7（旧 venv 失效）；跑脚本前 `call env.cmd`（或设 `PYTHONIOENCODING=utf-8; PYTHONUTF8=1`）；PowerShell 别包管道。
 
 ## 二、OpenPG（主线）· 状态（明细 `MEMORY-OpenPG-archive-2026-10-10.md`）
 

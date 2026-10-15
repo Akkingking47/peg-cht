@@ -25,6 +25,8 @@
 !/work/xscn/master-glossary.tsv
 !/work/xscn/master-words.tsv
 !/work/xscn/master-overrides.tsv
+# 代码侧 lint_zh.py 的规则表（B-2 的数据侧真源，必须入库）
+!/work/lint_rules.tsv
 
 # ─────────────────────────────────────────────────────────────
 # 3. peg/ —— 只留脚本、文档与 research/方法 真源

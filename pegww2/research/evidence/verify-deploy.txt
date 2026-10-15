@@ -17,11 +17,11 @@
   USSR.exe                 ✅  当前=5b8db0b2fed6 成品=5b8db0b2fed6 原版=f71b638ce5fc 备份文件=f71b638ce5fc  [USSR.exe.orig-backup]
 
 [文本]
-  WW2Gui.txt               ✅  当前=0c0a25e1c426 成品=0c0a25e1c426 原版=07135c7abae2 备份文件=07135c7abae2  [WW2Gui.txt.orig-backup]
+  WW2Gui.txt               ✅  当前=5ff1ab20006a 成品=5ff1ab20006a 原版=07135c7abae2 备份文件=07135c7abae2  [WW2Gui.txt.orig-backup]
   WW2Misc.txt              ✅  当前=82d599c6d437 成品=82d599c6d437 原版=56b23db9d7e8 备份文件=56b23db9d7e8  [WW2Misc.txt.orig-backup]
   WW2NAME.TXT              ✅  当前=73b0cc82c80b 成品=73b0cc82c80b 原版=a7d0ee7865fd 备份文件=a7d0ee7865fd  [WW2NAME.TXT.orig-backup]
   WW2Tips.TXT              ✅  当前=0e25a585d7ac 成品=0e25a585d7ac 原版=6d2d7aaaa7b2 备份文件=6d2d7aaaa7b2  [WW2Tips.TXT.orig-backup]
-  ww2-eqp.txt              ✅  当前=afb9dd42815a 成品=afb9dd42815a 原版=29e936396890 备份文件=29e936396890  [ww2-eqp.txt.orig-backup]
+  ww2-eqp.txt              ✅  当前=0f900252ed85 成品=0f900252ed85 原版=29e936396890 备份文件=29e936396890  [ww2-eqp.txt.orig-backup]
 
 [试点内容抽查]（游戏目录当前 WW2Gui.txt 的试点行）
   行40   下一部队         ✅

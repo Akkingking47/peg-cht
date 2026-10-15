@@ -1,0 +1,363 @@
+{
+ "schema": "regression-baseline/v1",
+ "generated_at": "2026-10-15 15:47:08",
+ "generated_at_unix": 1792050428,
+ "python": "3.14.7",
+ "python_full": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+ "platform": "win32",
+ "cwd": "D:\\DSH\\军事游戏汉化",
+ "green_definition": "全绿 = 层表门新增偏离 0 + 层表门缺失 0 + 部署 sha 全部一致 + 权威核对问题数不劣化",
+ "tools": {
+  "layer_gate": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\glossary\\layer_gate.py",
+   "sha256": "ced7027bca2ca99d6f2d18a263109810bb98a2ab1fc889b1ac0fbd128880661d",
+   "mtime": "2026-10-15 11:24:32",
+   "argv": [
+    "work\\glossary\\layer_gate.py"
+   ]
+  },
+  "authority": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\glossary\\audit_authority.py",
+   "sha256": "42330a0e97a839939e617f6a11189ff17633954a4ad183758d19cf05b778771c",
+   "mtime": "2026-09-24 17:30:41",
+   "argv": [
+    "work\\glossary\\audit_authority.py"
+   ]
+  },
+  "naming": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\_sync-audit\\verify_naming.py",
+   "sha256": "84187dbe7ded7cb6116e722581548e3ebf234e246816712f75c7fc7cb12fe7e4",
+   "mtime": "2026-10-13 14:27:01",
+   "argv": [
+    "work\\_sync-audit\\verify_naming.py"
+   ]
+  },
+  "residual": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\_sync-audit\\residual_scan.py",
+   "sha256": "c0a0726be32cc39d635f7890fb20400e29ba49d8b7a19eb3e57bcf54bef00d68",
+   "mtime": "2026-10-13 12:00:32",
+   "argv": [
+    "work\\_sync-audit\\residual_scan.py"
+   ]
+  },
+  "progress": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\audit\\progress.py",
+   "sha256": "cb1acdab61014645a2cc6e325a224a467f13577f23c4ca4c4ccfd8c10e07c3da",
+   "mtime": "2026-09-29 11:38:34",
+   "argv": [
+    "work\\audit\\progress.py"
+   ]
+  },
+  "deploy": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\pegww2\\verify_deploy.py",
+   "sha256": "85f0d03a8c50b43b3ce2de4e89f83e05ebf12824cc03b6f5af7eb9117a0d000b",
+   "mtime": "2026-10-11 16:38:18",
+   "argv": [
+    "work\\pegww2\\verify_deploy.py"
+   ]
+  },
+  "launcher": {
+   "path": "D:\\DSH\\军事游戏汉化\\work\\peg\\peg_launcher.py",
+   "sha256": "93f8552e2030098d1b6755ff75858e32ecc57f189a52ae02d3fb8a4c10c0c903",
+   "mtime": "2026-10-15 13:03:34",
+   "argv": [
+    "work\\peg\\peg_launcher.py",
+    "--w",
+    "1920",
+    "--h",
+    "1080",
+    "--selftest"
+   ]
+  }
+ },
+ "checks": {
+  "layer_gate": {
+   "title": "层表门",
+   "cmd": [
+    "work\\glossary\\layer_gate.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 6255,
+   "metrics": {
+    "candidates": 41787,
+    "overrides": 824,
+    "表[pegww2/research/WW2Gui-map.tsv].缺失": 0,
+    "表[pegww2/research/WW2Misc-map.tsv].缺失": 0,
+    "表[pegww2/research/WW2Tips-map.tsv].缺失": 0,
+    "表[pegww2/research/ww2-eqp-map.tsv].缺失": 0,
+    "表[pegww2/research/ww2-scn-map.tsv].缺失": 0,
+    "表[pegww2/research/WW2NAME-map.tsv].缺失": 0,
+    "表[peG/research/gui030-zh.tsv].缺失": 0,
+    "tables": 7,
+    "missing_total": 0,
+    "divergence_total": 697,
+    "new_divergence": 0,
+    "verdict_pass": 1
+   },
+   "stdout_sha256": "9dc9aaa5164210b05c14dcbe3dca768b37c32bc555201ded48d282133601a6cb",
+   "stdout_lines": 37,
+   "stdout_tail": [
+    "   · era_pct = 21%",
+    "   · hits = 0",
+    "",
+    "⭐ 相对基线**新增**的偏离 0 条（这些才是要拦的）：",
+    "",
+    "判定：✅ 通过"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": [
+    {
+     "path": "glossary/evidence/layer-gate.txt",
+     "tracked": true,
+     "note": "每次运行都重写，且首行是**时间戳** ⇒ 必然产生 1 行 diff（非幂等）"
+    },
+    {
+     "path": "glossary/GLOSSARY.lock",
+     "tracked": true,
+     "note": "仅 --baseline 时写；本文件从不加 --baseline"
+    }
+   ]
+  },
+  "authority": {
+   "title": "权威核对",
+   "cmd": [
+    "work\\glossary\\audit_authority.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 884,
+   "metrics": {
+    "rows": 23475,
+    "baseline_rows": 284,
+    "problems_total": 211,
+    "kind[A未译残留]": 65,
+    "kind[B内部不一致]": 12,
+    "kind[E标点规范]": 134
+   },
+   "stdout_sha256": "fb67b428428785f21fdc5a70587de94716b0007a9871773c4f9627b19c1aaf3e",
+   "stdout_lines": 50,
+   "stdout_tail": [
+    "   [EQUIP] SS Wufrahmen                             => 党卫军 火箭发射器                  汉字间多余空格",
+    "   [PLACE] AIRFIELD OUT OF THE MAP LIMITS           => 机场 地图范围之外                  汉字间多余空格",
+    "   [PLACE] Ardennes (Groupement K)                  => 阿登 (K集群)                   .txt 层用半角括号",
+    "   [PLACE] Art.-Rgt. 109 (II.)                      => 109炮兵团(II.)                .txt 层用半角括号",
+    "",
+    "明细 -> D:\\DSH\\军事游戏汉化\\glossary\\glossary-authority-review.tsv"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": [
+    {
+     "path": "glossary/glossary-authority-review.tsv",
+     "tracked": true,
+     "note": "每次运行都重写；内容是判定的纯函数 ⇒ 库未变时字节一致（实测无 diff）"
+    }
+   ]
+  },
+  "naming": {
+   "title": "命名校验",
+   "cmd": [
+    "work\\_sync-audit\\verify_naming.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 109,
+   "metrics": {
+    "files": 242,
+    "bad_slots": 0,
+    "sizediff_files": 239,
+    "size_delta": 8394,
+    "missing_origin": 0,
+    "verdict_pass": 1
+   },
+   "stdout_sha256": "99713f21842a02a566279076149dd4fa9ceda87905f9b338e0ce47e22752f7a4",
+   "stdout_lines": 243,
+   "stdout_tail": [
+    "   +804 B  EFILE_OLGWW2/TU03.xscn",
+    "   +817 B  EFILE_OLGWW2/DAKTU02.xscn",
+    "  +1078 B  EFILE_OLGWW2/TU06.xscn",
+    "  +1183 B  EFILE_OLGWW2/18days8.xscn",
+    "尺寸总变化 +8394 B",
+    "结论：槽结构全部一致 ✅"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": []
+  },
+  "residual": {
+   "title": "残留扫描",
+   "cmd": [
+    "work\\_sync-audit\\residual_scan.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 30527,
+   "metrics": {
+    "hits[PeG 生成产物][库里]": 0,
+    "hits[PeG 生成产物][初代]": 0,
+    "hits[PeG 游戏目录][库里]": 1,
+    "hits[PeG 游戏目录][初代]": 1,
+    "hits[WW2 生成产物][库里]": 9,
+    "hits[WW2 生成产物][初代]": 0,
+    "hits[WW2 游戏目录][库里]": 9,
+    "hits[WW2 游戏目录][初代]": 0,
+    "dirs": 4,
+    "residual_total": 20
+   },
+   "stdout_sha256": "49f447b39357e72152db6a9a0f996743c7aea387d280aeaa5f07b77141a2ebee",
+   "stdout_lines": 36,
+   "stdout_tail": [
+    "     SCENARIO/LH_ger46med10_m.txt:40  '库里洛夫卡'",
+    "     SCENARIO/RG_usvsruss10_m.txt:40  '库里洛夫卡'",
+    "     SCENARIO/RTB09_m.txt:40  '库里洛夫卡'",
+    "     SCENARIO/RTB16_m.txt:40  '库里洛夫卡'",
+    "     SCENARIO/ZS_kanw_m.txt:40  '库里洛夫卡'",
+    "  ── 初代：真残留 0 行"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": []
+  },
+  "progress": {
+   "title": "全库进度",
+   "cmd": [
+    "work\\audit\\progress.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 17574,
+   "metrics": {
+    "l1_lines": 861,
+    "l1_pending": 778,
+    "l1_han": 766,
+    "l7_md5": "9d1e857b",
+    "l7_dialog_zh": 37,
+    "l7_dialog_total": 37,
+    "l8[hex_text(根)].份": 1,
+    "l8[hex_text(根)].种": 1,
+    "l8[hex_text(efile)].份": 8,
+    "l8[hex_text(efile)].种": 5,
+    "l8[mouse_build].份": 1,
+    "l8[mouse_build].种": 1,
+    "l8[mouse_missions].份": 1,
+    "l8[mouse_missions].种": 1,
+    "total_xscn": 298430,
+    "total_xscn_han": 156427,
+    "total_xscn_pct": "52.4",
+    "total_suspect_miss": 66006,
+    "total_txt": 14967,
+    "total_txt_zh": 8834,
+    "total_txt_pct": "59.0",
+    "total_ply": 63,
+    "total_ply_zh": 63,
+    "done_efiles": 11
+   },
+   "stdout_sha256": "5289af8606b42a162d156ac4ac78e74795f19e410102d8e7ff5d9e3dcde3d9e1",
+   "stdout_lines": 43,
+   "stdout_tail": [
+    "",
+    "**完成（`.xscn` 疑似漏译 ≤ 0.5% 且 `.txt` > 99% 且 `.ply` 全译）：11 个 efile** —— AG、AO、ATOMIC、BASEKORP、COMWW2、GCE、KAISER、NASHORNPBEM、OLGWW2、OPENPG、PzLIGA",
+    "",
+    "> 「疑似漏译」= 既不含汉字、也不匹配「口径保留」样式（舰名/方括号/编号/缩写）的残留串。",
+    "> 该判据是启发式的最坏上界，实际多为舰名；各 efile 的**覆盖率**才是主指标。",
+    "> 假汉字黑名单按 efile 分建（`--dump-fake` 查全库并集）。"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": []
+  },
+  "deploy": {
+   "title": "部署 sha",
+   "cmd": [
+    "work\\pegww2\\verify_deploy.py"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 113,
+   "metrics": {
+    "items_total": 17,
+    "items_ok": 17,
+    "not_ok": 0,
+    "spot_fail": 0,
+    "rowcount_fail": 0,
+    "verdict_pass": 1
+   },
+   "stdout_sha256": "dbb12f2737f9e84d35b58dd595c2141b87e8a6ffa5fd57a02eed089e5b85325a",
+   "stdout_lines": 43,
+   "stdout_tail": [
+    "  WW2Tips.TXT: 行数 44（原版 44） ✅",
+    "  提示 行1 = 反坦克单位擅长在 2 格外削弱坦克。",
+    "  杂项 行12(地形) = 要塞 / 行1 = 开阔地",
+    "",
+    "========================================================================================================",
+    "总判定: ✅ 全部对齐，可实机验证"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": [
+    {
+     "path": "pegww2/research/evidence/verify-deploy.txt",
+     "tracked": true,
+     "note": "每次运行都重写；内容由部署态决定 ⇒ 部署未变时字节一致"
+    }
+   ]
+  },
+  "launcher": {
+   "title": "启动器自检",
+   "cmd": [
+    "work\\peg\\peg_launcher.py",
+    "--w",
+    "1920",
+    "--h",
+    "1080",
+    "--selftest"
+   ],
+   "exit_code": 0,
+   "elapsed_ms": 226,
+   "metrics": {
+    "mother_md5": "c462e897b3aa1c384870c857ce9e01df",
+    "patch_sites": 267,
+    "site_table": 94,
+    "dx_rows": 0,
+    "ui_shift": 31,
+    "panel_pos": 1,
+    "align_recs": 37,
+    "align_writes": 74,
+    "map_sites": 31,
+    "patched": 267,
+    "verify_fail": 0,
+    "selftest_terminated": 1
+   },
+   "stdout_sha256": "5124174383475d9f6505dc706ca32531f5c7b90deed1514718f378f89a37a8d2",
+   "stdout_lines": 13,
+   "stdout_tail": [
+    "  · 布局表右对齐记录：37 条 × 2 word = 74 处",
+    "  · M 地图面/绘制界：31 处 1920 -> 4096",
+    "已挂起启动：pid=6168",
+    "  实际模块基址：0x400000",
+    "✅ 内存补丁完成：267 条已写入并回读一致（exe 文件未改动）",
+    "selftest：已终止进程（游戏未执行任何指令，也没有窗口）"
+   ],
+   "stderr_tail": [],
+   "run_error": null,
+   "parse_error": null,
+   "side_effects": [
+    {
+     "path": "work/peg/out/launcher-log.txt",
+     "tracked": false,
+     "note": "每次运行都重写（Tee 日志）；路径被 .gitignore 覆盖"
+    }
+   ]
+  }
+ },
+ "exit_code": 0,
+ "green": {
+  "层表门新增偏离": 0,
+  "层表门缺失": 0,
+  "部署sha不一致": 0,
+  "权威核对问题数": 211,
+  "verdict": "全绿（问题数 211，仅作基线锚点）"
+ }
+}

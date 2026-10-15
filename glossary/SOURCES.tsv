@@ -1,0 +1,53 @@
+﻿# SOURCES.tsv 真源单一登记表（建议 D-2）· 列：表/性质/上游/下游/优先级层级/备注（TAB 分隔）；表 = workspace 相对 POSIX 路径
+# 性质判据：真源 = 无常规生成脚本、人工或外部系统维护（含一次性订正脚本，改动留备份）；派生 = 有常规生成脚本、可重跑；原件 = 外部原始平行文件的人工备份快照。优先级层级 = 合入/裁决链中的消费次序（越小越先），真源或未参与合入链者填 -
+表	性质	上游	下游	优先级层级	备注
+glossary/standard-glossary.tsv	派生	work/glossary/build_glossary.py	work/glossary/layer_gate.py;work/glossary/audit_authority.py;work/glossary/seg_canon_build.py;work/glossary/seg_ruling_plan.py;work/glossary/make_b_decide.py	-	主库；由 build_glossary.py:482 的 dump() 写出。脚本:17 自称「唯一真源」仅指查询权威，README 亦记「库永远由源文件派生，不手改」
+glossary/glossary-conflicts.tsv	派生	work/glossary/build_glossary.py	-	-	同名多译冲突清单（build_glossary.py:484），只报告不自动择一
+glossary/glossary-residual.tsv	派生	work/glossary/build_glossary.py	-	-	漏译清单（build_glossary.py:486）：本库已有标准译名、该处仍用原文
+glossary/glossary-skip.tsv	派生	work/glossary/build_glossary.py	-	-	未纳入的源（build_glossary.py:488），不平行等
+glossary/glossary-occ.tsv	派生	work/glossary/build_glossary.py	-	-	出现位置索引（build_glossary.py:490）
+glossary/glossary-authority-review.tsv	派生	work/glossary/audit_authority.py	work/glossary/make_b_decide.py;work/regression.py	-	通行译名基准一致性核对输出（audit_authority.py:26/246）；regression.py:55 纳入验收
+glossary/glossary-b-class-decide.tsv	派生	work/glossary/make_b_decide.py	-	-	B 类多译候选裁定表（make_b_decide.py:11/151）
+glossary/glossary-orig-utf8-fix.tsv	派生	work/glossary/make_utf8_fix.py	-	-	中文侧乱码行对照（make_utf8_fix.py:16/76）
+glossary/glossary-orig-charset-fix.tsv	派生	work/glossary/make_orig_charset_fix.py	-	-	原件侧编码对照（make_orig_charset_fix.py:20/76），读 backup/ORIGINAL-*
+glossary/layers/common-glossary.tsv	派生	work/glossary/ingest_layers.py	work/glossary/materialize.py;work/glossary/layer_gate.py;work/glossary/seg_canon_build.py;work/glossary/seg_ruling_plan.py	1	通用层（ingest_layers.py:381/383）；表内首行自述「勿手改；改各层真源后重跑」
+glossary/layers/series-glossary.tsv	派生	work/glossary/ingest_layers.py	work/glossary/materialize.py;work/glossary/layer_gate.py;work/glossary/seg_canon_build.py;work/glossary/seg_ruling_plan.py	2	系列层（ingest_layers.py:381/383）
+glossary/layers/scope-glossary.tsv	派生	work/glossary/ingest_layers.py	work/glossary/materialize.py;work/glossary/layer_gate.py;work/glossary/seg_canon_build.py;work/glossary/seg_ruling_plan.py;work/_scan-pegbranch/placename_verdict.py	3	专项层（ingest_layers.py:381/383）
+glossary/layers/short-glossary.tsv	派生	work/glossary/ingest_layers.py	work/glossary/sweep_ui5.py;work/_scan-pegbranch/placename_verdict.py	-	短名层：槽位受限的长→短对照（ingest_layers.py:392）；独立轴，不参与 materialize 三层合入
+glossary/layers/slot-rules.tsv	派生	work/glossary/ingest_layers.py	-	-	槽位/长度判据，每条带证据（ingest_layers.py:410）；被判限的行据此逐条判定，不搞一刀切
+glossary/layers/common-drift.tsv	派生	work/glossary/ingest_layers.py	work/glossary/sweep_drift.py;work/_scan-pegbranch/placename_verdict.py	-	跨层/跨项目漂移分级（ingest_layers.py:417）
+glossary/layers/override.tsv	派生	work/glossary/ingest_layers.py	work/glossary/materialize.py;work/glossary/converge_plan.py;work/glossary/layer_gate.py	4	同原文按用途分工的显式登记（ingest_layers.py:423 起）；部分登记行内嵌在 ingest_layers.py 脚本里
+glossary/layers/converge-list.tsv	派生	work/glossary/converge_plan.py	work/glossary/sweep_drift.py;work/_scan-pegbranch/placename_verdict.py	-	偏离分桶 A/B/C/D（converge_plan.py:128）
+glossary/layers/scope-diff.tsv	派生	work/glossary/converge_plan.py	work/glossary/layer_gate.py;work/glossary/faction_wire.py;work/_scan-pegbranch/placename_verdict.py	-	跨项目/同形异义/前作未同步的「允许不同」登记（converge_plan.py:150），会保留既有登记行
+glossary/layers/seg-canon.tsv	派生	work/glossary/seg_canon_build.py	work/glossary/fix_map_segments.py;work/pegww2/sweep_map_segments.py	-	段级统一裁定表（seg_canon_build.py:25/201）
+glossary/layers/seg-canon-outliers.tsv	派生	work/glossary/seg_canon_build.py	work/glossary/fix_map_segments.py	-	孤立异常行（seg_canon_build.py:141/196）
+glossary/layers/seg-canon-proposal.tsv	派生	work/glossary/seg_ruling_plan.py	-	-	提案版（seg_ruling_plan.py:24/110）；复核后人工另存为 seg-canon.tsv
+glossary/layers/faction-places.tsv	真源	人工维护	work/_sync-audit/audit_faction_places.py;work/glossary/faction_place_audit.py;work/glossary/faction_wire.py;work/glossary/layer_gate.py;work/glossary/era_dimension_pilot.py;work/glossary/fix_era_lodz.py	-	地名·历史各方称法（以史料为准）；audit_faction_places.py:7 明写「真源 = 本表」
+glossary/layers/faction-ops.tsv	真源	人工维护	work/glossary/faction_place_audit.py;work/glossary/faction_wire.py;work/glossary/layer_gate.py	-	作战/战役名·各方称法（表内:1 自述以史料为准）
+glossary/layers/faction-terms.tsv	真源	人工维护	work/glossary/materialize.py;work/glossary/faction_audit.py;work/glossary/layer_gate.py	5	阵营视角·译名对照（表内:1「人工维护」）；materialize.py:73 以阵营规则应用
+glossary/layers/side-override.tsv	真源	人工维护	work/glossary/faction_place_audit.py	0	人工视角钉，优先于自动三层判定 + .scn 国别兜底（表内:1；fix_side_override.py:10）
+glossary/layers/scn-place-override.tsv	真源	人工维护	work/pegww2/gen_scn.py;work/peg/gen_scn_zh.py	1	按场景定点覆盖；表内:7「生成器先查本表、再回退全局映射表」
+backup/ORIGINAL-EFILE_OLGWW2	原件	-	work/glossary/build_glossary.py	-	平行原件快照（build_glossary.py:48 EFILES 第 3 元组第 3 项）；工作区外源为 D:/OpenPG2/EFILE_OLGWW2
+backup/ORIGINAL-EFILE_OPENPG	原件	-	work/glossary/build_glossary.py	-	平行原件快照（build_glossary.py:49）；工作区外源为 D:/OpenPG2/EFILE_OPENPG
+backup/ORIGINAL-EFILE_NASHORNPBEM	原件	-	work/glossary/build_glossary.py;work/glossary/make_orig_charset_fix.py	-	平行原件快照（build_glossary.py:50）
+work/xscn/master-glossary.tsv	派生	work/xscn/build_master.py	work/xscn/apply_master.py;work/clu/make_clu_names.py;work/efile_pzliga/gen_userscen_xscn.py	-	跨 efile 统一总词库（build_master.py:93）；多译法冲突另见 master-conflicts.tsv
+work/xscn/master-words.tsv	派生	work/xscn/build_master.py	work/xscn/apply_master.py;work/peg/gen_gui030_zh.py	-	词级通名（build_master.py:103）；仅整串 token 全命中才用
+work/xscn/master-conflicts.tsv	派生	work/xscn/build_master.py	work/xscn/resolve_master.py	-	同 src 多译法（build_master.py:107），只报告不自动择一
+work/xscn/master-overrides.tsv	真源	人工维护	work/xscn/resolve_master.py	0	R0 人工裁定 override（resolve_master.py:7 自述最高优先级）
+work/xscn/master-resolve.tsv	派生	work/xscn/resolve_master.py	work/xscn/apply_master.py;work/xscn/list_residual.py;work/xscn/lookup_residual.py	1	冲突归一为单一权威译法（resolve_master.py:129）；与 apply_master.py 同序
+peg/research/ui-glossary.tsv	真源	人工维护	work/glossary/make_pegww2_glossary.py;work/pegww2/build_glossary_unified.py	-	前作界面真源（make_pegww2_glossary.py:26；build_glossary_unified.py:45）
+peg/research/scenario-map.tsv	真源	人工维护	work/peg/gen_scn_zh.py	2	前作场景映射表（gen_scn_zh.py:40）；按英文键全局一张值
+peg/research/gui030-zh.tsv	派生	work/peg/gen_gui030_zh.py	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/glossary/materialize.py;work/pegww2/build_glossary_unified.py	-	前作界面行级对照（gen_gui030_zh.py:28）；fix_peg_sync.py:5 记「真源是脚本内的 ZH 字典」
+pegww2/research/ww2-scn-map.tsv	真源	人工维护	work/pegww2/gen_scn.py;work/glossary/ingest_layers.py;work/glossary/converge_plan.py;work/glossary/materialize.py;work/glossary/layer_gate.py;work/glossary/seg_canon_build.py	2	本作场景译法真源（gen_scn.py:38）；曾被一次性脚本订正并留备份（fix_map_segments.py:172、fix_self_identity_rows.py:31）
+pegww2/research/WW2Gui-map.tsv	真源	人工维护	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/glossary/converge_plan.py;work/glossary/materialize.py;work/pegww2/build_glossary_unified.py	-	界面层表；materialize.py 只对它做「派生一致性核验」并把结果写成 evidence/regen-*.tsv（materialize.py:134/166），不改本表
+pegww2/research/WW2Misc-map.tsv	真源	人工维护	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/glossary/materialize.py;work/pegww2/build_glossary_unified.py	-	界面杂项层表（bulletin 等）
+pegww2/research/WW2Tips-map.tsv	真源	人工维护	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/glossary/materialize.py;work/pegww2/build_glossary_unified.py	-	提示文本层表
+pegww2/research/ww2-eqp-map.tsv	真源	人工维护	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/glossary/converge_plan.py;work/glossary/materialize.py;work/pegww2/build_glossary_unified.py	-	装备层表
+pegww2/research/WW2NAME-map.tsv	真源	人工维护	work/glossary/ingest_layers.py;work/glossary/layer_gate.py;work/pegww2/build_glossary_unified.py	-	人名层表
+pegww2/research/_scn-file-overrides.tsv	派生	work/pegww2/build_file_overrides.py	work/pegww2/gen_scn.py;work/glossary/ingest_layers.py;work/glossary/fix_side_override.py	0	per-file 行级覆盖（build_file_overrides.py:17/118）。⚠️ ingest_layers.py:199 称它「第三个译法真源」，但代码证明它是脚本产物 ⇒ 登记为派生（D-2 要消歧的典型）
+pegww2/research/_eqp-carrier-shorten.tsv	派生	work/pegww2/fix_eqp_carrier.py	work/glossary/ingest_layers.py	-	装备名括注压缩的原/新字数（fix_eqp_carrier.py:21 → ingest_layers.py:403）
+pegww2/docs-zh/_翻译须知与术语.md	真源	人工维护	work/glossary/make_pegww2_glossary.py;work/pegww2/build_glossary_unified.py	-	本作术语文档真源（make_pegww2_glossary.py:27；build_glossary_unified.py:18）
+work/efile-nashornpbem/olgww2-glossary.tsv	真源	人工维护	work/glossary/build_glossary.py;work/efile-nashornpbem/apply_residual.py;work/efile-nashornpbem/verify_residual.py	0	KEEP 登记（保留原文）政策层：优先级最高、不参与投票（build_glossary.py:326）；_sync-audit/apply_naming.py:11 亦称其为「PRI 0 真源」
+work/glossary/authority-baseline.tsv	真源	人工维护	work/glossary/audit_authority.py;work/glossary/make_b_decide.py	0	通行译名基准（audit_authority.py:25；make_b_decide.py:10）
+work/glossary/pegww2-glossary.tsv	派生	work/glossary/make_pegww2_glossary.py	work/glossary/build_glossary.py;work/glossary/audit_layers.py	-	本作术语桥接表（make_pegww2_glossary.py:28/106）；build_glossary.py:267 读它，:262 注明其由三处真源生成、可重跑
+work/peg/pfs/GUI-Segmented.txt	真源	人工维护	work/glossary/materialize.py;work/glossary/ingest_layers.py	-	官方 PFS 界面分段（materialize.py:115；ingest_layers.py:39），供「用途」列

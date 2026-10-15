@@ -99,11 +99,27 @@ D:\DSH\军事游戏汉化\
 | **归档**（勿删） | `.workbuddy\memory\MEMORY-*-archive-*.md` | 压缩迁出的明细全文 |
 | **OpenPG 进度复算** | `work\audit\progress.py` | `python progress.py` 打印实测矩阵 |
 | **PeG 备份链** | `peg\testbed\` + `D:\Program Files\PeG\PeG030.exe.orig-backup` | 见 `peg\README.md` §三 |
+| ⭐ **运行环境真源** | `env.cmd` ＋ `requirements.txt` | 唯一解释器与依赖清单；详见 §四之二 |
 
 > ⚠️ **判进度必须直读文件审计**，绝不能看映射表。两种「假已改」不算进度：
 > ① 安装戳 / 官方自带；② 映射表 `src==dst` 恒等映射。
 > ⚠️ **cp1252 假汉字会骗过校验**（裸 `decode('gbk')` 把高字节解成假汉字）；
 > 可靠判据＝**GB2312 字节范围 ＋ 逐文件假汉字黑名单**。
+
+---
+
+## 四之二、运行环境（唯一真源）
+
+| | 位置 | 说明 |
+|---|---|---|
+| ⭐ **环境真源** | `env.cmd`（根目录） | `call env.cmd` 注入 `PYTHONIOENCODING=utf-8` ＋ `PYTHONUTF8=1` 并暴露解释器；`call env.cmd check` 自检；`call env.cmd install` 按依赖清单安装 |
+| ⭐ **依赖真源** | `requirements.txt`（根目录） | 每个版本号逐字取自实测 `pip freeze`；含「实测 0 引用」留档区与缺口登记 |
+| **唯一解释器** | `C:\Python314\python.exe` | **Python 3.14.7**（实测）。⛔ 旧托管 venv `.workbuddy\...\envs\default\Scripts\python.exe` **已失效**（base 指向已卸载的 WorkBuddy，junction 悬空），勿再引用 |
+| **旧写法（勿抄）** | 各 `docs\*`、`peg\README.md` 里的 `PY=…envs\default…` | 前作遗留，一律以 `env.cmd` 的 `%PY%` 为准 |
+
+> ⚠️ **环境只在本节复述**：改解释器或依赖 = 改 `env.cmd` ＋ `requirements.txt`，别处只指向这两处。
+> ⚠️ 历史踩坑（已止血）：不设 `PYTHONIOENCODING`/`PYTHONUTF8` 时脚本里的 `✅`/`⭐` 撞 GBK 控制台编码直接报错；
+> PowerShell 里别用管道包原生 exe（报 `Access denied`）。
 
 ---
 

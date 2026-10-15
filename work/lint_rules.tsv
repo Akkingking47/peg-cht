@@ -1,0 +1,140 @@
+# PeG 汉化工程 · 译文一致性 linter 规则表（数据侧；代码侧 = work\lint_zh.py）
+#
+# 列：类型	适用	匹配	期望	严重度	依据	说明
+#   · `#` 开头与空行跳过；字段用 TAB 分隔；字段内不得含 TAB。
+#   · **`-` 是空值哨兵**（期望/严重度不适用时写 `-`，保证每行恒定 7 字段，便于机器解析）。
+#   · 适用 ∈ {译文, 原文}：规则看哪一列。`原文` 规则只在带原文列的 .tsv 上生效，
+#     对成品 .txt 记一条 skipped（不报假违规）。
+#   · 期望 = 正确写法（`-` = 无固定正确写法，只报病征）。
+#   · 严重度 ∈ {high, mid, low}：high=硬门禁级违禁；mid=应改；low=启发式，需人工判读。
+#   · 本表**只收录素材里已形式化的规则**，每条 `依据` 都指到具体文件与行号；
+#     素材里没有的规则不臆造（刻意未实现的见文件末尾注释）。
+#
+# 类型语义：
+#   banned    整串黑名单 —— 译文去掉首尾空白后**精确等于**「匹配」才命中
+#             （照抄 work\peg\gen_gui030_zh.py:337 的 `zh.strip() == bad`，
+#               为的是不误伤「补充兵员」这类含黑名单词根的合规译文）
+#   forbidden 禁用词 —— 译文**含**「匹配」子串即命中
+#   regex     正则禁用 —— 译文命中 re.search(匹配)
+#   punct     标点规范 —— 同 regex，仅归类不同（输出规则名带 punct: 前缀）
+#   prefix    前缀锁定 —— 译文形如「匹配」时，必须以「期望」**开头**
+#   suffix    后缀锁定 —— **原文列**命中「匹配」时，译文必须以「期望」**结尾**
+#   paren     括注格式 —— ① `译名(原文)` 必须用半角括号 ② 同行括号全/半角混用
+#   empty     空译文
+#   latin     中文里残留拉丁字母（口径保留不算；见 allow）
+#   allow     白名单 —— 只服务 latin 规则：按行序把匹配到的片段**擦掉**后再看有无残留
+#
+# ⚠️ 两条**刻意不写**的规则（写了必误报，别补）：
+#   1. **半角逗号/冒号不算违规**。铁律 §三-8「标点随原文」：`1: Pusan` 就保持半角，
+#      不许改全角（peg\research\各国军语风格口径.md:64）。故不做全/半角统制。
+#   2. **简体「占领」不是禁用词**。民国感清单里的 `佔領` 限定于原文是 `Overrun` 时
+#      （各国军语风格口径.md:117），简体「占领」在叙事文本里完全合法，做子串规则会
+#      淹掉真违规 —— 只留繁体形态作繁体残留检测。
+#
+类型	适用	匹配	期望	严重度	依据	说明
+banned	译文	补充兵	补充兵员	high	work\peg\gen_gui030_zh.py:247	必须是「补充兵员」；本行按整串匹配，故「补充兵员」不误伤
+banned	译文	野战司令部	战地司令部	high	work\peg\gen_gui030_zh.py:248	OpenPG L309 口径
+banned	译文	检视部队	查看部队	high	work\peg\gen_gui030_zh.py:249	OpenPG L313 口径
+banned	译文	其他选项	更多选项	high	work\peg\gen_gui030_zh.py:250	OpenPG L202 口径
+banned	译文	部队档案	战后报告	high	work\peg\gen_gui030_zh.py:251	OpenPG L248 口径
+banned	译文	下一单位	下一部队	high	work\peg\gen_gui030_zh.py:252	OpenPG L193 口径
+banned	译文	大胜	决定性胜利	high	work\peg\gen_gui030_zh.py:253	OpenPG L108 口径
+banned	译文	声望	威望	high	work\peg\gen_gui030_zh.py:254	装甲军团2 官方中文＝威望点数
+banned	译文	空中出击	空中任务	high	work\peg\gen_gui030_zh.py:264	第32轮试行版面板名已作废；带前缀形态另由下方 prefix 行覆盖
+banned	译文	附加选项	更多选项	high	work\peg\gen_gui030_zh.py:265	与主菜单标签统一
+banned	译文	选择空运	选择空中运输	high	work\peg\gen_gui030_zh.py:266	与 地面运输/海上运输 对齐
+banned	译文	遮断	空中封锁	high	work\peg\gen_gui030_zh.py:268	双轨制 B 轨：通俗化
+banned	译文	野鼬鼠	防空压制	high	work\peg\gen_gui030_zh.py:269	功能命名，不用直译
+banned	译文	快打快撤	打了就跑	high	work\peg\gen_gui030_zh.py:270	玩家口语
+banned	译文	坑道鼠	坑道兵	high	work\peg\gen_gui030_zh.py:271	去俚语
+banned	译文	前沿观察员	炮兵观察员	high	work\peg\gen_gui030_zh.py:272	功能直观
+banned	译文	反炮兵	炮火压制	high	work\peg\gen_gui030_zh.py:273	通俗化
+banned	译文	间接防御	远程防御	high	work\peg\gen_gui030_zh.py:274	对齐 OpenPG L306
+banned	译文	战斗工兵	工兵	high	work\peg\gen_gui030_zh.py:275	兵种简洁化
+banned	译文	轻型护卫舰	护卫舰	high	work\peg\gen_gui030_zh.py:276	PC 系通用
+banned	译文	反应防御	防御反击	high	work\peg\gen_gui030_zh.py:277	提示语可读
+banned	译文	闪击	闪电战	high	work\peg\gen_gui030_zh.py:278	玩家熟词
+banned	译文	占领者	攻坚专家	high	work\peg\gen_gui030_zh.py:279	技能形象化
+banned	译文	埋伏者	伏击者	high	work\peg\gen_gui030_zh.py:280	通行译法
+banned	译文	对硬攻击	硬目标杀伤	high	work\peg\gen_gui030_zh.py:282	缺名词，且数值用「杀伤」不用「攻击」
+banned	译文	对软攻击	软目标杀伤	high	work\peg\gen_gui030_zh.py:283	缺名词，且数值用「杀伤」不用「攻击」
+banned	译文	对装甲攻击	硬目标杀伤	high	work\peg\gen_gui030_zh.py:284	改用军语词根「硬目标」+量度词
+banned	译文	对人员攻击	软目标杀伤	high	work\peg\gen_gui030_zh.py:285	改用军语词根「软目标」+量度词
+banned	译文	对硬目标攻击	硬目标杀伤	high	work\peg\gen_gui030_zh.py:286	数值用「杀伤」不用「攻击」
+banned	译文	对软目标攻击	软目标杀伤	high	work\peg\gen_gui030_zh.py:287	数值用「杀伤」不用「攻击」
+banned	译文	近距攻击	近距杀伤	high	work\peg\gen_gui030_zh.py:288	数值用「杀伤」不用「攻击」
+# ---- 禁用词 A：台湾 1990s「民国感」（繁体形态＝繁体残留，简体成品里出现即为缺陷）----
+forbidden	译文	國力	威望	mid	peg\research\各国军语风格口径.md:292	民国感；Prestige 本作口径＝威望
+forbidden	译文	佔領	-	low	peg\research\各国军语风格口径.md:292	民国感；仅当原文是 Overrun 时才是错译，需人工判读
+forbidden	译文	武裝攻擊	硬目标杀伤	mid	peg\research\各国军语风格口径.md:292	民国感；Hard Attack 本作口径＝硬目标杀伤
+forbidden	译文	非武裝攻擊	软目标杀伤	mid	peg\research\各国军语风格口径.md:292	民国感；Soft Attack 本作口径＝软目标杀伤
+forbidden	译文	前進觀測官	炮兵观察员	mid	peg\research\各国军语风格口径.md:292	民国感；与「前沿观察员」同害
+forbidden	译文	光榮勝利	决定性胜利	mid	peg\research\各国军语风格口径.md:292	民国感；Brilliant Victory 本作口径＝决定性胜利
+forbidden	译文	改良裝備	-	mid	peg\research\各国军语风格口径.md:292	民国感台湾军事译名习惯
+forbidden	译文	国力	威望	low	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法；中文「综合国力」等正常用法需人工判读
+forbidden	译文	武装攻击	硬目标杀伤	mid	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法
+forbidden	译文	非武装攻击	软目标杀伤	mid	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法
+forbidden	译文	前进观测官	炮兵观察员	mid	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法
+forbidden	译文	光荣胜利	决定性胜利	mid	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法
+forbidden	译文	改良装备	-	mid	peg\research\各国军语风格口径.md:292	上条繁体形态的简体写法
+# ---- 禁用词 B：机翻味（A 组诊断表）----
+forbidden	译文	正在进行	-	mid	peg\research\各国军语风格口径.md:169	「进行/做出」式动词逐词搬运；范例「正·在进行·动员」→「正调集兵力」
+forbidden	译文	进行了一次	-	mid	peg\research\各国军语风格口径.md:142	§4.3-3 明列「不用『进行了一次…』」；同见 :40
+forbidden	译文	做出了	-	mid	peg\research\各国军语风格口径.md:142	§4.3-3 明列「不用『做出了…』」
+forbidden	译文	倒是	-	low	peg\research\各国军语风格口径.md:170	口语残留；范例「倒是帮了我们一个忙」→「倒帮了我一个忙」
+forbidden	译文	被肃清	-	mid	peg\research\各国军语风格口径.md:172	被动未汉化；范例「敌军抵抗被肃清」→「肃清岛上敌军抵抗」
+# ---- 禁用词 C：AI 文言腔（B 组诊断表）----
+forbidden	译文	迅即	-	high	peg\research\各国军语风格口径.md:179	时段副词 1950 化；应为「迅速」
+forbidden	译文	乘其	-	high	peg\research\各国军语风格口径.md:179	文言腔定式；应为「趁其…」
+forbidden	译文	之际	-	mid	peg\research\各国军语风格口径.md:179	文言腔；「乘其尚未…之际」应改白话
+forbidden	译文	之前奏	-	high	peg\research\各国军语风格口径.md:180	文言虚词堆砌；「以为…之前奏」→「为…作铺垫」
+forbidden	译文	瓮中之鳖	-	high	peg\research\各国军语风格口径.md:148	文学化四字格，非术语化；§4.3-7 明列
+forbidden	译文	日暮途穷	-	high	peg\research\各国军语风格口径.md:148	文学化四字格，非术语化；§4.3-7 明列
+forbidden	译文	分述如次	-	high	peg\research\各国军语风格口径.md:148	文言；1950 体套语，§4.3-4/:148 一并禁用
+forbidden	译文	养电开	-	high	peg\research\各国军语风格口径.md:144	1950 体电报套语，§4.3-4 明列禁用
+regex	译文	(?:^|[，。；：、,;:！？])\s*顷	现	low	peg\research\各国军语风格口径.md:143	§4.3-4 文言虚词表（顷→白话）。锚定句首/标点后，避免「公顷」「顷刻」误报
+regex	译文	(?:^|[，。；：、,;:！？])\s*兹	现	low	peg\research\各国军语风格口径.md:143	§4.3-4 文言虚词表（兹→白话）。锚定句首/标点后，避免「库兹涅佐夫」这类音译名误报（实测 Equip30 表曾误报过）
+regex	译文	(?:^|[，。；：、,;:！？])\s*遂(?!行)	于是	low	peg\research\各国军语风格口径.md:143	§4.3-4 文言虚词表（遂→于是/随即）。锚定句首并排除「遂行」（现代军语，md:143 的转换目标本就是白话）
+# ---- 禁用词 D：过度军事化（C 组诊断表）----
+forbidden	译文	奉命	-	low	peg\research\各国军语风格口径.md:138	命令套语，仅当原文本身是命令/战报时可用；叙事简报里是 C 组病征，需人工判读
+forbidden	译文	之态势	-	mid	peg\research\各国军语风格口径.md:189	军语定式滥用；范例「威逼之态势」→ 无「之态势」
+forbidden	译文	龟缩	-	high	peg\research\各国军语风格口径.md:189	军语定式滥用；「歼灭龟缩之敌」→「歼灭当地敌军」
+forbidden	译文	达成意图	-	low	peg\research\各国军语风格口径.md:138	命令套语，仅命令/战报体可用
+# ---- 正则禁用：单字文言虚词的「之」滥用启发式（低置信）----
+regex	译文	[\u4e00-\u9fff]{2,}之(?!前|后|外|中|上|下|内|间|际|一|二|三|四)[\u4e00-\u9fff]{2,}	的	low	peg\research\各国军语风格口径.md:181	§4.4 B组「『之』滥用」；范例「俄罗斯之抵抗意志」→「俄罗斯的抵抗意志」。放宽为两侧各≥2汉字并排除「之前/之后/之外…」等合法复合词，仍属启发式
+# ---- 前缀锁定：面板名（整串黑名单抓不到带前缀的，见 gen_gui030_zh.py:347-352）----
+prefix	译文	^M - 	M - 空中任务	high	work\peg\gen_gui030_zh.py:348	面板名锁定：GUI 行406 必须＝「M - 空中任务」。Air Mission 按词性分工（面板名·资源名＝空中任务；动作·按钮·事件＝出击），故只锁「M - 」前缀，不锁「出击」
+# ---- 后缀锁定：装备名后缀统一（取自 ui-glossary 的「装备后缀」条）----
+suffix	原文	^[A-Z][A-Z0-9\-]{0,7}\sScreen$	掩护	mid	peg\research\ui-glossary.tsv:236	「X Screen」**装备**后缀统一译「掩护」（BRDM-1 掩护 / WZ523 掩护）。限定整串「全大写型号 + Screen」，才不会误伤 Full/Next/Selection Screen 这类界面词（实测 gui030 表 6 条界面词全被误报过）
+suffix	原文	^[A-Z][A-Z0-9\-]{0,7}\sAT$	反坦克	mid	peg\research\ui-glossary.tsv:237	「X AT」**装备**后缀统一译「反坦克」（LAV AT / BRDM-2 AT / BMD-3 AT）。限定整串「全大写型号 + AT」，才不会误伤句中的 `at`
+# ---- 括注格式 / 标点规范 ----
+paren	译文	（\s*[A-Za-z0-9][A-Za-z0-9 .,'’\-]*\s*）	(原文)	mid	work\peg\build_long_zh.py:3	括注必须用**半角**括号：地名/人名写作 `Phra Nahka Si Ayutthaya(大城府)`；全角括号内包纯拉丁原文即命中。半角 `(...)` 是正确写法，不在此列
+paren	译文	(?=[^\n]*[（）])(?=[^\n]*[()])	-	mid	work\glossary\audit_authority.py:202-205	E 标点规范「分层内的括号全/半角混用」（audit_authority.py:202-205 has_fw and has_hw → '全角/半角括号混用'）：同一行既有全角又有半角括号即命中
+punct	译文	[\u4e00-\u9fff] +[\u4e00-\u9fff]	-	mid	work\glossary\audit_authority.py:212	E 标点规范「汉字间多余空格」（audit_authority.py:213 同名 note）
+# ---- 结构类 ----
+empty	译文	-	-	mid	work\peg\gen_gui030_zh.py:301	空译文 = 未覆盖行（生成器校验 1 覆盖性：每行必须译出或被列入 KEEP）
+latin	译文	(?<![A-Za-z0-9])[A-Za-z][A-Za-z'\-.]{1,}(?![A-Za-z0-9])	-	mid	work\glossary\audit_authority.py:138	中文行里残留拉丁字母（取词式，长度≥2）。先剥括注原文，再按下方 allow 行擦除口径保留样式，仍有残留才命中。取词式照抄 A未译残留（audit_authority.py:138），故单字母的 `%s`/`%d` 占位符天然不命中
+# ---- 白名单：只对 latin 规则生效（按行序擦除）----
+allow	译文	^[\[\]\(\)\{\}\-/\\.:,\s]*[A-Z0-9\[\]\(\)\{\}\-/\\.:,\s]*$	-	-	work\audit\progress.py:31	口径保留整串（纯符号/数字/大写缩写，KEEP_PAT）—— 整行匹配即无残留
+allow	译文	(?:USS|HMS|HMAS|HMIS|KMS|IJN|RM|MN|DKM|ORP|ARA)[ ]+[A-Za-z0-9.\-]+	-	-	work\audit\progress.py:140	军舰舰名（前缀+舰名）按口径保留原文
+allow	译文	(?<![A-Za-z0-9])[A-Z][A-Z0-9'\-.]{1,}(?![A-Za-z0-9])	-	-	work\glossary\audit_authority.py:146	**全大写 token 一律不计残留**（不限长度）：audit_authority.py:146 只在 `not core.isupper()` 时才判 MID，故 `PEOPLES.EXE` 这类文件名/缩写按口径保留
+allow	译文	(?<![A-Za-z0-9])[A-Za-z][A-Za-z'\-.]{1,5}(?![A-Za-z0-9])	-	-	work\glossary\audit_authority.py:146	**长度 ≤6 的拉丁词不计残留**：audit_authority.py:146 判据是 `len(core) > 6`，故 `Excel`/`aux` 这类短词/产品名不入违规（宁可漏报也不误报）
+# ==== 未实现清单（素材不足 / 刻意不做；**不要**凭想象补行，补之前先找依据）====
+# 「5 面板名锁定校验」：报告 docs\68-汉化工程系统性审查与改进建议报告.md:91 说有 5 条，但全仓 grep
+#   （`面板名锁定|PN_|EXPECT`）实测**只有 1 条**（gen_gui030_zh.py:348 的 `M - 空中任务`）。
+#   故前缀锁定只有 1 行；其余 4 条素材不存在，未实现。
+# 文言虚词 `即/须/乃`：§4.3-4（各国军语风格口径.md:143）列了它们，但作为子串规则会命中「立即/必须/乃至」
+#   等常用词，误报率近 100% 且无可循定式 ⇒ 未实现。
+# §4.3-1 的 `遵照命令/达成意图/造成态势/发起攻击`：仅在「原文本身不是命令/战报」时才是病征，需逐条判文体
+#   ⇒ 只保留可判的 `达成意图`（low）与 `奉命`（low），其余未实现。
+# 缩写白名单用「≤5 全大写」的**规则**表达（audit_authority.py:34），未逐条抄 audit_authority.py:35-40 的
+#   44 条 ALLOW_UPPER 字表（二者判据等价，字表是它的枚举）—— 若哪天真出现 ≤5 全大写但确属残留的串，
+#   再按字表补 allow 行。
+# §4.4 A/B/C 三组诊断表里的「语序残留 / 意象链断裂 / 四字格堆砌 / 抹平原文修辞」属**句级·篇级**判断，
+#   无法用逐行 regex 表达 ⇒ 未实现（仍需人工或 LLM 校对）。
+# 铁律 §三-8「标点随原文」（各国军语风格口径.md:64）⇒ **半角逗号/冒号不判违规**，刻意不做全半角统制。
+# 简体「占领」不判违规：民国感 `佔領` 只在原文是 `Overrun` 时才算错（各国军语风格口径.md:117），
+#   做子串规则会淹掉真违规 ⇒ 只留繁体形态作繁体残留检测。
+# 「整行未译」（无汉字的纯拉丁行）不归 latin 规则管 —— 它的本义是「中文里残留拉丁字母」；
+#   要查「整行未译」需另立规则，素材里没有形式化判据 ⇒ 未实现。
+# =============================================================================
