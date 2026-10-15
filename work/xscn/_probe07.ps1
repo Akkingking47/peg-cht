@@ -1,0 +1,21 @@
+$ErrorActionPreference = 'Stop'
+$root = $PSScriptRoot
+$inPath = Join-Path $root 'chunks\chunk-07.tsv'
+Get-ChildItem (Join-Path $root 'zh') | Select-Object Name, Length, LastWriteTime | Format-Table -AutoSize
+$bytes = [System.IO.File]::ReadAllBytes($inPath)
+"len = $($bytes.Length)"
+"first3 = $($bytes[0..2] -join ',')"
+$hasBom = ($bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF)
+"hasBom = $hasBom"
+$text = [System.IO.File]::ReadAllText($inPath, [System.Text.Encoding]::UTF8)
+$crlf = ([regex]::Matches($text, "`r`n")).Count
+$lf = ([regex]::Matches($text, "`n")).Count
+"crlf = $crlf"
+"lf = $lf"
+"endsWithNewline = $($text.EndsWith([string][char]10))"
+$lines = $text -split "`n"
+"splitCount = $($lines.Count)"
+"lastLineEmpty = $($lines[-1] -eq '')"
+"line1 = [$($lines[0])]"
+"line400 = [$($lines[399])]"
+"psver = $($PSVersionTable.PSVersion.ToString())"

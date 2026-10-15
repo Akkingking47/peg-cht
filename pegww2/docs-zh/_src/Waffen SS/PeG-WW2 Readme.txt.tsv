@@ -1,0 +1,19 @@
+# Waffen SS\PeG-WW2 Readme.txt · TXT 抽取（行号 	 原文 	 含占位符 	 保护串清单）
+# 保护串已替换为 \x01N\x02；译文写回 _fill 的同名文件（占位符原样保留，或直接写回原串也可）
+行号	原文	protected	保护串
+0	Waffen SS campaign version 2.0	Waffen SS campaign version 0	["2.0"]
+2	This PG2 campaign of John McNulty has been converted for PeG-WW2 by Mark Kirby in 2000.	This PG2 campaign of John McNulty has been converted for PeG-WW2 by Mark Kirby in 2000.	[]
+3	Download all files in the SCENARIO directory of PeG-WW2, since file names have not been modified they will just replace the existing ones of version 1.0.	Download all files in the SCENARIO directory of PeG-WW2, since file names have not been modified they will just replace the existing ones of version 0.	["1.0"]
+4	No download of maps is needed since all SSI maps are already included with the PeG-WW2 installer programme.	No download of maps is needed since all SSI maps are already included with the PeG-WW2 installer programme.	[]
+6	Changes to Mark Kirby's campaign conversion	Changes to Mark Kirby's campaign conversion	[]
+8	* I have added references to movies in the CAM file. 	* I have added references to movies in the CAM file. 	[]
+9	The following movies have been used: NewGMWin, Medalgem, Gerloss, 1, 2, Fas3, 4, finn-01, Fas2, Wdunkirk, Fas9, victory1940, Fas11, Fas13, 11, Kursk, 16, Fas15, 17.	The following movies have been used: NewGMWin, Medalgem, Gerloss, 1, 2, Fas3, 4, finn-01, Fas2, Wdunkirk, Fas9, victory1940, Fas11, Fas13, 11, Kursk, 16, Fas15, 17.	[]
+10	Download movies in SMK format at Adlerkorps website: http://www.adlerkorps.com/	Download movies in SMK format at Adlerkorps website: 0	["http://www.adlerkorps.com/"]
+11	The PeG-WW2 game readme file explains how to convert SMK movies into AVI format.	The PeG-WW2 game readme file explains how to convert SMK movies into AVI format.	[]
+13	* Campaign introduction text file has been changed.	* Campaign introduction text file has been changed.	[]
+15	* I have also added Waffen SS country as member of the coalition in each scenario of the campaign, so that Waffen SS units would become purchasable with future PeG 3.0 engine.	* I have also added Waffen SS country as member of the coalition in each scenario of the campaign, so that Waffen SS units would become purchasable with future PeG 0 engine.	["3.0"]
+17	* Scenarios have not been changed compared with version 1 of this campaign (except the coalition with country nr 15).	* Scenarios have not been changed compared with version 1 of this campaign (except the coalition with country nr 15).	[]
+19	* A Waffen SS.XLS file shows now the campaign path.	* A Waffen 0 file shows now the campaign path.	["SS.XLS"]
+21	* I have added the original PG2 readme file of John McNulty.	* I have added the original PG2 readme file of John McNulty.	[]
+23	Robert Mary, 17/03/2007	Robert Mary, 17/03/2007	[]
+25	Other campaigns at: http://www.pegww2.net/	Other campaigns at: 0	["http://www.pegww2.net/"]

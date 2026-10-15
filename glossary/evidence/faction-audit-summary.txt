@@ -1,0 +1,15 @@
+scanned=3682
+side_determined=3306
+side_undetermined=376
+side_pct=90%
+origin_口吻=912
+origin_人工钉=17
+origin_同场景=960
+origin_战役族=699
+origin_战役族(二遍)=22
+origin_scn国别=668
+origin_战役族2=28
+era_determined=765
+era_undetermined=2917
+era_pct=21%
+hits=0

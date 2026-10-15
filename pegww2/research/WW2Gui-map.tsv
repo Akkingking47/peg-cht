@@ -1,0 +1,608 @@
+# WW2Gui-map.tsv（行号模式=是）
+# 来源：PeG=前作行级已验 / PeG同串=同英文串在前作别处的已验译法 / 词库=术语总库精确命中
+#      新译=待人工填 / 保留=按型号规范原样保留
+行号	原文	译文	来源
+1	Yugoslavia	南斯拉夫	词库
+2	Belgium	比利时	词库
+3	Germany	德国	PeG同串
+4	Soviet Union	苏联	词库
+5	Italy	意大利	词库
+6	Finland	芬兰	词库
+7	France	法国	PeG同串
+8	Republican	共和军	新译确认
+9	Greece	希腊	词库
+10	United States	美国	PeG同串
+11	Hungary	匈牙利	词库
+12	Nationalist	国民军	新译确认
+13	United Kingdom	英国	PeG同串
+14	Norway	挪威	词库
+15	Waffen SS	武装党卫军	词库
+16	Poland	波兰	词库
+17	Bulgaria	保加利亚	词库
+18	Romania	罗马尼亚	词库
+19	Canada	加拿大	词库
+20	Czechoslovakia	捷克斯洛伐克	词库
+21	Recon	侦察	PeG同串
+22	Combat Engineer	工兵	PeG同串
+23	Air Defense	对空防御	PeG同串
+24	River Assault	渡河突击	PeG同串
+25	Forward Air Controller	前沿空中控制官	新译确认
+26	Anti-tank	反坦克	PeG同串
+27	Combat Support	战斗支援	PeG同串
+28	Forward Observer	炮兵观察员	PeG同串
+29	Special Munitions	特种弹药	PeG同串
+30	Sealiftable	可海运	新译确认
+31	Airliftable	可空运	PeG同串
+32	No Country	无国家	PeG
+33	Axis	轴心国	词库
+34	Allied	盟军	词库
+35	Brilliant Victory	决定性胜利	PeG
+36	Victory	胜利	PeG
+37	Tactical Victory	战术胜利	PeG
+38	Loss	失败	PeG
+39	It's A Draw -	平局 -	PeG
+40	Next Unit	下一部队	PeG
+41	Cancel Move	取消移动	PeG
+42	Mount - Dismount	上车 - 下车	PeG
+43	Strategic Transport	战略运输	新译确认
+44	Supply	补给	PeG
+45	Replacements	补充兵员	PeG
+46	Requisition Unit	征募部队	PeG
+47	Field Headquarters	战地司令部	PeG
+48	Tactical Air Mode	战术空军模式	新译确认
+49	Strategic Map	战略地图	PeG
+50	Game Functions	游戏功能	PeG
+51	Additional Options	更多选项	PeG
+52	Chat	聊天	PeG
+53	How To Play The Game -	玩法说明 -	PeG
+54	End Turn	结束回合	PeG
+55	Dossier	战后报告	PeG
+56	Show Hexsides	显示网格	PeG
+57	Audio Settings	音频设置	PeG
+58	Play By EMail	邮件对战	PeG
+59	VCR	录像	PeG
+60	Replay Turn	回放回合	PeG
+61	Full Screen	全屏	PeG
+62	Show Terrain	显示地形	PeG
+63	Exit Game	退出游戏	PeG
+64	Inspect Unit	查看部队	PeG
+65	Go To Unit	定位部队	PeG
+66	Overstrength Unit	超编部队	PeG
+67	Upgrade Unit	升级部队	PeG
+68	Reassign Unit	重新指派部队	PeG
+69	Undo Last Action	撤销上一步	PeG
+70	Gold Coins -	金币 -	PeG
+71	Soft Target	软目标	PeG
+72	Hard Target	硬目标	PeG
+73	Air Target	空中目标	词库
+74	Naval Target	海上目标	词库
+75	Close Defense	近距防御	PeG
+76	Ammo	弹药	PeG
+77	Fire Range	射程	PeG
+78	Close Attack	近距杀伤	PeG
+79	Spotting Range	侦察范围	PeG
+80	unused	unused	PeG
+81	unused   GUI97.TXT modified by Redball March 16, 2004	unused   GUI97.TXT modified by Redball March 16, 2004	PeG
+82	unused   requires Redball's modified PeG 2.6 or later	unused   requires Redball's modified PeG 2.6 or later	PeG
+83	unused	unused	PeG
+84	unused   these 8 lines with asterisks peviously used for	unused   these 8 lines with asterisks peviously used for	保留
+85	unused   movement types but not all names were utilized	unused   movement types but not all names were utilized	PeG
+86	unused   complete list of movement types on lines 584-595	unused   complete list of movement types on lines 584-595	PeG
+87	unused	unused	PeG
+88	Hard Attack	硬目标杀伤	PeG
+89	Soft Attack	软目标杀伤	PeG
+90	Air Attack	对空杀伤	PeG
+91	Naval Attack	对海杀伤	订正
+92	Ground Defense	对地防御	PeG
+93	Air Defense	对空防御	PeG
+94	Indirect Defense	远程防御	PeG
+95	Profile	轮廓	PeG
+96	Select Air Defense	选择防空	PeG同串
+97	Select Air Defense	选择防空	PeG同串
+98	Select Anti-tank	选择反坦克	PeG同串
+99	Select Artillery	选择炮兵	PeG同串
+100	Select Infantry	选择步兵	PeG同串
+101	Select Recon	选择侦察	PeG同串
+102	Select Tank	选择坦克	PeG同串
+103	Select Tactical Air	选择战术空军	新译确认
+104	Select Level Bomber	选择重型轰炸机	词库
+105	Select Tactical Bomber	选择战术轰炸机	PeG同串
+106	Core	核心	PeG同串
+107	Auxiliary -	辅助 -	PeG同串
+108	Requisition Unit	征募部队	PeG
+109	Scroll Up	向上滚动	PeG
+110	Scroll Down	向下滚动	PeG
+111	Exit	退出	PeG
+112	Cancel	取消	PeG
+113	Total Prestige	总威望	PeG
+114	Available Prestige	可用威望	PeG
+115	Expended Prestige	已用威望	PeG
+116	Exit Deployment	退出部署	PeG
+117	Edit Equipment	编辑装备	新译确认
+118	Load Excel Text Equipment File	载入 Excel 文本装备文件	PeG
+119	Load Campaign Script	载入战役脚本	新译确认
+120	Save New Campaign	保存新战役	PeG
+121	Load Scenario	载入场景	PeG
+122	Save Scenario	保存场景	PeG
+123	Edit Map	编辑地图	PeG
+124	Edit Army	编辑军队	PeG
+125	Place Army	部署军队	PeG
+126	Clear All Victory Hexes	清除所有胜利格	PeG
+127	Clear All Scenario Hex Info	清除所有场景格信息	PeG
+128	Change Terrain Type	改变地形类型	新译确认
+129	Save Map	保存地图	PeG
+130	Load Map by Name	按名称载入地图	PeG
+131	Load Map By #	按编号载入地图	PeG
+132	Identify Map	识别地图	新译确认
+133	Toggle Road Mode	切换道路模式	新译确认
+134	Fill Map	填充地图	PeG
+135	Clear Roads	清除道路	PeG
+136	Exit Edit Map	退出地图编辑	PeG
+137	Next Army	下一方军队	PeG
+138	Toggle Entrench Mode	切换工事模式	PeG
+139	Enter Scenario Description	输入场景说明	PeG
+140	Class None	无兵种	PeG
+141	Infantry	步兵	PeG
+142	Tank	坦克	PeG
+143	Recon	侦察	PeG
+144	Anti-tank	反坦克	PeG
+145	Flak	高射炮	词库
+146	Fortification	要塞	PeG
+147	Ground Transport	地面运输	PeG
+148	Artillery	炮兵	PeG
+149	Air Defense	防空	PeG
+150	Fighter	战斗机	PeG
+151	Strategic Support	战略支援	新译确认
+152	Tactical Air	战术空军	新译确认
+153	Air Transport	空中运输	PeG
+154	Submarine	潜艇	PeG
+155	Destroyer	驱逐舰	PeG
+156	Battleship	战列舰	PeG
+157	Carrier	航空母舰	PeG
+158	Naval Transport	海上运输	PeG
+159	Battle Cruiser	战列巡洋舰	词库
+160	Cruiser	巡洋舰	PeG同串
+161	Light Cruiser	轻巡洋舰	PeG同串
+162	Play A Campaign	进行战役	PeG
+163	Play A Scenario	进行场景	PeG
+164	Start A Multiplayer Scenario	开始多人场景	PeG
+165	Show The Credits	显示制作人员	PeG
+166	Start The Scenario Builder	启动场景编辑器	PeG
+167	Load A Saved Game	载入存档	PeG
+168	Review A Dossier -	查看战后报告 -	PeG
+169	Show The Introduction	显示片头	新译确认
+170	Exit The Game	退出游戏	PeG
+171	Dry	干燥	PeG
+172	Frozen	冻结	PeG
+173	Turn	回合	PeG
+174	January	一月	PeG
+175	February	二月	PeG
+176	March	三月	PeG
+177	April	四月	PeG
+178	May	五月	PeG
+179	June	六月	PeG
+180	July	七月	PeG
+181	August	八月	PeG
+182	September	九月	PeG
+183	October	十月	PeG
+184	November	十一月	PeG
+185	December	十二月	PeG
+186	Fair	晴好	PeG
+187	Overcast	阴天	PeG
+188	Rain	雨天	PeG
+189	Snow	雪天	PeG
+190	Turns	回合数	PeG
+191	Unlimited Turns - ?	无限回合 - ?	PeG
+192	Current Strength	当前兵力	PeG
+193	Experience	经验	PeG
+194	Leader	指挥官	PeG
+195	Unit Has Transport	部队有运输工具	PeG
+196	Unit Has Moved	部队已行动	PeG
+197	Congratulations on your Victory	祝贺你取得胜利	PeG
+198	Demo Version 1.0 -	演示版 1.0 -	PeG
+199	Next Country	下一国家	PeG
+200	Previous Country	上一国家	新译确认
+201	Total Cost Of Unit	部队总成本	PeG
+202	Cost of Equipment	装备成本	PeG
+203	Available	可用	PeG
+204	Casualties Inflicted	造成伤亡	PeG
+205	Casualties Taken	承受伤亡	PeG
+206	Entrenchment	工事	PeG
+207	Assaulting	突击中	PeG
+208	Attacking	攻击中	PeG
+209	Strategic Bombing -	战略轰炸 -	PeG
+210	Interceptors	拦截机	PeG
+211	Air Defense	防空	PeG
+212	Close Support Fire	近距支援火力	PeG
+213	Support Fire	支援火力	PeG
+214	Reactive Defense!	防御反击！	PeG
+215	Attack Broken Off!	攻击中止！	PeG
+216	Surrender	投降	PeG
+217	Fleeing Port	弃港而逃	PeG
+218	Scuttling	自沉	PeG
+219	Have %s	拥有 %s	PeG
+220	%d victory hexes for %s	%d 个胜利格属于 %s	PeG
+221	%s turn %d of %d	%s 第 %d 回合，共 %d 回合	PeG
+222	Suppressed	已压制	PeG
+223	Destroyed	已击毁	PeG
+224	LAN Connection	局域网连接	PeG
+225	Internet Connection	互联网连接	PeG
+226	Free Internet Play on mplayer.com	mplayer.com 免费联机	新译确认
+227	Internet List -	互联网列表 -	PeG
+228	Create Game	创建游戏	PeG
+229	Join Game	加入游戏	PeG
+230	Enter Your Player Name	输入你的玩家名	PeG
+231	Enter The Game Name	输入游戏名称	PeG
+232	Show Scenario Save Games	显示场景存档	PeG
+233	Show Campaign Save Games	显示战役存档	PeG
+234	Show Multiplayer Save Games	显示多人存档	PeG
+235	Show Email Games	显示邮件对战	PeG
+236	Save Game	保存游戏	PeG
+237	Load Game	载入游戏	PeG
+238	Up One Level	向上一级	PeG
+239	Create Directory	创建目录	PeG
+240	New Game	新游戏	PeG
+241	Successfully Saved	保存成功	PeG
+242	WAS NOT SAVED-ERROR	保存失败-错误	PeG
+243	No File Description	无文件说明	PeG
+244	Deploy Forces	部署部队	PeG
+245	Name Scenario	命名场景	新译确认
+246	Starting Date	起始日期	新译确认
+247	Number Of Turns	回合数	PeG
+248	Start Day or Night	起始昼夜	PeG
+249	Ground Conditions	地面状况	PeG
+250	ATMOSPHERIC CONDITIONS	大气状况	新译确认
+251	Scenario Description	场景说明	新译确认
+252	Designate Supply	指定补给	PeG
+253	Designate Victory	指定胜利	PeG
+254	Designate Ownership	指定归属	PeG
+255	Designate Deployment	指定部署	PeG
+256	Build Army	组建军队	PeG
+257	Unit Settings	部队设置	PeG
+258	Deploy Army	部署军队	PeG
+259	Set Prestige	设置威望	订正
+260	Scenario Parameters	场景参数	PeG
+261	Prestige Allocated Per Turn	每回合分配威望	订正
+262	Unit Names	部队名称	PeG
+263	Make Global Settings	进行全局设置	PeG
+264	Scott and Rick Say Hi!	Scott 与 Rick 向您问好！	新译确认
+265	Enter An IP Address	输入 IP 地址	新译确认
+266	Are You Sure You Want to Quit?	确定要退出游戏吗？	PeG
+267	Empty Slot	空档位	PeG
+268	Yes	是	PeG
+269	No	否	PeG
+270	No Leader Power	无指挥官技能	PeG
+271	Terrain Expert	地形专家	PeG
+272	Aggressive Maneuver	勇猛机动	PeG
+273	Force Recon	精锐侦察	PeG
+274	Tank Killer	坦克杀手	PeG
+275	Enhanced Radar	强化雷达	PeG
+276	Multiple Fire Support	多重火力支援	PeG
+277	Stealth Pilot	隐形飞行员	PeG
+278	Skilled Assault	精锐突击	新译确认
+279	Aggressive Attack	勇猛攻击	PeG
+280	Determined Defense	坚定防御	PeG
+281	Sixth Sense	第六感	PeG
+282	First Strike	先发制人	PeG
+283	Resilience	坚韧	PeG
+284	Influence	影响力	PeG
+285	Fire Discipline	射击纪律	PeG
+286	Ground Taker	攻坚专家	PeG
+287	Rangers	游骑兵	PeG
+288	All Weather Combat	全天候作战	PeG
+289	Blitzer	闪电战	PeG
+290	Motivator	激励者	PeG
+291	Tunnel Rats	坑道兵	PeG
+292	Aggressive Maneuver	勇猛机动	PeG
+293	Skilled Reconnaissance	侦察专家	PeG
+294	Recon Movement	侦察机动	PeG
+295	Marksman	神射手	新译确认
+296	Street Fighter	巷战专家	PeG
+297	Overwhelming Attack	压倒性攻击	PeG
+298	Infiltrator	渗透者	PeG
+299	Camouflage Expert	伪装专家	PeG
+300	Ferocious Defender	凶悍防御	PeG
+301	Overwatch	警戒射击	PeG
+302	Devastating Fire	毁灭射击	PeG
+303	River Assault	渡河突击	PeG
+304	Shock Tactics	震慑战术	PeG
+305	The Rock	磐石	PeG
+306	Quartermaster	军需官	PeG
+307	Sharpshooter	精准射手	PeG
+308	Defender	防御者	PeG
+309	Smart Gambler	精明赌徒	PeG
+310	Skirmisher	散兵	PeG
+311	Ambusher	伏击者	PeG
+312	Shoot and Scoot	打了就跑	PeG
+313	Liberator	解放者	PeG
+314	Random Leader Power	随机指挥官技能	PeG
+315	Axis Turn	轴心回合	PeG
+316	Allied Turn	盟军回合	PeG
+317	Weather : %s, %s	天气：%s，%s	新译确认
+318	Fair	晴好	PeG
+319	Overcast	阴天	PeG
+320	Rain	雨天	PeG
+321	Snow	雪天	PeG
+322	Review Best Careers	查看最佳战绩	PeG
+323	Enter Password	输入密码	PeG
+324	You have Been Awarded A PROTOTYPE UNIT	你被授予一支原型部队	PeG
+325	Review Battlefield	查看战场	PeG
+326	Overrunning	碾压中	PeG
+327	Lost Connection With Player	与玩家失去连接	PeG
+328	Lost Session	会话丢失	PeG
+329	Exchange Unit	交换部队	PeG
+330	Hard Target	硬目标	PeG
+331	Soft Target	软目标	PeG
+332	DECREASE DIFFICULTY  (Increase Player Prestige % )	降低难度（提高玩家威望 %）	新译确认
+333	INCREASE DIFFICULTY  (Decrease Player Prestige % )	提高难度（降低玩家威望 %）	新译确认
+334	Player Prestige Percentage	玩家威望百分比	PeG
+335	Computer Player	电脑玩家	PeG
+336	Human Player	人类玩家	PeG
+337	INCREASE DIFFICULTY  (Increase AI Prestige % )	提高难度（提高电脑威望 %）	新译确认
+338	DECREASE DIFFICULTY  (Decrease AI Prestige % )	降低难度（降低电脑威望 %）	新译确认
+339	Computer Prestige Percentage	电脑威望百分比	PeG
+340	Next	下一项	PeG
+341	Choose Connection	选择连接方式	PeG
+342	Number Of Players In Game	游戏玩家数	PeG
+343	Create Or Join Game	创建或加入游戏	PeG
+344	Choose Game To Join	选择要加入的游戏	PeG
+345	Set Scenario Time Limit	设置场景时限	PeG
+346	Set Time Limit	设置时限	PeG
+347	Set Time Limit	设置时限	PeG
+348	Enter Scenario Name	输入场景名称	PeG
+349	Set Starting Scenario Month	设置场景起始月份	PeG
+350	Set Starting Scenario Day	设置场景起始日期	PeG
+351	Set Starting Scenario Year	设置场景起始年份	PeG
+352	Increase Month	增加月份	PeG
+353	Decrease Month	减少月份	PeG
+354	Increase Day	增加日期	PeG
+355	Decrease Day	减少日期	PeG
+356	Increase Year	增加年份	PeG
+357	Decrease Year	减少年份	PeG
+358	Number Of Turns In Scenario	场景回合数	PeG
+359	Increase Turns	增加回合	PeG
+360	Decrease Turns	减少回合	PeG
+361	Set Turns Per Day	设置每日回合数	PeG
+362	Set Turns Per Day	设置每日回合数	PeG
+363	Set Number Of Players	设置玩家数	PeG
+364	Set As Axis Side	设为轴心国方	新译确认
+365	Set As Allied Side	设为盟军方	新译确认
+366	Set Primary Country	设置主国家	PeG
+367	Set Country	设置国家	PeG
+368	Set AI Aggressive	设为电脑进攻	新译确认
+369	Set AI Defensive	设为电脑防守	新译确认
+370	No Map Chosen For Scenario	场景未选择地图	PeG
+371	Must Name Scenario	必须为场景命名	PeG
+372	Must Have Players For Both Sides.	双方必须都有玩家。	PeG
+373	Must Have Countries For All Players.	所有玩家都必须有国家。	PeG
+374	Must Have Units For All Players.	所有玩家都必须有部队。	PeG
+375	Must Deploy All Players Starting Units.	必须部署所有玩家的起始部队。	PeG
+376	Must Have At Least One Victory Hex Per Player.	每名玩家至少需要一个胜利格。	PeG
+377	Must Have At Least One Unit Deployed Per Player.	每名玩家至少需要部署一支部队。	PeG
+378	Colonel	上校	PeG同串
+379	General	上将	PeG同串
+380	Field Marshal	陆军元帅	新译确认
+381	New Equipment Available	有新装备可用	PeG
+382	PEOPLE'S GENERAL HOT KEYS	《人民将军》快捷键	PeG
+383	FILE FUNCTIONS	文件功能	PeG
+384	CTRL-S, Save	CTRL-S，保存	PeG
+385	CTRL-L, Load	CTRL-L，载入	PeG
+386	CTRL-Q, Quit People's General	CTRL-Q，退出《人民将军》	PeG
+387	CTRL-A, Autosave	CTRL-A，自动保存	PeG
+388	ESC, Exit current menu or screen	ESC，退出当前菜单或界面	PeG
+389	(If on Start Screen, exits game)	（在开始画面按则退出游戏）	PeG
+390	MENU FUNCTIONS	菜单功能	PeG
+391	N - Next Unit	N - 下一部队	PeG
+392	X - Cancel Move	X - 取消移动	PeG
+393	R - Requisition	R - 征募	PeG
+394	D - Deploy	D - 部署	PeG
+395	F - Field HQ	F - 战地司令部	PeG
+396	B - Unit Battle Record	B - 部队战斗记录	PeG
+397	V - View Unit	V - 查看部队	PeG
+398	A - Air Mode	A - 空中模式	PeG
+399	S - Strategic Map	S - 战略地图	PeG
+400	G - Dossier	G - 战后报告	PeG
+401	C - Chat	C - 聊天	PeG
+402	T - Toggle pop-up screen text	T - 切换弹出界面文本	PeG
+403	O - Omit selected unit from the	O - 将所选部队从该回合的	PeG
+404	Next unit cycle for that turn	下一部队循环中略过	PeG
+405	P - Previous Unit	P - 上一部队	PeG
+406	M - Air Mission	M - 空中任务	PeG
+407	SHIFT-F, Toggle full screen	SHIFT-F，切换全屏	PeG
+408	Space - Center on currently selected unit	空格 - 以当前所选部队为中心	PeG
+409	Arrow Keys - Scroll Map	方向键 - 滚动地图	PeG
+410	ADDITIONAL OPTIONS	更多选项	PeG
+411	1 - Status Report	1 - 状态报告	PeG
+412	2 - Hot Key List	2 - 快捷键列表	PeG
+413	3 - Sound Effects Toggle	3 - 音效开关	PeG
+414	4 - Music Toggle	4 - 音乐开关	PeG
+415	5 - VCR Panel	5 - VCR 面板	PeG
+416	6 - View Terrain	6 - 查看地形	PeG
+417	7 - Hexes Toggle	7 - 网格开关	PeG
+418	8 - Toggle Unit Strength Boxes	8 - 切换部队兵力框	PeG
+419	VIEW UNIT FUNCTIONS	查看部队功能	PeG
+420	ALT-E, Embark - Disembark	ALT-E，登船 - 登陆	PeG
+421	ALT-S, Supply	ALT-S，补给	PeG
+422	ALT-R, Replacements	ALT-R，补充兵员	PeG
+423	List Of Hot Keys	快捷键列表	PeG
+424	Status Report	状态报告	PeG
+425	Reinforcements have arrived	增援已抵达	PeG
+426	Do You Want Air Transport?	要使用空运吗？	PeG
+427	Replay Email Opponent's Turn	回放邮件对手回合	PeG
+428	Play	播放	PeG
+429	Stop	停止	PeG
+430	Fast Forward	快进	PeG
+431	Rewind	快退	PeG
+432	Are you sure you wish to remove this unit?	确定要移除该部队吗？	PeG
+433	Rename Unit	重命名部队	PeG
+434	Battle Honors	战斗荣誉	PeG
+435	Air Transport Available:	可用空运：	PeG
+436	Sea Transport Available:	可用海运：	PeG
+437	Enter a Game Description	输入游戏说明	PeG
+438	Surprised!	措手不及！	新译确认
+439	Surprise Attack!	突袭！	新译确认
+440	Surprise Contact!	意外接触！	PeG
+441	Done	完成	PeG
+442	Music On-Off	音乐开/关	PeG
+443	Sound Effects On-Off	音效开/关	PeG
+444	in	于	PeG
+445	Incorrect Password	密码错误	PeG
+446	Global Prestige	全局威望	PeG
+447	Quit	退出	PeG
+448	SHIFT-E, End Turn	SHIFT-E，结束回合	PeG
+449	Load Scenario	载入场景	PeG
+450	AUTOSAVE SCENARIO	自动保存场景	PeG
+451	AUTOSAVE CAMPAIGN	自动保存战役	PeG
+452	Change Commands	更改指令	PeG
+453	Requisition	征募	PeG
+454	Field Headquarters	战地司令部	PeG
+455	Dossier	战后报告	PeG
+456	Upgrade	升级	PeG
+457	Build Army	组建军队	PeG
+458	Viewing Unit Record	查看部队记录	PeG
+459	Done	完成	PeG
+460	Last Turn	上一回合	PeG
+461	Enter Scenario Name	输入场景名称	PeG
+462	Failed To Open Session	打开会话失败	PeG
+463	PeG-WW2 Version 2.7c  (19 Aug 2004 game engine modifications by Redball)	PeG-WW2 版本 2.7c（2004年8月19日 Redball 修改引擎）	新译确认
+464	Scenario Builder	场景编辑器	PeG
+465	Tactical Air flee!	战术空军逃逸！	新译确认
+466	Ignore Entrenchments	无视工事	PeG同串
+467	Bridging Engineers	架桥工兵	PeG同串
+468	Paratroop	伞兵	PeG同串
+469	Deploy and Supply	部署与补给	新译确认
+470	River Assault	渡河突击	PeG同串
+471	Light Infantry	轻步兵	PeG同串
+472	Destroys Entrenchments	摧毁工事	PeG同串
+473	Entrenches Quickly	快速构筑工事	PeG同串
+474	Wild Weasel	防空压制	PeG
+475	Air Strike	空中打击	PeG
+476	Recon	侦察	PeG同串
+477	Interdiction	空中封锁	PeG
+478	Defensive Support	防御支援	PeG
+479	Airlift	空运	PeG
+480	Naval Transport	海运	订正
+481	Cost	成本	PeG
+482	Day	昼	PeG
+483	Night	夜	PeG
+484	Month	月	PeG
+485	Year	年	PeG
+486	Current Air Points	当前空中点数	PeG
+487	Mission Cost	出击成本	PeG
+488	Air Missions	空中任务	订正
+489	Subtract One Mission	减少一次出击	PeG
+490	Add One Mission	增加一次出击	PeG
+491	Cancel All Missions	取消全部出击	PeG
+492	View Battle Record	查看战斗记录	PeG
+493	Air Defense Killed	击毁防空	PeG
+494	Anti-tank Killed	击毁反坦克	PeG
+495	Artillery Killed	击毁炮兵	PeG
+496	Infantry Killed	击毁步兵	PeG
+497	Recon Killed	击毁侦察	PeG
+498	Tanks Killed	击毁坦克	PeG
+499	Tactical Air Killed	击毁战术空军	新译确认
+500	Planes Killed	击落飞机	PeG
+501	Kills	击毁数	PeG
+502	Select Unit For Upgrade	选择要升级的部队	PeG
+503	Select Upgrade For Unit	为部队选择升级	PeG
+504	Examine Unit	查看部队	PeG
+505	Select Unit For Purchase	选择要购买的部队	PeG
+506	Adjust Air Superiority	调整制空权	PeG
+507	Rename General	重命名将军	PeG
+508	Victory Medals	胜利勋章	PeG
+509	Victory Hexes Captured	已占领胜利格	PeG
+510	Air Superiority Percentage %d	制空权百分比 %d	新译确认
+511	Increase Strength	增强兵力	PeG
+512	Decrease Strength	削弱兵力	PeG
+513	Air Mission Aborted!	出击中止！	PeG
+514	PRESTIGE BONUS!	威望奖励！	PeG
+515	LEADER ASSIGNED!	指挥官已任命！	PeG
+516	TROOP IMPROVEMENT!	部队提升！	PeG
+517	MORE AIR MISSIONS!	更多空中任务！	PeG
+518	ADVANCED EQUIPMENT!	先进装备！	PeG
+519	Choose Scenario to Edit	选择要编辑的场景	PeG
+520	Choose Map for Scenario	为场景选择地图	PeG
+521	Configure Game	配置游戏	新译确认
+522	Configure Player	配置玩家	新译确认
+523	Edit Player 1	编辑玩家 1	PeG
+524	Edit Player 2	编辑玩家 2	PeG
+525	Edit Player 3	编辑玩家 3	PeG
+526	Edit Player 4	编辑玩家 4	PeG
+527	Editing Player 1	正在编辑玩家 1	PeG
+528	Editing Player 2	正在编辑玩家 2	PeG
+529	Editing Player 3	正在编辑玩家 3	PeG
+530	Editing Player 4	正在编辑玩家 4	PeG
+531	Designate Victory Hexes	指定胜利格	PeG
+532	Designate Supply Hexes	指定补给格	PeG
+533	Designate Trigger Hexes	指定触发格	PeG
+534	Designate Reaction Hexes	指定反应格	PeG
+535	Adjust Units	调整部队	PeG
+536	Next Screen	下一屏	PeG
+537	New Scenario	新场景	新译确认
+538	CHOOSE SCENARIO	选择场景	PeG
+539	SELECT MAP	选择地图	PeG
+540	Turns For Brilliant Victory	决胜胜利所需回合	PeG
+541	Turns For Victory	胜利所需回合	PeG
+542	Turns For Marginal	险胜所需回合	新译确认
+543	Increase Air Superiority	提高制空权	PeG
+544	Decrease Air Superiority	降低制空权	PeG
+545	(A) Tropical Humid	(A) 热带湿润	PeG
+546	(B) Dry	(B) 干燥	PeG
+547	(C) Warm Temperate	(C) 暖温带	PeG
+548	(D) Cold Temperate	(D) 冷温带	PeG
+549	(E) Polar	(E) 极地	PeG
+550	Set Axis Required VH Captures	设定轴心国所需夺取的胜利点	新译确认
+551	Set Allied Required VH Captures	设定盟军所需夺取的胜利点	新译确认
+552	AI must capture ALL VH to win	电脑须夺取全部胜利点方可获胜	新译确认
+553	AI can capture ANY VH to win	电脑夺取任一胜利点即可获胜	新译确认
+554	Scenario Title	场景标题	新译确认
+555	Weather	天气	PeG
+556	Climate Type	气候类型	PeG
+557	Axis Starting Air Level	轴心国初始空中等级	新译确认
+558	Allied Starting Air Level	盟军初始空中等级	新译确认
+559	Increase Air Mission Pts	提高空中任务点数	PeG
+560	Decrease Air Mission Pts	降低空中任务点数	PeG
+561	Player Air Mission Pts	玩家空中任务点数	PeG
+562	Increase Prestige	增加威望	PeG
+563	Decrease Prestige	减少威望	PeG
+564	Player Prestige	玩家威望	PeG
+565	Alter Unit Leader	更改部队指挥官	PeG
+566	NAME UNIT	部队名称	PeG
+567	Increase Experience	增加经验	PeG
+568	Decrease Experience	减少经验	PeG
+569	LEADERS	指挥官	PeG
+570	Requisition Elite Unit	征募精锐部队	新译确认
+571	Requisition Veteran Unit	征募老兵部队	新译确认
+572	Requisition Regular Unit	征募正规部队	新译确认
+573	Campaign Selection Screen	战役选择画面	PeG
+574	Scenario Selection Screen	场景选择画面	PeG
+575	Tips	提示	PeG
+576	Strength: %d/%d	兵力：%d/%d	PeG
+577	Tactical Operations	战术行动	PeG
+578	If you exit you will lose your work. Do you still want to exit?	退出将丢失你的工作。仍要退出吗？	PeG
+579	Edit This Scenario	编辑此场景	PeG
+580	Create New Scenario	创建新场景	PeG
+581	%d Experience Regulars	%d 经验正规兵	PeG
+582	%d Experience Veterans	%d 经验老兵	PeG
+583	%d Experience Elites	%d 经验精锐	PeG
+584	Bad Weather! Air units are significantly reduced in effectiveness!	恶劣天气！空中单位的效能大幅下降！	PeG
+585	Tracked	履带式	PeG
+586	Half-Tracked	半履带式	PeG
+587	Wheeled	轮式	PeG
+588	Leg	徒步	PeG
+589	Light Tracked	轻型履带式	PeG
+590	Air	空中	PeG
+591	Deep Naval	远洋	PeG
+592	Coastal	近海	PeG
+593	All Terrain-Vehicle	全地形车辆	新译确认
+594	Amphibious	两栖	PeG
+595	Guerilla	游击队	PeG
+596	Ranger	突击队	PeG
+597	Fly The Planned Air Missions	执行已规划的出击	PeG
+598	Exit Mission Planning (no air missions flown)	退出任务规划（不执行任何出击）	PeG
+599	---------	---------	PeG同串
+600	lines below this are not referenced	lines below this are not referenced	PeG同串
+601	maximum GUI length = 1000 lines	maximum GUI length = 1000 lines	PeG同串
+602	GUIWW2 -- This is the GUI97 specifically for PEGWW2.EXE version 2.7 or higher	GUIWW2 -- This is the GUI97 specifically for PEGWW2.EXE version 2.7 or higher	保留
+603	file date:  16 August 2004	file date:  16 August 2004	保留
+604	total lines = 604	total lines = 604	保留

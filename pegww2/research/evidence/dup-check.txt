@@ -1,0 +1,256 @@
+⭐ 复制粘贴错译高危组（精筛）
+   判据：两条原文几乎相同（相似度 ≥0.65），却共用同一译文；且差异词是**真正不同**的
+         拉丁词（去标点后不同、编辑距离 >2）—— `Dantzig`/`Dresden` 正是此型
+================================================================================================
+  命中 50 组
+
+  相似度 0.98  「盟军挡住了你，我们未能达成既定目标。我们明白这确实非常艰难，而你手上的部队又太少。」
+    A: The Allies have been stopped you, we couldn't accomplish the targeted goals. We realize th
+    B: The allies have been stop you, we couldn't accomplish the targeted goals. We realize that 
+       ↳ 差异词: 'stopped' vs 'stop'（编辑距离 3）
+
+  相似度 0.94  「由于你表现出色，你将接管整个党卫军第5师——「元首」团、「德意志」团、「日耳曼尼亚」团及其支」
+    A: Because of your good performance, you get control over the complete SS-V Division - Standa
+    B: Because of your outstanding performance, you get control over the complete SS-V Division -
+       ↳ 差异词: 'good' vs 'outstanding'（编辑距离 10）
+
+  相似度 0.88  「第68中型炮兵团/第4印度师/[XXX]」
+    A: 68 Med.AR/4 Ind D./[XXX]
+    B: 68 Med.AR/4 Indian./[XXX]
+       ↳ 差异词: 'dxxx' vs 'indianxxx'（编辑距离 5）
+
+  相似度 0.86  「第25炮兵团/第4印度师/[XXX]」
+    A: 25 AR/4 Ind D./[XXX]
+    B: 25 AR/4 Indian./[XXX]
+       ↳ 差异词: 'dxxx' vs 'indianxxx'（编辑距离 5）
+
+  相似度 0.86  「第31炮兵团/第4印度师/[XXX]」
+    A: 31 AR/4 Ind D./[XXX]
+    B: 31 AR/4 Indian./[XXX]
+       ↳ 差异词: 'dxxx' vs 'indianxxx'（编辑距离 5）
+
+  相似度 0.84  「第68中型炮兵团/第4印度师/[XXX]」
+    A: 68 Med.AR/4 Ind D/[XXX]
+    B: 68 Med.AR/4 Indian./[XXX]
+       ↳ 差异词: 'dxxx' vs 'indianxxx'（编辑距离 5）
+
+  相似度 0.84  「第68中型炮兵团/第4印度师/[XXX]」
+    A: 68 Med.AR/4 Ind/[XXX]
+    B: 68 Med.AR/4 Indian./[XXX]
+       ↳ 差异词: 'indxxx' vs 'indianxxx'（编辑距离 3）
+
+  相似度 0.83  「第288特别部队/90 LD/[非洲军]」
+    A: Sonderverband 288/90 LD/[DAK]
+    B: Sverband 288/90 LD/[DAK]
+       ↳ 差异词: 'sonderverband' vs 'sverband'（编辑距离 5）
+
+  相似度 0.82  「第3/第17/第17步兵师」
+    A: 3/17/17 Inf Div
+    B: III/17/17 Inf Div
+       ↳ 差异词: '31717' vs 'iii1717'（编辑距离 3）
+
+  相似度 0.82  「第1装甲步兵旅/第1装甲师/第XIX军」
+    A: 1 Schzt.Bde./1 Pz.Div./[XIX]
+    B: 1 Schzt/1 Pz.Div./[XIX]
+       ↳ 差异词: 'schztbde1' vs 'schzt1'（编辑距离 3）
+
+  相似度 0.82  「第11旅/第4印度/[XXX]」
+    A: 11 Bde/4 Ind/[XXX]
+    B: 11 Bde/4 Indian./[XXX]
+       ↳ 差异词: 'indxxx' vs 'indianxxx'（编辑距离 3）
+
+  相似度 0.81  「盖塔拉洼地」
+    A: El-Qattara depression
+    B: Quattara Depression
+       ↳ 差异词: 'elqattara' vs 'quattara'（编辑距离 3）
+
+  相似度 0.81  「第3旅/第1装甲师/[XXX]」
+    A: 3 Bde/1 Arm Div/[XXX]
+    B: 3 Bde/1 Arm/[XXX]
+       ↳ 差异词: 'divxxx' vs 'armxxx'（编辑距离 3）
+
+  相似度 0.81  「第25炮兵团/第4印度师/[XXX]」
+    A: 25 AR/4 Ind D/[XXX]
+    B: 25 AR/4 Indian./[XXX]
+       ↳ 差异词: 'dxxx' vs 'indianxxx'（编辑距离 5）
+
+  相似度 0.81  「第31炮兵团/第4印度师/[XXX]」
+    A: 31 AR/4 Ind/[XXX]
+    B: 31 AR/4 Indian./[XXX]
+       ↳ 差异词: 'indxxx' vs 'indianxxx'（编辑距离 3）
+
+  相似度 0.81  「第5旅/第4印度/[XXX]」
+    A: 5 Bde/4 Ind/[XXX]
+    B: 5 Bde/4 Indian./[XXX]
+       ↳ 差异词: 'indxxx' vs 'indianxxx'（编辑距离 3）
+
+  相似度 0.80  「第2装甲旅/第2装甲师/第XIX军」
+    A: 2 Pz.Bde./2 Pz.Div./[XIX]
+    B: 2 Pz.Bde./2 Pz/[XIX]
+       ↳ 差异词: 'pzdivxix' vs 'pzxix'（编辑距离 3）
+
+  相似度 0.80  「第8皇家坦克团/第1南非师/[XXX]」
+    A: 8 RTR/1 SA Div/[XXX]
+    B: 8 RTR/1 SA/[XXX]
+       ↳ 差异词: 'divxxx' vs 'saxxx'（编辑距离 3）
+
+  相似度 0.80  「第1装甲旅/第1装甲师/第XIX军」
+    A: 1 Pz.Bde./1 Pz.Div./[XIX]
+    B: 1 Pz.Bde./1 Pz/[XIX]
+       ↳ 差异词: 'pzdivxix' vs 'pzxix'（编辑距离 3）
+
+  相似度 0.80  「第90反坦克营/第10装甲师/[第XIX军]」
+    A: 90 Pzjgr/10 Pz.Div./[XIX]
+    B: 90 Pzjgr/10 Pz/[XIX]
+       ↳ 差异词: 'pzdivxix' vs 'pzxix'（编辑距离 3）
+
+  相似度 0.79  「第4炮兵团/第1南非师/[XXX]」
+    A: 4 AR/1 SA Div/[XXX]
+    B: 4 AR/1 SA/[XXX]
+       ↳ 差异词: 'divxxx' vs 'saxxx'（编辑距离 3）
+
+  相似度 0.79  「第7炮兵团/第1南非师/[XXX]」
+    A: 7 AR/1 SA Div/[XXX]
+    B: 7 AR/1 SA/[XXX]
+       ↳ 差异词: 'divxxx' vs 'saxxx'（编辑距离 3）
+
+  相似度 0.79  「- 夺取所有胜利格。」
+    A: - Capture all Victory Hexes.
+    B: - Take all victory hexes.
+       ↳ 差异词: 'capture' vs 'take'（编辑距离 5）
+
+  相似度 0.79  「- 夺取所有胜利格。」
+    A: - Capture all Victory hexes.
+    B: - Take all victory hexes.
+       ↳ 差异词: 'capture' vs 'take'（编辑距离 5）
+
+  相似度 0.79  「- 夺取所有胜利格。」
+    A: - Capture all victory hexes.
+    B: - Take all victory hexes.
+       ↳ 差异词: 'capture' vs 'take'（编辑距离 5）
+
+  相似度 0.78  「第1装甲步兵旅/第1装甲师/第XIX军」
+    A: 1 Schzt/1 Pz.Div./[XIX]
+    B: 1 Schzt/1 Pz/[XIX]
+       ↳ 差异词: 'pzdivxix' vs 'pzxix'（编辑距离 3）
+
+  相似度 0.78  「新阿列克谢耶夫卡」
+    A: Novaya Alekseyevka
+    B: Novoalekseyevka
+       ↳ 差异词: 'alekseyevka' vs 'novoalekseyevka'（编辑距离 4）
+       ↳ 差异词: 'novaya' vs 'novoalekseyevka'（编辑距离 9）
+
+  相似度 0.77  「第103炮兵团/第4装甲师/第XVI军」
+    A: 103 AR/4 Pz.Div./[XVI]
+    B: 103 AR/4 Pz/[XVI]
+       ↳ 差异词: 'pzdivxvi' vs 'pzxvi'（编辑距离 3）
+
+  相似度 0.77  「第90炮兵团/第10装甲师/[第XIX军]」
+    A: 90 AR/10 Pz.Div./[XIX]
+    B: 90 AR/10 Pz/[XIX]
+       ↳ 差异词: 'pzdivxix' vs 'pzxix'（编辑距离 3）
+
+  相似度 0.76  「第288特别部队/90 LD/[非洲军]」
+    A: Sonderv.288/90 LD/[DAK]
+    B: Sonderverband 288/90 LD/[DAK]
+       ↳ 差异词: 'sonderv28890' vs 'sonderverband'（编辑距离 6）
+
+  相似度 0.75  「第33侦察营/第15装甲师/[非洲军]」
+    A: 33 Aufkl/15 Pz/[DAK]
+    B: 33 Rec/15 Pz/[DAK]
+       ↳ 差异词: 'aufkl15' vs 'rec15'（编辑距离 5）
+
+  相似度 0.75  「大马士革」
+    A: Damas
+    B: Damascus
+       ↳ 差异词: 'damas' vs 'damascus'（编辑距离 3）
+
+  相似度 0.73  「下韦杜加」
+    A: Nizhyaya Veduga
+    B: Nizn'aja Veduga
+       ↳ 差异词: 'nizhyaya' vs 'niznaja'（编辑距离 3）
+
+  相似度 0.73  「第3装甲师」
+    A: 3 Armored
+    B: 3rd.Armored
+       ↳ 差异词: 'armored' vs '3rdarmored'（编辑距离 3）
+
+  相似度 0.73  「戈罗季谢」
+    A: Gorodishche
+    B: Gorodistsje
+       ↳ 差异词: 'gorodishche' vs 'gorodistsje'（编辑距离 3）
+
+  相似度 0.73  「第86工兵营/-/第9装甲 [XXVI]」
+    A: 86 PioBtn/-/9Pz [XXVI]
+    B: 86PioBn/-/9Pz [XXVI]
+       ↳ 差异词: 'piobtn9pz' vs '86piobn9pz'（编辑距离 3）
+
+  相似度 0.71  「第1反坦克营/第1伞兵师」
+    A: 1 atB/1 ParD
+    B: 1 atB/1 PrchtD
+       ↳ 差异词: 'pard' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.71  「第1反坦克营/第1伞兵师」
+    A: 1 atB/1 ParaD
+    B: 1 atB/1 PrchtD
+       ↳ 差异词: 'parad' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.70  「第3侦察营/第21装甲师/[非洲军]」
+    A: 3 Aufkl./21 Pz/[DAK]
+    B: 3 Rec/21 Pz/[DAK]
+       ↳ 差异词: 'aufkl21' vs 'rec21'（编辑距离 5）
+
+  相似度 0.70  「摩加迪沙」
+    A: Mogadiscio
+    B: Mogadishu
+       ↳ 差异词: 'mogadiscio' vs 'mogadishu'（编辑距离 3）
+
+  相似度 0.69  「第1炮兵团/第1伞兵师」
+    A: 1 aR/1 ParD
+    B: 1 aR/1 PrchtD
+       ↳ 差异词: 'pard' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.69  「下韦杜加」
+    A: Nizhnyaya Veduga
+    B: Nizn'aja Veduga
+       ↳ 差异词: 'nizhnyaya' vs 'niznaja'（编辑距离 3）
+
+  相似度 0.67  「第7装甲师」
+    A: 7 ArmD
+    B: 7 Armored
+       ↳ 差异词: 'armd' vs 'armored'（编辑距离 3）
+
+  相似度 0.67  「第7装甲师」
+    A: 7 ArmD
+    B: 7 Armpred
+       ↳ 差异词: 'armd' vs 'armpred'（编辑距离 3）
+
+  相似度 0.67  「第1装甲师」
+    A: 1 ArmD
+    B: 1 Armored
+       ↳ 差异词: 'armd' vs 'armored'（编辑距离 3）
+
+  相似度 0.67  「第1团/第1伞兵师」
+    A: 1 R/1 ParD
+    B: 1 R/1 PrchtD
+       ↳ 差异词: 'pard' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.67  「第1团/第1伞兵师」
+    A: 1 R/1 ParaD
+    B: 1 R/1 PrchtD
+       ↳ 差异词: 'parad' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.67  「第288特别部队/90 LD/[非洲军]」
+    A: Sonderv.288/90 LD/[DAK]
+    B: Sverband 288/90 LD/[DAK]
+       ↳ 差异词: 'sonderv28890' vs '28890'（编辑距离 7）
+
+  相似度 0.67  「第4团/第1伞兵师」
+    A: 4 R/1 ParD
+    B: 4 R/1 PrchtD
+       ↳ 差异词: 'pard' vs 'prchtd'（编辑距离 4）
+
+  相似度 0.67  「第4团/第1伞兵师」
+    A: 4 R/1 ParaD
+    B: 4 R/1 PrchtD
+       ↳ 差异词: 'parad' vs 'prchtd'（编辑距离 4）

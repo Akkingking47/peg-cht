@@ -1,0 +1,68 @@
+战役文件 .cam: 34 个；引用场景合计 607 个
+
+========================================================================================================
+战役(.cam)                             场景   文本  Herr  Comd  判定
+========================================================================================================
+7PzrCamp7dr                          11   33    11     0  德语系  （Herr=11 且 Comrade=0）
+ATM                                  14   42     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+B7                                   31   94    37     0  德语系  （Herr=37 且 Comrade=0）
+B7low                                16   49    19     0  德语系  （Herr=19 且 Comrade=0）
+BOB                                  19   57     1     0  德语系  （Herr=1 且 Comrade=0）
+CAMP1                                24   72     4     1  **混合（双方简报同捆）**  （Herr=4 Comrade=1 ⇒ 需逐条判）
+CAMP1-R                              24   48     1     0  德语系  （Herr=1 且 Comrade=0）
+CAMP2                                 6   18     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+CAMP2-R                               6   12     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+CAMP3                                 6   18     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+CAMP3-R                               6   12     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+CAMP4                                 6   18     3     0  德语系  （Herr=3 且 Comrade=0）
+CAMP4-R                               6   12     1     0  德语系  （Herr=1 且 Comrade=0）
+CAMP5                                 6   18     1     0  德语系  （Herr=1 且 Comrade=0）
+CAMP5-R                               6   12     2     0  德语系  （Herr=2 且 Comrade=0）
+DAK                                  37  111     4     0  德语系  （Herr=4 且 Comrade=0）
+DR                                   32   96     2     0  德语系  （Herr=2 且 Comrade=0）
+G7PzrCamp7d                          20   60    15     0  德语系  （Herr=15 且 Comrade=0）
+GAW                                  30   90    23     0  德语系  （Herr=23 且 Comrade=0）
+LH_ger46med                          18   54     0     1  苏/共体系  （Comrade=1 且 Herr=0）
+LSSAH-IT                             25   98     0     3  苏/共体系  （Comrade=3 且 Herr=0）
+R7                                   14   42     0     1  苏/共体系  （Comrade=1 且 Herr=0）
+RA_redalert                          22   45     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+RG                                   22   66     1     2  **混合（双方简报同捆）**  （Herr=1 Comrade=2 ⇒ 需逐条判）
+RM                                   22   66     6     3  **混合（双方简报同捆）**  （Herr=6 Comrade=3 ⇒ 需逐条判）
+RTB                                  34  103     1     9  **混合（双方简报同捆）**  （Herr=1 Comrade=9 ⇒ 需逐条判）
+SL                                   25   75     7     0  德语系  （Herr=7 且 Comrade=0）
+Usvsussr                             19   57     0     1  苏/共体系  （Comrade=1 且 Herr=0）
+ZS_Za_Stalina                        15   45     2    17  **混合（双方简报同捆）**  （Herr=2 Comrade=17 ⇒ 需逐条判）
+fi                                    6   18     1     1  **混合（双方简报同捆）**  （Herr=1 Comrade=1 ⇒ 需逐条判）
+italy                                18   54     0     0  **无锚点**  （既无 Herr 也无 Comrade ⇒ 需人工判（多为战报/地图名））
+s00sov                               34  102     3    27  **混合（双方简报同捆）**  （Herr=3 Comrade=27 ⇒ 需逐条判）
+ss_campaign                          24   72     5     0  德语系  （Herr=5 且 Comrade=0）
+wdbrit1                              31   93     7     2  **混合（双方简报同捆）**  （Herr=7 Comrade=2 ⇒ 需逐条判）
+
+不属于任何 .cam 的场景 stem: 1830（多为独立场景/USERSCEN）
+   110  → ['110.txt']
+   110bv  → ['110bv.TXT']
+   110l  → ['110l.TXT']
+   110mv  → ['110mv.TXT']
+   110tv  → ['110tv.TXT']
+   110v  → ['110v.TXT']
+   111  → ['111.txt']
+   111bv  → ['111bv.TXT']
+   111l  → ['111l.txt']
+   111tv  → ['111tv.txt']
+   111v  → ['111v.txt']
+   112  → ['112.txt']
+   112bv  → ['112bv.TXT']
+   112l  → ['112l.txt']
+   112tv  → ['112tv.txt']
+   112v  → ['112v.txt']
+   113  → ['113.TXT']
+   113bv  → ['113bv.txt']
+   113l  → ['113l.txt']
+   113tv  → ['113tv.txt']
+   113v  → ['113v.txt']
+   114  → ['114.TXT']
+   114bv  → ['114bv.txt']
+   114l  → ['114l.txt']
+   114tv  → ['114tv.txt']
+
+[out] pegww2\research\_scn-视角分桶.tsv

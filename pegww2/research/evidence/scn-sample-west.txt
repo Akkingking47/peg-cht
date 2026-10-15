@@ -1,0 +1,46 @@
+============================================================================================
+【西方(无敬语)】
+============================================================================================
+[110bv.TXT]
+   Outstanding work, General.  You have displayed superior tactics and abilities.  I will recommend a promotion to your superiors.  Keep up the good work and advance to the battlefield at Spanish Pass.
+
+[110mv.TXT]
+   You have done well, General.  However, you will need to improve if you want to remain as Commander of Germany's Elite Panzer Divisions.
+
+[110tv.TXT]
+   General, you only achieved a marginal victory.  This is unsatisfactory!  Either you must improve or you will be transferred to U-Boat Commander School.
+
+[111bv.TXT]
+   Outstanding work, General.  You have continued to display superior skill.  We will not be having much of a problem with the remaining Republicans.  Good luck on your next assignment.
+
+============================================================================================
+【苏/共】
+============================================================================================
+[DR06V.txt]
+   Comrade General Vassiliev has asked for you to direct the operations of the Volkov and Leningrad Fronts that will try to take Schulenburg and break the siege of Leningrad. We expect much of you! Do not dissapoint us Comrade!
+
+[DUNKIRK_u.txt]
+   Comrade General you have fought bravely throughout all German attacks! Unfortunately the city is mostly in German hands. Our situation is very precarious!
+
+[Fi03_m.txt]
+   Comrade General you have failed to break the lines on the flanks of Sixth Army! We cannot expelled the Germans now! Vassiliev is very upset with your incompetence!
+
+[GE11L.TXT]
+   Comrade General you have achieved a great success! The enemy has surrendered and the gate for Moldavia is open! STAVKA is very pleased with your command of the operation!
+
+============================================================================================
+【德语系】
+============================================================================================
+[111l.txt]
+   I am aware that conditions have been harsh, but you have done poorly!  The only positive result is that you and your troops have gained some experience in this new type of armored warfare.   But, the new Spanish government and our other allies have not yet learned to respect our military capabilities, which we require!   Herr General, do not disappoint us again.
+
+[111tv.txt]
+   Herr General, your narrow victory has shown that already you have gained some experience in this new type of warfare.  In addition, the new pro-German government in Spain may prove to be a useful ally in the coming years.
+
+[111v.txt]
+   Well Herr General, despite harsh conditions, you have done quite well!  Your victory has shown that already you have gained valuable experience in this new type of warfare.  In addition, the new pro-German government in Spain may prove to be a useful ally in the coming years.
+
+[112tv.txt]
+   Humph....  Herr General, you did manage to defeat the Poles, but you are behind schedule.  Your forces are no longer in the vanguard of our assault.  This will not do.
+
+[out] pegww2\research\_scn-sample-west.tsv

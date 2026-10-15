@@ -1,0 +1,29 @@
+==========================================================================================
+PeG-WW2 原版备份（绝不写游戏目录）
+==========================================================================================
+
+[exe]
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Germany 46.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Germany DAK.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Germany East.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Germany West.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Great Britain.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\Great Britain 46.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\SS Germany East.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\SS Germany West.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\USA.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\USA 46.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\USSR.exe
+  备份并回读校验 OK: pegww2\testbed\backup\exe\USSR 46.exe
+
+[text]
+  备份并回读校验 OK: pegww2\testbed\backup\text\WW2Gui.txt
+  备份并回读校验 OK: pegww2\testbed\backup\text\WW2Misc.txt
+  备份并回读校验 OK: pegww2\testbed\backup\text\WW2NAME.TXT
+  备份并回读校验 OK: pegww2\testbed\backup\text\WW2Tips.TXT
+  备份并回读校验 OK: pegww2\testbed\backup\text\ww2-eqp.txt
+  备份并回读校验 OK: pegww2\testbed\backup\text\ww2-eqp.aux
+  备份并回读校验 OK: pegww2\testbed\backup\text\ww2-eqp.eqp
+  备份并回读校验 OK: pegww2\testbed\backup\text\PEOPLES.INT
+
+清单: D:\DSH\军事游戏汉化\pegww2\testbed\backup\backup-manifest.tsv  (20 条)

@@ -1,0 +1,127 @@
+扫描成品文件 3685 个
+====================================================================================================
+VIII                         共  40处 → 第8×32文件 ｜ 第8军×4文件 ｜ 第8集团军×4文件
+        ⭐同一成品文件内并列 5 个：SCENARIO/DAK_TU04_u.txt; SCENARIO/DAK_TU05_u.txt; SCENARIO/DAK_TU06_u.txt; SCENARIO/RTB02_u.txt; SCENARIO/RTB04_u.txt
+2 NZ                         共  12处 → 第2新西兰师×8文件 ｜ 第2新西兰×4文件
+        ⭐同一成品文件内并列 4 个：SCENARIO/DAK_DAK3_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_DAK9_u.txt
+HG D                         共  12处 → 赫尔曼·戈林师×8文件 ｜ HG师×2文件 ｜ HG D×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/GE2MV.TXT; SCENARIO/Ita09_u.txt
+[SS Pz]                      共   2处 → [党卫军 装甲]×1文件 ｜ [党卫军装甲]×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/drkhar19_u.txt
+9 ID                         共  12处 → 第9步兵师×10文件 ｜ 9步兵师×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_DAK9_u.txt
+1 Army Free                  共  13处 → 第1自由集团军×7文件 ｜ 自由法国第1集团军×6文件
+        ⭐同一成品文件内并列 6 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_SPTU01_u.txt; SCENARIO/DAK_SPTU03_u.txt; SCENARIO/DAK_SPTU04_u.txt; SCENARIO/DAK_TU03_u.txt
+Das Reich                    共  10处 → 帝国师×6文件 ｜ 达斯帝国师×4文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/LAH_IT_11_u.txt
+1 Arm                        共  33处 → 第1装甲师×32文件 ｜ 1装甲师×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK5_u.txt
+1 Br                         共  28处 → 第1旅×19文件 ｜ 1 Br×8文件 ｜ 1 旅×1文件
+        ⭐同一成品文件内并列 3 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_TU03_u.txt; SCENARIO/DAK_TU06_u.txt
+9 Aust.                      共   8处 → 第9澳大利亚师×3文件 ｜ 第9 Aust.×2文件 ｜ 第9Aust.×2文件 ｜ 第9澳大利亚×1文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK1_u.txt; SCENARIO/DAK_DAK3_u.txt
+4 Bde                        共  21处 → 第4旅×20文件 ｜ 4旅×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK6_u.txt
+90 LD                        共  20处 → 第90轻装师×8文件 ｜ 第90LD×5文件 ｜ 90 LD×5文件 ｜ 第90LD师×2文件
+        ⭐同一成品文件内并列 5 个：SCENARIO/DAK_DAK6_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_SP3_u.txt; SCENARIO/DAK_SP4_u.txt
+I Army                       共  11处 → 第1集团军×7文件 ｜ 第I集团军×4文件
+        ⭐同一成品文件内并列 4 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_SPTU02_u.txt; SCENARIO/DAK_TU03_u.txt; SCENARIO/DAK_TU06_u.txt
+II Corps                     共  15处 → 第II军×8文件 ｜ 第2军×7文件
+        ⭐同一成品文件内并列 4 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_SPTU02_u.txt; SCENARIO/DAK_TU03_u.txt; SCENARIO/DAK_TU06_u.txt
+1 SA                         共  10处 → 第1南非×3文件 ｜ 第1SA×3文件 ｜ 第1南非师×3文件 ｜ 南非第1师×1文件
+        ⭐同一成品文件内并列 3 个：SCENARIO/DAK_DAK3_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_DAK9_u.txt
+5 LD                         共   5处 → 第5LD×2文件 ｜ 第5轻装师×2文件 ｜ 5轻装师×1文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK1_u.txt; SCENARIO/DAK_DAK2_u.txt
+4 Br                         共  23处 → 第4旅×20文件 ｜ 4 Br×2文件 ｜ 4 旅×1文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_SPE03_u.txt; SCENARIO/DAK_SPE04_u.txt
+8 R                          共  37处 → 第8团×36文件 ｜ 8团×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK1_u.txt
+1 SA Div                     共   4处 → 第1南非师×3文件 ｜ 第1SA师×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK6_u.txt
+12 R                         共  31处 → 第12团×30文件 ｜ 12团×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK1_u.txt
+2 Indian ID                  共   6处 → 第2印度步兵师×2文件 ｜ 2 Indian 步兵师×2文件 ｜ 第2印度师×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_SPS03_u.txt; SCENARIO/DAK_SPS04_u.txt
+V Army                       共   8处 → 第5集团军×5文件 ｜ 第V集团军×3文件
+        ⭐同一成品文件内并列 3 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_TU03_u.txt; SCENARIO/DAK_TU06_u.txt
+2 African D                  共   2处 → 第2南非师×1文件 ｜ 第2非洲师×1文件
+        （按文件严格分开，需查槽位）
+- [A Corps]                  共   2处 → - [ 军]×1文件 ｜ - [A军]×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/LAH_it_metsovon_u.txt
+7 R                          共  21处 → 第7团×20文件 ｜ 7团×1文件
+        （按文件严格分开，需查槽位）
+1 African D                  共   4处 → 第1南非师×3文件 ｜ 第1非洲师×1文件
+        （按文件严格分开，需查槽位）
+102 Trento                   共  11处 → 第102特伦托师×6文件 ｜ 第102特伦托×5文件
+        ⭐同一成品文件内并列 5 个：SCENARIO/DAK_DAK6_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_DAK9_u.txt; SCENARIO/DAK_SP3_u.txt
+2 SA Div                     共   2处 → 第2南非师×1文件 ｜ 第2SA师×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK6_u.txt
+4 Ind                        共  13处 → 第4印度师×10文件 ｜ 第4印度×2文件 ｜ 第4独立×1文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK5_u.txt; SCENARIO/DAK_DAK9_u.txt
+4 Ind D.                     共  12处 → 第4印度师×10文件 ｜ 第4独立师×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK2_u.txt; SCENARIO/DAK_DAK3_u.txt
+4 Indian.                    共  12处 → 第4印度师×10文件 ｜ 第4印度×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK5_u.txt; SCENARIO/DAK_DAK9_u.txt
+7 Arm D                      共  37处 → 第7装甲师×36文件 ｜ 7装甲师×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK3_u.txt
+StG1                         共  17处 → 第1俯冲轰炸机联队×16文件 ｜ 俯冲轰炸机联队1×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/LAH_IT_13_u.txt
+132 Ariete                   共  35处 → 第132公羊×18文件 ｜ 第132公羊师×17文件
+        ⭐同一成品文件内并列 17 个：SCENARIO/DAK_DAK1_u.txt; SCENARIO/DAK_DAK3_u.txt; SCENARIO/DAK_DAK6_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt
+4 Ind D                      共  12处 → 第4印度师×10文件 ｜ 第4独立师×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAK2_u.txt; SCENARIO/DAK_DAK3_u.txt
+Carpathian Rifle Brigade     共   1处 → 喀尔巴阡步枪旅×1文件
+        （按文件严格分开，需查槽位）
+Polish                       共   1处 → 波兰×1文件
+        （按文件严格分开，需查槽位）
+Raemcke Bde.                 共   5处 → 雷姆克旅×5文件
+        （按文件严格分开，需查槽位）
+101 Trieste                  共  14处 → 第101的里雅斯特师×7文件 ｜ 第101的里雅斯特×7文件
+        ⭐同一成品文件内并列 7 个：SCENARIO/DAK_DAK3_u.txt; SCENARIO/DAK_DAK6_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_SP1_u.txt
+164 LD                       共   3处 → 第164LD×1文件 ｜ 164 LD×1文件 ｜ 第164Li×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK9_u.txt
+168 R                        共  10处 → 第168团×8文件 ｜ 168团×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_DAKTU01_u.txt; SCENARIO/DAK_TU02_u.txt
+101Trieste                   共  14处 → 第101的里雅斯特×7文件 ｜ 第101的里雅斯特师×7文件
+        ⭐同一成品文件内并列 7 个：SCENARIO/DAK_DAK3_u.txt; SCENARIO/DAK_DAK6_u.txt; SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_SP1_u.txt
+27 Brescia                   共  10处 → 第27布雷西亚×5文件 ｜ 第27布雷西亚师×5文件
+        ⭐同一成品文件内并列 4 个：SCENARIO/DAK_DAK7_u.txt; SCENARIO/DAK_DAK8_u.txt; SCENARIO/DAK_DAK9_u.txt; SCENARIO/DAK_SP3_u.txt
+Saharian Grouping            共   2处 → 撒哈拉集群×2文件
+        （按文件严格分开，需查槽位）
+17SS                         共  11处 → 17SS×9文件 ｜ 第17党卫军×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/NORDWIND.TXT; SCENARIO/nordwind-R_u.txt
+185 Folgore                  共   4处 → 第185福尔戈雷×4文件
+        （按文件严格分开，需查槽位）
+2 155 R                      共  14处 → 2 第155团×11文件 ｜ 2 155团×3文件
+        ⭐同一成品文件内并列 3 个：SCENARIO/DAK_TU04_u.txt; SCENARIO/DAK_TU05_u.txt; SCENARIO/DAK_TU06_u.txt
+55 Savona                    共   2处 → 第55萨沃纳师×1文件 ｜ 第55萨沃纳×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK1_u.txt
+7 SG                         共   3处 → 第7 SG×2文件 ｜ 第7SG×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_SPE01_u.txt
+DR [2SS]                     共  12处 → 帝国师 [2SS]×6文件 ｜ 帝国 [第2党卫军]×6文件
+        ⭐同一成品文件内并列 6 个：SCENARIO/PROK1.TXT; SCENARIO/PROK1_u.txt; SCENARIO/prok1-R_u.txt; SCENARIO/prok4.txt; SCENARIO/prok4_m.txt
+Imperiali D                  共   9处 → 帝国师×6文件 ｜ 因佩里亚利师×3文件
+        ⭐同一成品文件内并列 3 个：SCENARIO/DAK_DAKTU02_u.txt; SCENARIO/DAK_TU03_u.txt; SCENARIO/DAK_TU06_u.txt
+JG26 [JFF2] LF2              共   5处 → 第26战斗机联队 [JFF2] LF×3文件 ｜ 第26战斗机联队 [JFF2] 第2×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/drbelg04_u.txt; SCENARIO/drstu02_u.txt
+JG51 [II] LF2                共   4处 → 第51战斗机联队 [II] LF2×3文件 ｜ 战斗机联队第51 [II] LF2×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/drvyaz13_u.txt
+Trento D                     共   7处 → 第102特伦托师×6文件 ｜ 特伦托师×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_SP0_u.txt
+2 90 R                       共  10处 → 2 第90团×6文件 ｜ 2 90团×4文件
+        ⭐同一成品文件内并列 4 个：SCENARIO/DAK_DAKTU01_u.txt; SCENARIO/DAK_TU02_u.txt; SCENARIO/DAK_TU04_u.txt; SCENARIO/DAK_TU06_u.txt
+7 Mot Bde                    共   2处 → 第7摩托化旅×1文件 ｜ 7摩托化旅×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/DAK_DAK6_u.txt
+8 FR                         共   2处 → 8 FR×1文件 ｜ 第8 FR×1文件
+        （按文件严格分开，需查槽位）
+GD [48]                      共  12处 → GD [48]×6文件 ｜ 大德意志 [48]×6文件
+        ⭐同一成品文件内并列 6 个：SCENARIO/PROK1.TXT; SCENARIO/PROK1_u.txt; SCENARIO/prok1-R_u.txt; SCENARIO/prok4.txt; SCENARIO/prok4_m.txt
+Giov.Fasc D                  共   5处 → 法西斯青年师×3文件 ｜ 青年法西斯师×2文件
+        ⭐同一成品文件内并列 2 个：SCENARIO/DAK_TU04_u.txt; SCENARIO/DAK_TU05_u.txt
+LAH [2SS]                    共  12处 → 希特勒警卫旗队 [2SS]×6文件 ｜ 警卫旗队 [2SS]×6文件
+        ⭐同一成品文件内并列 6 个：SCENARIO/PROK1.TXT; SCENARIO/PROK1_u.txt; SCENARIO/prok1-R_u.txt; SCENARIO/prok4.txt; SCENARIO/prok4_m.txt
+ZG1 [JFF2] LF2               共   4处 → 第1驱逐机联队 [JFF2] LF2×3文件 ｜ 第1驱逐机联队 [JFF2] 第2航×1文件
+        ⭐同一成品文件内并列 1 个：SCENARIO/drstu02_u.txt
+====================================================================================================
+⭐文件内并列（可安全统一）= 52 组：VIII ｜ 2 NZ ｜ HG D ｜ [SS Pz] ｜ 9 ID ｜ 1 Army Free ｜ Das Reich ｜ 1 Arm ｜ 1 Br ｜ 9 Aust. ｜ 4 Bde ｜ 90 LD ｜ I Army ｜ II Corps ｜ 1 SA ｜ 5 LD ｜ 4 Br ｜ 8 R ｜ 1 SA Div ｜ 12 R ｜ 2 Indian ID ｜ V Army ｜ - [A Corps] ｜ 102 Trento ｜ 2 SA Div ｜ 4 Ind ｜ 4 Ind D. ｜ 4 Indian. ｜ 7 Arm D ｜ StG1 ｜ 132 Ariete ｜ 4 Ind D ｜ 101 Trieste ｜ 164 LD ｜ 168 R ｜ 101Trieste ｜ 27 Brescia ｜ 17SS ｜ 2 155 R ｜ 55 Savona ｜ 7 SG ｜ DR [2SS] ｜ Imperiali D ｜ JG26 [JFF2] LF2 ｜ JG51 [II] LF2 ｜ Trento D ｜ 2 90 R ｜ 7 Mot Bde ｜ GD [48] ｜ Giov.Fasc D ｜ LAH [2SS] ｜ ZG1 [JFF2] LF2
+⚠️按文件严格分开（需查槽位）= 9 组：2 African D ｜ 7 R ｜ 1 African D ｜ Carpathian Rifle Brigade ｜ Polish ｜ Raemcke Bde. ｜ Saharian Grouping ｜ 185 Folgore ｜ 8 FR

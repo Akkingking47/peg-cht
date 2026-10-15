@@ -1,0 +1,126 @@
+阵营/年代维度 · 接线报告（只报不判）  2026-10-15 09:43:49
+================================================================
+层表：41787 个 en 键 / 48351 条取值
+
+① 键对齐（缺口 1）
+   登记 ID 65 个 ⇒ 解析到层表键 42 个（未解析 23 个）
+   现口径登记键 65 个 ⇒ 对齐后 134 个
+   ⚠️ 未解析（登记在门里完全不生效）：Charnwood · Dorpat · Frühlingserwachen · Gdynia · Goodwood · Harbin · Klaipeda · Libau · Liepaja · Litzmannstadt · Marienburg · Memel · Overlord · Petsamo · Pleskau · Reval · Schaulen · Shingle · Siauliai · Stanislau · Tartu · Torch · Vistula_Oder
+   （另有 11 个前缀命中被 `cat` 排除：装备/人名等，不是地名）
+   ⚠️ 一键多 ID（对齐歧义，需人工裁定）20 个：
+        Warsaw                     ← Warsaw / Warschau
+        Warsaw Station             ← Warsaw / Warschau
+        Kharkov River              ← Charkow / Kharkov
+        Kharkov                    ← Charkow / Kharkov
+        Kharkov (#15v)             ← Charkow / Kharkov
+        Kharkov (RTB#5)            ← Charkow / Kharkov
+        Kharkov - March 1943 BV    ← Charkow / Kharkov
+        Kharkov - March 1943 L     ← Charkow / Kharkov
+        Kharkov - March 1943 TV    ← Charkow / Kharkov
+        Kharkov - March 1943 V     ← Charkow / Kharkov
+        Kharkov 42                 ← Charkow / Kharkov
+        Kharkov 43                 ← Charkow / Kharkov
+
+② 阵营压平清单（缺口 2）
+   ✅ 唯一阵营接受（将来可升 error）：79
+   ⚠️ 多阵营接受（门里判不出谁对）：35
+   🟡 简称（全称/简称不一致，缺别名登记）：29
+   🟠 复合标题（含地名但不止地名，应走别的判法）：13
+
+   ── ⚠️ 多阵营（35 条，列前 15）──
+      Amur           Amur River               现值「黑龙江」 中/日  全部登记=俄:阿穆尔河 · 中:黑龙江 · 日:黑龙江
+      Auschwitz      Auschwitz                现值「奥斯维辛」 德/波  全部登记=德:奥斯维辛 · 波:奥斯维辛
+      Auschwitz      Auschwitz Liberation     现值「奥斯维辛(Auschwitz)解放」 德/波  全部登记=德:奥斯维辛 · 波:奥斯维辛
+      Auschwitz      Auschwitz Liberation (RT 现值「奥斯维辛解放 (RTB#34)」 德/波  全部登记=德:奥斯维辛 · 波:奥斯维辛
+      Chisinau       Kishinev                 现值「基什尼奥夫」 德/苏  全部登记=罗:基希讷乌 · 苏:基什尼奥夫 · 德:基什尼奥夫
+      Chisinau       Kishinev 1945            现值「基什尼奥夫 1945」 德/苏  全部登记=罗:基希讷乌 · 苏:基什尼奥夫 · 德:基什尼奥夫
+      Chisinau       Kishinev PeG:WW2         现值「基什尼奥夫 PeG:WW2」 德/苏  全部登记=罗:基希讷乌 · 苏:基什尼奥夫 · 德:基什尼奥夫
+      Chisinau       Kishinev45               现值「基什尼奥夫45」 德/苏  全部登记=罗:基希讷乌 · 苏:基什尼奥夫 · 德:基什尼奥夫
+      Danzig         Danzig                   现值「但泽」 德/苏  全部登记=德:但泽 · 波:格但斯克 · 苏:但泽
+      Danzig         Danzig (PORT)            现值「但泽（港）」 德/苏  全部登记=德:但泽 · 波:格但斯克 · 苏:但泽
+      Iasi           Iasi                     现值「雅西」 德/罗  全部登记=罗:雅西 · 德:雅西
+      Iasi           Jassy                    现值「雅西」 德/罗  全部登记=罗:雅西 · 德:雅西
+      Koenigsberg    Koenigsberg              现值「柯尼斯堡」 德/苏  全部登记=德:柯尼斯堡 · 苏:加里宁格勒|柯尼斯堡
+      Koenigsberg    Konigsberg               现值「柯尼斯堡」 德/苏  全部登记=德:柯尼斯堡 · 苏:加里宁格勒|柯尼斯堡
+      Lodz           Lodz                     现值「罗兹」 德/波  全部登记=德:利茨曼施塔特|罗兹 · 波:罗兹
+
+   ── 🟡 简称（29 条，列前 20）──
+      Amur           Amur                     现值「阿穆尔」 —  全部登记=俄:阿穆尔河 · 中:黑龙江 · 日:黑龙江
+      Bagration      Bagration                现值「巴格拉季昂」 —  全部登记=苏:巴格拉季昂行动
+      Bagration      Bagration - June 22nd, 1 现值「巴格拉季昂(Bagration) - 1944 年 6 月 22 日」 —  全部登记=苏:巴格拉季昂行动
+      Barbarossa     Barbarossa               现值「巴巴罗萨」 —  全部登记=德:巴巴罗萨行动
+      Barbarossa     Barbarossa (Brest-Litovs 现值「巴巴罗萨 (布列斯特-立托夫斯克)」 —  全部登记=德:巴巴罗萨行动
+      Charkow        Kharkov River            现值「哈尔科夫河」 —  全部登记=德:哈尔科夫
+      Husky          Husky                    现值「哈士奇」 —  全部登记=盟:哈士奇行动
+      Kharkov        Kharkov River            现值「哈尔科夫河」 —  全部登记=苏:哈尔科夫
+      Konrad         Konrad 1944              现值「康拉德 1944」 —  全部登记=德:康拉德行动
+      Konrad         Konrad 1945              现值「康拉德 1945」 —  全部登记=德:康拉德行动
+      Kursk          Kursk                    现值「库尔斯克」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk (#16v)             现值「库尔斯克 (#16v)」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk (#16v) - July 4th, 现值「库尔斯克(Kursk) (#16v) - 1943年7月4日」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk (ZS#05), 07/05/194 现值「库尔斯克(Kursk) (ZS#05)，1943 年 7 月 5 日」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk - July 5th, 1943   现值「库尔斯克 - 1943 年 7 月 5 日」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk-Orel Railwa        现值「库尔斯克—奥廖尔铁路」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Kursk          Kursk-Orel Railway       现值「库尔斯克-奥廖尔铁路」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Seelöwe        SeaLion43 - August 9th,  现值「海狮43(SeaLion43) - 1943 年 8 月 9 日」 —  全部登记=德:海狮行动
+      Seelöwe        Sealion 40               现值「海狮40」 —  全部登记=德:海狮行动
+      Seelöwe        Sealion43                现值「海狮43」 —  全部登记=德:海狮行动
+
+   ── 🟠 复合标题（13 条，列前 12）──
+      Avalanche      Avalanche PeG:WW2        现值「北非-01 雪崩行动 PeG:WW2」 —  全部登记=盟:雪崩|雪崩行动
+      Charkow        Charkow - Kharkov        现值「哈尔科夫-哈尔科夫」 —  全部登记=德:哈尔科夫
+      Chisinau       Kishinev PeG:WW2         现值「东线-08 基什尼奥夫 PeG:WW2」 —  全部登记=罗:基希讷乌 · 苏:基什尼奥夫 · 德:基什尼奥夫
+      Citadel_ND     Nordwind PeG:WW2         现值「西线-20 北风 PeG:WW2」 —  全部登记=德:北风|北风行动
+      Koenigsberg    Koenigsberg              现值「Koenigsberg」 —  全部登记=德:柯尼斯堡 · 苏:加里宁格勒|柯尼斯堡
+      Koenigsberg    Koenigsberg and Danzig a 现值「柯尼斯堡(Koenigsberg)与但泽(Danzig)设防坚固。」 —  全部登记=德:柯尼斯堡 · 苏:加里宁格勒|柯尼斯堡
+      Kursk          Zitadelle PeG:WW2        现值「东线-33 堡垒 PeG:WW2」 —  全部登记=德:堡垒|堡垒行动 · 苏:库尔斯克会战
+      Seelöwe        SeaLion'43               现值「海狮'43」 —  全部登记=德:海狮行动
+      Seelöwe        Sealion Plus             现值「海狮增强版」 —  全部登记=德:海狮行动
+      Viipuri        Viipuri                  现值「东线-26 维堡」 —  全部登记=芬:维伊普里 · 苏:维堡 · 德:维堡
+      Viipuri        Vyborg Section           现值「维堡区」 —  全部登记=芬:维伊普里 · 苏:维堡 · 德:维堡
+      Wacht am Rhein Ardennes-The Bulge       现值「阿登-突出部」 —  全部登记=德:莱茵守望行动 · 盟:突出部之战|突出部战役|阿登战役
+
+   ── ✅ 唯一阵营（79 条，列前 12）──
+      Amur           Amur River               现值「阿穆尔河」 俄  全部登记=俄:阿穆尔河 · 中:黑龙江 · 日:黑龙江
+      Avalanche      Avalanche                现值「雪崩行动」 盟  全部登记=盟:雪崩|雪崩行动
+      Avalanche      Avalanche PeG:WW2        现值「雪崩行动 PeG:WW2」 盟  全部登记=盟:雪崩|雪崩行动
+      Breslau        Breslau                  现值「布雷斯劳」 德  全部登记=德:布雷斯劳 · 波:弗罗茨瓦夫
+      Bromberg       Bromberg                 现值「布龙贝格」 德  全部登记=德:布龙贝格 · 波:比得哥什
+      Bromberg       Bydgoszcz                现值「比得哥什」 波  全部登记=德:布龙贝格 · 波:比得哥什
+      Cernauti       Cernauti                 现值「切尔诺夫策」 苏  全部登记=罗:切尔讷乌齐 · 苏:切尔诺夫策 · 德:切尔诺维茨
+      Cernauti       Cernauti                 现值「切尔诺维茨」 德  全部登记=罗:切尔讷乌齐 · 苏:切尔诺夫策 · 德:切尔诺维茨
+      Charkow        Charkow - Kharkov (ZS#02 现值「哈尔科夫(Charkow - Kharkov) (ZS#02)，1942年5月5日」 德  全部登记=德:哈尔科夫
+      Charkow        Kharkov                  现值「哈尔科夫」 德  全部登记=德:哈尔科夫
+      Charkow        Kharkov (#15v)           现值「哈尔科夫 (#15v)」 德  全部登记=德:哈尔科夫
+      Charkow        Kharkov (#15v) - March 1 现值「哈尔科夫(Kharkov) (#15v) - 1943年3月11日」 德  全部登记=德:哈尔科夫
+
+③ 影响预测（缺口 1 修好之后会松多少）—— 只预测，未实施
+   本模块简化口径：未登记→已登记 5 · 已登记→未登记 0
+        Amur River
+        Kishinev
+        Katowice
+        Poznan
+        Ternopil'
+   ⭐ 真实门 `layer_gate.compute()` 口径（**以此为准**）：
+        新增对齐键 9 个 · 偏离 697 → 697 条 · 放宽 0 条 · 收紧 0 条
+        ⚠️ 简化口径报 5 条、真实门 0 条 —— 简化模型漏算了 override.tsv /
+           scope-diff.tsv / faction-terms.tsv 与三层词库本身也参与「已登记」判定。
+
+④ 未判定计数（缺口 3 的上游）
+   scanned                  3682
+   side_determined          3306
+   side_undetermined        376
+   side_pct                 90%
+   origin_口吻                912
+   origin_人工钉               17
+   origin_同场景               960
+   origin_战役族               699
+   origin_战役族(二遍)           22
+   origin_scn国别             668
+   origin_战役族2              28
+   era_determined           765
+   era_undetermined         2917
+   era_pct                  21%
+   hits                     0
+
+⚠️ 本报告**不影响任何判定**：layer_gate 的 ok/bad/退出码不变。

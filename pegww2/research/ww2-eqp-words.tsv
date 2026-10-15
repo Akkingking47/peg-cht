@@ -1,0 +1,201 @@
+# ww2-eqp-words.tsv —— ww2-eqp-map.tsv 用到的词级规则（供人工审核）
+# 格式：反复出现的词<TAB>本次定的译法
+反复出现的词	译法
+European E-file version 1.02d Robert Mary 05.10.2007	European E-file version 1.02d Robert Mary 05.10.2007（版本注记整体保留）
+Class（舰级）	级（Dunkerque Class→敦刻尔克级）
+Sqn	中队（Sqn 421→第421中队）
+Mk / Mk.	Mk / Mk.（保留，如 5.5 inch Mk.III）
+Air Support	空中支援
+Soutien aérien	空中支援
+Atomic	核武器型
+Transport	运输船（国别+Transport 时）／运输（单独作兵种时）
+Army	集团军（Mobile Army HQ→机动集团军司令部；44 Infantry→第44步兵师）
+Amphibious Invasion Ship	两栖登陆舰
+Bunker	碉堡／掩体（Bunker Artillery→掩体炮兵、Cabonile/Cazemata→掩体、Blockhaus→堡垒、Command Bunker→指挥碉堡）
+Fortification / Fortificacion / Fortificazione / Festigung / Megerosites / Festning / Linnake / Cetate / Fort	要塞；Festigung→工事、Megerosites→加固工事
+Sea Mines / Mine	水雷／反坦克雷场（AT Mine Field）／反步兵雷场（AP Mine Field）
+Railgun	列车炮
+Pontoon Bridge	浮桥
+Barbed Wire	铁丝网
+Roadblock	路障
+Strongpoint	据点
+Reconnaissance / Scout	侦察（Scout Car→侦察车；Paratrooper Scout→伞兵侦察连）
+Sniper	狙击手
+Mortar	迫击炮
+Infantry / Infanterie / Infanteria / Piechota / Pehota / Fanteria / Infanteri / Jalkavaki	步兵
+Pehota / Ski Pehota	步兵／滑雪步兵
+Gvardeiskaya	近卫（Gvardeiskaya Kavaleria→近卫骑兵）
+Gornostrelky	山地步兵
+Morskaya Pehota	海军步兵
+Cavalerie / Cavelerie / Kavallerie / Kavaleria / Cavalleria / Kawaleria / Cavallry	骑兵
+Chasseurs	猎兵（Chasseurs (M)→猎兵连（M））
+Jäger	猎兵
+Gebirgsjäger	山地猎兵
+Skijäger	滑雪猎兵
+Huszar	骠骑兵
+Cossacks	哥萨克
+Engineer / Ingenieurs / Genie / Genio / Inzynier / Sapernii / Sapeurs / Zapadores	工兵
+Pioneri / Sturmpioniere / Sturmpionere / Saperno-Shturmovoi	工兵／突击工兵
+Bridging / Brückenbau	架桥
+Soutien / Support	支援
+Zerstorer	“驱逐机”（Me-110 系列绰号；加全角引号以区别驱逐舰）
+Pulkzerstorer	轰炸机驱逐机
+Paratrooper / Fallschirmjäger / Spadochroniarze / Parashutno / Paracadutisti	伞兵
+Alpini / Mountain	山地兵
+Bersaglieri	狙击兵
+Legionario	军团兵
+Milicia	民兵（词库命中）
+Volksgrenadier / Grenadiere	国民掷弹兵／掷弹兵
+Panzergrenadiere / Füsiler / Fusilier	装甲掷弹兵／燧发枪兵
+Waffen SS / SS	武装党卫军／党卫军
+Regular / National / Nationalist	正规军／国民军
+Home Guard	国民自卫军
+Commando / Ranger	突击队／游骑兵
+Marine / Royal Marine	海军陆战队／皇家海军陆战队
+Ghurka	廓尔喀
+Highlanders	高地部队
+Brandenburger	勃兰登堡部队
+Werewolf	狼人
+Partisans / Partizani	游击队
+Chetniks	切特尼克
+Armia Krajowa	波兰家乡军
+Armia Ludowa	人民军
+FFI Résistance	法国内地军抵抗组织
+Opolchenye / Obrona Narodowa	民兵／国民防卫队
+Rezerwa	预备队
+Shocktroops	突击部队
+Sorkatonasag	义务兵
+Siberians	西伯利亚部队
+Motociclistas / Krad	摩托车兵／摩托车
+Cavallry（阿拉伯军团）	骑兵
+Legion Wallonien / LVF / Légion étrangère / Legion / Arab Legion / Arabian Legion	瓦隆军团／法国志愿军团／外籍军团／阿拉伯军团
+Div Azul	蓝色师
+Giovani Fascisti	青年法西斯
+Legionario（意大利）	军团兵
+Brigada	旅
+Hadsereg Mernok	陆军工兵
+Sorkatonasag / Voiska NKVD	义务兵／内务人民委员部部队
+Grenzwacht	边防军
+Volkssturm	国民突击队（词库命中）
+Grossdeutschland	大德意志（词库命中）
+Kuljetus / Szallitohajo / Bateau De Transport / Transportschiffe	运输船
+Nave Di Trasporto / Nave Del Transporte	运输舰
+Minelayer	布雷舰
+U-Boot Type	U 艇（VII C 型 U 艇）
+Gato / Trident / Stalinets / Marconi Class	加托级／三叉戟级／斯大林级／马可尼级
+Sovetskiy Soyuz / Kirov / Leningrad / Storozhevoi Class	苏联级／基洛夫级／列宁格勒级／警戒级
+Bismarck / Scharnhorst / Hipper / Nurnberg / Zeppelin / Maass Class	俾斯麦级／沙恩霍斯特级／希佩尔级／纽伦堡级／齐柏林级／马阿斯级
+Littorio / Zara / Condottieri / Soldati / Aquila Class	利托里奥级／扎拉级／佣兵队长级／士兵级／鹰级
+King George V / Renown / County / Leander / Illustrious / Tribal Class	英王乔治五世级／声望级／郡级／利安得级／光辉级／部族级
+Iowa / Baltimore / Brooklyn / Essex / Yorktown / Fletcher / Alaska Class	衣阿华级／巴尔的摩级／布鲁克林级／埃塞克斯级／约克城级／弗莱彻级／阿拉斯加级
+U-Boot	U 艇
+Tauchfähig	可潜航
+entrenched	构筑工事
+Portee	车载炮
+Bison → 野牛	IB 野牛自行重型步兵炮
+Grille	蟋蟀自行步兵炮
+Brummbaer	灰熊（IV 号灰熊突击坦克）
+Maultier	骡式
+Diana	黛安娜自行火炮
+Krad	摩托车（牵引方式 → 摩托车牵引）
+Sturmtiger	突击虎
+Sturmvogel	风暴鸟
+Schwalbe	燕子
+Zwilling	双联
+Blitz	闪电
+Komet	彗星
+Salamander	火蜥蜴
+Pfeil	箭式
+Wuerger	伯劳
+Emil / Friedrich / Gustav / Dora / Kurfuerst	埃米尔／弗里德里希／古斯塔夫／多拉／选帝侯（Bf109/Fw190 官方绰号音译）
+Coelian	彗星自行高炮
+Mobelwagen	家具车
+Ostwind / Wirbelwind	东风／旋风
+Kugelblitz	“球形闪电”（词库命中）
+Maus	鼠式
+Koenigstiger	虎王
+Panther	黑豹
+Tiger	虎式
+Hetzer	追猎者
+Nashorn	犀牛
+Hummel / Wespe	野蜂／黄蜂
+Ferdinand / Elefant	象式
+JagdTiger	猎虎
+Marder	黄鼠狼
+StuG / StuH / JgdPz / JgdPanther / PzJgd / FlaKPz / PzA / PzSelb	自行反坦克炮／自行火炮／自行高炮等（型号段保留，加中文兵种词）
+Puma	美洲狮
+Jumbo	巨无霸
+Easy8	轻松八型
+Priest	牧师
+Chaffee / Greyhound	查菲／灰狗
+Pershing / Patton	潘兴／巴顿
+Stuart	斯图亚特
+Sherman	谢尔曼
+Grant	格兰特（词库命中）
+Churchill	丘吉尔
+Cromwell	克伦威尔
+Crusader	十字军
+Cavalier / Centaur / Comet / Challenger / Centurion	骑士／半人马／彗星／挑战者／百人队长
+Valentine	瓦伦丁
+Matilda	玛蒂尔达
+Tetrarch	领主
+Bishop / Sexton / Archer / Achilles	毕晓普（词库）／塞克斯顿／弓箭手／阿基里斯
+Firefly	萤火虫
+Wolverine	狼獾
+Jackson / Hellcat	杰克逊／地狱猫
+Staghound	猎鹿犬
+Humber / Daimler	亨伯／戴姆勒
+Skink	Skink（保留）
+Honey	Honey（保留）
+Zrinyi	兹里尼
+Turan	图兰
+Maresal	元帅
+Centauro / Folgore / Veltro / Falco / Sagittario / Sparviero	半人马／闪电／猎犬／猎鹰／弓箭手／食雀鹰
+Stuka	斯图卡
+Sturmovik	强击机
+Zver	野兽
+Rata / Ratte	老鼠
+Tante Ju	“姑妈 Ju”
+Skytrain / Dakota	空中列车／达科他
+Lightning / Thunderbolt / Mustang / Warhawk / Razorback / Shooting Star	闪电／雷电／野马／战鹰／剃刀背／流星
+Airacobra / Kingcobra	眼镜蛇／王眼镜蛇
+Mitchell / Marauder / Invader / Boston / Liberator / Flying Fortress / Superfortress / Avenger	米切尔／劫掠者／入侵者／波士顿／解放者／飞行堡垒／超级堡垒／复仇者
+Enola Gay	“艾诺拉·盖伊”
+Corsair / Hellcat / Fagot	海盗／地狱猫／柴捆
+Spitfire / Hurricane / Sea Hurricane / Seafire	喷火／飓风／海飓风／海火
+Typhoon / Tempest / Mosquito / Meteor / Blenheim / Halifax / Lancaster / Swordfish / Beaufighter	台风／暴风／蚊式／流星／布伦海姆／哈利法克斯／兰开斯特／剑鱼／英俊战士
+Katyusha	喀秋莎
+Dora / Karl	多拉／卡尔（列车炮）
+V-1 / V-2	保留
+LL（前缀）	租借（Lend-Lease）
+w/Truck · w/LKW · w/Camion · w/Gruzovik · w/Ciezarowka · w/Teherkocsi	（卡车牵引）
+w/Wagon · w/Szeker · w/Vagon · w/Charrette · w/Vogn · w/Pferden	（马车牵引）／（马拉，仅 w/Pferden）
+w/Carro	（车辆牵引）
+w/251/1 · w/ 251/1	（SdKfz 251 半履带车运载）
+w/M3A1	（M3A1 运载）
+w/Bren Carrier	（布伦机枪车运载）
+w/Jeep	（吉普车牵引）
+w/Krad	（摩托车牵引）
+w/45mm	45mm 机炮型（YaK-9K w/45mm）
+with V-1	挂载 V-1
+How	榴弹炮
+Pdr	磅（17 Pdr→17 磅反坦克炮）
+inch	英寸
+ATG	反坦克炮
+FlaK / FlaKPz	高炮／自行高炮
+PaK	反坦克炮
+MGMC / HMC / GMC	自行高炮／自行榴弹炮／自行反坦克炮
+Mortar Team / MG Team / Bazooka Team	迫击炮小组／机枪小组／巴祖卡小组
+Flame-thrower / FlamPz	喷火坦克
+Calliope	风琴炮（M4 风琴炮）
+Anti-Tank Hinders	反坦克障碍
+AP / AT	反步兵（AP Mine Field）／反坦克（AT Mine Field）
+Wurfrahmen	火箭发射框
+Mtm	山炮
+Skoda	斯柯达
+Willis / Jeep	威利斯吉普
+QG mobile / Mobil HQ	机动集团军司令部
+Blenheim	布伦海姆
+Normandie Niemen	诺曼底-涅曼
+Royal Navy / Kriegsmarine / Regia Marina / US Navy	海军
+Mk I / MkI	Mk I（保留）

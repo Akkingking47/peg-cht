@@ -1,0 +1,29 @@
+# SSI Campaigns\PeG-WW2 Readme.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	5 SSI campaigns version 3.0	5 个 SSI 战役 3.0 版
+2	Those five PG2 SSI campaigns have been converted for PeG-WW2 by Mark Kirby in 2000.	这五个 PG2 SSI 战役在 2000 年由 Mark Kirby 转换用于 PeG-WW2。
+3	Download all files in the SCENARIO directory of PeG-WW2, since file names have not been modified they will just replace the existing ones of version 1.0.	请下载 PeG-WW2 的 SCENARIO 目录中的所有文件，由于文件名未作修改，它们会直接替换 1.0 版现有的文件。
+4	No download of maps is needed since all SSI maps are already included with the PeG-WW2 installer programme.	无需下载地图，因为 PeG-WW2 安装程序已包含所有 SSI 地图。
+6	Changes to Mark Kirby's campaign conversion:	对 Mark Kirby 战役转换版的改动：
+8	* I have added references to movies in the CAM files. 	* 我在 CAM 文件中加入了影片引用。 
+9	The following movies have been used: NewGMWin, Medalgem, Gerloss, 1, 2, 3, Fas2, 4, Wdunkirk, Fas11, Fas9, Victory1940, Fas12, 5, 6, 7, Tobruk, 8, 9, 10, 11, 12, 13, 14, 15, Kursk, 18, 16, 17, Medalusm, Amerloss, 19, 20, Medalukm, Ukloss, 21, Sovbv, Medalrum, Rumloss, 22, Fas16, Sovend.	使用了以下影片：NewGMWin, Medalgem, Gerloss, 1, 2, 3, Fas2, 4, Wdunkirk, Fas11, Fas9, Victory1940, Fas12, 5, 6, 7, Tobruk, 8, 9, 10, 11, 12, 13, 14, 15, Kursk, 18, 16, 17, Medalusm, Amerloss, 19, 20, Medalukm, Ukloss, 21, Sovbv, Medalrum, Rumloss, 22, Fas16, Sovend.
+10	Download movies in SMK format at Adlerkorps website: http://www.adlerkorps.com/	请在 Adlerkorps 网站下载 SMK 格式的影片：http://www.adlerkorps.com/
+11	The PeG-WW2 game readme file explains how to convert SMK movies into AVI format. 	PeG-WW2 游戏说明文件说明了如何将 SMK 影片转换为 AVI 格式。 
+13	* Campaign introduction text files have been changed. 	* 战役介绍文本文件已作修改。 
+15	* Some scenarios have been lightly changed compared with version 1.0 of this campaign package, the facing of aircrafts has been corrected.	* 与本战役包的 1.0 版相比，部分场景作了小幅改动，飞机的朝向已得到修正。
+17	* Five XLS file show now the campaigns paths: 	* 五个 XLS 文件现在显示各战役的路径： 
+18	Blitzkrieg (German campaign) (27 scenarios with longest path of 18)	闪击战（德军战役）（27 个场景，最长路径为 18）
+19	Defending the Reich (German campaign) (6 scenarios with longest path of 6)	保卫帝国（德军战役）（6 个场景，最长路径为 6）
+20	Crusade in the West (British campaign) (6 scenarios with longest path of 6)	西线十字军（英军战役）（6 个场景，最长路径为 6）
+21	Crusade in the West (US campaign) (6 scenarios with longest path of 6)	西线十字军（美军战役）（6 个场景，最长路径为 6）
+22	Onwards to Berlin (Soviet campaign) (6 scenarios with longest path of 6)	向柏林进军（苏军战役）（6 个场景，最长路径为 6）
+24	* I have converted and included a SSI standalone scenario named "Red Tide Rising" opposing US and Soviet forces in 1945. This scenario like the PG2 original one is not part of any campaign.	* 我转换并加入了一个名为“Red Tide Rising”的 SSI 独立场景，描写 1945 年美军与苏军的对抗。该场景与 PG2 原版一样，不属于任何战役。
+26	* Add-on for SSI Blitzkrieg and Blitzkrieg REDUX campaigns:	* SSI 闪击战与闪击战 REDUX 战役的附加内容：
+28	Goal:	目标：
+29	Ground units on ocean hexes cannot move on ground hexes.	位于海洋格上的地面单位不能移动到陆地格上。
+30	As a result the "Malta" and "Savannah" scenarios (in both German campaigns) have been improved and now allow correct deployment of units on ground hexes via the usage of transport ships (having "HQ" -meaning deployment- ability).	因此，“Malta”与“Savannah”场景（在两个德军战役中）已得到改进，现在可以借助运输船（具备“HQ”即部署能力）把单位正确部署到陆地格上。
+33	Instructions:	说明：
+34	1. In game click on exit deployment button then click on deployment button in order to deploy units via transport ships (deployed units can move and free space for deployment of new units);	1. 在游戏中先点击退出部署按钮，再点击部署按钮，以便通过运输船部署单位（已部署的单位可以移动，从而腾出空间部署新单位）；
+35	2. You do not have to deploy all your units at a time, they can be deployed as long as transport ships exist and are adjacent to ground hexes.	2. 你不必一次部署所有单位，只要运输船还存在且与陆地格相邻，就可以继续部署单位。
+38	Robert Mary, 06/02/2009	[[KEEP]]
+40	Other campaigns at: http://www.pegww2.net/	其他战役见：http://www.pegww2.net/

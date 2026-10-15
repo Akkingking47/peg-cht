@@ -1,0 +1,96 @@
+# New Videos for PeGWWII.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	NEW VIDEOS FOR PEG\t\t\t\t\t\t\t9:11 PM 7/31/2004	PEG 的新增视频\t\t\t\t\t\t\t2004年7月31日 晚 9:11
+1	by Redball	Redball 编写
+6	ADDITIONAL VIDEO FORMATS AVAILABLE IN PEG	PEG 中可用的其它视频格式
+8	PeG's internal file filter for movies was originally hard coded into PEOPLES.EXE as "CINE\*.MOV" so only MOV files could be played.  Despite this, Quicktime can play a wide range of viodeos inlcuding AVI, (animated) GIF, MPG & SWF.	PeG 内部用于影片的文件筛选器最初在 PEOPLES.EXE 中硬编码为 "CINE\*.MOV"，因此只能播放 MOV 文件。  尽管如此，Quicktime 仍能播放多种视频，包括 AVI、（动画）GIF、MPG 和 SWF。
+10	I changed the file filter to "CINE\*.*" so all these file types can now be played.  ANY video, still image or audio format which is playable in your version of Quicktime can be shown in PeG's campaign.	我把文件筛选器改为 "CINE\*.*"，因此现在这些文件类型都能播放。  凡是你的 Quicktime 版本能播放的视频、静态图像或声音格式，都能在 PeG 的战役中显示。
+12	Most videos look great. MPEG is acceptable but has some flakiness on my system which may be caused by my video codecs.	大多数视频看起来很好。MPEG 可以接受，但在我的系统上有些不稳定，可能是我的视频编解码器造成的。
+14	Quicktime displays still images such as JPEG but when displayed by Quicktime in PeG they flash by too quickly to be interesting or useful.  The best way to display single images is to use my "Information Graphics Approach" described below.	Quicktime 能显示 JPEG 之类的静态图像，但在 PeG 中由 Quicktime 显示时，它们一闪而过，既不有趣也没用处。  显示单张图像的最好办法是采用下面介绍的“信息图形法”。
+18	USING THE ADDITIONAL VIDEO FORMATS	使用其它视频格式
+20	Your video files need to be stored in the CINE\ sub-folder of your main PeG folder.	你的视频文件需要存放在 PeG 主文件夹下的 CINE\ 子文件夹中。
+22	The full file name including the actual extension (.MOV, .AVI, .GIF, .SWF et alia) needs to be specified in the CAM file.  	必须在 CAM 文件中指定完整文件名，包括实际的扩展名(.MOV、.AVI、.GIF、.SWF 等)。
+24	Version 3.11b and higher of Luis Guzman's PeG Suite so you can enter whatever file extension you want.	需要 Luis Guzman 的 PeG Suite 3.11b 或更高版本，这样才能输入你想要的任何文件扩展名。
+28	QUICKTIME VERSIONS	QUICKTIME 版本
+30	Check that whatever video you want to use really does play in your version of QuickTime.  	确认你想使用的视频确实能在你的 QuickTime 版本中播放。
+32	PeG was originally distributed with Quicktime 3.0 but you will get better results if you upgrade to a more recent version of Quicktime.  All of the "QT Players" are free.	PeG 最初附带分发的是 Quicktime 3.0，但升级到更新的 Quicktime 版本会得到更好的效果。  所有“QT Players”都是免费的。
+35	\tQuicktime 6.x System Requirements & Download Link	\tQuicktime 6.x 系统要求与下载链接
+37	\tQuicktime is currently at version 6.5.  Minimum system requirements are:	\tQuicktime 目前是 6.5 版。  最低系统要求为：
+38	\t* A Pentium processor-based PC or compatible computer	\t* 基于 Pentium 处理器的 PC 或兼容计算机
+39	\t* At least 128MB of RAM	\t* 至少 128MB 内存
+40	\t* Windows 98/Me/2000/XP	\t* Windows 98/Me/2000/XP
+42	\tYou can download the free Quicktime 6.5 player at: 	\t你可以在此下载免费的 Quicktime 6.5 播放器：
+43	\t\thttp://www.apple.com/quicktime/download/	\t\thttp://www.apple.com/quicktime/download/
+46	\tQuicktime 5.0 System Requirements & Download Link	\tQuicktime 5.0 系统要求与下载链接
+48	\tApple still provides Quicktime 5.0 for Windows 95 and computers with less memory:	\tApple 仍为 Windows 95 和内存较小的计算机提供 Quicktime 5.0：
+49	\t* A Pentium-based PC or compatible computer	\t* 基于 Pentium 的 PC 或兼容计算机
+50	\t* Win 95/98/NT/ME/2000/XP    	\t* Win 95/98/NT/ME/2000/XP
+51	\t* At least 32MB of RAM	\t* 至少 32MB 内存
+52	\t* DirectX version 3.0 or later recommended    	\t* 建议使用 DirectX 3.0 或更高版本
+53	\t* A Sound Blaster or compatible sound card and speakers  	\t* Sound Blaster 或兼容声卡与音箱
+55	\tYou can download the free Quicktime 5.0 player at: 	\t你可以在此下载免费的 Quicktime 5.0 播放器：
+56	\t\thttp://docs.info.apple.com/article.html?artnum=120133	\t\thttp://docs.info.apple.com/article.html?artnum=120133
+58	\tApple also still provides Quicktime 4.0 however the system requirements are the same as 	\tApple 也仍提供 Quicktime 4.0，但系统要求与
+59	\tthose for QT 5.0.  Here's the download link:	\tQT 5.0 相同。  下载链接如下：
+60	\t\thttp://docs.info.apple.com/article.html?artnum=120081	\t\thttp://docs.info.apple.com/article.html?artnum=120081
+65	NEW VIDEO DEVELOPMENT	新视频开发
+67	What could be done with this new feature?	用这个新功能能做些什么？
+69	Existing or new AVIs, MPEGS, MOV or SWF could be used to enhance game ambience.	现有的或新的 AVI、MPEG、MOV 或 SWF 都可以用来增强游戏氛围。
+71	Animated GIF files could be used as more extensive & informative scenario introductions which combine text (larger & more legible!), maps & other graphics. These are easy to prepare using Paint Shop Pro and Animation Shop or other GIF animation software.	动画 GIF 文件可以用作内容更丰富、信息量更大的场景介绍，把文字（更大、更易读！）、地图和其它图形结合在一起。 使用 Paint Shop Pro 和 Animation Shop 或其它 GIF 动画软件很容易制作。
+75	THE NEWSREEL APPROACH TO VIDEOS	视频的新闻短片法
+78	Video files in PeG, PG2 and the Five Star General Games often try to provide "ambience" for game play.  The videos are mostly film clips showing tanks breezing along, infantry parading through town et cetera.	PeG、PG2 和 Five Star General Games 中的视频文件常常试图为游戏过程营造“氛围”。  这些视频大多是影片片段，展示坦克轻快驶过、步兵列队穿过城镇等等。
+80	This is the NEWSREEL approach to video in PeG -- film footage displayed for the folks back home.	这就是 PeG 中视频的新闻短片法 -- 为后方家乡的人们播放的胶片素材。
+82	The files created for this purpose are often extremely large -- a minimum of 1 or 2 meg in most cases.  Generally, they also require a lot of memory, a fast CPU & a fast hard drive.	为此类用途制作的文件往往极大 -- 多数情况下至少有 1 到 2 兆。  一般来说，它们还需要大量内存、快速的 CPU 和快速的硬盘。
+84	These videos can be cool & informative.  PeG gamers with high speed Internet access may choose to download them.  However, PeG gamers who use dial up services to get files may decide to ignore these files. 	这些视频可能很酷、信息量也大。  能高速上网的 PeG 玩家也许会下载它们。  然而，使用拨号服务获取文件的 PeG 玩家可能会决定不去理会这些文件。
+88	THE INFORMATION GRAPHICS APPROACH TO VIDEOS	视频的信息图形法
+91	I propose that a better use of video in PeG is to give strategic context to the game.  The Information Graphics approach can give the Theater Commander's perspective to PeG 	我认为，在 PeG 中更好地利用视频的方式是为游戏提供战略背景。  信息图形法可以把战区司令官的视角带入 PeG
+93	"Information Graphics" is a modern term but the approach is at least as old as human writing and speech:  make a picture of the ideas & information you want to communicate.  USA today has demonstrated the WORST use of Information Graphics by attaching cute pictures to statistics 	“信息图形”是个现代术语，但这种做法至少和人类的文字与语言一样古老：把你想传达的想法和信息画成一幅图。  USA today 展示了信息图形最糟糕的用法：给统计数据配上可爱的图片
+96	The questions which need to be addressed:	需要回答的问题：
+97	\tWhy is this battle or series of battles important?  	\t为什么这场战斗或这一系列战斗重要？
+98	\tWhat else is going on?	\t还发生了什么？
+99	\tHow does this campaign relate to those other events?	\t这场战役与其它那些事件有什么关联？
+101	What is the Theater context of 	什么是……的战区背景
+102	\t* Space	\t* 空间
+103	\t* Time	\t* 时间
+104	\t* Resources	\t* 资源
+106	The answer: 	答案：
+107	\tUse a regional map, other graphics and brief text to place the battle in context. 	\t用区域地图、其它图形和简短文字把这场战斗放进背景中。
+108	\tDisplay all of this as in a slide show with 1-10 images.   	\t把这一切以幻灯片放映的形式展示，使用 1-10 张图像。
+109	\tUse  30-90 second time delay overall.	\t整体使用 30-90 秒的延时。
+113	NEWSREEL VIDEO SOURCES	新闻短片视频来源
+116	Jane's, "British Army demonstrates its combined firepower" - Warminster Video Gallery	Jane's，“英国陆军展示其合成火力” - 沃明斯特(Warminster)视频库
+117	(Challenger 2MBT, AS90 SPH, + 8 other MPEGS)	(Challenger 2MBT、AS90 SPH，以及 8 个其它 MPEG)
+118	\thttp://www.janes.com/defence/land_forces/gallery/warminster/warmin_video.shtml	\thttp://www.janes.com/defence/land_forces/gallery/warminster/warmin_video.shtml
+120	Lockheed Martin's F-35A Joint Strike Fighter Video Gallery	Lockheed Martin 的 F-35A 联合攻击战斗机视频库
+121	\thttp://www.lmaeronautics.com/gallery/videos/products/combat_air/x-35/x35a/	\thttp://www.lmaeronautics.com/gallery/videos/products/combat_air/x-35/x35a/
+125	INFORMATION GRAPHICS RESOURCES	信息图形资源
+128	The Visual Journalism web site has a great collection of excellent information graphics plus a gallery of "Worst Graphics"  (both sets are fixed images not videos).	Visual Journalism 网站收集了大量出色的信息图形，还有一个“Worst Graphics”图库（两组都是固定图像，不是视频）。
+133	OTHER QUESTIONS & ISSUES	其它问题与事项
+136	If you work for awhile with video (and also audio) files you will get caught by issues of Video Codecs.  In general	如果你处理视频（以及声音）文件一段时间，就会遇到视频编解码器的问题。  一般来说
+143	THE THEATER COMMANDER'S PERSPECTIVE	战区司令官的视角
+145	An Information Graphics Approach to Videos for People's General	People's General 视频的信息图形法
+146	prepared by Redball	Redball 编写
+147	May, 2004	2004年5月
+149	DIVISION AZUL.GIF is an animated GIF file which demonstrates the concept of using PeG videos for information graphics rather than movies.  The emphasis is on showing information that puts each scenario into a larger context of space, time & resources.  	DIVISION AZUL.GIF 是一个动画 GIF 文件，用来演示把 PeG 视频用于信息图形而非影片的思路。  重点在于展示信息，把每个场景放进更大的空间、时间与资源背景中。
+151	This demonstration is not exhaustive of  the approach and is not intended for actual use with the Division Azul Campaign by Santiago Fuertes (PG2 original) & Robert Mary (PeG version).	这个演示并未穷尽这一方法，也无意用于 Santiago Fuertes(PG2 原版)与 Robert Mary(PeG 版)的 Division Azul 战役。
+154	KEY FEATURES:	主要特点：
+156	* SMALL DOWNLOAD\tThe file is less than 150k so it will be a short download even using dial-up modem access.	* 下载量小\t文件不到 150k，所以即使用拨号调制解调器访问，下载也很快。
+158	* EASILY MODIFIED\tAll elements of the design -- including text, color scheme, maps, photos & other graphics -- can easily be modified.	* 易于修改\t设计的所有元素 -- 包括文字、配色方案、地图、照片和其它图形 -- 都可以轻松修改。
+160	* SIMPLE DEVELOPMENT\tCreating this demo took about an hour including gathering maps, the division insignia, preparing some other graphics, experimenting & testing.  .  	* 制作简单\t制作这个演示大约花了一小时，包括收集地图、师徽、准备其它一些图形以及试验和测试。
+162	* FLEXIBLE FORMAT\tAn animation can consist of just 1 slide or many slides as the designers chooses.   This demo consists of three slides each of which is 800x600 pixels.  	* 格式灵活\t动画可以只有 1 张幻灯片，也可以按设计者的选择包含许多张。  这个演示由三张幻灯片组成，每张都是 800x600 像素。
+164	The slides display for 5-15 seconds.  Display time can be made longer or shorter when a file is created.  Users can terminate the display by clicking the mouse or pressing a key.	幻灯片显示 5-15 秒。  显示时间可以在创建文件时调长或调短。  用户可以通过点击鼠标或按键结束显示。
+167	TOOLS REQUIRED:	所需工具：
+169	I tried to do this with free or cheap software or suggest alternatives that are available for free.	我尽量用免费或廉价软件来做这件事，或者推荐可以免费获得的替代软件。
+171	image editing - \t\tMS Paint	图像编辑 - \t\tMS Paint
+173	text preparation - \tWindows Notepad	文字准备 - \tWindows Notepad
+175	GIF animation - \t\tJASC's Animation Shop (a companion program to PaintShop Pro)	GIF 动画 - \t\tJASC 的 Animation Shop（PaintShop Pro 的配套程序）
+176	\t\t\tOther GIF Animation software is easily found on the Net.	\t\t\t其它 GIF 动画软件在网上很容易找到。
+178	map images -\t\tMicrosoft Encarta	地图图像 -\t\tMicrosoft Encarta
+179	\t(The Perry Castenada Map Collection has a huge supply of great maps available online at:	\t(Perry Castenada 地图收藏在网上提供大量优质地图，网址：
+180	\thttp://www.lib.utexas.edu/maps/index.html	\thttp://www.lib.utexas.edu/maps/index.html
+183	PRODUCTION METHODS:	制作方法：
+185	Slides were initially prepared using MS-Paint.  	幻灯片最初是用 MS-Paint 制作的。
+187	Text was written and edited in Windows Notepad and then pasted into a text entry block.	文字在 Windows Notepad 中撰写和编辑，然后粘贴到文本输入框中。
+189	Maps were copied from Microsoft Encarta World Atlas and pasted into MS-Paint.  Using Paint I cropped the maps and added circles & arrows.	地图从 Microsoft Encarta World Atlas 复制并粘贴到 MS-Paint 中。  我用 Paint 裁剪地图并加上圆圈和箭头。
+191	The sample Order of Battle graphic was also prepared in MS Paint.	示例战斗序列图形也是在 MS Paint 中制作的。
+193	Each slide was loaded into Animation Shop where the time delay was set separately.  The result was saved in the Animated GIF video format.	每张幻灯片都载入 Animation Shop，在那里分别设置延时。  结果以动画 GIF 视频格式保存。

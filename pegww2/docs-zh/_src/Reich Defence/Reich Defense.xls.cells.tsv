@@ -1,0 +1,161 @@
+# Reich Defence\Reich Defense.xls · 表格文字格抽取（工作表 \t 行 \t 列 \t 原文）
+工作表	行	列	原文
+Reich Defense	1	2	Reich Defense
+Reich Defense	2	2	Scenario
+Reich Defense	2	3	Map
+Reich Defense	2	4	Map #
+Reich Defense	2	5	J Gabitto
+Reich Defense	2	6	BV
+Reich Defense	2	8	TV
+Reich Defense	2	9	Loss
+Reich Defense	3	2	Stalingrad (#1)
+Reich Defense	3	3	Lenin (SSI)
+Reich Defense	4	2	Tunisia (#2)
+Reich Defense	4	3	Tobruk (SSI)
+Reich Defense	5	2	Kharkov Counterattack (#3)
+Reich Defense	5	3	Klin (SSI)
+Reich Defense	6	2	Sicilian Invasion (#4)
+Reich Defense	6	3	Salerno (SSI)
+Reich Defense	7	2	Operation Zitadelle (#5)
+Reich Defense	7	3	Prokhorv (SSI)
+Reich Defense	8	2	Orel Bulge (#6)
+Reich Defense	8	3	Volokol (SSI)
+Reich Defense	9	2	Dniepr Crossing (#7)
+Reich Defense	9	3	Kanev (SSI)
+Reich Defense	10	2	Monte Cassino (#8)
+Reich Defense	10	3	Greece (SSI)
+Reich Defense	11	2	Western Ukraine (#9)
+Reich Defense	11	3	Arract (SSI)
+Reich Defense	12	2	Normandy (#10)
+Reich Defense	12	3	Caen (SSI)
+Reich Defense	13	2	Red Avalanche (#11)
+Reich Defense	13	3	Novgorod (SSI)
+Reich Defense	14	2	Battle of the Bulge (#12)
+Reich Defense	14	3	Soumussa (SSI)
+Reich Defense	15	2	Operation Nordwind (#13)
+Reich Defense	15	3	Nordwind (SSI)
+Reich Defense	16	2	Budapest (#14)
+Reich Defense	16	3	Konrad (SSI)
+Reich Defense	17	2	The Battle for Berlin (#15)
+Reich Defense	17	3	Dessau (SSI)
+Reich Defense	17	9	Loss
+Reich Defense	18	2	Summer Storm (#16)
+Reich Defense	18	3	Dunkirk (SSI)
+Reich Defense	18	6	Win
+Reich Defense	18	7	Win
+Reich Defense	18	8	Win
+Reich Defense	18	9	Loss
+Reich Defense	19	2	Don Front (#2 Lower)
+Reich Defense	19	3	Soumussa (SSI)
+Reich Defense	19	9	Loss
+Reich Defense	20	2	Pantelleria (#3 Lower)
+Reich Defense	20	3	Malta (SSI)
+Reich Defense	20	5	B702VA
+Reich Defense	20	9	Loss
+Reich Defense	21	2	Kerch (#4 Lower)
+Reich Defense	21	3	Viipuri (SSI)
+Reich Defense	21	9	Loss
+Reich Defense	22	2	Mussolini's Rescue (#5 Lower)
+Reich Defense	22	3	Madrid (SSI)
+Reich Defense	22	5	B703VA
+Reich Defense	22	9	Loss
+Reich Defense	23	2	Invasion Salerno (#6 Lower)
+Reich Defense	23	3	Salerno (SSI)
+Reich Defense	23	9	Loss
+Reich Defense	24	2	Gomel (#7 Lower)
+Reich Defense	24	3	Metz (SSI)
+Reich Defense	24	9	Loss
+Reich Defense	25	2	Assault at Monte Cassino (#8 Lower)
+Reich Defense	25	3	Greece (SSI)
+Reich Defense	25	9	Loss
+Reich Defense	26	2	Cherkassy (#9 Lower)
+Reich Defense	26	3	Chir (SSI)
+Reich Defense	27	2	Transnistria (#10 Lower)
+Reich Defense	27	3	Kishinev (SSI)
+Reich Defense	27	9	Loss
+Reich Defense	28	2	Sevastopol Evacuation (#11 Lower)
+Reich Defense	28	3	Windsor (SSI)
+Reich Defense	28	5	B708VA
+Reich Defense	29	2	Viipuri (#12 Lower)
+Reich Defense	29	3	Viipuri (SSI)
+Reich Defense	29	9	Loss
+Reich Defense	30	2	St Lo (#13 Lower)
+Reich Defense	30	3	Stlo (SSI)
+Reich Defense	30	9	Loss
+Reich Defense	31	2	Bulge (#14 Lower)
+Reich Defense	31	3	Klin (SSI)
+Reich Defense	31	9	Loss
+Reich Defense	32	2	Operation Konrad (#15 Lower)
+Reich Defense	32	3	Chir (SSI)
+Reich Defense	32	9	Loss
+Reich Defense	33	2	Berlin Defense (#16 Lower)
+Reich Defense	33	3	Seelow (SSI)
+Reich Defense	33	6	Win
+Reich Defense	33	7	Win
+Reich Defense	33	8	Win
+Reich Defense	33	9	Loss
+Reich Defense	35	5	Legend
+Reich Defense	35	7	Normal Path
+Reich Defense	36	7	Alternate scenarios 1
+Reich Defense	37	7	Alternate scenarios 2
+Reich Defense historical	1	2	Reich Defense historical
+Reich Defense historical	2	2	Scenario
+Reich Defense historical	2	3	Map
+Reich Defense historical	2	4	Map #
+Reich Defense historical	2	5	J Gabitto
+Reich Defense historical	2	6	BV
+Reich Defense historical	2	8	TV
+Reich Defense historical	2	9	Loss
+Reich Defense historical	3	2	Stalingrad (#1)
+Reich Defense historical	3	3	Lenin (SSI)
+Reich Defense historical	4	2	Don Front (#2 Lower)
+Reich Defense historical	4	3	Soumussa (SSI)
+Reich Defense historical	4	9	Loss
+Reich Defense historical	5	2	Pantelleria (#3 Lower)
+Reich Defense historical	5	3	Malta (SSI)
+Reich Defense historical	5	5	B702VA
+Reich Defense historical	5	9	Loss
+Reich Defense historical	6	2	Kerch (#4 Lower)
+Reich Defense historical	6	3	Viipuri (SSI)
+Reich Defense historical	6	9	Loss
+Reich Defense historical	7	2	Mussolini's Rescue (#5 Lower)
+Reich Defense historical	7	3	Madrid (SSI)
+Reich Defense historical	7	5	B703VA
+Reich Defense historical	8	2	Invasion Salerno (#6 Lower)
+Reich Defense historical	8	3	Salerno (SSI)
+Reich Defense historical	8	9	Loss
+Reich Defense historical	9	2	Gomel (#7 Lower)
+Reich Defense historical	9	3	Metz (SSI)
+Reich Defense historical	9	9	Loss
+Reich Defense historical	10	2	Assault at Monte Cassino (#8 Lower)
+Reich Defense historical	10	3	Greece (SSI)
+Reich Defense historical	10	9	Loss
+Reich Defense historical	11	2	Cherkassy (#9 Lower)
+Reich Defense historical	11	3	Chir (SSI)
+Reich Defense historical	11	9	Loss
+Reich Defense historical	12	2	Transnistria (#10 Lower)
+Reich Defense historical	12	3	Kishinev (SSI)
+Reich Defense historical	12	9	Loss
+Reich Defense historical	13	2	Sevastopol Evacuation (#11 Lower)
+Reich Defense historical	13	3	Windsor (SSI)
+Reich Defense historical	13	5	B708VA
+Reich Defense historical	14	2	Viipuri (#12 Lower)
+Reich Defense historical	14	3	Viipuri (SSI)
+Reich Defense historical	14	9	Loss
+Reich Defense historical	15	2	St Lo (#13 Lower)
+Reich Defense historical	15	3	Stlo (SSI)
+Reich Defense historical	15	9	Loss
+Reich Defense historical	16	2	Bulge (#14 Lower)
+Reich Defense historical	16	3	Klin (SSI)
+Reich Defense historical	16	9	Loss
+Reich Defense historical	17	2	Operation Konrad (#15 Lower)
+Reich Defense historical	17	3	Chir (SSI)
+Reich Defense historical	17	9	Loss
+Reich Defense historical	18	2	Berlin Defense (#16 Lower)
+Reich Defense historical	18	3	Seelow (SSI)
+Reich Defense historical	18	6	Win
+Reich Defense historical	18	7	Win
+Reich Defense historical	18	8	Win
+Reich Defense historical	18	9	Loss
+Reich Defense historical	20	5	Legend
+Reich Defense historical	20	7	Normal Path

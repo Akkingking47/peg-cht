@@ -1,0 +1,169 @@
+# Band of Brothers\PeG-WW2 BoB Campaign Install.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+2563	Band of Brothers	Band of Brothers
+2565	campaign 1.0 (01/18/2005)	campaign 0 (01/18/2005)
+2571	Robert Mary	Robert Mary
+2603	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+2621	This is the PeG-WW2 conversion of the	This is the PeG-WW2 conversion of the
+2623	Band of Brothers	Band of Brothers
+2625	campaign originally designed for PG2 by Doug Hone.	campaign originally designed for PG2 by Doug Hone.
+2627	The original campaign stands here on the Stebe Brown	The original campaign stands here on the Stebe Brown
+2629	s website:	s website:
+2661	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	0
+2678	A. How to install ?	A. How to install ?
+2692	This package contains :	This package contains :
+2723	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the
+2731	BOB_v1.zip	0
+2737	in the SCENARIO directory of PeG-WW2.	in the SCENARIO directory of PeG-WW2.
+2775	Original campaign for PG2 design notes of D. Hone are included in the	Original campaign for PG2 design notes of D. Hone are included in the
+2782	Readme.zip	0
+2799	The Readme.zip also includes my	The 0 also includes my
+2805	Excel file	Excel file
+2810	(BOB.xls) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	(0) showing campaign flow, map numbers, name of maps used and alternative campaign paths.
+2848	The maps	The maps
+2867	3.1 MAP files	0 MAP files
+2879	*.map files are included in the	*.map files are included in the
+2886	Maps.zip	0
+2892	, place them in the SCENARIO directory of PeG-WW2	, place them in the SCENARIO directory of PeG-WW2
+2896	PG2 maps (in SHP format) can be found on builder	PG2 maps (in SHP format) can be found on builder
+2898	s paradise website :	s paradise website :
+2929	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	0
+2938	Or on Panzer General2.com website:	Or on Panzer General2.com website:
+2971	http://es.geocities.com/latingenerals/	0
+2997	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :
+3030	http://users.skynet.be/rmypegww2/	0
+3039	in the campaign page (	in the campaign page (
+3045	Luis	Luis
+3056	Map converter	Map converter
+3061	(107Kb), or directly within Luis	(107Kb), or directly within Luis
+3063	PeG editor (	PeG editor (
+3069	PeG Suite 3.16	PeG Suite 0
+3085	3.2. S16 files	0. S16 files
+3097	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.
+3122	3.3 Music files	0 Music files
+3128	(this is not a mandatory step)	(this is not a mandatory step)
+3163	Doug Hone uses three music files in his campaign (BoB1Mus.Mus, BoB2Mus.Mus and SB7MUS1.Mus). They are under MUS format and can be downloadable here:	Doug Hone uses three music files in his campaign (BoB1Mus.Mus, BoB2Mus.Mus and SB7MUS1.Mus). They are under MUS format and can be downloadable here:
+3200	http://homepage.powerup.com.au/~honed/	0
+3220	You can use the GOLDWAVE sound converter to convert MUS files into WAV format here:	You can use the GOLDWAVE sound converter to convert MUS files into WAV format here:
+3252	http://www.strategyplanet.com/panzergeneral/pg2main_tools.html	0
+3261	Or you can just send me an e-mail to get them (each file makes 1.400 kB).	Or you can just send me an e-mail to get them (each file makes 0 kB).
+3263	Music files must be located in the WAVS directory of PeG-WW2.	Music files must be located in the WAVS directory of PeG-WW2.
+3279	3.4 Movie files	0 Movie files
+3285	(this is not a mandatory step)	(this is not a mandatory step)
+3313	Doug Hone uses three SMACK files (dday-01.SMK, market-02.SMK, market-03.SMK). I	Doug Hone uses three SMACK files (0, 1, 2). I
+3315	m also using (Haguenau.SMK, Americanloss.SMK, MedalUSM.SMK, Special.SMK, 17.SMK and 20.SMK). I h ave converted each file into AVI format.	m also using (0, 1, 2, 3, 4 and 5). I h ave converted each file into AVI format.
+3317	You can just send me an e-mail to get them (each file makes 6 MB) or follow instructions mentioned on my website:	You can just send me an e-mail to get them (each file makes 6 MB) or follow instructions mentioned on my website:
+3349	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	0
+3369	Movie files must be located in the CINE directory of PeG-WW2.	Movie files must be located in the CINE directory of PeG-WW2.
+3403	B. Using the modgen.dat and the equipment file	B. Using the 0 and the equipment file
+3467	The equipment file :	The equipment file :
+3486	My European e-file version 1.01 is mandatory.	My European e-file version 0 is mandatory.
+3505	The equipment file is available at my own website :	The equipment file is available at my own website :
+3537	http://users.skynet.be/rmypegww2/	0
+3554	Unzip "	Unzip "
+3560	RMY_PeG-WW2_Europe.zip	0
+3565	" in the Main directory of PeG-WW2.	" in the Main directory of PeG-WW2.
+3584	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	My eqpt file keeps the same structure as Mark Kirby's eqpt file (
+3590	Mark	Mark
+3592	s units are unchanged	s units are unchanged
+3597	excepted icons). I only added new units.	excepted icons). I only added new units.
+3601	My equipment file is intended for use with Redball	My equipment file is intended for use with Redball
+3603	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	s PeG-WW2 1 package, therefore file names have been renamed to be directly used when you download them (0 became
+3609	WW2-eqp.txt	0
+3614	, Equip97.eqp became	, 0 became
+3621	WW2-eqp.eqp	0
+3630	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.
+3639	Important note	Important note
+3644	: all campaigns I have converted so far may use the European e-file v 1.01	: all campaigns I have converted so far may use the European e-file v 0
+3650	except	except
+3655	those referring to Japan country. There the	those referring to Japan country. There the
+3657	Asian	Asian
+3659	E-file version 3.07 has to be used, this is currently the case for 2 campaigns:	E-file version 0 has to be used, this is currently the case for 2 campaigns:
+3702	Soviet campaign General Bistrov	Soviet campaign General Bistrov
+3704	s Special Breakthrough Corps;	s Special Breakthrough Corps;
+3747	US campaign Screaming Eagles and Shattered Steel.	US campaign Screaming Eagles and Shattered Steel.
+3812	The modgen.dat (intentionally not included in order to save space)	The 0 (intentionally not included in order to save space)
+3851	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it	My 0 is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it
+3853	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 80 MB).	s also possible to build up a huge 0 with all existing icons so far (at least more than 80 MB).
+3892	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	My 0 is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.
+3896	You can	You can
+3902	download	download
+3907	the file at :	the file at :
+3939	http://users.skynet.be/rmypegww2/	0
+3948	Unzip "	Unzip "
+3954	RMY_PeG-WW2_MODGEN.zip	0
+3959	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed 0- works with Redball
+3961	s PeG-WW2 2.7 package.	s PeG-WW2 0 package.
+3963	All required S16 files contained in Redball	All required S16 files contained in Redball
+3965	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	s upgrade are already included in 0 which is immediately ready for use.
+3969	My modgen includes the new flagset designed by Audie Murphy, it contains the German historical flag, the Waffen SS nation (replacing Japan in Mark Kirby	My modgen includes the new flagset designed by Audie Murphy, it contains the German historical flag, the Waffen SS nation (replacing Japan in Mark Kirby
+3971	s flagset) and the Canadian nation (replacing China)	s flagset) and the Canadian nation (replacing China)
+4036	Peoples.exe file	0 file
+4058	Please use the Redball	Please use the Redball
+4060	s PeG-WW2 2.7 package downloadable here:	s PeG-WW2 0 package downloadable here:
+4086	http://users.skynet.be/rmypegww2/	0
+4093	This file contains the most advanced game improvements for PeG-WW2 (see Redball	This file contains the most advanced game improvements for PeG-WW2 (see Redball
+4095	s readme file included in PeG-WW2 2.7 package).	s readme file included in PeG-WW2 0 package).
+4123	C. Comments	C. Comments
+4168	Minor changes brought to D. Hone	Minor changes brought to D. Hone
+4170	s campaign	s campaign
+4211	I added information in a few introduction text files.	I added information in a few introduction text files.
+4229	Names of scenarios and campaign have been renamed and begin now with	Names of scenarios and campaign have been renamed and begin now with
+4231	BOB	BOB
+4233	, this allows the player to uninstall the campaign easily.	, this allows the player to uninstall the campaign easily.
+4251	Since the way to handle prestige is different in PG2 and in PeG I added some prestige points at the end o f all scenarios in order to allow the player to replace lost core units and to upgrade them until they get a 12 basic strength.	Since the way to handle prestige is different in PG2 and in PeG I added some prestige points at the end o f all scenarios in order to allow the player to replace lost core units and to upgrade them until they get a 12 basic strength.
+4269	In some scenarios British naval based Typhoons can be resupplied on their carrier (this was the case in PG2 but I created a spec ific Typhoon belonging to fighter class (# 10) in order to offer the same gameplay as in PG2).	In some scenarios British naval based Typhoons can be resupplied on their carrier (this was the case in PG2 but I created a spec ific Typhoon belonging to fighter class (# 10) in order to offer the same gameplay as in PG2).
+4287	Since VH	Since VH
+4289	s are not handled the same way in PeG as in PG2 I made some adjustments in some defensive scenarios (I created some additionnal hidden VH	s are not handled the same way in PeG as in PG2 I made some adjustments in some defensive scenarios (I created some additionnal hidden VH
+4332	Playing tips	Playing tips
+4373	YOU MUST PLAY BY THE RULES mentioned in the scenario introduction file. This means purchasing only needed units to replace your CORE forces. All along this campaign you cannot have more units than:	YOU MUST PLAY BY THE RULES mentioned in the scenario introduction file. This means purchasing only needed units to replace your CORE forces. All along this campaign you cannot have more units than:
+4416	All along this campaign,	All along this campaign,
+4423	CORE	CORE
+4429	should comprise 16 units (later 18):	should comprise 16 units (later 18):
+4433	3 x Battalion HQ	3 x Battalion HQ
+4435	1 x Paratrooper Scout (belonging to recon class) (or upgrade)	1 x Paratrooper Scout (belonging to recon class) (or upgrade)
+4437	2 x Paratrooper Engineers (or upgrade)	2 x Paratrooper Engineers (or upgrade)
+4439	1 x Paratrooper MG Team (or upgrade)	1 x Paratrooper MG Team (or upgrade)
+4441	1 x Paratrooper Mortar Team (belonging to arty class) (or upgrade)(later 2)	1 x Paratrooper Mortar Team (belonging to arty class) (or upgrade)(later 2)
+4443	1 x Paratrooper Bazooka Team (belonging to AT class) (or upgrade)(later 2)	1 x Paratrooper Bazooka Team (belonging to AT class) (or upgrade)(later 2)
+4445	1 x Paratrooper Sniper (or upgrade)	1 x Paratrooper Sniper (or upgrade)
+4447	6 x Paratrooper (or upgrade)	6 x Paratrooper (or upgrade)
+4510	Airborne scenarios	Airborne scenarios
+4515	a) Air transport units belonging to class # 13 (e.g. C47 Skytrain - Dakota) have now the Deploy and supply ability (HQ and coins icons). So don	a) Air transport units belonging to class # 13 (e.g. C47 Skytrain - Dakota) have now the Deploy and supply ability (HQ and coins icons). So don
+4517	t lose the AUX air transport units (you have them in great numbers in case of loss due to German Luftwaffe or FLAK) otherwise you won	t lose the AUX air transport units (you have them in great numbers in case of loss due to German Luftwaffe or FLAK) otherwise you won
+4519	t be able to deploy your CORE forces.	t be able to deploy your CORE forces.
+4521	b) If you allocate let's say 10 airborne UNDE PLOYED infantry units at the beginning of a scenario, and if you have a few air transports, all you have to do is to move your air transport units where you want (and hope that AI has no AD or helo units close), then where and when you want (you don't hav e to use your paratroops at the very 1st turn, you can wait) you deploy the paratroops.	b) If you allocate let's say 10 airborne UNDE PLOYED infantry units at the beginning of a scenario, and if you have a few air transports, all you have to do is to move your air transport units where you want (and hope that AI has no AD or helo units close), then where and when you want (you don't hav e to use your paratroops at the very 1st turn, you can wait) you deploy the paratroops.
+4523	c) Of course the standard use of airborne units still works: they may still embark from any airfield.	c) Of course the standard use of airborne units still works: they may still embark from any airfield.
+4577	In 3 scenarios a map is delivered (see the JPEG file),	In 3 scenarios a map is delivered (see the JPEG file),
+4584	print	print
+4590	the map to locate your objectives.	the map to locate your objectives.
+4637	Hidden VH	Hidden VH
+4660	a) There are VH	a) There are VH
+4662	s belonging to Germany but no flag is set (via Luis ' Suite) so they cannot appear on the map (they are "hidden"), as a result you have to follow instructions in the readme scenario file in order to find where are located enemy VH's (Doug even delivered a paper map and you have to look at this JPEG file to know where are located the VH's in the game).	s belonging to Germany but no flag is set (via Luis ' Suite) so they cannot appear on the map (they are "hidden"), as a result you have to follow instructions in the readme scenario file in order to find where are located enemy VH's (Doug even delivered a paper map and you have to look at this JPEG file to know where are located the VH's in the game).
+4664	b) there are also allied VH's which don't have any US flag, so you ignore their existence (until it's too late) but the AI recognizes them very well and captures them, then they appear with the German flag and the game goes on normally.	b) there are also allied VH's which don't have any US flag, so you ignore their existence (until it's too late) but the AI recognizes them very well and captures them, then they appear with the German flag and the game goes on normally.
+4703	You have enough AUX units to win, purchase only units needed to replace your destroyed core forces You have enough prestige to replace dead units with brand new	You have enough AUX units to win, purchase only units needed to replace your destroyed core forces You have enough prestige to replace dead units with brand new
+4705	two stars	two stars
+4707	units with upgrade to get a twelve basic strength.	units with upgrade to get a twelve basic strength.
+4725	Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).	Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).
+4778	Aircrafts belonging to the fighter class (e.g. the British naval carrier based aircraft Typhoon) can be repaired and resupplied on its carrier and on any Allied ground airfield.	Aircrafts belonging to the fighter class (e.g. the British naval carrier based aircraft Typhoon) can be repaired and resupplied on its carrier and on any Allied ground airfield.
+4826	In conclusion this campaign has many surprises but please purchase only allowed units and respect the instructions included in scenario readme files.	In conclusion this campaign has many surprises but please purchase only allowed units and respect the instructions included in scenario readme files.
+4871	Campaign path	Campaign path
+4883	See details in the Excel file	See details in the Excel file
+4892	BOB.xls	0
+4956	Your comments	Your comments
+4968	All comments good or bad are welcome at	All comments good or bad are welcome at
+5001	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+5011	Feel free to join us on People	Feel free to join us on People
+5013	s General forum at:	s General forum at:
+5048	http://pub131.ezboard.com/fjpspanzersfrm10	0
+5070	D. What this Campaign is not	D. What this Campaign is not
+5077	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People
+5079	s General and PG2 might be considered as "colorful" chess games.	s General and PG2 might be considered as "colorful" chess games.
+5090	E. Acknowledgements	E. Acknowledgements
+5097	My appreciation goes to	My appreciation goes to
+5103	D. Hone	D. Hone
+5107	the campaign designer	the campaign designer
+5113	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People
+5115	s General forum.	s General forum.
+5121	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.

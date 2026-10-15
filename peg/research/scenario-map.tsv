@@ -1,0 +1,1076 @@
+# PeG 场景文本译文映射（原文串模式）
+# 依据：peg/research/场景文本方案.md + ui-glossary.tsv + 术语平衡口径.md
+# 规则（用户 2026-10-10 确认）：
+#   M 地图地名（*_m.txt）→ 纯译，**不加原文括号**（六角格空间极小）
+#   S/I/V/L → 译后加原文括号，且**每次出现都加**（在 gen_scn_zh.py 中自动处理）
+# 本文件只放「基础译名」（不含括号），括号由生成器按文件类型决定是否附加。
+#
+# ============ M 类：地图地名（纯译） ============
+# ---- 功能标记（地图上的功能点，非地名）----
+Supply	补给
+Supply Point	补给点
+Jungle	丛林
+LAKE	湖泊
+Crops	农田
+Rice Crops	稻田
+Rubber Crops	橡胶园
+Jungle Elephant Path	丛林象道
+# ---- 战役名（在地图选择列表）----
+1-Tutorial	教学
+Acroma	阿克罗玛
+Advance on Vladivostok (3 Player)	向符拉迪沃斯托克推进（3 人）
+Allied Drive on Seoul	盟军进军首尔
+Armored Fist at Taegu	大邱装甲铁拳
+Asian Clash	亚洲冲突
+Assault at Seoul	首尔突击
+Attack of the Plei Me Camp	波来美营地之战
+Attack on Khe Sanh	溪山攻击战
+Bangladesh in Peril	孟加拉危局
+Beachhead at Inchon	仁川登陆场
+Border War at Khabarovsk	哈巴罗夫斯克边境战
+Breakout Through Pusan	突围釜山
+Breakout at Seoul (4 Player)	首尔突围（4 人）
+Breakthrough at Taejon	大田突破
+Charge at Chir (3 Player)	奇尔冲锋（3 人）
+Clash at Bangkok (4 Player)	曼谷冲突（4 人）
+Crashing Khabarovsk (3 Player)	强袭哈巴罗夫斯克（3 人）
+Crazy in Kazan	喀山狂想
+Crossing Pakistani Border	越巴基斯坦边境
+Crossing to Khabarovsk	渡河向哈巴罗夫斯克
+Dash for Ho Chi Minh City (2 Player)	突进胡志明市（2 人）
+Defending Seoul	保卫首尔
+Defiance at Ulan Ude (3 Player)	乌兰乌德抗命（3 人）
+Escape from Vung Tau	逃离头顿
+Fall Back to Taejon	退回大田
+Formosa Liberation	解放台湾
+Fortress Irkutsk	伊尔库茨克要塞
+Free Almaty	解放阿拉木图
+Fury in Hanoi (2 Player)	河内之怒（2 人）
+Havoc at Almaty (3 Player)	阿拉木图鏖战（3 人）
+Homeland Attack in Punjab	旁遮普本土攻击
+Hordes at Ekaterinburg (2 Player)	叶卡捷琳堡蜂拥（2 人）
+Invasion Irkutsk	入侵伊尔库茨克
+Kazan: Crossing the Volga	喀山：强渡伏尔加
+Kazan: The Frozen Field	喀山：冰封原野
+Komrades in Kazan	喀山的同志
+Laos Counteroffensive	老挝反攻
+Last Man Standing in Pusan	釜山最后一人
+Liberation of Hainoi	解放河内
+Liberation of Ho Chi Minh	解放胡志明
+March Towards Vladivostok	向符拉迪沃斯托克进军
+Military Region IV Crisis	第四军区危机
+Mountain War on Sakhalin	萨哈林山地战
+Onward to Almaty	进军阿拉木图
+Operation 'High Jump'	"高跳"行动
+Operation 'Sawad'	"萨瓦德"行动
+Operation Viper	蝰蛇行动
+Payback at Penang (4 Player)	槟城复仇（4 人）
+Pile up at Penang	槟城集结
+Pocketing Irkutsk (3 Player)	合围伊尔库茨克（3 人）
+Primed for Penang	备战槟城
+Raid at Bingh Gia	平嘉突袭
+Rails to Ekaterinburg	通往叶卡捷琳堡的铁路
+Rally at Kazan (2 Player)	喀山集结（2 人）
+Recapture Hanoi	夺回河内
+Recapture Taejon	夺回大田
+Red Flag Over Chir	奇尔红旗
+Redemption at Pusan (2 Player)	釜山救赎（2 人）
+Repulse at Astrakhan (2 Player)	阿斯特拉罕击退（2 人）
+Riots in Bangladesh	孟加拉骚乱
+Rumble on the Roads to Vladivostok	符拉迪沃斯托克路上轰鸣
+Sacking Sakhalin (2 Player)	洗劫萨哈林（2 人）
+Sacrifice at Sakhalin Island	萨哈林岛牺牲
+Sakhalin: Battle in the Wilds (2 Player)	萨哈林：荒野之战（2 人）
+Siege of Singapore (4 Player)	新加坡围攻（4 人）
+Storming Volgograd	强攻伏尔加格勒
+Storming Volgograd (2 Player)	强攻伏尔加格勒（2 人）
+Storming Volgograd Again!	再攻伏尔加格勒！
+Tempest in Taipei	台北风暴
+Tet Offensive	春节攻势
+The Highway at Volokolamsk	沃洛科拉姆斯克公路
+The Rebels' Nest	叛军巢穴
+The Sack of Pusan	洗劫釜山
+Trading Blows in Taejon (2 Player)	大田交锋（2 人）
+Westward to Ekaterinburg	西进叶卡捷琳堡
+Map of Chir	奇尔地图
+Map of Kazan	喀山地图
+Map of KazanSnow	喀山雪地图
+Map of Khabarovsk	哈巴罗夫斯克地图
+Map of Klin	克林地图
+Map of Seoul	首尔地图
+Map of Taipei	台北地图
+Road to Vladivostok	通往符拉迪沃斯托克之路
+# ---- 俄罗斯 / 西伯利亚 / 中亚（城市）----
+Vladivostok	符拉迪沃斯托克
+Khabarovsk	哈巴罗夫斯克
+Kharbarovsk	哈巴罗夫斯克
+Kazan	喀山
+Volgograd	伏尔加格勒
+Uralmash	乌拉尔马什
+Ekaterinburg	叶卡捷琳堡
+Ekaterinenburg	叶卡捷琳堡
+Irkutsk	伊尔库茨克
+Almaty	阿拉木图
+Yudino	尤季诺
+Zelendol'sk	泽列诺多尔斯克
+Kuri	九里
+Volzhshiy	伏尔加斯基
+Arkhangelovka	阿尔汉格洛夫卡
+Artem	阿尔乔姆
+Knyaze-Volkon	克尼亚泽-沃尔孔
+Okeanskaya	奥克安斯卡亚
+Ulan Ude	乌兰乌德
+Novonezhino	新涅日诺
+Petovka	佩托夫卡
+Romanovko	罗曼诺夫卡
+Astrakhan	阿斯特拉罕
+Aran	阿兰
+Berezovskiy	别列佐夫斯基
+Donok	多诺克
+Kurganovko	库尔加诺夫卡
+Shelekov	舍列霍夫
+Sysert'	瑟谢尔季
+Verkhnaya Makarova	上马卡罗瓦
+Bol'shiye Kabany	大卡巴内
+Bol'shiye Memi	大梅米
+Burnoshevo Russkoye	布尔诺舍沃-鲁斯科耶
+Burunduki	布伦杜基
+Butyri	布特里
+Cheshlamo	切什拉莫
+Ebolakovo	埃博拉科沃
+Kamskoye Ust'ye	卡姆斯科耶乌斯季耶
+Karachevo	卡拉切沃
+Kartashika	卡尔塔希卡
+Kaybitsy	凯比齐
+Korgaza	科尔加扎
+Kozlovka	科兹洛夫卡
+Lyutkino	柳特基诺
+Maydan	迈丹
+Molyino	莫利诺
+Nizhniy Uslan	下乌斯兰
+Nurlaty	努尔拉特
+Rozhdestveno	罗日杰斯特韦诺
+Saraly Tatarskiye	萨拉雷-鞑靼
+Shanguty	尚古特
+Sokury	索库雷
+Suchan	苏昌
+Sviyazlisk	斯维亚日斯克
+Tashkirmen'	塔什基尔门
+Tegesheva	捷格舍瓦
+Ten'ki	坚基
+Toishevo	托伊舍沃
+Tuskovka	图斯科夫卡
+Verkhniy Uslan	上乌斯兰
+Verkhniye Vyosovyye	上维奥索维耶
+Volhsk	沃尔日斯克
+Voroby'este	沃罗比约夫斯科耶
+Yeognchino	延奇诺
+Aleksandrovka	亚历山德罗夫卡
+Beketovka	别凯托夫卡
+Desyatnikova	杰夏特尼科瓦
+Kaztsika	卡兹齐卡
+Krasnoarmeysk	红军城
+Raygorod	赖戈罗德
+Solodniki	索洛德尼基
+Sredne-Pogromnoye	中波格罗姆诺耶
+Zaplavnoye	扎普拉夫诺耶
+Zety	泽特
+Chertonbay	切尔通拜
+Bol'shaya Safonovka	大萨福诺夫卡
+Chepchiki	切普奇基
+Garovka	加罗夫卡
+Hsiao-wen-t'sai	小温蔡
+Kamyzyok	卡梅久克
+Konstaninovka	康斯坦丁诺夫卡
+Malyshevskoye	马雷舍夫斯科耶
+Nekrasovka	涅克拉索夫卡
+Obor	奥博尔
+Osipovka	奥西波夫卡
+Sergeyevka	谢尔盖耶夫卡
+Sinivaya Rechka	锡尼瓦亚列奇卡
+Tamna	塔姆纳
+Tungusskiy Zavod	通古斯工厂
+Vladimirovka	弗拉基米罗夫卡
+Volochayovka Vtoraya	第二沃洛恰耶夫卡
+Zmeykovskiy	兹梅伊科夫斯基
+Kondratenkovo	孔德拉滕科沃
+Kuda	库达
+Shkotovo	什科托沃
+Beloyarskoye	别洛亚尔斯科耶
+Bogayevo	博加耶沃
+Boredulino	博列杜利诺
+Brasnyatskoye	布拉斯尼亚茨科耶
+Cherdantsevo	切尔丹采沃
+Davydova	达维多瓦
+Gagarskaya	加加尔斯卡亚
+Gorniyy Shchit	戈尔内希特
+Innokent'yevskiy	因诺肯季耶夫斯基
+Kalinino	加里宁诺
+Kamyshevskoye	卡梅舍夫斯科耶
+Kashina	卡希纳
+Kungurka	昆古尔卡
+Loginovo	洛吉诺沃
+Maksimovskoye	马克西莫夫斯科耶
+Maloye	马洛耶
+Maloye Goloustnoye	小戈洛乌斯特诺耶
+Mezenskoye	梅津斯科耶
+Nizhne-Isetskiy	下伊谢茨基
+Novorossiskoye	新罗西斯克耶
+Poldnevaya	波尔德涅瓦亚
+Polevsk'oy	波列夫斯科伊
+Severskiy	谢韦尔斯基
+Staryy Tuzulkay	旧图祖尔凯
+Lesogorsk	列索戈尔斯克
+Poronarsk	波罗奈斯克
+Uglegorsk	乌格列戈尔斯克
+Volokolamsk	沃洛科拉姆斯克
+Klin	克林
+Nudol'Sarino	努多利-萨里诺
+Pervaya Rechka	第一列奇卡
+Privokzal'ny	普里沃克扎尔内
+Ostasova	奥斯塔绍瓦
+Sudnikovo	苏德尼科沃
+Suvorovo	苏沃罗沃
+Spass	斯帕斯
+Solnogorsk	索尔诺戈尔斯克
+Sibong	西邦
+Torbung	托尔邦
+Jednevo	杰德涅沃
+Jogh	约格
+Kaverino	卡韦里诺
+Kostrovo	科斯特罗沃
+Krolevets	克罗列韦茨
+Krovlevets	克罗列韦茨
+Mansurovo	曼苏罗沃
+Michajlovskoje	米哈伊洛夫斯科耶
+Nemirovo	涅米罗沃
+Nikalskoje	尼卡尔斯科耶
+Novopetrovskoje	新彼得罗夫斯科耶
+Pokrojskoje	波克罗伊斯科耶
+Rogatschewo	罗加乔沃
+Samokhvalovka	萨莫赫瓦洛夫卡
+Tar'ajevo	塔拉耶沃
+Terachovo	捷拉霍沃
+Vlaskovo	弗拉斯科沃
+Vorobjevo	沃罗比约沃
+Woronino	沃罗尼诺
+Fedoroloka	费多罗洛夫卡
+Blinovskiy	布利诺夫斯基
+Kalmykov	卡尔梅科夫
+Kletskaya	克列茨卡亚
+Perelazovsky	佩列拉佐夫斯基
+Pronin	普罗宁
+Serafimov	谢拉菲莫夫
+Sovetskaya	苏维埃茨卡亚
+Ust'-Khoperskaya	乌斯季-霍皮奥尔斯卡亚
+Zhirkovski	日尔科夫斯基
+Gorbatovski	戈尔巴托夫斯基
+Madveditsa River	马德韦迪察河
+Medvezhii	梅德韦日
+Nachalovo	纳恰洛沃
+Krasny Yar	红亚尔
+Rychun River	雷春河
+Volkha River	沃尔哈河
+Skirokaya River	希罗卡亚河
+Srednaya Akhtuba	中阿赫图巴
+Svetlyy Tar	斯韦特雷塔尔
+Kriushka River	克留什卡河
+Kurtlak River	库尔特拉克河
+Tsutskai River	楚茨凯河
+Zariza River	扎里扎河
+Dubovsky	杜博夫斯基
+Dubovyy Ovrag	杜博维奥夫拉格
+Khazhetay	卡热泰
+Nailawa	奈拉瓦
+# ---- 河流 / 湖泊 / 溪流 ----
+Volga River	伏尔加河
+Amur River	阿穆尔河
+Ussuri River	乌苏里江
+Mesha Stream	梅沙溪
+Atikara Stream	阿蒂卡拉溪
+Ozero Petropavlovskoye	彼得罗巴甫洛夫斯科耶湖
+Ubukun River	乌布昆河
+May-Khe River	梅赫河
+Bol'shaya Shumikha River	大舒米哈河
+Malaya Polovinka River	小波洛夫卡河
+Malya Alatay River	小阿拉泰河
+Okoril River	奥科里尔河
+Ola River	奥拉河
+Ozero Baykal	贝加尔湖
+Baykal	贝加尔
+Algurna Stream	阿尔古尔纳溪
+Burla Stream	布尔拉溪
+Chirka River	奇尔卡河
+Kama River	卡马河
+Staraya Kama River	旧卡马河
+Angara River	安加拉河
+Akhtuba River	阿赫图巴河
+Orongay River	奥龙盖河
+Selenga River	色楞格河
+Uranin River	乌拉宁河
+Boldushka River	博尔杜什卡河
+Buzan River	布赞河
+Kazakevicheva River	卡扎克维奇河
+Malaya Chernaya Stream	小黑溪
+Obor Stream	奥博尔溪
+Protoka Khokhlatskaya River	霍赫拉茨卡亚水道
+Sita Stream	锡塔溪
+Tarnavaya River	塔尔纳瓦亚河
+Tunguska River	通古斯卡河
+Kamenko River	卡缅科河
+Malaya Batal'naya River	小巴塔利纳亚河
+Malaya Sitsa River	小锡察河
+Ruydun-Gova-khe River	鲁伊敦-戈瓦赫河
+Sukhodol River	苏霍多尔河
+Bol'shaya Makhovaya River	大马霍瓦亚河
+Burduguz River	布尔杜古兹河
+Goloustnaya River	戈洛乌斯特纳亚河
+Ijak River	伊亚克河
+Irkutsk River	伊尔库茨克河
+Iset' River	伊谢季河
+Kaya River	卡亚河
+Ketil River	克季尔河
+Krestovka River	克列斯托夫卡河
+Krivozudiya River	克里沃祖迪亚河
+Kurina River	库里纳河
+Lanka River	兰卡河
+Levaya' Ushakovka River	左乌沙科夫卡河
+Nizhniy Kachergal River	下卡切尔加尔河
+Olsha River	奥尔沙河
+Polivanikha River	波利瓦尼哈河
+Polovinnaya River	波洛温纳亚河
+Pravaya Ushakovka River	右乌沙科夫卡河
+Puk'an Stream	釜安溪
+Pushma River	普什马河
+Rai River	赖河
+Shibartuy River	希巴尔图伊河
+Slyudyanka River	斯柳江卡河
+Talitsa River	塔利察河
+Tangwol River	唐沃尔河
+Ushakovka River	乌沙科夫卡河
+Yelovaya River	叶洛瓦亚河
+Esutoru-u-aawa River	惠须取河
+Horonai-gawa River	幌内川
+Okutai-gawa River	奥库泰河
+Nudol' River	努多利河
+Bol'saja River	大列奇卡河
+Han River	汉江
+Han-gang River	汉江
+Imjin River	临津江
+Kum River	锦江
+Naktong River	洛东江
+Ulsan River	蔚山江
+Red River	红河
+Chao Praya River	湄南河
+Lama River	喇嘛河
+Langai River	兰盖河
+Loknas River	洛克纳斯河
+Malaja River	马列奇卡河
+Baulai River	包莱河
+Kaverino?	—
+# ---- 东亚：韩 / 朝 ----
+Seoul	首尔
+Pusan	釜山
+Inchon	仁川
+Taejon	大田
+Taech'on	泰川
+Ulsan	蔚山
+Kimpo	金浦
+Kimhae	金海
+P'aju	坡州
+Nonsan	论山
+Yangsan	梁山
+Chinhae	镇海
+Kwach'on	果川
+Masan	马山
+Miryang	密阳
+Kanggyong	江景
+Kongju	公州
+Puyo	扶余
+Songnam	城南
+Uijongbu	议政府
+Kumch'on	金川
+Kaesong	开城
+Kanghwa	江华
+Panmunjom	板门店
+P'anmunjom	板门店
+Tongduch'on	东豆川
+Ulsong	蔚城
+Waegwan	倭馆
+Yongdok	宁德
+Yonmu	论武
+Yongsan	龙山
+Ch'angwon	昌原
+Chinyong	进永
+Chongja	清津
+Chonji	天池
+Hanam	河南
+Kijang	机张
+Munung	文雄
+Namch'ang	南仓
+Onyang	温阳
+Samnangjin	三浪津
+Tongsan	东山
+Ungchon	熊川
+Yonmu?	—
+Kumwi	龟尾
+Samnagjnin	三浪津
+Naktong-ni	洛东里
+P'ohang-dong	浦项洞
+# ---- 东亚：日本（南萨哈林）----
+Chio	千绪
+Chiwagai	奇瓦盖
+Hatsutai	哈茨泰
+Morotsu	诸津
+Toyohata	丰畑
+Toro	塔路
+Tahei	太平
+Chin	知念
+Pangojin	板门店
+# ---- 东亚：中国台湾 ----
+Taipei	台北
+Keelung	基隆
+Hsinchuang	新庄
+Hsinfeng	新丰
+Hsintien	新店
+Chungho	中和
+Chungli	中坜
+Chupei	竹北
+Chutung	竹东
+Kuanyin	观音
+Lotung	罗东
+Lungtan	龙潭
+Suao	苏澳
+Tanshui	淡水
+Taoyuan	桃园
+Tayuan	桃园
+Toucheng	头城
+Tucheng	土城
+Tungshan	东山
+Wuchieh	五结
+Yingge	莺歌
+Yingko	莺歌
+Yuanshan	圆山
+Chiaochi	礁溪
+Tomb of Chiang Kai-Shek	蒋介石陵寝
+Choshui Hsi Stream	浊水溪
+Tanshui Ho River	淡水河
+Tanshui Kang River	淡水港
+Hsiao-wen-t'sai?	—
+# ---- 东南亚：越南 ----
+Hanoi	河内
+Ho Chi Minh City	胡志明市
+Haiphong	海防
+Da  Nang	岘港
+Bien Hoa	边和
+Saigon	西贡
+Hue	顺化
+Khe Sanh	溪山
+Kontum	昆嵩
+Plei Me	波来美
+Vung Tau	头顿
+Vung Tao	头顿
+Tan An	新安
+My Tho	美湫
+Can Duoc	芹德
+Can Gio	芹椰
+Go Cong	鹅贡
+Bac Giang	北江
+Bac Ninh	北宁
+Ha Dong	河东
+Hai Du'o'ng	海阳
+Nam Mau	南茂
+Ninh Giang	宁江
+Dong Trieu	东潮
+Hoanh Bo	横蒲
+Kien An	建安
+Ke Sat	计萨
+Luc Nam	陆南
+Lo Hanh	罗亨
+Phu Xuan	富春
+Tan Hop	新合
+Tan Lien	新莲
+Tan Canh	新景
+Tuy Hoa	绥和
+Trang Bang	庄旁
+Long Thanh	隆城
+Long Dien	隆田
+Long Hai	隆海
+Long Huong	隆香
+Long Binh	隆平
+Dat Do	达多
+Dat-Do	达多
+Xuan Loc	春禄
+Hoa Xuan	和春
+Hoi An	会安
+Hoc Mon	霍门
+Cu Chi	古芝
+Ben Cat	边吉
+Ben Co	边古
+Ben Coi	边瑰
+Ben San	边山
+Ben Suo	边朔
+Bien Dong	东海
+Binh Loi	平利
+Duc Hoe	德和
+Hieu Thien	孝善
+Hoi Bai	湖拜
+Lai Khe	莱溪
+Lhang Puoc Hai	兰普海
+Lin Sonh	林山
+My Xuan	美春
+Phu Choo	富周
+Phuoc Hiep	福协
+Phuoc Le	福礼
+Phuoc Trung	福中
+Phuoc Vinh	福荣
+Phuoc-Hai	福海
+Phu Bai	富牌
+Phu Cuong	富强
+Phu Loc	富禄
+Xa Bin Hia	舍平夏
+Xa Cam My	舍甘美
+Xa Gia Kien	舍嘉建
+Xom Xoai Minh	村鲜明
+Ap Bac Lan	邑北兰
+Ap Bau Bang	邑保邦
+Ap Binh Hoa	邑平和
+Ap Dhong Thanh	邑同盛
+Ap Tan Phong	邑新丰
+Ap Tan Thuan	邑新顺
+An Nhu't Thao	安日草
+Ba Ria	巴地
+Ba-Ria	巴地
+Thai Thien	泰善
+Thon Dai La	村大罗
+To NVA Jungle Base	北越军丛林基地
+Tou Morong	都莫龙
+Phu'o'c Tho	福寿
+Phu O'c An	福安
+Cho' Phu'o'c Hai	福海市
+Cho Giu'a	中间市
+Ma Cooih	马古
+Ka Dang	卡登
+Khe Tre	溪则
+Lang Vay	朗外
+Lang Vei	朗威
+Deo Hai Van	海云岭
+Nam River	南江
+Song Ba River	巴河
+Song Quang Tri River	广治河
+Song Dang Nai River	同奈河
+Song Sai Gon River	西贡河
+Song Trang Bang River	庄旁河
+Song Cao Stream	高溪
+Song Luc Ngan Stream	陆岸溪
+Song Thai Binh Stream	太平溪
+Saigon River	西贡河
+Saigon river	西贡河
+Dong Nai river	同奈河
+West Vom Co Dong river	西万古东河
+Vom Co Dong river	万古东河
+Ia Drang	德浪
+Ia Drang River	德浪河
+Ia Ga River	伊阿加河
+Ia Glae River	伊阿格莱河
+Ia Neut River	伊阿纽特河
+Ia Toe River	伊阿托埃河
+# ---- 东南亚：泰国 / 缅甸 / 马来 / 新加坡 ----
+Bangkok	曼谷
+George Town	乔治市
+Johore Bahru	新山
+Johore Strait	柔佛海峡
+Prachin Buri	巴真武里
+Penang Bridge	槟城大桥
+Penang	槟城
+Butterworth	北海
+Bukit Mertajam	大山脚
+Bukit Metajam	大山脚
+Kulim	居林
+Keluang	居銮
+Kota Tinggi	哥打丁宜
+Kukup	龟咯
+Kulai	古来
+Ulu Tiram	乌鲁地南
+Yong Peng	永平
+Pengerang	边佳兰
+Pontian Kechil	小笨珍
+Pontian River	笨珍河
+Sembewang	森布旺
+Simpang River	新邦河
+Sungai Potani	波塔尼河
+Sungal Siput	双溪西普
+Kampung Tanab Puteh	甘榜丹那布爹
+Kep	白马
+Nakhon Nayak	那空那育
+Nonthabun	暖武里
+Ongkharak	翁卡叻
+Phachi	帕栖
+Phra Nakha Si Ayutthaya	大城
+Rangsit	兰实
+Saraburi	北标
+Tha Rua	他鲁阿
+Wamg Noi	旺内
+Khlong Sip Si	空四十四
+Klong Sip Si	空四十四
+Lam Luk Ka	兰卢加
+Lam	兰
+Rangoon	仰光
+Moulmein	毛淡棉
+Magwe	马圭
+Meiktila	密铁拉
+Prome	卑谬
+Pyapon	璧磅
+Sittwe	实兑
+Wakema	瓦溪码
+Yenangyaung	仁安羌
+Toungoo	东吁
+Akyab	阿恰布
+Bogale	博葛礼
+Irrawady River	伊洛瓦底江
+Salween River	萨尔温江
+Sittang River	锡当河
+Bhola	波拉
+Barisal	巴里萨尔
+Chittagong	吉大港
+Chandraghona	昌德拉戈纳
+Comilla	库米拉
+Dhaka	达卡
+Gouripur	古里普尔
+Habiganj	哈比甘杰
+Aijal	艾贾尔
+Khagrachari	卡格拉查里
+Laksham	拉克沙姆
+Madaripur	马达里布尔
+Munshiganj	蒙希甘杰
+Narayanganj	纳拉扬甘杰
+Nazir Hat	纳齐尔哈特
+Noakhali	诺阿卡利
+Patuakhali	帕图阿卡利
+Rangamati	兰加马蒂
+Rautpur	拉乌特普尔
+Sylhet	锡尔赫特
+Chaatak	查塔克
+Brahmanbaria	婆罗门巴里亚
+Mushinganj	穆辛甘杰
+Munang	穆南
+Karnaphuli River	卡纳普里河
+Karnaphuli Reservoir	卡纳普里水库
+Dhaleswari River	达莱斯瓦里河
+Meghna River	梅克纳河
+Surma River	苏尔马河
+Padma River	帕德玛河
+Brahmaputra River	布拉马普特拉河
+# ---- 南亚：印度 / 巴基斯坦 ----
+Bishenpur	比申普尔
+Imphal	英帕尔
+Kanglatongbi	康拉通比
+Oinam	奥伊纳姆
+Palel	帕莱尔
+Sangshak	桑沙克
+Sengmai	森迈
+Shuganu	舒加努
+Silchar	锡尔查尔
+Tairenpokpi	泰伦波克皮
+Yairipok	亚伊里波克
+Chaman	查曼
+Dera Ghazi Khan	德拉加齐汗
+Dera Ismail Khan	德拉伊斯梅尔汗
+Jacobabad	雅各布阿巴德
+Khost	霍斯特
+Larkana	拉尔卡纳
+Multan	木尔坦
+Nawabshah	讷瓦布沙阿
+Quetta	奎达
+Sibi	锡比
+Sukkur	苏库尔
+Manipur River	曼尼普尔河
+Thoubal River	图巴尔河
+Chir	奇尔
+Chir River	奇尔河
+Chi Ho River	奇河
+Jamuga	贾穆加
+Jaria	贾里亚
+Litan	利坦
+# ---- 军事地点 / 高地 / 营地 ----
+Sidi Rezegh	西迪雷泽格
+Tobruk	托布鲁克
+El Aden	埃尔阿登
+Toledo	托莱多
+Filadelfia	费拉德尔菲亚
+Fuerte Boquerón	博克龙堡
+Loma Plata	洛马普拉塔
+Mariscal Estigarribia	埃斯蒂加里维亚元帅镇
+Cismana	西斯马纳
+King's Cross	国王十字
+Carrier Hill	航母山
+Hatian Ridge	哈蒂安岭
+Rigel Ridge	参宿七岭
+Mamayev Kurgan	马马耶夫高地
+Hill 471	471 高地
+Hill 558	558 高地
+Hill 689	689 高地
+Hill 861A	861A 高地
+Hill 881N	881N 高地
+Hill 881S	881S 高地
+Hill 950	950 高地
+Pt 187	187 高地
+Pt 208	208 高地
+LZ Albany	奥尔巴尼着陆场
+LZ Victor	维克托着陆场
+LZ X-Ray	X 光着陆场
+KS Combat Base/Airstrip	KS 战斗基地/简易机场
+Dak Pek SF Camp	达佩特种部队营地
+Dak Seang SF Camp	达桑特种部队营地
+Dak To SF Camp	达多特种部队营地
+Plei Me SF Camp [AIRFIELD]	波来美特种部队营地 [机场]
+Plei Neute	波来纽特
+Plei Tpang	波来特邦
+Polei Kotang	波雷科唐
+Guerilla HQ	游击队司令部
+Old French Fort [FORT]	法国旧堡 [要塞]
+Pusan [AIRFIELD]	釜山 [机场]
+Bay of Bengal [OCEAN]	孟加拉湾 [海洋]
+Saigon [Independence Palace]	西贡 [独立宫]
+Saigon [Radio Station]	西贡 [广播电台]
+Saigon [US Embassy]	西贡 [美国大使馆]
+Sakhalin	萨哈林
+Provincial Road 6C	6C 省道
+# ---- 零散补全 ----
+Aksatovo	阿克萨托沃
+Anyang	安养
+Ban Toei	班兑
+Ban toei	班兑
+Ban Yen Nhan	安仁村
+Bang Plang	邦巴朗
+Ben Lu'c	边力
+Bol'shaya Rechka River	大列奇卡河
+Bol'shaya Rossoshka	大罗索什卡
+Bol'shiye Chapurniki	大恰普尔尼基
+Bol'shoy Ogitsai River	大奥吉察伊河
+Changhang	长项
+Chanji	昌吉
+Chi Ngai	芝崖
+Choch'iwon	鸟致院
+Chongyang	青阳
+Chí Thanh	志清
+Co Mi	古美
+Dmitriyevko	德米特里耶夫卡
+Don River	顿河
+Fogel	福格尔
+Ganyushi	甘尤什
+Gorodishche	戈罗季谢
+Hongsong	洪松
+Issyk	伊塞克
+Ivanovka	伊万诺夫卡
+Kaban'ye River	卡班耶河
+Kahang River	卡杭河
+Karakamyr	卡拉卡米尔
+Karolok River	卡罗洛克河
+Kaskelen	卡斯克连
+Kaskelen River	卡斯克连河
+Khatisun River	卡蒂顺河
+Korou River	科鲁河
+Kumsan	锦山
+Kunsan	群山
+Kuytunka River	库伊通卡河
+Kwangch'on	广川
+Kwangjong	光宗
+Linggiu River	林吉乌河
+Migum	米古姆
+Naikawa	内川
+Nikolayevko	尼古拉耶夫卡
+Novoalekseyevka	新阿列克谢耶夫卡
+Ongustoy River	翁古斯托伊河
+P'och'on	抱川
+Puch'on	富川
+Ruza River	鲁扎河
+Shanshia	山夏
+Solontsevaya River	索隆采瓦亚河
+Taegu	大邱
+Talgai	塔尔盖
+Tashty Kara	塔什特卡拉
+Tay Ninh	西宁
+Tay Ninh West	西宁西
+Tinh River	定河
+Turgen	图尔根
+Ulitsa River	乌利察河
+Ushkovka	乌什科夫卡
+Volga-Don Canal	伏尔加-顿河运河
+Volosn'a River	沃洛斯纳河
+Wangjing	望京
+# ============ 第 2 轮补充（未命中清单） ============
+# ---- 遗漏的地名 ----
+Singapore	新加坡
+Wu-su-chen	吴苏镇
+Taiping	太平
+Mokryy Stream	莫克雷溪
+Baisik River	白锡河
+Betong	勿洞
+Changan	长安
+Malyye Chapurniki	小恰普尔尼基
+Ambat River	安巴特河
+Benut River	贝努特河
+Gil'bin River	吉尔宾河
+Nang Rang River	南让河
+Sapkyo River	沙桥河
+Soletar	索莱塔尔
+Tarbagatay	塔尔巴加泰
+Bolshaya Donschinka	大顿申卡
+Khuper River	胡佩尔河
+Pate	帕特
+Kandahar	坎大哈
+Sarajevo	萨拉热窝
+# ---- 阵营 / 兵种 ----
+Western	西方
+Eastern	东方
+Village	村庄
+INSTALLATION	安装
+NOTES	备注
+Playing tip:	玩法提示：
+Playing tips:	玩法提示：
+# ---- 组织 / 势力 ----
+Taliban	塔利班
+al-Qaida	基地组织
+al-Qadia	基地组织
+Pakistani Militants	巴基斯坦武装分子
+Russian Marines	俄罗斯海军陆战队
+SAS	特别空勤团
+# ---- 军舰 ----
+# ---- 战役 / 场景名 ----
+Eastern Campaign	东方战役
+Eastern Campaign Remake	东方战役重制版
+Western Campaign	西方战役
+Western Campaign Remake	西方战役重制版
+Korea Revisited	重访朝鲜
+New World Order	世界新秩序
+New World Order Remake	世界新秩序重制版
+Railroaded	铁路争端
+Railroaded Remake	铁路争端重制版
+European Intervention v.1.0	欧洲干预 v1.0
+Kazan Snow	喀山雪原
+The Road to Vladivostok	通往符拉迪沃斯托克之路
+Scenario for People's General	《人民将军》场景
+Scenario by Robert McKee.	场景制作：Robert McKee.
+# ---- 提示语 / 模板 ----
+Congratulations Commander!	恭喜，指挥官！
+Dismissed!	解职！
+Version: 1.0	版本：1.0
+Number of scenarios: 21	场景数：21
+Longest path: 21	最长路径：21
+2 Player (Multiplayer recommended)	2 人（推荐多人）
+3 Player (Multiplayer recommended)	3 人（推荐多人）
+4 Turns	4 回合
+6 Turns	6 回合
+8 Turns	8 回合
+10 Turns	10 回合
+12 Turns	12 回合
+15 Turns	15 回合
+16 Turns	16 回合
+18 Turns	18 回合
+# ---- 地名+国家（场景标题行）----
+Almaty, Kazakhstan	阿拉木图，哈萨克斯坦
+Astrakhan, Russia	阿斯特拉罕，俄罗斯
+Bangkok, Thailand	曼谷，泰国
+Ekaterinburg, Russia	叶卡捷琳堡，俄罗斯
+Hanoi, Vietnam	河内，越南
+Ho Chi Minh City, Vietnam	胡志明市，越南
+Kazan, Russia	喀山，俄罗斯
+Khabarovsk, Siberia, Russia	哈巴罗夫斯克，西伯利亚，俄罗斯
+Penang, Malaysia	槟城，马来西亚
+Pusan, South Korea	釜山，韩国
+Road to Vladivostok, Russia	通往符拉迪沃斯托克之路，俄罗斯
+Sakhalin Island, Russia	萨哈林岛，俄罗斯
+Seoul, South Korea	首尔，韩国
+Taejon, South Korea	大田，韩国
+Volgograd, Russia	伏尔加格勒，俄罗斯
+# ---- 部队编成（装备 + 阵营）----
+M46 Taliban	M46 塔利班
+BRDM-3 AT Taliban	BRDM-3 反坦克 塔利班
+BRDM-1 Taliban	BRDM-1 塔利班
+BMP-2 Taliban	BMP-2 塔利班
+DK-9 Taliban	DK-9 塔利班
+WZ523 Taliban	WZ523 塔利班
+Type 74 Taliban	74 式 塔利班
+SA-6 Gainful Taliban	SA-6 根弗 塔利班
+Serbian FH70	塞尔维亚 FH70
+Serbian M-84	塞尔维亚 M-84
+Serbian M-87 Orkan	塞尔维亚 M-87 奥坎
+Serbian T-55	塞尔维亚 T-55
+AH-64D Longbow USA	AH-64D 长弓 美国
+Bradley AT USA	布雷德利 反坦克 美国
+Engineer USA	工兵 美国
+M3A3 USA	M3A3 美国
+ULH 155 USA	ULH 155 美国
+# ============ 第 3 轮补充（部队编成/军舰/提示） ============
+Hai Phong	海防
+Engineer 10 prototype.	工兵 10 原型。
+Chingyong	进永
+Butmir	布特米尔
+Dobrinja	多布里尼亚
+EkaterinburgRebel	叶卡捷琳堡叛军
+2S19B	2S19B
+2 Player	2 人
+4: Stalingrad	4: 斯大林格勒
+7: Ekaterinaberg	7: 叶卡捷琳堡
+Crimson Tide	赤色风暴
+Delta Force	三角洲部队
+Enemy of My Enemy 	敌人的敌人 
+Commander,	指挥官，
+Good work commander!	干得好，指挥官！
+Bring me his head on a plate!	把他的首级给我端上来！
+But victory leads to glory!	但胜利带来荣耀！
+By - Robert McKee	制作 - Robert McKee
+By Paolo Galbiati	制作 Paolo Galbiati
+Complexity: Medium	复杂度：中等
+Chinese Campaign 2014-2016	中国战役 2014-2016
+2002 England	2002 英格兰
+BV in 7 of 16.	决定性胜利：16 回合中的第 7 回合。
+BV in 9 of 15 or 16 turns.	决定性胜利：15 或 16 回合中的第 9 回合。
+BV with one turn to spare.	决定性胜利：富余一回合。
+---Secret Mission---	---秘密任务---
+CV Chakri Nareubet	查克里·纳吕贝特号
+
+# ================================================================
+# 第 4–5 轮修订（2026-10-10）：部队番号按中国军队编制表述 + 舰名保留海军前缀
+#   · 第 5 轮再改：① 日本部队按日军惯例用「联队/大队/队」；② 中国部队称号统一「X式」；
+#     ③ 装备绰号引号统一「」；④ 单位名(_u.txt)不再附原文括号（见 gen_scn_zh.py NO_PAREN_RE）
+# 依据：peg/research/部队编制译法口径.md
+#   · 单位层级 = 团级（实测地图 ≈3.5 km/格）；辅助单位（防空/工兵/侦察）= 营级
+#   · 格式 = [称号/地区][兵种]第N[团/营]   （称号前置，与用户示例同型）
+#   · 舰名 = [海军前缀] + 中文舰名 + 号   （前缀一律不省略）
+# ================================================================
+# ---- A. 舰名（保留海军前缀）----
+USS Abraham Lincoln	USS 林肯号
+USS Antietam	USS 安蒂特姆号
+USS Enterprise	USS 企业号
+USS Farragut	USS 法拉格特号
+USS Leyte Gulf	USS 莱特湾号
+USS Mason	USS 梅森号
+USS Nemesis	USS 复仇女神号
+USS Sampson	USS 桑普森号
+USS Saratoga	USS 萨拉托加号
+USS Shiloh	USS 夏伊洛号
+USS Ticonderoga	USS 提康德罗加号
+USS Tucson	USS 图森号
+USS Zumwalt	USS 朱姆沃尔特号
+HMS Ark Royal	HMS 皇家方舟号
+HMS Chatam	HMS 查塔姆号
+HMS Hobart	HMS 霍巴特号
+HMS Invincible	HMS 无敌号
+HMS Kent	HMS 肯特号
+HMS Portland	HMS 波特兰号
+HMS Somerset	HMS 萨默塞特号
+HMS Trident	HMS 三叉戟号
+HMS Winston Churchill	HMS 温斯顿·丘吉尔号
+FN Charles de Gaulle	FN 戴高乐号
+FN Clemenceau	FN 克列孟梭号
+FN De La Penne	FN 德拉潘内号
+FN Duquesne	FN 迪凯纳号
+FN Suffren	FN 絮弗伦号
+GN Bayern	GN 巴伐利亚号
+JN Kirishima	JN 雾岛号
+JN Siranui	JN 不知火号
+RN Admiral Kuznetzov	RN 库兹涅佐夫号
+RN Gepard	RN 猎豹号
+RN Kirov	RN 基洛夫号
+RN Slava	RN 光荣号
+PLAN HangZhou	PLAN 杭州舰
+PLAN Harbin	PLAN 哈尔滨舰
+PLAN Qingdao	PLAN 青岛舰
+PLAN Shenzen	PLAN 深圳舰
+PLAN Shenzhen	PLAN 深圳舰
+# ---- B. 中国部队（Land Reclamation）称号前置 + 团/营 ----
+!st Gangzhou Arty	广州军区炮兵第1团
+11th Gangzhou Arty	广州军区炮兵第11团
+20th Gangzhou Arty	广州军区炮兵第20团
+3rd Shanghai Arty	上海警备区炮兵第3团
+31st Dragon Hrd Tank	龙式重型坦克第31团
+3rd Dragon Hard Tank	龙式重型坦克第3团
+42nd Dragon Hrd Tank	龙式重型坦克第42团
+$th Dragon Hrd Tank	龙式重型坦克第5团
+28th Ming Hard Tank	明式重型坦克第28团
+14th Ming Hard Tank	明式重型坦克第14团
+5th Ming Hard Tank	明式重型坦克第5团
+77th Ming Hard Tank	明式重型坦克第77团
+Type 99 1st Tin Inf	99式 天式步兵第1团
+Type 99 4th Tin Inf	99式 天式步兵第4团
+Type 99 6th Tin Inf	99式 天式步兵第6团
+Type 99 8th Tin Inf	99式 天式步兵第8团
+Type 95 3rd Zin Inf	95式 金式步兵第3团
+Engineer 2nd Mao Inf	毛式工兵第2营
+Engineer 3rd Mao Inf	毛式工兵第3营
+Engineer 5th Mao Inf	毛式工兵第5营
+Engineer 9th Mao Inf	毛式工兵第9营
+WZ523 3rd Tian	WZ523 天式装甲第3营
+WZ523 66th Tian	WZ523 天式装甲第66营
+S-300 PMU1 2nd Zhou	S-300 PMU1 周式防空第2营
+S-300 PMU1 27th Zhou	S-300 PMU1 周式防空第27营
+S-300 PMU1 40th Zhou	S-300 PMU1 周式防空第40营
+S-300 PMU1 43rd Zhou	S-300 PMU1 周式防空第43营
+S-300 PMU1 88th Zhou	S-300 PMU1 周式防空第88营
+Strela 1st AD Attach	箭式防空第1营
+Strela 8th AD Attach	箭式防空第8营
+Strela 12th AD Attch	箭式防空第12营
+2S6M Tunguska AD1	2S6M 通古斯卡防空第1营
+2S6M Tunguska AD2	2S6M 通古斯卡防空第2营
+2S6M Tunguska AD3	2S6M 通古斯卡防空第3营
+2S6M Tunguska AD4	2S6M 通古斯卡防空第4营
+Ka-50 3rd Att Helo	Ka-50 武装直升机第3团
+Ka-50 5th Att Helo	Ka-50 武装直升机第5团
+Ka-50 9th Att Helo	Ka-50 武装直升机第9团
+PT-76 33rd Kim Sung	PT-76 金成第33营
+PT-76 5th Kim Sung	PT-76 金成第5营
+PLZ-45 shezing	PLZ-45 嵊州炮兵
+PLZ-45 Schezing 2	PLZ-45 嵊州炮兵第2营
+PLZ-45 Shengzhou	PLZ-45 嵊州炮兵
+PLZ-45 Sheng	PLZ-45 嵊州炮兵
+Light Infantry Red	红旗轻步兵营
+Light Infantry Star	红星轻步兵营
+# ---- C. 日本/英国部队（同一格式）----
+3rd Taiho Hard Tank	大凤战车第3联队
+55th Taiho Hard Tank	大凤战车第55联队
+8th Taiho Hard Tank	大凤战车第8联队
+76th Taiho Hard Tank	大凤战车第76联队
+78th Shinden AT	震电反坦克第78大队
+2nd Heiwa Artillery	平和炮兵第2联队
+4th Heiwa Artillery	平和炮兵第4联队
+87th Heiwa Artillery	平和炮兵第87联队
+Helmen 4th Artillery	赫尔门炮兵第4联队
+Helmen Honor Arty	赫尔门荣誉炮兵联队
+5th Fuji Recon	富士侦察第5队
+99th Fuji Recon	富士侦察第99队
+63rd Kato Recon	加藤侦察第63队
+16th Kato Mobile Inf	加藤摩托化步兵第16联队
+5th Kato Mobile Inf	加藤摩托化步兵第5联队
+1st Showa Inf	昭和步兵第1联队
+6th Showa Inf	昭和步兵第6联队
+11th Showa Inf	昭和步兵第11联队
+76th Showa Inf	昭和步兵第76联队
+64th Helmen AD	赫尔门防空第64大队
+7th Helmen AD	赫尔门防空第7大队
+26th Helmen AD	赫尔门防空第26大队
+3rd Helmen Att Helo	赫尔门武装直升机第3队
+9th Helmen Att Helo	赫尔门武装直升机第9队
+5th BEF Inf	英国远征军步兵第5团
+23rd BEF Inf	英国远征军步兵第23团
+# ---- D. 势力/装备单位（补齐漏译 + 修内嵌替换误伤）----
+Rangers	游骑兵
+Mountainering	山地兵
+Seals	海豹突击队
+Osama bin Laden	本·拉登
+Taliban Leader	塔利班头目
+Pakistani Militiants	巴基斯坦武装分子
+Type 05-I Taliban	05-I 式塔利班
+Type 07-I Taliban	07-I 式塔利班
+PLZ-45 Taliban	PLZ-45 塔利班
+Arkhan Tigers	阿尔坎之虎
+Arkhan Artillery	阿尔坎之虎炮兵
+Light Inf	轻步兵
+Chir China - Units	奇尔中国 - 部队
+Rangoon - Units	仰光 - 部队
+Taipei China - Units	中国台北 - 部队
+Vladivostok - Units	符拉迪沃斯托克 - 部队
+M1A3 'Abrams' USA	M1A3「艾布拉姆斯」美国
+M109A6 'Paladin' USA	M109A6「圣骑士」美国
+M2A3 'Bradley' USA	M2A3「布雷德利」美国

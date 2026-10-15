@@ -1,0 +1,180 @@
+# -*- coding: utf-8 -*-
+"""PzLIGA prematch-miss 145 条的人工翻译（船名/人名/地名/德军类型词）+ 代号保留。"""
+import io, sys
+sys.stdout.reconfigure(encoding="utf-8")
+
+# src -> dst；值含汉字的才是真译；空/等于 src 表示「口径保留（不进映射）」
+T = {
+ "Agdenes lighthouse":"阿格德内斯灯塔",
+ "U-Boot":"潜艇",
+ "[USAEF]":None,
+ "Destroyer Crew":"驱逐舰舰员",
+ "[NMD]":None,
+ "3/3.Gen. Dietl":"第3/第3将军 迪特尔",
+ "3/2.Gebirgsjaeger":"第3/第2山地猎兵",
+ "Schlachtschiff Scharnhorst":"战列舰 沙恩霍斯特",
+ "Schlachtschiff Gneisenau":"战列舰 格奈森瑙",
+ "138/1.Gebirgsjaeger":"第138/第1山地猎兵",
+ "138/2.Gebirgsjaeger":"第138/第2山地猎兵",
+ "138/3.Gebirgsjaeger":"第138/第3山地猎兵",
+ "Schwerer Kreuzer Admiral Hipper":"重巡洋舰 希佩尔海军上将",
+ "Zerstoerer Paul Jacobi":"驱逐舰 保罗·雅各比",
+ "Zerstoerer Theodor Riedel":"驱逐舰 特奥多尔·里德尔",
+ "Zerstoerer Bruno Heinemann":"驱逐舰 布鲁诺·海涅曼",
+ "Zerstoerer Friedrich Eckoldt":"驱逐舰 弗里德里希·埃科尔特",
+ "Capt. Lange":"兰格舰长",
+ "Minenleger Froya":"布雷舰 弗洛亚",
+ "Norvegische Rebellen Col. Sundlo":"挪威叛军 松德洛上校",
+ "Kreuzer Eidsvol":"巡洋舰 埃兹沃尔",
+ "Kreuzer Norge":"巡洋舰 挪威",
+ "Norwegische 7. Brigade":"挪威第7旅",
+ "General Bethouart":"贝图阿尔将军",
+ "Leichter Kreuzer Koeln":"轻巡洋舰 科隆",
+ "Caproni Ca310":"卡普罗尼 Ca310",
+ "[Yorktown]":"[约克城]",
+ "[Essex]":"[埃塞克斯]",
+ "[IJN Taiyo]":"[大鹰]",
+ "[I]":None,
+ "[II]":None,
+ "[NJA]":None,
+ "I-400":"伊400号",
+ "I-401":"伊401号",
+ "USS Begley":"贝格利号",
+ "USS Patterson":"帕特森号",
+ "USS Helm":"赫尔姆号",
+ "USS Jarvis":"贾维斯号",
+ "USS Blue":"布鲁号",
+ "USS Ralph Talbot":"拉尔夫·塔尔博特号",
+ "HMAS Australia":"澳大利亚号",
+ "USS Elden":"埃尔登号",
+ "USS Bancroft":"班克罗夫特号",
+ "USS Indianapolis":"印第安纳波利斯号",
+ "USS Birminghan":"伯明翰号",
+ "USS Montpelier":"蒙彼利埃号",
+ "USS Louisville":"路易斯维尔号",
+ "USS Colorado":"科罗拉多号",
+ "Copenhagen":"哥本哈根",
+ "Rugard":"鲁加德",
+ "Wilhelm Schroeder":"威廉·施罗德",
+ "Minensuchboot 157 (M157)":"扫雷艇157号",
+ "Raeumboot 6":"扫雷艇6号",
+ "Raeumboot 7":"扫雷艇7号",
+ "163/1.KA Oskar Kummetz":"第163/第1海岸炮兵 奥斯卡·库梅茨",
+ "3/1.Gebirgsjaeger":"第3/第1山地猎兵",
+ "Gjoevik":"约维克",
+ "Zerstorer Georg Thiele":"驱逐舰 格奥尔格·蒂勒",
+ "Zerstorer Wolfgang Zenker":"驱逐舰 沃尔夫冈·岑克",
+ "Zerstorer Erich Koellner":"驱逐舰 埃里希·克尔纳",
+ "Zerstorer Diether von Roeder":"驱逐舰 迪特尔·冯·勒德尔",
+ "Zerstorer Hans Luemann":"驱逐舰 汉斯·吕德曼",
+ "Zerstorer Herman Kuenne":"驱逐舰 赫尔曼·金内",
+ "Zerstorer Anton Schmitt":"驱逐舰 安东·施密特",
+ "Zerstorer Wilhelm Heidkamp":"驱逐舰 威廉·海德坎普",
+ "U-Boat":"潜艇",
+ "Resolution":"决心号",
+ "Effingham":"埃芬厄姆号",
+ "Aurora":"曙光女神号",
+ "Fornebu Airport":"福内布机场",
+ "Militaerflugplatz Kiejller":"谢勒军用机场",
+ "Panzerschiff Luetzow":"装甲舰 吕措",
+ "Leichter Kreuzer Emden":"轻巡洋舰 埃姆登",
+ "Schwerer Kreuzer Bluecher":"重巡洋舰 布吕歇尔",
+ "Torpedoboot Moewe":"鱼雷艇 海鸥",
+ "Torpedoboot Albatross":"鱼雷艇 信天翁",
+ "Torpedoboot Kondor":"鱼雷艇 秃鹰",
+ "Capt. Wagner":"瓦格纳舰长",
+ "Minenrauemer Rauma":"扫雷艇 劳马",
+ "Pol I":None,
+ "Pol II":None,
+ "Pol IV":None,
+ "Pol V":None,
+ "Pol III":None,
+ "Minenleger Trygvason":"布雷舰 特吕格瓦松",
+ "Schulschiff Tordenskjold":"训练舰 托登舍尔德",
+ "Kongstinger":"孔斯温厄尔",
+ "Flugplatz Kristiansand":"克里斯蒂安桑机场",
+ "Leichter Kreuzer Karlsruhe":"轻巡洋舰 卡尔斯鲁厄",
+ "Torpedoboot Luchs":"鱼雷艇 山猫",
+ "Torpedoboot Greif":"鱼雷艇 狮鹫",
+ "Torpedoboot Seeadler":"鱼雷艇 海雕",
+ "Kpt.z.S Friedrich Rieve":"海军上校 弗里德里希·里韦",
+ "U-Boot B2":"潜艇 B2",
+ "U-Boot B5":"潜艇 B5",
+ "Geleitzerstoerer Odin":"护航驱逐舰 奥丁",
+ "Geleitzerstoerer Gyller":"护航驱逐舰 居勒",
+ "Kommuniaktionszentrum":"通信中心",
+ "181/1.Gen. Woytasch":"第181/第1将军 沃伊塔施",
+ "181. Divisions-Artillerie":"第181师炮兵",
+ "Flugplatz Sola":"索拉机场",
+ "Versorgungsschiff Rota":"补给舰 罗塔",
+ "Geleitzerstörer Aegir":"护航驱逐舰 埃吉尔",
+ "Geleitzerstörer Draug":"护航驱逐舰 德劳格",
+ "69/1.KA Hubert Schmundt":"第69/第1海岸炮兵 胡贝特·施蒙特",
+ "69/3.Inf. Gebirgsjaeger":"第69/第3山地步兵",
+ "Leichter Kreuzer Koenigsberg":"轻巡洋舰 柯尼斯堡",
+ "Pz IIIE":"三号坦克E型",
+ "Torpedoboot Leopard":"鱼雷艇 豹",
+ "Torpedoboot Wolf":"鱼雷艇 狼",
+ "Artillerieschulschiff Bremse":"炮兵训练舰 布雷姆瑟",
+ "Geleitzerstoerer Garm":"护航驱逐舰 加尔姆",
+ "Minenleger Tyr":"布雷舰 提尔",
+ "Torpedoboot Storm":"鱼雷艇 风暴",
+ "4/7 Shenshashidan/[14A]":"第4/第7神山师团/[14A]",
+ "SUBtn./-/[57SC]":"苏军营/-/[57SC]",
+ "NKVD/-/[57SC]":None,
+ "K-10":None,
+ "P-1":None,
+ "[Saratoga]":"[萨拉托加]",
+ "EBtn/-/[12A]":"工兵营/-/[12A]",
+ "[USS Saratoga]":"[萨拉托加号]",
+ "[USS Shangri-la]":"[香格里拉号]",
+ "[USS Ticonderoga]":"[提康德罗加号]",
+ "[III]":None,
+ "[IJN Unyo]":"[云鹰]",
+ "HMNZ Achilles":"阿喀琉斯号",
+ "HMNZ Leander":"利安德号",
+ "Asakaze":"朝风号",
+ "Harukaze":"春风号",
+ "Matzukaze":"松风号",
+ "Nagatsuki":"长月号",
+ "Arashi":"岚号",
+ "Nowaki":"野分号",
+ "Maikaze":"舞风号",
+ "Minegumo":"峰云号",
+ "HQ/USAFFE":"司令部/USAFFE",
+ "IJN Akagi":"赤城号",
+ "IJN Tone":"利根号",
+ "IJN Minekaze":"峰风号",
+ "IJN Akizuki":"秋月号",
+ "IJN Furutaka":"古鹰号",
+ "USS Astoria":"阿斯托里亚号",
+ "USS Vicennes":"文森斯号",
+ "Exit [Take ONLY on TV Turns]":"撤离点 [仅在TV回合占领]",
+}
+
+# 读 miss 清单核对覆盖
+miss = []
+with io.open("prematch-miss.tsv", encoding="utf-8-sig", newline="") as f:
+    for i, ln in enumerate(f.read().replace("\r\n","\n").split("\n")):
+        if i == 0 or not ln.strip(): continue
+        c = ln.split("\t")
+        miss.append(c[0])
+
+missing = [s for s in miss if s not in T]
+extra = [s for s in T if s not in miss]
+print("miss 总数:", len(miss), " 覆盖:", len(miss)-len(missing), " 漏:", missing, " 多:", extra)
+
+trans = {s:d for s,d in T.items() if d and d != s and ("\u4e00"<=d[0]<="\u9fff" or d[0] in "([第苏工撤") }
+# 只保留真译（含汉字）
+def has_cjk(x):
+    return any("\u4e00" <= ch <= "\u9fff" for ch in x)
+trans = {s:d for s,d in T.items() if d is not None and d != s and has_cjk(d)}
+preserve = [s for s,d in T.items() if d is None or d == s]
+
+with io.open("pzliga-miss-zh.tsv", "w", encoding="utf-8", newline="\n") as f:
+    f.write("src\tdst\n")
+    for s in sorted(trans):
+        f.write("%s\t%s\n" % (s, trans[s]))
+
+print("真译:", len(trans), " 保留代号:", len(preserve))
+print("保留项:", preserve)

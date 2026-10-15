@@ -1,0 +1,1118 @@
+{
+"47F144": [
+"KERNEL32.dll",
+"GetCurrentProcessId"
+],
+"47F148": [
+"KERNEL32.dll",
+"QueryPerformanceCounter"
+],
+"47F14C": [
+"KERNEL32.dll",
+"GetEnvironmentStringsW"
+],
+"47F150": [
+"KERNEL32.dll",
+"FreeEnvironmentStringsW"
+],
+"47F154": [
+"KERNEL32.dll",
+"LCMapStringW"
+],
+"47F158": [
+"KERNEL32.dll",
+"InitializeCriticalSectionAndSpinCount"
+],
+"47F15C": [
+"KERNEL32.dll",
+"GetConsoleMode"
+],
+"47F160": [
+"KERNEL32.dll",
+"GetConsoleCP"
+],
+"47F164": [
+"KERNEL32.dll",
+"IsValidCodePage"
+],
+"47F168": [
+"KERNEL32.dll",
+"GetOEMCP"
+],
+"47F16C": [
+"KERNEL32.dll",
+"GetACP"
+],
+"47F170": [
+"KERNEL32.dll",
+"GetCPInfo"
+],
+"47F174": [
+"KERNEL32.dll",
+"GetStartupInfoA"
+],
+"47F178": [
+"KERNEL32.dll",
+"GetFileType"
+],
+"47F17C": [
+"KERNEL32.dll",
+"SetHandleCount"
+],
+"47F180": [
+"KERNEL32.dll",
+"GetModuleFileNameA"
+],
+"47F184": [
+"KERNEL32.dll",
+"GetStdHandle"
+],
+"47F188": [
+"KERNEL32.dll",
+"HeapCreate"
+],
+"47F18C": [
+"KERNEL32.dll",
+"GetSystemTimeAsFileTime"
+],
+"47F190": [
+"KERNEL32.dll",
+"TlsSetValue"
+],
+"47F194": [
+"KERNEL32.dll",
+"TlsAlloc"
+],
+"47F198": [
+"KERNEL32.dll",
+"TlsGetValue"
+],
+"47F19C": [
+"KERNEL32.dll",
+"RtlUnwind"
+],
+"47F1A0": [
+"KERNEL32.dll",
+"GetStartupInfoW"
+],
+"47F1A4": [
+"KERNEL32.dll",
+"ExitProcess"
+],
+"47F1A8": [
+"KERNEL32.dll",
+"GetFullPathNameW"
+],
+"47F1AC": [
+"KERNEL32.dll",
+"IsDebuggerPresent"
+],
+"47F1B0": [
+"KERNEL32.dll",
+"SetUnhandledExceptionFilter"
+],
+"47F1B4": [
+"KERNEL32.dll",
+"UnhandledExceptionFilter"
+],
+"47F1B8": [
+"KERNEL32.dll",
+"TerminateProcess"
+],
+"47F1BC": [
+"KERNEL32.dll",
+"VirtualAlloc"
+],
+"47F1C0": [
+"KERNEL32.dll",
+"VirtualFree"
+],
+"47F1C4": [
+"KERNEL32.dll",
+"IsProcessorFeaturePresent"
+],
+"47F1C8": [
+"KERNEL32.dll",
+"LoadLibraryA"
+],
+"47F1CC": [
+"KERNEL32.dll",
+"InterlockedCompareExchange"
+],
+"47F1D0": [
+"KERNEL32.dll",
+"GetProcessHeap"
+],
+"47F1D4": [
+"KERNEL32.dll",
+"HeapSize"
+],
+"47F1D8": [
+"KERNEL32.dll",
+"HeapReAlloc"
+],
+"47F1DC": [
+"KERNEL32.dll",
+"HeapFree"
+],
+"47F1E0": [
+"KERNEL32.dll",
+"HeapAlloc"
+],
+"47F1E4": [
+"KERNEL32.dll",
+"HeapDestroy"
+],
+"47F1E8": [
+"KERNEL32.dll",
+"GetLocaleInfoA"
+],
+"47F1EC": [
+"KERNEL32.dll",
+"SetStdHandle"
+],
+"47F1F0": [
+"KERNEL32.dll",
+"FlushFileBuffers"
+],
+"47F1F4": [
+"KERNEL32.dll",
+"LCMapStringA"
+],
+"47F1F8": [
+"KERNEL32.dll",
+"GetStringTypeA"
+],
+"47F1FC": [
+"KERNEL32.dll",
+"GetStringTypeW"
+],
+"47F200": [
+"KERNEL32.dll",
+"GetCurrentDirectoryA"
+],
+"47F204": [
+"KERNEL32.dll",
+"GetDriveTypeA"
+],
+"47F208": [
+"KERNEL32.dll",
+"WriteConsoleA"
+],
+"47F20C": [
+"KERNEL32.dll",
+"GetConsoleOutputCP"
+],
+"47F210": [
+"KERNEL32.dll",
+"WriteConsoleW"
+],
+"47F214": [
+"KERNEL32.dll",
+"SetEndOfFile"
+],
+"47F218": [
+"KERNEL32.dll",
+"CreateFileA"
+],
+"47F21C": [
+"KERNEL32.dll",
+"GetVersionExW"
+],
+"47F220": [
+"KERNEL32.dll",
+"GetCommandLineW"
+],
+"47F224": [
+"KERNEL32.dll",
+"SizeofResource"
+],
+"47F228": [
+"KERNEL32.dll",
+"InterlockedIncrement"
+],
+"47F22C": [
+"KERNEL32.dll",
+"InterlockedDecrement"
+],
+"47F230": [
+"KERNEL32.dll",
+"lstrcmpiW"
+],
+"47F234": [
+"KERNEL32.dll",
+"GetModuleHandleW"
+],
+"47F238": [
+"KERNEL32.dll",
+"GetProcAddress"
+],
+"47F23C": [
+"KERNEL32.dll",
+"CopyFileW"
+],
+"47F240": [
+"KERNEL32.dll",
+"CreateEventW"
+],
+"47F244": [
+"KERNEL32.dll",
+"SetEvent"
+],
+"47F248": [
+"KERNEL32.dll",
+"GetDateFormatW"
+],
+"47F24C": [
+"KERNEL32.dll",
+"GetLocalTime"
+],
+"47F250": [
+"KERNEL32.dll",
+"DeleteFileW"
+],
+"47F254": [
+"KERNEL32.dll",
+"SetFilePointer"
+],
+"47F258": [
+"KERNEL32.dll",
+"WriteFile"
+],
+"47F25C": [
+"KERNEL32.dll",
+"FindNextFileW"
+],
+"47F260": [
+"KERNEL32.dll",
+"lstrcpyW"
+],
+"47F264": [
+"KERNEL32.dll",
+"FindFirstFileW"
+],
+"47F268": [
+"KERNEL32.dll",
+"FindClose"
+],
+"47F26C": [
+"KERNEL32.dll",
+"CreateThread"
+],
+"47F270": [
+"KERNEL32.dll",
+"WaitForSingleObject"
+],
+"47F274": [
+"KERNEL32.dll",
+"lstrlenA"
+],
+"47F278": [
+"KERNEL32.dll",
+"UnmapViewOfFile"
+],
+"47F27C": [
+"KERNEL32.dll",
+"CreateFileMappingW"
+],
+"47F280": [
+"KERNEL32.dll",
+"MapViewOfFileEx"
+],
+"47F284": [
+"KERNEL32.dll",
+"LoadLibraryExW"
+],
+"47F288": [
+"KERNEL32.dll",
+"FreeLibrary"
+],
+"47F28C": [
+"KERNEL32.dll",
+"GetFileSize"
+],
+"47F290": [
+"KERNEL32.dll",
+"SetLastError"
+],
+"47F294": [
+"KERNEL32.dll",
+"Sleep"
+],
+"47F298": [
+"KERNEL32.dll",
+"GetTickCount"
+],
+"47F29C": [
+"KERNEL32.dll",
+"RaiseException"
+],
+"47F2A0": [
+"KERNEL32.dll",
+"GetCurrentThreadId"
+],
+"47F2A4": [
+"KERNEL32.dll",
+"FlushInstructionCache"
+],
+"47F2A8": [
+"KERNEL32.dll",
+"GetCurrentProcess"
+],
+"47F2AC": [
+"KERNEL32.dll",
+"CreateFileW"
+],
+"47F2B0": [
+"KERNEL32.dll",
+"CloseHandle"
+],
+"47F2B4": [
+"KERNEL32.dll",
+"MultiByteToWideChar"
+],
+"47F2B8": [
+"KERNEL32.dll",
+"ReadFile"
+],
+"47F2BC": [
+"KERNEL32.dll",
+"LeaveCriticalSection"
+],
+"47F2C0": [
+"KERNEL32.dll",
+"EnterCriticalSection"
+],
+"47F2C4": [
+"KERNEL32.dll",
+"CreateDirectoryW"
+],
+"47F2C8": [
+"KERNEL32.dll",
+"GetFileAttributesW"
+],
+"47F2CC": [
+"KERNEL32.dll",
+"GetModuleFileNameW"
+],
+"47F2D0": [
+"KERNEL32.dll",
+"WideCharToMultiByte"
+],
+"47F2D4": [
+"KERNEL32.dll",
+"lstrlenW"
+],
+"47F2D8": [
+"KERNEL32.dll",
+"GetLastError"
+],
+"47F2DC": [
+"KERNEL32.dll",
+"DeleteCriticalSection"
+],
+"47F2E0": [
+"KERNEL32.dll",
+"InitializeCriticalSection"
+],
+"47F2E4": [
+"KERNEL32.dll",
+"FindResourceExW"
+],
+"47F2E8": [
+"KERNEL32.dll",
+"FindResourceW"
+],
+"47F2EC": [
+"KERNEL32.dll",
+"LoadResource"
+],
+"47F2F0": [
+"KERNEL32.dll",
+"LockResource"
+],
+"47F2F4": [
+"KERNEL32.dll",
+"TlsFree"
+],
+"47F2F8": [
+"KERNEL32.dll",
+"GetModuleHandleA"
+],
+"47F32C": [
+"USER32.dll",
+"SendMessageW"
+],
+"47F330": [
+"USER32.dll",
+"RegisterWindowMessageW"
+],
+"47F334": [
+"USER32.dll",
+"SystemParametersInfoW"
+],
+"47F338": [
+"USER32.dll",
+"SetWindowTextW"
+],
+"47F33C": [
+"USER32.dll",
+"GetClientRect"
+],
+"47F340": [
+"USER32.dll",
+"GetParent"
+],
+"47F344": [
+"USER32.dll",
+"MoveWindow"
+],
+"47F348": [
+"USER32.dll",
+"PostMessageW"
+],
+"47F34C": [
+"USER32.dll",
+"SetWindowLongW"
+],
+"47F350": [
+"USER32.dll",
+"GetWindowLongW"
+],
+"47F354": [
+"USER32.dll",
+"DefWindowProcW"
+],
+"47F358": [
+"USER32.dll",
+"CallWindowProcW"
+],
+"47F35C": [
+"USER32.dll",
+"InvalidateRect"
+],
+"47F360": [
+"USER32.dll",
+"UpdateWindow"
+],
+"47F364": [
+"USER32.dll",
+"UnregisterClassA"
+],
+"47F368": [
+"USER32.dll",
+"CallNextHookEx"
+],
+"47F36C": [
+"USER32.dll",
+"UnhookWindowsHookEx"
+],
+"47F370": [
+"USER32.dll",
+"SetWindowsHookExW"
+],
+"47F374": [
+"USER32.dll",
+"TranslateAcceleratorW"
+],
+"47F378": [
+"USER32.dll",
+"LoadAcceleratorsW"
+],
+"47F37C": [
+"USER32.dll",
+"DestroyAcceleratorTable"
+],
+"47F380": [
+"USER32.dll",
+"GetClassInfoExW"
+],
+"47F384": [
+"USER32.dll",
+"RegisterClassExW"
+],
+"47F388": [
+"USER32.dll",
+"CharNextW"
+],
+"47F38C": [
+"USER32.dll",
+"MessageBoxW"
+],
+"47F390": [
+"USER32.dll",
+"GetWindowPlacement"
+],
+"47F394": [
+"USER32.dll",
+"PeekMessageW"
+],
+"47F398": [
+"USER32.dll",
+"GetMessageW"
+],
+"47F39C": [
+"USER32.dll",
+"TranslateMessage"
+],
+"47F3A0": [
+"USER32.dll",
+"DispatchMessageW"
+],
+"47F3A4": [
+"USER32.dll",
+"SetWindowPlacement"
+],
+"47F3A8": [
+"USER32.dll",
+"GetSystemMetrics"
+],
+"47F3AC": [
+"USER32.dll",
+"PostQuitMessage"
+],
+"47F3B0": [
+"USER32.dll",
+"ShowWindow"
+],
+"47F3B4": [
+"USER32.dll",
+"IsZoomed"
+],
+"47F3B8": [
+"USER32.dll",
+"ClipCursor"
+],
+"47F3BC": [
+"USER32.dll",
+"IsWindow"
+],
+"47F3C0": [
+"USER32.dll",
+"SetClassLongW"
+],
+"47F3C4": [
+"USER32.dll",
+"EndDialog"
+],
+"47F3C8": [
+"USER32.dll",
+"DialogBoxParamW"
+],
+"47F3CC": [
+"USER32.dll",
+"SetWindowPos"
+],
+"47F3D0": [
+"USER32.dll",
+"MapWindowPoints"
+],
+"47F3D4": [
+"USER32.dll",
+"GetMonitorInfoW"
+],
+"47F3D8": [
+"USER32.dll",
+"MonitorFromRect"
+],
+"47F3DC": [
+"USER32.dll",
+"GetWindow"
+],
+"47F3E0": [
+"USER32.dll",
+"CreateWindowExW"
+],
+"47F3E4": [
+"USER32.dll",
+"DestroyWindow"
+],
+"47F3E8": [
+"USER32.dll",
+"CreateDialogParamW"
+],
+"47F3EC": [
+"USER32.dll",
+"SetFocus"
+],
+"47F3F0": [
+"USER32.dll",
+"DrawTextW"
+],
+"47F3F4": [
+"USER32.dll",
+"ReleaseDC"
+],
+"47F3F8": [
+"USER32.dll",
+"ScreenToClient"
+],
+"47F3FC": [
+"USER32.dll",
+"GetKeyState"
+],
+"47F400": [
+"USER32.dll",
+"SetCursor"
+],
+"47F404": [
+"USER32.dll",
+"GetCursorPos"
+],
+"47F408": [
+"USER32.dll",
+"ClientToScreen"
+],
+"47F40C": [
+"USER32.dll",
+"GetWindowThreadProcessId"
+],
+"47F410": [
+"USER32.dll",
+"KillTimer"
+],
+"47F414": [
+"USER32.dll",
+"GetAsyncKeyState"
+],
+"47F418": [
+"USER32.dll",
+"DrawIcon"
+],
+"47F41C": [
+"USER32.dll",
+"CopyRect"
+],
+"47F420": [
+"USER32.dll",
+"PtInRect"
+],
+"47F424": [
+"USER32.dll",
+"ScrollWindowEx"
+],
+"47F428": [
+"USER32.dll",
+"GetWindowRect"
+],
+"47F42C": [
+"USER32.dll",
+"SetTimer"
+],
+"47F430": [
+"USER32.dll",
+"LoadCursorW"
+],
+"47F434": [
+"USER32.dll",
+"GetDC"
+],
+"47F438": [
+"USER32.dll",
+"GetActiveWindow"
+],
+"47F43C": [
+"USER32.dll",
+"EndPaint"
+],
+"47F440": [
+"USER32.dll",
+"BeginPaint"
+],
+"47F444": [
+"USER32.dll",
+"LoadImageW"
+],
+"47F034": [
+"GDI32.dll",
+"SetTextColor"
+],
+"47F038": [
+"GDI32.dll",
+"SetPixel"
+],
+"47F03C": [
+"GDI32.dll",
+"GetTextExtentPoint32W"
+],
+"47F040": [
+"GDI32.dll",
+"SetBkColor"
+],
+"47F044": [
+"GDI32.dll",
+"SetStretchBltMode"
+],
+"47F048": [
+"GDI32.dll",
+"CreateFontW"
+],
+"47F04C": [
+"GDI32.dll",
+"SetDIBits"
+],
+"47F050": [
+"GDI32.dll",
+"CreateBitmap"
+],
+"47F054": [
+"GDI32.dll",
+"SetBkMode"
+],
+"47F058": [
+"GDI32.dll",
+"RestoreDC"
+],
+"47F05C": [
+"GDI32.dll",
+"SaveDC"
+],
+"47F060": [
+"GDI32.dll",
+"StretchBlt"
+],
+"47F064": [
+"GDI32.dll",
+"CreateCompatibleBitmap"
+],
+"47F068": [
+"GDI32.dll",
+"GetObjectW"
+],
+"47F06C": [
+"GDI32.dll",
+"CreateDIBSection"
+],
+"47F070": [
+"GDI32.dll",
+"BitBlt"
+],
+"47F074": [
+"GDI32.dll",
+"SelectObject"
+],
+"47F078": [
+"GDI32.dll",
+"DeleteObject"
+],
+"47F07C": [
+"GDI32.dll",
+"CreateCompatibleDC"
+],
+"47F080": [
+"GDI32.dll",
+"DeleteDC"
+],
+"47F084": [
+"GDI32.dll",
+"ExtTextOutW"
+],
+"47F000": [
+"ADVAPI32.dll",
+"RegQueryInfoKeyW"
+],
+"47F004": [
+"ADVAPI32.dll",
+"RegCreateKeyExW"
+],
+"47F008": [
+"ADVAPI32.dll",
+"RegSetValueExW"
+],
+"47F00C": [
+"ADVAPI32.dll",
+"RegDeleteValueW"
+],
+"47F010": [
+"ADVAPI32.dll",
+"RegEnumKeyExW"
+],
+"47F014": [
+"ADVAPI32.dll",
+"RegDeleteKeyW"
+],
+"47F018": [
+"ADVAPI32.dll",
+"RegQueryValueExW"
+],
+"47F01C": [
+"ADVAPI32.dll",
+"RegOpenKeyExW"
+],
+"47F020": [
+"ADVAPI32.dll",
+"RegCloseKey"
+],
+"47F314": [
+"SHELL32.dll",
+"CommandLineToArgvW"
+],
+"47F318": [
+"SHELL32.dll",
+"SHGetPathFromIDListW"
+],
+"47F31C": [
+"SHELL32.dll",
+"SHGetMalloc"
+],
+"47F320": [
+"SHELL32.dll",
+"ShellExecuteW"
+],
+"47F324": [
+"SHELL32.dll",
+"SHBrowseForFolderW"
+],
+"47F478": [
+"ole32.dll",
+"CoTaskMemAlloc"
+],
+"47F47C": [
+"ole32.dll",
+"CoCreateInstance"
+],
+"47F480": [
+"ole32.dll",
+"CoTaskMemRealloc"
+],
+"47F484": [
+"ole32.dll",
+"CoTaskMemFree"
+],
+"47F30C": [
+"OLEAUT32.dll",
+"ord#277"
+],
+"47F028": [
+"COMCTL32.dll",
+"ImageList_Draw"
+],
+"47F02C": [
+"COMCTL32.dll",
+"ImageList_LoadImageW"
+],
+"47F300": [
+"MSIMG32.dll",
+"TransparentBlt"
+],
+"47F304": [
+"MSIMG32.dll",
+"AlphaBlend"
+],
+"47F08C": [
+"HTMLayout.dll",
+"HTMLayoutSelectElements"
+],
+"47F090": [
+"HTMLayout.dll",
+"HTMLayoutGetParentElement"
+],
+"47F094": [
+"HTMLayout.dll",
+"HTMLayoutControlGetType"
+],
+"47F098": [
+"HTMLayout.dll",
+"HTMLayoutGetElementState"
+],
+"47F09C": [
+"HTMLayout.dll",
+"ValueStringDataSet"
+],
+"47F0A0": [
+"HTMLayout.dll",
+"ValueIntData"
+],
+"47F0A4": [
+"HTMLayout.dll",
+"HTMLayoutGetElementInnerText"
+],
+"47F0A8": [
+"HTMLayout.dll",
+"ValueToString"
+],
+"47F0AC": [
+"HTMLayout.dll",
+"ValueCopy"
+],
+"47F0B0": [
+"HTMLayout.dll",
+"HTMLayoutGetElementHtml"
+],
+"47F0B4": [
+"HTMLayout.dll",
+"HTMLayoutControlGetValue"
+],
+"47F0B8": [
+"HTMLayout.dll",
+"HTMLayoutFindElement"
+],
+"47F0BC": [
+"HTMLayout.dll",
+"HTMLayoutSetAttributeByName"
+],
+"47F0C0": [
+"HTMLayout.dll",
+"HTMLayoutGetStyleAttribute"
+],
+"47F0C4": [
+"HTMLayout.dll",
+"ValueStringData"
+],
+"47F0C8": [
+"HTMLayout.dll",
+"HTMLayoutWindowAttachEventHandler"
+],
+"47F0CC": [
+"HTMLayout.dll",
+"HTMLayout_UseElement"
+],
+"47F0D0": [
+"HTMLayout.dll",
+"HTMLayoutGetRootElement"
+],
+"47F0D4": [
+"HTMLayout.dll",
+"HTMLayout_UnuseElement"
+],
+"47F0D8": [
+"HTMLayout.dll",
+"HTMLayoutVisitElements"
+],
+"47F0DC": [
+"HTMLayout.dll",
+"HTMLayoutSetElementState"
+],
+"47F0E0": [
+"HTMLayout.dll",
+"HTMLayoutSetElementHtml"
+],
+"47F0E4": [
+"HTMLayout.dll",
+"HTMLayoutSetElementInnerText16"
+],
+"47F0E8": [
+"HTMLayout.dll",
+"HTMLayoutUpdateElementEx"
+],
+"47F0EC": [
+"HTMLayout.dll",
+"HTMLayoutSetStyleAttribute"
+],
+"47F0F0": [
+"HTMLayout.dll",
+"HTMLayoutLoadFile"
+],
+"47F0F4": [
+"HTMLayout.dll",
+"HTMLayoutSetMediaType"
+],
+"47F0F8": [
+"HTMLayout.dll",
+"ValueClear"
+],
+"47F0FC": [
+"HTMLayout.dll",
+"ValueIntDataSet"
+],
+"47F100": [
+"HTMLayout.dll",
+"ValueInit"
+],
+"47F104": [
+"HTMLayout.dll",
+"HTMLayoutControlSetValue"
+],
+"47F108": [
+"HTMLayout.dll",
+"HTMLayoutGetAttributeByName"
+],
+"47F10C": [
+"HTMLayout.dll",
+"HTMLayoutGetMinHeight"
+],
+"47F110": [
+"HTMLayout.dll",
+"HTMLayoutUpdateElement"
+],
+"47F114": [
+"HTMLayout.dll",
+"HTMLayoutGetMinWidth"
+],
+"47F118": [
+"HTMLayout.dll",
+"HTMLayoutProcND"
+],
+"47F11C": [
+"HTMLayout.dll",
+"HTMLayoutDataReady"
+],
+"47F120": [
+"HTMLayout.dll",
+"HTMLayoutGetElementType"
+],
+"47F124": [
+"HTMLayout.dll",
+"HTMLayoutGetNthAttribute"
+],
+"47F128": [
+"HTMLayout.dll",
+"HTMLayoutGetAttributeCount"
+],
+"47F12C": [
+"HTMLayout.dll",
+"HTMLayoutClassNameW"
+],
+"47F130": [
+"HTMLayout.dll",
+"HTMLayoutSetCallback"
+],
+"47F134": [
+"HTMLayout.dll",
+"HTMLayoutLoadHtml"
+],
+"47F138": [
+"HTMLayout.dll",
+"HTMLayoutGetElementInnerText16"
+],
+"47F13C": [
+"HTMLayout.dll",
+"HTMLayoutCombineURL"
+],
+"47F46C": [
+"WINMM.dll",
+"mciSendStringW"
+],
+"47F470": [
+"WINMM.dll",
+"mciGetErrorStringW"
+],
+"47F44C": [
+"WININET.dll",
+"InternetReadFile"
+],
+"47F450": [
+"WININET.dll",
+"HttpSendRequestW"
+],
+"47F454": [
+"WININET.dll",
+"HttpOpenRequestW"
+],
+"47F458": [
+"WININET.dll",
+"InternetConnectW"
+],
+"47F45C": [
+"WININET.dll",
+"InternetCloseHandle"
+],
+"47F460": [
+"WININET.dll",
+"InternetOpenW"
+],
+"47F464": [
+"WININET.dll",
+"InternetSetOptionW"
+]
+}

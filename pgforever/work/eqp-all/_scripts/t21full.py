@@ -1,0 +1,104 @@
+# -*- coding: utf-8 -*-
+# Full 400-item zh list for src21.json, index-aligned to source order.
+ZH = [
+# 0-19
+"NoR Landsknecht","NoR Nebelwerfer","NoR Nordenstern","NoR 老近卫军","NoR Panther",
+"NoR Panzer IV","NoR PzIIIP","NoR 反坦克歼击车","NoR Raven","NoR Richthofen",
+"NoR 火箭炮","NoR Romreich","NoR 防空导弹阵地","NoR SPAD","NoR 士兵",
+"NoR 突击步兵","NoR StuG","NoR Surtr","NoR 卡车","NoR Wespe",
+# 20-39
+"NoV 155mm","NoV Asator","NoV 架桥工兵","NoV Danzig","NoV 野战司令部",
+"NoV 自行高射炮","NoV 重型步兵","NoV Panther","NoV PzIVG","NoV 装甲侦察车",
+"NoV SigII","NoV 士兵","NoV StuG","NoV 卡车","NoV Vierling",
+"NoV Wilde Jagd","Nordland 要塞","Nordvind","Nw 银行","Nw 民航机",
+# 40-59
+"Nw 混乱的坦克","Nw 警戒火炮","Nw 重型坦克歼击车","Nw Jihad","Nw 商人",
+"Nw 和平主义者","Nw 总统府","Nw 正规军","Nw 神庙","Ny Sverige 步兵",
+"O Czacha","O Lazik","O 志愿兵","O 步兵","O RWR",
+"OA vz30 Ro","ODS 105mm","ODS 50mm 反坦克炮","ODS 装甲车","ODS 装甲骑兵",
+# 60-79
+"ODS 堑壕部队","ODS 战斗机","ODS 重型步兵","ODS 马匹","ODS 步兵",
+"ODS 水平轰炸机","ODS 中型坦克","ODS 民兵","ODS 伞兵","ODS 火箭发射井",
+"ODS 火箭炮","ODS 战术轰炸机","ODS 机枪马车","ODS 武装皮卡","ODS 炮塔",
+"OS2U Kingfisher","OSS","Obice da 100/17","Obice da 149/13","Obice da 155/14PB",
+# 80-99
+"Obice da 210/22","Obice da 75/18","Obrona Narodowa","Okha","Opat",
+"Opel 6700 Bg","Opel 6700 Bu","Opel 6700 Fi","Opel 6700 Ro","Opel 装甲车",
+"Osaka","Ostlegionen","Oszczep","Ovibos","P-35A",
+"P-36A Hawk 4x30","P-36B Hawk 2x50","P-36C Hawk 2x50","P-38F1LO 轻型","P-38G Lightning",
+# 100-119
+"P-38G Lightning DT","P-38G Lightning FB","P-38H Lightning FB","P-38J Lightning HO","P-39D Kobrushka",
+"P-39D-1 Kobrushka","P-39D-2 Iron Dog","P-39D-3 Acobra PR","P-39D-3 PR DT","P-39DKobrushkaDT",
+"P-39M Airacobra","P-39M Airacobra DT","P-39M Iron Dog","P-39M Kobrushka","P-39MKobrushkaDT",
+"P-39N Acobra DT Fr","P-39N Airacobra","P-39N Airacobra DT","P-39N Airacobra Fr","P-39N Iron Dog",
+# 120-139
+"P-39N Iron Dog Fr","P-39N Kobrushka","P-39N-2 Acobra PR","P-39N-2 PR DT","P-39NKobrushkaDT",
+"P-39Q Acobra DT Fr","P-39Q Airacobra","P-39Q Airacobra DT","P-39Q Airacobra Fr","P-39Q Iron Dog",
+"P-39Q Iron Dog Fr","P-39Q Kobra","P-39Q Kobrushka","P-39Q-2 Acobra PR","P-39Q-2 PR DT",
+"P-39QKobrushkaDT","P-40 Tomahawk I So","P-40 Warhawk 4x30","P-400 Caribou","P-400 Kobrushka",
+# 140-159
+"P-40C Thawk DT So","P-40C Thawk FB","P-40C Thawk IIB So","P-40C Warhawk","P-40C Warhawk DT",
+"P-40C Warhawk FB","P-40D 战斗轰炸机 So","P-40D Khawk DT So","P-40D Kittyhawk So","P-40D Warhawk",
+"P-40D Warhawk DT","P-40D Warhawk FB","P-40E 战斗轰炸机 So","P-40E Khawk DT So","P-40E Kittyhawk So",
+"P-40E Warhawk DT","P-40E Warhawk FB","P-40F Khawk DT So","P-40F Kittybomber","P-40F Kittyhawk So",
+# 160-179
+"P-40F Warhawk","P-40F Warhawk DT","P-40F Warhawk FB","P-40F Warhawk Fr","P-40F Whawk DT Fr",
+"P-40F Whawk FB Fr","P-40K 战斗轰炸机 So","P-40K Khawk DT So","P-40K Kittyhawk So","P-40K Warhawk",
+"P-40K Warhawk DT","P-40K Warhawk FB","P-40L 战斗轰炸机 So","P-40L Khawk DT So","P-40L Kittyhawk So",
+"P-40L Warhawk DT","P-40L Warhawk FB","P-40L Warhawk Fr","P-40L Whawk DT Fr","P-40L Whawk FB Fr",
+# 180-199
+"P-40M 战斗轰炸机 So","P-40M Khawk DT So","P-40M Khawk So","P-40M Warhawk","P-40M Warhawk DT",
+"P-40M Warhawk FB","P-40N 战斗轰炸机 So","P-40N Khawk DT So","P-40N Kittyhawk So","P-40N Warhawk DT",
+"P-40N Warhawk FB","P-40N-5 战斗轰炸机 So","P-40N-5 Whawk FB","P-47C Jug","P-47C T-Bolt",
+"P-47C Tbolt DT","P-47C Thunderbolt","P-47D DT HO Fr","P-47D Jug","P-47D Jug Fr",
+# 200-219
+"P-47D Jug HO","P-47D Jug HO Fr","P-47D T-Bolt","P-47D Tbolt DT","P-47D Tbolt DT Fr",
+"P-47D Tbolt DT HO","P-47D Tbolt Fr","P-47D Tbolt HO","P-47D Tbolt HO Fr","P-47M Tbolt DT",
+"P-47M Tbolt DT HO","P-47M Tbolt HO","P-47M Thunderbolt","P-47N Jug","P-47N Jug HO",
+"P-47N Tbolt DT","P-47N Tbolt DT HO","P-47N Tbolt HO","P-51A Mustang","P-51A Mustang DT",
+# 220-239
+"P-51B Must DT HO","P-51B Mustang DT","P-51B Mustang HO","P-51D Must DT HO","P-51D Mustang DT",
+"P-51D Mustang HO","P-51H Must DT HO","P-51H Mustang DT","P-51H Mustang HO","P-51K Must DT HO",
+"P-51K Mustang","P-51K Mustang DT","P-51K Mustang HO","P-63A Kobrushka","P-63A KobrushkaDT",
+"P-63C Kobrushka","P-63C KobrushkaDT","P-63C-5 DT HO","P-63C-5 FB HO","P-63C-5 Kcobra DT",
+# 240-259
+"P-63C-5 Kcobra FB","P-63C-5 Kcobra HO","P-63C-5 Kingcobra","P-70A Nighthawk","P-80A ShootStar",
+"P.24E","P0 Daimler SC","P107","P38 Lightning","P39 AeroCobra",
+"P39AIRCOBRA","P40","P40 WarHawk","P47B Tundbolt","P47D Tundbolt",
+"P47N Tundbolt","P51B Mustang","P51D Mustang","P51H Mustang","PANZER IVC",
+# 260-279
+"PANZER IVE","PBY Black Cat","PBY-5A Catalina Fr","PE-2 俯冲轰炸机","PE-3",
+"PE-3R","PF-508/III Lazik","PI 81mm 迫击炮","PI M20 75mm 无后坐力炮","PIB",
+"PIB+","PIB++","PIHB","PL 40mm 防空炮","PL 7TP",
+"PL 骑兵","PL 步兵","PL PZL P11c","PL PZL P23b","PL PZL P24g",
+# 280-299
+"PL PZL P37b","PL TK3","PO 105mm 炮","PO 120mm 炮","PO 155mm Wz39",
+"PO 25TP","PO 40mm Wz236","PO AMC 35","PO CAULD 214","PO Ms 406",
+"PO Ren.FT 17","PO Sh Firefly","PO Skod 220mm","PO Vickers","PO Wz 34 侦察车",
+"PO c4p 牵引车","PPD PPSh","PPSh+","PR Maryland","PR MkI Spitfire",
+# 300-319
+"PR MkXI Spitfire","PR MkXIX Spit HO","PR MkXIX Spitfire","PR Mosquito I","PR Mosquito XVI",
+"PR MosquitoXVI HO","PS-84","PS-84 (Li-2)","PSW 221","PSW 221 sPzB41",
+"PSW 222 Ro","PSW 231/232 6-R","PSW 231/232 8-R","PSW 233","PSW 234/1",
+"PSW 234/3","PSW 234/4","PSW AB-41 201(i)","PTRD-41","PWS Ro",
+# 320-339
+"PZL P.11a","PZL P.11b Ro","PZL P.11c 2xMG","PZL P.11c 4xMG","PZL P.11c Merc V",
+"PZL P.11c Ro","PZL P.24 Lo","PZL P.24A/G Gr","PZL P.24B Yastreb","PZL P.24F Gr",
+"PZL P.24F Yastreb","PZL P11","PZL P23 Karas","PZL P24","PZL.23B Ro",
+"PZL.37B 轻型轰炸机 Ro","PZL.37B Los 轻型轰炸机","PZL.37B Ro","PZL.43 Chaika","PZL.43 Razuz",
+# 340-359
+"PZL.43 Razuz Bg","PaK181(f) Lorraine","PaK36 T-20(r)","PaK36 UE(f)","PaK36 牵引车 装甲",
+"PaK36 牵引车","PaK36 轻型卡车","PaK37 7.5cm leIG","PaK38 半履带 Gr40","PaK38 牵引车 Gr40",
+"PaK38 牵引车 装甲","PaK38 牵引车","PaK40/4 PzGr40","PaK40/4 RSO","PaK97/38",
+"PaK97/38 反坦克炮 Bg","PaK97/38 反坦克炮 Bu","PaK97/38 反坦克炮 Ro","PaK97/38 Fi","PaK97/38 Ro",
+# 360-379
+"驮骡 Bg","驮骡 Br","驮骡 Bu","驮骡 Fi","驮骡 Fr",
+"驮骡 Ge","驮骡 Gr","驮骡 Hu","驮骡 It","驮骡 Lo",
+"驮骡 No","驮骡 Po","驮骡 Rm","驮骡 Ro","驮骡 So",
+"驮骡 US","驮骡 Yu","Pak38 auf SdKfz 10","Panhard 165","Panhard 178",
+# 380-399
+"Panhard 178 47mm","Panje","Panther A Rm","Panther T-V A Bg","Panther T-V D Bg",
+"Panther T-V G Bg","Panzer IVC","装甲掷弹兵","装甲掷弹兵+","装甲掷弹兵++",
+"反坦克猎兵","反坦克猎兵 I","坦克歼击车","装甲车","Panzerwerfer 42",
+"伞兵 47/32","伞兵 工兵+","伞兵步兵","伞兵 M95S Bg+","伞兵 M95S MG42",
+]

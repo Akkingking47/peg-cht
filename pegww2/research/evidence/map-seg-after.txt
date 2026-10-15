@@ -1,0 +1,338 @@
+================================================================================================
+段级一致性扫描（同一段英文 → 多种中文）
+================================================================================================
+
+【ww2-scn-map】段位可对齐行 7636 · 对齐失败(段数不等) 66 · 同词异译段 105 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 14 组）
+  101st                              共 67 处 （槽位受限/人工确认） → 空降第101师×49[人工] ｜ 101st×18[人工]
+        空降第101师                ← 1/A/321st GFAB/101st; 2/A/321st GFAB/101st; A/I/502nd/101st
+        101st                  ← A/I/501st/101st; C/I/501st/101st; B/I/502nd/101st
+  VIII                               共 61 处 （上下文已解释） → 第8集团军×59[词库] ｜ 第8×2[词库]
+        第8集团军                  ← 6 eB/2 NZ/XXX/VIII; 126 R/51 ID/XXX/VIII; 22 Br/7 Arm/XIII/VIII
+        第8                     ← A/VIII/8th Division; B/VIII/8th Division
+  Guards                             共 42 处 （槽位受限/人工确认） → 近卫军×33[人工] ｜ 近卫师×3[人工] ｜ 近卫团×3[人工] ｜ 近卫部队×3[人工]
+        近卫军                    ← 192/Guards; 137/Guards; 140/Guards
+        近卫师                    ← I/Guards/Savski; II/Guards/Savski; III/Guards/Savski
+        近卫团                    ← I/Guards/Banatiski; II/Guards/Banatiski; III/Guards/Banatiski
+        近卫部队                   ← 1AT/Guards; 2AT/Guards; 2E/Guards
+  LSSAH                              共 37 处 （槽位受限/人工确认） → 党卫军第1装甲师×32[词库] ｜ 警卫旗队×5[人工]
+        党卫军第1装甲师               ← LSSAH/20; II/1/LSSAH/[SS Pz]; I/1/LSSAH/[SS Pz]
+        警卫旗队                   ← I/1.SS-Pz/LSSAH; I/1.SS/LSSAH; III/1.SS/LSSAH
+  USAAF                              共 33 处 （槽位受限/人工确认） → 美国陆军航空队×31[人工] ｜ USAAF×2[人工]
+        美国陆军航空队                ← 1/6/USAAF; 2/6/USAAF; 3/6/USAAF
+        USAAF                  ← 11/2/USAAF; 12/2/USAAF
+  9 ID                               共 24 处 （上下文已解释） → 第9步兵师×22[词库/人工] ｜ 9步兵师×2[词库]
+        第9步兵师                  ← 15 R/9 ID/II Corps/I Army; 39 R/9 ID/II Corps/I Army; 49 R/9 ID/II Corps/I Army
+        9步兵师                   ← 2/7/9 ID/[XXX]; 2/8/9 ID/[XXX]
+  XLVII Pz                           共 23 处 （槽位受限/人工确认） → 第XLVII装甲军×22[人工] ｜ 第47装甲军×1[人工]
+        第XLVII装甲军              ← 505 / XLVII Pz; 2 Lehr / XLVII Pz; 637 / XLVII Pz
+        第47装甲军                 ← 92/20 Pz / XLVII Pz
+  Luft I                             共 22 处 （槽位受限/人工确认） → 第1航空军×17[人工] ｜ Luft I×5[人工]
+        第1航空军                  ← 1/2/Luft I; 5/2/Luft I; 4/15/Luft I
+        Luft I                 ← 7/2/Luft I; 12/4/Luft I; 11/3/Luft I
+  XXXXVIII                           共 21 处 （槽位受限/人工确认） → 第XXXXVIII装甲军×16[人工] ｜ 第XXXXVIII军×5[人工]
+        第XXXXVIII装甲军           ← 394/3Pz/XXXXVIII; 75/3Pz/XXXXVIII; 39E/3Pz/XXXXVIII
+        第XXXXVIII军             ← 6Pz/3Pz/XXXXVIII; 3/3Pz/XXXXVIII; 15Pz/11Pz/XXXXVIII
+  9 Aust.                            共 19 处 （上下文已解释） → 第9澳大利亚师×18[词库] ｜ 第9澳大利亚×1[词库]
+        第9澳大利亚师                ← 25 Bde/9 Aust./[XIII]; 26 Bde/9 Aust./[XIII]; 27 Bde/9 Aust./[XIII]
+        第9澳大利亚                 ← 9/9 Aust./[XIII]
+  49th Infantry                      共 18 处 （槽位受限/人工确认） → 第49步兵×13[词库] ｜ 第49步兵师×5[人工]
+        第49步兵                  ← 4L/146/49th Infantry; H/146/49th Infantry; 1F/148/49th Infantry
+        第49步兵师                 ← 6L/148/49th Infantry; 6DWR/147/49th Infantry; 7DWR/147/49th Infantry
+  2 Br                               共 17 处 （槽位受限/人工确认） → 第2旅×16[词库/人工] ｜ 2 旅×1[人工]
+        第2旅                    ← 2 Br/1 ID/1 Army Free; 2 Br/36 ID/V Army; 2 Br/2 Indian ID
+        2 旅                    ← 2 Br/1 AirD
+  4 Bde                              共 17 处 （上下文已解释） → 第4旅×16[词库] ｜ 4旅×1[词库]
+        第4旅                    ← 4 Bde/1 SA/[XXX]; 4 Bde/2 NZ/[XXX]; 4 RTR/4 Bde/7 Arm/[XIII]
+        4旅                     ← 1/4 Bde/7 Arm Div/[XXX]
+  8 ID Indian                        共 17 处 （槽位受限/人工确认） → 印度第8步兵师×16[人工] ｜ 第8印度步兵师×1[人工]
+        印度第8步兵师                ← 17 Br/8 ID Indian; 19 Br/8 ID Indian; 21 Br/8 ID Indian
+        第8印度步兵师                ← 3 R/8 ID Indian
+  I+II                               共 17 处 （槽位受限/人工确认） → 第1+第2×8[词库] ｜ I+II×6[人工] ｜ 第I+II营×3[人工]
+        第1+第2                  ← I+II/10-SS/Frundesberg; I+II/9-SS/Hohenstaufen; I+II/5-SS/Wiking
+        I+II                   ← I+II/42/46th Infanterie Div.; I+II/72/46th Infanterie Div.; I+II/97/46th Infanterie Div.
+        第I+II营                 ← I+II/10-SS/Frundsberg; I+II/16/16th Luftwaffe-Feld; I+II/284/KG Hupe
+  Grossdeutschland                   共 16 处 （槽位受限/人工确认） → 大德意志×15[词库] ｜ 大德意志团×1[人工]
+        大德意志                   ← I/Grossdeutschland; II/Grossdeutschland; I/GD/Grossdeutschland
+        大德意志团                  ← III/Grossdeutschland
+  10ID [IV]                          共 15 处 （槽位受限/人工确认） → 第10步兵师 [第IV军]×9[人工] ｜ 第10步兵师 [IV]×6[词库]
+        第10步兵师 [第IV军]          ← I/3JagTVoet/10ID [IV]; II/3JagTVoet/10ID [IV]; III/3JagTVoet/10ID [IV]
+        第10步兵师 [IV]            ← Div.AT/10ID [IV]; II/10/10ID [IV]; III/10/10ID [IV]
+  10th                               共 15 处 （槽位受限/人工确认） → 第10团×11[人工] ｜ 第10装甲师×4[人工]
+        第10团                   ← A/I/10th/4th; J/III/10th/4th; G/II/10th/4th
+        第10装甲师                 ← 1/A/3rd Tk Bn/10th; 2/B/21st Tk Bn/10th; 1/C/11th Tk Bn/10th
+  18VGD [LXVI] 5PzA                  共 15 处 （槽位受限/人工确认） → 第18国民掷弹兵师 [LXVI] 第5装甲集团军×14[词库] ｜ 第18国民掷弹兵师 [第LXVI军] 第5装甲集团军×1[人工]
+        第18国民掷弹兵师 [LXVI] 第5装甲集 ← 1818/-/18VGD [LXVI] 5PzA; I/293/18VGD [LXVI] 5PzA; II/293/18VGD [LXVI] 5PzA
+        第18国民掷弹兵师 [第LXVI军] 第5装 ← 669 Ost/-/18VGD [LXVI] 5PzA
+  2 BA                               共 14 处 （槽位受限/人工确认） → 第2集团军×12[人工] ｜ 2集团军×2[人工]
+        第2集团军                  ← 5/2 BA; 8/2 BA; 6/2 BA
+        2集团军                   ← 324/2 BA; 325/2 BA
+  4 ID Indian                        共 14 处 （槽位受限/人工确认） → 印度第4步兵师×13[人工] ｜ 第4印度步兵师×1[人工]
+        印度第4步兵师                ← 1 Br/4 ID Indian; 2 Br/4 ID Indian; 3 Br/4 ID Indian
+        第4印度步兵师                ← 3 R/4 ID Indian
+  SS [T]                             共 14 处 （槽位受限/人工确认） → 党卫军髑髅师×12[人工] ｜ 党卫军[T]×2[人工]
+        党卫军髑髅师                 ← 3 Rgt/SS [T]; 3R Danmark/SS [T]; Pio.Abt./SS [T]
+        党卫军[T]                 ← AT.Abt./SS [T]; Auf.Abt./SS [T]
+  1st Pz.                            共 13 处 （槽位受限/人工确认） → 第1装甲×12[词库] ｜ 第1装甲师×1[人工]
+        第1装甲                   ← I/1/1st Pz.; II/1/1st Pz.; 37/-/1st Pz.
+        第1装甲师                  ← II+III/37/1st Pz.
+  506th                              共 13 处 （槽位受限/人工确认） → 第506团×12[人工] ｜ 506th×1[人工]
+        第506团                  ← F/II/506th/101st; E/II/506th/101st; A/I/506th/101st
+        506th                  ← 506th/101st AB Drop Zone
+  82Abn [XVIIIAbn] 1A                共 13 处 （槽位受限/人工确认） → 第82空降 [第18空降军] 第1集团军×12[词库] ｜ 第82空降师 [第XVIII空降军] 第1集团军×1[人工]
+        第82空降 [第18空降军] 第1集团军   ← 1/325/82Abn [XVIIIAbn] 1A; 2/325/82Abn [XVIIIAbn] 1A; 3/325/82Abn [XVIIIAbn] 1A
+        第82空降师 [第XVIII空降军] 第1集 ← 551/-/82Abn [XVIIIAbn] 1A
+  8 R                                共 12 处 （上下文已解释） → 第8团×11[词库/人工] ｜ 8团×1[词库]
+        第8团                    ← 8 R/KG/DAK; 8 R/132 Ariete/[XX]; 8 R/6 ID/RAA/WDD
+        8团                     ← 2/8 R/9 Aust./[XIII]
+  IIIPz                              共 12 处 （槽位受限/人工确认） → 第III装甲集团军×9[人工] ｜ 第III装甲军×3[人工]
+        第III装甲集团军              ← 6/7Pz/IIIPz; 58E/7Pz/IIIPz; 78/7Pz/IIIPz
+        第III装甲军                ← 25Pz/7Pz/IIIPz; 7/7Pz/IIIPz; 248/168/IIIPz
+  12 R                               共 11 处 （上下文已解释） → 第12团×10[词库/人工] ｜ 12团×1[词库]
+        第12团                   ← 12 R/133 Littorio/[XX]; 12 R/7 SG/RAA/WDD; 12 R/4 Fj D
+        12团                    ← 2/12 R/9 Aust./[XIII]
+  14th                               共 11 处 （槽位受限/人工确认） → 第14装甲师×8[人工] ｜ 第14营×1[人工] ｜ 第14团×1[人工] ｜ 第14×1[人工]
+        第14装甲师                 ← 1/1/499th AAB/14th; 3/1/499th AAB/14th; 2/2/499th AAB/14th
+        第14营                   ← 14th/14 L/4th DLC/9th
+        第14团                   ← 4th/14th/4th DLC/9th
+        第14                    ← 14th/3rd DIC/[X]/2nd
+  2 GD                               共 11 处 （槽位受限/人工确认） → 大德意志第2团×10[人工] ｜ 大德意志师×1[人工]
+        大德意志第2团                ← 30/2 GD; 27/2 GD; 26/2 GD
+        大德意志师                  ← 4/2 GD
+  2 Pz.Div.                          共 11 处 （槽位受限/人工确认） → 第2装甲师×10[人工] ｜ 2 Pz.Div.×1[人工]
+        第2装甲师                  ← 2 Schzt.Bde./2 Pz.Div./[XIX]; 2 Pz.Bde./2 Pz.Div./[XIX]; 1 AR/2 Pz.Div./[XIX]
+        2 Pz.Div.              ← 2 Mot./2 Pz.Div./[XIX]
+  502nd                              共 11 处 （槽位受限/人工确认） → 502nd×8[人工] ｜ 第502团×3[人工]
+        502nd                  ← B/I/502nd/101st; E/II/502nd/101st; F/II/502nd/101st
+        第502团                  ← A/I/502nd/101st; D/I/502nd/101st; L/III/502nd/101st
+  327th GIR                          共 10 处 （槽位受限/人工确认） → 第327滑翔步兵团×6[人工] ｜ 327th GIR×4[人工]
+        第327滑翔步兵团              ← 1/3/327th GIR/101st; 2/3/327th GIR/101st; 1/4/327th GIR/101st
+        327th GIR              ← A/I/327th GIR/101st; C/I/327th GIR/101st; E/II/327th GIR/101st
+  501st                              共 10 处 （槽位受限/人工确认） → 501st×7[人工] ｜ 第501团×3[人工]
+        501st                  ← A/I/501st/101st; C/I/501st/101st; 501st/101st AB Drop Zone
+        第501团                  ← D/I/501st/101st; E/II/501st/101st; H/II/501st/101st
+  504th                              共 10 处 （槽位受限/人工确认） → 第504团×9[人工] ｜ 504th×1[人工]
+        第504团                  ← B/I/504th/82nd; E/II/504th/82nd; A/I/504th/82nd
+        504th                  ← 504th/82nd AB Drop Zone
+  Eicke                              共 10 处 （槽位受限/人工确认） → 艾克×9[词库] ｜ 艾克团×1[人工]
+        艾克                     ← I/Eicke/Totenkopf; II/Eicke/Totenkopf; III/Eicke/Totenkopf
+        艾克团                    ← Eicke/SS[T]/[XVI]
+  I.                                 共 10 处 （槽位受限/人工确认） → 第1×9[词库] ｜ 第I大队×1[人工]
+        第1                     ← I./JG51; I./StG2 [L4]; I./StG76 [L4]
+        第I大队                   ← I./KG27
+  - [2SS]                            共 9 处 （槽位受限/人工确认） → - [2SS]×8[词库] ｜ - [党卫军第2师]×1[人工]
+        - [2SS]                ← II/1Lehr/- [2SS]; III/1Lehr/- [2SS]; I/1Lehr/- [2SS]
+        - [党卫军第2师]             ← 55NbWrfRgt/- [2SS]
+  1 SS                               共 9 处 （槽位受限/人工确认） → 党卫军第1装甲师×5[人工] ｜ 第1党卫军师×4[人工]
+        党卫军第1装甲师               ← PJ/1 SS; 901/1 SS; 902/1 SS
+        第1党卫军师                 ← 3/1 SS; 7/1 SS; 8/1 SS
+  11th Pz.                           共 9 处 （槽位受限/人工确认） → 第11装甲×8[词库] ｜ 第11装甲师×1[人工]
+        第11装甲                  ← I+II/33/11th Pz.; I/110/11th Pz.; II/110/11th Pz.
+        第11装甲师                 ← I+II/76/11th Pz.
+  3Arm [XVIIIAbn] 1A                 共 9 处 （槽位受限/人工确认） → 第3集团军 [第18空降军] 第1集团军×7[词库] ｜ 第3装甲师 [第XVIII空降军] 第1集团军×2[人工]
+        第3集团军 [第18空降军] 第1集团军   ← 1/32/3Arm [XVIIIAbn] 1A; 2/32/3Arm [XVIIIAbn] 1A; 3/32/3Arm [XVIIIAbn] 1A
+        第3装甲师 [第XVIII空降军] 第1集团 ← 509/-/3Arm [XVIIIAbn] 1A; 517/-/3Arm [XVIIIAbn] 1A
+  Kempf [I]                          共 9 处 （槽位受限/人工确认） → 肯普夫 [I]×6[词库] ｜ 肯普夫战斗群 [第I军]×3[人工]
+        肯普夫 [I]                ← I/7/Kempf [I]; II/7/Kempf [I]; I/SSRgt-D/Kempf [I]
+        肯普夫战斗群 [第I军]           ← II/47/Kempf [I]; 505/Kempf [I]; 511/Kempf [I]
+  1 A D                              共 8 处 （槽位受限/人工确认） → 第1装甲师×7[人工] ｜ 空降第1师×1[人工]
+        第1装甲师                  ← CCB/1 A D; CCA/1 A D; atR/1 A D
+        空降第1师                  ← rB/1 A D
+  505th                              共 8 处 （槽位受限/人工确认） → 第505团×7[人工] ｜ 505th×1[人工]
+        第505团                  ← A/I/505th/82nd; F/II/505th/82nd; G/II/505th/82nd
+        505th                  ← 505th/82nd AB Drop Zone
+  7 R                                共 8 处 （上下文已解释） → 第7团×7[人工/词库] ｜ 7团×1[词库]
+        第7团                    ← 7 R/3 ID; 7 R/3 ID Algeria/1 Army Free; 7 R/KAR
+        7团                     ← 2/7 R/9 Aust./[XIII]
+  Lehr                               共 8 处 （槽位受限/人工确认） → 教导师×7[词库] ｜ 装甲教导师×1[人工]
+        教导师                    ← II/901/Lehr; I/902/Lehr; II/902/Lehr
+        装甲教导师                  ← I/901/Lehr
+  1 Can D                            共 7 处 （槽位受限/人工确认） → 加拿大第1步兵师×6[人工] ｜ 加拿大第1师×1[人工]
+        加拿大第1步兵师               ← 1 R/1 Can D; 3 R/1 Can D; 2 aR/1 Can D
+        加拿大第1师                 ← 2 R/1 Can D
+  102 Trento                         共 7 处 （上下文已解释） → 第102特伦托师×6[词库] ｜ 第102特伦托×1[词库]
+        第102特伦托师               ← 46 AR/102 Trento/[XXI]; 61 R/102 Trento/[XXI]; 62 R/102 Trento/[XXI]
+        第102特伦托                ← 9/102 Trento/[XXI]
+  17th Pz.                           共 7 处 （槽位受限/人工确认） → 第17装甲×6[词库] ｜ 第17装甲师×1[人工]
+        第17装甲                  ← I+II/39/17th Pz.; I/40/17th Pz.; II/40/17th Pz.
+        第17装甲师                 ← I+II/27/17th Pz.
+  7 Arm D                            共 7 处 （上下文已解释） → 第7装甲师×6[词库] ｜ 7装甲师×1[词库]
+        第7装甲师                  ← 1 RTR/7 Bde/7 Arm D/[XIII]; 2 RTR/4 Bde/7 Arm D/[XIII]; 7 H/4 Bde/7 Arm D/[XIII]
+        7装甲师                   ← 2/7/7 Arm D/[XIII]
+  106 USA                            共 6 处 （槽位受限/人工确认） → 第106步兵师×3[人工] ｜ 106 USA×3[人工]
+        第106步兵师                ← 2CE/106 USA; 2/106 USA; 56/106 USA
+        106 USA                ← 15/106 USA; 14/106 USA; 70/106 USA
+  16th Pz.                           共 6 处 （槽位受限/人工确认） → 第16装甲×5[词库] ｜ 第16装甲师×1[人工]
+        第16装甲                  ← 16/-/16th Pz.; I+II/2/16th Pz.; I/64/16th Pz.
+        第16装甲师                 ← I+II/16/16th Pz.
+  18 Gds                             共 6 处 （槽位受限/人工确认） → 第18近卫军×3[人工] ｜ 第18近卫集团军×3[人工]
+        第18近卫军                 ← 933/254/18 Gds; 936/254/18 Gds; 791/254/18 Gds
+        第18近卫集团军               ← 3 Gds/2 GdAbn/18 Gds; 2 Gds/3 GdAbn/18 Gds; 1 Gds/4 GdAbn/18 Gds
+  2 Ab                               共 6 处 （槽位受限/人工确认） → 第2空降师×5[人工] ｜ 第2营×1[人工]
+        第2空降师                  ← 10A/2 Ab; 8AT/2 Ab; 5/2 Ab
+        第2营                    ← 7/2 Ab
+  2 FC                               共 6 处 （槽位受限/人工确认） → 自由法国第2军×5[人工] ｜ 第2火力指挥部×1[人工]
+        自由法国第2军                ← 5/2 FC; 4/2 FC; 3/2 FC
+        第2火力指挥部                ← 7/2 FC
+  21-SS                              共 6 处 （槽位受限/人工确认） → 第21-党卫军×3[词库] ｜ 党卫军第21师×3[人工]
+        第21-党卫军                ← I/21-SS/Frundesberg; II/21-SS/Frundesberg; III/21-SS/Frundesberg
+        党卫军第21师                ← II/21-SS/Frundsberg; III/21-SS/Frundsberg; I/21-SS/Frundsberg
+  22-SS                              共 6 处 （槽位受限/人工确认） → 第22-党卫军×3[词库] ｜ 党卫军第22师×3[人工]
+        第22-党卫军                ← I/22-SS/Frundesberg; II/22-SS/Frundesberg; III/22-SS/Frundesberg
+        党卫军第22师                ← III/22-SS/Frundsberg; I/22-SS/Frundsberg; II/22-SS/Frundsberg
+  3 Tk                               共 6 处 （槽位受限/人工确认） → 第3坦克军×5[人工] ｜ 第3坦克×1[人工]
+        第3坦克军                  ← 103/3 Tk/2 Tk Army; 50/3 Tk/2 Tk Army; 51/3 Tk/2 Tk Army
+        第3坦克                   ← 57 Mtr/3 Tk/2 Tk Arm
+  3rd DIC                            共 6 处 （槽位受限/人工确认） → 3 殖民地步兵师×4[人工] ｜ 第3殖民地步兵师×1[人工] ｜ 第3 殖民地步兵师×1[人工]
+        3 殖民地步兵师               ← 1st/3rd DIC/[X]/2nd; 21st/3rd DIC/[X]/2nd; 14th/3rd DIC/[X]/2nd
+        第3殖民地步兵师               ← 23rd/3rd DIC/[X]/2nd
+        第3 殖民地步兵师              ← 13th Eng./3rd DIC/[X]/2nd
+  XI F.Korps                         共 6 处 （槽位受限/人工确认） → 第XI空降军×4[人工] ｜ 第11军×1[人工] ｜ 第XI航空军×1[人工]
+        第XI空降军                 ← Fj.Pio.Abt./XI F.Korps/22 FJ Div.; 16R/XI F.Korps/22 FJ Div.; 47R/XI F.Korps/22 FJ Div.
+        第11军                   ← R/XI F.Korps/22 FJ. Div.
+        第XI航空军                 ← 47R/XI F.Korps/22 FJ Div
+  10-SS                              共 5 处 （槽位受限/人工确认） → 第10-党卫军×4[词库] ｜ 党卫军第10师×1[人工]
+        第10-党卫军                ← I+II/10-SS/Frundesberg; I/10-SS/Wiking; II/10-SS/Wiking
+        党卫军第10师                ← I+II/10-SS/Frundsberg
+  101 Trieste                        共 5 处 （上下文已解释） → 第101的里雅斯特师×4[词库] ｜ 第101的里雅斯特×1[词库]
+        第101的里雅斯特师             ← 65 R/101 Trieste/[XX]; 66 R/101 Trieste/[XX]; 21 AR/101 Trieste/[XX]
+        第101的里雅斯特              ← 9/101 Trieste/[XX]
+  12SS                               共 5 处 （槽位受限/人工确认） → 第12党卫军×3[词库] ｜ 党卫军第12装甲师×2[人工]
+        第12党卫军                 ← 25/12SS; 12/12SS; 26/12SS
+        党卫军第12装甲师              ← 2/12/12SS; 1/12/12SS
+  15th Mechanised                    共 5 处 （槽位受限/人工确认） → 第15摩托化师×4[人工] ｜ 第15机械化×1[词库]
+        第15摩托化师                ← 47/15th Mechanised; 321/15th Mechanised; 14/15th Mechanised
+        第15机械化                 ← 77/-/15th Mechanised
+  16 Tk                              共 5 处 （槽位受限/人工确认） → 第16坦克军×4[人工] ｜ 第16坦克×1[人工]
+        第16坦克军                 ← 164/16 Tk/2 Tk Army; 107/16 Tk/2 Tk Army; 109/16 Tk/2 Tk Army
+        第16坦克                  ← 15 Mtr/16 Tk/2 Tk Ar
+  2 GdAbn                            共 5 处 （槽位受限/人工确认） → 第2近卫空降师×4[人工] ｜ 第2近卫空降团×1[人工]
+        第2近卫空降师                ← 4 GdAbn/2 GdAbn/18 G; 5 GdAbn/2 GdAbn/18 G; 7 GdAbn/2 GdAbn/18 G
+        第2近卫空降团                ← 2 GdAbn/3 GdAbn/18 G
+  4 GdAbn                            共 5 处 （槽位受限/人工确认） → 第4近卫空降师×4[人工] ｜ 第4近卫空降团×1[人工]
+        第4近卫空降师                ← 9 GdAbn/4 GdAbn/18G; 12 GdAbn/4 GdAbn/18G; 15 GdAbn/4 GdAbn/18G
+        第4近卫空降团                ← 4 GdAbn/2 GdAbn/18 G
+  Thule                              共 5 处 （槽位受限/人工确认） → 图勒×4[词库/人工] ｜ 图勒团×1[人工]
+        图勒                     ← I/Thule/Totenkopf; II/Thule/Totenkopf; III/Thule/Totenkopf
+        图勒团                    ← Thule/SS[T]/[XVI]
+  15LF                               共 4 处 （槽位受限/人工确认） → 15LF×3[词库] ｜ 第15LF×1[人工]
+        15LF                   ← 15/15LF/4P; 29/15LF/4P; 30/15LF/4P
+        第15LF                  ← KGL/15LF/4P
+  16 SS PzG D                        共 4 处 （槽位受限/人工确认） → 第16党卫军装甲掷弹兵师×3[人工] ｜ 党卫军第16装甲掷弹兵师×1[人工]
+        第16党卫军装甲掷弹兵师           ← 2 R/16 SS PzG D; 64 R/16 SS PzG D; 16 R/16 SS PzG D
+        党卫军第16装甲掷弹兵师           ← 79 R/16 SS PzG D
+  2 Army                             共 4 处 （槽位受限/人工确认） → 第2军×3[人工] ｜ 第2集团军×1[人工]
+        第2军                    ← 3/2 Army; 1/2 Army; 10/2 Army
+        第2集团军                  ← 2/2 Army
+  2 ID NZ                            共 4 处 （槽位受限/人工确认） → 新西兰第2步兵师×3[人工] ｜ 新西兰第2师×1[人工]
+        新西兰第2步兵师               ← 5 Br/2 ID NZ; 6 Br/2 ID NZ; 9 Br/2 ID NZ
+        新西兰第2师                 ← 4 Br/2 ID NZ
+  2 aR                               共 4 处 （槽位受限/人工确认） → 2 炮兵团×2[人工] ｜ 第2炮兵团×2[人工]
+        2 炮兵团                  ← 1/2 aR/HG D; 2/2 aR/HG D
+        第2炮兵团                  ← 2 aR/2 NzD; 2 aR/1 Can D
+  48th                               共 4 处 （槽位受限/人工确认） → 第48×2[词库] ｜ 第48团×1[人工] ｜ 第48师×1[人工]
+        第48                    ← 1-B/145/48th; 4-OB/145/48th
+        第48团                   ← 48th /21st ID/7th
+        第48师                   ← 48th/[BEF]
+  75 AR                              共 4 处 （槽位受限/人工确认） → 第75炮兵团×3[人工] ｜ 75炮兵团×1[词库]
+        第75炮兵团                 ← 75 AR/5 LD/[DAK]; 75 AR/3 Pz.Div./[XVI]; 75 AR/3 Pz/[XXXXI]
+        75炮兵团                  ← I/75 AR/5 LD/[DAK]
+  11th                               共 3 处 （槽位受限/人工确认） → 第11团×2[人工] ｜ 第11×1[人工]
+        第11团                   ← B/I/11th/5th; F/II/11th/5th
+        第11                    ← 11th/6th Cav./5th DLC/2th
+  12 Lt.                             共 3 处 （槽位受限/人工确认） → 12轻骑兵团×2[人工] ｜ 第12轻骑兵团×1[人工]
+        12轻骑兵团                 ← 3rd/12 Lt./2ndDLC/[XVIII]/2nd; 75th/12 Lt./2ndDLC/[XVIII]/2nd
+        第12轻骑兵团                ← 2nd/12 Lt./2ndDLC/[XVIII]/2nd
+  2 155 R                            共 3 处 （上下文已解释） → 2 第155团×2[词库] ｜ 2 155团×1[词库]
+        2 第155团                ← 1/2 155 R/21 Pz; 1/2 155 R/21Pz
+        2 155团                 ← 2/2 155 R/21Pz
+  42 JD                              共 3 处 （槽位受限/人工确认） → 猎兵第42师×2[人工] ｜ 第42猎兵师×1[人工]
+        猎兵第42师                 ← 741 R/42 JD; 742 R/42 JD
+        第42猎兵师                 ← 42 R/42 JD
+  50th                               共 3 处 （槽位受限/人工确认） → 第50团×2[人工] ｜ 第50师×1[人工]
+        第50团                   ← 2/14/50th/30th; 3/14/50th/30th
+        第50师                   ← 50th/[BEF]
+  52To                               共 3 处 （槽位受限/人工确认） → 52To×2[词库] ｜ 第52To×1[人工]
+        52To                   ← 81/52To/8; 82/52To/8
+        第52To                  ← 52/52To/8
+  7 B                                共 3 处 （槽位受限/人工确认） → 第7营×2[人工] ｜ 7营×1[词库]
+        第7营                    ← 7 B/5 ID; 7 B/8 ID Indian
+        7营                     ← 1/7 B/51 ID/XXX/VIII
+  75th                               共 3 处 （槽位受限/人工确认） → 第75×2[人工] ｜ 第75团×1[人工]
+        第75                    ← 75th/1st DLC/2nd; 75th/12 Lt./2ndDLC/[XVIII]/2nd
+        第75团                   ← 75th/1st DLC/9th
+  Flak, 1 'Sturmpioniere' and 2 anti 共 3 处 （槽位受限/人工确认） → 高炮、1 个「突击工兵」和 2 个反坦克部队）。×2[人工] ｜ 高射炮、1 个「突击工兵」与 2 个反坦克单位）。×1[人工]
+        高炮、1 个「突击工兵」和 2 个反坦克部队 ← (If playing with rules, LSSAH has been upgraded to a; (If playing with rules do not buy any new units, exc
+        高射炮、1 个「突击工兵」与 2 个反坦克单 ← (If playing with rules do not buy any new units, exc
+  II.                                共 3 处 （槽位受限/人工确认） → 第2×2[词库] ｜ 第II大队×1[人工]
+        第2                     ← II./JG51; II./StG1
+        第II大队                  ← II./JG77
+  JG27                               共 3 处 （槽位受限/人工确认） → 第27战斗机联队×2[人工/词库] ｜ JG27×1[人工]
+        第27战斗机联队               ← JG27/Jgdfr 3/[L3]; I/JG27
+        JG27                   ← II/JG27
+  Jgdfr 3                            共 3 处 （槽位受限/人工确认） → 第3航空师×2[人工] ｜ 第3战斗机师×1[人工]
+        第3航空师                  ← JG27/Jgdfr 3/[L3]; JG2/Jgdfr 3/[L3]
+        第3战斗机师                 ← ZG2/Jgdfr 3/[L3]
+  Other campaigns at: http:          共 3 处 （槽位受限/人工确认） → 其他战役见：http:×2[人工] ｜ 更多战役见：http:×1[人工]
+        其他战役见：http:            ← Other campaigns at: http://www.pegww2.net/; Other campaigns at: http://wwww.pegww2.net/
+        更多战役见：http:            ← Other campaigns at: http://www.pegww2.net
+  (If playing with rules do not buy  共 2 处 （槽位受限/人工确认） → （若按规则游玩，除补充核心部队的损失外，不要购买任何新部队。本场景你应部署 3 个「党卫军步兵」、1 个「突击工兵」、1 个防空×1[人工] ｜ （如果按规则游玩，不要购买任何新单位，只用于补充核心部队的损失。本场景你应当部署 3 个「党卫军步兵」、1 个「突击工兵」、1 个防空×1[人工]
+        （若按规则游玩，除补充核心部队的损失外，不要 ← (If playing with rules do not buy any new units, exc
+        （如果按规则游玩，不要购买任何新单位，只用于 ← (If playing with rules do not buy any new units, exc
+  1 Gds                              共 2 处 （槽位受限/人工确认） → 第1近卫×1[人工] ｜ 第1近卫团×1[人工]
+        第1近卫                   ← 1 Gds / 16 Air Army
+        第1近卫团                  ← 1 Gds/4 GdAbn/18 Gds
+  19th                               共 2 处 （槽位受限/人工确认） → 第19团×1[人工] ｜ 第19×1[人工]
+        第19团                   ← 19th/1stDLC/9th
+        第19                    ← 19th/2nd Bde./1st DLC/2nd
+  2 90 R                             共 2 处 （上下文已解释） → 2 第90团×1[词库] ｜ 2 90团×1[词库]
+        2 第90团                 ← 1/2 90 R/10 Pz
+        2 90团                  ← 2/2 90 R/10 Pz
+  2 Gds                              共 2 处 （槽位受限/人工确认） → 第2近卫×1[人工] ｜ 第2近卫团×1[人工]
+        第2近卫                   ← 2 Gds / 16 Air Army
+        第2近卫团                  ← 2 Gds/3 GdAbn/18 Gds
+  3 aaB                              共 2 处 （槽位受限/人工确认） → 第3防空营×1[人工] ｜ 第3高射炮营×1[词库]
+        第3防空营                  ← 3 aaB/3 ID
+        第3高射炮营                 ← 3 aaB/Pistoia D/XXI/I
+  37 Pion.(B)                        共 2 处 （槽位受限/人工确认） → 第37工兵营(B)×1[人工] ｜ 第37工兵营×1[人工]
+        第37工兵营(B)              ← 37 Pion.(B)/1 Pz/[XIX]
+        第37工兵营                 ← 37 Pion.(B)/10 Pz/[XIX]
+  3RTR                               共 2 处 （槽位受限/人工确认） → 第3皇家坦克团×1[人工] ｜ 3RTR×1[人工]
+        第3皇家坦克团                ← 3RTR/1st Armoured Bde.
+        3RTR                   ← 3RTR/29/11th Arm.
+  46th                               共 2 处 （槽位受限/人工确认） → 第46团×1[人工] ｜ 第46×1[人工]
+        第46团                   ← 46th/1st DLC/9th
+        第46                    ← 46th/1st DLC/2nd
+  7 Mot Bde                          共 2 处 （上下文已解释） → 第7摩托化旅×1[词库] ｜ 7摩托化旅×1[词库]
+        第7摩托化旅                 ← 9/7 Mot Bde/7 Arm Div/[XXX]
+        7摩托化旅                  ← 2/7 Mot Bde/7 Arm Div/[XXX]
+  8 FR                               共 2 处 （上下文已解释） → 8野战团×1[词库] ｜ 第8野战团×1[词库]
+        8野战团                   ← 2/8 FR/9 Aust./[XXX]
+        第8野战团                  ← 8 FR/22 Guards Inf.Bde.
+  8KRH                               共 2 处 （槽位受限/人工确认） → 第8国王皇家骠骑兵团×1[人工] ｜ 第8皇家轻骑兵团×1[词库]
+        第8国王皇家骠骑兵团             ← 8KRH/7
+        第8皇家轻骑兵团               ← 8KRH/-/7th Armoured
+  AT B                               共 2 处 （槽位受限/人工确认） → 第1反坦克营×1[人工] ｜ 反坦克营×1[人工]
+        第1反坦克营                 ← AT B/1 P D
+        反坦克营                   ← AT B/HG D
+  Lepanto Inf.Div.                   共 2 处 （槽位受限/人工确认） → 莱潘托步兵师×1[人工] ｜ 勒班陀(Lepanto)步兵师×1[人工]
+        莱潘托步兵师                 ← Inf.Rgt./Lepanto Inf.Div.
+        勒班陀(Lepanto)步兵师        ← Art.Rgt./Lepanto Inf.Div.
+  PeGWW2 conversion: Robert Mary, 02 共 2 处 （槽位受限/人工确认） → PeGWW2 conversion: Robert Mary, 02×1[人工] ｜ PeGWW2 转换：Robert Mary，02×1[人工]
+        PeGWW2 conversion: Rob ← PeGWW2 conversion: Robert Mary, 02/2005
+        PeGWW2 转换：Robert Mary， ← PeGWW2 conversion: Robert Mary, 02/2009
+  Rang B                             共 2 处 （槽位受限/人工确认） → Rang营×1[人工] ｜ 朗格营×1[人工]
+        Rang营                  ← Rang B/3 ID
+        朗格营                    ← Rang B/1 ID
+  Recon                              共 2 处 （槽位受限/人工确认） → Recon×1[人工] ｜ 侦察营×1[人工]
+        Recon                  ← Recon/16
+        侦察营                    ← Recon/7 US Armored
+
+【ww2-eqp-map】段位可对齐行 127 · 对齐失败(段数不等) 26 · 同词异译段 0 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 0 组）
+
+【WW2NAME-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 0 组）
+
+【WW2Misc-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 0 组）
+
+【WW2Gui-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 0 组）
+
+【WW2Tips-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组** · 上下文/标记/裁定表已解释 0 组）

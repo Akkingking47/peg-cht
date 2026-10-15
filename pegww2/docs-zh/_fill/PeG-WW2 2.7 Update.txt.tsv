@@ -1,0 +1,233 @@
+# PeG-WW2 2.7 Update.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	PEG-WW2 MODIFICATIONS\t\t\t\t\t\t\t5 August, 2004	PEG-WW2 修改内容\t\t\t\t\t\t\t2004 年 8 月 5 日
+3	LEGAL STUFF	法律声明
+5	People's General is copyrighted property of SSI.  	People's General 是 SSI 的版权财产。
+7	PeG-WW2 2.7x is not an authorized modification of People's General and SSI has no responsibility for it.  PeG-WW2 2.7x is a user modified version of People's General and is for distribution ONLY to owners of a People's General license. 	PeG-WW2 2.7x 不是 People's General 的授权修改版，SSI 对其不承担任何责任。PeG-WW2 2.7x 是 People's General 的用户修改版，仅限分发给持有 People's General 授权的用户。
+9	If you do not own a copy of PeG please purchase one from an authorized seller:	如果你没有 PeG 的副本，请向授权销售商购买：
+10	\tNarayan Sengupta's web site:	\tNarayan Sengupta 的网站：
+11	\t\thttp://www.peachmountain.com/5star/PEG_DownloADS.ASP	\t\thttp://www.peachmountain.com/5star/PEG_DownloADS.ASP
+12	\tor at The Underdog's	\t或 The Underdog's
+13	\t\thttp://www.the-underdogs.org/	\t\thttp://www.the-underdogs.org/
+15	As originally distributed by me PeG-WW2 is free of any intentionally malicious code.  However, it is a beta-level modification; despite satisfactory play testing by me and other testers its possible that problems may occur on some systems.  I am not responsible for any problems, damages, disturbances, heartache, irritations, attitudes or crying that you encounter from using this.  Just send me an e-mail about any bug and I'll try to fix it.	由我最初发布的 PeG-WW2 不含任何故意的恶意代码。不过它是一个测试版修改版；尽管我和其他测试者的试玩结果令人满意，在某些系统上仍可能出问题。对于你使用它时遇到的任何问题、损坏、干扰、心痛、恼火、态度或哭泣，我概不负责。发现 bug 只要给我发一封电子邮件，我会尽力修复。
+18	REDBALL'S REQUESTS	REDBALL 的要求
+20	PeG-WW2 2.7x is provided free of charge.  It may not be offered on any web site which charges fees for access or for downloads and may not be sold separately or included in any package for which a fee is charged.	PeG-WW2 2.7x 免费提供。不得在任何对访问或下载收费的网站上提供，也不得单独出售，或包含在任何收费的套装中。
+22	PeG-WW2 2.7x may be posted on web-sites that are:  (1) free to the user, (2) primarily serve owners of a People's General license and (3) the post contains the entire package listed in the accompanying README file.	PeG-WW2 2.7x 可以发布在符合以下条件的网站上：(1) 对用户免费，(2) 主要面向持有 People's General 授权的用户，(3) 发布内容包含随附 README 文件中列出的完整包。
+24	PeG-WW2 2.7x are the only modified versions of PeG which I distribute to the wider PeG community.  Modifications I have made for individual users are "Special Editions".  Please do not distribute those to other people.  If there is a feature you are testing in a Special Edition, please let me know if you feel it should be included in a later general release.	PeG-WW2 2.7x 是我向广大 PeG 社区发布的唯一修改版本。我为个别用户做的修改属于"特别版"。请不要把这些版本分发给其他人。如果你正在特别版中测试某项功能，并认为它应该加入以后的正式发布版，请告诉我。
+28	PEG-WW2 vs PEG	PEG-WW2 与 PEG 的对比
+30	SSI's original PeG focused on modern land combat circa 2005-2020.	SSI 原版的 PeG 聚焦于 2005-2020 年前后的现代陆战。
+32	Fred Chlanda and Mark Kirby adapted Panzer General II (PG2) equipment files to PeG.  Mark expanded that initial work into a complete package -- PeG-WW2 -- focused on World War II combat. 	Fred Chlanda 和 Mark Kirby 把 Panzer General II (PG2) 的装备文件移植到 PeG。Mark 在这项最初工作的基础上扩展出一个完整的包——PeG-WW2——聚焦于二战作战。
+35	PeG-WW2 2.7x and PeG 2.7x are different variations of the same original SSI game.  They are not interchangable and will play slightly differently. 	PeG-WW2 2.7x 与 PeG 2.7x 是同一个 SSI 原版游戏的不同变体。二者不能互换，玩起来也略有差异。
+37	The two versions differ in the following broad areas:	两个版本的差异大致在以下几个方面：
+38	\t* changes that are included in PeG 2.7 but not PeG-WW2 2.7  (noted below)	\t* 包含在 PeG 2.7 中但不包含在 PeG-WW2 2.7 中的改动（见下文）
+39	\t* changes that are included in PeG-WW2 2.7 but not PeG 2.7  (noted below)	\t* 包含在 PeG-WW2 2.7 中但不包含在 PeG 2.7 中的改动（见下文）
+40	\t* movement rates table	\t* 移动力表
+41	\t* equipment files	\t* 装备文件
+42	\t* icons	\t* 图标
+43	\t* campaigns & scenarios	\t* 战役与场景
+45	Specific changes that are included in or excluded from PeG-WW2 2.7 compared to PeG 2.7:	与 PeG 2.7 相比，PeG-WW2 2.7 包含或排除的具体改动：
+46	\tThe base year is 1900 in PeG-WW2, in PeG the base year is 2000.	\tPeG-WW2 的基准年份是 1900，PeG 的基准年份是 2000。
+48	\tPeG-WW2 2.7b has new icons which are contained in BUTTONS.s16, INFOICON.s16 and START.s16.  These icons are the same as PeG 2.7 but are colored light brown rather than bright green.	\tPeG-WW2 2.7b 有新图标，存放在 BUTTONS.s16、INFOICON.s16 和 START.s16 中。这些图标与 PeG 2.7 相同，但颜色是浅棕色而不是亮绿色。
+50	\tPeG-WW2 uses a different set of countries from other versions of PeG.  PeG-WW2 2.7b uses the same country line-up as that used in Mark's PeG-WW2.	\tPeG-WW2 使用的国家集合与其他版本的 PeG 不同。PeG-WW2 2.7b 使用的国家阵容与 Mark 的 PeG-WW2 相同。
+52	\tUSA (country #10) is the sole member of the Allied alliance set and Germany (country #3) is the sole member of the Axis alliance set.	\t美国（国家 #10）是同盟阵营的唯一成员，德国（国家 #3）是轴心阵营的唯一成员。
+54	\tCountries 3,5 & 15 do NOT get infantry with base strength 15;  their infantries are base strength 10 like all others.	\t国家 3、5 和 15 不会获得基础兵力 15 的步兵；它们的步兵和其他国家一样基础兵力是 10。
+56	\tThe relative costs for experience of new units is left the same as the original game.  No bar (green), silver bar (veteran) & gold bar (elite) units cost 100%, 110% and 130% respectively.  In PeG 2.7 these costs are 100%, 130% and 180%.	\t新单位的经验相对费用与原版游戏保持一致。无杠（绿色）、银杠（老兵）和金杠（精锐）单位的费用分别为 100%、110% 和 130%。在 PeG 2.7 中这些费用是 100%、130% 和 180%。
+61	VERSIONS SUMMARY	版本摘要
+64	VERSION 2.7b\t(REDBALL) BETA RELEASE  August 2, 2004	版本 2.7b\t(REDBALL) 测试版发布  2004 年 8 月 2 日
+67	(17) The date range allowed in Scenario Builder is now +0 to +127 from base year instead of starting at +1.  (This is a revision of an earlier modification; see item 11 below.)	(17) 场景编辑器允许的日期范围现在是从基准年份起 +0 到 +127，而不再从 +1 开始。（这是对早先一项修改的修订；见下文第 11 条。）
+69	(18) Added explanatory labels for some menu items	(18) 为部分菜单项添加了说明性标签
+71	(19) Expanded display of CAM & SCN intro text on the selection screens.	(19) 扩大了选择界面上 CAM 与 SCN 介绍文本的显示区域。
+73	(20) Added version information and SSI copyright notice to splash page 	(20) 在启动画面上添加了版本信息和 SSI 版权声明
+75	(21) Enabled equipment file name to be displayed in upper left corner	(21) 使装备文件名称可以显示在左上角
+77	(22) Changed the default year in Scenario Builder.  (PeG-WW2 only)	(22) 更改了场景编辑器中的默认年份。（仅 PeG-WW2）
+79	(23) Countries 3, 5 & 15 do not get over-strength infantry.  (PeG-WW2 only)	(23) 国家 3、5 和 15 不会获得超编步兵。（仅 PeG-WW2）
+82	VERSION 2.7a\t(REDBALL) BETA RELEASE  April 15, 2004	版本 2.7a\t(REDBALL) 测试版发布  2004 年 4 月 15 日
+84	16) Enabled PeG to display any video format playable by Quicktime.	16) 使 PeG 可以显示 Quicktime 能播放的任何视频格式。
+88	VERSION 2.6f\t(REDBALL) BETA RELEASE  April 4, 2004	版本 2.6f\t(REDBALL) 测试版发布  2004 年 4 月 4 日
+90	This release can be installed within your existing People’s General folder.  It won’t replace any existing files.  The EXE file has been modified to call the new versions of each file. 	这个版本可以安装在现有的 People's General 文件夹中。它不会替换任何现有文件。EXE 文件已被修改，以调用每个文件的新版本。
+93	5) Modified movement rates tables	5) 修改了移动力表
+95	6) Added correct captions for all 12 movement types	6) 为全部 12 种移动类型添加了正确的标题
+97	7) Changed the movement type icons to show movement groups (VEHICLE, LEG, AIR, SEA)	7) 更改了移动类型图标，使其显示移动组（VEHICLE 车辆、LEG 徒步、AIR 空中、SEA 海上）
+99	8) New break points for high score ranks	8) 高分军衔的新分界点
+101	9) Modified prestige percentage range and captions	9) 修改了威望百分比的范围和标题
+103	10) *Modified the costs of veteran and elite units	10) *修改了老兵和精锐单位的费用
+105	11) Changed the date range allowed in Scenario Builder to +1 to +127 from base year.	11) 将场景编辑器允许的日期范围改为从基准年份起 +1 到 +127。
+107	12) "Bridging" attachment renamed as "River Assault"	12) "Bridging"（架桥）附件改名为 "River Assault"（渡河突击）
+109	13) "Combat Support" Special Equipment  renamed as "Deploy & Supply"	13) "Combat Support"（「战斗支援」）特种装备改名为 "Deploy & Supply"（「部署与补给」）
+111	14) Attachments modified.	14) 修改了附件。
+113	15) Corrected the "Eastern Loss" (Axis Loss) problem	15) 修正了 "Eastern Loss"（轴心方失败）的问题
+116	VERSION 2.55\t(MADMAN)	版本 2.55\t(MADMAN)
+117	4) *55 Countries	4) *55 个国家
+120	VERSION 2.2\t(I DON'T KNOW WHO TO CREDIT ON THIS)	版本 2.2\t(我不知道这项该归功于谁)
+121	3)  Base year =1900 instead of 2000   ()	3)  基准年份 =1900 而不是 2000   ()
+124	VERSION 2.1\t(JEFF VARNES)	版本 2.1\t(JEFF VARNES)
+125	2)  No Alliances	2)  无同盟
+128	VERSION 2.0\t(NARAYAN SENGUPTA & MARK KIRBY)	版本 2.0\t(NARAYAN SENGUPTA & MARK KIRBY)
+129	1) *New modern equipment file	1) *新的现代装备文件
+132	*  This modification is not included in PeG-WW2 2.7b.	*  这项修改不包含在 PeG-WW2 2.7b 中。
+137	\t\t\tMODIFICATIONS DETAILS	\t\t\t修改详情
+141	1)  *NEW EQUIPMENT FILE   (Narayan Sengupta and Mark Kirby)	1)  *新装备文件   (Narayan Sengupta 和 Mark Kirby)
+143	Narayan and Mark made the first new equipment file (actually EQUIP97.EQP which contains the parameters for each unit and EQUIP97.TXT which contains the names for each unit.)	Narayan 和 Mark 制作了第一个新装备文件（实际上是 EQUIP97.EQP，其中包含每个单位的参数，以及 EQUIP97.TXT，其中包含每个单位的名称。）
+145	As far as I know, Madman created the first publicly available modification of the PeG e-file. That opened the door for a lot of people to explore the e-file further.  However, his e-file was essentially an add-on patch and somewhat cumbersome to use rather than a direct file replacement.  I think it was less widely used than the e-files which Narayan and Mark have made, so I’m calling theirs PeG 2.0.	据我所知，Madman 制作了第一个公开发布的 PeG 装备文件(efile)修改。这为很多人进一步研究装备文件(efile)打开了大门。不过，他的装备文件本质上是一个附加补丁，用起来相当麻烦，而不是直接替换文件。我认为它不如 Narayan 和 Mark 制作的装备文件使用得广泛，所以我把他们的称为 PeG 2.0。
+147	Narayan and Mark also created the first new GUI97 file.	Narayan 和 Mark 还制作了第一个新的 GUI97 文件。
+150	2)  NO ALLIANCES	2)  无同盟
+152	The original "No Alliances" version actually has the USA and China as the sole members of the Western and Eastern alliances respectively.  One can also make a true "No Alliances" version with no countries in either of the alliances.  	最初的 "No Alliances"（无同盟）版本实际上是把美国和中国分别作为西方同盟和东方同盟的唯一成员。也可以制作一个真正的无同盟版本，两个同盟中都不包含任何国家。
+154	Jeff Varnes originally cracked the location of the alliances table in the PEOPLES.EXE file.	Jeff Varnes 最初破解出了 PEOPLES.EXE 文件中同盟表的位置。
+156	Any member of the Western Alliance  can purchase elite units:  2 gold bars which start with 200 experience points.  All other countries – members of the Eastern Alliance as well as non-aligned countries – are limited to regular (green bar/0 experience points at start) and veteran (silver bar/100 experience points).	西方同盟的任何成员都可以购买精锐单位：2 条金杠，初始经验值 200 点。其他所有国家——东方同盟成员以及不结盟国家——只能使用普通（绿杠／初始经验值 0 点）和老兵（银杠／经验值 100 点）单位。
+158	For PeG-WW2, the alliances are named "Allied" and "Axis".  The USA is the sole member of the Allied alliance and Nazi Germany is the sole member of the Axis alliance.	在 PeG-WW2 中，两个同盟分别名为 "Allied"（同盟）和 "Axis"（轴心）。美国是 Allied 同盟的唯一成员，纳粹德国是 Axis 同盟的唯一成员。
+162	3)  BASE YEAR =1900   (I don't know who to credit with this modification.)	3)  基准年份 =1900   (我不知道这项修改该归功于谁。)
+164	The base year in PeG was originally 2000.  This modification uses the year 1900 instead.  Years in the equipment file as well as in the SCN files only use a single byte (values of 0-255) which are then added to the base year.  In the original game, equipment and scenarios can span 2000-2255.  	PeG 的基准年份原本是 2000。这项修改改用 1900 年。装备文件以及 SCN 文件中的年份只用一个字节（取值 0-255），再与基准年份相加。在原版游戏中，装备和场景的时间跨度可以是 2000-2255。
+166	Scenario designers have been interested in using PeG as a platform for WW2 and even WW1 combat.  The 	场景作者一直有兴趣把 PeG 用作二战甚至一战的作战平台。  这个
+170	4)  *55 COUNTRIES	4)  *55 个国家
+172	Madman aka D10 made the 55 country modification.	Madman（又名 D10）制作了 55 国修改版。
+176	5)  MOVEMENT RATES TABLE	5)  移动力表
+178	The Movement Rates Table determines how many points are required by each Movement Type to move into a hex of a particular Terrain Type.	移动力表决定了每种移动类型进入某一地形类型的格需要多少点。
+180	Two new movement types have been added replacing unused ones.   Four new terrain types have been created.  Minor changes have been made in the rates for other Movement & Terrain Types.  I have made an Excel 2000 workbook that shows the whole new Movement Rates Table as well as the original one.  It includes tools for quickly comparing the new and old movement rates overall, for specific movement types or for specific terrain types.	新增了两种移动类型以替换未使用的类型。创建了四种新的地形类型。其他移动类型与地形类型的数值也有小幅改动。我制作了一个 Excel 2000 工作簿，其中展示了完整的新移动力表以及原表。它包含一些工具，可以快速比较新旧移动力：整体比较、按特定移动类型比较或按特定地形类型比较。
+183	Movement Types	移动类型
+185	The new MRT replaces two unused Movement Types – Towed and Naval – with Light Tracked (for smaller tanks & other light tracked vehicles) and Guerrilla (for irregular troops relying on leg movement or haphazard vehicle use).   	新的移动力表(MRT)用轻型履带(Light Tracked)（供较小的坦克及其他轻型履带车辆使用）和游击(Guerrilla)（供依赖徒步移动或随意使用车辆的非常规部队使用）替换了两种未使用的移动类型——牵引(Towed)和海军(Naval)。
+187	Towed is not particularly useful in PeG since there are no separate transport vehicles as in PG2.  	牵引在 PeG 中没什么用，因为 PeG 不像 PG2 那样有独立的运输车辆。
+189	Naval rates in PeG were exactly the same as Deep Naval and Coastal.  It’s possible that SSI originally intended the Naval movement rate to be strictly for submarines.  This would parallel the movement rates used by Pacific General.  However, unlike PacGen, PeG has no submerged status for submarines.	PeG 中的海军数值与远洋(Deep Naval)和近海(Coastal)完全相同。SSI 最初可能打算把海军移动类型专用于潜艇。这会与 Pacific General 使用的移动力一致。然而，与 PacGen 不同，PeG 中的潜艇没有潜航状态。
+191	Light Tracked is capable of movement on terrains which are prohibited to Tracked (Main Battle Tanks) or which significantly slow MBTs.  	轻型履带能在履带（主战坦克）禁止通行的地形上移动，也能在被主战坦克(MBT)严重拖慢的地形上移动。
+193	Guerrilla is slower than Leg in open terrain (Clear,  Airfield, & Roads) and urbanized areas (City, Dense Urban & Port).  It is faster than both Leg and even Ranger in Forest, Jungle & Mountain terrains to reflect the local knowledge and expertise of indigenous troops.  I suggest that it be used in new e-files for cheap versions of Ranger units:  excellent mobility under cover but relatively low fire power.	游击在开阔地形（开阔地、机场和道路）和城市化区域（城市、密集市区和港口）中比徒步慢。在森林、丛林和山地地形中，它比徒步甚至比游骑兵都快，以体现当地部队的本土知识和专长。我建议在新的装备文件(efile)中用游击来做廉价的游骑兵单位：在掩蔽下机动性极佳，但火力相对较低。
+195	To the best of my knowledge no units in the original PeG equipment file or Narayan’s version 2.9 e-file are affected by these changes.  It should be fairly simple to use these new movement types in new e-files.	据我所知，原版 PeG 装备文件或 Narayan 的 2.9 版装备文件(efile)中没有任何单位受这些改动影响。在新的装备文件(efile)中使用这些新移动类型应该相当简单。
+197	The complete list of Movement Types (new ones starred):	移动类型的完整列表（带星号的为新增）：
+198	 0 - Tracked	 0 - Tracked（履带）
+199	 1 - Half-Tracked	 1 - Half-Tracked（半履带）
+200	 2 - Wheeled	 2 - Wheeled（轮式）
+201	 3 - Leg	 3 - Leg（徒步）
+202	 4 - *Light Tracked  (formerly Towed)	 4 - *Light Tracked（轻型履带，原为 Towed）
+203	 5 - Air	 5 - Air（空中）
+204	 6 - Deep Naval	 6 - Deep Naval（远洋）
+205	 7 - Coastal	 7 - Coastal（近海）
+206	 8 - All Terrain-Vehicle	 8 - All Terrain-Vehicle（全地形车）
+207	 9 - Amphibious	 9 - Amphibious（两栖）
+208	10- *Guerrilla  (formerly Naval)	10- *Guerrilla（游击，原为 Naval）
+209	11-  Ranger	11-  Ranger（游骑兵）
+212	Terrain Types	地形类型
+214	The new MRT also replaces two Terrain Types – Rice Fields and Lake Regions – with Agricultural  (for fields with crops in season) and Coastal Waters (for ocean adjacent to land).  It also redefines a third – Fortification – as Dense Urban (for city centers).   A fourth terrain – Swamp – was renamed as Wetlands but it retains essentially the same movement characteristics as in the original.	新的移动力表(MRT)还用农田(Agricultural)（用于当季有作物的田地）和近岸水域(Coastal Waters)（用于与陆地相邻的海洋）替换了两种地形类型——水田(Rice Fields)和湖区(Lake Regions)。它还把第三种——工事(Fortification)——重新定义为密集市区(Dense Urban)（用于市中心）。第四种地形——沼泽(Swamp)——改名为湿地(Wetlands)，但它的移动特性与原版基本相同。
+216	Rice Fields, Lake Regions & Swamp had exactly the same movement rates so they were combined into the new terrain type "Wetlands".  (Actually there was a single difference between all three which appeared to be an error not a meaningful distinction.)  	水田、湖区和沼泽的移动力完全相同，所以它们被合并为新的地形类型 "Wetlands"（湿地）。（实际上三者之间只有一处差异，看起来是错误，而不是有意义的区别。）
+218	Note that in PeG-WW2 2.7 "Wheeled" Movement Type units are allowed to move on Wetlands using all movement points whereas in PeG 2.7 Wetlands are prohibited terrain.	注意，在 PeG-WW2 2.7 中，"Wheeled"（轮式）移动类型的单位可以花费全部移动力在湿地上移动，而在 PeG 2.7 中湿地是禁止通行的地形。
+221	The complete list of Terrain Types (new ones starred):	地形类型的完整列表（带星号的为新增）：
+222	 0 - Clear	 0 - Clear（开阔地）
+223	 1 - City	 1 - City（城市）
+224	 2 - Airfield	 2 - Airfield（机场）
+225	 3 - Forest	 3 - Forest（森林）
+226	 4 - Jungle	 4 - Jungle（丛林）
+227	 5 - Hill	 5 - Hill（丘陵）
+228	 6 - Mountain	 6 - Mountain（山地）
+229	 7 - Sand	 7 - Sand（沙地）
+230	 8 - *Wetlands	 8 - *Wetlands（湿地）
+231	 9 - Ocean	 9 - Ocean（海洋）
+232	10- River	10- River（河流）
+233	11- Fortification	11- Fortification（工事）
+234	12- Port	12- Port（港口）
+235	13- Stream	13- Stream（溪流）
+236	14- Escarpment	14- Escarpment（陡崖）
+237	15- Impassable River	15- Impassable River（不可通行的河流）
+238	16- Rough	16- Rough（崎岖地）
+239	17- Lake	17- Lake（湖泊）
+240	18- *Agricultural (formerly Rice Fields)	18- *Agricultural（农田，原为 Rice Fields）
+241	19- *Coastal Waters (formerly Lake Region)	19- *Coastal Waters（近岸水域，原为 Lake Region）
+242	20- Roads	20- Roads（道路）
+243	(Roads are part of the Movement Rates table even though they are an overlay terrain type – that is they are placed over another type of terrain – rather than being an independent terrain type.)	（道路也是移动力表的一部分，尽管它是一种叠加地形类型——也就是说，它被放置在另一种地形之上——而不是一种独立的地形类型。）
+246	6) CORRECT CAPTIONS FOR ALL 12 MOVEMENT TYPES	6) 为全部 12 种移动类型提供正确的标题
+248	PeG, like PG2, has 12 movement types.  All of these types work.  They can be set and used in the equipment files and each type provides different movement rates over different terrains.	PeG 和 PG2 一样有 12 种移动类型。这些类型都能正常工作。它们可以在装备文件中设置和使用，每种类型在不同地形上提供不同的移动力。
+250	However, in the original game only 5 of those movement types were captioned properly.  Tracked was used as the caption for Tracked, Half-Tracked, Towed, Deep Naval, Coastal, Naval, Amphibious and Ranger movement types.  Players with the original PeG had to remember whether the movement rates for each type of unit.	然而，在原版游戏中，这些移动类型只有 5 种有正确的标题。履带被用作履带、半履带、牵引、远洋、近海、海军、两栖和游骑兵等移动类型的标题。使用原版 PeG 的玩家只能自己记住每种单位的移动力。
+252	This modification to the EXE file and GUI97 uses correct captions for all 12 movement types.  See the description above of the Movement Rates Table.	对 EXE 文件和 GUI97 的这项修改为全部 12 种移动类型使用了正确的标题。参见上文关于移动力表的说明。
+255	7)  CHANGED THE MOVEMENT TYPE ICONS TO SHOW MOVEMENT GROUPS 	7)  更改了移动类型图标以显示移动组
+257	The 12 movement types only have 4 different icons.  In the original game, these 4 icons were confusing.  As with the captions, the Tracked icon was used for some movement types that were not land vehicles or even land-based, much less actually tracked units.	这 12 种移动类型只有 4 种不同的图标。在原版游戏中，这 4 个图标令人困惑。和标题一样，履带图标被用于某些移动类型，而这些类型并不是陆上车辆，甚至不是陆基单位，更谈不上是真正的履带单位。
+259	Each movement type now has an icon showing a particular group:	现在每种移动类型都有一个图标，显示它所属的组：
+260	\tVehicle Group\t(Tracked, Half-Tracked, Wheeled, Light Tracked &  All Terrain-Vehicle)	\tVehicle Group（车辆组）\t(履带、半履带、轮式、轻型履带与全地形车)
+261	\tLeg Group\t(Leg, Guerrilla, Ranger)	\tLeg Group（徒步组）\t(徒步、游击、游骑兵)
+262	\tAir\t\t(Air)	\tAir（空中）\t\t(空中)
+263	\tSea Group\t(Deep Naval, Coastal & Amphibious)	\tSea Group（海上组）\t(远洋、近海与两栖)
+265	The Vehicle Group uses a wheeled truck icon so that it is distinct from the tracked and wheeled icons previously used.  The Leg Group uses the original leg icon.	车辆组使用轮式卡车图标，以便与以前使用的履带和轮式图标区分开。徒步组使用原来的徒步图标。
+268	8)  NEW BREAK POINTS FOR HIGH SCORE RANKS	8)  高分军衔的新分界点
+270	The ranks obtained at the end of a campaign are determined by settings in the EXE file.	战役结束时获得的军衔由 EXE 文件中的设置决定。
+271	\tOriginal Values	\t原值
+272	\t\tField Marshal: 226-300 points\t(75 point range)	\t\t元帅：226-300 分\t(75 分区间)
+273	\t\tGeneral: 176-225 points\t\t(50 point range)	\t\t将军：176-225 分\t\t(50 分区间)
+274	\t\tColonel: 0-175 points\t\t(175 point range)	\t\t上校：0-175 分\t\t(175 分区间)
+276	The range for General seems too small at 50 points compared to the very wide range for Colonel  and somewhat larger range for Field Marshal.	与上校非常宽的区间和元帅稍大的区间相比，将军 50 分的区间显得太小。
+278	\tNew values:	\t新值：
+279	\t\tField Marshal: 251-300 points \t(50 point range)	\t\t元帅：251-300 分 \t(50 分区间)
+280	\t\tGeneral: 151-250 points \t(100 point range)	\t\t将军：151-250 分 \t(100 分区间)
+281	\t\tColonel: 0-150 points \t\t(150 point range)	\t\t上校：0-150 分 \t\t(150 分区间)
+283	With these new scoring ranges 	有了这些新的计分区间
+284	\tField Marshall = the majority of results are BV; for longer campaigns 1 or 2 losses 	\t元帅 = 多数战果为辉煌胜利(BV)；较长的战役中有 1 或 2 次失败
+285	\tGeneral = \t the majority of results are V	\t将军 = \t 多数战果为胜利(V)
+286	\tColonel = \t successfully completing any campaign with any results	\t上校 = \t 以任何战果成功完成任何战役
+288	There are only two cut points so only three possible outcome ranges and zero has to be the bottom of the lowest range.  Thus, there is no easy to way to make zero scores not appear on the rankings.  However, as with all "best scores" listings in games, higher scores will quickly bump the lowest scores off the list.	只有两个分界点，因此只有三种可能的战果区间，而 0 分只能是最低区间的下限。所以，没有办法轻易让 0 分不出现在排行榜上。不过，和游戏中所有"最佳成绩"列表一样，更高的分数会很快把最低分挤出榜单。
+291	9) MODIFIED PRESTIGE PERCENTAGE	9) 修改了威望百分比
+293	The prestige percentage (PP) changes how much prestige the human player(s) or AI will receive from bonus hexes and from end-of-scenario prestige awards.  For example, if the human player is to receive 1000 points at the end of the scenario and has PP set to 150 he/she will get 1500 points (1000 X 150%).  Or if the AI’s PP is set to 25% and the end of scenario increase for the AI is 2000 points it will only get 500 points (2000 x 25%).	威望百分比(PP)决定人类玩家或 AI 从奖励格和场景结束时的威望奖励中获得多少威望。例如，如果人类玩家在场景结束时本应获得 1000 点，而 PP 设为 150，他/她将得到 1500 点（1000 X 150%）。或者如果 AI 的 PP 设为 25%，而 AI 在场景结束时的增加量为 2000 点，它只会得到 500 点（2000 x 25%）。
+295	The effect of  the prestige percentage was inaccurately presented in the original PeG.  On the campaign selection screen, clicking on the prestige percentage’s up arrow for the human player said that it "increased campaign difficulty".  Clicking on the up arrow for the AI’s prestige percentage also said that it  "increased campaign difficulty".  That was confusing to me when I started playing PeG.	在原版 PeG 中，威望百分比的效果说明并不准确。在战役选择界面上，点击人类玩家威望百分比的向上箭头时，提示为 "increased campaign difficulty"（「增加战役难度」）。点击 AI 威望百分比的向上箭头，提示同样是 "increased campaign difficulty"（「增加战役难度」）。我刚开始玩 PeG 时对此很困惑。
+297	As the examples above indicate, increasing the prestige percentage will give either the human player or the AI more prestige.  An increase for the player makes the game easier.  An increase for the AI makes the game harder.  The captions now show this correctly.	正如上面的例子所示，提高威望百分比会给人类玩家或 AI 更多的威望。为玩家提高会让游戏更容易。为 AI 提高会让游戏更难。现在标题已经正确显示了这一点。
+299	I also changed the range of the prestige percentage.  Originally it was 100-300; it is now 0-500.  At 500 the number will roll over to 0.  At 0 it will roll over to 500.  	我还更改了威望百分比的范围。原来是 100-300；现在是 0-500。到 500 时数字会回绕到 0。到 0 时会回绕到 500。
+303	10)  MODIFIED THE COSTS OF VETERAN AND ELITE UNITS	10)  修改了老兵和精锐单位的费用
+305	[At Robert's request this mod is omitted from PeG-WW2 2.7b.  In a future version I plan to allow these costs to be set within the SCN file created by each scenario designer.]	[应 Robert 的要求，这项修改在 PeG-WW2 2.7b 中被省略了。在未来的版本中，我计划让这些费用可以在各场景作者创建的 SCN 文件中设置。]
+308	Veteran units originally cost 110% of green units.   Elite units originally cost 130% of green units.	老兵单位原本的费用是绿色单位的 110%。精锐单位原本的费用是绿色单位的 130%。
+310	That seems way too low to me for the advantage of experienced units.  I have increased the costs to 130% for veteran units (silver bar) and 180% for elite units (gold bar).	在我看来，相对于有经验单位的优势，这个费用太低了。我把老兵单位（银杠）的费用提高到 130%，把精锐单位（金杠）提高到 180%。
+314	11) CHANGED THE DATE RANGE ALLOWED IN SCENARIO BUILDER TO +0 TO +127 FROM BASE YEAR.	11) 将场景编辑器允许的日期范围改为从基准年份起 +0 到 +127。
+316	The Scenario Builder originally had a 20 year limit:  +1 to +20 from the base year, whether base year is 2000 or 1900.  Thus, increasing from the year 2020 rolled the calendar around to 2001.   Decreasing the year from 2001 rolls around to 2000.  	场景编辑器原本有 20 年的限制：从基准年份起 +1 到 +20，无论基准年份是 2000 还是 1900。因此，从 2020 年往上增加会回绕到 2001 年。从 2001 年往下减少会回绕到 2000 年。
+318	Despite this limit,  scenarios set for December 31, 2020 have no problem changing the date to January 1, 2021.  Scenarios dates can be set beyond 2021 (or 1921 for base year 1900) using Luis Guzman’s PegSuite; there is no problem with these "over 20" dates.	尽管有这个限制，设为 2020 年 12 月 31 日的场景在把日期改到 2021 年 1 月 1 日时并没有问题。使用 Luis Guzman 的 PegSuite 可以把场景日期设到 2021 年（基准年份为 1900 时是 1921 年）以后；这些"超过 20 年"的日期没有问题。
+320	The range can now be +0 to +127 from the base year.  (In an earlier release I had only changed the maximum year.  Starting with version 2.7b the scenario can begin in +0, i.e. 2000 or 1900 depending on your base year.)	现在的范围可以是基准年份起 +0 到 +127。（在较早的发布版中，我只改了最大年份。从 2.7b 版开始，场景可以从 +0 开始，即根据你的基准年份是 2000 或 1900。）
+324	12)  "BRIDGING" ATTACHMENT RENAMED AS "RIVER ASSAULT"	12)  "BRIDGING"（架桥）附件改名为 "RIVER ASSAULT"（渡河突击）
+326	SSI originally used "Bridging" to mean both the Bridging Special Equipment (which can only be set in the equipment file), the Bridging Attachment (which is purchased during game play) and the Bridging Leader which is awarded during game play.  However the attachment and the leader are not the same as the special equipment.	SSI 最初用 "Bridging"（架桥）同时指架桥特种装备（只能在装备文件中设置）、架桥附件（在游戏过程中购买）和在游戏过程中授予的架桥指挥官。然而，附件和指挥官与特种装备并不相同。
+328	Bridging Special Equipment "when positioned across a river hex allow other friendly units to cross over as road terrain".  In other words these units are Bridging Engineers.	架桥特种装备"当部署在河流格上时，允许其他友军单位按道路地形通过"。换句话说，这些单位就是架桥工兵。
+330	The Bridging Attachment and the Bridging Leader allow units to "cross river hexes as rough terrain and make attacks while in river hexes".  Both of these only apply to the unit which has them.	架桥附件和架桥指挥官允许单位"按崎岖地形穿越河流格，并可在河流格中发起攻击"。这两者只对拥有它们的单位生效。
+332	But this definition is exactly the same as the definition for the River Assault Special Equipment  which allows "units with this equipment special (to) cross river hexes as rough terrain and make attacks while in river hexes."	但这个定义与渡河突击特种装备的定义完全相同，后者允许"拥有该特种装备的单位按崎岖地形穿越河流格，并可在河流格中发起攻击"。
+334	For consistency, the GUI file now refers to Bridging Special Equipment as Bridging Engineers that allow other units to cross rivers.  River Assault is used for the attachment and the leader that allow individual units to cross rivers and conduct assaults when crossing.	为保持一致，界面(GUI)文件现在把架桥特种装备称为架桥工兵，即允许其他单位渡河的单位。而渡河突击(River Assault)用于指允许单个单位渡河并在渡河时发起攻击的附件和指挥官。
+336	The icon for the River Assault attachment has been changed also to show this.	渡河突击附件的图标也已更改，以体现这一点。
+340	13)  "COMBAT SUPPORT" SPECIAL EQUIPMENT RENAMED AS "DEPLOY & SUPPLY"	13)  "COMBAT SUPPORT"（「战斗支援」）特种装备改名为 "DEPLOY & SUPPLY"（「部署与补给」）
+342	SSI originally used "Combat Support" to mean both the Combat Support Special Equipment (which can only be set in the equipment file) and the Combat Support Attachment (which is purchased during game play). 	SSI 最初用 "Combat Support"（「战斗支援」）同时指战斗支援特种装备（只能在装备文件中设置）和战斗支援附件（在游戏过程中购买）。
+344	The CS Special Equipment "allows you to deploy units adjacent to this unit and allows you to re-supply and reinforce any unit that moves to within hexes of this unit (as long as it hasn't fired in the turn.)"	战斗支援(CS)特种装备"允许你在该单位相邻的格部署单位，并允许你对移动到该单位附近格内的任何单位进行再补给和补充（只要它在该回合中还没有开火）。"
+346	The CS Attachment gives a unit three more ammo points.  In addition, reinforcements aren't reduced during play and are replaced to maximum over strength value.	战斗支援附件给单位增加 3 点弹药。此外，补充兵员在游戏过程中不会被削减，并会补足到最大超编值。
+348	To distinguish these two abilities the CS Special Equipment is now captioned "deploy & supply" in the GUI and has a different icon.	为了区分这两种能力，战斗支援特种装备现在在界面中的标题为 "deploy & supply"（「部署与补给」），并且使用了不同的图标。
+351	*** NOTE *** 	*** 注意 ***
+352	Units with the Combat Support or Deploy & Supply Special Equipment are not implemented in some PeG-WW2 equipment files from Mark Kirby and Robert Mary.  Other e-file designers may choose to utilize these in which case the above information applies.	Mark Kirby 和 Robert Mary 的某些 PeG-WW2 装备文件中没有实现带有战斗支援或部署与补给特种装备的单位。其他装备文件(efile)作者可以选择使用它们，那样的话上述信息适用。
+356	14) ATTACHMENTS MODIFIED	14) 修改了附件
+358	In the original game only eight of the nine possible attachments were visible for any unit.  Starting with PeG 2.6e all nine attachments are visible although some equipment classes still cannot use certain attachments.	在原版游戏中，任何单位都只能看到九种可能附件中的八种。从 PeG 2.6e 开始，九种附件都可见，尽管某些装备类别仍然不能使用某些附件。
+360	Attachment rules have also been changed for the following:	附件规则也有以下改动：
+361	\t* Special Munitions attachment is now allowed on all equipment classes	\t* 特种弹药附件现在允许用于所有装备类别
+362	\t* Anti-tank attachment is now allowed on all equipment classes	\t* 反坦克附件现在允许用于所有装备类别
+363	\t* Combat Support attachment is no longer allowed on helos	\t* 战斗支援附件不再允许用于直升机
+364	\t* Forward Observer attachment is now allowed on helos	\t* 前进观察员附件现在允许用于直升机
+368	15) CORRECTED THE "EASTERN LOSS" PROBLEM	15) 修正了 "EASTERN LOSS"（轴心方失败）问题
+370	PeG originally showed an incorrect and confusing display when the player lost a scenario.  For example, if the human lost while playing the Western side the end of scenario screen showed	玩家输掉场景时，原版 PeG 会显示不正确且令人困惑的信息。例如，如果人类玩家扮演西方阵营失败，场景结束画面会显示
+371	\tEastern Loss \t\t(although it should say Eastern WIN or else WESTERN loss)	\tEastern Loss \t\t(虽然它应该显示 Eastern WIN，或者 WESTERN loss)
+372	\t# \t\t\t(data for the Western player)	\t# \t\t\t(西方玩家的数据)
+373	\t"cities conquered"  \t(original GUI caption)	\t"cities conquered"（「占领城市」）  \t(原界面标题)
+374	The caption "cities conquered" isn't used anywhere else in the PeG game or manual.  It actually means the victory hexes captured by the human player.	标题 "cities conquered"（「占领城市」）在 PeG 游戏或手册的其他地方都没有使用。它实际指的是人类玩家占领的胜利格。
+376	Starting with PeG 2.6b this was corrected and all data is presented from the perspective of the human player.  In addition, the caption has been changed from "cities conquered" to "Victory Hexes captured".  	从 PeG 2.6b 开始，这个问题得到修正，所有数据都从人类玩家的角度呈现。此外，标题已从 "cities conquered"（「占领城市」）改为 "Victory Hexes captured"（「占领的胜利格」）。
+380	16) ENABLED PEG TO DISPLAY ANY VIDEO FORMAT PLAYABLE IN QUICKTIME	16) 使 PEG 可以显示 Quicktime 能播放的任何视频格式
+382	PeG's internal file filter for movies was originally hard coded into PEOPLES.EXE as "CINE\*.MOV" so only MOV files could be played.  Despite this, Quicktime can play a wide range of viodeos inlcuding AVI, (animated) GIF, MPG & SWF.	PeG 内部用于影片的文件过滤器原本硬编码在 PEOPLES.EXE 中，为 "CINE\*.MOV"，所以只能播放 MOV 文件。尽管如此，Quicktime 可以播放多种视频，包括 AVI、(动画) GIF、MPG 和 SWF。
+384	I changed the file filter to "CINE\*.*" so all these file types can now be played.  ANY video, still image or audio format which is playable in your version of Quicktime can be shown in PeG's campaign.	我把文件过滤器改为 "CINE\*.*"，所以现在可以播放所有这些文件类型。任何能在你的 Quicktime 版本中播放的视频、静态图像或音频格式，都可以在 PeG 的战役中显示。
+386	This section became so large I've included a separate Readme "New Videos for PeG" which describes how to make set up new video files and suggests some appraochaes for using them.	这一节内容变得太长，所以我另外附了一份说明 "New Videos for PeG"（「PeG 的新视频」），其中介绍如何制作和设置新的视频文件，并建议了几种使用它们的方法。
+390	(17) CHANGED SCENARIO DATE RANGE TO +0 TO +127	(17) 将场景日期范围改为 +0 到 +127
+392	The date range allowed in Scenario Builder is now +0 to +127 from base year instead of starting at +1.  (This is a revision of an earlier modification; see item 11 below.)	场景编辑器允许的日期范围现在是从基准年份起 +0 到 +127，而不再从 +1 开始。（这是对早先一项修改的修订；见下文第 11 条。）
+396	(18) ADDED EXPLANATORY LABELS FOR SOME MENU ITEMS	(18) 为部分菜单项添加了说明性标签
+398	Several captions in the GUI file don't explain very well the buttons they refer to.  For example the date spinners in Scenario Builder originally just said "Set Month", "Set Day" & "Set Year".  I've changed these to indicate "Increase Month", "Decrease Month" et cetera.	界面文件中的一些标题不能很好地说明它们所指的按钮。例如，场景编辑器中的日期微调按钮原本只写着 "Set Month"（设置月份）、"Set Day"（设置日期）和 "Set Year"（设置年份）。我把它们改成表示 "Increase Month"（增加月份）、"Decrease Month"（减少月份）等含义。
+400	Nothing dramatic here -- just a little thing that SSI should have changed to make the user interface smoother.	这里没什么大不了的——只是 SSI 本来就应该改的小地方，让用户界面更顺畅。
+404	(19) EXPANDED DISPLAY OF CAM & SCN INTRO TEXT ON THE SELECTION SCREENS	(19) 扩大了选择界面上 CAM 与 SCN 介绍文本的显示区域
+406	Intro text is shown when you have highlighted a scenario or campaign on the selection screen.  PeG originally displayed this text in a rectangle roughly 8 lines tall by 40 characters wide.  The exact number of lines & characters depends on which font PeG is using for display on your computer.  The intro files can be as large as the scenario/campaign designer wants but in order to read them you have to scroll up and down.	当你在选择界面上选中一个场景或战役时，会显示介绍文本。PeG 原本把这段文本显示在一个大约 8 行高、40 字符宽的矩形里。确切的字数和行数取决于 PeG 在你的电脑上使用的字体。介绍文件的大小可以随场景／战役作者的需要而定，但为了读完它们你必须上下滚动。
+408	The space provided and the scrolling seemed cumbersome to me.  The entire right half of the screen is now devoted to these intro texts.  That allows about 250-300 words of narrative text (2000-2400 characters) depending on the font which PeG uses on your computer. 	在我看来，提供的空间和滚动都很麻烦。现在整个屏幕的右半边都用于显示这些介绍文本。这样大约可以容纳 250-300 个单词的叙述文本（2000-2400 个字符），具体取决于 PeG 在你电脑上使用的字体。
+412	(20) ELIMINATED THE BASE STRENGTH 15 INFANTRY FOR COUNTRIES 3,5,& 15	(20) 取消了国家 3、5 和 15 的基础兵力 15 步兵
+415	PeG originally gave countries 3,5 & 15 infantry with a base strength of 15.  This has been eliminated; all countries now get infantry with base strength 10.	PeG 原本给国家 3、5 和 15 基础兵力为 15 的步兵。这一点已被取消；现在所有国家的步兵基础兵力都是 10。
+419	(21) ADDED VERSION & SSI COPYRIGHT NOTICE TO SPLASH PAGE	(21) 在启动画面上添加了版本与 SSI 版权声明
+421	The version name & number is now included on the splash page along with SSI copyright notice and primary credits to developer & modifier.	现在启动画面上包含了版本名称与编号，以及 SSI 版权声明和对开发者及修改者的主要致谢。
+423	*** NOTE ****	*** 注意 ****
+424	As I've said in other places, this is NOT a new game it is a modified version of "People's General" developed and copyrighted by SSI.	正如我在其他地方说过的，这并非一个新游戏，而是由 SSI 开发并享有版权的 "People's General" 的修改版。
+427	(22) ENABLED EQUIPMENT FILE NAME TO BE DISPLAYED IN UPPER LEFT CORNER	(22) 使装备文件名称可以显示在左上角
+429	Previously the version information provided in the GUI file was displayed in the upper left corner.	以前显示在左上角的是界面文件中提供的版本信息。
+431	With this modification the equipment file name is read from the E-file and displayed in the upper left corner.	经过这项修改，会从装备文件(efile)中读取装备文件名称并显示在左上角。
+433	*** NOTE TO E-FILE DEVELOPERS ***	*** 致装备文件(efile)开发者的说明 ***
+434	Unit 00 of the e-file is an unused unit which normally says "3.7 FlaK".  If you have not already done this, please enter the name of your e-file for this unit.	装备文件(efile)中的 00 号单位是一个未使用的单位，名称通常是 "3.7 FlaK"。如果你还没有这样做，请在这个单位处填入你的装备文件的名称。
+438	(23) CHANGED TEXT COLOR TO LIGHT BROWN   (PeG-WW2 only)	(23) 将文本颜色改为浅棕色   （仅 PeG-WW2）
+440	Originally the color of most text was bright green.  This looks rather odd with the light brown icons of Peg-WW2.  The standard text color is now light brown consistent with these icons.	原本大部分文本的颜色是亮绿色。这与 Peg-WW2 的浅棕色图标搭配起来相当奇怪。现在标准文本颜色是与这些图标一致的浅棕色。
+444	(24) CHANGED THE DEFAULT YEAR IN THE SCENARIO BUILDER. (PeG-WW2 only)	(24) 更改了场景编辑器中的默认年份。（仅 PeG-WW2）
+446	Originally the default year in the Scenario Builder was 2005. (Actually it is '05 so 2005 for base year 2000, 1905 for base year 1900).	原本场景编辑器中的默认年份是 2005。（实际上是 '05，所以基准年份为 2000 时是 2005，基准年份为 1900 时是 1905。）
+448	Although many scenario developers use Luis Guzman's PeG Suite for a large part of the development work, some tasks are still done with PeG's own Scenario Builder.	尽管许多场景开发者使用 Luis Guzman 的 PeG Suite 完成大部分开发工作，但有些工作仍然要用 PeG 自带的场景编辑器完成。
+450	This modification uses September 1, 1939 (the invasion of Poland) as the default date for the Scenario Builder.	这项修改使用 1939 年 9 月 1 日（入侵波兰）作为场景编辑器的默认日期。
+454	(25) COUNTRIES 3,5 & 15 DO NOT GET OVER-STRENGTH INFANTRY.    (PeG-WW2 only)	(25) 国家 3、5 和 15 不会获得超编步兵。    （仅 PeG-WW2）
+456	Originally the infantry units for countries 3, 5 & 15 got base strength 15 rather than base strength 10.	原本国家 3、5 和 15 的步兵单位基础兵力是 15，而不是 10。
+458	In PeG-WW2 2.7 the base strength for all units of all countries is 10.	在 PeG-WW2 2.7 中，所有国家所有单位的基础兵力都是 10。

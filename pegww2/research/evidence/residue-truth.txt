@@ -1,0 +1,33 @@
+映射表残留 A 122 行 / B 159 行
+★原文整行**仍出现在游戏成品**里（=真缺陷）: A 25 行 · B 0 行
+================================================================================================
+【A 真缺陷】
+  6      Dummy
+  715    dummy
+  773    TNG
+  2289   [XXI]
+  4598   Viel Glück!
+  4671   PeG-WW2: http://users.skynet.be/rmypegww2/
+  5818   62/TFH
+  5819   117/TFH
+  5820   94/TFH
+  6448   PSZ
+  6802   HvH
+  6816   KKKAAAAAAAAAAABBBOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMM!!!!!!!!!!!!
+  6940   Wed Jul 29 10:40:26 1998
+  8218   Choice1
+  8253   [XIII]
+  8281   [XXX]
+  8605   Choice2
+  9634   [XXXXIX]
+  9754   PeGWW2 E-file: European e file v 1.02d
+  9850   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  12398  Equipment File: European E-File
+  15145  Note: PG2 scenario converted for PeG-WW2 by Robert Mary, use USA 46 or USSR 46 g
+  15172  PG2 Campaign Designer: John McNulty, 21/10/1998
+  17647  [XIX]
+  18367  Roz
+
+【B 真缺陷】
+
+合计真缺陷 25 行（A 25 + B 0）

@@ -1,0 +1,173 @@
+# Red World Order\readme_PG2.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+1792	RED WORLD ORDER ////	红色世界秩序 ////
+1885	By Pablo Schlegel & Santiago Fuertes	作者：Pablo Schlegel & Santiago Fuertes
+1933	schlegelpablo@yahoo.com	schlegelpablo@yahoo.com
+1980	fuertesbermudez@yahoo.es	fuertesbermudez@yahoo.es
+2061	-24, December 2002-	-2002 年 12 月 24 日-
+2143	-Introduction-	-引言-
+2223	The first Communist state in the world was born in 1917 in Russia, after many revolts and political crisis, including a civil war between the Communists leaded, by Vladimir Ilich Ulianov,	世界上第一个共产主义国家于 1917 年在俄国诞生，此前经历了多次起义与政治危机，其中包括一场内战，交战的一方是共产党人，由 Vladimir Ilich Ulianov
+2229	?Lenin	“Lenin
+2235	?, and his comrades, Iosiff Stalin and Leon Trotsky (Red Russians or Soviets) against the loyalists to the Zar (White Russians), a war won by the Soviets despite of the international help to the White side from many countries. After the Soviets reached the power of Russia, converting the old zarist-feudal state into a big union of many different republics called	”，及其同志 Iosiff Stalin 和 Leon Trotsky（赤俄或苏维埃人），另一方是效忠沙皇者（白俄）；尽管许多国家向白方提供了国际援助，这场战争仍由苏维埃赢得。苏维埃取得俄国政权后，把这个旧的沙皇封建国家变成了一个由许多不同共和国组成的大联盟，称为
+2241	?USSR	“USSR
+2247	? (Union of Soviet Socialists Republics), one of their future missions was to expand the revolution for all the World, trying to bring the power to the different Communists Parties in the different countries, but something failed; the Soviets saw that they never could reach the power in all Europe, and extend the Communism by all the European countries in a easy way...	”（Union of Soviet Socialists Republics），他们未来的使命之一就是把革命扩展到全世界，设法让不同国家的共产党取得政权，但有些事未能如愿；苏维埃发现，他们始终无法在整个欧洲取得政权，也无法以轻松的方式把共产主义扩展到所有欧洲国家……
+2325	In the 30	在 30 年代
+2328	?s Stalin was planning to invade all Europe, and force all the countries to accept soviet govermments. He had a great oportunity when NSDP reach the power in Germany; the USSR could invade Germany, and Centre-Europe, but Soviet Army needed some preparation for this plan. In fact, the Non-Agression pact between Germany and USSR was a perfect pause to prepare the army. Two things make the Stalin	，Stalin 计划入侵整个欧洲，迫使所有国家接受苏维埃政府。当 NSDP 在德国掌权时，他有了一个大好机会；苏联本可以入侵德国和中欧，但苏联军队需要为这个计划做些准备。事实上，德国与苏联之间的互不侵犯条约正是备战军队的绝佳间歇。有两件事使 Stalin
+2331	?s plan to fail, the Stalin	的计划落空：Stalin
+2334	?s Soviet officials purges and... the Operation Barbarossa, many historicians think that Op. Barbarossa was a pre-emptive attack, for the inminent Soviet attack in the East Front...	对苏联官员的清洗，以及……巴巴罗萨行动；许多历史学家认为，巴巴罗萨行动是针对苏联即将在东线发动的进攻而实施的先发制人打击……
+2412	In Red World Order you are a victorius general against the Germans, but when you reached Berlin, in the start of the campaign, Stalin ordened you and your troops to destroy the allied presence in Europe and continue with the war towards all Europe, for extend the Communism... but later, maybe, Stalin will send you orders to invade many other lands..	在红色世界秩序中，你是一位战胜德军的将军，但当你在战役开始时抵达柏林(Berlin)后，Stalin 命令你和你的部队摧毁盟国在欧洲的存在，并继续向整个欧洲开战，以扩展共产主义……但之后，也许 Stalin 会给你下令入侵许多其他的土地……
+2495	Good Luck Comrade!!!...	祝你好运，同志！！！……
+2582	-The Campaign-	-战役-
+2660	It has 33 sceneries, in which you	它包含 33 个场景，在其中你将
+2663	?ll fight with the Soviets around the world.	与苏军并肩在世界各地作战。
+2767	Scn# Scn name BV goto# V Goto# TV goto# L goto# Start date	场景# 场景名称 BV 跳转# V 跳转# TV 跳转# L 跳转# 开始日期
+2791	Mapname	地图名称
+2851	0 s001.scn 1	0 s001.scn 1
+2947	8/MAY/1945	8/MAY/1945
+2971	BERLIN	BERLIN
+3031	1 s002.scn 2	1 s002.scn 2
+3127	18/MAY/1945	18/MAY/1945
+3151	HOLLABRN	HOLLABRN
+3211	2 s0032.scn 3	2 s0032.scn 3
+3283	LOSE	失败
+3307	15MAY/1945	15MAY/1945
+3331	OAKRIDGE	OAKRIDGE
+3391	3 s003.scn 4	3 s003.scn 4
+3463	LOSE 4/JUN/1945	失败 4/JUN/1945
+3487	BELOMORS	BELOMORS
+3547	4 s004.scn 5	4 s004.scn 5
+3619	LOSE	失败
+3643	10/JUN/1945	10/JUN/1945
+3667	PEENEMUN	PEENEMUN
+3727	5 s005.scn 6	5 s005.scn 6
+3823	25/JUN/1945	25/JUN/1945
+3847	GREECE	GREECE
+3907	6 s006.scn 7	6 s006.scn 7
+3979	LOSE	失败
+4003	30/JUL/1945	30/JUL/1945
+4027	GREBBE	GREBBE
+4087	7 s007.scn	7 s007.scn
+4183	LOSE	失败
+4207	10/AUG/1945	10/AUG/1945
+4231	SEDANNE	SEDANNE
+4291	8 s008.scn	8 s008.scn
+4387	LOSE	失败
+4411	15/SEP/1945	15/SEP/1945
+4435	GOTHIC	GOTHIC
+4495	9 s009.scn	9 s009.scn
+4591	LOSE 1/OCT/1945	失败 1/OCT/1945
+4615	CATANIA	CATANIA
+4675	10 s0010.scn 11	10 s0010.scn 11
+4747	LOSE	失败
+4771	25/OCT/1945	25/OCT/1945
+4795	GELA	GELA
+4855	11 s0011.scn 30	11 s0011.scn 30
+4951	15/NOV/1945	15/NOV/1945
+4975	SICILY	SICILY
+5035	12 s0012.scn 13	12 s0012.scn 13
+5107	LOSE	失败
+5131	12/DEC/1945	12/DEC/1945
+5155	METZ	METZ
+5215	13 s0013.scn 14	13 s0013.scn 14
+5287	LOSE 5/JAN/1946	失败 5/JAN/1946
+5311	AMIENS	AMIENS
+5371	14 s0014.scn 11	14 s0014.scn 11
+5443	LOSE 8/FEB/1946	失败 8/FEB/1946
+5467	CAEN	CAEN
+5527	15 s0015.scn 18	15 s0015.scn 18
+5599	LOSE	失败
+5623	18/MAR/1946	18/MAR/1946
+5647	PUSAN	PUSAN
+5707	16 s0016.scn 17	16 s0016.scn 17
+5779	LOSE 1/APR/1946	失败 1/APR/1946
+5803	ENGLAND	ENGLAND
+5863	17 s0017.scn 18	17 s0017.scn 18
+5935	LOSE	失败
+5959	30/APR/1946	30/APR/1946
+5983	WINDSOR	WINDSOR
+6043	18 s0018.scn 19	18 s0018.scn 19
+6139	1/JUN/1946	1/JUN/1946
+6163	VLADIVOSTOK	VLADIVOSTOK
+6223	19 s0019.scn 20	19 s0019.scn 20
+6295	LOSE 7/DEC/1946	失败 7/DEC/1946
+6319	SAKHALIN	SAKHALIN
+6379	20 s0020.scn 21	20 s0020.scn 21
+6451	LOSE 30/JUN/1946	失败 30/JUN/1946
+6475	TAIPEI	TAIPEI
+6535	21 s0021.scn 22	21 s0021.scn 22
+6607	LOSE 7/JUL/1946	失败 7/JUL/1946
+6631	SAIGON	SAIGON
+6691	22 s0022.scn 32	22 s0022.scn 32
+6763	LOSE 6/APR/1946	失败 6/APR/1946
+6787	ATTU2	ATTU2
+6847	23 s0023.scn 24	23 s0023.scn 24
+6919	LOSE 6/APR/1946	失败 6/APR/1946
+6943	SEOUL	SEOUL
+7003	24 s0024.scn 25	24 s0024.scn 25
+7075	LOSE 8/AUG/1946	失败 8/AUG/1946
+7099	MOSCOW	MOSCOW
+7159	25 s0025.scn 26	25 s0025.scn 26
+7231	LOSE	失败
+7255	24/AUG/1946	24/AUG/1946
+7279	LONDON	LONDON
+7339	26 s0026.scn 27	26 s0026.scn 27
+7411	LOSE 5/SEP/1946	失败 5/SEP/1946
+7435	OAKRIDGE	OAKRIDGE
+7495	27 s0027.scn WIN	27 s0027.scn 胜利
+7519	WIN	胜利
+7543	WIN LOSE 1/OCT/1946	胜利 失败 1/OCT/1946
+7567	WASHINGTON	WASHINGTON
+7627	28 s0028.scn WIN	28 s0028.scn 胜利
+7651	WIN	胜利
+7675	WIN LOSE 2/JUL/1946	胜利 失败 2/JUL/1946
+7699	MOSCOW	MOSCOW
+7759	29 s0029.scn 8	29 s0029.scn 8
+7831	LOSE 1/SEP/1945	失败 1/SEP/1945
+7855	EURODF	EURODF
+7915	30 s0030.scn 15	30 s0030.scn 15
+7987	LOSE 2/OCT/1946	失败 2/OCT/1946
+8011	EURODF	EURODF
+8071	31 s0031.scn 19	31 s0031.scn 19
+8167	15/JUN/1946	15/JUN/1946
+8191	KAZAN	KAZAN
+8251	32 s0033.scn 23	32 s0033.scn 23
+8323	LOSE 10/APR/1946	失败 10/APR/1946
+8347	DHARBOR	DHARBOR
+8453	-Installation-	-安装-
+8531	Unzip all the files in	把所有文件解压到
+8537	?Red World Order English.zip	“Red World Order English.zip
+8543	? to folder SCENARIO, into the main panzer2 folder. (c:	”到 SCENARIO 文件夹，即 panzer2 主目录中。（c:\
+8545	panzer2	panzer2\
+8547	scenario)	scenario）
+8636	-The e-file	-装备文件
+8713	This campaign uses the lastest version of AdlerKorps equipment, wich is included with the campaign. Unzip all the files from	本战役使用 AdlerKorps 装备的最新版本，该装备随本战役一同提供。请把所有文件从
+8719	?equipment.zip	“equipment.zip
+8725	?, into your main PG2 folder (for example, c:	”解压到你的 PG2 主目录中（例如 c:\
+8727	panzer2)	panzer2）
+8771	The efile works with the last datup from Lasse Jensen (http://www.strategyplanet.com/panzergeneral/PG2Main_news.html) and with the datup part 2 available in Steve's Brown web (http://go.to/panzergeneral2), (in the section	本装备文件可与 Lasse Jensen 的最新数据包（http://www.strategyplanet.com/panzergeneral/PG2Main_news.html）以及 Steve's Brown 网站上的数据包第 2 部分（http://go.to/panzergeneral2）配合使用（在
+8777	?PG2 Mods Clearing House	“PG2 Mods Clearing House
+8783	?) and the soundup from December 2000 in Builders Paradise web too.	”栏目），也可与 Builders Paradise 网站 2000 年 12 月的音效包配合使用。
+8863	-Maps-	-地图-
+8941	You can download it from:	你可以从这里下载：
+9057	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+9146	Map EURO available at;	EURO 地图可在此获取；
+9262	http://go.to/panzergeneral2	http://go.to/panzergeneral2
+9351	in PG2 Mods Clearing House.	在 PG2 Mods Clearing House 中。
+9427	I would recommend download ''mapfiles.zip'' and unzip it to SCENARIO. That files are crucial in order to the maps work well. Download it fron Steve's page.	我建议下载 “mapfiles.zip” 并解压到 SCENARIO。这些文件对地图能否正常运行至关重要。请从 Steve 的页面下载。
+9503	User Maps needed;	需要玩家自制地图：
+9579	BERLIN, HOLLANBRUND, BELOMORSK, PEENEMUND, GREBBE, SEDANNE, GOTHIC, CATANIA, GELA, SICILY, AMIENS, PUSAN, ENGLAND, VLADIVOSTOK, SAKHALIN, TAIPEI, SAIGON, ATTU2, SEOUL, MOSCOW, LONDON, WASHINGTON, EURO, KAZAN, DUTCH HARBOUR.	BERLIN, HOLLANBRUND, BELOMORSK, PEENEMUND, GREBBE, SEDANNE, GOTHIC, CATANIA, GELA, SICILY, AMIENS, PUSAN, ENGLAND, VLADIVOSTOK, SAKHALIN, TAIPEI, SAIGON, ATTU2, SEOUL, MOSCOW, LONDON, WASHINGTON, EURO, KAZAN, DUTCH HARBOUR.
+9655	SSI Maps needed;	需要 SSI 地图：
+9731	METZ, CAEN, GREECE, WINDSOR, OAKRIDGE.	METZ, CAEN, GREECE, WINDSOR, OAKRIDGE.
+9845	-Links for RED WORLD ORDER-	-红色世界秩序的链接-
+9965	http://www.ihr.org/jhr/v18/v18n3p40_Michaels.html	http://www.ihr.org/jhr/v18/v18n3p40_Michaels.html
+10088	-Finally...-	-最后……-
+10166	This files are FREE, don't sold it. You can distribute it free, and enjoy it free :), but don't modify the authorithy.	这些文件是免费的，不要出售。你可以免费分发、免费游玩 :)，但不要改动作者署名。
+10210	This campaign is fully designed by Pablo Schlegel and by Santiago Fuertes, (	本战役完全由 Pablo Schlegel 和 Santiago Fuertes 设计（
+10223	50% each designer	每位设计师各占 50%
+10235	), and it	），它是
+10238	?s the first fully co-operational campaign in PG2 History.	PG2 历史上第一部完全合作设计的战役。
+10380	Please, we would like if you email us about the campaign, we'll know about if you enjoy the campaign, or if not.	请给我们发电子邮件谈谈这个战役，我们想知道你是否喜欢它。
+10458	schlegelpablo@yahoo.com	schlegelpablo@yahoo.com
+10503	fuertesbermudez@yahoo.es	fuertesbermudez@yahoo.es
+10612	December 2002	2002 年 12 月
+10697	Good Luck Comrade!!!...	祝你好运，同志！！！……

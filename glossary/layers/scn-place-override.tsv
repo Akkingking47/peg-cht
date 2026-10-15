@@ -1,0 +1,22 @@
+# 按场景定点覆盖（第 37 轮新增 · 用户裁定④「地图侧看预设是扮演哪方势力」）
+#
+# 为什么需要这一层：`peg\research\scenario-map.tsv` 与 `pegww2\research\ww2-scn-map.tsv`
+# 都是**按英文键全局一张值**，但同一个地名该怎么译，取决于**该场景预设扮演哪方势力**：
+#   Amur River  中/日 → 黑龙江 ； 俄 → 阿穆尔河
+#   Lodz        德 → 利茨曼施塔特 ； 波/其它 → 罗兹
+# 本表就是那张「只有本场景成立」的例外表 —— 生成器**先查本表、再回退全局表**。
+#
+# 列：en | 项目 | 场景词干 | 译名 | 依据
+#   · `en`      既可以是映射表的短名，也可以是长段表 `scenario-long-zh.tsv` 的整行原文
+#   · `项目`    `PEG`（前作）/ `PEGWW2`（本作）
+#   · `场景词干` 场景文件名去掉 `_m`/`_i`/`_v` 等后缀、转小写（`Khabarovsk3mp` → `khabarovsk3mp`）
+#   · `依据`    必填：写清「哪个势力 + 依据来自哪」，供人工复核
+#
+# ⚠️ 本表是**人工真源**（不是派生物）⇒ 改完必须重跑生成器：
+#     PeG  : work\peg\regen_scn_name_converge.py（或 gen_scn_zh.py build）
+#     WW2  : work\pegww2\gen_scn.py
+#     门    : work\glossary\layer_gate.py（本表参与「已登记」判定）
+en	项目	场景词干	译名	依据
+Lodz	PEGWW2	7pzrb7147	利茨曼施塔特	德方视角 · Summer Storm 1945-06-15（>=1940-04 ⇒ 德方当代名）；同文件 L31 Katowice 已作德式「卡托维茨」，而 L22 Lodz 却用中性「罗兹」⇒ 自相矛盾。与 _scn-file-overrides.tsv 既有先例（DAK_Choice/DAK_SPChoice 的 Lodz→利茨曼施塔特、lah_it_gran_i.txt 注记「1945-02 德方应称利茨曼施塔特」）一致
+Lodz	PEGWW2	b714	利茨曼施塔特	同上（B714 = Summer Storm 1945-06-15 德方视角，L22 Lodz 现作「罗兹」）
+Amur River	PEG	khabarovsk4	黑龙江	**中方**视角：Khabarovsk4「渡河向哈巴罗夫斯克」简报原文「中华人民共和国要收复其传统领土…」⇒ 玩家=中华人民共和国 ⇒ 按中方名作黑龙江（`faction-places.tsv:94 Amur 中 黑龙江`）。对照：Khabarovsk3/Khabarovskrri（玩家=俄，简报「你必须夺回哈巴罗夫斯克，把中国军队逐出阵地」）用俄方名阿穆尔河 ✅ 不动

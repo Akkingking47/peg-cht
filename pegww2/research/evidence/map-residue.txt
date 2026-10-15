@@ -1,0 +1,296 @@
+================================================================================================
+映射表未译残留扫描 · ww2-scn-map
+================================================================================================
+
+【A】整行未译 122 行
+  6      Dummy                                          = Dummy
+  57     ErPrGr210                                      = ErPrGr210
+  115    29 Mot.Div./[XXXVIII]                          = 29 Mot.Div./[XXXVIII]
+  450    1RHA/1                                         = 1RHA/1
+  451    12RHA/2                                        = 12RHA/2
+  491    RSG                                            = RSG
+  522    73rd Sqn                                       = 73rd Sqn
+  715    dummy                                          = dummy
+  751    SRAF                                           = SRAF
+  773    TNG                                            = TNG
+  992    Farragut                                       = Farragut
+  1151   1KDG/2                                         = 1KDG/2
+  1152   1RHA/2                                         = 1RHA/2
+  1153   1KRR/2                                         = 1KRR/2
+  1154   1RNF/2                                         = 1RNF/2
+  1242   Koenigsberg                                    = Koenigsberg
+  1276   Niciloso Da Recco                              = Niciloso Da Recco
+  1277   Antonio Pigafetta                              = Antonio Pigafetta
+  1278   Giovanni Di Verazza                            = Giovanni Di Verazza
+  1295   FTP                                            = FTP
+  1361   Aquila                                         = Aquila
+  1778   Lanzerotto Malocell                            = Lanzerotto Malocell
+  1846   Brooklyn                                       = Brooklyn
+  1888   Andrea Doria                                   = Andrea Doria
+  1897   Nubian                                         = Nubian
+  2289   [XXI]                                          = [XXI]
+  2345   Scharnhorst                                    = Scharnhorst
+  2403   FFI 1/1                                        = FFI 1/1
+  2404   FFI 1/2                                        = FFI 1/2
+  2405   FFI 1/3                                        = FFI 1/3
+  2412   SST                                            = SST
+  2458   41 Cdo                                         = 41 Cdo
+  2604   10 Pz Div                                      = 10 Pz Div
+  2910   A/I/327th GIR/101st                            = A/I/327th GIR/101st
+  2911   C/I/327th GIR/101st                            = C/I/327th GIR/101st
+  2999   E/II/327th GIR/101st                           = E/II/327th GIR/101st
+  3000   F/II/327th GIR/101st                           = F/II/327th GIR/101st
+  3003   J/III/502nd/101st                              = J/III/502nd/101st
+  3004   7/2/Luft I                                     = 7/2/Luft I
+  3608   2/8/19/6th Australian                          = 2/8/19/6th Australian
+  3610   2/4/19/6th Australian                          = 2/4/19/6th Australian
+  3854   Breda                                          = Breda
+  3893   71/2DLM                                        = 71/2DLM
+  3894   1ERY/1R                                        = 1ERY/1R
+  3895   1FFY/1R                                        = 1FFY/1R
+  3896   4/2DLM                                         = 4/2DLM
+  3897   3/2DLM                                         = 3/2DLM
+  3901   Recon/16                                       = Recon/16
+  3902   1RTR/22/7                                      = 1RTR/22/7
+  3903   4CLY/22/7                                      = 4CLY/22/7
+  3913   Iowa                                           = Iowa
+  3914   Yorktown                                       = Yorktown
+  3915   Baltimore                                      = Baltimore
+  3920   Hipper                                         = Hipper
+  3922   Richard Beitzen                                = Richard Beitzen
+  4453   J/III/501st/101st                              = J/III/501st/101st
+  4454   K/III/501st/101st                              = K/III/501st/101st
+  4455   I/III/502nd/101st                              = I/III/502nd/101st
+  4456   K/III/502nd/101st                              = K/III/502nd/101st
+  4457   11/2/USAAF                                     = 11/2/USAAF
+  4458   12/2/USAAF                                     = 12/2/USAAF
+  4459   12/4/Luft I                                    = 12/4/Luft I
+  4460   11/3/Luft I                                    = 11/3/Luft I
+  4461   9/2/Luft I                                     = 9/2/Luft I
+  4462   3/1/Luft I                                     = 3/1/Luft I
+  4598   Viel Glück!                                    = Viel Glück!
+  4671   PeG-WW2: http://users.skynet.be/rmypegww2/     = PeG-WW2: http://users.skynet.b
+  4774   Achilles                                       = Achilles
+  4957   2 Mot./2 Pz.Div./[XIX]                         = 2 Mot./2 Pz.Div./[XIX]
+  5753   2/1/-/6th Australian                           = 2/1/-/6th Australian
+  5759   2/11/19/6th Australian                         = 2/11/19/6th Australian
+  5818   62/TFH                                         = 62/TFH
+  5819   117/TFH                                        = 117/TFH
+  5820   94/TFH                                         = 94/TFH
+  6279   AASC                                           = AASC
+  6280   104RHA/2                                       = 104RHA/2
+  6281   107RHA/2                                       = 107RHA/2
+  6448   PSZ                                            = PSZ
+  6479   KTR 9                                          = KTR 9
+  6480   2NKVD/44                                       = 2NKVD/44
+  6802   HvH                                            = HvH
+  6816   KKKAAAAAAAAAAABBBOOOOOOOOOOOOOOOOOOOOOOOOOOMMM = KKKAAAAAAAAAAABBBOOOOOOOOOOOOO
+  6940   Wed Jul 29 10:40:26 1998                       = Wed Jul 29 10:40:26 1998
+  8218   Choice1                                        = Choice1
+  8253   [XIII]                                         = [XIII]
+  8281   [XXX]                                          = [XXX]
+  8514   Tazzoli                                        = Tazzoli
+  8537   RM L.Malocello                                 = RM L.Malocello
+  8538   RM Alpino                                      = RM Alpino
+  8539   RM Andrea Doria                                = RM Andrea Doria
+  8541   RM Duca degli Abruzzi                          = RM Duca degli Abruzzi
+  8542   RM C.Mirabello                                 = RM C.Mirabello
+  8544   SMG Squalo                                     = SMG Squalo
+  8605   Choice2                                        = Choice2
+  8633   HMS B/Carpathian Rifle Brigade/ Polish         = HMS B/Carpathian Rifle Brigade
+  8815   a R/KAR                                        = a R/KAR
+  8819   1/SATC                                         = 1/SATC
+  8820   2/SATC                                         = 2/SATC
+  8821   3/SATC                                         = 3/SATC
+  8867   Bismarck                                       = Bismarck
+  8952   atB/HG D                                       = atB/HG D
+  9584   1ERY/1R [BEF]                                  = 1ERY/1R [BEF]
+  9585   1FFY/1R [BEF]                                  = 1FFY/1R [BEF]
+  9586   E [BEF]                                        = E [BEF]
+  9634   [XXXXIX]                                       = [XXXXIX]
+  9754   PeGWW2 E-file: European e file v 1.02d         = PeGWW2 E-file: European e file
+  9850   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  10388  29th Pzg Div                                   = 29th Pzg Div
+  11883  1FFY                                           = 1FFY
+  12398  Equipment File: European E-File                = Equipment File: European E-Fil
+  12464  USSAF                                          = USSAF
+  15047  MTF                                            = MTF
+  15145  Note: PG2 scenario converted for PeG-WW2 by Ro = Note: PG2 scenario converted f
+  15172  PG2 Campaign Designer: John McNulty, 21/10/199 = PG2 Campaign Designer: John Mc
+  15418  Repulse                                        = Repulse
+  17647  [XIX]                                          = [XIX]
+  18144  Zara                                           = Zara
+  18367  Roz                                            = Roz
+  20858  1/XXI                                          = 1/XXI
+  20861  5/XXI                                          = 5/XXI
+  20868  2/XXI                                          = 2/XXI
+  20871  4A/XXI                                         = 4A/XXI
+
+【B】残留段未译 159 行
+  83     Other campaigns at: http://www.pegww2.ne → 其他战役见：http://www.pegww2.net/              残留：www.pegww2.net→www.pegww2.net
+  266    200 Pio/21 Pz/[DAK]                      → 第200工兵/第21装甲师/[DAK]                       残留：[DAK]→[DAK]
+  347    200 Pzjgr B/21 Pz/DAK                    → 第200反坦克营/第21装甲师/DAK                       残留：DAK→DAK
+  471    220 Pio B/21 Pz/DAK                      → 第220工兵营/第21装甲师/DAK                        残留：DAK→DAK
+  974    220 B/KG/DAK                             → 第220营/战斗群/DAK                             残留：DAK→DAK
+  1774   Ctrc/10 Pz                               → Ctrc/第10装甲师                               残留：Ctrc→Ctrc
+  2418   2 ID/[CAC/39]                            → 第2步兵师/[CAC/39]                            残留：[CAC→[CAC
+  2829   Other campaigns at: http://www.pegww2.ne → 更多战役见：http://www.pegww2.net               残留：www.pegww2.net→www.pegww2.net
+  3117   AAR/36 ID/V Army                         → AAR/第36步兵师/第5集团军                          残留：AAR→AAR
+  3128   8 R/6 ID/RAA/WDD                         → 第8团/第6步兵师/RAA/WDD                         残留：RAA→RAA、WDD→WDD
+  3141   CCA/1 ArmD                               → CCA/第1装甲师                                 残留：CCA→CCA
+  3556   RRR/7/3rd Infantry                       → RRR/第7/第3步兵                               残留：RRR→RRR
+  3557   CSR/7/3rd Infantry                       → CSR/第7/第3步兵                               残留：CSR→CSR
+  3559   LDC/8/3rd Infantry                       → LDC/第8/第3步兵                               残留：LDC→LDC
+  3562   SDG/9/3rd Infantry                       → SDG/第9/第3步兵                               残留：SDG→SDG
+  3563   NNH/9/3rd Infantry                       → NNH/第9/第3步兵                               残留：NNH→NNH
+  3890   1/SST                                    → 第1/SST                                    残留：SST→SST
+  3891   2/SST                                    → 第2/SST                                    残留：SST→SST
+  3892   3/SST                                    → 第3/SST                                    残留：SST→SST
+  4123   BAT B/285 FAO                            → BAT B/第285野战炮兵观测队                         残留：BAT B→BAT B
+  4634   16 Br/6 ID/WDD                           → 第16旅/第6步兵师/WDD                            残留：WDD→WDD
+  4635   22 Br/6 ID/WDD                           → 第22旅/第6步兵师/WDD                            残留：WDD→WDD
+  4636   4 R/6 ID/WDD                             → 第4团/第6步兵师/WDD                             残留：WDD→WDD
+  4637   4 R/6 ID/RAA/WDD                         → 第4团/第6步兵师/RAA/WDD                         残留：RAA→RAA、WDD→WDD
+  4638   12 R/7 SG/RAA/WDD                        → 第12团/第7 SG/RAA/WDD                        残留：RAA→RAA、WDD→WDD
+  4669   PG2: http://es.geocities.com/latingenera → PG2: http://es.geocities.com/latingenera  残留：PG2: http:→PG2: http:、es.geocities.c→es.geocities.c、latingenerals→latingenerals
+  4670   PG2: http://p090.ezboard.com/fjpspanzers → PG2: http://p090.ezboard.com/fjpspanzers  残留：PG2: http:→PG2: http:、p090.ezboard.c→p090.ezboard.c
+  4672   PeG-WW2: http://p090.ezboard.com/fjpspan → PeG-WW2: http://p090.ezboard.com/fjpspan  残留：PeG-WW2: http:→PeG-WW2: http:、p090.ezboard.c→p090.ezboard.c
+  4687   59 R/EAC                                 → 第59团/EAC                                  残留：EAC→EAC
+  4731   RTC/1 ID                                 → RTC/第1步兵师                                 残留：RTC→RTC
+  4747   CCC/1 ArmD                               → CCC/第1装甲师                                 残留：CCC→CCC
+  4781   Novara B/Saharian Grouping               → Novara B/撒哈拉集群                            残留：Novara B→Novara B
+  5400   CCB/1 A D                                → CCB/第1装甲师                                 残留：CCB→CCB
+  5401   CCA/1 A D                                → CCA/第1装甲师                                 残留：CCA→CCA
+  5414   CCR/1 A D                                → CCR/第1装甲师                                 残留：CCR→CCR
+  8222   75 AR/5 LD/[DAK]                         → 第75炮兵团/第5轻装师/[DAK]                        残留：[DAK]→[DAK]
+  8223   605/5 LD/[DAK]                           → 第605团/第5轻装师/[DAK]                         残留：[DAK]→[DAK]
+  8224   606/5 LD/[DAK]                           → 第606团/第5轻装师/[DAK]                         残留：[DAK]→[DAK]
+  8228   2 MG Btn/5 LD/[DAK]                      → 第2机枪营/第5轻装师/[DAK]                         残留：[DAK]→[DAK]
+  8229   8 MG Btn/5 LD/[DAK]                      → 第8机枪营/第5轻装师/[DAK]                         残留：[DAK]→[DAK]
+  8254   Mob HQ/15 Pz/[DAK]                       → 机动司令部/第15装甲师/[DAK]                        残留：[DAK]→[DAK]
+  8299   2/3 ATR/9 Aust./[XXX]                    → 2/3 ATR/第9澳大利亚师/[XXX]                     残留：3 ATR→3 ATR
+  8361   200 R/90 LD/[DAK]                        → 第200团/第90轻装师/[DAK]                        残留：[DAK]→[DAK]
+  8366   200 Pio/90 LD/[DAK]                      → 第200工兵/第90轻装师/[DAK]                       残留：[DAK]→[DAK]
+  8454   StuIG K/90 LD/[DAK]                      → StuIG K/90 LD/[非洲军]                       残留：StuIG K→StuIG K
+  8466   StuIG K/164 LD/[DAK]                     → StuIG K/164 LD/[非洲军]                      残留：StuIG K→StuIG K
+  8515   Tietjen/Pio Raemcke Bn/[DAK]             → 蒂特延/Pio 拉姆克营/[DAK]                        残留：[DAK]→[DAK]
+  8616   65 R/6 ID/RAA/WDD                        → 第65团/第6步兵师/RAA/WDD                        残留：RAA→RAA、WDD→WDD
+  8617   31 R/6 ID/RAA/WDD                        → 第31团/第6步兵师/RAA/WDD                        残留：RAA→RAA、WDD→WDD
+  8618   16 R/6 ID/RAA/WDD                        → 第16团/第6步兵师/RAA/WDD                        残留：RAA→RAA、WDD→WDD
+  8619   2 B/7 SG/RAA/WDD                         → 第2营/第7SG/RAA/WDD                          残留：RAA→RAA、WDD→WDD
+  8620   18 R/7 SG/RAA/WDD                        → 第18团/第7SG/RAA/WDD                         残留：RAA→RAA、WDD→WDD
+  8653   atB/Habforce/Arab Legion                 → atB/哈巴尼亚部队/阿拉伯军团                          残留：atB→atB
+  8692   atR/10 Indian Div                        → atR/第10印度师                                残留：atR→atR
+  8710   3 Rec./21 Pz/[DAK]                       → 第3侦察营/第21装甲师/[DAK]                        残留：[DAK]→[DAK]
+  8788   B Coy/KAR                                → B连/KAR                                    残留：KAR→KAR
+  8789   58 R/EAC                                 → 第58团/EAC                                  残留：EAC→EAC
+  8791   3 R/EAC                                  → 第3团/EAC                                   残留：EAC→EAC
+  8814   at R/KAR                                 → at 团/KAR                                  残留：KAR→KAR
+  8841   Mob HQ/21 Pz/DAK                         → 机动司令部/第21装甲师/DAK                          残留：DAK→DAK
+  8854   AAR/4 ID/V Army                          → AAR/第4步兵师/第5集团军                           残留：AAR→AAR
+  8860   15 Pio B/KG/DAK                          → 第15工兵营/战斗群/DAK                            残留：DAK→DAK
+  8926   atB/Saharian Grouping                    → atB/撒哈拉集群                                 残留：atB→atB
+  9447   22nd/GBC 510/7th                         → 第22营/GBC 510/第7集团军                        残留：GBC 510→GBC 510
+  9448   9th/GBC 510/7th                          → 第9营/GBC 510/第7集团军                         残留：GBC 510→GBC 510
+  9458   404 RADCA/25h ID (mot.)/7th              → 404 RADCA/第25摩托化步兵师/第7集团军                 残留：404 RADCA→404 RADCA
+  9561   4th Bde/2nd Div./[BEF]                   → 第4旅/第2步兵师/[BEF]                           残留：[BEF]→[BEF]
+  9562   5th Bde/2nd Div./[BEF]                   → 第5旅/第2步兵师/[BEF]                           残留：[BEF]→[BEF]
+  9563   6th Bde/2nd Div./[BEF]                   → 第6旅/第2步兵师/[BEF]                           残留：[BEF]→[BEF]
+  9564   2nd Rgt./2nd Div./[BEF]                  → 第2团/第2步兵师/[BEF]                           残留：[BEF]→[BEF]
+  9565   69th Bde/23rd Div./[BEF]                 → 第69旅/第23步兵师/[BEF]                         残留：[BEF]→[BEF]
+  9566   70th Bde./23rd Div./[BEF]                → 第70旅/第23步兵师/[BEF]                         残留：[BEF]→[BEF]
+  9567   23rd Rgt./23rd Div./[BEF]                → 第23团/第23步兵师/[BEF]                         残留：[BEF]→[BEF]
+  9568   131st Bde./44 Div./[BEF]                 → 第131旅/第44步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9569   132nd Bde./44 Div./[BEF]                 → 第132旅/第44步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9570   133rdBde./44 Div./[BEF]                  → 第133旅/第44步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9571   133rd Rgt./44 Div./[BEF]                 → 第133团/第44步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9572   137th Bde./46th Div./[BEF]               → 第137旅/第46步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9573   138th Bde./46th Div./[BEF]               → 第138旅/第46步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9574   139th Bde./46th Div./[BEF]               → 第139旅/第46步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9575   139th Rgt./46th Div./[BEF]               → 第139团/第46步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9576   3rd Bde./1st Arm.Div/[BEF]               → 第3旅/第1装甲师/[BEF]                           残留：[BEF]→[BEF]
+  9577   150th Bde./50th Div./[BEF]               → 第150旅/第50步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9578   151th Bde./50th Div./[BEF]               → 第151旅/第50步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9579   50th/[BEF]                               → 第50师/[BEF]                                残留：[BEF]→[BEF]
+  9580   143rd Bde./48th Div./[BEF]               → 第143旅/第48步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9581   144th Bde./48th Div./[BEF]               → 第144旅/第48步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9582   145th Bde./48th Div./[BEF]               → 第145旅/第48步兵师/[BEF]                        残留：[BEF]→[BEF]
+  9583   48th/[BEF]                               → 第48师/[BEF]                                残留：[BEF]→[BEF]
+  9606   Ger/SS V/[XXXXI]                         → Ger/党卫军第5装甲师/第XXXXI军                      残留：Ger→Ger
+  10728  CCB/1 ArmD                               → CCB/第1装甲师                                 残留：CCB→CCB
+  11093  670/-/- [1. Panzergruppe]                → 第670/-/- [1. Panzergruppe]                残留：- [1. Panzergr→- [1. Panzergr
+  11396  RRC/4/2nd Infantry                       → RRC/第4/第2步兵                               残留：RRC→RRC
+  11397  RHL/4/2nd Infantry                       → RHL/第4/第2步兵                               残留：RHL→RHL
+  11398  ESR/4/2nd Infantry                       → ESR/第4/第2步兵                               残留：ESR→ESR
+  11399  BWC/5/2nd Infantry                       → BWC/第5/第2步兵                               残留：BWC→BWC
+  11400  LRM/5/2nd Infantry                       → LRM/第5/第2步兵                               残留：LRM→LRM
+  11402  LFM/6/2nd Infantry                       → LFM/第6/第2步兵                               残留：LFM→LFM
+  11403  QCH/6/2nd Infantry                       → QCH/第6/第2步兵                               残留：QCH→QCH
+  11404  SSR/6/2nd Infantry                       → SSR/第6/第2步兵                               残留：SSR→SSR
+  11568  2RWR/185/3rd Infantry Div.               → 2RWR/185/第3步兵师                            残留：2RWR→2RWR
+  11570  2KSLI/185/3rd Infantry Div.              → 2KSLI/185/第3步兵师                           残留：2KSLI→2KSLI
+  11571  1KOSB/9/3rd Infantry Div.                → 1KOSB/9/第3步兵师                             残留：1KOSB→1KOSB
+  11573  2RUR/9/3rd Infantry Div.                 → 2RUR/9/第3步兵师                              残留：2RUR→2RUR
+  11576  2EYR/8/3rd Infantry Div.                 → 2EYR/8/第3步兵师                              残留：2EYR→2EYR
+  11694  II/RHD/44th Reichs-Grenadier             → 第II营/RHD/第44帝国掷弹兵师                        残留：RHD→RHD
+  11695  III/RHD/44th Reichs-Grenadier            → 第III营/RHD/第44帝国掷弹兵师                       残留：RHD→RHD
+  11696  I/RHD/44th Reichs-Grenadier              → 第I营/RHD/第44帝国掷弹兵师                         残留：RHD→RHD
+  11861  22GB/-/TBO                               → 第22近卫旅/-/TBO                              残留：TBO→TBO
+  11862  19GB/-/TBO                               → 第19近卫旅/-/TBO                              残留：TBO→TBO
+  11863  16GB/-/TBO                               → 第16近卫旅/-/TBO                              残留：TBO→TBO
+  11900  CID/21e DI                               → CID/第21步兵师                                残留：CID→CID
+  12403  Other campaigns at http://www.pegww2.net → 更多战役见 http://www.pegww2.net               残留：www.pegww2.net→www.pegww2.net
+  14127  6H/SSG/6                                 → 6H/SSG/第6                                 残留：SSG→SSG
+  14187  65T/-/StF                                → 第65坦克/-/StF                               残留：StF→StF
+  14211  1Ft/RAA                                  → 第1战斗机大队/RAA                               残留：RAA→RAA
+  14272  KGL/15LF/4P                              → KGL/第15LF/第4装甲集团军                         残留：KGL→KGL
+  14273  RVP/23P/4P                               → RVP/第23P/第4P                              残留：RVP→RVP
+  14346  1Ft/CSIR                                 → 第1战斗机大队/CSIR                              残留：CSIR→CSIR
+  14362  1TB/CSIR                                 → 第1坦克旅/CSIR                                残留：CSIR→CSIR
+  15982  9/GBC510                                 → 第9/GBC510                                 残留：GBC510→GBC510
+  15983  22/GBC510                                → 第22/GBC510                                残留：GBC510→GBC510
+  16800  I/SS-Rgt Thule/[Raus]                    → 第1/党卫军图勒团/[Raus]                          残留：[Raus]→[Raus]
+  16801  II/SS-Rgt Thule/[Raus]                   → 第2/党卫军图勒团/[Raus]                          残留：[Raus]→[Raus]
+  16802  I/586/320 Inf Div/[Raus]                 → 第1/第586/第320步兵师/[Raus]                    残留：[Raus]→[Raus]
+  16803  II/586/320 Inf Div/[Raus]                → 第2/第586/第320步兵师/[Raus]                    残留：[Raus]→[Raus]
+  16804  I/320/320 Inf Div/[Raus]                 → 第1/第320/第320步兵师/[Raus]                    残留：[Raus]→[Raus]
+  16839  III/Werfer-Rgt 55/[Raus]                 → 第3/火箭炮第55团/[Raus]                         残留：[Raus]→[Raus]
+  16904  29/8 Grd Cav Div/[6 GCC]                 → 第29/第8近卫骑兵师/[6 GCC]                       残留：[6 GCC]→[6 GCC]
+  16905  31/8 Grd Cav Div/[6 GCC]                 → 第31/第8近卫骑兵师/[6 GCC]                       残留：[6 GCC]→[6 GCC]
+  16906  33/8 Grd Cav Div/[6 GCC]                 → 第33/第8近卫骑兵师/[6 GCC]                       残留：[6 GCC]→[6 GCC]
+  16907  46/13 Grd Cav Div/[6 GCC]                → 第46/第13近卫骑兵师/[6 GCC]                      残留：[6 GCC]→[6 GCC]
+  16908  48/13 Grd Cav Div/[6 GCC]                → 第48/第13近卫骑兵师/[6 GCC]                      残留：[6 GCC]→[6 GCC]
+  16909  50/13 Grd Cav Div/[6 GCC]                → 第50/第13近卫骑兵师/[6 GCC]                      残留：[6 GCC]→[6 GCC]
+  16910  2/8 Cav Div/[6 GCC]                      → 第2/第8骑兵师/[6 GCC]                          残留：[6 GCC]→[6 GCC]
+  16911  49/8 Cav Div/[6 GCC]                     → 第49/第8骑兵师/[6 GCC]                         残留：[6 GCC]→[6 GCC]
+  16912  115/8 Cav Div/[6 GCC]                    → 第115/第8骑兵师/[6 GCC]                        残留：[6 GCC]→[6 GCC]
+  16929  146 Grd AT Rgt/[6 GCC]                   → 第146近卫反坦克团/[6 GCC]                        残留：[6 GCC]→[6 GCC]
+  17398  16/GBC506                                → 第16/GBC506                                残留：GBC506→GBC506
+  17399  18/GBC506                                → 第18/GBC506                                残留：GBC506→GBC506
+  17676  76th Bomber Wing/[RAF]                   → 第76轰炸机联队/[RAF]                            残留：[RAF]→[RAF]
+  18157  902/-/- [LXXXIV]                         → 第902/-/- [LXXXIV]                         残留：- [LXXXIV]→- [LXXXIV]
+  18360  Pag/Gren/1ID [I]                         → Pag/掷弹兵/第1步兵师 [I]                         残留：Pag→Pag
+  18368  Pag/Jag/1ID [I]                          → Pag/猎兵/第1步兵师 [I]                          残留：Pag→Pag
+  19074  II+III/37/1st Pz.                        → II+III/37/第1装甲师                           残留：II+III→II+III
+  19188  3RTR/29/11th Arm.                        → 3RTR/29/第11装甲师                            残留：3RTR→3RTR
+  19189  FFY/29/11th Arm.                         → FFY/29/第11装甲师                             残留：FFY→FFY
+  19191  POC/29/11th Arm.                         → POC/29/第11装甲师                             残留：POC→POC
+  19192  4KSLI/159/11th Arm.                      → 4KSLI/159/第11装甲师                          残留：4KSLI→4KSLI
+  19432  Other campaigns at: http://wwww.pegww2.n → 其他战役见：http://wwww.pegww2.net/             残留：wwww.pegww2.ne→wwww.pegww2.ne
+  20183  13/99 USA                                → 第13/99 USA                                残留：99 USA→99 USA
+  20186  15/106 USA                               → 第15/106 USA                               残留：106 USA→106 USA
+  20188  14/106 USA                               → 第14/106 USA                               残留：106 USA→106 USA
+  20189  70/106 USA                               → 第70/106 USA                               残留：106 USA→106 USA
+  20191  2/28 USA                                 → 第2/28 USA                                 残留：28 USA→28 USA
+  20192  4/28 USA                                 → 第4/28 USA                                 残留：28 USA→28 USA
+  20193  7/28 USA                                 → 第7/28 USA                                 残留：28 USA→28 USA
+  20194  10/28 USA                                → 第10/28 USA                                残留：28 USA→28 USA
+  20197  1/99 USA                                 → 第1/99 USA                                 残留：99 USA→99 USA
+
+【C】中文夹拉丁 4 行
+  1301   50th Div.Mot. [BEF]                      → 第50摩托化师/[BEF]                             夹：[BEF]
+  1811   5th Div.Mot. [BEF]                       → 第5摩托化师/[BEF]                              夹：[BEF]
+  2411   23rd Div.Mot. [BEF]                      → 第23摩托化师/[BEF]                             夹：[BEF]
+  4943   Royal Sussex Rgt. [BEF]                  → 皇家萨塞克斯团/[BEF]                             夹：[BEF]
+
+合计 A 122 · B 159 · C 4

@@ -1,0 +1,138 @@
+﻿DA 第 7 装甲集团军战役信息
+Jorge Gabitto
+jgabitto@aol.com
+下载：
+直接解压到 C:\Panzer2\SCENARIO 目录。在 SSI 提供的战役下方会出现两个战役。这两个战役是：The 7 PanzerArmee 和 The 7 PanzerArmee Defends the Reich。它使用我提供的 CNEfile，应当用在经 Lasse Jensen 图标更新文件处理过的 Panzer2.dat 文件上。战役军队与我测试时的战役军队相当。
+背景：
+战役《第 7 装甲集团军的英勇(The Gallantry of the 7th PanzerArmee)》一直是我印象中最好的战役之一。实际上它是我玩的第一个自制战役，也是它促使我成为战役设计者。几乎所有人都认同，前 13 个场景是专为战役设计的最出色的一批。可惜也有一种印象，认为战役末尾的场景不如之前的。我决定对此做点什么。我用七个全新的场景替换了战役的最后七个场景。我把最后七个原版场景编成了一条失败线，类似《Defending the Reich campaign》。我加入了自己一个场景的修改版，为这条线提供结局。我还把自己三个场景加入失败线，并创建了一个新战役《第 7 装甲集团军保卫帝国(The 7th PanzerArmee Defends the Reich)》。这个战役可以用额外提供的一个 camp 文件独立游玩。
+时间表：
+The 7 PanzerArmee
+The 7 PanzerArmee Defends the Reich
+北风行动(Operation Nordwind)（9d）
+通往柏林之路(The Road to Berlin)（10d）
+主战役前 13 个场景的失败场景与实际场景相似，但稍容易一些。第 14 个之后的失败场景就是第二个战役中标有 * 的那些。主战役失败线中的卡拉斯(Kalastch)场景是 A714v。这个场景与战役 The 7 PanzerArmee Defends the Reich 中的第一个不同。
+我加入了原战役的信息文件。
+注意：
+程序里有一个错误，影响 Defending the Reich 战役的最后一个场景《Summer Storm》。在苏军回合之前，你会收到一条消息：debug error, too many units for player 1。按回车忽略这条消息。如果需要就多按几次。苏军单位不超过 95 个，但程序数错了。几个回合之后它就不再出现，也不影响游玩。
+致谢：
+我要感谢 Dave Anderson 先生。他的战役《The 7th PanzerArmee》让我决定投身设计。我也要感谢所有通过制作地图、工具等使这个战役成为可能的人。Lasse Jensen 先生、il Signore Oronzo 和 Herr Andreas Seidel 直接浮现在我脑海中。我也感谢众多其他人的工作，他们把兵棋推演变成了一种艺术形式。感谢你游玩这个战役。希望你在游玩时获得的乐趣和我设计时一样多。
+THE GALLANTRY OF 7.PANZERARMEE
+2000 年 2 月 28 日
+感谢下载《The Gallantry of 7.Panzerarmee》。希望你在游玩我的战役时获得的乐趣和我创作时一样多。
+说明
+1.\t把所有内容解压到你的 "Scenario" 文件夹；覆盖旧文件。
+2.\t使用标准的 Panzer General II 装备文件或兼容的装备文件。
+如果你正在游玩《7.Panzerarmee》此前的任何版本，安装并覆盖这些文件没有问题。你完成当前场景后，新战役就会接替。
+警告！！
+在诺曼底(Normandy)场景中，在你于第 16 回合拿到那一大笔威望点数之前，不要占领地图南端的盟军所属格，也就是机场。此外，不要让美军占领他们的胜利格，否则场景就会结束，所以要集中力量防守那个格。在第 15 和第 16 回合，你会收到补充兵员，他们从南方、靠近盟军机场的位置出现。他们有两个用途：第一，你可以用他们占领机场，以达成辉煌胜利；第二，他们模拟邻近单位对你的援助。第 16 回合临近时，留意你的威望点数。一旦你的威望点数超过 5500，你就可以自由占领盟军的格，这是达成辉煌胜利所必需的。不会再给更多威望了。
+故事
+在这个虚构的故事里，希特勒出于对本国经济主权受邻国威胁的恐惧而做出反应。边境内的冲突使他动用武力。由于 7.Panzerarmee 指挥官的成功，他没有犯下那些为人熟知的错误。他击溃了莫斯科，斯大林格勒的灾难也没有发生。不幸的是，他的人员和资源耗尽了。盟军看到德国人几乎不可战胜，尤其是凭借他们优越的战争装备。随着巴顿将军被俘，加上他们对德国资源枯竭一无所知，他们决定寻求和平解决。受补给匮乏影响，德国也被迫寻求结束战争。双方最终达成协议。（协议的细节，我认为并不重要。）
+如果你，也就是玩家，输掉一场关键战斗，战争的压力就会影响希特勒，他会失去做出正确判断的能力。战争将以希特勒和德国的屈辱告终。
+"A7PANZE3.ZIP" 中的新内容
+这个文件更新 "a7panze2.zip" 和 "a7panzer.zip"。对 "a7panze2.zip" 的改动不大，不过还是列在这里：
+1)\t有些场景没有把单位的经验等级设置得与其经验条相符。现在所有场景的经验等级都设置正确了。这样设置后，非核心单位和敌方单位在战斗中也有同等机会获得指挥官。
+2)\t我整合并改进了《7.Panzerarmee》此前各版本的说明文件。
+3)\t我再次修改了诺曼底场景。这一次我对它稍微满意一些。
+4)\t我添加了 "a7other" 文件夹，里面有我游玩这个战役所用的 "Camp7.cam" 文件。它会只带你走主线的高层场景。如果你认为自己是高手玩家，就用这个文件。把 "Camp7.cam" 文件从它的文件夹里取出来，放进 "Scenario" 文件夹。然后，你要把 "Camp7d.cam" 文件从 "Scenario" 文件夹里取出来，放进 "a7other" 文件夹。
+5)\t我增加了沃尔图诺(Volturno)场景达成辉煌胜利所需的回合数。
+建议
+关于补给格，尤其是后期场景中的补给格，请按以下步骤操作：
+1)\t插入你的单位，然后进入场景
+2)\t把你的单位尽量展开，点击部署按钮
+3)\t再插入更多单位，再进入场景
+4)\t再次展开你的单位
+5)\t重复以上步骤，直到你想部署的所有单位都位于你想要的位置
+关于有时提供给你的缴获单位，比如苏联坦克，如果你用它们占领格，所属格的旗帜会变成苏联旗，或者保持苏联旗。这没问题。你仍然会拿到威望点数，这样做也仍然能赢得场景。在迪南(Dinant)，你会有人民冲锋队(Volksturn)使用美制和苏制半履带车。如果你用它们占领所属格，旗帜会变成美国旗或苏联旗，取决于你是用哪种半履带车占领的。同样，你仍然会拿到威望点数。不要浪费时间反复夺回所属格。你不会得到额外的威望点数。
+在诺曼底场景中，如果你把单位放在与盟军所属格相邻的格上，AI 就会看到你的单位，所以除非你想让它们被发现，否则不要让任何单位占据那些格。
+在蓬塔穆松(Pont-a-Mousson)场景中，俘获巴顿将军没有特别的做法。照常游玩这个场景；必要时就消灭巴顿将军。出于某种奇迹，他会从废墟中活着出来。
+如果你想使用标准 PG II 文件以外的装备文件，我只想提醒你一下。Fred 报告说，使用 Waffenkammer 装备文件时，他遇到了「大量射程为 7 的火炮单位」。在标准 PG II 文件中，非神射手的苏联炮兵单位最大射程是 4，而我没有制作太多神射手的苏联炮兵单位。制作这个战役时，我是按照标准 PG II 文件中的数值来调整兵力等级和布置炮兵单位的，我用的是标准文件。我从未打算让敌方单位比标准中的更强。如果我用了 Waffenkammer 文件，我会以不同的方式加强单位和布置炮兵单位。
+设计者评述
+这是我能想出的兼顾历史与可玩性的最好战役。在我看来，完全历史化的战役之所以始终无法产生，最大的障碍在于每位玩家可以自由选择自己军队的组成。古德里安将军几乎无从选择他能拥有哪些坦克和部队，但 Panzer General II 的玩家可以拥有他买得起的一切——哪怕它刚下生产线。
+我曾尝试用几种办法让每个场景都接近历史：
+1) \t据我所知，我在故事中呈现了真实人物（Heidrich、Manteuffel、Patton、Strauss、von Paulus 诸位将军，红军大元帅，Talvela 上校，元首，以及 Mussolini）和真实地点。
+2) \t我插入的地图具有的地形特征接近我想象中那些地点会有的样子。
+3) \t我插入了每场战斗的大致日期。
+4)\t我限制了部署格的数量，并在某些场景中不提供补给格，以防玩家插入我认为不属于该场景的单位。
+5)\t在研究了若干资料（列在引用文献一节）并改写其中的段落之后，我插入了德国人民和部队当时接触到的宣传内容，这些内容激励他们作战。
+我的资料研究以及为战役编写一个像样故事的努力，是这个项目中最艰难、最耗时的部分——甚至比制作好场景还难。如果我在文本文件里没有好东西或相关内容可说，我就干脆不写。
+我设计这个战役，是为了尽可能容纳技术水平差异最大的玩家。做法是为同一个场景提供两个变体。一个是高层场景，另一个是低层场景。玩家从高层开始，只要持续达成辉煌胜利就会留在那里。任何时候，如果玩家以低于辉煌胜利的成绩结束，就会掉到低层。他回到高层的办法就是达成一次辉煌胜利。普通玩家可能会在高层和低层之间反复来回。高层与低层 v 标记场景的区别在于，低层场景比对应的高层场景更容易。敌方兵力在强度和数量上都更低。不过，既然低层本来就应该更容易，我降低了达成辉煌胜利所需的回合数。如果你这里那里损失了单位，哪怕是精锐单位，也不用太担心；我设计后续每个场景时都考虑到了这一点。此外，如果你下滑太多，就会出现 v 标记的场景。
+我决定使用标准的 Panzer General II 装备文件，是为了让尽可能多的玩家能游玩我的战役。他们只要愿意，随时可以使用其他自己喜欢的装备文件，只要兼容就行。设计期间，我用 Lasse 的场景编辑器修改相应的数字，从而获得缴获装备。我特别得意于更换步兵和炮兵单位的卡车。比如，有一门缴获的美制 8 英寸火炮由一辆法国卡车牵引，而伞兵和其他步兵则坐着英国、美国、法国、苏联和意大利的运兵车到处跑。
+在最后三个场景中，把 AI 的旗帜设为法国会产生不错的效果，尤其是在蓬塔穆松和迪南场景中。那些挂美国旗的所属格（非胜利格）可以当作应避开格的标记。只有当美军丢掉该格又重新夺回时，它才会变成美国旗。
+我感谢以下个人和组织：
+1)\tthe Wargamer、Oronzo Venturoso、Steve Brown 和 Panzerstef 在他们网站上发布我的战役，
+2)\tLasse Jensen 提供他出色的 Campaign Maker/Editor 和 Scenario Editor，
+3)\tDave Summer 与我分享他对毫无戒心的玩家（不知道会遇到什么的玩家）的看法，
+4)\tTony Latta 和 Robert S. 帮助我理解 Lasse 的 Campaign 和 Scenario Editor，
+5)\tJason Reihl 和 Mark Kirby 给我上了一堂历史课并提供其他信息，
+6)\t我在下面引用的资料，
+7)\tBert Niessen、Paul DK、Patrick、konigstiger、Fred、tom 和 russ 对《7.Panzerarmee》两个版本中的一个或两个提出建设性批评，
+8)\tBrian 提出对立观点，
+9)\t以及所有我忘记提到的人——请原谅我。
+他们直接或间接的协助让我对自己的作品感到满意。
+文件
+Camp7d.cam\ta7panzer.txt\ta7panze3.zip\ta7readm3.doc\ta7other/Camp7.cam
+name\tscenario #\tfiles
+Ebro\t0\ta701.scn\ta701.txt\ta701b.txt
+11/2/38
+Gerona\t1\ta702.scn\ta702.txt\t\ta702e.txt\ta702t.txt
+1/31/39\t21\ta702v.scn\ta702v.txt
+Vistula\t2\ta703.scn\ta703.txt\ta703b.txt\ta703e.txt\ta703t.txt
+9/12/39\t22\ta703v.scn\ta703v.txt
+Tolvajarvi\t3\ta704.scn\ta704.txt\ta704b.txt
+12/9/39
+St. Quentin\t4\ta705.scn\ta705.txt\ta705b.txt
+5/14/40\t23\ta705v.scn\ta705v.txt
+Somme\t5\ta706.scn\ta706.txt\ta706b.txt
+6/5/40\t24\ta706v.scn\ta706v.txt
+Sidi Barrani\t6\ta707.scn\ta707.txt\ta707b.txt
+9/13/40\t25\ta707v.scn\ta707v.txt
+Benghazi\t7\ta708.scn\ta708.txt\ta708b.txt\ta708e.txt
+1/24/41\t26\ta708v.scn\ta708v.txt
+Glasgow\t8\ta709.scn\ta709.txt\ta709b.txt
+3/13/41\t27\ta709v.scn\ta709v.txt
+Minsk\t9\ta710.scn\ta710.txt\ta710b.txt\ta710e.txt
+6/30/41\t28\ta710v.scn\ta710v.txt
+Orsha\t10\ta711.scn\ta711.txt\ta711b.txt\ta711e.txt
+8/1/41\t29\ta711v.scn\ta711v.txt
+Moscow\t11\ta712.scn\ta712.txt\ta712b.txt\ta712e.txt
+11/26/41\t30\ta712v.scn\ta712v.txt
+Volchansk\t12\ta713.scn\ta713.txt
+6/4/42\t31\ta713v.scn\ta713v.txt
+Kalatsch\t13\ta714.scn\ta714.txt\ta714b.txt\ta714e.txt\t\ta7loss.txt
+11/20/42\t32\ta714v.scn\ta714v.txt
+Kharkov\t14\ta715.scn\ta715.txt\ta715b.txt
+3/11/43\t33\ta715v.scn\ta715v.txt
+Kursk\t15\ta716.scn\ta716.txt\ta716b.txt\ta716e.txt
+7/4/43\t34\ta716v.scn\ta716v.txt
+Volturno\t16\ta717.scn\ta717.txt\ta717b.txt\ta717e.txt
+10/15/43\t35\ta717v.scn\ta717v.txt
+Cassino\t17\ta718.scn\ta718.txt\ta718b.txt\ta718e.txt
+3/23/44\t36\ta718v.scn\ta718v.txt
+Normandy\t18\ta719.scn\ta719.txt\ta719b.txt\ta719e.txt\ta719t.txt
+5/31/44
+Pont-a-Mousson\t19\ta720.scn\ta720.txt\ta720b.txt\ta720e.txt
+9/4/44\t37\ta720v.scn\ta720v.txt\ta721c.txt\ta720f.txt\ta720u.txt
+Dinant\t20\ta721.scn\ta721.txt\ta721b.txt\ta721e.txt\ta721t.txt\ta721u.txt
+12/16/44
+绝密，设计者评述（续）
+（请在游玩战役之后才阅读）
+为了让你熟悉军队编成的各种变化，你应该看看 Kovi 的「坦克-侦察-对空防御构想」和「无空军构想」。我觉得它们非常有意思。不过，在这个战役里，我不会不用炮兵单位。我设计这个战役时几乎到了过分的程度，就是要让你必须使用炮兵单位。也许只有 Kovi 能玩得转无炮兵的军队。我看得出玩家可以不用空军，但那样玩家就体验不到我设计的空战了。这就像我花很多时间做了一道美食，然后看到有人往上面浇辣酱；那完全毁了我的用意。
+为了让游戏尽可能公平，我试着把自己放在毫无戒心的玩家的位置上。为了用最短时间达成所有目标，我会把自己的军队平均分兵；而作为战役制作者，我也会把敌方兵力平均分兵，因为把敌方兵力大量集中在一个地段，真的会毁掉玩家相当一部分单位。在我的设计中，如果玩家确实在某个特定地段遭遇强敌，那只能怪 AI，因为重新部署全是 AI 在做。有一次，我在打哈尔科夫(Kharkov)，就在我快要拿到胜利格的时候，三辆苏联坦克出现在我最西南的所属格里。它们不是同时出现的，但看到一个区域里冒出三辆坦克，还是让我额头冒汗。幸好天气不错，靠着我的轰炸机和战斗机，我把它们的兵力削弱到足够程度，我的伞兵才守住了阵地。
+还有一处设计收到了成效。那些步兵补充兵员的主要用途是保障后方安全，因为总会有一些零散的敌方单位有时会直奔他们的胜利格。我绝对讨厌以这种方式输掉游戏。不过，托尔瓦耶尔维(Tolvajarvi)场景中的伞兵补充兵员，是为了支援湖对岸被孤立的芬兰单位。
+直到制作诺曼底场景时，我才意识到 AI 到底有多蠢。从最初的构想算起，在我决定把它加入战役之前，我肯定修改并测试了这个场景十几次，而且测试时变化很大。AI 就是靠近不了它的胜利格。我把它的胜利格拉近，然后又去掉一个胜利格，让它只专注一个。在我发现 AI 的轰炸机弹药耗尽之后，我给它配了一个陆上机场，因为它不知道要去航母上补给！在我发布《The Gallantry of 7.Panzerarmee》之后，我又决定把美军的胜利格拉得更近。这一次我终于对结果满意了。
+这个战役比我想要的更长。制作长期战役时我发现最难的一点是，很难估计玩家部队在战役后期会有多强。我不想让敌方兵力太弱，当然也不想让它们太强。我限制早期场景部署能力的决定，结果比我以为的更重要。它们在防止玩家单位兵力变得过度强大方面效果很好。此外，它还给玩家一个选择：要么拥有少数非常强大的单位，要么通过在一个场景使用一批单位、在另一个场景使用另一批单位，让所有单位兵力较为均衡。
+在制作这个战役的过程中，我形成了一种看法：战役制作者在测试时不应该使用自己指挥官的特殊能力。我没有用我的解放者单位去占领格，我把我神射手的炮兵单位降级，使它们的最大射程只有 5 格，我没有用具有毁灭性火力的单位开火两次，等等。如果我用了我指挥官的特质，我就会把威望点数和辉煌胜利的回合要求设得太低。战役制作者不应该假定自己游戏的玩家都能获得必要的指挥官。在我发布《The Gallantry of 7.Panzerarmee》之后从头测试我的战役时，我一个精锐侦察老兵都没获得。这算不算少见！
+引用文献
+Cordery, Bob. "The Main Events of the Spanish Civil War." www.users.dircon.co.uk/~warden/scw/scwevent.htm. 1999 年 10 月 27 日。
+Dr. F. "Why are We Fighting." www.calvin.edu/academic/cas/gpa/wehr02.htm. 译者 Randall Bytwerk。1999 年 11 月 16 日。
+Hitler, Adolf. "Directive # 21." www.geocities.com/Area51/Cavern/2941/intro.html. 编者 Jose Fernandez。1999 年 11 月 1 日。
+Ilo, Juha 与 Jason Pipes. "The Finnish Winter War." www.uwm.edu/~jpipes/wwar.html. 1999 年 10 月 28 日。
+von Mellenthin, F.W. Panzer Battles. New York: Ballantine Books, 1971。
+"Rank Equivalents." www.ualberta.ca/~dreinbol/ranks.html. 1999 年 11 月 4 日。
+"Third Battle at Cassino." www.accessweb.com/users/rbereznicki/Monte2.htm. 2000 年 1 月 12 日。
+"WWII Axis Military History Day-by-Day: *." www.uwm.edu/~jpipes/january.html - december.html. 编者 Jason Pipes。1999 年 10 月 27 日。
+感谢游玩我的战役。请随意给我发电子邮件，告诉我你对我的战役的看法。
+- Dave Gunner Anderson
+tgunner64@hotmail.com
+Default Paragraph Font
+Jorge Federico Gabitto

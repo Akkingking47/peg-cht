@@ -1,0 +1,654 @@
+line	section	text
+1		United States
+2		Russia
+3		China
+4		Vietnam
+5		North Korea
+6		South Korea
+7		Thailand
+8		Germany
+9		United Kingdom
+10		France
+11		Japan
+12		Singapore
+13		Indonesia
+14		Australia
+15		Mongolia
+16		Taiwan
+17		Ukraine
+18		Kazakhstan
+19		Malaysia
+20		United Nations
+21		India
+22		Pakistan
+23		Iran
+24		Israel
+25		Arab League
+26		Brazil
+27		Mexico
+28		Venezuela
+29		Myanmar
+30		US Marine Corps
+31		Rebels
+32		No Country
+33		Eastern
+34		Western
+35		Brilliant Victory
+36		Victory
+37		Tactical Victory
+38		Loss
+39		It's A Draw - 
+40		Next Unit
+41		Cancel Move
+42		Mount - Dismount
+43		Air Transport
+44		Supply
+45		Replacements
+46		Requisition Unit
+47		Field Headquarters
+48		Air Mode
+49		Strategic Map
+50		Game Functions
+51		Additional Options
+52		Chat
+53		How To Play The Game - 
+54		End Turn
+55		Dossier
+56		Show Hexsides
+57		Audio Settings
+58		Play By EMail
+59		VCR
+60		Replay Turn
+61		Full Screen
+62		Show Terrain
+63		Exit Game
+64		Inspect Unit
+65		Go To Unit
+66		Overstrength Unit
+67		Upgrade Unit
+68		Reassign Unit
+69		Undo Last Action
+70		Gold Coins - 
+71		Soft Target
+72		Hard Target
+73		High altitude air target
+74		Helo or naval target
+75		Close Defense
+76		Ammo
+77		Fire Range
+78		Close Attack
+79		Spotting Range
+80		unused
+81		unused   GUI97.TXT modified by Redball March 16, 2004  
+82		unused   requires Redball's modified PeG 2.6 or later
+83		unused
+84		unused   these 8 lines originally were used for 
+85		unused   movement types but not all names were utilized
+86		unused   complete list of movement types on lines 584-595
+87		unused
+88		Hard Attack
+89		Soft Attack
+90		Air Attack
+91		Helicopter Attack
+92		Ground Defense
+93		Air Defense
+94		Indirect Defense
+95		Profile
+96		Recon
+97		Combat Engineer
+98		Air Defense
+99		River Assault
+100		Helicopter
+101		Anti-tank
+102		Combat Support
+103		Forward Observer
+104		Special Munitions
+105		Airmobile
+106		Airliftable
+107		unused
+108		Requisition Unit
+109		Scroll Up
+110		Scroll Down
+111		Exit
+112		Cancel
+113		Total Prestige
+114		Available Prestige
+115		Expended Prestige
+116		Exit Deployment
+117		Edit Equipment - NOT AVAILABLE
+118		Load Excel Text Equipment File
+119		Convert Campaign TXT Script to CAM
+120		Save New Campaign
+121		Load Scenario
+122		Save Scenario
+123		Edit Map
+124		Edit Army
+125		Place Army
+126		Clear All Victory Hexes
+127		Clear All Scenario Hex Info
+128		Highlight Selected Terrain Type
+129		Save Map
+130		Load Map by Name
+131		Load Map By #
+132		Show Terrain Names on Hexes
+133		Display Roads (toggle on/off)
+134		Fill Map
+135		Clear Roads
+136		Exit Edit Map
+137		Next Army
+138		Toggle Entrench Mode
+139		Enter Scenario Description
+140		Class None
+141		Infantry
+142		Tank
+143		Recon
+144		Anti-tank
+145		Command+Support
+146		Fortification
+147		Ground Transport
+148		Artillery
+149		Air Defense
+150		Fighter
+151		Air Support
+152		Attack Helicopter
+153		Air Transport
+154		Submarine
+155		Destroyer
+156		Battleship
+157		Carrier
+158		Naval Transport
+159		Aegis Cruiser
+160		Corvette
+161		Brown Water Boat
+162		Play A Campaign
+163		Play A Scenario
+164		Start A Multiplayer Scenario
+165		Show The Credits
+166		Start The Scenario Builder
+167		Load A Saved Game
+168		Review A Dossier - 
+169		Start the Main editor (show the introduction)
+170		Exit The Game
+171		Dry
+172		Frozen
+173		Turn
+174		January
+175		February
+176		March
+177		April
+178		May
+179		June
+180		July
+181		August
+182		September
+183		October
+184		November
+185		December
+186		Fair
+187		Overcast
+188		Rain
+189		Snow
+190		Turns
+191		Unlimited Turns - ?
+192		Current Strength
+193		Experience
+194		Leader
+195		Unit Has Transport
+196		Unit Has Moved
+197		Congratulations on your Victory
+198		Demo Version 1.0 - 
+199		Next Country
+200		Last Country
+201		Total Cost Of Unit
+202		Cost of Equipment
+203		Available
+204		Casualties Inflicted
+205		Casualties Taken
+206		Entrenchment
+207		Assaulting
+208		Attacking
+209		Strategic Bombing - 
+210		Interceptors
+211		Air Defense
+212		Close Support Fire
+213		Support Fire
+214		Reactive Defense!
+215		Attack Broken Off!
+216		Surrender
+217		Fleeing Port
+218		Scuttling
+219		Have %s
+220		%d victory hexes for %s
+221		%s turn %d of %d
+222		Suppressed
+223		Destroyed
+224		LAN Connection
+225		Internet Connection
+226		[ no longer available ]
+227		Internet List - 
+228		Create Game
+229		Join Game
+230		Enter Your Player Name
+231		Enter The Game Name
+232		Show Scenario Save Games
+233		Show Campaign Save Games
+234		Show Multiplayer Save Games
+235		Show Email Games
+236		Save Game
+237		Load Game
+238		Up One Level
+239		Create Directory
+240		New Game
+241		Successfully Saved
+242	WAS NOT SAVED-ERROR	WAS NOT SAVED-ERROR
+243	WAS NOT SAVED-ERROR	No File Description
+244	WAS NOT SAVED-ERROR	Deploy Forces
+245	WAS NOT SAVED-ERROR	Enter Name for Scenario
+246	STARTING DATE	STARTING DATE
+247	STARTING DATE	Number Of Turns
+248	STARTING DATE	Start Day or Night
+249	STARTING DATE	Ground Conditions
+250	ENVIRONMENTAL CONDITIONS	ENVIRONMENTAL CONDITIONS
+251	SCENARIO DESCRIPTION	SCENARIO DESCRIPTION
+252	SCENARIO DESCRIPTION	Designate Supply
+253	SCENARIO DESCRIPTION	Designate Victory
+254	SCENARIO DESCRIPTION	Designate Ownership
+255	SCENARIO DESCRIPTION	Designate Deployment
+256	SCENARIO DESCRIPTION	Build Army
+257	SCENARIO DESCRIPTION	Unit Settings
+258	SCENARIO DESCRIPTION	Deploy Army
+259	SCENARIO DESCRIPTION	Set Prestige
+260	SCENARIO DESCRIPTION	Scenario Parameters
+261	SCENARIO DESCRIPTION	Prestige Allocated Per Turn
+262	SCENARIO DESCRIPTION	Unit Names
+263	SCENARIO DESCRIPTION	Make Global Settings
+264	SCENARIO DESCRIPTION	Redball Says Hi!
+265	SCENARIO DESCRIPTION	Enter an IP address including all dots
+266	SCENARIO DESCRIPTION	Are You Sure You Want to Quit?
+267	SCENARIO DESCRIPTION	Empty Slot
+268	SCENARIO DESCRIPTION	Yes
+269	SCENARIO DESCRIPTION	No
+270	SCENARIO DESCRIPTION	No Leader Power
+271	SCENARIO DESCRIPTION	Terrain Expert
+272	SCENARIO DESCRIPTION	Aggressive Maneuver
+273	SCENARIO DESCRIPTION	Force Recon
+274	SCENARIO DESCRIPTION	Tank Killer
+275	SCENARIO DESCRIPTION	Enhanced Radar
+276	SCENARIO DESCRIPTION	Multiple Fire Support
+277	SCENARIO DESCRIPTION	Stealth Pilot
+278	SCENARIO DESCRIPTION	Precision Bomber
+279	SCENARIO DESCRIPTION	Aggressive Attack
+280	SCENARIO DESCRIPTION	Determined Defense
+281	SCENARIO DESCRIPTION	Sixth Sense
+282	SCENARIO DESCRIPTION	First Strike
+283	SCENARIO DESCRIPTION	Resilience
+284	SCENARIO DESCRIPTION	Influence
+285	SCENARIO DESCRIPTION	Fire Discipline
+286	SCENARIO DESCRIPTION	Ground Taker
+287	SCENARIO DESCRIPTION	Rangers
+288	SCENARIO DESCRIPTION	All Weather Combat
+289	SCENARIO DESCRIPTION	Blitzer
+290	SCENARIO DESCRIPTION	Motivator
+291	SCENARIO DESCRIPTION	Tunnel Rats
+292	SCENARIO DESCRIPTION	Aggressive Maneuver
+293	SCENARIO DESCRIPTION	Skilled Reconnaissance
+294	SCENARIO DESCRIPTION	Recon Movement
+295	SCENARIO DESCRIPTION	Airforce Marksman
+296	SCENARIO DESCRIPTION	Street Fighter
+297	SCENARIO DESCRIPTION	Overwhelming Attack
+298	SCENARIO DESCRIPTION	Infiltrator
+299	SCENARIO DESCRIPTION	Camouflage Expert
+300	SCENARIO DESCRIPTION	Ferocious Defender
+301	SCENARIO DESCRIPTION	Overwatch
+302	SCENARIO DESCRIPTION	Devastating Fire
+303	SCENARIO DESCRIPTION	River Assault
+304	SCENARIO DESCRIPTION	Shock Tactics
+305	SCENARIO DESCRIPTION	The Rock
+306	SCENARIO DESCRIPTION	Quartermaster
+307	SCENARIO DESCRIPTION	Sharpshooter
+308	SCENARIO DESCRIPTION	Defender
+309	SCENARIO DESCRIPTION	Smart Gambler
+310	SCENARIO DESCRIPTION	Skirmisher
+311	SCENARIO DESCRIPTION	Ambusher
+312	SCENARIO DESCRIPTION	Shoot and Scoot
+313	SCENARIO DESCRIPTION	Liberator
+314	SCENARIO DESCRIPTION	Random Leader Power
+315	SCENARIO DESCRIPTION	Axis Turn
+316	SCENARIO DESCRIPTION	Allied Turn
+317	SCENARIO DESCRIPTION	Conditions:  %s, %s
+318	SCENARIO DESCRIPTION	Fair
+319	SCENARIO DESCRIPTION	Overcast
+320	SCENARIO DESCRIPTION	Rain
+321	SCENARIO DESCRIPTION	Snow
+322	SCENARIO DESCRIPTION	Review Best Careers
+323	SCENARIO DESCRIPTION	Enter Password
+324	SCENARIO DESCRIPTION	You have Been Awarded A PROTOTYPE UNIT
+325	SCENARIO DESCRIPTION	Review Battlefield
+326	SCENARIO DESCRIPTION	Overrunning
+327	SCENARIO DESCRIPTION	Lost Connection With Player
+328	SCENARIO DESCRIPTION	Lost Session
+329	SCENARIO DESCRIPTION	Exchange Unit
+330	SCENARIO DESCRIPTION	Hard Target
+331	SCENARIO DESCRIPTION	Soft Target
+332	SCENARIO DESCRIPTION	DECREASE DIFFICULTY (+ Player Prestige %)
+333	SCENARIO DESCRIPTION	INCREASE DIFFICULTY (- Player Prestige %)
+334	SCENARIO DESCRIPTION	Player Prestige Percentage
+335	SCENARIO DESCRIPTION	Computer Player
+336	SCENARIO DESCRIPTION	Human Player
+337	SCENARIO DESCRIPTION	INCREASE DIFFICULTY (+ AI Prestige %)
+338	SCENARIO DESCRIPTION	DECREASE DIFFICULTY (- AI Prestige %)
+339	SCENARIO DESCRIPTION	Computer Prestige Percentage
+340	SCENARIO DESCRIPTION	Next
+341	SCENARIO DESCRIPTION	Choose Connection
+342	SCENARIO DESCRIPTION	Number Of Players In Game
+343	SCENARIO DESCRIPTION	Create Or Join Game
+344	SCENARIO DESCRIPTION	Choose Game To Join
+345	SCENARIO DESCRIPTION	Set Scenario Time Limit
+346	SCENARIO DESCRIPTION	Set Time Limit
+347	SCENARIO DESCRIPTION	Set Time Limit
+348	SCENARIO DESCRIPTION	Enter Scenario Name
+349	SCENARIO DESCRIPTION	Set Starting Scenario Month
+350	SCENARIO DESCRIPTION	Set Starting Scenario Day
+351	SCENARIO DESCRIPTION	Set Starting Scenario Year
+352	SCENARIO DESCRIPTION	Increase Month
+353	SCENARIO DESCRIPTION	Decrease Month
+354	SCENARIO DESCRIPTION	Increase Day
+355	SCENARIO DESCRIPTION	Decrease Day
+356	SCENARIO DESCRIPTION	Increase Year
+357	SCENARIO DESCRIPTION	Decrease Year
+358	SCENARIO DESCRIPTION	Number Of Turns In Scenario
+359	SCENARIO DESCRIPTION	Increase Turns
+360	SCENARIO DESCRIPTION	Decrease Turns
+361	SCENARIO DESCRIPTION	Set Turns Per Day
+362	SCENARIO DESCRIPTION	Set Turns Per Day
+363	SCENARIO DESCRIPTION	Set Number Of Players
+364	SCENARIO DESCRIPTION	Set As Eastern Side
+365	SCENARIO DESCRIPTION	Set As Western Side
+366	SCENARIO DESCRIPTION	Set Primary Country
+367	SCENARIO DESCRIPTION	Set Country
+368	SCENARIO DESCRIPTION	Set AI Strategy Aggressive
+369	SCENARIO DESCRIPTION	Set AI Strategy Defensive
+370	SCENARIO DESCRIPTION	No Map Chosen For Scenario
+371	SCENARIO DESCRIPTION	Must Name Scenario
+372	SCENARIO DESCRIPTION	Must Have Players For Both Sides.
+373	SCENARIO DESCRIPTION	Must Have Countries For All Players.
+374	SCENARIO DESCRIPTION	Must Have Units For All Players.
+375	SCENARIO DESCRIPTION	Must Deploy All Players Starting Units.
+376	SCENARIO DESCRIPTION	Must Have At Least One Victory Hex Per Player.
+377	SCENARIO DESCRIPTION	Must Have At Least One Unit Deployed Per Player.
+378	SCENARIO DESCRIPTION	Captain
+379	SCENARIO DESCRIPTION	Colonel
+380	SCENARIO DESCRIPTION	General
+381	SCENARIO DESCRIPTION	New Equipment Available
+382	PEOPLE'S GENERAL HOT KEYS	PEOPLE'S GENERAL HOT KEYS
+383	FILE FUNCTIONS	FILE FUNCTIONS
+384	FILE FUNCTIONS	CTRL-S, Save
+385	FILE FUNCTIONS	CTRL-L, Load
+386	FILE FUNCTIONS	CTRL-Q, Quit People's General
+387	FILE FUNCTIONS	CTRL-A, Autosave
+388	FILE FUNCTIONS	ESC, Exit current menu or screen
+389	FILE FUNCTIONS	(If on Start Screen, exits game)
+390	MENU FUNCTIONS	MENU FUNCTIONS
+391	MENU FUNCTIONS	N - Next Unit
+392	MENU FUNCTIONS	X - Cancel Move
+393	MENU FUNCTIONS	R - Requisition
+394	MENU FUNCTIONS	D - Deploy
+395	MENU FUNCTIONS	F - Field HQ
+396	MENU FUNCTIONS	B - Unit Battle Record
+397	MENU FUNCTIONS	V - View Unit
+398	MENU FUNCTIONS	A - Air Mode
+399	MENU FUNCTIONS	S - Strategic Map
+400	MENU FUNCTIONS	G - Dossier
+401	MENU FUNCTIONS	C - Chat
+402	MENU FUNCTIONS	T - Toggle pop-up screen text
+403	MENU FUNCTIONS	O - Omit selected unit from the
+404	MENU FUNCTIONS	Next unit cycle for that turn
+405	MENU FUNCTIONS	P - Previous Unit
+406	MENU FUNCTIONS	M - Air Mission
+407	MENU FUNCTIONS	SHIFT-F, Toggle full screen
+408	MENU FUNCTIONS	Space - Center on currently selected unit
+409	MENU FUNCTIONS	Arrow Keys - Scroll Map
+410	ADDITIONAL OPTIONS	ADDITIONAL OPTIONS
+411	ADDITIONAL OPTIONS	1 - Status Report
+412	ADDITIONAL OPTIONS	2 - Hot Key List
+413	ADDITIONAL OPTIONS	3 - Sound Effects Toggle
+414	ADDITIONAL OPTIONS	4 - Music Toggle
+415	ADDITIONAL OPTIONS	5 - VCR Panel
+416	ADDITIONAL OPTIONS	6 - View Terrain
+417	ADDITIONAL OPTIONS	7 - Hexes Toggle
+418	ADDITIONAL OPTIONS	8 - Toggle Unit Strength Boxes
+419	VIEW UNIT FUNCTIONS	VIEW UNIT FUNCTIONS
+420	VIEW UNIT FUNCTIONS	ALT-E, Embark - Disembark
+421	VIEW UNIT FUNCTIONS	ALT-S, Supply
+422	VIEW UNIT FUNCTIONS	ALT-R, Replacements
+423	VIEW UNIT FUNCTIONS	List Of Hot Keys
+424	VIEW UNIT FUNCTIONS	Status Report
+425	VIEW UNIT FUNCTIONS	Reinforcements have arrived
+426	VIEW UNIT FUNCTIONS	Do You Want Air Transport?
+427	VIEW UNIT FUNCTIONS	Replay Email Opponent's Turn
+428	VIEW UNIT FUNCTIONS	Play
+429	VIEW UNIT FUNCTIONS	Stop
+430	VIEW UNIT FUNCTIONS	Fast Forward
+431	VIEW UNIT FUNCTIONS	Rewind
+432	VIEW UNIT FUNCTIONS	Are you sure you wish to remove this unit?
+433	VIEW UNIT FUNCTIONS	Rename Unit
+434	VIEW UNIT FUNCTIONS	Battle Honors
+435	VIEW UNIT FUNCTIONS	Air Transport Available:
+436	VIEW UNIT FUNCTIONS	Sea Transport Available:
+437	VIEW UNIT FUNCTIONS	Enter a Game Description
+438	VIEW UNIT FUNCTIONS	Ambushed!
+439	VIEW UNIT FUNCTIONS	Out of the sun!
+440	VIEW UNIT FUNCTIONS	Surprise Contact!
+441	VIEW UNIT FUNCTIONS	Done
+442	VIEW UNIT FUNCTIONS	Music On-Off
+443	VIEW UNIT FUNCTIONS	Sound Effects On-Off
+444	VIEW UNIT FUNCTIONS	in
+445	VIEW UNIT FUNCTIONS	Incorrect Password
+446	VIEW UNIT FUNCTIONS	Global Prestige
+447	VIEW UNIT FUNCTIONS	Quit
+448	VIEW UNIT FUNCTIONS	SHIFT-E, End Turn
+449	VIEW UNIT FUNCTIONS	Load Scenario
+450	AUTOSAVE SCENARIO	AUTOSAVE SCENARIO
+451	AUTOSAVE CAMPAIGN	AUTOSAVE CAMPAIGN
+452	AUTOSAVE CAMPAIGN	Change Commands
+453	AUTOSAVE CAMPAIGN	Requisition
+454	AUTOSAVE CAMPAIGN	Field Headquarters
+455	AUTOSAVE CAMPAIGN	Dossier
+456	AUTOSAVE CAMPAIGN	Upgrade
+457	AUTOSAVE CAMPAIGN	Build Army
+458	AUTOSAVE CAMPAIGN	Viewing Unit Record
+459	AUTOSAVE CAMPAIGN	Done
+460	AUTOSAVE CAMPAIGN	Last Turn
+461	AUTOSAVE CAMPAIGN	Enter Scenario Name
+462	AUTOSAVE CAMPAIGN	Failed To Open Session
+463	AUTOSAVE CAMPAIGN	PEOPLE'S GENERAL Version 3.0  (1 June 2006, modified PEOPLES.EXE & auxiliary files)
+464	AUTOSAVE CAMPAIGN	Scenario Builder
+465	AUTOSAVE CAMPAIGN	Helicopters flee!
+466	AUTOSAVE CAMPAIGN	unused   These 8 lines originally were used to name
+467	AUTOSAVE CAMPAIGN	unused   Special Equipment.  They have been replaced by
+468	AUTOSAVE CAMPAIGN	unused   lines 613-628 below.
+469	AUTOSAVE CAMPAIGN	unused
+470	AUTOSAVE CAMPAIGN	unused
+471	AUTOSAVE CAMPAIGN	unused
+472	AUTOSAVE CAMPAIGN	Next Equipment Group
+473	AUTOSAVE CAMPAIGN	Last Equipment Group
+474	AUTOSAVE CAMPAIGN	Wild Weasel
+475	AUTOSAVE CAMPAIGN	Air Strike
+476	AUTOSAVE CAMPAIGN	Air Recon
+477	AUTOSAVE CAMPAIGN	Interdiction
+478	AUTOSAVE CAMPAIGN	Defensive Support
+479	AUTOSAVE CAMPAIGN	Airlift
+480	AUTOSAVE CAMPAIGN	Transport Helicopter
+481	AUTOSAVE CAMPAIGN	Cost 
+482	AUTOSAVE CAMPAIGN	Day
+483	AUTOSAVE CAMPAIGN	Night
+484	AUTOSAVE CAMPAIGN	Month
+485	AUTOSAVE CAMPAIGN	Year
+486	AUTOSAVE CAMPAIGN	Current Air Points
+487	AUTOSAVE CAMPAIGN	Mission Cost
+488	AUTOSAVE CAMPAIGN	Air Missions
+489	AUTOSAVE CAMPAIGN	Subtract One Mission
+490	AUTOSAVE CAMPAIGN	Add One Mission
+491	AUTOSAVE CAMPAIGN	Cancel All Missions
+492	AUTOSAVE CAMPAIGN	View Battle Record
+493	AUTOSAVE CAMPAIGN	Air Defense Killed
+494	AUTOSAVE CAMPAIGN	Anti-tank Killed
+495	AUTOSAVE CAMPAIGN	Artillery Killed
+496	AUTOSAVE CAMPAIGN	Infantry Killed
+497	AUTOSAVE CAMPAIGN	Recon Killed
+498	AUTOSAVE CAMPAIGN	Tanks Killed
+499	AUTOSAVE CAMPAIGN	Helicopters Killed
+500	AUTOSAVE CAMPAIGN	Planes Killed
+501	AUTOSAVE CAMPAIGN	Kills
+502	AUTOSAVE CAMPAIGN	Select Unit For Upgrade
+503	AUTOSAVE CAMPAIGN	Select Upgrade For Unit
+504	AUTOSAVE CAMPAIGN	Examine Unit
+505	AUTOSAVE CAMPAIGN	Select Unit For Purchase
+506	AUTOSAVE CAMPAIGN	Adjust Air Superiority
+507	AUTOSAVE CAMPAIGN	Rename General
+508	AUTOSAVE CAMPAIGN	Victory Medals
+509	AUTOSAVE CAMPAIGN	Victory Hexes Captured
+510	AUTOSAVE CAMPAIGN	Air Superiority:  %d percent
+511	AUTOSAVE CAMPAIGN	Increase Strength
+512	AUTOSAVE CAMPAIGN	Decrease Strength
+513	AUTOSAVE CAMPAIGN	Air Mission Aborted!
+514	PRESTIGE BONUS!	PRESTIGE BONUS!
+515	LEADER ASSIGNED!	LEADER ASSIGNED!
+516	TROOP IMPROVEMENT!	TROOP IMPROVEMENT!
+517	MORE AIR MISSIONS!	MORE AIR MISSIONS!
+518	ADVANCED EQUIPMENT!	ADVANCED EQUIPMENT!
+519	ADVANCED EQUIPMENT!	Choose Scenario to Edit
+520	ADVANCED EQUIPMENT!	Choose Map for Scenario
+521	ADVANCED EQUIPMENT!	Scenario Builder-Configure Game
+522	ADVANCED EQUIPMENT!	Scenario Builder-Configure Player
+523	ADVANCED EQUIPMENT!	Edit Player 1
+524	ADVANCED EQUIPMENT!	Edit Player 2
+525	ADVANCED EQUIPMENT!	Edit Player 3
+526	ADVANCED EQUIPMENT!	Edit Player 4
+527	ADVANCED EQUIPMENT!	Editing Player 1
+528	ADVANCED EQUIPMENT!	Editing Player 2
+529	ADVANCED EQUIPMENT!	Editing Player 3
+530	ADVANCED EQUIPMENT!	Editing Player 4
+531	ADVANCED EQUIPMENT!	Designate Victory Hexes
+532	ADVANCED EQUIPMENT!	Designate Supply Hexes
+533	ADVANCED EQUIPMENT!	Designate Trigger Hexes
+534	ADVANCED EQUIPMENT!	Designate Reaction Hexes
+535	ADVANCED EQUIPMENT!	Adjust Units
+536	ADVANCED EQUIPMENT!	Next Screen
+537	NEW SCENARIO	NEW SCENARIO
+538	CHOOSE SCENARIO	CHOOSE SCENARIO
+539	SELECT MAP	SELECT MAP
+540	SELECT MAP	Turns For Brilliant Victory
+541	SELECT MAP	Turns For Victory
+542	SELECT MAP	Turns For Tactical Victory
+543	SELECT MAP	Increase Air Superiority
+544	SELECT MAP	Decrease Air Superiority
+545	SELECT MAP	(A) Tropical Humid
+546	SELECT MAP	(B) Dry
+547	SELECT MAP	(C) Warm Temperate
+548	SELECT MAP	(D) Cold Temperate
+549	SELECT MAP	(E) Polar
+550	SELECT MAP	Eastern Victory Requirement
+551	SELECT MAP	Western Victory Requirement
+552	SELECT MAP	Capture ALL VH to win
+553	SELECT MAP	Capture ONE VH to win
+554	SCENARIO TITLE	SCENARIO TITLE
+555	SCENARIO TITLE	Weather
+556	SCENARIO TITLE	Climate Type
+557	SCENARIO TITLE	Eastern Starting Air Level
+558	SCENARIO TITLE	Western Starting Air Level
+559	SCENARIO TITLE	Increase Air Mission Pts
+560	SCENARIO TITLE	Decrease Air Mission Pts
+561	SCENARIO TITLE	Player Air Mission Pts
+562	SCENARIO TITLE	Increase Prestige
+563	SCENARIO TITLE	Decrease Prestige
+564	SCENARIO TITLE	Player Prestige
+565	SCENARIO TITLE	Alter Unit Leader
+566	NAME UNIT	NAME UNIT
+567	NAME UNIT	Increase Experience
+568	NAME UNIT	Decrease Experience
+569	LEADERS	LEADERS
+570	LEADERS	Elite Unit
+571	LEADERS	Veteran Unit
+572	LEADERS	Regular Unit
+573	LEADERS	Campaign Selection Screen
+574	LEADERS	Scenario Selection Screen
+575	LEADERS	Tips
+576	LEADERS	Strength: %d/%d
+577	LEADERS	Tactical Operations
+578	LEADERS	If you exit you will lose your work. Do you still want to exit?
+579	LEADERS	Edit This Scenario
+580	LEADERS	Create New Scenario
+581	LEADERS	%d Experience Regulars
+582	LEADERS	%d Experience Veterans
+583	LEADERS	%d Experience Elites
+584	LEADERS	Bad Weather! Air units are significantly reduced in effectiveness!
+585	LEADERS	Tracked
+586	LEADERS	Half-Tracked
+587	LEADERS	Wheeled
+588	LEADERS	Leg
+589	LEADERS	Light Tracked
+590	LEADERS	Air
+591	LEADERS	Deep Naval
+592	LEADERS	Coastal
+593	LEADERS	All Terrain Vehicle (Multi-Wheeled)
+594	LEADERS	Amphibious
+595	LEADERS	Guerilla
+596	LEADERS	Ranger
+597	LEADERS	Fly The Planned Air Missions
+598	LEADERS	Exit Mission Planning (no air missions flown)
+599	LEADERS	Core
+600	LEADERS	Auxiliary - 
+601	LEADERS	Select Air Defense
+602	LEADERS	Select Air Defense
+603	LEADERS	Select Anti-tank
+604	LEADERS	Select Artillery
+605	LEADERS	Select Infantry
+606	LEADERS	Select Recon
+607	LEADERS	Select Tank
+608	LEADERS	Select Helicopter
+609	LEADERS	Select Level Bomber - 
+610	LEADERS	Select Tactical Bomber
+611	LEADERS	Select Bomber
+612	LEADERS	Select Fighter
+613	LEADERS	Select Submarine
+614	LEADERS	Select Destroyer
+615	LEADERS	Select Gun Cruiser
+616	LEADERS	Select Missile Cruiser
+617	LEADERS	Select Aegis Cruiser
+618	LEADERS	Select Fortification
+619	LEADERS	Select Command & Support
+620	LEADERS	Select Ground Transport
+621	LEADERS	Select Air Transport
+622	LEADERS	Select Naval Transport
+623	LEADERS	Select Battleship
+624	LEADERS	Select Carrier
+625	LEADERS	Next Purchase Screen
+626	LEADERS	Previous Purchase Screen
+627	LEADERS	Ignore Entrenchments
+628	LEADERS	Bridging Engineers
+629	LEADERS	Paratroop
+630	LEADERS	Deployment HQ
+631	LEADERS	River Assault
+632	LEADERS	Infilitrator
+633	LEADERS	Destroys Entrenchments
+634	LEADERS	Entrenches Quickly
+635	LEADERS	Supply Truck
+636	LEADERS	Unknown Special Equipment
+637	LEADERS	Multiple Counter-Battery
+638	LEADERS	ASW
+639	LEADERS	Carrier Aircraft
+640	LEADERS	Recon Movement
+641	LEADERS	Unused Special Equipment 2
+642	LEADERS	Unused Special Equipment 3
+643	---------	---------
+644	---------	Test -- Line 644 (offset 643 = $0283)
+645	---------	Test -- Line 645 (offset 644 = $0284)
+646	---------	Test -- Line 646 (offset 645 = $0285)
+647	---------	Test -- Line 647 (offset 646 = $0286)
+648	---------	---------
+649	---------	lines below this are not referenced
+650	---------	maximum GUI length = 1000 lines
+651	---------	GUI030 -- GUI97 for PEOPLES.EXE version 3.0 or higher
+652	---------	file date:  3:00 PM Tuesday, June 27, 2006
+653	---------	total lines = 653

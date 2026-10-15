@@ -1,0 +1,22 @@
+﻿src	dst	note
+CLEAR	空地	官方 HUD 用「开阔地」，已交付 .xscn 主流「空地」(63票)；沿用交付件口径避免返工
+SAND	沙漠	官方 [terrain] 表
+Fortress	要塞	官方 [terrain] 表
+Fort	要塞	3票多数，堡垒为少数
+Stronghold	据点	据点(2) vs 要塞(1)
+Strongpoint	支撑点	军事术语「支撑点」；据点(2) 平票
+Town	城镇	城镇(2) vs 镇(1)
+Bridge	桥	桥(2) vs 桥梁(1)
+Bunker	碉堡	碉堡(2) vs 地堡(1)
+Blocao	碉堡	西语 blocao=碉堡；布洛克奥为音译
+Artillery Bunker	炮兵碉堡	炮兵碉堡(2) vs 炮兵地堡(1)
+Republican Spain	西班牙共和军	GCE 裁定；与 Nationalist Spain→西班牙国民军 对偶
+Alambradas	铁丝网	POLICY §四 明文；阿兰布拉达斯为音译误
+Carro Leggero	轻型坦克	意语「轻型坦克」；轻型马车误
+Carro Pesato	重型坦克	意语「重型坦克」；重型马车误
+Carabineros	边防警察	西语边防/海关警察；卡宾枪骑兵为 carbine 假朋友误译
+Dragoni	龙骑兵	意语 dragoni=龙骑兵；德拉戈尼为音译
+Genierie	工兵	法语 génie=工兵；杰涅里耶为音译(且为多数票，需钉死)
+Partizany	游击队	俄/波语 partizany=游击队；帕尔蒂扎尼为音译(多数票)
+Van	凡城	一战奥属亚美尼亚凡城；厢式货车为误
+Naka	那珂	旧日本海军轻巡洋舰那珂号；「中」为误

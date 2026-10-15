@@ -1,0 +1,43 @@
+========================================================================================================
+部署后核验（游戏目录 / 成品 / 原版 三方 sha 对齐）
+========================================================================================================
+
+[efile]
+  Germany 46.exe           ✅  当前=681fedf45018 成品=681fedf45018 原版=aa9b150b78e1 备份文件=aa9b150b78e1  [Germany 46.exe.orig-backup]
+  Germany DAK.exe          ✅  当前=84fb401a48b5 成品=84fb401a48b5 原版=0fddf8e82606 备份文件=0fddf8e82606  [Germany DAK.exe.orig-backup]
+  Germany East.exe         ✅  当前=cae8021cd899 成品=cae8021cd899 原版=6d9edf6ebb90 备份文件=6d9edf6ebb90  [Germany East.exe.orig-backup]
+  Germany West.exe         ✅  当前=87c27286090f 成品=87c27286090f 原版=c1bde858dcd8 备份文件=c1bde858dcd8  [Germany West.exe.orig-backup]
+  Great Britain 46.exe     ✅  当前=3a788d59d46f 成品=3a788d59d46f 原版=c302f0f6827e 备份文件=c302f0f6827e  [Great Britain 46.exe.orig-backup]
+  Great Britain.exe        ✅  当前=f26b4957d251 成品=f26b4957d251 原版=f55c861d83b2 备份文件=f55c861d83b2  [Great Britain.exe.orig-backup]
+  SS Germany East.exe      ✅  当前=f67cf96d6ab9 成品=f67cf96d6ab9 原版=518824ef619e 备份文件=518824ef619e  [SS Germany East.exe.orig-backup]
+  SS Germany West.exe      ✅  当前=dbf1f4b40b65 成品=dbf1f4b40b65 原版=c4f993160942 备份文件=c4f993160942  [SS Germany West.exe.orig-backup]
+  USA 46.exe               ✅  当前=ae618728e95b 成品=ae618728e95b 原版=c9604844a2f9 备份文件=c9604844a2f9  [USA 46.exe.orig-backup]
+  USA.exe                  ✅  当前=7ac91598e701 成品=7ac91598e701 原版=945e984a6e9a 备份文件=945e984a6e9a  [USA.exe.orig-backup]
+  USSR 46.exe              ✅  当前=6b71e2671de3 成品=6b71e2671de3 原版=28892ba47a4f 备份文件=28892ba47a4f  [USSR 46.exe.orig-backup]
+  USSR.exe                 ✅  当前=5b8db0b2fed6 成品=5b8db0b2fed6 原版=f71b638ce5fc 备份文件=f71b638ce5fc  [USSR.exe.orig-backup]
+
+[文本]
+  WW2Gui.txt               ✅  当前=0c0a25e1c426 成品=0c0a25e1c426 原版=07135c7abae2 备份文件=07135c7abae2  [WW2Gui.txt.orig-backup]
+  WW2Misc.txt              ✅  当前=82d599c6d437 成品=82d599c6d437 原版=56b23db9d7e8 备份文件=56b23db9d7e8  [WW2Misc.txt.orig-backup]
+  WW2NAME.TXT              ✅  当前=73b0cc82c80b 成品=73b0cc82c80b 原版=a7d0ee7865fd 备份文件=a7d0ee7865fd  [WW2NAME.TXT.orig-backup]
+  WW2Tips.TXT              ✅  当前=0e25a585d7ac 成品=0e25a585d7ac 原版=6d2d7aaaa7b2 备份文件=6d2d7aaaa7b2  [WW2Tips.TXT.orig-backup]
+  ww2-eqp.txt              ✅  当前=afb9dd42815a 成品=afb9dd42815a 原版=29e936396890 备份文件=29e936396890  [ww2-eqp.txt.orig-backup]
+
+[试点内容抽查]（游戏目录当前 WW2Gui.txt 的试点行）
+  行40   下一部队         ✅
+  行44   补给           ✅
+  行46   征募部队         ✅
+  行54   结束回合         ✅
+  行61   全屏           ✅
+  行63   退出游戏         ✅
+
+  行数 605（原版 605）
+
+[本批新增抽查]（界面层文件的行数一致性 + 关键行）
+  WW2Misc.txt: 行数 45（原版 45） ✅
+  WW2Tips.TXT: 行数 44（原版 44） ✅
+  提示 行1 = 反坦克单位擅长在 2 格外削弱坦克。
+  杂项 行12(地形) = 要塞 / 行1 = 开阔地
+
+========================================================================================================
+总判定: ✅ 全部对齐，可实机验证

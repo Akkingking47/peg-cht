@@ -1,0 +1,19 @@
+[美视角] 111l.txt
+   I am aware that conditions have been harsh, but you have done poorly!  The only positive result is that you and your troops have gained some experience in this new type of armored warfare.   But, the new Spanish government and our other allies have not yet learned to respect our military capabilities, which we require!   Herr General, do not disappoint us again.
+
+[英/加视角] 116tV.txt
+   You have accomplished your mission, but your lack of speed has allowed the enemy armies to escape.  It is possible that the campaign against the British and French could go on as long as the last war.  Herr General, we will, no doubt, call on you again for your services.
+
+[意视角] 7Pzra718v_i.txt
+   Strock: Herr General, I need you to take some of General Heidrich's units and drive the British off of Cassino. You will also have some Italian units, Good luck.
+
+[波视角] 113.TXT
+   General, you have been assigned the ultimate objective: Your SS PanzerKorps must destroy the remaining Polish forces situated around Warszawa and secure the Polish Capital.  Be aware that if you go too far east you may encounter our new Allies.
+
+[希/南视角] BoB08TV.txt
+   You were lucky 2nd Pz and 10th Pz divisions captured your targets. Vayzma and Gzhatsk are in our hands now. Again 100,000s of Russians are trapped in pockets behind our lines. Partisan activity makes it increasingly difficult to operate from the airfields close to the front (That's why the airfields did not offer resupply). Now it's time to move East. Moscow is the target. Let's hope we have not lost too much time. Intelligence reports Siberian troops have arrived at the front already.
+
+[法视角] 116.TXT
+   Herr General, the invasion of France has begun.  Your force will move swiftly and quietly through the Ardennes and attack the French where they least expect.
+
+[out] pegww2\research\_scn-sample-nations.tsv

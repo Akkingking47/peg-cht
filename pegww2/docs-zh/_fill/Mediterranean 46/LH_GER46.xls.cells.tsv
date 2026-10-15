@@ -1,0 +1,72 @@
+# Mediterranean 46\LH_GER46.xls · 译文填写表：只改第五列（译文）
+工作表	行	列	原文	译文
+Mediterranean 46 campaign	1	2	Mediterranean 46	地中海 46
+Mediterranean 46 campaign	3	2	Scenario	场景
+Mediterranean 46 campaign	3	3	Map	地图
+Mediterranean 46 campaign	3	4	Map #	地图#
+Mediterranean 46 campaign	3	5	BV	辉煌胜利
+Mediterranean 46 campaign	3	7	TV	战术胜利
+Mediterranean 46 campaign	3	8	Loss	失败
+Mediterranean 46 campaign	4	2	Italian Campaign Conclusion - Messina	意大利战役终局 - 墨西拿
+Mediterranean 46 campaign	4	3	LH_Messina	
+Mediterranean 46 campaign	5	2	Operation Herkules II	海格力斯行动 II
+Mediterranean 46 campaign	5	3	Malta	马耳他
+Mediterranean 46 campaign	5	8	Loss	失败
+Mediterranean 46 campaign	6	2	Operation Fackel	火炬行动
+Mediterranean 46 campaign	6	3	Algiers	阿尔及尔
+Mediterranean 46 campaign	6	8	Loss	失败
+Mediterranean 46 campaign	7	2	Taking the Bridgehead	夺取桥头堡
+Mediterranean 46 campaign	7	3	Tunis	突尼斯
+Mediterranean 46 campaign	7	8	Loss	失败
+Mediterranean 46 campaign	8	2	Operation Capri	卡普里行动
+Mediterranean 46 campaign	8	3	Medenine	梅德宁
+Mediterranean 46 campaign	8	8	Loss	失败
+Mediterranean 46 campaign	9	2	Unternehmen Sonnenblume II	向日葵行动 II
+Mediterranean 46 campaign	9	3	Tripoli	的黎波里
+Mediterranean 46 campaign	9	8	Loss	失败
+Mediterranean 46 campaign	10	2	Third Battle of Sirte	第三次苏尔特之战
+Mediterranean 46 campaign	10	3	Agedabia	阿杰达比亚
+Mediterranean 46 campaign	10	8	Loss	失败
+Mediterranean 46 campaign	11	2	Battle of Sidi Rezegi	西迪雷泽格之战
+Mediterranean 46 campaign	11	3	Tobruk	托布鲁克
+Mediterranean 46 campaign	11	8	Loss	失败
+Mediterranean 46 campaign	12	2	Operation Crusader	十字军行动
+Mediterranean 46 campaign	12	3	Barrani	
+Mediterranean 46 campaign	12	8	Loss	失败
+Mediterranean 46 campaign	13	2	Battle of Mersa Matruh II	第二次马特鲁港之战
+Mediterranean 46 campaign	13	3	Matruh	
+Mediterranean 46 campaign	13	8	Loss	失败
+Mediterranean 46 campaign	14	2	Battle of Rafa	拉法之战
+Mediterranean 46 campaign	14	3	Rafa	拉法
+Mediterranean 46 campaign	14	8	Loss	失败
+Mediterranean 46 campaign	15	2	Shelling of Tel Aviv	特拉维夫炮击
+Mediterranean 46 campaign	15	3	Telaviv	
+Mediterranean 46 campaign	15	8	Loss	失败
+Mediterranean 46 campaign	16	2	Shelling of Lebanon	黎巴嫩炮击
+Mediterranean 46 campaign	16	3	Lebanon	
+Mediterranean 46 campaign	16	8	Loss	失败
+Mediterranean 46 campaign	17	2	Gallipoli	加里波利
+Mediterranean 46 campaign	17	3	Helles	
+Mediterranean 46 campaign	17	8	Loss	失败
+Mediterranean 46 campaign	18	2	Gallipoli Part 2	加里波利 第2部分
+Mediterranean 46 campaign	18	3	Ariburnu	
+Mediterranean 46 campaign	18	8	Loss	失败
+Mediterranean 46 campaign	19	2	Battle of Greece	希腊之战
+Mediterranean 46 campaign	19	3	Korinth	
+Mediterranean 46 campaign	19	8	Loss	失败
+Mediterranean 46 campaign	20	2	Battle of Crete	克里特岛之战
+Mediterranean 46 campaign	20	3	Kreta2	
+Mediterranean 46 campaign	20	8	Loss	失败
+Mediterranean 46 campaign	21	2	Gibraltar	直布罗陀
+Mediterranean 46 campaign	21	3	Gibraltar+	
+Mediterranean 46 campaign	21	5	Win	胜利
+Mediterranean 46 campaign	21	6	Win	胜利
+Mediterranean 46 campaign	21	7	Loss	失败
+Mediterranean 46 campaign	21	8	Loss	失败
+Mediterranean 46 campaign	23	3	Legend	图例
+Mediterranean 46 campaign	23	6	Normal Path	正常路径
+Mediterranean 46 campaign	24	6	Alternate scenarios 1	备选场景 1
+Mediterranean 46 campaign	25	6	Choice scenarios	可选场景
+Mediterranean 46 campaign	26	6	Modified map	改造地图
+Mediterranean 46 campaign	28	3	*.MAP files must be installed in Scenario (or Scenpac/Scenkor/Scennap/Scenacw) directory	*.MAP 文件必须装入 Scenario（或 Scenpac/Scenkor/Scennap/Scenacw）目录
+Mediterranean 46 campaign	29	3	*.S16 files must be installed in Map directory	*.S16 文件必须装入 Map 目录

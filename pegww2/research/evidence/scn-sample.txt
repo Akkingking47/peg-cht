@@ -1,0 +1,71 @@
+样本 23 条 → pegww2\research\_scn-sample.tsv
+
+[txt 场景简报] 110.txt
+   Your task is to lead your "all volunteer" SS Panzer Divisions south and capture the approaches to Barcelona.  The Republicans have an enormous force in place to prevent this, destroy them and any others that get in your way.
+
+[txt 场景简报] 110bv.TXT
+   Outstanding work, General.  You have displayed superior tactics and abilities.  I will recommend a promotion to your superiors.  Keep up the good work and advance to the battlefield at Spanish Pass.
+
+[txt 场景简报] 111bv.TXT
+   Outstanding work, General.  You have continued to display superior skill.  We will not be having much of a problem with the remaining Republicans.  Good luck on your next assignment.
+
+[txt 场景简报] 111l.txt
+   I am aware that conditions have been harsh, but you have done poorly!  The only positive result is that you and your troops have gained some experience in this new type of armored warfare.   But, the new Spanish government and our other allies have not yet learned to respect our military capabilities, which we require!   Herr General, do not disappoint us again.
+
+[i 战役内简报] 7Pzra7147_i.txt
+   Herr General, we have underestimated the Bolsheviks' powers of resistance. They have crossed the Don and completely encircled Sixth Army. You must drive on Kletskaya and Serafimov to reestablish contact. We will never, never surrender to the Red Army, but in order for us to hold our position, you must prevail. Good Luck.
+
+[i 战役内简报] 7Pzragc7d_i.txt
+   Strock: Herr Feld-Marschall, the Soviets threaten Berlin. Zhukov is about to break the Oder Front and Konev has already broken the 3rd Panzer army lines in the South. You are the only one who can stop them !!! You are in the direct path of Konev. Feld Marschall Rommel came out of retirement to raise a Panzer Corps to slow down Zhukov.  He will try to buy some time for you. You should defeat Konev first and then Zhukov.
+
+[i 战役内简报] 7Pzrb7107_i.txt
+   Herr General, we have an excellent opportunity to deliver a crushing blow to the enemy, here, north of Strasbourg. As you can see, the advance of the American Third Army has left this sector of their front inadequately defended. If you can knife through to Strasbourg, the Americans and British will be forced to halt their drive on the Fatherland. Good luck!
+
+[bv 大胜评述] lah_it_01_bv.txt
+   On the first day of the campaign the Leibstandarte had achieved almost all its objectives.  By the evening of the 1st, the bulk of the Regiment was across the river and ready to advance on Wieuroszov, where it would link up with the 17th Infantry Division.  This was accomplished, and in the early hours of the next morning, the Leibstandarte advanced towards Burzenin, where it received orders to cross the Warta River.
+
+[bv 大胜评述] lah_it_02_bv.txt
+   With the route to Warsaw now wide open, the 10th Army turned its axis of advance north and advanced toward the capital from the south-west, while the 4th Army closed from the north.  Guderian's armoured corps linked up with von Kleist's armoured corps at Brest-Litovsk on the 14th, effectively cutting off any potential escape route.
+
+[log 评述] Err_BoB_BoB04.LOG
+   Good job Commander. Although Greece has fallen, those submarines have been destroyed and Allied shipping is safe.
+
+[tx 评述] RA_redalert_11bv.tx
+   Comrade General you have resisted all German attacks! The city is solidly in our hands. We can look with confidence into the future!
+
+[m 地图格名] 7Pzra7147_m.txt
+   Kalatsch (#1)
+
+[m 地图格名] 7Pzragc7d_m.txt
+   The Battle for Berlin (#7d10)
+
+[m 地图格名] 7Pzrb7107_m.txt
+   Battle of the Bulge (7d#9)
+
+[m 地图格名] ANTISAL_m.txt
+   Invasion Salerno PeG:WW2
+
+[m 地图格名] ARRACTUK_m.txt
+   Arracourt PeG:WW2
+
+[m 地图格名] ATM_scn01_m.txt
+   Operation Torch - The Landing
+
+[u 部队名] 7Pzra7147_u.txt
+   Kalatsch (#1)
+
+[u 部队名] 7Pzragc7d_u.txt
+   The Battle for Berlin (#7d10)
+
+[u 部队名] 7Pzrb7107_u.txt
+   Battle of the Bulge (7d#9)
+
+[u 部队名] ANTISAL_u.txt
+   Invasion Salerno
+
+[u 部队名] ARRACTUK_u.txt
+   Welcome to Barcelona, General.
+
+[u 部队名] AS_u.txt
+   Don River
+

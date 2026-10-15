@@ -1,0 +1,251 @@
+# Boot of Death\PeG-WW2 IT Campaign Install.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+2650	The Boot of death	死亡之靴
+2652	campaign 1.0 (03/21/2005)	战役 1.0 (03/21/2005)
+2658	Robert Mary	Robert Mary
+2690	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+2708	This is the PeG-WW2 conversion of the	这是 PeG-WW2 移植版，原作为
+2710	The Boot of death	死亡之靴
+2712	campaign originally designed for PG2 by Pablo Schelgel.	战役，最初由 Pablo Schelgel 为 PG2 设计。
+2719	The Boot of death campaign is a defensive German campaign facing the gradual invasion of Italy by Allied overwhelming forces.	死亡之靴战役是一个德军防御战役，面对盟军压倒性兵力对意大利的逐步入侵。
+2726	The original campaign stands here on the Latin General	原版战役见 Latin General
+2728	s website:	网站：
+2761	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+2779	A. How to install ?	A. 如何安装？
+2793	This package contains :	本安装包包含：
+2824	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	场景和战役文件（*.scen、*.txt、*.cam）：把
+2832	IT_v1.zip	IT_v1.zip
+2838	in the SCENARIO directory of PeG-WW2.	中的全部文件解压到 PeG-WW2 的 SCENARIO 目录。
+2876	Original campaign for PG2 design notes of P. Schlegel are included in the	PG2 原版战役的 P. Schlegel 设计笔记收录在
+2883	Readme.zip	Readme.zip
+2900	The Readme.zip also includes my	Readme.zip 中还包含我的
+2906	Excel file	Excel 文件
+2918	IT.xls	IT.xls
+2924	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	）其中展示战役流程、地图编号、所用地图名称以及备选战役路线。
+2971	The maps	地图
+2990	3.1 MAP files	3.1 MAP 文件
+3002	*.map files are included in the	*.map 文件收录在
+3009	Maps.zip	Maps.zip
+3015	, place them in the SCENARIO directory of PeG-WW2	中，把它们放进 PeG-WW2 的 SCENARIO 目录
+3019	The Excel file	Excel 文件
+3026	IT.xls	IT.xls
+3032	shows the campaign path as well as the precise	展示战役路线以及每个场景精确的
+3038	map references	地图引用
+3043	(map number) for each scenario. This allows the player to identify the needed extra maps (SHP files).	（地图编号）。这能让玩家确定所需的额外地图（SHP 文件）。
+3065	PG2 maps (in SHP format) can be found on builder	PG2 地图（SHP 格式）可在 builder
+3067	s paradise website :	s paradise 网站找到：
+3106	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+3115	Or on Panzer General2.com website:	或在 Panzer General2.com 网站：
+3148	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+3158	Or on Steve Brown	或在 Steve Brown
+3160	s website:	的网站：
+3191	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	http://www.wargamer.com/pg2campaigns/steve/pg2.htm
+3205	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 地图文件可用转换工具（从 SHP 格式转为 S16 格式），工具在我自己的网站：
+3238	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+3247	in the campaign page (	在战役页面（
+3253	Luis	Luis
+3264	Map converter	地图转换器
+3269	(107Kb), or directly within Luis	（107Kb），或直接在 Luis
+3271	PeG editor (	的 PeG 编辑器（
+3277	PeG Suite 3.16	PeG Suite 3.16
+3295	3.2. S16 files	3.2. S16 文件
+3307	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	转换后的地图（*.S16 格式）要放进 PeG-WW2 的 MAP 目录。
+3311	A special attention for	特别注意
+3317	map nr. 559	地图 559 号
+3347	This map is	这张地图
+3353	not used	并不
+3358	in The Boot of death campaign.	在死亡之靴战役中使用。
+3367	Eurormy.map	Eurormy.map
+3369	: this is the same map as map nr 346	：它与地图 346 号相同
+3371	Euro.map	Euro.map
+3373	but with terrain properties and mapnames.	但地形属性和地图名称不同。
+3375	You can find it with all *.SHP files on	你可以在以下地方连同所有 *.SHP 文件找到它：
+3377	a) Robert Mary	a) Robert Mary
+3379	s website:	的网站：
+3412	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+3429	b) Steve Brown	b) Steve Brown
+3431	s website:	的网站：
+3465	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	http://www.wargamer.com/pg2campaigns/steve/pg2.htm
+3482	In case of problem (this is highly improbable since the map is now posted on various websites) remember that *.SHP files used are exactly the same as those used for map nr 346.	如果出现问题（这极不可能，因为该地图现已发布在多个网站上），请记住所用的 *.SHP 文件与地图 346 号所用的完全相同。
+3505	3.3 Movie files	3.3 影片文件
+3511	(this is	（这
+3518	not	不是
+3524	a mandatory step)	必须的步骤）
+3552	Pablo Schelgel use SMACK files, these are those I	Pablo Schelgel 用的是 SMACK 文件，以下是我
+3554	m using:	所用的：
+3603	NewGMWin.smk	NewGMWin.smk
+3659	Medalgem.smk	Medalgem.smk
+3678	Gerloss.smk	Gerloss.smk
+3697	Sicily2.smk	Sicily2.smk
+3717	18.smk	18.smk
+3736	BDI25.smk	BDI25.smk
+3756	Anzio.smk	Anzio.smk
+3812	BDI27.smk	BDI27.smk
+3850	I have converted each file into AVI format.	我已把每个文件都转换成了 AVI 格式。
+3860	You can just send me an e-mail to get them (each file makes 6 MB)	你只要给我发一封电子邮件就能拿到它们（每个文件 6 MB）
+3862	Movie files must be located in the CINE directory of PeG-WW2.	影片文件必须放在 PeG-WW2 的 CINE 目录中。
+3864	All SMK files are coming from Adlerkorps website:	所有 SMK 文件都来自 Adlerkorps 网站：
+3896	http://www.medio.mh.se/%7	http://www.medio.mh.se/%7
+3910	vonadler/pg2/	vonadler/pg2/
+3919	You will find on my webpage instructions to convert SMK files into AVI format:	在我的网页上你可以找到把 SMK 文件转换成 AVI 格式的说明：
+3952	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm
+3974	B. Using the modgen.dat and the equipment file	B. 使用 modgen.dat 和装备文件
+4027	The equipment file:	装备文件：
+4066	My European eqpt file version 1.02 is	我的欧洲装备文件 1.02 版是
+4072	mandatory	必需的
+4116	The equipment file is available at my own website :	装备文件可在我的网站获取：
+4148	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+4175	Unzip "	把「
+4181	RMY_PeG-WW2_Eqpt_file.zip	RMY_PeG-WW2_Eqpt_file.zip
+4186	" in the Main directory of PeG-WW2.	」解压到 PeG-WW2 的主目录。
+4225	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	我的装备文件与 Mark Kirby 的装备文件结构相同（
+4231	Mark	Mark
+4233	s units are unchanged	的单位未改动
+4238	excepted icons). I only added new units.	，图标除外）。我只添加了新单位。
+4242	My equipment file is intended for use with Redball	我的装备文件供配合 Redball
+4244	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	的 PeG-WW2 2.7 安装包使用，因此文件名已重命名，下载后可直接使用（Equip97.txt 改为
+4250	WW2-eqp.txt	WW2-eqp.txt
+4255	, Equip97.eqp became	，Equip97.eqp 改为
+4262	WW2-eqp.eqp	WW2-eqp.eqp
+4292	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	我的各版本装备文件始终向后兼容，也就是说我最新的装备文件可用于我之前从 PG2 移植的全部战役。
+4389	The modgen.dat (intentionally	modgen.dat（有意
+4395	not	未
+4400	included in order to save space)	收录，以节省空间）
+4439	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (13 MB compressed in a 5,5 MB zip file), if you wish it	我的 modgen.dat 只限于 Mark 和我使用的图标，以减小文件体积（13 MB 压缩成 5,5 MB 的 zip 文件），如果你愿意，
+4441	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 70 MB).	也可以把现有全部图标做成一个巨大的 modgen.dat（至少超过 70 MB）。
+4480	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	我的 modgen.dat 是必需的（以确保你有我使用的图标），除非你使用包含 Mark 和我所用全部图标的巨大 modgen。
+4484	You can	你可以
+4490	download	下载
+4495	the file at :	该文件，地址：
+4527	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+4536	Unzip "	把「
+4542	RMY_PeG-WW2_MODGEN.zip	RMY_PeG-WW2_MODGEN.zip
+4547	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	」解压到 PeG-WW2 的主目录。这个 modgen——有意改名为 WW2GEN.dat——可用于 Redball
+4549	s PeG-WW2 2.7 package.	的 PeG-WW2 2.7 安装包。
+4551	All required S16 files contained in Redball	Redball
+4553	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	升级包中所需的全部 S16 文件都已包含在 WW2GEN.dat 中，可直接使用。
+4618	Peoples.exe file	Peoples.exe 文件
+4640	Please use the Redball	请使用可在此下载的 Redball
+4642	s PeG-WW2 2.7 package downloadable here:	的 PeG-WW2 2.7 安装包：
+4668	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+4675	This file contains the most advanced game improvements for PeG-WW2 (see Redball	该文件包含 PeG-WW2 最先进的游戏改进（见 Redball
+4677	s readme file included in PeG-WW2 2.7 package).	的说明文件，包含在 PeG-WW2 2.7 安装包中）。
+4703	C. Comments	C. 评论
+4748	Originality of this campaign	本战役的特色
+4806	Being mostly a defensive campaign the player has to protect the VH	由于主要是防御战役，玩家必须保护
+4808	s he owns at the beginning of the scenario and to resist to enemy overwhelming forces until the very last turn.	自己在场景开始时拥有的胜利格，并抵御敌军压倒性的兵力直到最后一个回合。
+4856	Losing any VH you own at the beginning of a scenario means its immediate loss.	失去任何一个在场景开始时拥有的胜利格，都意味着立即失败。
+4904	The key of success is the ability to sacrifice specific units at the most suitable moment (tip: sacrifice AUX units in order to save your CORE forces).	成功的关键是能在最合适的时刻牺牲特定单位（提示：牺牲辅助单位以保全你的核心部队）。
+4952	Pablo used the	Pablo 用了
+4954	hidden VH	隐藏胜利格
+4956	trick meaning that the player discovers his objectives (VH) only at the very last turn of some scenarios. You don	这一招，也就是说玩家在某些场景的最后一个回合才会发现自己的目标（胜利格）。你
+4958	t have much time to locate precisely your obj ective so save your scenario at this moment before moving your units.	没有多少时间精确确定目标位置，所以此时在移动单位之前先保存场景。
+4999	Minor changes brought to P. Schelgel	对 P. Schelgel
+5001	s campaign	战役所做的小改动
+5042	In PG2 VH	在 PG2 中，胜利格
+5044	s may be restricted to one side only, this is not the case in PeG-WW2 (any VH is an objective for both human player and AI), as a result I removed in PeG-WW2 all VH	可能只对一方有效，PeG-WW2 不是这样（任何胜利格都是人类玩家和 AI 双方的目标），因此我在 PeG-WW2 中移除了所有
+5046	s which were valid only for the AI in PG2. I kept in PeG-WW2 all VH	在 PG2 中只对 AI 有效的胜利格。我保留了 PeG-WW2 中所有
+5048	s valid for both players in PG2 as well as those solely valid for the human player in PG2.	在 PG2 中对双方都有效的胜利格，以及那些只对人类玩家有效的胜利格。
+5066	In some cases I removed a few VH	在某些情况下，我移除了一些
+5068	s valid for both players in order to prevent a too soon AI	对双方都有效的胜利格，以防止 AI 过早
+5070	s victory in the scenario, this allows the player to play in PeG-WW2 the normal duration of the scenario (foreseen originally in PG2).	取得场景胜利，这样玩家就能在 PeG-WW2 中玩到场景的正常时长（原本在 PG2 中预设的）。
+5088	I changed the spelling of some introduction text files (English wording too) and corrected some city names (thanks to MS Encarta).	我修改了一些介绍文本文件的拼写（英文措辞也改了），并更正了一些城市名称（感谢 MS Encarta）。
+5106	Most of the time, due to specific PeG game rules (no embark mode for ground transport) scenarios can be won earlier than in PG2. As a result, most of the time I reduce scenario length (number of turns to get a B V, V or TV) and I adapt the turn at which reinforcement units have to appear (they appeare earlier than in PG2). But this time I kept original PG2 victory conditions settings (number of turns) because	多数情况下，由于 PeG 特有的游戏规则（地面运输没有登船模式），场景会比 PG2 更早打赢。因此我多数时候会缩短场景长度（获得辉煌胜利、胜利或战术胜利所需的回合数），并调整补充单位出现的回合（它们比 PG2 出现得更早）。但这一次我保留了 PG2 原有的胜利条件设置（回合数），因为
+5108	The Boot of death	死亡之靴
+5110	is a defensive campaign and the dif ficulty is precisely to avoid the scenario loss until the very last turn. This means that the PeG-WW2 version of this campaign might be more difficult to play than the original PG2 version since the AI will reach your defensive positions much sooner. Good luck!	是一个防御战役，难点正在于要撑到最后一个回合才不至于场景失败。这意味着本战役的 PeG-WW2 版可能比 PG2 原版更难打，因为 AI 会更快抵达你的防御阵地。祝你好运！
+5128	I respected the prestige allocation designed by PG2 authors: this means that sometimes no prestige points are granted between scenario, this shows the logictics constraints of the Wehrmacht to carry out The Boot of death campaign. Since the way to ha ndle prestige is different in PG2 and in PeG I added some trigger hexes to allow the player to gather only a few prestige points he must spend before the end of a scenario. This will allow the player to purchase a new unit to replace a killed unit (if the re	我尊重 PG2 作者设计的威望分配：也就是说有时场景之间不会给威望点，这体现了国防军实施死亡之靴战役的后勤限制。由于 PG2 和 PeG 处理威望的方式不同，我加了一些触发格，让玩家只能攒到少量威望点，而且必须在场景结束前花掉。这样玩家就能购买新单位来替换被消灭的单位（如果
+5130	s a supply hex nearby, if not I strongly suggest to purchase a mobile HQ unit).	附近有补给格；如果没有，我强烈建议购买一个机动指挥部单位）。
+5148	I made a change in the campaign path in order to allow the player to play scenario nr 18.	我改动了战役路线，让玩家能玩到第 18 号场景。
+5154	BV, V or even TV	辉煌胜利、胜利甚至战术胜利
+5160	(leading to scen nr 18)	（通向第 18 号场景）
+5167	seems impossible	似乎无法达成，
+5173	when playing	因为在 PeG-WW2 中玩
+5179	scen nr 17 in PeG-WW2.	第 17 号场景时。
+5185	As a result ccen nr 18	因此第 18 号场景
+5187	Fourth Battle for Cassino	第四次卡西诺(Cassino)之战
+5189	is now playable even after a loss of scenario nr 17	现在即使在第 17 号场景失败后也可游玩
+5191	Anzio Beachhead: German Offensive Part 2	安齐奥滩头(Anzio Beachhead)：德军攻势第 2 部分
+5193	. I adapted txt files for scen nr 17 loss and introduction message of scen nr 18.	。我调整了第 17 号场景失败的 txt 文件和第 18 号场景的介绍信息。
+5234	Playing tips	游玩提示
+5275	You have enough AUX units to win, just purchase a few infantry (preferably	你有足够的辅助单位可以取胜，只需购买几个步兵（最好是
+5283	sturmpionere	sturmpionere
+5289	to destroy bunker arty units) or if you have enough prestige arty units	用来消灭堡垒炮兵单位），或者如果你有足够的威望，就买炮兵单位
+5321	Don	别
+5323	t forget arty units with good naval attack factor during scenarios with strong Allied presence.	别忘了在对盟军存在感很强的场景中带上对舰攻击值好的炮兵单位。
+5331	(including	（包括
+5338	88mm ARTY	88mm ARTY
+5344	in order to d estroy bunkers) and you should win. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).	用来摧毁堡垒），你就能取胜。愿意的话可以提高难度设置（在开始战役前调整玩家威望百分比）。
+5362	D&S units:	部署与补给单位：
+5394	Deploy & Supply units behave like mobile supply hexes (they include the combat support	部署与补给单位的作用类似移动补给格（它们包含战斗支援
+5424	These units speed up rearming other units an d act like supply hexes (i.e., units can be deployed in their adjacent hexes).	这些单位能加快其他单位的重新武装，作用类似补给格（即单位可以在其相邻格部署）。
+5432	special equipment (HQ icon)).	特种装备（指挥部图标））。
+5436	They can provide deployment of any ground and air unit. D&S units allow to re-supply and give replacements to a unit even after it has moved as long as the unit ends up within 2 hexes of the D&S unit. They allow the unit to retreat and re-supply on the same turn. This unit on the German side is named	它们可以为任何地面和空中单位提供部署。部署与补给单位允许在单位移动后仍为其提供补给和补充兵员，只要该单位最终停在部署与补给单位 2 格之内。它们还允许单位在同一回合撤退并补给。德军方面的这个单位名为
+5438	Mobil HQ Armee	Mobil HQ Armee（盟军方面为
+5442	Mobile HQ Army	Mobile HQ Army
+5444	for allied side). You can also use them to deploy units when the number of supply hexes at the begin of a scenario is too short to deploy your whole core forces. You can also use them to deploy any of your unit at anytime during game play (and not only at the beginning of the scenario	）。当场景开始时的补给格数量太少、无法部署你的全部核心部队时，你也可以用它们部署单位。你还可以在游戏过程中随时用它们部署你的任何单位（而不只是在场景开始时
+5473	Thanks to Trigger hexes you can gain prestige during any scenario, this allows the purchase of new units deployable at anytime and anywhere via the D&S units.	借助触发格，你可以在任何场景中获得威望，从而购买新单位，并通过部署与补给单位在任何时间、任何地点部署。
+5506	In my e-file I also gave to	在我的装备文件里，我还给
+5511	ground	地面
+5515	D&S units 2 special equipments: bridging	部署与补给单位加了 2 种特种装备：架桥
+5544	The Special	特种
+5546	bridging Equipment	架桥装备
+5548	allows you to cross over a river as	让你可以把河流当作
+5550	rough terrain	崎岖地形
+5552	and it also allows you to place the unit on a river hex and the rest of your forces may cross over while this unit is in place	来跨越，它还允许你把该单位放在河流格上，只要该单位在位，你其余的部队就能通过
+5558	and river assault	以及渡河突击。
+5587	River assault unit can attack while on a river. By default no unit can attack from a river hex unless they have this feature or the bridging attachment.	渡河突击单位可以在河流上攻击。默认情况下，没有单位能从河流格发起攻击，除非它们有这一特性或架桥附件，
+5593	like infantry engineers.	比如步兵工兵。
+5629	Playing tip to deploy airborne units	部署空降单位的游玩提示
+5638	not applicable in this campaign	本战役不适用
+5695	Air Deploy units are used to deploy paratroops when they don	空中部署单位用于部署伞兵，当它们
+5697	t start from any airfield but	不从任何机场起飞，而是
+5699	on air	在空中
+5747	You have to move your air transport units where you want (and hope that AI has no AD units close), then where and when you want (you don't have to use your paratroops at the very 1st turn, you can wait) you deploy the paratroops (play by the rule, don't deploy other unit types). Please play by the rule and don	你必须把空中运输单位移动到你想要的位置（并希望 AI 附近没有防空单位），然后在你想要的地点和时间（你不必在第 1 个回合就使用伞兵，可以等）部署伞兵（按规则玩，不要部署其他类型的单位）。请按规则玩，不要
+5749	t deploy any other units as paratroops.	把任何其他单位当作伞兵部署。
+5779	Playing tip to deploy your troops from the Ocean	从海上部署部队的游玩提示
+5788	not applicable in this campaign	本战役不适用
+5814	FDU's (Floating Deployment units) can be placed on any ocean hex but must be adjacent to a land hex in order to deploy ground units. The entire core units ca n be deployed from 1 FDU (ship) by deploying one or more units, exiting the deployment screen, moving these units, and repeating as necessary. FDU	漂浮部署单位(FDU)可以放在任何海洋格上，但必须与陆地格相邻才能部署地面单位。全部核心单位都可以从 1 个 FDU（舰船）部署：部署一个或多个单位，退出部署界面，移动这些单位，然后按需重复。FDU
+5816	s are	在我的装备文件中是
+5818	Sea transports	海上运输、
+5822	Mine layers	布雷舰
+5824	and	和
+5826	Carriers	航空母舰
+5828	in my e-file.	。
+5881	The Mine layer boat (as well as carriers and sea transports -all are FDU	布雷舰船（以及航空母舰和海上运输——全都是 FDU
+5883	s-) can be used to deploy sea mines (not applicable in this campaign):	）可用来布设水雷（本战役不适用）：
+5931	after deployment of ground units exit the deployment screen,	部署地面单位后退出部署界面，
+5979	select a ship then click on the "deploy forces" button,	选择一艘船，然后点击 "deploy forces"（部署部队）按钮，
+6027	only then you can deploy sea mines wherever you move the ship at any game turn.	只有这样，你才能在游戏的任何回合在船移动到的任何位置布设水雷。
+6064	Role of D&S units and FDU	部署与补给单位和 FDU
+6066	s is also explained in small scenario introduction txt files when needed (	的作用在需要时也会在场景的小型介绍 txt 文件中说明（
+6071	not applicable in this campaign	本战役不适用
+6102	You can transport units by ship from ports to ports (conquest of unoccupied ports is therefore possible but this costs air mission points):	你可以用船在港口之间运输单位（因此可以攻占无人占领的港口，但这会消耗空中任务点数）：
+6156	Select a unit, click on strategic transport button (on the lower left), this works only with	选中一个单位，点击战略运输按钮（在左下方），这只对
+6158	sealiftable	可海运
+6160	units (the mention	单位有效（
+6162	sealifatble	sealifatble
+6164	appears on the top left of the unit screen).	字样出现在单位界面左上角）。
+6212	Move th e unit from any PORT hex to any unoccupied or friendly PORT hex.	把单位从任何 PORT 格移动到任何无人占领或己方的 PORT 格。
+6265	From the destination PORT hex you can still move normally infantry units, whereas other unit types cannot move anymore during the same turn.	从目的地 PORT 格出发，步兵单位仍可正常移动，而其他类型的单位在同一回合内不能再移动。
+6312	Playing tip to use sea planes	使用水上飞机的游玩提示
+6320	not applicable in this campaign	本战役不适用
+6338	Aircrafts belonging to the fighter class (e.g. the italian naval carrier based aircraft Re 2001) can be repaired and resupplied on its carrier and on any Axis ground airfield.	属于战斗机类别的飞机（例如意大利海军舰载机 Re 2001）可以在其航母上以及任何轴心国地面机场修理和补给。
+6383	Campaign path	战役路线
+6395	See details in the Excel file	详见 Excel 文件
+6404	IT.xls	IT.xls
+6468	Your comments	你的评论
+6480	All comments good or bad are welcome at	欢迎把任何评论（无论好坏）发到
+6513	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+6523	Feel free to join us on People	欢迎加入 People
+6525	s General forum at:	s General 论坛：
+6560	http://pub131.ezboard.com/fjpspanzersfrm10	http://pub131.ezboard.com/fjpspanzersfrm10
+6582	D. What this Campaign is not	D. 本战役不是什么
+6589	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	本战役并不赞同任何政治理念或战争。战争是人类最令人遗憾的活动之一。作为战术兵棋，People
+6591	s General and PG2 might be considered as "colorful" chess games.	s General 和 PG2 或许可以看作是「丰富多彩」的国际象棋。
+6602	E. Acknowledgements	E. 致谢
+6609	My appreciation goes to	我要感谢
+6615	P. Schlegel	P. Schlegel
+6619	the campaign designer	这位战役设计者，
+6625	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the JP	以及 PeG Suite 的创造者 L. Guzman——没有它，把作品从 PG2 平台移植到 PeG 的工作就不可能完成——还有为游戏 exe 文件做过修改的 J. Markham、创建 PeG-WW2 的 Mark Kirby，以及 N. Sengupta——JP
+6627	s Panzers forum.	s Panzers 论坛的版主之一。
+6633	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	我感谢众多其他人所做的工作，他们把兵棋推演变成了一种艺术形式。感谢你游玩本战役。希望你在游玩本战役时获得的乐趣，和我移植它时一样多。

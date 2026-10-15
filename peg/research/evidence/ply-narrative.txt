@@ -1,0 +1,71 @@
+PEeG *.ply 定长记录原文（每文件 501 B）
+======================================================================
+
+--- nspegu01.ply   (501 B)   [非空 104 B]
+The Chinese and the North Koreans look poised to make a sudden attack on Seoul.  Stop them at all costs.
+
+--- nspegu10.ply   (501 B)   [非空 26 B]
+Enter Scenario Description
+
+--- nspegu13.ply   (501 B)   [非空 26 B]
+Enter Scenario Description
+
+--- nspegu16.ply   (501 B)   [非空 26 B]
+Enter Scenario Description
+
+--- nspegu19.ply   (501 B)   [非空 142 B]
+The Chinese and the North Koreans look like they're entrenched in Seoul, but it's up to you to take it all back.  Don't let me down commander!
+
+--- nspegu25.ply   (501 B)   [非空 287 B]
+Storming Volgograd
+
+The U.S. mobilizes its forces to aid their Russian allies before the battered nation completely collapses. They launch an offensive to drive the People's Republic of China from the Urals with an assault on Volgograd.
+
+2 Player (Multiplayer recommended)
+
+6 Turns
+
+--- nspegu27.ply   (501 B)   [非空 277 B]
+Storming Volgograd
+
+The U.S. mobilizes its forces to aid their Russian allies before the battered nation completely collapses. They launch an offensive to drive the People's Republic of China from the Urals with an assault on Volgograd.
+Narayan Sengupta
+v.1.1, July 3, 2001
+
+
+--- Crimson.ply   (501 B)   [非空 343 B]
+Russian rebels have seized and taken control of ICBM missile bases in the outskirts of Artem and have also taken control of the city. Loyal troops have surrounded them, but they will be tough to root out. You have limited, but well-trained troops at your disposal, as well as good air support and 3 good airborne battallions at your disposal.
+
+
+--- Demise of Osma.ply   (501 B)   [非空 346 B]
+The demise of Osma
+
+Taliban forces have retreated to their stronghold in Kandahar. The allies have been tasked with the final push to defeat the Taliban and al-Qaida. Use battle groups north and south to take Kandahar and Lashkar gah. Next clear the lowlands of all remaining resistance. Then use your air-mobile units to take out Osama. Turns 16
+
+--- Eome2.ply   (501 B)   [非空 233 B]
+I MEF is asked by CINCPACFOR to bypass Hanoi in order to
+allow Vietnamese exile forces to retake the city and its surrounding port area.  To support them, the Vietnamese have asked the
+Americans and French for their help.    16 Turns
+
+--- Land Reclamation.ply   (501 B)   [非空 332 B]
+Since 1945 Japans Northern Islands have been illegally in Russian hands. Chinese aggression has given us the opportunity to reclaim what is rightfully ours. In return for our support the US will not object to us seizing and contolling these islands once again. As a member of Japans Imperial Army Council the task is yours General.
+
+
+--- RetStal27.ply   (525 B)   [非空 525 B]
+Return to Stalingrad
+01/01/2011
+
+After years of war, Western Forces finally have stopped Chinese Advance. Now, after 69 years, German and Italian Troops return to Stalingrad, this time to help their Russian Ally to repulse Chinese Army from Stalingrad. Russian Forces will directly assault the city from East, while German and Italian Troops from South will have to first annhilate Mongol stronghold on the Don-Volga Canal, an then reunite to Russians to launch the final attack to West Stalingrad.
+
+Use 5 Stars e-file  
+
+--- Revolution.ply   (501 B)   [非空 181 B]
+Chinese Rebels have decided to join forces with america and strike singapore, the plan is to weaken China's infrastructure so the rebels can force the chinese government to give in.
+
+--- Sarajevo.ply   (501 B)   [非空 284 B]
+Siege of Sarajevo
+28/10/1992
+Sarajevo has been under siege for 6 months.
+
+Serbian Army is ready to launch his final assault, while Arkhan's Tigers hold the north road to Dobrinja.
+Bosnians attempts a desperate defense, waiting for reinforcements who are supposed to break the siege...

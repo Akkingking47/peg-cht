@@ -1,0 +1,94 @@
+# 短名层：槽位受限的长→短对照（对齐 pg-cht glossary_short）
+# 判据见 slot-rules.tsv；未有据可查的行**不臆断**，只记 bytes
+en	zh_long	zh_short	bytes_long	bytes_short	slot	note
+英文原文	原译文	新译文	6	6	eqp	来源:_eqp-carrier-shorten
+21cm M18 w/251/1	21cm M18 臼炮（SdKfz 251 半履带车运载）	21cm M18 臼炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
+8.8cm PaK w/251/1	8.8cm 反坦克炮（SdKfz 251 半履带车运载）	8.8cm 反坦克炮（SdKfz 251/1）	40	29	eqp	来源:_eqp-carrier-shorten
+Sturmpioniere (E) w/ 251/1	突击工兵连（E）（SdKfz 251 半履带车运载）	突击工兵连（E）（SdKfz 251/1）	41	30	eqp	来源:_eqp-carrier-shorten
+15 sFH 18  w/251/1	15 sFH 18 重型榴弹炮（SdKfz 251 半履带车运载）	15 sFH 18 重型榴弹炮（SdKfz 251/1）	46	35	eqp	来源:_eqp-carrier-shorten
+17 K18 w/ 251/1	17 K18 加农炮（SdKfz 251 半履带车运载）	17 K18 加农炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
+8.8cm FlaK36 w/251/1	8.8cm FlaK36 高炮（SdKfz 251 半履带车运载）	8.8cm FlaK36 高炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
+8.8 FK18 ATG w/251/1	8.8 FK18 反坦克炮（SdKfz 251 半履带车运载）	8.8 FK18 反坦克炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
+21 Morser 18 w/251/1	21 Morser 18 臼炮（SdKfz 251 半履带车运载）	21 Morser 18 臼炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
+SS Leibstandarte w/251/1	党卫军警卫旗队（SdKfz 251 半履带车运载）	党卫军警卫旗队（SdKfz 251/1）	40	29	eqp	来源:_eqp-carrier-shorten
+SS Brückenbau (B) w/251/1	党卫军架桥连（B）（SdKfz 251 半履带车运载）	党卫军架桥连（B）（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
+21 K38 w/251/1	21 K38 加农炮（SdKfz 251 半履带车运载）	21 K38 加农炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
+Fusilier w/251/1	燧发枪兵（SdKfz 251 半履带车运载）	燧发枪兵（SdKfz 251/1）	34	23	eqp	来源:_eqp-carrier-shorten
+MG Infanterie w/251/1	机枪步兵（SdKfz 251 半履带车运载）	机枪步兵（SdKfz 251/1）	34	23	eqp	来源:_eqp-carrier-shorten
+SS Panzergrenadiere w/251/1	党卫军装甲掷弹兵（SdKfz 251 半履带车运载）	党卫军装甲掷弹兵（SdKfz 251/1）	42	31	eqp	来源:_eqp-carrier-shorten
+SS Hitlerjugend w/251/1	党卫军希特勒青年团师（SdKfz 251 半履带车运载）	党卫军希特勒青年团师（SdKfz 251/1）	46	35	eqp	来源:_eqp-carrier-shorten
+88 mm ARTY w/251/1	88 mm 炮兵（SdKfz 251 半履带车运载）	88 mm 炮兵（SdKfz 251/1）	36	25	eqp	来源:_eqp-carrier-shorten
+12.8cm PaK44 w/251/1	12.8cm PaK44 反坦克炮（SdKfz 251 半履带车运载）	12.8cm PaK44 反坦克炮（SdKfz 251/1）	47	36	eqp	来源:_eqp-carrier-shorten
+%d victory hexes for %s	%d 个胜利格属于 %s		18		ui5	超限,待补短名
+%d victory hexes for %s	%d 个胜利格属于 %s		18		ui5	超限,待补短名
+%s turn %d of %d	%s 第 %d 回合，共 %d 回合		25		ui5	超限,待补短名
+%s turn %d of %d	%s 第 %d 回合，共 %d 回合		25		ui5	超限,待补短名
+(If on Start Screen, exits game)	（在开始画面按则退出游戏）		26		ui5	超限,待补短名
+(If on Start Screen, exits game)	（在开始画面按则退出游戏）		26		ui5	超限,待补短名
+8 - Toggle Unit Strength Boxes	8 - 切换部队兵力框		18		ui5	超限,待补短名
+8 - Toggle Unit Strength Boxes	8 - 切换部队兵力框		18		ui5	超限,待补短名
+Airmobile units cannot land in an enemy zone of control.	空中机动部队不能在敌方控制区内着陆。		36		ui5	超限,待补短名
+Arrow Keys - Scroll Map	方向键 - 滚动地图		17		ui5	超限,待补短名
+Arrow Keys - Scroll Map	方向键 - 滚动地图		17		ui5	超限,待补短名
+B - Unit Battle Record	B - 部队战斗记录		16		ui5	超限,待补短名
+B - Unit Battle Record	B - 部队战斗记录		16		ui5	超限,待补短名
+Close Support Fire	近距支援火力		12		ui5	超限,待补短名
+Congratulations on your Victory	祝贺你取得胜利		14		ui5	超限,待补短名
+Congratulations on your Victory	祝贺你取得胜利		14		ui5	超限,待补短名
+CTRL-Q, Quit People's General	CTRL-Q，退出《人民将军》		24		ui5	超限,待补短名
+CTRL-Q, Quit People's General	CTRL-Q，退出《人民将军》		24		ui5	超限,待补短名
+Edit Equipment - NOT AVAILABLE	编辑装备 - 不可用		17		ui5	超限,待补短名
+Engineer units ignore entrenchment when attacking.	工兵单位攻击时无视工事。		24		ui5	超限,待补短名
+ESC, Exit current menu or screen	ESC，退出当前菜单或界面		23		ui5	超限,待补短名
+ESC, Exit current menu or screen	ESC，退出当前菜单或界面		23		ui5	超限,待补短名
+Light infantry units can mount, fly, dismount, move 1/2, and attack the same turn.	轻步兵单位可在同一回合内上车、飞行、下车、移动一半移动力并攻击。		64		ui5	超限,待补短名
+Load Excel Text Equipment File	载入 Excel 文本装备文件		23		ui5	超限,待补短名
+Load Excel Text Equipment File	载入 Excel 文本装备文件		23		ui5	超限,待补短名
+Next unit cycle for that turn	下一部队循环中略过		18		ui5	超限,待补短名
+Next unit cycle for that turn	下一部队循环中略过		18		ui5	超限,待补短名
+Night is a good time to resupply, reinforce, and entrench.	夜晚是补给、补充和构筑工事的好时机。		36		ui5	超限,待补短名
+O - Omit selected unit from the	O - 将所选部队从该回合的		24		ui5	超限,待补短名
+O - Omit selected unit from the	O - 将所选部队从该回合的		24		ui5	超限,待补短名
+PEOPLE'S GENERAL HOT KEYS	《人民将军》快捷键		18		ui5	超限,待补短名
+PEOPLE'S GENERAL HOT KEYS	《人民将军》快捷键		18		ui5	超限,待补短名
+Prestige is used to purchase and upgrade units, or to increase air superiority between campaign scenarios.	威望用于购买和升级部队，或在战役场景之间提升制空权。		52		ui5	超限,待补短名
+Pull weakened units off the front lines and issue replacements.	将受损部队撤出前线，并给予补充。		32		ui5	超限,待补短名
+Reassign Unit	重新指派部队		12		ui5	超限,待补短名
+Replacements are free but reduce the overall experience level of the unit if taken on the battlefield.	补充兵员是免费的，但若在战场上补充，会降低部队的整体经验等级。		62		ui5	超限,待补短名
+Review A Dossier -	查看战后报告 -		14		ui5	超限,待补短名
+Review A Dossier -	查看战后报告 -		14		ui5	超限,待补短名
+Select Level Bomber	选择重型轰炸机		14		ui5	超限,待补短名
+Select Tactical Air	选择战术空军		12		ui5	超限,待补短名
+Select Tactical Bomber	选择战术轰炸机		14		ui5	超限,待补短名
+Show Campaign Save Games	显示战役存档		12		ui5	超限,待补短名
+Show Campaign Save Games	显示战役存档		12		ui5	超限,待补短名
+Show Email Games	显示邮件对战		12		ui5	超限,待补短名
+Show Email Games	显示邮件对战		12		ui5	超限,待补短名
+Show Multiplayer Save Games	显示多人存档		12		ui5	超限,待补短名
+Show Multiplayer Save Games	显示多人存档		12		ui5	超限,待补短名
+Show Scenario Save Games	显示场景存档		12		ui5	超限,待补短名
+Show Scenario Save Games	显示场景存档		12		ui5	超限,待补短名
+Show The Credits	显示制作人员		12		ui5	超限,待补短名
+Show The Credits	显示制作人员		12		ui5	超限,待补短名
+Space - Center on currently selected unit	空格 - 以当前所选部队为中心		27		ui5	超限,待补短名
+Space - Center on currently selected unit	空格 - 以当前所选部队为中心		27		ui5	超限,待补短名
+Start A Multiplayer Scenario	开始多人场景		12		ui5	超限,待补短名
+Start A Multiplayer Scenario	开始多人场景		12		ui5	超限,待补短名
+Start the Main editor (show the introduction)	启动主编辑器（显示介绍）		24		ui5	超限,待补短名
+Start The Scenario Builder	启动场景编辑器		14		ui5	超限,待补短名
+Start The Scenario Builder	启动场景编辑器		14		ui5	超限,待补短名
+T - Toggle pop-up screen text	T - 切换弹出界面文本		20		ui5	超限,待补短名
+T - Toggle pop-up screen text	T - 切换弹出界面文本		20		ui5	超限,待补短名
+Tactical Air Mode	战术空军模式		12		ui5	超限,待补短名
+Tanks can overrun multiple weak opponents in clear terrain.	坦克可在开阔地形中连续碾压多个弱敌。		36		ui5	超限,待补短名
+Unit Has Transport	部队有运输工具		14		ui5	超限,待补短名
+Unit Has Transport	部队有运输工具		14		ui5	超限,待补短名
+Units break entrenchment when they move.	部队移动即失去工事。		20		ui5	超限,待补短名
+Units that don't move entrench 1 point more each turn (up to 5 levels over the terrain's base value).	不移动的部队每回合增加 1 点工事（至多超过地形基础值 5 级）。		60		ui5	超限,待补短名
+VIEW UNIT FUNCTIONS	查看部队功能		12		ui5	超限,待补短名
+VIEW UNIT FUNCTIONS	查看部队功能		12		ui5	超限,待补短名
+WAS NOT SAVED-ERROR	保存失败-错误		13		ui5	超限,待补短名
+WAS NOT SAVED-ERROR	保存失败-错误		13		ui5	超限,待补短名
+Watch your supply in inclement weather and in deserts.	恶劣天气与沙漠中请注意补给。		28		ui5	超限,待补短名
+When requisitioning new units, buy Veteran and Elite units whenever possible.	征募新部队时，尽可能购买老兵和精锐单位。		40		ui5	超限,待补短名
+You can't UNDO a move if by moving you discover a previously unknown unit.	如果移动中发现了此前未知的部队，该步移动无法撤销。		50		ui5	超限,待补短名

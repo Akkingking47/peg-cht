@@ -1,0 +1,101 @@
+# 地名 · 历史各方称法（**以史料为准，不看原文拼写**）
+#
+# 用户口径（2026-10-12）：
+#   「不要看原文本，要看**历史上双方如何称呼同一个地名**的分歧，这样才能有历史代入感，
+#     这也是加强游戏体验的一环。」
+#   ⇒ 判据是「**这段文本属于哪一方 + 当时那一方怎么叫**」，不是「英文拼写是什么」。
+#
+# 列：地名ID | 阵营 | 该方称法(原语) | 中文译名 | 其它常见写法 | 时期 | 依据/备注
+#   · 地名ID = 同一个地方的稳定身份；同 ID 多行 = 各方叫法
+#   · 中文译名 = **该方称法的中文惯译**（不是英文拼写的译名）
+#   · 时期 = 该称法有效的年代（用于分时代文本，如 1946 年前后）
+#   · 英文常见写法/其它写法 = 用于**识别文本提到了这个地名**（任何一方写法都算命中）
+#
+# 判读规则：
+#   ① 文本视角方在该地有登记 ⇒ 用**该方**中文译名（即使英文写的是别方拼写）
+#   ② 该方中文译名与现用名**相同** ⇒ 不算问题（如德方 Wiborg 与苏方 Выборг 中文都是「维堡」）
+#   ③ 视角方在该地**无登记** ⇒ 不判（不猜）
+# ===== 卡累利阿 / 芬兰 =====
+Viipuri	芬	Viipuri	维伊普里	Viipuri	1918–1940 属芬；1941–44 继续战争短期收复	百度百科「维堡」：旧称维伊普里，1918–1940 属芬兰
+Viipuri	苏	Выборг	维堡	Vyborg	1940 冬战后归苏；1947 和约确认	同上
+Viipuri	德	Wiborg	维堡	Wiborg	—	德方用德语名 Wiborg（中文惯译与苏方同名）
+Petsamo	芬	Petsamo	佩察莫	Petsamo	1920–1944 属芬	《塔尔图条约》后属芬
+Petsamo	苏	Печенга	佩琴加	Pechenga	1944 后归苏	1944 莫斯科停战协定
+Hanko	芬	Hanko	汉科	Hanko	1940–41 苏租借	—
+Hanko	苏	Ханко	汉科	Gangut	—	中文惯译相同
+# ===== 比萨拉比亚 / 罗马尼亚 =====
+Chisinau	罗	Chişinău	基希讷乌	Chisinau, Kishinev	1941 罗方收复比萨拉比亚	罗马尼亚王国官方名
+Chisinau	苏	Кишинёв	基什尼奥夫	Kishinev	—	苏/俄方名
+Chisinau	德	Kischinew	基什尼奥夫	Kischinew	—	德方转写俄语名
+Cernauti	罗	Cernăuţi	切尔讷乌齐	Cernauti	1918–1940、1941–44 属罗	布科维纳首府，罗方名
+Cernauti	苏	Черновцы	切尔诺夫策	Chernovtsy	1940、1944 后属苏	苏方名
+Cernauti	德	Czernowitz	切尔诺维茨	Czernowitz	—	德/奥方名
+Iasi	罗	Iaşi	雅西	Iasi, Jassy	—	罗方名（本作译「雅西」✔）
+Iasi	德	Jassy	雅西	Jassy	—	德方名（中文同）
+# ===== 波兰 / 东普鲁士（德方 vs 波方）=====
+Danzig	德	Danzig	但泽	Danzig	—	德方名
+Danzig	波	Gdańsk	格但斯克	Gdansk	1945 后归波	波方名
+Danzig	苏	Данциг	但泽	Danzig	1945 苏军进军时仍用 Данциг	苏方战时沿用德/俄方旧名
+Koenigsberg	德	Königsberg	柯尼斯堡	Koenigsberg, Konigsberg	—	德方名
+Koenigsberg	苏	Кёнигсберг	柯尼斯堡	Koenigsberg	<=1945 → 柯尼斯堡	苏方 1945 攻占时仍称 Кёнигсберг
+Kaliningrad	苏	Калининград	加里宁格勒	Kaliningrad	>=1946 → 加里宁格勒	1946 年改名
+Lodz	德	Litzmannstadt / Lodsch	利茨曼施塔特|罗兹	Litzmannstadt, Lodsch, Lodz	>=1940-04 → 利茨曼施塔特 ； <1940-04 → 罗兹	⭐年代双名：1939-09 波兰战役场景（如 112.txt）作「罗兹」；1940-04 后（如 DAK 抉择屏）作「利茨曼施塔特」
+Lodz	波	Łódź	罗兹	Lodz	1945 后复名	波方名
+Gdynia	德	Gotenhafen	戈滕哈芬	Gotenhafen	1939–1945 德占改名	德方改名（「哥特港」）
+Gdynia	波	Gdynia	格丁尼亚	Gdynia	—	波方名
+Breslau	德	Breslau	布雷斯劳	Breslau	—	德方名
+Breslau	波	Wrocław	弗罗茨瓦夫	Wroclaw	1945 后归波	波方名
+Stettin	德	Stettin	斯德丁	Stettin	—	德方名
+Stettin	波	Szczecin	什切青	Szczecin	1945 后归波	波方名
+Posen	德	Posen	波森	Posen	—	德方名
+Posen	波	Poznań	波兹南	Poznan	1919/1945 属波	波方名
+Kattowitz	德	Kattowitz	卡托维茨	Kattowitz	—	德方名
+Kattowitz	波	Katowice	卡托维兹	Katowice	1922/1945 属波	波方名
+Elbing	德	Elbing	埃尔宾	Elbing	—	德方名
+Elbing	波	Elbląg	埃尔布隆格	Elblag	1945 后归波	波方名
+Marienburg	德	Marienburg	马林堡	Marienburg	—	德方名
+Marienburg	波	Malbork	马尔堡	Malbork	1945 后归波	波方名
+Bromberg	德	Bromberg	布龙贝格	Bromberg	—	德方名
+Bromberg	波	Bydgoszcz	比得哥什	Bydgoszcz	1919/1945 属波	波方名
+Tannenberg	德	Tannenberg	坦能堡	Tannenberg	—	德方名（1914 战役、1934 纪念）
+Tannenberg	波	Stębark	斯滕巴尔克	Stębark	—	波方现名
+Warschau	德	Warschau	华沙	Warsaw, Warschau	—	德方拼写（中文与波/苏方同名）
+Warsaw	波	Warszawa	华沙	Warsaw	—	波方名
+Krakau	德	Krakau	克拉科夫	Krakow, Krakau	—	德方拼写（中文同）
+Krakow	波	Kraków	克拉科夫	Krakow	—	波方名
+Litzmannstadt	德	Litzmannstadt	利茨曼施塔特	Litzmannstadt	1940–1945	同上（旧称，留档）
+Auschwitz	德	Auschwitz	奥斯维辛	Auschwitz	—	德方名
+Auschwitz	波	Oświęcim	奥斯维辛	Oswiecim	—	波方名（中文同）
+# ===== 波罗的海三国 =====
+Reval	德	Reval	雷瓦尔	Reval	—	德方旧名（1918 前俄帝国亦用）
+Tallinn	苏	Tallinn	塔林	Tallinn	1918 后爱沙尼亚/苏方名	—
+Memel	德	Memel	梅梅尔	Memel	—	德方名
+Klaipeda	苏	Klaipėda	克莱佩达	Klaipeda	1923/1945 属立/苏	立陶宛/苏方名
+Libau	德	Libau	利鲍	Libau	—	德方名
+Liepaja	苏	Liepāja	利耶帕亚	Liepaja	1918/1940 属拉/苏	拉脱维亚/苏方名
+Dorpat	德	Dorpat	多帕特	Dorpat	—	德方旧名
+Tartu	苏	Tartu	塔尔图	Tartu	1918 后爱沙尼亚/苏方名	—
+Pleskau	德	Pleskau	普莱斯考	Pleskau	—	德方旧名
+Pskov	苏	Псков	普斯科夫	Pskov	—	苏/俄方名
+Schaulen	德	Schaulen	绍伦	Schaulen	—	德方旧名
+Siauliai	苏	Šiauliai	希奥利艾	Siauliai	—	立陶宛/苏方名
+# ===== 乌克兰 / 白俄罗斯 =====
+Lemberg	德	Lemberg	伦贝格	Lemberg	—	德/奥方名
+Lwow	波	Lwów	利沃夫	Lwow, Lviv	1918–1939、1941–44 波方称	波方名
+Lwow	苏	Львов	利沃夫	Lvov, Lviv	1939/1944 后属苏	苏方名（中文与波方同）
+Tarnopol	德	Tarnopol	塔尔诺波尔	Tarnopol	—	德方沿用波/俄式拼写
+Tarnopol	苏	Тернополь	捷尔诺波尔	Ternopol, Ternopil	1944 后苏方改名	中文差异明显（**本作现用「塔尔诺波尔」**）
+Stanislau	德	Stanislau	斯坦尼斯拉沃夫	Stanislau	—	德方沿用旧名
+Stanislau	苏	Станислав	斯坦尼斯拉夫	Stanislav, Ivano-Frankivsk	1944 后属苏	1962 更名伊万诺-弗兰科夫斯克
+Charkow	德	Charkow	哈尔科夫	Charkow, Kharkov	—	德方拼写（中文惯译与苏方同）
+Kharkov	苏	Харьков	哈尔科夫	Kharkov	—	苏方名
+# ===== 远东 =====
+Amur	俄	Амур	阿穆尔河	Amur	—	俄方名
+Amur	中	黑龙江	黑龙江	Heilongjiang	—	中方名
+Amur	日	黒竜江	黑龙江	Amur	1932–1945 伪满称黑河省/黑龙江	日方随中方名（中文同）
+Mukden	日	奉天	奉天	Mukden	1932–1945 伪满	日/伪满称奉天
+Mukden	中	沈阳	沈阳	Shenyang	—	中方现名
+Nomonhan	日	ノモンハン	诺门罕	Nomonhan	1939 事件	日方称诺门罕
+Nomonhan	苏	Халхин-Гол	哈拉哈河	Khalkhin Gol	—	苏/蒙方称哈拉哈河
+Harbin	中	哈尔滨	哈尔滨	Harbin	—	各方同
+Koenigsberg	苏	Калининград	加里宁格勒	Kaliningrad	>=1946 → 加里宁格勒	1946 年改名（1945 年攻占时仍称 Кёнигсберг）

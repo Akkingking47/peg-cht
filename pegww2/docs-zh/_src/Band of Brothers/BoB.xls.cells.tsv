@@ -1,0 +1,76 @@
+# Band of Brothers\BoB.xls · 表格文字格抽取（工作表 \t 行 \t 列 \t 原文）
+工作表	行	列	原文
+Book1	2	2	Band of Brothers
+Book1	3	2	Scenario
+Book1	3	3	Map
+Book1	3	4	Map #
+Book1	3	5	D. Hone
+Book1	3	6	BV
+Book1	3	8	TV
+Book1	3	9	Loss
+Book1	4	2	Jump Training
+Book1	4	3	SouthEng
+Book1	4	5	BoB_BoB01
+Book1	5	2	Urban Training
+Book1	5	3	BoBWindsor
+Book1	5	5	BoB_BoB02
+Book1	6	2	D.Day The Landing
+Book1	6	3	BoBCarentan
+Book1	6	5	BoB_BoB03
+Book1	7	2	The Lower Causeways
+Book1	7	3	BoBCarentan
+Book1	7	5	BoB_BoB04
+Book1	8	2	The Lower Causeways(2)
+Book1	8	3	BoBCarentan
+Book1	8	5	BoB_BoB05
+Book1	9	2	The Guns
+Book1	9	3	BoBCarentan
+Book1	9	5	BoB_BoB06
+Book1	10	2	St. Come du Mont
+Book1	10	3	BoBCarentan
+Book1	10	5	BoB_BoB07
+Book1	11	2	Carentan
+Book1	11	3	BoBCarentan
+Book1	11	5	BoB_BoB08
+Book1	12	2	Market Garden-The Landing
+Book1	12	3	BoBArnhem3
+Book1	12	5	BoB_BoB09
+Book1	13	2	Market Garden-Breakthrough
+Book1	13	3	BoB2Arnhem3
+Book1	13	5	BoB_BoB10
+Book1	14	2	Market Garden-Disaster
+Book1	14	3	BoB3Arnhem3
+Book1	14	5	BoB_BoB11
+Book1	15	2	The Island
+Book1	15	3	BoB4Arnhem3
+Book1	15	5	BoB_BoB12
+Book1	16	2	Bastogne-Dig In
+Book1	16	3	BoBBastogne
+Book1	16	5	BoB_BoB13
+Book1	17	2	Bastogne-Nuts
+Book1	17	3	BoBBastogne
+Book1	17	5	BoB_BoB14
+Book1	18	2	Bastogne-Reducing the Bulge
+Book1	18	3	BoBBastogne
+Book1	18	5	BoB_BoB15
+Book1	19	2	Haguenau
+Book1	19	3	Haguenau
+Book1	19	5	BoB_BoB16
+Book1	20	2	POW Camp
+Book1	20	3	BoBRemagen
+Book1	20	5	BoB_BoB17
+Book1	20	9	LOSS
+Book1	21	2	Berchtesgaden
+Book1	21	3	BoBMulhouse
+Book1	21	5	BoB_BoB18
+Book1	21	6	WIN
+Book1	21	7	WIN
+Book1	21	8	WIN
+Book1	21	9	LOSS
+Book1	22	2	Haguenau-Into the Reich
+Book1	22	3	Haguenau
+Book1	22	5	BoB_BoB19
+Book1	22	9	LOSS
+Book1	25	6	Legend
+Book1	25	8	Normal path
+Book1	26	8	Alternative scenarios

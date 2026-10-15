@@ -1,0 +1,165 @@
+# Band of Brothers\PG2 BoB Readme.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+2	*                       Band of Brothers                    *	*                          兄弟连                            *
+12	*                         Version 3.0                       *	*                         版本 3.0                          *
+13	*                 Challenge Camapign 19 Edition             *	*                      挑战战役 19 版                       *
+14	*              For the unoffical patch 'PG2UK102H'          *	*               用于非官方补丁 “PG2UK102H”                  *
+16	*                      By Doug Hone 2003/4                  * 	*                   作者 Doug Hone 2003/4                   *
+19	                             Readme.	                             说明。
+21	        Welcome to the Band of Brothers Campaign.	        欢迎来到兄弟连战役。
+22	 The Campaign covers the battles of the 506th Regiment of the US 101st Airborne Division in Europe from D.Day to V.E Day.	 本战役涵盖美军第 101 空降师第 506 团在欧洲从 D 日到 V-E 日的战斗。
+24	 Thank you for downloading and trying my campaign. Like 	 感谢你下载并试玩我的战役。和
+25	all designers I built this campaign for my own enjoyment	所有设计者一样，我制作这个战役是为了自己的乐趣
+26	and playing pleasure.	和游玩快感。
+27	 The camapign was made and tested on 100 prestige setting	 本战役是在 100 威望设定下制作和测试的
+28	and is very playable at that level. Although I am happy	在该设定下非常可玩。虽然我对
+29	with the final product I am always open to constructive	最终成品很满意，但我始终欢迎建设性
+30	comments and so if you think of a way my campaign can be	意见，所以如果你想到改进我战役的
+31	improved or have any problems feel free to email me at:-	办法，或遇到任何问题，欢迎给我发邮件：-
+33	                   honed@powerup.com.au	[[KEEP]]
+35	 A big thanks to the 5 guys who playtested this campaign	 非常感谢这 5 位在我制作过程中为我测试本战役的玩家
+36	for me as I made it:-  JJ Himes (USA)	：-  JJ Himes (美国)
+37	                       Fernando Reguillo (Spain)	                       Fernando Reguillo (西班牙)
+38	\t\t       Jesper Damgaard (Denmark)	\t\t       Jesper Damgaard (丹麦)
+39	                       Tomaz Pilih (Slovenia)	                       Tomaz Pilih (斯洛文尼亚)
+40	                       Mike Reeves(USA)	                       Mike Reeves(美国)
+41	 Also thanks to Mick Marchand (MJPatterson) for his help with this version.	 还要感谢 Mick Marchand (MJPatterson) 对本版本的帮助。
+44	The Download should contain:-	下载内容应包含：-
+45	 1. BoB IMPORTANT README FIRST.txt	[[KEEP]]
+46	 2. BoB Readme.txt- this file.	 2. BoB Readme.txt - 本文件。
+47	 3. BoB Campaign Files.zip-containing 146 files.	 3. BoB Campaign Files.zip - 包含 146 个文件。
+48	 4. BoB Efile.zip-containing 3 files.	 4. BoB Efile.zip - 包含 3 个文件。
+49	 5. BoB Easy Efile.zip-containing 4 files.*See note A*	 5. BoB Easy Efile.zip - 包含 4 个文件。*见注 A*
+50	 6. BoB Editor Efile.zip-containing 4 files.*See note B*	 6. BoB Editor Efile.zip - 包含 4 个文件。*见注 B*
+51	 7. BoB Campaign Path.xls	[[KEEP]]
+52	 8. BoB Map D.Day	[[KEEP]]
+54	 NOTE A:- The Zip file named 'BoB Easy Efile' contains	 注 A：- 名为 “BoB Easy Efile” 的 Zip 文件包含
+55	Efiles to make the game easier for inexperienced players.	装备文件，让经验不足的玩家玩起来更轻松。
+56	It will give the player access to all the usual US units,	它会让玩家可以使用所有常见的美国单位，
+57	instead of only the Airborne ones and upgrades as with the regular "BoB Efile".	而不只是像常规 “BoB Efile” 那样只有空降单位及其升级。
+58	It is recommended the an Air Force is not created as the 	建议不要创建空军，因为
+59	oppertunities to deploy it are very rare.  It is possible to exchange the efile at any time without effecting the players current units in any way.	能部署它的机会非常少。随时可以更换装备文件，而不会以任何方式影响玩家当前的单位。
+62	 NOTE B:- The Zip file named 'BoB Editor Efile' contains	 注 B：- 名为 “BoB Editor Efile” 的 Zip 文件包含
+63	Efiles for creating scenerios and are not to be used for	用于创建场景的装备文件，不得用于
+64	playing the campaign. They are supplied so the player	游玩战役。提供它们是为了让玩家
+65	can create their own scenarios using my BoB units.	能用我的 BoB 单位创建自己的场景。
+66	 As the units that are usually unpurchasable such as	 由于通常无法购买的单位，例如
+67	ships, forts and barbed wire etc are classified in these	舰船、堡垒和铁丝网等，在这些
+68	Efiles as Tac Bombers, using them for play will result	装备文件中被归类为战术轰炸机，把它们用于游玩会使得
+69	in these units BEHAVING like Tac Bombers!!!!	这些单位的表现像战术轰炸机！！！！
+71	NOTE, SUPPLEMENTAL: When you unzip the campaign it will be unzipped into a folder called "Campaign Files". You should copy the contents of this folder to your /scenario folder.	补充说明：解压战役时，它会被解压到一个名为 “Campaign Files” 的文件夹中。你应将此文件夹的内容复制到你的 /scenario 文件夹。
+75	                      Efile Information	                      装备文件信息
+77	***The BoB Efile is a conversion of von Adlers 2000 efile and he should take full credit for the work except for the unique units that I added, as follows***	***BoB 装备文件是 von Adlers 2000 装备文件的转换版，除我添加的独有单位外，全部功劳应归于他，如下***
+79	Unique Units	独有单位
+81	************************Battalion HQ*************************	************************营部*************************
+82	A unit in the infantry class representing a battlefield command post.	步兵类别中的一个单位，代表战场指挥所。
+84	*********************Intelligence Report*********************	*********************情报报告*********************
+85	This is like getting some information from a farmer or the Resistance about enemy positions and strengths which of course is only acurate for a short time hence the 'Fog of War' returns.	这就像从农民或抵抗组织那里获得一些关于敌军位置和兵力的情报，当然这些情报只在短时间内准确，因此“战争迷雾”会重新出现。
+87	**************************Fog of War*************************	**************************战争迷雾*************************
+88	This is a fictional unit with the sole purpose of killing your Intellignce Report unit in 1 hit. It has no movement so can't take any further part in the battle.	这是一个虚构单位，唯一作用是一击消灭你的情报报告单位。它没有移动力，因此无法再参与战斗。
+90	**************************Gliders****************************	**************************滑翔机****************************
+91	Come in 2 types Horsa MkII which carries troops only and GA Hamilcar which can carry troops, AT guns, Light Artillery pieces and the Tetrarch light tank. These fly like normal air transports but can land any Airmobile unit anywhere on the map that these units can normally travel.	有 2 种类型：Horsa MkII 仅运载部队，GA Hamilcar 则可运载部队、反坦克炮、轻型火炮和 Tetrarch 轻型坦克。它们像普通空中运输一样飞行，但可以把任何空中机动单位降落到地图上这些单位通常能行经的任何位置。
+93	************************Awaiting Orders**********************	************************等待命令**********************
+94	A roadblock to holdup the advance of your units for several turns.	一种路障，用于拖延你的单位推进数个回合。
+96	**********************Orders Received************************	**********************收到命令************************
+97	A unit to destroy the above "Awaiting Orders" and allow the advance of your units at the correct time. It has no movement so can't take any further part in the battle.	一个用于摧毁上述“等待命令”并让你的单位在正确时机推进的单位。它没有移动力，因此无法再参与战斗。
+99	**********************Entrenched Units***********************	**********************工事单位***********************
+100	Come in many forms and differ from their original uniits only in that they cannot move or move only 1 and have 1 point higher Ground Defence. Used to stop the AI or player moving units that in the actual battles were static or over-run.	有多种形式，与其原版单位的区别仅在于它们不能移动或只能移动 1 格，且地面防御高 1 点。用于阻止 AI 或玩家移动那些在实际战斗中静止不动或被击溃的单位。
+102	***********************Winter Units**************************	***********************冬季单位**************************
+103	German units used in the Bastogne scenarios differ from the units used in other scenarios in that they have a winter cammoflage icon and have reduced fuel to simulate the severe fuel problems the Germans faced near the end of the Battle of the Bulge. 	巴斯托涅(Bastogne)场景中使用的德军单位与其他场景中使用的单位不同，它们有冬季迷彩图标，并降低了燃料，以模拟德军在突出部战役末期面临的严重燃料问题。
+105	*************************Tank Riders*************************	*************************坦克搭载兵*************************
+106	A form of ground transport that is used by Infantry units only during the Battle of the Bulge scenarios.	一种地面运输，仅在突出部战役的场景中由步兵单位使用。
+108	************************Guard Towers*************************	************************守卫塔*************************
+109	Found at POW camps.	出现在战俘营。
+111	************************Camp Guards**************************	************************营地守卫**************************
+112	Well armed men with dogs that patrol near POW camps.	装备精良、带着狗在战俘营附近巡逻的人员。
+114	********************Captured Paratroopers********************	********************被俘的伞兵********************
+115	Regular paratroop units with very low attack values as they have been captured, disarmed and placed in a POW camp.	普通的伞兵单位，攻击值非常低，因为他们已被俘、被解除武装并关进战俘营。
+117	***********************Berchtesgarden************************	***********************贝希特斯加登(Berchtesgarden)************************
+118	Buildings of Hitlers famous mountain retreat.	希特勒著名山地别墅的建筑。
+120	*************************Nazi Banner*************************	*************************纳粹旗帜*************************
+121	A 'souvenir' unit that you win the game by capturing.	一个“纪念品”单位，占领它就能赢得游戏。
+123	***************************SS Men****************************	***************************党卫军成员****************************
+124	Disorganized groups of SS troops fanatically defending the Reich during it's final days.                   	在第三帝国最后的日子里狂热防守的、组织混乱的党卫军部队。
+127	The camapign follows the 506th PIR (Parachute Infantry Regiment) so it is largely infantry based with the Artillery and Anti-tank units in the early part being light paradrop units. I used von Adlers efile which I had to change so the player could not buy tanks and planes etc so remember that the upgrade opportunities in the first 8 scenarios is non-existant and they have no transport as the 506th had only what they dropped with for their time in Normandy where they were constantly in action for around 12 days before they were relocated to England for rest and refitting.	本战役跟随第 506 伞兵团(PIR)，因此主要以步兵为基础，早期的火炮和反坦克单位都是轻型伞降单位。我使用了 von Adlers 的装备文件，并不得不对其加以修改，使玩家无法购买坦克和飞机等，所以请记住，前 8 个场景中不存在升级机会，而且它们没有运输工具，因为第 506 团在诺曼底期间只有随他们一起空降下来的东西，他们在那里连续作战约 12 天后才被调往英格兰休整和整补。
+131	Maps.	地图。
+133	Contained in the download is a JPEG called BoB D.Day Map. You should print this out if possible and keep it ready for scenarios 3 and 4/5	下载内容中包含一个名为 BoB D.Day Map 的 JPEG。如有可能，你应把它打印出来，并在场景 3 和 4/5 时准备好。
+135	Now you will need to download the usermade maps if you	现在，如果你还没有这些玩家自制地图，
+136	do not already have them.	就需要下载它们。
+138	Usermade Maps Required.	需要的玩家自制地图。
+139	These are all avaiable on Lasse Jensen's website:-	这些都可以在 Lasse Jensen 的网站上找到：-
+140	       Panzer General Builders Paradise	[[KEEP]]
+142	Map Name      Map Number      Map Designer	地图      名称      地图 编号      地图 设计者
+143	SouthEng        88            Jan de Vries	[[KEEP]]
+144	Carentan       330            Doug Hone	[[KEEP]]
+145	Arnhem3        318            Doug Hone	[[KEEP]]
+146	Bastogne       187            Bjoern Neuhaeser	[[KEEP]]
+147	Haguenau       356            Doug Hone	[[KEEP]]
+148	Remagen        197            William Dickens	[[KEEP]]
+149	Mulhouse       339            Doug Hone	[[KEEP]]
+151	See instructions on Lasse's site for installing Maps.	安装地图的说明见 Lasse 的网站。
+155	Preparing your files.	准备你的文件。
+159	Sounds and Smacks	音效与 Smack 影片
+161	The campaign uses 3 custom-made music tracks for full enjoyment. They are not essential but will add to the feel of the campaign. Unzip them into your PG2 'Sound' folder.	本战役使用 3 首自制音乐曲目以获得完整体验。它们并非必需，但会增强战役的氛围。把它们解压到你的 PG2 “Sound” 文件夹中。
+163	 1. BoB1Mus.Mus = Scenario brief backing track	 1. BoB1Mus.Mus = 场景简报背景音乐
+164	 2. BoB2Mus.Mus = Scenario loss backing track	 2. BoB2Mus.Mus = 场景失败背景音乐
+165	 3. SB7MUS1.Mus = Sceanrio BV, V & TV backing track	 3. SB7MUS1.Mus = 场景辉煌胜利、胜利和战术胜利背景音乐
+167	They are available for download on my site:-	它们可以在我的网站上下载：-
+169	      http://homepage.powerup.com.au/~honed/	[[KEEP]]
+171	The campaign uses 3 custom-made scenario intro movies for full enjoyment. It is not essential but will add to the feel of the campaign. Unzip them into your PG2 'Smack' folder.	本战役使用 3 段自制场景开场影片以获得完整体验。它并非必需，但会增强战役的氛围。把它们解压到你的 PG2 “Smack” 文件夹中。
+173	They are available for download on Toliy's site:-	它们可以在 Toliy 的网站上下载：-
+174	(These have since been moved but instructions to their new location are on the site)	(这些后来已被迁移，但网站上有所在新位置的说明)
+175	    http://staff.washington.edu/toliy/panzer/smacks/smacks.shtml	[[KEEP]]
+177	 1. dday-01.SMK = D.Day intro movie. Described as "Dday : US	 1. dday-01.SMK = D 日开场影片。描述为 “Dday：美军
+178	Paratroopers in firefight (colour/sound) 2.2MB"	伞兵交火中 (彩色/有声) 2.2MB”
+180	 2. market-02.SMK = Market Garden intro movie. Described as "US Paratroopers in the air (colour/sound) 1.0MB"	 2. market-02.SMK = 市场花园开场影片。描述为 “美军伞兵在空中 (彩色/有声) 1.0MB”
+182	 3. market-03.SMK = Market Garden intro movie. Described as 	 3. market-03.SMK = 市场花园开场影片。描述为
+183	"British tanks ambused by Tiger (colour/sound) 2.1MB"	“英军坦克遭虎式伏击 (彩色/有声) 2.1MB”
+189	Core Composition and HQ placement.	核心单位构成与营部摆放。
+191	The camapign should be played by the rules I have set reagarding core composition.	本战役应按照我设定的核心单位构成规则来游玩。
+192	If playing by the rules:-	若按规则进行：-
+194	Core should comprise 16 units(later 18):-	核心单位应包含 16 个单位(后来 18 个)：-
+195	3 x Battalion HQ	3 x 营部
+196	1 x Paratrooper Scout(or upgrade)	1 x 伞兵侦察兵(或升级)
+197	2 x Paratrooper Engineers(or upgrade)	2 x 伞兵工兵(或升级)
+198	1 x Paratrooper MG Team(or upgrade)	1 x 伞兵机枪组(或升级)
+199	1 x Paratrooper Morter Team(or upgrade)(later 2)	1 x 伞兵迫击炮组(或升级)(后来 2)
+200	1 x Paratrooper Bazooka Team(or upgrade)(later 2)	1 x 伞兵巴祖卡组(或升级)(后来 2)
+201	6 x Paratrooper(or upgrade)	6 x 伞兵(或升级)
+202	1 x 12.7mm M51(or upgrade)	1 x 12.7mm M51(或升级)
+205	Battalion HQ units should always be placed on your Victory Hexes. Not only are they unmoveable but you will not be able to afford to leave other core units to defend these hexes.	营部单位应始终放在你的胜利格上。它们不仅无法移动，而且你也无法承担留下其他核心单位来防守这些格的代价。
+209	Dat File	Dat 文件
+211	 Players who are unfamiliar with Datups and overwriting	 不熟悉 Datup 和覆盖
+212	files should print this Readme text to have on hand	文件的玩家应打印这份说明文本，以便在手边
+213	while carrying out these instructions.	执行这些步骤时随时查阅。
+215	 1. The first and most important task is to go to Lasse	 1. 首要且最重要的任务是去 Lasse
+216	Jensen's "Panzer General Builders Paradise" or "Steve Browns Campaign" sites and download the latest 'Datup'. I built the campiagn on the version dated "17th January 2003". So this one or any after will have the required icons.	Jensen 的 “Panzer General Builders Paradise” 或 “Steve Browns Campaign” 网站下载最新的 “Datup”。我是在日期为 “2003 年 1 月 17 日” 的版本上制作本战役的。所以这个版本或之后的任何版本都会有需要的图标。
+217	 Also you will need the unoffical patch 'PG2UK102H'.This	 你还需要非官方补丁 “PG2UK102H”。这
+218	is an alternate EXE file, use it to start the game. If	是一个替代 EXE 文件，用它来启动游戏。如果
+219	this file is not used there will be problems with the	不使用这个文件，就会出现
+220	icons disappearing on the map. 	图标在地图上消失的问题。
+222	 2. Follow the instructons to update your "Panzer2 Dat"	 2. 按照说明更新你的 “Panzer2 Dat”
+223	file. 	文件。
+225	 3. Cut/paste this new file into your PG2 folder.	 3. 把这个新文件剪切/粘贴到你的 PG2 文件夹中。
+230	Installation.	安装。
+232	Advanced players can skip this part. 	高级玩家可以跳过这一部分。
+234	 1. Unzip the contents of the 'BoB Campaign files.zip'	 1. 把 “BoB Campaign files.zip” 的内容
+235	file into PGII Scenario folder. There should be no files	解压到 PGII 的 Scenario 文件夹中。应该没有文件
+236	to write over but if you are prompted I suggest stopping	需要覆盖，但如果出现提示，我建议停止
+237	the unzip and saving those files into another folder. 	解压，并把那些文件保存到另一个文件夹中。
+239	 2. Create a folder called for example "PGII backup	 2. 创建一个名为例如 “PGII backup
+240	files" This should be on the C drive not in your PGII	files” 的文件夹。它应位于 C 盘，而不是在你的 PGII
+241	folder.	文件夹中。
+243	 3. Copy your existing Equipment files into a sub-folder	 3. 把你现有的装备文件复制到
+244	of your new folder and call this one "SSI File"	新文件夹的一个子文件夹中，并把这个子文件夹命名为 “SSI File”
+246	 4. Make a new sub-folder and call this one "BoB Efile"	 4. 新建一个子文件夹，并把它命名为 “BoB Efile”
+248	 5. Unzip the file 'BoB Efile.zip' into this folder.	 5. 把 “BoB Efile.zip” 文件解压到这个文件夹中。
+250	 6. Now open this folder and select the 4 items	 6. 现在打开这个文件夹，选中这 4 个项目
+251	and copy/paste them into your PGII folder overwriting	并复制/粘贴到你的 PGII 文件夹中，覆盖
+252	the originals- BUT ONLY IF YOU HAVE ALREADY COPIED THE	原文件 —— 但只有在你已经把
+253	ORIGINALS INTO YOUR NEW FOLDER!!! ** Use this method to	原文件复制到新文件夹之后才可以！！！** 用这个方法来
+254	save all the Equipment Files you gather as you play	保存你在游玩
+255	more campaigns.**	更多战役时收集的所有装备文件。**
+259	This done you should be ready to Rock and Roll!!!	完成这些后，你就应该准备好开打了！！！
+264	Happy Hunting.	狩猎愉快。
+265	Doug.	Doug.

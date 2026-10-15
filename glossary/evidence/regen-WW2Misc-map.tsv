@@ -1,0 +1,49 @@
+# WW2Misc.txt 行级译法（地形/战斗标签）
+# 来源：WW2Misc.txt（行号模式；引擎按行号取字，**行数必须与原版严格一致**）
+# 来源列：PeG=前作已验证译文（勿改）/ 新译=待填 / 保留=原样不动
+行号	原文	译文	来源
+1	CLEAR	开阔地	PeG
+2	CITY	城市	PeG
+3	AIRFIELD	机场	PeG
+4	FOREST	森林	PeG
+5	JUNGLE	丛林	PeG
+6	HILL	丘陵	PeG
+7	MOUNTAIN	山地	PeG
+8	SAND	沙漠	PeG
+9	WETLANDS	沼泽	PeG
+10	OCEAN	海洋	PeG
+11	RIVER	河流	PeG
+12	FORTIFICATION	要塞	新译确认
+13	PORT	港口	PeG
+14	STREAM	溪流	PeG
+15	ESCARPMENT	陡崖	PeG
+16	IMPASSABLE RIVER	不可通行河流	PeG
+17	ROUGH	崎岖地	PeG
+18	LAKE	湖泊	PeG
+19	AGRICULTURAL LAND	农田	PeG
+20	COASTAL	海岸	PeG
+21	Close Assault	近距突击	PeG
+22	Assault	突击	PeG
+23	Experience:	经验:	PeG
+24	Ammo:	弹药:	PeG
+25	Fuel:	燃料:	PeG
+26	Expected Losses:	预计损失:	PeG
+27	Attk:	杀伤:	PeG
+28	Dfnd:	防御:	PeG
+29	Ent:	工事:	PeG
+30	Level:	等级:	PeG
+31	Counterbattery Fire!	炮火反击！	PeG
+32	None	无	PeG
+33	Cav	骑兵	PeG
+34	Combat Engineer	工兵	PeG
+35	Air Defense	防空	PeG
+36	Bridging Engineer	架桥工兵	PeG
+37	Attack Helicopter	攻击直升机	PeG
+38	Antitank	反坦克	PeG
+39	CSU	CSU	保留
+40	FIST	FIST	保留
+41	Special Munitions	特种弹药	PeG
+42	Strength:	兵力:	PeG
+43	Random	随机	PeG
+44	Army Size:	军队规模:	PeG
+45	Remove this Line:	删除此行：	新译确认

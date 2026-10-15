@@ -1,0 +1,33 @@
+# LG_shp2s16_ReadMe.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+1	* SHP to S16 Converter	* SHP 转 S16 转换器
+2	* Using Fred Chlanda converter utility and PG2 palette file	* 使用 Fred Chlanda 的转换器工具和 PG2 调色板文件
+3	* (C) Luis Guzman - July 2004	* (C) Luis Guzman - 2004 年 7 月
+5	This is a windows program to make easy converting SHP files into S16 peoples format	这是一个 Windows 程序，可方便地把 SHP 文件转换成 S16 peoples 格式
+6	as it converts all SHP files found in a folder. 	因为它会转换文件夹中找到的所有 SHP 文件。 
+8	So you can convert either picture map files or icons files, whatever you need.	因此你可以转换图片地图文件或图标文件，随你需要。
+10	It is a wraper tool as all the work is made by Fred Chlanda utility.	它是一个外壳工具，所有工作都由 Fred Chlanda 的工具完成。
+12	To install, just unzip the executable wherever you prefer, that's the	安装时，只需把可执行文件解压到你喜欢的任意位置，这就是
+13	only installation needed. A minimal screen resolution of 800x600 is recomended. 	所需的全部安装。建议最低屏幕分辨率为 800x600。 
+15	As usual it uses registry to "remember" your last settings.	和往常一样，它用注册表来「记住」你上次的设置。
+17	How to use:	使用方法：
+19	1) Place all SHP files you want to convert on a temporary folder and run the tool.	1) 把你想要转换的所有 SHP 文件放到一个临时文件夹中，然后运行该工具。
+21	2) Select the folder you have used, you will see all files you have copied there.	2) 选中你用过的那个文件夹，你会看到你复制过去的所有文件。
+23	3) If Fred utility and palette is not found on selected folder, it is told and you will 	3) 如果没有在选中的文件夹里找到 Fred 的工具和调色板，程序会提示你，此时你只能
+24	   only create the BAT file but no convertion will be available.	   生成 BAT 文件但无法完成转换。
+26	4) Press buttons "Look Freds tool" and "Look PG2 palette" to find thei locations.	4) 按「查找 Fred 的工具」和「查找 PG2 调色板」按钮来定位它们的位置。
+28	5) Answer YES when it ask for copying into selected folder (or do it manually)	5) 当它询问是否复制到选中的文件夹时，回答「是」（或手动复制）
+30	6) Optionaly, set if you want to delete SHP files when finishing (not checked as default)	6) 可选：设置转换完成后是否删除 SHP 文件（默认不勾选）
+32	7) Select "Create BAT file ONLY" radio option is provided in case you dont want to make	7) 还提供「仅生成 BAT 文件」单选项，用于你暂不想转换、
+33	   convertion later or in case you want to see first what will be done.	   或想先看看会做些什么的情况。
+34	   By default second choice is selected. Either case the BAT file is created if you press OK	   默认选中第二项。无论哪种情况，只要按「确定」就会生成 BAT 文件。
+36	And that's all.	就这么简单。
+39	Thanks to Fred Chlanda for his utilities.	感谢 Fred Chlanda 提供的工具。
+42	FeedBack:	反馈：
+43	I apologize if there is any bug, if you report me, I'll try to fix it.	如果程序有任何缺陷，我在此致歉；你反馈给我，我会尽量修。
+44	But I cannot assume any responsability for any damage or lost, using this tool.	但使用本工具造成的任何损失，我无法承担责任。
+46	This is a free contribution to Peoples General world, but all rights belong to me.	这是对 Peoples General 世界的一份免费贡献，但一切权利归我所有。
+47	You can use and distribute freely this program but you cannot sell or commerce in any way with it.	你可以自由使用和分发本程序，但不得以任何方式出售或用于商业交易。
+49	I hope you'll enjoy.	希望你喜欢。
+51	Luis Guzman	Luis Guzman
+52	lguzval@teleline.es	lguzval@teleline.es

@@ -1,0 +1,410 @@
+# Manual.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+38	PeG-WW2	PeG-WW2
+46	WWII MODification for People's General	WWII MODification for People's General
+54	Manual	Manual
+64	Contents	Contents
+75	Units	Units
+77	-Unit Attachments	-Unit Attachments
+79	-Leader Abilities	-Leader Abilities
+81	-Equipment Specials	-Equipment Specials
+83	-Reinforcement Levels	-Reinforcement Levels
+85	-Special Units	-Special Units
+87	-Prototypes	-Prototypes
+89	Trigger Hexes	Trigger Hexes
+91	Weather Conditions	Weather Conditions
+93	Air Missions	Air Missions
+95	Scenario Editor	Scenario Editor
+97	Website	Website
+99	Troubleshooting	Troubleshooting
+109	Units	Units
+113	-Overview	-Overview
+115	-Unit Attachments:	-Unit Attachments:
+117	Unit attachments are a way to customize your forces beyond what was ever	Unit attachments are a way to customize your forces beyond what was ever
+119	possible in any of the other General titles. Each unit is able to have	possible in any of the other General titles. Each unit is able to have
+121	up to two attachments assigned to it and these assignments can be changed	up to two attachments assigned to it and these assignments can be changed
+123	in between scenarios during campaign play. Western forces, having a	in between scenarios during campaign play. Western forces, having a
+125	technological advantage over their Eastern counterparts, can purchase these	technological advantage over their Eastern counterparts, can purchase these
+127	attachments for 30 prestige points each instead of 50 for the Chinese player.	attachments for 30 prestige points each instead of 50 for the Chinese player.
+129	Some attachments aren't available for all units and won't be present on the	Some attachments aren't available for all units and won't be present on the
+131	requisition screen, or will simply be grayed out.	requisition screen, or will simply be grayed out.
+135	Unit attachments are as follows:	Unit attachments are as follows:
+139	Recon	Recon
+144	+1 to spotting range, -1 to unit profile.	+1 to spotting range, -1 to unit profile.
+148	Combat Engineer	Combat Engineer
+150	+2 to close attack and defense value. Also entrenches	+2 to close attack and defense value. Also entrenches
+156	faster than normal.	faster than normal.
+160	Air Defense	Air Defense
+163	+2 to helicopter, air attack and to air defense.	+2 to helicopter, air attack and to air defense.
+167	Bridging*	Bridging*
+170	Gives unit ability to cross river hexes as rough terrain.	Gives unit ability to cross river hexes as rough terrain.
+176	Also, allows unit to attack after entering a river hex.	Also, allows unit to attack after entering a river hex.
+180	Helicopter	Helicopter
+183	+1 to spotting, +2 to hard attack value.	+1 to spotting, +2 to hard attack value.
+187	Anti-tank	Anti-tank
+190	+4 hard attack.	+4 hard attack.
+194	Combat Support**	Combat Support**
+196	+3 to Ammo and reinforcements aren't reduced during play	+3 to Ammo and reinforcements aren't reduced during play
+202	and are replaced to maximum over strength value.	and are replaced to maximum over strength value.
+206	Forward Observer	Forward Observer
+208	Gives artillery and defensive air support a +4 when	Gives artillery and defensive air support a +4 when
+214	attacking and supporting against enemies adjacent to this	attacking and supporting against enemies adjacent to this
+220	unit.	unit.
+224	Special Munitions	Special Munitions
+226	For Artillery only. +2 to soft and hard attack.	For Artillery only. +2 to soft and hard attack.
+230	*The bridging attachment is different from the bridging Equipment Special. The	*The bridging attachment is different from the bridging Equipment Special. The
+232	bridging Equipment Special allows you to cross over a river as 'rough terrain' and	bridging Equipment Special allows you to cross over a river as 'rough terrain' and
+234	it also allows you to place the unit on a river hex and the rest of your forces	it also allows you to place the unit on a river hex and the rest of your forces
+236	may cross over while this unit is in place. The bridging attachment only allows	may cross over while this unit is in place. The bridging attachment only allows
+238	the individual unit with the attachment to cross a river hex. If you place a unit	the individual unit with the attachment to cross a river hex. If you place a unit
+240	with the bridging attachment over a river, your other troops may not cross over.	with the bridging attachment over a river, your other troops may not cross over.
+244	**The first time you take replacements for a unit during a scenario, they replace	**The first time you take replacements for a unit during a scenario, they replace
+246	to 10 max (15 for Chinese infantry). The next time this unit takes on	to 10 max (15 for Chinese infantry). The next time this unit takes on
+248	replacements, the unit will max out to 9 (14 for Chinese infantry) and each	replacements, the unit will max out to 9 (14 for Chinese infantry) and each
+250	subsequent turn you'll max out to one strength less. If the unit is equipped with	subsequent turn you'll max out to one strength less. If the unit is equipped with
+252	the Combat Support attachment, it will always replace to 10 (15 for Chinese	the Combat Support attachment, it will always replace to 10 (15 for Chinese
+254	infantry)	infantry)
+258	-Leader Abilities	-Leader Abilities
+260	When a unit is awarded a Leader, the unit gets two special abilities; one set	When a unit is awarded a Leader, the unit gets two special abilities; one set
+262	unit ability dependant on the units class, and one random ability. For instance,	unit ability dependant on the units class, and one random ability. For instance,
+264	when a tank unit is awarded a Leader, the unit always gets the Aggressive Maneuver	when a tank unit is awarded a Leader, the unit always gets the Aggressive Maneuver
+266	ability then one other random ability from the Random ability list. Below are the	ability then one other random ability from the Random ability list. Below are the
+268	Unit Class abilities and then the Random Ability List:	Unit Class abilities and then the Random Ability List:
+272	Class Leader Abilities:	Class Leader Abilities:
+280	Aggressive Maneuver:	Aggressive Maneuver:
+282	Tank unit class ability. Gives +1 to movement range.	Tank unit class ability. Gives +1 to movement range.
+286	Enhanced Radar:	Enhanced Radar:
+288	Air Defense class ability. Gives +1 to weapon range.	Air Defense class ability. Gives +1 to weapon range.
+292	Force Recon:	Force Recon:
+295	Recon unit class ability. Gives +1 to spotting range.	Recon unit class ability. Gives +1 to spotting range.
+299	Multiple Fire Support:	Multiple Fire Support:
+301	Artillery unit class ability. Unit may continue to	Artillery unit class ability. Unit may continue to
+307	support and counter-battery as long as it has ammo to	support and counter-battery as long as it has ammo to
+313	do so.	do so.
+317	Stealth Pilot:	Stealth Pilot:
+320	Helicopter unit class ability. Movement range not	Helicopter unit class ability. Movement range not
+326	reduced	reduced
+328	due to low air superiority levels.	due to low air superiority levels.
+332	Tank Killer:	Tank Killer:
+335	Anti-tank unit class ability. Number of shots are not	Anti-tank unit class ability. Number of shots are not
+341	halved when unit fires beyond range 1.	halved when unit fires beyond range 1.
+345	Terrain Expert:	Terrain Expert:
+347	Recon unit class ability. Gives +4 to Close attack and	Recon unit class ability. Gives +4 to Close attack and
+353	defense values.	defense values.
+357	Random Abilities:	Random Abilities:
+365	Aggressive Attack:	Aggressive Attack:
+367	Available to all. Gives +2 to attack and defense when	Available to all. Gives +2 to attack and defense when
+373	initiating attack.	initiating attack.
+377	Aggressive Maneuver:	Aggressive Maneuver:
+379	Available to all. +1 movement (cumulative with tank class	Available to all. +1 movement (cumulative with tank class
+386	leader bonus)	leader bonus)
+390	All Weather Combat:	All Weather Combat:
+392	Only for helicopters. Number of shots are not halved in	Only for helicopters. Number of shots are not halved in
+398	storm turns.	storm turns.
+402	Ambusher:	Ambusher:
+405	Only infantry. If unit attacks in a close assault, then	Only infantry. If unit attacks in a close assault, then
+412	enemy gets no artillery support fire.	enemy gets no artillery support fire.
+416	Blitzer:	Blitzer:
+419	Not for tanks, ADA, or Arty. Grants the tank class	Not for tanks, ADA, or Arty. Grants the tank class
+425	overrun	overrun
+427	ability.	ability.
+431	Bridging:	Bridging:
+434	Not for helicopters. Treat river and streams as rough	Not for helicopters. Treat river and streams as rough
+440	terrain	terrain
+442	for movement.	for movement.
+446	Camouflage Expert:	Camouflage Expert:
+448	Available to all. -2 profile.	Available to all. -2 profile.
+452	Defender:	Defender:
+455	Helicopters only. If unit is adjacent to both attacker	Helicopters only. If unit is adjacent to both attacker
+461	and defender, then unit can provide support fire	and defender, then unit can provide support fire
+467	(like artillery).	(like artillery).
+471	Determined Defense:	Determined Defense:
+473	Available to all. Get +2 to attack and defense when	Available to all. Get +2 to attack and defense when
+479	defending.	defending.
+483	Devastating Fire:	Devastating Fire:
+485	Available to all. May shoot twice per turn.	Available to all. May shoot twice per turn.
+489	Ferocious Defender:	Ferocious Defender:
+491	For infantry, anti-tank, and ADA. Always gets	For infantry, anti-tank, and ADA. Always gets
+498	entrenchment bonus no matter what specials and leaders	entrenchment bonus no matter what specials and leaders
+504	the enemy has.	the enemy has.
+508	Fire Discipline:	Fire Discipline:
+510	Available to all. Use 1/2 shot each time in combat.	Available to all. Use 1/2 shot each time in combat.
+514	First Strike:	First Strike:
+517	Not available to ADA or Arty. Attacks before enemy unless	Not available to ADA or Arty. Attacks before enemy unless
+523	enemy has same leader. Support fire, etc. still fire first.	enemy has same leader. Support fire, etc. still fire first.
+527	Ground Taker:	Ground Taker:
+530	Not available to air, ADA, and Arty. Does 50% more	Not available to air, ADA, and Arty. Does 50% more
+536	suppression (which helps cause retreat).	suppression (which helps cause retreat).
+540	Infiltrator:	Infiltrator:
+543	Not for ADA, light infantry, or Arty. Ignores ZOCs.	Not for ADA, light infantry, or Arty. Ignores ZOCs.
+547	Influence:	Influence:
+550	Not available in scenario play. Available to all. Units	Not available in scenario play. Available to all. Units
+556	can overstrength for free.	can overstrength for free.
+560	Liberator:	Liberator:
+563	(Not for helicopters) x2 prestige for capturing towns	(Not for helicopters) x2 prestige for capturing towns
+567	Marksman:	Marksman:
+570	Helicopters only. Gives +4 to attack value when attacking.	Helicopters only. Gives +4 to attack value when attacking.
+574	Motivator:	Motivator:
+577	Available to all. Adds unit's experience level to all	Available to all. Adds unit's experience level to all
+583	adjacent units. If unit is a ground unit, it supports ground	adjacent units. If unit is a ground unit, it supports ground
+589	units only. If unit is air unit, it supports air units only.	units only. If unit is air unit, it supports air units only.
+593	Overwatch:	Overwatch:
+596	Tanks only. Shoots at enemy units entering its Zone of	Tanks only. Shoots at enemy units entering its Zone of
+602	Control.	Control.
+606	Overwhelming Attack:	Overwhelming Attack:
+608	Not available to helicopters or ADA. Unit has slightly	Not available to helicopters or ADA. Unit has slightly
+614	better chance of causing kills.	better chance of causing kills.
+618	Rangers:	Rangers:
+621	Only available to infantry. Forest, Rough, Hill, Mountain,	Only available to infantry. Forest, Rough, Hill, Mountain,
+627	and Jungle are treated as clear terrain for movement.	and Jungle are treated as clear terrain for movement.
+631	Recon Movement:	Recon Movement:
+633	Not available to recon or helicopters. Gives unit the recon	Not available to recon or helicopters. Gives unit the recon
+639	class segmented movement power.	class segmented movement power.
+643	Resilience:	Resilience:
+646	Available to all. Unit takes slightly less kills.	Available to all. Unit takes slightly less kills.
+650	The Rock:	The Rock:
+653	Not available to helicopters, ADA, or Arty. Unit will not	Not available to helicopters, ADA, or Arty. Unit will not
+659	retreat.	retreat.
+663	Sharpshooter:	Sharpshooter:
+666	Not for helicopters, ADA, Artillery, or anti tank units.	Not for helicopters, ADA, Artillery, or anti tank units.
+672	Shots are not halved at long range.	Shots are not halved at long range.
+676	Shock Tactics:	Shock Tactics:
+679	Available to all. Does long term suppression. Suppression	Available to all. Does long term suppression. Suppression
+685	lasts all turn.	lasts all turn.
+689	Shoot and Scoot:	Shoot and Scoot:
+691	Only for artillery. Enemy does not get counterbattery fire	Only for artillery. Enemy does not get counterbattery fire
+697	at this unit.	at this unit.
+701	Sixth Sense:	Sixth Sense:
+704	Not available to ADA or Arty. Unit can't be ambushed.	Not available to ADA or Arty. Unit can't be ambushed.
+708	Skilled Recon:	Skilled Recon:
+711	Available to all units. +1 spotting (cumulative with the	Available to all units. +1 spotting (cumulative with the
+717	recon class leader bonus)	recon class leader bonus)
+721	Skirmisher:	Skirmisher:
+724	Not for artillery or ADA units. Before attack, the number of	Not for artillery or ADA units. Before attack, the number of
+730	the opponents shots is reduced by two, but never put below 1.	the opponents shots is reduced by two, but never put below 1.
+734	Smart Gambler:	Smart Gambler:
+737	Available to all units. Combat losses for attacker will never	Available to all units. Combat losses for attacker will never
+743	be more than displayed and casualties listed will at least be	be more than displayed and casualties listed will at least be
+749	what was displayed prior to combat (except for hidden	what was displayed prior to combat (except for hidden
+755	supporting units like artillery)	supporting units like artillery)
+759	Street Fighter:	Street Fighter:
+761	Not for helicopters, ADA, or Artillery. Ignores entrenchment	Not for helicopters, ADA, or Artillery. Ignores entrenchment
+767	and terrain bonus of target in town or port. Automatically	and terrain bonus of target in town or port. Automatically
+773	follows up in city or port hex if enemy retreats out.	follows up in city or port hex if enemy retreats out.
+777	Tunnel Rats:	Tunnel Rats:
+780	Only for infantry units. Ignores entrenchments and entrenches	Only for infantry units. Ignores entrenchments and entrenches
+786	at a faster rate than normal.	at a faster rate than normal.
+790	Quartermaster:	Quartermaster:
+793	Available to all units. Always may take replacements up to	Available to all units. Always may take replacements up to
+799	base strength.	base strength.
+805	-Equipment Specials	-Equipment Specials
+807	Some units in People's General have inherit capabilities that come with the unit when	Some units in People's General have inherit capabilities that come with the unit when
+809	purchased and don't need to be added later (like attachments can). You can tell units	purchased and don't need to be added later (like attachments can). You can tell units
+811	that have these equipment specials by the green equipment icons listed under the units	that have these equipment specials by the green equipment icons listed under the units
+813	statistical data (in the 'View Unit' screen) The following specials are listed:	statistical data (in the 'View Unit' screen) The following specials are listed:
+817	River Assault:	River Assault:
+820	Units with this equipment special can cross river hexes as	Units with this equipment special can cross river hexes as
+826	rough terrain and make attacks while in river hexes.	rough terrain and make attacks while in river hexes.
+830	Light Infantry:	Light Infantry:
+832	Units with this equipment special ignore enemy Zones-of-	Units with this equipment special ignore enemy Zones-of-
+838	Control.	Control.
+842	Ignore Entrenchments:	Ignore Entrenchments:
+844	Units with this equipment special aren't penalized when	Units with this equipment special aren't penalized when
+850	attacking an entrenched defender.	attacking an entrenched defender.
+854	Destroy Entrechments:	Destroy Entrechments:
+856	Units with this equipment special remove an enemies	Units with this equipment special remove an enemies
+862	entrenchment levels when they engage it in combat.	entrenchment levels when they engage it in combat.
+866	Entrench Quickly:	Entrench Quickly:
+868	Units with this equipment special entrench at a faster rate	Units with this equipment special entrench at a faster rate
+874	(approx 3 times as fast).	(approx 3 times as fast).
+878	Combat Support:	Combat Support:
+880	Allows you to deploy units adjacent to this unit and allows	Allows you to deploy units adjacent to this unit and allows
+886	you to resupply and reinforce any unit that moves to within	you to resupply and reinforce any unit that moves to within
+892	2 hexes of this unit (as long as it hasn't fired in the turn.)	2 hexes of this unit (as long as it hasn't fired in the turn.)
+896	Paratroop:	Paratroop:
+899	Units with this equipment special may execute a paratroop	Units with this equipment special may execute a paratroop
+905	mission if they start their turn in a friendly airport hex.	mission if they start their turn in a friendly airport hex.
+909	Bridging:	Bridging:
+912	Units with this equipment special treat river hexes as rough	Units with this equipment special treat river hexes as rough
+918	terrain and when positioned across a river hex allow other	terrain and when positioned across a river hex allow other
+924	friendly units to cross over as road terrain as well.	friendly units to cross over as road terrain as well.
+930	-Reinforcement Levels	-Reinforcement Levels
+932	There are three levels of reinforcements for units in People's General; one empty star	There are three levels of reinforcements for units in People's General; one empty star
+934	(regular), 1 filled star (veteran), and 2 filled stars (Elite). Eastern units (Chinese	(regular), 1 filled star (veteran), and 2 filled stars (Elite). Eastern units (Chinese
+936	and Korean) can set their units to regular or veteran levels. Western units can set	and Korean) can set their units to regular or veteran levels. Western units can set
+938	their units to regular, veteran, or elite levels. These levels default to regular, and	their units to regular, veteran, or elite levels. These levels default to regular, and
+940	may only be changed the moment the unit is purchased, never afterward. These different	may only be changed the moment the unit is purchased, never afterward. These different
+942	levels determine the starting experience level for the unit, and more importantly the	levels determine the starting experience level for the unit, and more importantly the
+944	type of reinforcements the unit will receive during game play. Regular replacements come	type of reinforcements the unit will receive during game play. Regular replacements come
+946	in at 0 experience per replacement. Veterans come in at 100 experience per replacement.	in at 0 experience per replacement. Veterans come in at 100 experience per replacement.
+948	Elite come in at 200 experience per replacement. These experience points are averaged	Elite come in at 200 experience per replacement. These experience points are averaged
+950	throughout the unit when replacements are taken on. For instance, lets say you have an	throughout the unit when replacements are taken on. For instance, lets say you have an
+952	infantry unit that begins a scenario at 200 experience points and is strength 10. During	infantry unit that begins a scenario at 200 experience points and is strength 10. During
+954	the course of the game it is attacked and is reduced in strength from 10 to 3. If this	the course of the game it is attacked and is reduced in strength from 10 to 3. If this
+956	unit were purchased with a regular replacements (0 experience troops) its new experience	unit were purchased with a regular replacements (0 experience troops) its new experience
+958	level after taking on replacements would have dropped as follows:	level after taking on replacements would have dropped as follows:
+962	(current strength x current exp) + ( # of replacements x replacement exp level)	(current strength x current exp) + ( # of replacements x replacement exp level)
+971	Original strength size of unit	Original strength size of unit
+984	= ----- = 60 experience points (a huge reduction!)	= ----- = 60 experience points (a huge reduction!)
+997	If this unit were to be purchased with veteran replacements you would have the following:	If this unit were to be purchased with veteran replacements you would have the following:
+1006	-------------------- = --------- = ----- = 130 experience (not so bad)	-------------------- = --------- = ----- = 130 experience (not so bad)
+1022	If this unit were to be purchased with elite replacements you would have the following:	If this unit were to be purchased with elite replacements you would have the following:
+1031	-------------------- = ---------- = ---- = 200 (no loss in experience)	-------------------- = ---------- = ---- = 200 (no loss in experience)
+1045	It should be noted that because Chinese troops can over strength to 21 great care should	It should be noted that because Chinese troops can over strength to 21 great care should
+1047	be taken when deciding to take on replacements during a battle. Many times it will be	be taken when deciding to take on replacements during a battle. Many times it will be
+1049	better to simply disengage a unit and move him away from harms way then to take on	better to simply disengage a unit and move him away from harms way then to take on
+1051	replacements (which will dilute and in many cases remove all his experience) If you don't	replacements (which will dilute and in many cases remove all his experience) If you don't
+1053	take on replacements during a battle, your units will all get replacements equal to their	take on replacements during a battle, your units will all get replacements equal to their
+1055	current experience level after the battle (in between scenarios)	current experience level after the battle (in between scenarios)
+1059	-Helicopters	-Helicopters
+1061	Helicopters are by far the most powerful weapon on the battle field. Only ADA units with	Helicopters are by far the most powerful weapon on the battle field. Only ADA units with
+1063	non-bracketed helicopter attack values, fighter interceptors, and other helicopters may	non-bracketed helicopter attack values, fighter interceptors, and other helicopters may
+1065	actively engage helicopter units. This makes them very resilient. It should be noted that	actively engage helicopter units. This makes them very resilient. It should be noted that
+1067	Helicopter movement is a function of your air supremacy rating. If you have 100% air	Helicopter movement is a function of your air supremacy rating. If you have 100% air
+1069	supremacy, then your helicopters may move their full movement allowance during a given	supremacy, then your helicopters may move their full movement allowance during a given
+1071	turn (30 hexes). This number will be reduced as your air supremacy level drops. Your	turn (30 hexes). This number will be reduced as your air supremacy level drops. Your
+1073	helicopters movement may never fall below 9 movement.	helicopters movement may never fall below 9 movement.
+1077	-Special Units (CSU, Recon, Bridging Units, Light Infantry)	-Special Units (CSU, Recon, Bridging Units, Light Infantry)
+1079	There are some very unique units in People's General that deserve special attention.	There are some very unique units in People's General that deserve special attention.
+1081	They are:	They are:
+1085	Combat Support Units:	Combat Support Units:
+1088	CSU's allow you to deploy new units deep within enemy	CSU's allow you to deploy new units deep within enemy
+1095	territory. You may deploy any new unit that you purchase	territory. You may deploy any new unit that you purchase
+1102	in any of the adjacent hexes around a CSU that isn't	in any of the adjacent hexes around a CSU that isn't
+1109	occupied by an enemy unit. Usually you may only	occupied by an enemy unit. Usually you may only
+1111	resupply	resupply
+1118	or give replacements to a unit that hasn't moved or fired	or give replacements to a unit that hasn't moved or fired
+1125	in the turn. If you move a unit during a turn within 2	in the turn. If you move a unit during a turn within 2
+1132	hexes of a CSU, that unit may resupply or take on	hexes of a CSU, that unit may resupply or take on
+1139	replacements as long as he hasn't fired that turn. This	replacements as long as he hasn't fired that turn. This
+1146	makes defending a position much easier as you can move	makes defending a position much easier as you can move
+1153	spent units to the rear and still reinforce the unit if	spent units to the rear and still reinforce the unit if
+1160	a CSU is nearby.	a CSU is nearby.
+1164	Recon Units:	Recon Units:
+1168	Recon units not only have their segmented movement like	Recon units not only have their segmented movement like
+1175	in other General games, but they may also screen your troop	in other General games, but they may also screen your troop
+1182	movements from the enemy. Spotting is greatly reduced for	movements from the enemy. Spotting is greatly reduced for
+1189	the enemy when you have recon units nearby.	the enemy when you have recon units nearby.
+1193	Bridging Units:	Bridging Units:
+1196	Bridging units that have the bridging equipment special are	Bridging units that have the bridging equipment special are
+1203	different then units that have the bridging attachment in	different then units that have the bridging attachment in
+1210	that they may act as a bridge for your other units as long	that they may act as a bridge for your other units as long
+1217	as they remain positioned across a river hex.	as they remain positioned across a river hex.
+1221	Light Infantry:	Light Infantry:
+1224	Light Infanty units are very nice in that they may move 1/2	Light Infanty units are very nice in that they may move 1/2
+1231	their movement allowance after they air-mobile to a location	their movement allowance after they air-mobile to a location
+1238	and they ignore enemy Zones-of-Control. This makes them	and they ignore enemy Zones-of-Control. This makes them
+1245	very effective when dropped deep within enemy territory to	very effective when dropped deep within enemy territory to
+1252	take lightly defended victory hexes. Keep these units in	take lightly defended victory hexes. Keep these units in
+1259	cities,	cities,
+1261	forest, or other rough terrain areas as they will	forest, or other rough terrain areas as they will
+1268	die quickly in clear terrain.	die quickly in clear terrain.
+1272	-Prototype Units:	-Prototype Units:
+1275	Prototype Units are sometimes awarded in between scenario	Prototype Units are sometimes awarded in between scenario
+1282	and as a result of activating a trigger hex (see below).	and as a result of activating a trigger hex (see below).
+1289	Prototype units don't ever count against your troop cap	Prototype units don't ever count against your troop cap
+1296	(the maximum amount of troops you may have in any given	(the maximum amount of troops you may have in any given
+1303	scenario) and will never gain levels of experience like	scenario) and will never gain levels of experience like
+1310	other troops.	other troops.
+1317	Trigger Hexes	Trigger Hexes
+1321	Certain city hexes in a scenario will give a special award to the player who takes them.	Certain city hexes in a scenario will give a special award to the player who takes them.
+1323	Trigger hexes can give you more prestige, more air mission points, more experience for the	Trigger hexes can give you more prestige, more air mission points, more experience for the
+1325	unit taking the city, or award a leader to the unit that takes the city. Because	unit taking the city, or award a leader to the unit that takes the city. Because
+1327	experience and leaders are only given to the unit that actually activates the trigger hex,	experience and leaders are only given to the unit that actually activates the trigger hex,
+1329	its a good idea to take cities with units that don't already have leaders assigned to them.	its a good idea to take cities with units that don't already have leaders assigned to them.
+1335	Weather	Weather
+1339	Poor weather will reduce the number of shots by 1/2. Night conditions reduce visible by 1/2.	Poor weather will reduce the number of shots by 1/2. Night conditions reduce visible by 1/2.
+1345	Air Missions	Air Missions
+1349	Air missions are one of the most powerful resources available in your arsenal. In many	Air missions are one of the most powerful resources available in your arsenal. In many
+1351	scenarios you will notice that you air mission points have been very limited. In these	scenarios you will notice that you air mission points have been very limited. In these
+1353	cases you should use air missions with great reserve and planning. Your number of air	cases you should use air missions with great reserve and planning. Your number of air
+1355	mission points will be reduced each turn depending on your air supremacy level and how	mission points will be reduced each turn depending on your air supremacy level and how
+1357	many aircraft you lost during the current turn. If you have an 80% Air Supremacy rating,	many aircraft you lost during the current turn. If you have an 80% Air Supremacy rating,
+1359	you will lose20% of your remaining air mission points the next turn if you use execute	you will lose20% of your remaining air mission points the next turn if you use execute
+1361	an air mission of any type. This reduction will grow even more for any aircraft that	an air mission of any type. This reduction will grow even more for any aircraft that
+1363	were shot down during the turn. Below is a list of possible air missions:	were shot down during the turn. Below is a list of possible air missions:
+1367	-Wild Weasel	-Wild Weasel
+1371	(5 points) Used to attack enemy Air Defenses.	(5 points) Used to attack enemy Air Defenses.
+1375	-Recon	-Recon
+1380	(2 points) Used to gain recon in a specific location.	(2 points) Used to gain recon in a specific location.
+1384	-Air Strike	-Air Strike
+1388	(10 points) Used to attack ground or helicopter units.	(10 points) Used to attack ground or helicopter units.
+1395	If used to attack helicopter units, enemy ADA won't engage.	If used to attack helicopter units, enemy ADA won't engage.
+1399	-Defensive Air Support	-Defensive Air Support
+1402	(6 points) Positioned over friendly units greatly increases	(6 points) Positioned over friendly units greatly increases
+1409	their capabilities during your enemies turn. Defensive air	their capabilities during your enemies turn. Defensive air
+1416	support lasts as long as ammo last for the air unit (note:	support lasts as long as ammo last for the air unit (note:
+1423	all air units have 4 ammo). Can also be used to chase enemy	all air units have 4 ammo). Can also be used to chase enemy
+1430	helicopters away.	helicopters away.
+1434	-Airlift	-Airlift
+1438	(4 points) Lets you airlift units from one friendly	(4 points) Lets you airlift units from one friendly
+1445	airfield to another friendly airfield as long as no known	airfield to another friendly airfield as long as no known
+1452	enemy ADA screen or umbrella one of your airfields.	enemy ADA screen or umbrella one of your airfields.
+1456	-Air-mobile	-Air-mobile
+1460	(4 points) Allows units to move via helicopters as long as	(4 points) Allows units to move via helicopters as long as
+1467	enemy ADA doesn't keep them grounded.	enemy ADA doesn't keep them grounded.
+1475	Scenario Editor	Scenario Editor
+1479	The editor included with People's General gives you the ability to create any	The editor included with People's General gives you the ability to create any
+1481	number of scenarios using all of the maps included with the game. Some tips	number of scenarios using all of the maps included with the game. Some tips
+1483	and suggestions when the scenario editor:	and suggestions when the scenario editor:
+1487	-Trigger hexes will only be active for the first half of the scenario. If turns	-Trigger hexes will only be active for the first half of the scenario. If turns
+1489	go beyond this point, all remaining trigger hexes will be deactivated.	go beyond this point, all remaining trigger hexes will be deactivated.
+1493	-All units in the game become available for purchase at certain dates. If you find	-All units in the game become available for purchase at certain dates. If you find
+1495	that for some reason you can't find a specific unit to place on the map, try increases	that for some reason you can't find a specific unit to place on the map, try increases
+1497	the date in the scenario until it becomes available.	the date in the scenario until it becomes available.
+1501	-Setting the Western or Eastern 'stance' (attacker/defender) determines if one side	-Setting the Western or Eastern 'stance' (attacker/defender) determines if one side
+1503	has to take all victory hexes in 'x' amount of time or defend all victory hexes in	has to take all victory hexes in 'x' amount of time or defend all victory hexes in
+1505	'x' amount of time. It should be noted that if the defender manages to take the one	'x' amount of time. It should be noted that if the defender manages to take the one
+1507	victory hex that the attacker starts the scenario with, the defender will win.	victory hex that the attacker starts the scenario with, the defender will win.
+1511	-If you set the game to 'Nighttime', the first 2 game turns will be played at night.	-If you set the game to 'Nighttime', the first 2 game turns will be played at night.
+1515	-To place a generic small flag (a non-victory or supply hex flag) on the map, highlight	-To place a generic small flag (a non-victory or supply hex flag) on the map, highlight
+1517	the country button in the top right hand corner of the scenario map screen, then click	the country button in the top right hand corner of the scenario map screen, then click
+1519	onto the hex you want the flag to appear in.	onto the hex you want the flag to appear in.
+1523	-To add a leader to a unit, first requisition and deploy the unit, then select 'adjust	-To add a leader to a unit, first requisition and deploy the unit, then select 'adjust
+1525	unit' and click onto the unit you want to add the leader to. Next, select the Leader	unit' and click onto the unit you want to add the leader to. Next, select the Leader
+1527	icon and you're set.	icon and you're set.
+1531	-Units cannot over strength unless you first increase their experience. If you want	-Units cannot over strength unless you first increase their experience. If you want
+1533	to over strength a unit from 10 to 12, it must have al least two hundred experience points	to over strength a unit from 10 to 12, it must have al least two hundred experience points
+1535	to do so.	to do so.
+1539	-To change the facing of a unit on the map, go into the deployment screen and right click	-To change the facing of a unit on the map, go into the deployment screen and right click
+1541	on a unit to rotate it. You may only do this to the units you are currently deploying	on a unit to rotate it. You may only do this to the units you are currently deploying
+1543	(either Eastern or Western forces)	(either Eastern or Western forces)
+1555	PeG-WW2 Website	PeG-WW2 Website
+1561	Robert Mary site :	Robert Mary site :
+1565	http://users.skynet.be/rmypegww2/	0
+1572	Troubleshooting	Troubleshooting
+1576	-If you encounter problems installing the game or get a 'Direct Media' error	-If you encounter problems installing the game or get a 'Direct Media' error
+1578	when trying to run the game, please reinstall the game and the problem will	when trying to run the game, please reinstall the game and the problem will
+1580	be fixed.	be fixed.
+1584	-If the game seems to run sluggishly or with slow or poor performance, be sure	-If the game seems to run sluggishly or with slow or poor performance, be sure
+1586	that you have at least 80 MB of free hard drive space on your C:	that you have at least 80 MB of free hard drive space on your C:
+1588	drive	drive
+1592	-If you don't get the cut scenes, cinematics, or the game intro but the game	-If you don't get the cut scenes, cinematics, or the game intro but the game
+1594	appears to run ok, you'll need to install (or reinstall) Quicktime - found on	appears to run ok, you'll need to install (or reinstall) Quicktime - found on
+1596	the game CD.	the game CD.
+1600	-If People's General crashes when you first attempt to launch the game, you'll	-If People's General crashes when you first attempt to launch the game, you'll
+1602	need to install (or reinstall) Microsoft's DirectX 6 - found on the game CD.	need to install (or reinstall) Microsoft's DirectX 6 - found on the game CD.
+1606	-If the game crashes out when you try to launch a scenario or campaign, be	-If the game crashes out when you try to launch a scenario or campaign, be
+1608	sure that the game CD is in the CD-ROM drive. You MUST have the game CD in the	sure that the game CD is in the CD-ROM drive. You MUST have the game CD in the
+1610	drive in order to play People's General. If the CD is present and the crash	drive in order to play People's General. If the CD is present and the crash
+1612	persists, please remove and clean the CD. If scratches are present, you may	persists, please remove and clean the CD. If scratches are present, you may
+1614	need to replace the CD. For CD replacements, please check the game manual for	need to replace the CD. For CD replacements, please check the game manual for
+1616	proper instructions.	proper instructions.
+1620	-If you experience any video problems while running People's General like	-If you experience any video problems while running People's General like
+1622	garbled text or graphical banding across the game screen, your current Windows	garbled text or graphical banding across the game screen, your current Windows
+1624	95 video drivers may be outdated and probably aren't DirectX 6 compliant and	95 video drivers may be outdated and probably aren't DirectX 6 compliant and
+1626	will need to be updated. Please refer to the manufacturer of your video card	will need to be updated. Please refer to the manufacturer of your video card
+1628	for driver update information. If new DirectX 6 compliant video drivers aren't	for driver update information. If new DirectX 6 compliant video drivers aren't
+1630	yet available from the manufacturer of your video card, you may be able to	yet available from the manufacturer of your video card, you may be able to
+1632	work around the problem (until new drivers are released) by reducing video	work around the problem (until new drivers are released) by reducing video
+1634	acceleration in the Windows 95 Control Panel. To do this:	acceleration in the Windows 95 Control Panel. To do this:
+1638	1) go to 'Control Panel', then select 'System' and choose Device Manager	1) go to 'Control Panel', then select 'System' and choose Device Manager
+1640	2) highlight 'Video Adapter' and go to Advanced properties	2) highlight 'Video Adapter' and go to Advanced properties
+1642	3) select the 'Performance' tab and reduce video acceleration all the way	3) select the 'Performance' tab and reduce video acceleration all the way
+1644	down to 'None'	down to 'None'
+1648	Note: this may slow down general windows performance significantly.	Note: this may slow down general windows performance significantly.
+1652	-If you can't connect in a multiplayer game over the internet (TCP/IP), be	-If you can't connect in a multiplayer game over the internet (TCP/IP), be
+1654	sure that your ISP isn't firewalled (AOL users will encounter this problem).	sure that your ISP isn't firewalled (AOL users will encounter this problem).
+1656	If you're not sure about a possible firewall, please contact your Internet	If you're not sure about a possible firewall, please contact your Internet
+1658	Provider and ask. You cannot play People's General through a firewalled ISP.	Provider and ask. You cannot play People's General through a firewalled ISP.

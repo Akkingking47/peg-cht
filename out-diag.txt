@@ -1,0 +1,14 @@
+physical lines: 23202
+line# 2 tabs= 7 len= 547
+  head: b'"For the Russian commander the new offensive has sharply turned from a crushing '
+  tail: b'\x94\xbb\xe5\x90\x8e\xe6\x95\xb0\xe5\xb0\x8f\xe6\x97\xb6\xe5\x86\x85\xef\xbc\x8c\xe4\xbe\xbf\xe4\xbc\xa0\xe6\x9d\xa5\xe5\xbe\xb7\xe5\x86\x9b\xe5\x9c\xa8\xe6\x96\xb0\xe5\x9c\xb0\xe6\xae\xb5\xe5\xae\x9e\xe6\x96\xbd\xe7\xaa\x81\xe7\xa0\xb4\xe7\x9a\x84\xe9\xaa\x87\xe4\xba\xba\xe6\x88\x98\xe6\x8a\xa5\xe3\x80\x82\tTEXT\tEFILE_NASHORNPBEM\tLOCKED\ttxt\tHIGH\ttxt'
+  prev: b'"Dora"\t"\xe5\xa4\x9a\xe6\x8b\x89"\tPLACE\tEFILE_OLGWW2\tLOCKED\ttxt+xscn\tHIGH\ttxt'
+  next: b'"General, you have been given the choice of command"\t"\xe5\xb0\x86\xe5\x86\x9b\xef\xbc\x8c\xe6\x8c\x87\xe6\x8c\xa5\xe6\x9d\x83\xe5\xb7\xb2\xe4\xba\xa4\xe7\x94'
+tabs!=7 的物理行: 49
+  #16 tabs=6 b"''Ciriza''\t''Ciriza''\tUNIT\tEFILE_OLGWW2\tPOLICY\ttxt+xscn\tPOLICY"
+  #7254 tabs=6 b'Achilles\tAchilles\tEQUIP\tEFILE_OLGWW2\tPOLICY\ttxt+xscn+equip\tPOLICY'
+  #7255 tabs=6 b'Achilles\tAchilles\tEQUIP\tEFILE_OPENPG\tPOLICY\tequip\tPOLICY'
+  #7292 tabs=6 b'Admiral Hipper\tAdmiral Hipper\tUNIT\tEFILE_OLGWW2\tPOLICY\ttxt+xscn\tPOLICY'
+  #7518 tabs=6 b'Almirante Cervera\tAlmirante Cervera\tUNIT\tEFILE_OLGWW2\tPOLICY\ttxt+xscn\tPOLICY'
+行内控制字符: {}
+源文件命中: []

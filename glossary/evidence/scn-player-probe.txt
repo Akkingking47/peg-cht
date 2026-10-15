@@ -1,0 +1,45 @@
+# 补视角 · `.scn` 字段搜索（train=口吻 / test=派生标签）
+扫描偏移 0..3999 · 纯度阈值 70% · 最小样本 8
+train 281 · test 829 · test 多数类基线 48.6%
+@22(单字节) 现兜底：test acc 78.2%（覆盖 816/829）lift +29.6%
+
+## 按 lift 排序（前 20）
+@12	u8	acc=89.8%	lift=+41.2%	covered=186	values=3
+@12	u16	acc=89.8%	lift=+41.2%	covered=186	values=3
+@11	u16	acc=89.8%	lift=+41.2%	covered=186	values=3
+@20	u32	acc=89.8%	lift=+41.2%	covered=440	values=8
+@22	u32	acc=88.1%	lift=+39.5%	covered=344	values=5
+@21	u32	acc=88.0%	lift=+39.4%	covered=342	values=7
+@22	u16	acc=87.5%	lift=+38.9%	covered=512	values=6
+@23	u32	acc=85.5%	lift=+36.9%	covered=207	values=4
+@23	u16	acc=85.5%	lift=+36.9%	covered=207	values=4
+@23	u8	acc=85.2%	lift=+36.5%	covered=384	values=5
+@35	u32	acc=84.6%	lift=+35.9%	covered=557	values=9
+@36	u32	acc=84.5%	lift=+35.9%	covered=555	values=9
+@132	u32	acc=83.6%	lift=+35.0%	covered=452	values=7
+@133	u32	acc=83.6%	lift=+34.9%	covered=450	values=7
+@19	u32	acc=82.1%	lift=+33.5%	covered=552	values=6
+@34	u32	acc=80.2%	lift=+31.6%	covered=268	values=5
+@33	u32	acc=80.2%	lift=+31.6%	covered=268	values=5
+@36	u8	acc=80.0%	lift=+31.4%	covered=285	values=4
+@36	u16	acc=80.0%	lift=+31.4%	covered=285	values=4
+@35	u16	acc=80.0%	lift=+31.4%	covered=285	values=4
+
+## 二轮（@22 不一致子集，多数类基线 72.5%，前 10）
+@22	u16	acc=97.5%	lift=+25.0%	covered=79	values=1
+@2427	u8	acc=94.3%	lift=+21.8%	covered=70	values=1
+@2427	u16	acc=94.3%	lift=+21.8%	covered=70	values=1
+@2426	u16	acc=94.3%	lift=+21.8%	covered=70	values=1
+@1845	u8	acc=93.3%	lift=+20.9%	covered=30	values=1
+@1581	u8	acc=93.3%	lift=+20.9%	covered=30	values=1
+@1311	u8	acc=93.3%	lift=+20.9%	covered=30	values=1
+@1845	u16	acc=93.3%	lift=+20.9%	covered=30	values=1
+@1844	u16	acc=93.3%	lift=+20.9%	covered=30	values=1
+@1581	u16	acc=93.3%	lift=+20.9%	covered=30	values=1
+
+## 应用到未判定
+{"off": 12, "kind": "u8", "test_acc": 89.8, "undetermined": 640, "resolved": 0, "pct": 0.0, "dist": {}}
+{"off": 22, "kind": "u8", "test_acc": 78.2, "undetermined": 640, "resolved": 0, "pct": 0.0, "dist": {}}
+{"off": 22, "kind": "u16", "test_acc": 87.5, "undetermined": 640, "resolved": 0, "pct": 0.0, "dist": {}}
+{"off": 20, "kind": "u32", "test_acc": 89.8, "undetermined": 640, "resolved": 0, "pct": 0.0, "dist": {}}
+{"off": 12, "kind": "u8", "test_acc": 89.8, "undetermined": 640, "resolved": 0, "pct": 0.0, "dist": {}}

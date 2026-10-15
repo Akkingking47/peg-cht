@@ -1,0 +1,86 @@
+# Blitzkrieg Objective France\readme.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+2808	Blitzkrieg!: Objective France	Blitzkrieg!: Objective France
+2867	By	By
+2926	Santiago Fuertes	Santiago Fuertes
+2985	The Latin Generals 2005	The Latin Generals 2005
+3107	http:	http:
+3110	es.geocities.com	es.geocities.com
+3112	latingenerals	latingenerals
+3231	Introduction	Introduction
+3322	The moment that Germany has been waiting for long time has come; the revenge time for the Versalles humillation is nearly. After the Poland invasion in 1939 (FallWeiss), France and Great Britain has declared the war on Germany, and with the incompleted Operation Weser	The moment that Germany has been waiting for long time has come; the revenge time for the Versalles humillation is nearly. After the Poland invasion in 1939 (FallWeiss), France and Great Britain has declared the war on Germany, and with the incompleted Operation Weser
+3325	?bung	?bung
+3328	?but decided-, Germany are going to launch a full-scale operation against the west allies, in order to destroy the French army (considered one of the mosts powerfuls armies in the 1940 world) and to capture the British Expeditionary Force (B.E.F.).	?but decided-, Germany are going to launch a full-scale operation against the west allies, in order to destroy the French army (considered one of the mosts powerfuls armies in the 1940 world) and to capture the British Expeditionary Force (B.E.F.).
+3385	The German High command has special plans for this, and a new strategy to show the world... can YOU manage the BlitzKrieg on France?, can you reach Paris?, the world is watching you...	The German High command has special plans for this, and a new strategy to show the world... can YOU manage the BlitzKrieg on France?, can you reach Paris?, the world is watching you...
+3482	The Campaign	The Campaign
+3582	Battles	Battles
+3683	(fi01) Sedan, May 13th, 1940	(fi01) Sedan, May 13th, 1940
+3782	(fi02) Laon	(fi02) Laon
+3785	? Saint Quentin, May 18th, 1940	? Saint Quentin, May 18th, 1940
+3884	(fi03) Amiens	(fi03) Amiens
+3887	? Somme River, May 20th, 1940	? Somme River, May 20th, 1940
+3985	(fi04) Arras, 21st May, 1940	(fi04) Arras, 21st May, 1940
+4084	(fi05) Dunquerke, May 25th, 1940	(fi05) Dunquerke, May 25th, 1940
+4182	(fi06) Lille, May 27th ,1940	(fi06) Lille, May 27th ,1940
+4274	Setup and Requirements	Setup and Requirements
+4371	Unzip the file English_Campaign.zip into your main scenarios folder, usually c:	Unzip the file 0 into your main scenarios folder, usually c:
+4373	panzer2	panzer2
+4375	scenario, and then unzip the file LG2.0.zip into the main Panzer General 2 folder, usually c:	scenario, and then unzip the file 0 into the main Panzer General 2 folder, usually c:
+4377	panzer2. The efile versi	panzer2. The efile versi
+4380	?n of LG that uses this campaign is the 2.0, and it	?n of LG that uses this campaign is the 0, and it
+4383	?s the version included with the campaign. Look for newest versions at Latin Generals!	?s the version included with the campaign. Look for newest versions at Latin Generals!
+4541	Patch PG2 2.02	Patch PG2 0
+4577	This match is needed for efiles with more than 2000 units. That patch it	This match is needed for efiles with more than 2000 units. That patch it
+4580	?s available at	?s available at
+4659	http://es.geocities.com/lgefile	0
+4696	and also ay	and also ay
+4775	http://go.to/panzergeneral2	0
+4812	, look at the	, look at the
+4818	?clearinghouse section	?clearinghouse section
+4824	? there.	? there.
+4941	The newest Soundup, (2004)	The newest Soundup, (2004)
+4977	The SoundUp of 2004 (by Pablo Schlegel) is required, you can fid it on the next sites;	The SoundUp of 2004 (by Pablo Schlegel) is required, you can fid it on the next sites;
+5135	http://es.geocities.com/latingenerals/utilidades.htm	0
+5250	And also here;	And also here;
+5407	http://es.geocities.com/lgefile/equip.htm	0
+5581	The newest Datup	The newest Datup
+5618	It	It
+5621	?s really easy to install. Unzip the Datup into your main PG2 folder, usually c:	?s really easy to install. Unzip the Datup into your main PG2 folder, usually c:
+5623	panzer2. You can find the lastest Datup in the next link at the	panzer2. You can find the lastest Datup in the next link at the
+5629	?equipment	?equipment
+5635	? section (see NewPanzer2.dat);	? section (see 0);
+5714	http://www.medio.mh.se/~vonadler/pg2/equipment/equipment.html	0
+5851	Maps	Maps
+5888	The campaign needs the next maps, which can be found on the next links;	The campaign needs the next maps, which can be found on the next links;
+5967	http://66.34.91.232	0
+6004	or here	or here
+6083	http://go.to/panzergeneral2	0
+6120	, and also here;	, and also here;
+6199	http://www.stahlhelm.prv.pl/	0
+6316	The maps needed are	The maps needed are
+6417	SEDAN41, LAON, AMIENS, ARRAS, DUNKIRK (SSI), LILLE	SEDAN41, LAON, AMIENS, ARRAS, DUNKIRK (SSI), LILLE
+6508	SMACKs	SMACKs
+6606	The campaign uses smack secuences, you can play without that smacks, but the smacks are good in order to make more enjoyable the campaign. Put it into the SMACK folder, you should made into the main game folder. Also, you should copy the original smacks included in the CD of the game, also in a folder named SMACK.	The campaign uses smack secuences, you can play without that smacks, but the smacks are good in order to make more enjoyable the campaign. Put it into the SMACK folder, you should made into the main game folder. Also, you should copy the original smacks included in the CD of the game, also in a folder named SMACK.
+6702	The smacks needed are; FAS9 and FAS11 (by Andreas Seidel)	The smacks needed are; FAS9 and FAS11 (by Andreas Seidel)
+6798	You can download it from;	You can download it from;
+6954	http://www.medio.mh.se/~vonadler/pg2/	0
+7072	Internet references	Internet references
+7233	http://www.europa1939.com/ww2/1939/index.html	0
+7373	http://www.feldgrau.com/	0
+7515	http://www.wwiidaybyday.com/	0
+7657	http://www.eliteforces.freewire.co.uk/	0
+7799	http://www.axishistory.com/	0
+7919	Finally	Finally
+8019	This files are FREE, I made it only for fun. I hope you take fun too playing it	This files are FREE, I made it only for fun. I hope you take fun too playing it
+8129	Please, I would like if you email me, I'll know about if you enjoy the campaign, or if not. The LatinGenerals logo is property of the LatinGenerals webmasters, and nobody is allowed to use it.	Please, I would like if you email me, I'll know about if you enjoy the campaign, or if not. The LatinGenerals logo is property of the LatinGenerals webmasters, and nobody is allowed to use it.
+8186	The web contents included in Latin Generals can not be copied without our permission.	The web contents included in Latin Generals can not be copied without our permission.
+8281	If you have any doubt or related comment, please feel free to write to me;	If you have any doubt or related comment, please feel free to write to me;
+8436	fuertesbermudez@yahoo.es	fuertesbermudez@yahoo.es
+8567	Also you can post in the Latin Generals forum;	Also you can post in the Latin Generals forum;
+8722	http://p090.ezboard.com/fjpspanzersfrm125	0
+8838	Santiago, March 2005	Santiago, March 2005
+8937	http:	http:
+8940	es.geocities.com	es.geocities.com
+8942	latingenerals	latingenerals
+9041	Made with Luis Guzman PG2 Suite	Made with Luis Guzman PG2 Suite

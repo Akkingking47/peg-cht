@@ -1,0 +1,115 @@
+# Operation Sealion\Sealion.xls · 译文填写表：只改第五列（译文）
+工作表	行	列	原文	译文
+Book1	2	2	Sealion	
+Book1	3	2	Scenario	场景
+Book1	3	3	Map	地图
+Book1	3	4	Map #	地图#
+Book1	3	5	S. Fuertes	
+Book1	3	6	BV	辉煌胜利
+Book1	3	8	TV	战术胜利
+Book1	3	9	Loss	失败
+Book1	4	2	Choice	选择
+Book1	4	3	Euro	
+Book1	4	5	SL_SL00	
+Book1	5	2	Operation Sealion	海狮行动
+Book1	5	3	England	英格兰
+Book1	5	5	SL_SLD01	
+Book1	5	9	Loss	失败
+Book1	6	2	Dover Counterattack	多佛反击战
+Book1	6	3	RMY_Dover	
+Book1	6	5	SL_SLD02	
+Book1	6	9	Loss	失败
+Book1	7	2	Canterbury	坎特伯雷
+Book1	7	3	RMY_Dover	
+Book1	7	5	SL_SLD03	
+Book1	7	9	Loss	失败
+Book1	8	2	Gillingham	吉灵厄姆
+Book1	8	3	Peenemun	
+Book1	8	5	SL_SLD04	
+Book1	8	9	Loss	失败
+Book1	9	2	Gravesend - Dover Path	格雷夫森德-多佛路线
+Book1	9	3	Lodz	罗兹
+Book1	9	5	SL_SLD05	
+Book1	9	9	Loss	失败
+Book1	10	2	Maldon	莫尔登
+Book1	10	3	Belomors	
+Book1	10	5	SL_SLD06	
+Book1	10	9	Loss	失败
+Book1	11	2	Counter Attack	反击
+Book1	11	3	Lodz	罗兹
+Book1	11	5	SL_SLD07	
+Book1	11	9	Loss	失败
+Book1	12	2	London Dover Path	伦敦-多佛路线(London Dover Path)
+Book1	12	3	London	伦敦
+Book1	12	5	SL_SLD08	
+Book1	12	9	Loss	失败
+Book1	13	2	Lyme Regis	莱姆里吉斯
+Book1	13	3	Port	
+Book1	13	5	SL_SLL01	
+Book1	13	9	Loss	失败
+Book1	14	2	Tauton	
+Book1	14	3	Kiev	基辅
+Book1	14	5	SL_SLL02	
+Book1	14	9	Loss	失败
+Book1	15	2	Bristol	布里斯托尔
+Book1	15	3	Riga	里加
+Book1	15	5	SL_SLL03	
+Book1	15	9	Loss	失败
+Book1	16	2	Gloucester	格洛斯特
+Book1	16	3	Rostov	罗斯托夫
+Book1	16	5	SL_SLL04	
+Book1	16	9	Loss	失败
+Book1	17	2	Windsor from Lyme Regis	从莱姆里吉斯(Lyme Regis)到温莎(Windsor)
+Book1	17	3	Windsor	温莎
+Book1	17	5	SL_SLL05	
+Book1	17	9	Loss	失败
+Book1	18	2	London - Lyme Regis Path	伦敦 - 莱姆里吉斯路线
+Book1	18	3	London	伦敦
+Book1	18	5	SL_SLL06	
+Book1	18	9	Loss	失败
+Book1	19	2	Isle of Wight - Portsmouth	怀特岛(Isle of Wight) - 朴茨茅斯(Portsmouth)
+Book1	19	3	Southeng	
+Book1	19	5	SL_SLS01	
+Book1	19	9	Loss	失败
+Book1	20	2	Winchester	温切斯特
+Book1	20	3	Prokhorv	
+Book1	20	5	SL_SLS02	
+Book1	20	9	Loss	失败
+Book1	21	2	Brighton	布赖顿
+Book1	21	3	Toulon	土伦
+Book1	21	5	SL_SLS03	
+Book1	21	9	Loss	失败
+Book1	22	2	Crawley	克劳利
+Book1	22	3	Dubno	杜布诺
+Book1	22	5	SL_SLS04	
+Book1	22	9	Loss	失败
+Book1	23	2	Gravesend - Portsmouth Path	格雷夫森德-朴茨茅斯路线
+Book1	23	3	Lodz	罗兹
+Book1	23	5	SL_SLS05	
+Book1	23	9	Loss	失败
+Book1	24	2	Windsor from Southampton	从南安普敦到温莎
+Book1	24	3	Windsor	温莎
+Book1	24	5	SL_SLS06	
+Book1	24	9	Loss	失败
+Book1	25	2	London - Portsmouth Path	伦敦-朴茨茅斯路线
+Book1	25	3	London	伦敦
+Book1	25	5	SL_SLS07	
+Book1	25	9	Loss	失败
+Book1	26	2	Malta	马耳他
+Book1	26	3	Malta	马耳他
+Book1	26	5	SL_SLE01	
+Book1	26	9	Loss	失败
+Book1	27	2	G Plan: Assault on Gibraltar	G 计划：突击直布罗陀
+Book1	27	3	Gibraltar+	
+Book1	27	5	SL_SLE02	
+Book1	27	9	Loss	失败
+Book1	28	2	Suez	苏伊士
+Book1	28	3	Suez	苏伊士
+Book1	28	5	SL_SLE03	
+Book1	28	6	Win	胜利
+Book1	28	7	Win	胜利
+Book1	28	8	Win	胜利
+Book1	28	9	Loss	失败
+Book1	30	6	Legend	图例
+Book1	30	8	Normal path	正常路径
+Book1	31	8	Alternative scenarios	备选场景

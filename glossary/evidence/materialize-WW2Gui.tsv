@@ -1,0 +1,606 @@
+# 投影样张：行号	原文	词库生成	命中方式（其余保留原文=hybrid）
+1	Yugoslavia	南斯拉夫	整行命中
+2	Belgium	比利时	整行命中
+3	Germany	德国	整行命中
+4	Soviet Union	苏联	整行命中
+5	Italy	意大利	整行命中
+6	Finland	芬兰	整行命中
+7	France	法国	整行命中
+8	Republican	共和军	整行命中
+9	Greece	希腊	整行命中
+10	United States	美国	整行命中
+11	Hungary	匈牙利	整行命中
+12	Nationalist	国民军	整行命中
+13	United Kingdom	英国	整行命中
+14	Norway	挪威	整行命中
+15	Waffen SS	武装党卫军	整行命中
+16	Poland	波兰	整行命中
+17	Bulgaria	保加利亚	整行命中
+18	Romania	罗马尼亚	整行命中
+19	Canada	加拿大	整行命中
+20	Czechoslovakia	捷克斯洛伐克	整行命中
+21	Recon	侦察	整行命中
+22	Combat Engineer	工兵	整行命中
+23	Air Defense	对空防御	整行命中
+24	River Assault	渡河突击	整行命中
+25	Forward Air Controller	前沿空中控制官	整行命中
+26	Anti-tank	反坦克	整行命中
+27	Combat Support	战斗支援	整行命中
+28	Forward Observer	炮兵观察员	整行命中
+29	Special Munitions	特种弹药	整行命中
+30	Sealiftable	可海运	整行命中
+31	Airliftable	可空运	整行命中
+32	No Country	无国家	整行命中
+33	Axis	轴心国	整行命中
+34	Allied	盟军	整行命中
+35	Brilliant Victory	决定性胜利	整行命中
+36	Victory	胜利	整行命中
+37	Tactical Victory	战术胜利	整行命中
+38	Loss	失败	整行命中
+39	It's A Draw -	平局 -	整行命中
+40	Next Unit	下一部队	整行命中
+41	Cancel Move	取消移动	整行命中
+42	Mount - Dismount	上车 - 下车	整行命中
+43	Strategic Transport	战略运输	整行命中
+44	Supply	补给	整行命中
+45	Replacements	补充兵员	整行命中
+46	Requisition Unit	征募部队	整行命中
+47	Field Headquarters	战地司令部	整行命中
+48	Tactical Air Mode	战术空军模式	整行命中
+49	Strategic Map	战略地图	整行命中
+50	Game Functions	游戏功能	整行命中
+51	Additional Options	更多选项	整行命中
+52	Chat	聊天	整行命中
+53	How To Play The Game -	玩法说明 -	整行命中
+54	End Turn	结束回合	整行命中
+55	Dossier	战后报告	整行命中
+56	Show Hexsides	显示网格	整行命中
+57	Audio Settings	音频设置	整行命中
+58	Play By EMail	邮件对战	整行命中
+59	VCR	录像	整行命中
+60	Replay Turn	回放回合	整行命中
+61	Full Screen	全屏	整行命中
+62	Show Terrain	显示地形	整行命中
+63	Exit Game	退出游戏	整行命中
+64	Inspect Unit	查看部队	整行命中
+65	Go To Unit	定位部队	整行命中
+66	Overstrength Unit	超编部队	整行命中
+67	Upgrade Unit	升级部队	整行命中
+68	Reassign Unit	重新指派	整行命中
+69	Undo Last Action	撤销上一步	整行命中
+70	Gold Coins -	金币 -	整行命中
+71	Soft Target	软目标	整行命中
+72	Hard Target	硬目标	整行命中
+73	Air Target	空中目标	整行命中
+74	Naval Target	海上目标	整行命中
+75	Close Defense	近距防御	整行命中
+76	Ammo	弹药	整行命中
+77	Fire Range	射程	整行命中
+78	Close Attack	近距杀伤	整行命中
+79	Spotting Range	侦察范围	整行命中
+80	unused	unused	整行命中
+81	unused   GUI97.TXT modified by Redball March 16, 2004	unused   GUI97.TXT modified by Redball March 16, 2004	整行命中
+82	unused   requires Redball's modified PeG 2.6 or later	unused   requires Redball's modified PeG 2.6 or later	整行命中
+83	unused	unused	整行命中
+84	unused   these 8 lines with asterisks peviously used for	unused   these 8 lines with asterisks peviously used for	整行命中
+85	unused   movement types but not all names were utilized	unused   movement types but not all names were utilized	整行命中
+86	unused   complete list of movement types on lines 584-595	unused   complete list of movement types on lines 584-595	整行命中
+87	unused	unused	整行命中
+88	Hard Attack	硬目标杀伤	整行命中
+89	Soft Attack	软目标杀伤	整行命中
+90	Air Attack	对空杀伤	整行命中
+91	Naval Attack	对海杀伤	整行命中
+92	Ground Defense	对地防御	整行命中
+93	Air Defense	对空防御	整行命中
+94	Indirect Defense	远程防御	整行命中
+95	Profile	轮廓	整行命中
+96	Select Air Defense	选择防空	整行命中
+97	Select Air Defense	选择防空	整行命中
+98	Select Anti-tank	选择 AT	整行命中
+99	Select Artillery	选择炮兵	整行命中
+100	Select Infantry	选择步兵	整行命中
+101	Select Recon	选择侦察	整行命中
+102	Select Tank	选择坦克	整行命中
+103	Select Tactical Air	选择战术空军	整行命中
+104	Select Level Bomber	选择重型轰炸机	整行命中
+105	Select Tactical Bomber	选择战术轰炸机	整行命中
+106	Core	核心	整行命中
+107	Auxiliary -	辅助 -	整行命中
+108	Requisition Unit	征募部队	整行命中
+109	Scroll Up	向上滚动	整行命中
+110	Scroll Down	向下滚动	整行命中
+111	Exit	退出	整行命中
+112	Cancel	取消	整行命中
+113	Total Prestige	总威望	整行命中
+114	Available Prestige	可用威望	整行命中
+115	Expended Prestige	已用威望	整行命中
+116	Exit Deployment	退出部署	整行命中
+117	Edit Equipment	编辑装备	整行命中
+118	Load Excel Text Equipment File	载入 Excel 文本装备文件	整行命中
+119	Load Campaign Script	载入战役脚本	整行命中
+120	Save New Campaign	保存新战役	整行命中
+121	Load Scenario	载入场景	整行命中
+122	Save Scenario	保存场景	整行命中
+123	Edit Map	编辑地图	整行命中
+124	Edit Army	编辑军队	整行命中
+125	Place Army	部署军队	整行命中
+126	Clear All Victory Hexes	清除所有胜利格	整行命中
+127	Clear All Scenario Hex Info	清除所有场景格信息	整行命中
+128	Change Terrain Type	改变地形类型	整行命中
+129	Save Map	保存地图	整行命中
+130	Load Map by Name	按名称载入地图	整行命中
+131	Load Map By #	按编号载入地图	整行命中
+132	Identify Map	识别地图	整行命中
+133	Toggle Road Mode	切换道路模式	整行命中
+134	Fill Map	填充地图	整行命中
+135	Clear Roads	清除道路	整行命中
+136	Exit Edit Map	退出地图编辑	整行命中
+137	Next Army	下一方军队	整行命中
+138	Toggle Entrench Mode	切换工事模式	整行命中
+139	Enter Scenario Description	输入场景说明	整行命中
+140	Class None	无兵种	整行命中
+141	Infantry	步兵	整行命中
+142	Tank	坦克	整行命中
+143	Recon	侦察	整行命中
+144	Anti-tank	反坦克	整行命中
+145	Flak	高射炮	整行命中
+146	Fortification	防御工事	整行命中
+147	Ground Transport	地面运输	整行命中
+148	Artillery	炮兵	整行命中
+149	Air Defense	对空防御	整行命中
+150	Fighter	战斗机	整行命中
+151	Strategic Support	战略支援	整行命中
+152	Tactical Air	战术空军	整行命中
+153	Air Transport	运输机	整行命中
+154	Submarine	潜艇	整行命中
+155	Destroyer	驱逐舰	整行命中
+156	Battleship	战列舰	整行命中
+157	Carrier	运输车	整行命中
+158	Naval Transport	海军运输舰	整行命中
+159	Battle Cruiser	战列巡洋舰	整行命中
+160	Cruiser	巡洋舰	整行命中
+161	Light Cruiser	轻巡洋舰	整行命中
+162	Play A Campaign	进行战役	整行命中
+163	Play A Scenario	进行场景	整行命中
+164	Start A Multiplayer Scenario	开始多人场景	整行命中
+165	Show The Credits	显示制作人员	整行命中
+166	Start The Scenario Builder	启动场景编辑器	整行命中
+167	Load A Saved Game	载入存档	整行命中
+168	Review A Dossier -	查看战后报告 -	整行命中
+169	Show The Introduction	显示片头	整行命中
+170	Exit The Game	退出游戏	整行命中
+171	Dry	干燥	整行命中
+172	Frozen	冻结	整行命中
+173	Turn	回合	整行命中
+174	January	一月	整行命中
+175	February	二月	整行命中
+176	March	马奇	整行命中
+177	April	四月	整行命中
+178	May	五月	整行命中
+179	June	六月	整行命中
+180	July	七月	整行命中
+181	August	八月	整行命中
+182	September	九月	整行命中
+183	October	十月	整行命中
+184	November	十一月	整行命中
+185	December	十二月	整行命中
+186	Fair	晴好	整行命中
+187	Overcast	阴天	整行命中
+188	Rain	雨天	整行命中
+189	Snow	雪天	整行命中
+190	Turns	回合数	整行命中
+191	Unlimited Turns - ?	无限回合 - ?	整行命中
+192	Current Strength	当前兵力	整行命中
+193	Experience	经验	整行命中
+194	Leader	指挥官	整行命中
+195	Unit Has Transport	部队有运输工具	整行命中
+196	Unit Has Moved	部队已行动	整行命中
+197	Congratulations on your Victory	祝贺你取得胜利	整行命中
+198	Demo Version 1.0 -	演示版 1.0 -	整行命中
+199	Next Country	下一国家	整行命中
+200	Previous Country	上一国家	整行命中
+201	Total Cost Of Unit	部队总成本	整行命中
+202	Cost of Equipment	装备成本	整行命中
+203	Available	可用	整行命中
+204	Casualties Inflicted	造成伤亡	整行命中
+205	Casualties Taken	承受伤亡	整行命中
+206	Entrenchment	堑壕	整行命中
+207	Assaulting	突击中	整行命中
+208	Attacking	攻击中	整行命中
+209	Strategic Bombing -	战略轰炸 -	整行命中
+210	Interceptors	拦截机	整行命中
+211	Air Defense	对空防御	整行命中
+212	Close Support Fire	近距支援火力	整行命中
+213	Support Fire	支援火力	整行命中
+214	Reactive Defense!	防御反击！	整行命中
+215	Attack Broken Off!	攻击中止！	整行命中
+216	Surrender	投降	整行命中
+217	Fleeing Port	弃港而逃	整行命中
+218	Scuttling	自沉	整行命中
+219	Have %s	拥有 %s	整行命中
+220	%d victory hexes for %s	%d 个胜利格属于 %s	整行命中
+221	%s turn %d of %d	%s 第 %d 回合，共 %d 回合	整行命中
+222	Suppressed	已压制	整行命中
+223	Destroyed	已击毁	整行命中
+224	LAN Connection	局域网连接	整行命中
+225	Internet Connection	互联网连接	整行命中
+226	Free Internet Play on mplayer.com	mplayer.com 免费联机	整行命中
+227	Internet List -	互联网列表 -	整行命中
+228	Create Game	创建游戏	整行命中
+229	Join Game	加入游戏	整行命中
+230	Enter Your Player Name	输入你的玩家名	整行命中
+231	Enter The Game Name	输入游戏名称	整行命中
+232	Show Scenario Save Games	显示场景存档	整行命中
+233	Show Campaign Save Games	显示战役存档	整行命中
+234	Show Multiplayer Save Games	显示多人存档	整行命中
+235	Show Email Games	显示邮件对战	整行命中
+236	Save Game	保存游戏	整行命中
+237	Load Game	载入游戏	整行命中
+238	Up One Level	向上一级	整行命中
+239	Create Directory	创建目录	整行命中
+240	New Game	新游戏	整行命中
+241	Successfully Saved	保存成功	整行命中
+242	WAS NOT SAVED-ERROR	保存失败-错误	整行命中
+243	No File Description	无文件说明	整行命中
+244	Deploy Forces	部署部队	整行命中
+245	Name Scenario	命名场景	整行命中
+246	Starting Date	起始日期	整行命中
+247	Number Of Turns	回合数	整行命中
+248	Start Day or Night	起始昼夜	整行命中
+249	Ground Conditions	地面状况	整行命中
+250	ATMOSPHERIC CONDITIONS	大气状况	整行命中
+251	Scenario Description	场景说明	整行命中
+252	Designate Supply	指定补给	整行命中
+253	Designate Victory	指定胜利	整行命中
+254	Designate Ownership	指定归属	整行命中
+255	Designate Deployment	指定部署	整行命中
+256	Build Army	组建军队	整行命中
+257	Unit Settings	部队设置	整行命中
+258	Deploy Army	部署军队	整行命中
+259	Set Prestige	设置威望	整行命中
+260	Scenario Parameters	场景参数	整行命中
+261	Prestige Allocated Per Turn	每回合分配威望	整行命中
+262	Unit Names	部队名称	整行命中
+263	Make Global Settings	进行全局设置	整行命中
+264	Scott and Rick Say Hi!	Scott 与 Rick 向您问好！	整行命中
+265	Enter An IP Address	输入 IP 地址	整行命中
+266	Are You Sure You Want to Quit?	确定要退出游戏吗？	整行命中
+267	Empty Slot	空档位	整行命中
+268	Yes	是	整行命中
+269	No	否	整行命中
+270	No Leader Power	无指挥官技能	整行命中
+271	Terrain Expert	地形专家	整行命中
+272	Aggressive Maneuver	勇猛机动	整行命中
+273	Force Recon	精锐侦察	整行命中
+274	Tank Killer	坦克杀手	整行命中
+275	Enhanced Radar	强化雷达	整行命中
+276	Multiple Fire Support	多重火力支援	整行命中
+277	Stealth Pilot	隐形飞行员	整行命中
+278	Skilled Assault	精锐突击	整行命中
+279	Aggressive Attack	勇猛攻击	整行命中
+280	Determined Defense	坚定防御	整行命中
+281	Sixth Sense	第六感	整行命中
+282	First Strike	先发制人	整行命中
+283	Resilience	坚韧	整行命中
+284	Influence	影响力	整行命中
+285	Fire Discipline	射击纪律	整行命中
+286	Ground Taker	攻坚专家	整行命中
+287	Rangers	游骑兵	整行命中
+288	All Weather Combat	全天候作战	整行命中
+289	Blitzer	闪电战	整行命中
+290	Motivator	激励者	整行命中
+291	Tunnel Rats	坑道兵	整行命中
+292	Aggressive Maneuver	勇猛机动	整行命中
+293	Skilled Reconnaissance	侦察专家	整行命中
+294	Recon Movement	侦察机动	整行命中
+295	Marksman	神射手	整行命中
+296	Street Fighter	巷战专家	整行命中
+297	Overwhelming Attack	压倒性攻击	整行命中
+298	Infiltrator	渗透者	整行命中
+299	Camouflage Expert	伪装专家	整行命中
+300	Ferocious Defender	凶悍防御	整行命中
+301	Overwatch	警戒射击	整行命中
+302	Devastating Fire	毁灭射击	整行命中
+303	River Assault	渡河突击	整行命中
+304	Shock Tactics	震慑战术	整行命中
+305	The Rock	磐石	整行命中
+306	Quartermaster	军需官	整行命中
+307	Sharpshooter	精准射手	整行命中
+308	Defender	防御者	整行命中
+309	Smart Gambler	精明赌徒	整行命中
+310	Skirmisher	散兵	整行命中
+311	Ambusher	伏击者	整行命中
+312	Shoot and Scoot	打了就跑	整行命中
+313	Liberator	解放者	整行命中
+314	Random Leader Power	随机指挥官技能	整行命中
+315	Axis Turn	轴心回合	整行命中
+316	Allied Turn	盟军回合	整行命中
+317	Weather : %s, %s	天气：%s，%s	整行命中
+318	Fair	晴好	整行命中
+319	Overcast	阴天	整行命中
+320	Rain	雨天	整行命中
+321	Snow	雪天	整行命中
+322	Review Best Careers	查看最佳战绩	整行命中
+323	Enter Password	输入密码	整行命中
+324	You have Been Awarded A PROTOTYPE UNIT	你被授予一支原型部队	整行命中
+325	Review Battlefield	查看战场	整行命中
+326	Overrunning	碾压中	整行命中
+327	Lost Connection With Player	与玩家失去连接	整行命中
+328	Lost Session	会话丢失	整行命中
+329	Exchange Unit	交换部队	整行命中
+330	Hard Target	硬目标	整行命中
+331	Soft Target	软目标	整行命中
+332	DECREASE DIFFICULTY  (Increase Player Prestige % )	降低难度（提高玩家威望 %）	整行命中
+333	INCREASE DIFFICULTY  (Decrease Player Prestige % )	提高难度（降低玩家威望 %）	整行命中
+334	Player Prestige Percentage	玩家威望百分比	整行命中
+335	Computer Player	电脑玩家	整行命中
+336	Human Player	人类玩家	整行命中
+337	INCREASE DIFFICULTY  (Increase AI Prestige % )	提高难度（提高电脑威望 %）	整行命中
+338	DECREASE DIFFICULTY  (Decrease AI Prestige % )	降低难度（降低电脑威望 %）	整行命中
+339	Computer Prestige Percentage	电脑威望百分比	整行命中
+340	Next	下一项	整行命中
+341	Choose Connection	选择连接方式	整行命中
+342	Number Of Players In Game	游戏玩家数	整行命中
+343	Create Or Join Game	创建或加入游戏	整行命中
+344	Choose Game To Join	选择要加入的游戏	整行命中
+345	Set Scenario Time Limit	设置场景时限	整行命中
+346	Set Time Limit	设置时限	整行命中
+347	Set Time Limit	设置时限	整行命中
+348	Enter Scenario Name	输入场景名称	整行命中
+349	Set Starting Scenario Month	设置场景起始月份	整行命中
+350	Set Starting Scenario Day	设置场景起始日期	整行命中
+351	Set Starting Scenario Year	设置场景起始年份	整行命中
+352	Increase Month	增加月份	整行命中
+353	Decrease Month	减少月份	整行命中
+354	Increase Day	增加日期	整行命中
+355	Decrease Day	减少日期	整行命中
+356	Increase Year	增加年份	整行命中
+357	Decrease Year	减少年份	整行命中
+358	Number Of Turns In Scenario	场景回合数	整行命中
+359	Increase Turns	增加回合	整行命中
+360	Decrease Turns	减少回合	整行命中
+361	Set Turns Per Day	设置每日回合数	整行命中
+362	Set Turns Per Day	设置每日回合数	整行命中
+363	Set Number Of Players	设置玩家数	整行命中
+364	Set As Axis Side	设为轴心国方	整行命中
+365	Set As Allied Side	设为盟军方	整行命中
+366	Set Primary Country	设置主国家	整行命中
+367	Set Country	设置国家	整行命中
+368	Set AI Aggressive	设为电脑进攻	整行命中
+369	Set AI Defensive	设为电脑防守	整行命中
+370	No Map Chosen For Scenario	场景未选择地图	整行命中
+371	Must Name Scenario	必须为场景命名	整行命中
+372	Must Have Players For Both Sides.	双方必须都有玩家。	整行命中
+373	Must Have Countries For All Players.	所有玩家都必须有国家。	整行命中
+374	Must Have Units For All Players.	所有玩家都必须有部队。	整行命中
+375	Must Deploy All Players Starting Units.	必须部署所有玩家的起始部队。	整行命中
+376	Must Have At Least One Victory Hex Per Player.	每名玩家至少需要一个胜利格。	整行命中
+377	Must Have At Least One Unit Deployed Per Player.	每名玩家至少需要部署一支部队。	整行命中
+378	Colonel	上校	整行命中
+379	General	上将	整行命中
+380	Field Marshal	陆军元帅	整行命中
+381	New Equipment Available	有新装备可用	整行命中
+382	PEOPLE'S GENERAL HOT KEYS	《人民将军》快捷键	整行命中
+383	FILE FUNCTIONS	文件功能	整行命中
+384	CTRL-S, Save	CTRL-S，保存	整行命中
+385	CTRL-L, Load	CTRL-L，载入	整行命中
+386	CTRL-Q, Quit People's General	CTRL-Q，退出《人民将军》	整行命中
+387	CTRL-A, Autosave	CTRL-A，自动保存	整行命中
+388	ESC, Exit current menu or screen	ESC，退出当前菜单或界面	整行命中
+389	(If on Start Screen, exits game)	（在开始画面按则退出游戏）	整行命中
+390	MENU FUNCTIONS	菜单功能	整行命中
+391	N - Next Unit	N - 下一部队	整行命中
+392	X - Cancel Move	X - 取消移动	整行命中
+393	R - Requisition	R - 征募	整行命中
+394	D - Deploy	D - 部署	整行命中
+395	F - Field HQ	F - 战地司令部	整行命中
+396	B - Unit Battle Record	B - 部队战斗记录	整行命中
+397	V - View Unit	V - 查看部队	整行命中
+398	A - Air Mode	A - 空中模式	整行命中
+399	S - Strategic Map	S - 战略地图	整行命中
+400	G - Dossier	G - 战后报告	整行命中
+401	C - Chat	C - 聊天	整行命中
+402	T - Toggle pop-up screen text	T - 切换弹出界面文本	整行命中
+403	O - Omit selected unit from the	O - 将所选部队从该回合的	整行命中
+404	Next unit cycle for that turn	下一部队循环中略过	整行命中
+405	P - Previous Unit	P - 上一部队	整行命中
+406	M - Air Mission	M - 空中任务	整行命中
+407	SHIFT-F, Toggle full screen	SHIFT-F，切换全屏	整行命中
+408	Space - Center on currently selected unit	空格 - 以当前所选部队为中心	整行命中
+409	Arrow Keys - Scroll Map	方向键 - 滚动地图	整行命中
+410	ADDITIONAL OPTIONS	更多选项	整行命中
+411	1 - Status Report	1 - 状态报告	整行命中
+412	2 - Hot Key List	2 - 快捷键列表	整行命中
+413	3 - Sound Effects Toggle	3 - 音效开关	整行命中
+414	4 - Music Toggle	4 - 音乐开关	整行命中
+415	5 - VCR Panel	5 - VCR 面板	整行命中
+416	6 - View Terrain	6 - 查看地形	整行命中
+417	7 - Hexes Toggle	7 - 网格开关	整行命中
+418	8 - Toggle Unit Strength Boxes	8 - 切换部队兵力框	整行命中
+419	VIEW UNIT FUNCTIONS	查看部队功能	整行命中
+420	ALT-E, Embark - Disembark	ALT-E，登船 - 登陆	整行命中
+421	ALT-S, Supply	ALT-S，补给	整行命中
+422	ALT-R, Replacements	ALT-R，补充兵员	整行命中
+423	List Of Hot Keys	快捷键列表	整行命中
+424	Status Report	状态报告	整行命中
+425	Reinforcements have arrived	增援已抵达	整行命中
+426	Do You Want Air Transport?	要使用空运吗？	整行命中
+427	Replay Email Opponent's Turn	回放邮件对手回合	整行命中
+428	Play	播放	整行命中
+429	Stop	停止	整行命中
+430	Fast Forward	快进	整行命中
+431	Rewind	快退	整行命中
+432	Are you sure you wish to remove this unit?	确定要移除该部队吗？	整行命中
+433	Rename Unit	重命名部队	整行命中
+434	Battle Honors	战斗荣誉	整行命中
+435	Air Transport Available:	可用空运：	整行命中
+436	Sea Transport Available:	可用海运：	整行命中
+437	Enter a Game Description	输入游戏说明	整行命中
+438	Surprised!	措手不及！	整行命中
+439	Surprise Attack!	突袭！	整行命中
+440	Surprise Contact!	意外接触！	整行命中
+441	Done	完成	整行命中
+442	Music On-Off	音乐开/关	整行命中
+443	Sound Effects On-Off	音效开/关	整行命中
+444	in	于	整行命中
+445	Incorrect Password	密码错误	整行命中
+446	Global Prestige	全局威望	整行命中
+447	Quit	退出	整行命中
+448	SHIFT-E, End Turn	SHIFT-E，结束回合	整行命中
+449	Load Scenario	载入场景	整行命中
+450	AUTOSAVE SCENARIO	自动保存场景	整行命中
+451	AUTOSAVE CAMPAIGN	自动保存战役	整行命中
+452	Change Commands	更改指令	整行命中
+453	Requisition	征募	整行命中
+454	Field Headquarters	战地司令部	整行命中
+455	Dossier	战后报告	整行命中
+456	Upgrade	升级	整行命中
+457	Build Army	组建军队	整行命中
+458	Viewing Unit Record	查看部队记录	整行命中
+459	Done	完成	整行命中
+460	Last Turn	上一回合	整行命中
+461	Enter Scenario Name	输入场景名称	整行命中
+462	Failed To Open Session	打开会话失败	整行命中
+463	PeG-WW2 Version 2.7c  (19 Aug 2004 game engine modifications by Redball)	PeG-WW2 版本 2.7c（2004年8月19日 Redball 修改引擎）	整行命中
+464	Scenario Builder	场景编辑器	整行命中
+465	Tactical Air flee!	战术空军逃逸！	整行命中
+466	Ignore Entrenchments	无视工事	整行命中
+467	Bridging Engineers	架桥工兵	整行命中
+468	Paratroop	伞兵	整行命中
+469	Deploy and Supply	部署与补给	整行命中
+470	River Assault	渡河突击	整行命中
+471	Light Infantry	轻步兵	整行命中
+472	Destroys Entrenchments	摧毁工事	整行命中
+473	Entrenches Quickly	快速构筑工事	整行命中
+474	Wild Weasel	防空压制	整行命中
+475	Air Strike	空中打击	整行命中
+476	Recon	侦察	整行命中
+477	Interdiction	空中封锁	整行命中
+478	Defensive Support	防御支援	整行命中
+479	Airlift	空运	整行命中
+480	Naval Transport	海军运输舰	整行命中
+481	Cost	造价	整行命中
+482	Day	昼	整行命中
+483	Night	夜	整行命中
+484	Month	月	整行命中
+485	Year	年	整行命中
+486	Current Air Points	当前空中点数	整行命中
+487	Mission Cost	出击成本	整行命中
+488	Air Missions	空中任务	整行命中
+489	Subtract One Mission	减少一次出击	整行命中
+490	Add One Mission	增加一次出击	整行命中
+491	Cancel All Missions	取消全部出击	整行命中
+492	View Battle Record	查看战斗记录	整行命中
+493	Air Defense Killed	击毁防空	整行命中
+494	Anti-tank Killed	击毁反坦克	整行命中
+495	Artillery Killed	击毁炮兵	整行命中
+496	Infantry Killed	击毁步兵	整行命中
+497	Recon Killed	击毁侦察	整行命中
+498	Tanks Killed	击毁坦克	整行命中
+499	Tactical Air Killed	击毁战术空军	整行命中
+500	Planes Killed	击落飞机	整行命中
+501	Kills	击毁数	整行命中
+502	Select Unit For Upgrade	选择要升级的部队	整行命中
+503	Select Upgrade For Unit	为部队选择升级	整行命中
+504	Examine Unit	查看部队	整行命中
+505	Select Unit For Purchase	选择要购买的部队	整行命中
+506	Adjust Air Superiority	调整制空权	整行命中
+507	Rename General	重命名将军	整行命中
+508	Victory Medals	胜利勋章	整行命中
+509	Victory Hexes Captured	已占领胜利格	整行命中
+510	Air Superiority Percentage %d	制空权百分比 %d	整行命中
+511	Increase Strength	增强兵力	整行命中
+512	Decrease Strength	削弱兵力	整行命中
+513	Air Mission Aborted!	出击中止！	整行命中
+514	PRESTIGE BONUS!	威望奖励！	整行命中
+515	LEADER ASSIGNED!	指挥官已任命！	整行命中
+516	TROOP IMPROVEMENT!	部队提升！	整行命中
+517	MORE AIR MISSIONS!	更多空中任务！	整行命中
+518	ADVANCED EQUIPMENT!	先进装备！	整行命中
+519	Choose Scenario to Edit	选择要编辑的场景	整行命中
+520	Choose Map for Scenario	为场景选择地图	整行命中
+521	Configure Game	配置游戏	整行命中
+522	Configure Player	配置玩家	整行命中
+523	Edit Player 1	编辑玩家 1	整行命中
+524	Edit Player 2	编辑玩家 2	整行命中
+525	Edit Player 3	编辑玩家 3	整行命中
+526	Edit Player 4	编辑玩家 4	整行命中
+527	Editing Player 1	正在编辑玩家 1	整行命中
+528	Editing Player 2	正在编辑玩家 2	整行命中
+529	Editing Player 3	正在编辑玩家 3	整行命中
+530	Editing Player 4	正在编辑玩家 4	整行命中
+531	Designate Victory Hexes	指定胜利格	整行命中
+532	Designate Supply Hexes	指定补给格	整行命中
+533	Designate Trigger Hexes	指定触发格	整行命中
+534	Designate Reaction Hexes	指定反应格	整行命中
+535	Adjust Units	调整部队	整行命中
+536	Next Screen	下一屏	整行命中
+537	New Scenario	新场景	整行命中
+538	CHOOSE SCENARIO	选择场景	整行命中
+539	SELECT MAP	选择地图	整行命中
+540	Turns For Brilliant Victory	决胜胜利所需回合	整行命中
+541	Turns For Victory	胜利所需回合	整行命中
+542	Turns For Marginal	险胜所需回合	整行命中
+543	Increase Air Superiority	提高制空权	整行命中
+544	Decrease Air Superiority	降低制空权	整行命中
+545	(A) Tropical Humid	(A) 热带湿润	整行命中
+546	(B) Dry	(B) 干燥	整行命中
+547	(C) Warm Temperate	(C) 暖温带	整行命中
+548	(D) Cold Temperate	(D) 冷温带	整行命中
+549	(E) Polar	(E) 极地	整行命中
+550	Set Axis Required VH Captures	设定轴心国所需夺取的胜利点	整行命中
+551	Set Allied Required VH Captures	设定盟军所需夺取的胜利点	整行命中
+552	AI must capture ALL VH to win	电脑须夺取全部胜利点方可获胜	整行命中
+553	AI can capture ANY VH to win	电脑夺取任一胜利点即可获胜	整行命中
+554	Scenario Title	场景标题	整行命中
+555	Weather	天气	整行命中
+556	Climate Type	气候类型	整行命中
+557	Axis Starting Air Level	轴心国初始空中等级	整行命中
+558	Allied Starting Air Level	盟军初始空中等级	整行命中
+559	Increase Air Mission Pts	提高空中任务点数	整行命中
+560	Decrease Air Mission Pts	降低空中任务点数	整行命中
+561	Player Air Mission Pts	玩家空中任务点数	整行命中
+562	Increase Prestige	增加威望	整行命中
+563	Decrease Prestige	减少威望	整行命中
+564	Player Prestige	玩家威望	整行命中
+565	Alter Unit Leader	更改部队指挥官	整行命中
+566	NAME UNIT	部队名称	整行命中
+567	Increase Experience	增加经验	整行命中
+568	Decrease Experience	减少经验	整行命中
+569	LEADERS	指挥官	整行命中
+570	Requisition Elite Unit	征募精锐部队	整行命中
+571	Requisition Veteran Unit	征募老兵部队	整行命中
+572	Requisition Regular Unit	征募正规部队	整行命中
+573	Campaign Selection Screen	战役选择画面	整行命中
+574	Scenario Selection Screen	场景选择画面	整行命中
+575	Tips	提示	整行命中
+576	Strength: %d/%d	兵力：%d/%d	整行命中
+577	Tactical Operations	战术行动	整行命中
+578	If you exit you will lose your work. Do you still want to exit?	退出将丢失你的工作。仍要退出吗？	整行命中
+579	Edit This Scenario	编辑此场景	整行命中
+580	Create New Scenario	创建新场景	整行命中
+581	%d Experience Regulars	%d 经验正规兵	整行命中
+582	%d Experience Veterans	%d 经验老兵	整行命中
+583	%d Experience Elites	%d 经验精锐	整行命中
+584	Bad Weather! Air units are significantly reduced in effectiveness!	恶劣天气！空中单位的效能大幅下降！	整行命中
+585	Tracked	履带式	整行命中
+586	Half-Tracked	半履带式	整行命中
+587	Wheeled	轮式	整行命中
+588	Leg	徒步	整行命中
+589	Light Tracked	轻型履带式	整行命中
+590	Air	空中	整行命中
+591	Deep Naval	远洋	整行命中
+592	Coastal	近海	整行命中
+593	All Terrain-Vehicle	全地形车辆	整行命中
+594	Amphibious	两栖	整行命中
+595	Guerilla	游击队	整行命中
+596	Ranger	游骑兵	整行命中
+597	Fly The Planned Air Missions	执行已规划的出击	整行命中
+598	Exit Mission Planning (no air missions flown)	退出任务规划（不执行任何出击）	整行命中
+599	---------	---------	整行命中
+600	lines below this are not referenced	lines below this are not referenced	整行命中
+601	maximum GUI length = 1000 lines	maximum GUI length = 1000 lines	整行命中
+602	GUIWW2 -- This is the GUI97 specifically for PEGWW2.EXE version 2.7 or higher	GUIWW2 -- This is the GUI97 specifically for PEGWW2.EXE version 2.7 or higher	整行命中
+603	file date:  16 August 2004	file date:  16 August 2004	整行命中
+604	total lines = 604	total lines = 604	整行命中
+605			

@@ -1,0 +1,315 @@
+﻿efile	file	line	乱码原样(cp1252读)	UTF-8真值	ASCII折写	中文(已有)	备注
+EFILE_ATOMIC	SCENARIO/blitz37bv.txt	9	Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯	¯¯¯¯¯¯¯¯	        		
+EFILE_ATOMIC	SCENARIO/blitz37tv.txt	9	Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯	¯¯¯¯¯¯¯¯	        		
+EFILE_ATOMIC	SCENARIO/blitz37v.txt	9	Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯	¯¯¯¯¯¯¯¯	        		
+EFILE_ATOMIC	SCENARIO/kriegs10i.txt	9	PICTURE: The German destroyer Leberecht Maass, c.â€‰1 January 1938, taken from wikipedia	PICTURE: The German destroyer Leberecht Maass, c. 1 January 1938, taken from wikipedia	PICTURE: The German destroyer Leberecht Maass, c. 1 January 1938, taken from wikipedia		
+EFILE_ATOMIC	SCENARIO/Kriegs28i.txt	7	PICTURE: General De Gaulle inspecting sailors on LÃ©opard at Greenock in June 1942, taken from wikipedia.	PICTURE: General De Gaulle inspecting sailors on Léopard at Greenock in June 1942, taken from wikipedia.	PICTURE: General De Gaulle inspecting sailors on Leopard at Greenock in June 1942, taken from wikipedia.		
+EFILE_ATOMIC	SCENARIO/Kriegs41i.txt	1	Î¤Î¿ Î³ÎµÎ½Î¹ÎºÏŒ ÎµÏ€Î¹Ï„ÎµÎ»ÎµÎ¯Î¿ Î±Ï€Î¿Ï†Î¬ÏƒÎ¹ÏƒÎµ Î½Î± ÎµÎ³ÎºÎ±Ï„Î±Î»ÎµÎ¯ÏˆÎ¿Ï…Î½ Î¿Î¹ Ï€ÎµÎ¶Î¿Î½Î±Ï�Ï„ÎµÏ‚ Ï„Î·Î½ Î Î±Î½Ï„ÎµÎ»Î­Ï�Î¹Î± ÎºÎ±Î¹ Î½Î± ÎµÏ€Î¹ÏƒÏ„Ï�Î­ÏˆÎ¿Ï…Î½ ÏƒÏ„Î·Î½ ÎœÎµÏƒÎ¯Î½Î±. Î¤Î± ÎµÎ»Î±Ï†Ï�Î¹Î¬ ÏƒÎ¿Ï… Ï€Î»Î¿Î¯Î± Î±Ï€ÏŒ Ï„Î± Î²Î¿Ï�ÎµÎ¹Î¿Î´Ï…Ï„Î¹ÎºÎ¬ Ï€Ï�Î­Ï€ÎµÎ¹ Î³Ï�Î®Î³Î¿Ï�Î± Î½Î± Î²Î¿Î·Î¸Î®ÏƒÎ¿Ï…Î½ ÏƒÏ„Î·Î½ Î±Ï€Î¿Î²Î¯Î²Î±ÏƒÎ· Ï„Î¿Ï…Ï‚.	Το γενικό επιτελείο αποφάσισε να εγκαταλείψουν οι πεζοναύτες την Παντελέρια και να επιστρέψουν στην Μεσίνα. Τα ελαφριά σου πλοία από τα βορειοδυτικά πρέπει γρήγορα να βοηθήσουν στην αποβίβαση τους.	Το γενικο επιτελειο αποφασισε να εγκαταλειψουν οι πεζοναυτες την Παντελερια και να επιστρεψουν στην Μεσινα. Τα ελαφρια σου πλοια απο τα βορειοδυτικα πρεπει γρηγορα να βοηθησουν στην αποβιβαση τους.		
+EFILE_ATOMIC	SCENARIO/Kriegs41i.txt	2	ÎˆÏ‡Î¿Ï…Î¼Îµ Ï€Î»Î·Ï�Î¿Ï†Î¿Ï�Î¯ÎµÏ‚ ÏŒÏ„Î¹ ÏŒÎ»Î· Î· Î£Î¹ÎºÎµÎ»Î¯Î± ÎµÎ¯Î½Î±Î¹ Ï€ÎµÏ�Î¹ÎºÏ…ÎºÎ»Ï‰Î¼Î­Î½Î· Î±Ï€ÏŒ ÎµÏ‡Î¸Ï�Î¹ÎºÎ¬ Ï…Ï€Î¿Î²Ï�Ï�Ï‡Î¹Î± Ï€Î¿Ï… ÎµÏ€Î¹Ï‡ÎµÎ¹Ï�Î¿Ï�Î½ Î½Î± ÎµÎ¾Î±Î»ÎµÎ¯ÏˆÎ¿Ï…Î½ ÎºÎ±Î¹ Ï„Î± Ï„ÎµÎ»ÎµÏ…Ï„Î±Î¯Î± Î™Ï„Î±Î»Î¹ÎºÎ¬ Ï€Î»Î¿Î¯Î±.	Έχουμε πληροφορίες ότι όλη η Σικελία είναι περικυκλωμένη από εχθρικά υποβρύχια που επιχειρούν να εξαλείψουν και τα τελευταία Ιταλικά πλοία.	Εχουμε πληροφοριες οτι ολη η Σικελια ειναι περικυκλωμενη απο εχθρικα υποβρυχια που επιχειρουν να εξαλειψουν και τα τελευταια Ιταλικα πλοια.		
+EFILE_KAISER	SCENARIO/rhu190416_i.txt	5	"Comrade Commisar, the situation is dangerous. After our new, revolutionary government refused to retreat behind the new demarcation lines, the imperialist hyenas insited their capitalist lapdogs, the Romanian and the so called ""Czechoslovakian"" reactionists. They mobilized their armies and attacked our weak, inexperienced troops. Your job is securing the railway station at NagykÃ¡roly as long as possible to cover our retreat."	"Comrade Commisar, the situation is dangerous. After our new, revolutionary government refused to retreat behind the new demarcation lines, the imperialist hyenas insited their capitalist lapdogs, the Romanian and the so called ""Czechoslovakian"" reactionists. They mobilized their armies and attacked our weak, inexperienced troops. Your job is securing the railway station at Nagykároly as long as possible to cover our retreat."	"Comrade Commisar, the situation is dangerous. After our new, revolutionary government refused to retreat behind the new demarcation lines, the imperialist hyenas insited their capitalist lapdogs, the Romanian and the so called ""Czechoslovakian"" reactionists. They mobilized their armies and attacked our weak, inexperienced troops. Your job is securing the railway station at Nagykaroly as long as possible to cover our retreat."		
+EFILE_KAISER	SCENARIO/rhu190416_i.txt	7	ORDER: Hold at least one VH, keep your MSU alive and move it onto the Escape Hex at NagykÃ¡roly.	ORDER: Hold at least one VH, keep your MSU alive and move it onto the Escape Hex at Nagykároly.	ORDER: Hold at least one VH, keep your MSU alive and move it onto the Escape Hex at Nagykaroly.		
+EFILE_LXF	SCENARIO/gg02wizna_i.txt	15	From this scenario onwards through the campaign there will be 1 Air Transport available so you may wish to purchase or upgrade to a FallshirmjÃ¤ger.	From this scenario onwards through the campaign there will be 1 Air Transport available so you may wish to purchase or upgrade to a Fallshirmjäger.	From this scenario onwards through the campaign there will be 1 Air Transport available so you may wish to purchase or upgrade to a Fallshirmjager.		
+EFILE_LXF	SCENARIO/ggopengg2.txt	30	LXF Conversion: Csaba ZsadÃ¡nyi-Nagy, based on GG for OpenAK v3.0	LXF Conversion: Csaba Zsadányi-Nagy, based on GG for OpenAK v3.0	LXF Conversion: Csaba Zsadanyi-Nagy, based on GG for OpenAK v3.0		
+EFILE_OLGWW2	names.txt	779	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	787	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	789	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	791	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	793	LÃ³pez Pinto	López Pinto	Lopez Pinto	洛佩斯·平托	
+EFILE_OLGWW2	names.txt	794	MillÃ¡n Astray	Millán Astray	Millan Astray	米连·阿斯特赖	
+EFILE_OLGWW2	names.txt	798	MoscardÃ³	Moscardó	Moscardo	莫斯科阿多	
+EFILE_OLGWW2	names.txt	799	MuÅ„oz Grandes	Muńoz Grandes	Munoz Grandes	穆尼奥斯·格兰德斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	800	NÃºÅ„ez de Olaneta	Núńez de Olaneta	Nunez de Olaneta	努涅斯·德奥拉内塔	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	806	YagÃ¼e	Yagüe	Yague	亚圭	
+EFILE_OLGWW2	names.txt	809	CalderÃ³n	Calderón	Calderon	卡尔德龙	
+EFILE_OLGWW2	names.txt	811	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	812	DÃ­az	Díaz	Diaz	迪亚斯	
+EFILE_OLGWW2	names.txt	816	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	818	GutiÃ©rrez	Gutiérrez	Gutierrez	古铁雷斯	
+EFILE_OLGWW2	names.txt	819	KlÃ©ber	Kléber	Kleber	克莱贝尔	
+EFILE_OLGWW2	names.txt	821	LÃ­ster	Líster	Lister	利斯特尔	
+EFILE_OLGWW2	names.txt	825	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	830	EspÃ­n	Espín	Espin	埃斯平	
+EFILE_OLGWW2	names.txt	831	TagueÅ„a	Tagueńa	Taguena	塔格涅亚	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	837	GarcÃ­a Tirador	García Tirador	Garcia Tirador	加西亚·蒂拉多尔	
+EFILE_OLGWW2	names.txt	1032	GonÃ§alvo	Gonçalvo	Goncalvo	贡萨洛	
+EFILE_OLGWW2	names.txt	1047	GonÃ§alvo	Gonçalvo	Goncalvo	贡萨洛	
+EFILE_OLGWW2	names.txt	1242	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1244	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	1247	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1249	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	1252	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	1254	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1256	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1259	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	1264	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1265	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1266	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	1268	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	1271	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1272	BermÃºdez	Bermúdez	Bermudez	贝穆德斯	
+EFILE_OLGWW2	names.txt	1273	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1278	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1279	SÃ¡nchez	Sánchez	Sanchez	桑切斯	
+EFILE_OLGWW2	names.txt	1283	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	1285	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1287	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1290	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	1295	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1296	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1297	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	1299	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	1302	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1304	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1306	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	1309	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1311	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	1314	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	1316	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1318	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1321	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	1326	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1327	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1328	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	1330	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	1333	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1335	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1337	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	1340	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1342	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	1345	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	1347	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1349	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1352	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	1357	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1358	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1359	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	1361	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	1364	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1614	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1616	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	1619	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1621	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	1624	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	1626	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1628	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1631	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	1636	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1637	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1638	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	1640	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	1643	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1799	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1801	CalderÃ³n	Calderón	Calderon	卡尔德龙	
+EFILE_OLGWW2	names.txt	1803	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	1804	DÃ­az	Díaz	Diaz	迪亚斯	
+EFILE_OLGWW2	names.txt	1806	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	1807	ArgÃ¼elles	Argüelles	Arguelles	阿圭列斯	
+EFILE_OLGWW2	names.txt	1808	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	1810	GutiÃ©rrez	Gutiérrez	Gutierrez	古铁雷斯	
+EFILE_OLGWW2	names.txt	1811	BermÃºdez	Bermúdez	Bermudez	贝穆德斯	
+EFILE_OLGWW2	names.txt	1813	RodrÃ­guez	Rodríguez	Rodriguez	罗德里格斯	
+EFILE_OLGWW2	names.txt	1817	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	1822	SabÃ­n	Sabín	Sabin	萨宾	
+EFILE_OLGWW2	names.txt	1823	TagueÅ„a	Tagueńa	Taguena	塔格涅亚	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	1829	GarcÃ­a Tirador	García Tirador	Garcia Tirador	加西亚·蒂拉多尔	
+EFILE_OLGWW2	names.txt	1883	MÃ¼ller	Müller	Muller	米勒	
+EFILE_OLGWW2	names.txt	1887	KÃ¼ntz	Küntz	Kuntz	金茨	
+EFILE_OLGWW2	names.txt	1889	KÃ¶hler	Köhler	Kohler	克勒	
+EFILE_OLGWW2	names.txt	1892	SÃ¼kÃ¼r	Sükür	Sukur	苏库尔	
+EFILE_OLGWW2	names.txt	1897	Ã‡elebi	Çelebi	Celebi	切莱比	
+EFILE_OLGWW2	names.txt	1903	InÃ¶nÃ¼	Inönü	Inonu	伊诺努	
+EFILE_OLGWW2	names.txt	1904	IpekÃ§i	Ipekçi	Ipekci	伊佩克奇	
+EFILE_OLGWW2	names.txt	1906	KÃ¼Ã§Ã¼k	Küçük	Kucuk	屈奇克	
+EFILE_OLGWW2	names.txt	1908	BastÃ¼rk	Bastürk	Basturk	巴斯图尔克	
+EFILE_OLGWW2	names.txt	1909	Ã–kte	Ökte	Okte	厄克特	
+EFILE_OLGWW2	names.txt	1916	BastÃ¼rk	Bastürk	Basturk	巴斯图尔克	
+EFILE_OLGWW2	names.txt	1917	Ã–kte	Ökte	Okte	厄克特	
+EFILE_OLGWW2	names.txt	1956	MÃ¼ller	Müller	Muller	米勒	
+EFILE_OLGWW2	names.txt	1960	KÃ¼ntz	Küntz	Kuntz	金茨	
+EFILE_OLGWW2	names.txt	1962	KÃ¶hler	Köhler	Kohler	克勒	
+EFILE_OLGWW2	names.txt	1993	GonÃ§alvo	Gonçalvo	Goncalvo	贡萨洛	
+EFILE_OLGWW2	names.txt	2008	GonÃ§alvo	Gonçalvo	Goncalvo	贡萨洛	
+EFILE_OLGWW2	names.txt	2017	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	2019	BarrÃ³n	Barrón	Barron	巴龙	
+EFILE_OLGWW2	names.txt	2022	MenÃ©ndez	Menéndez	Menendez	梅嫩德斯	
+EFILE_OLGWW2	names.txt	2024	DÃ¡vila	Dávila	Davila	达维拉	
+EFILE_OLGWW2	names.txt	2027	FernÃ¡ndez	Fernández	Fernandez	费尔南德斯	
+EFILE_OLGWW2	names.txt	2029	GarcÃ­a	García	Garcia	加西亚	
+EFILE_OLGWW2	names.txt	2031	GÃ³mez	Gómez	Gomez	戈麦斯	
+EFILE_OLGWW2	names.txt	2034	LÃ³pez	López	Lopez	洛佩斯	
+EFILE_OLGWW2	names.txt	2039	MuÅ„oz	Muńoz	Munoz	穆尼奥斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	2040	NuÅ„ez	Nuńez	Nunez	努涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	2041	PÃ©rez	Pérez	Perez	佩雷斯	
+EFILE_OLGWW2	names.txt	2043	SacristÃ¡n	Sacristán	Sacristan	萨克里斯坦	
+EFILE_OLGWW2	names.txt	2046	YaÅ„ez	Yańez	Yanez	亚涅斯	上游笔误: ń应为ñ
+EFILE_OLGWW2	names.txt	2115	BairÃ©ad	Bairéad	Bairead	巴雷亚德	
+EFILE_OLGWW2	names.txt	2133	Ã“ Fathaigh	Ó Fathaigh	O Fathaigh	奥法希	
+EFILE_OLGWW2	strings_efile.txt	29	Ç±Í§	Ǳͧ	DZͧ	潜艇	
+EFILE_OLGWW2	strings_efile.txt	70	É³Ä®	ɳĮ	ɳI	沙漠	
+EFILE_OLGWW2	SCENARIO/18days0.txt	73	Ã·Éª	÷ɪ	÷ɪ	梅瑟	
+EFILE_OLGWW2	SCENARIO/jh3caen.txt	37	Î¬Ô¼	άԼ	αԼ	维约	
+EFILE_OLGWW2	SCENARIO/jh3kon45.txt	145	Ì©Ê²	̩ʲ	̩j	泰什	
+EFILE_OLGWW2	SCENARIO/jh3ther.txt	13	É³Ä·ÅµË¹	ɳķŵ˹	ɳkw˹	沙姆诺斯	
+EFILE_OLGWW2	SCENARIO/mao1.txt	30	Ò¶Â¥	Ҷ¥	Ҷ¥	叶楼	
+EFILE_OLGWW2	SCENARIO/mao11.txt	26	ÔªÉ½	Ԫɽ	Ԫɽ	元山	
+EFILE_OLGWW2	SCENARIO/mao13_2.txt	20	Ë®Ô­	ˮԭ	ˮԭ	水原	
+EFILE_OLGWW2	SCENARIO/mao14_2.txt	16	ÎµÉ½	εɽ	εɽ	蔚山	
+EFILE_OLGWW2	SCENARIO/mao16.txt	11	Ë«Ñ¼É½	˫Ѽɽ	˫Ѽɽ	双鸭山	
+EFILE_OLGWW2	SCENARIO/mao17.txt	59	Â«Ì¨	«̨	«̨	芦台	
+EFILE_OLGWW2	SCENARIO/mao5_2.txt	12	Ô­Æ½	ԭƽ	ԭƽ	原平	
+EFILE_OLGWW2	SCENARIO/mao6.txt	7	È·É½	ȷɽ	ȷɽ	确山	
+EFILE_OLGWW2	SCENARIO/mao9.txt	2	Ñ©	ѩ	ѩ	雪	
+EFILE_OLGWW2	SCENARIO/n42s11a.txt	1	Ã·Ë¹	÷˹	÷˹	梅斯	
+EFILE_OLGWW2	SCENARIO/n42s11a.txt	11	Ã·Ë¹	÷˹	÷˹	梅斯	
+EFILE_OLGWW2	SCENARIO/nice_sfb.txt	30	Ã¢Í¨	âͨ	aͨ	芒通	
+EFILE_OLGWW2	SCENARIO/nice_sfb.txt	40	Ã¢È»	âȻ	aȻ	芒然	
+EFILE_OLGWW2	SCENARIO/rschi03.txt	17	Ò¶Â¥	Ҷ¥	Ҷ¥	叶楼	
+EFILE_OLGWW2	SCENARIO/rschi04.txt	12	Ô­Æ½	ԭƽ	ԭƽ	原平	
+EFILE_OLGWW2	SCENARIO/rschi05.txt	13	Ì«Æ½	̫ƽ	̫ƽ	太平	
+EFILE_OLGWW2	SCENARIO/rschi05.txt	45	Ì«Æ½	̫ƽ	̫ƽ	太平	
+EFILE_OLGWW2	SCENARIO/rschi06.txt	7	Â»È°	»Ȱ	»O	禄劝	
+EFILE_OLGWW2	SCENARIO/rschi06.txt	19	Ã¨Í·É½	èͷɽ	eͷɽ	猫头山	
+EFILE_OLGWW2	SCENARIO/rshol02.txt	2	É£Ì¹	ɣ̹	ɣ̹	桑坦	
+EFILE_OLGWW2	SCENARIO/rsjap02.txt	58	É°	ɰ	ɰ	砂	
+EFILE_OLGWW2	SCENARIO/rsjap02.txt	152	Ð¡Â»	С»	С»	小禄	
+EFILE_OLGWW2	SCENARIO/rsjap03.txt	18	Ç§Ò¶	ǧҶ	gҶ	千叶	
+EFILE_OLGWW2	SCENARIO/rssov05.txt	7	Ð¡Â¹Ì¨	С¹̨	С1̨	小鹿台	
+EFILE_OLGWW2	SCENARIO/rssov06.txt	14	Ì«Æ½	̫ƽ	̫ƽ	太平	
+EFILE_OPENAK	SCENARIO/BIGREDONE12i.txt	3	The Germans have started a major offensive in the Ardennes. Second Division is aborting its own attack slightly North N of the German advance and is moving South to block the German advance. Your first division troops were given time to refit earlier, after suffering heavy losses in and around the HÃ¼rtgen forest. That rest has come to an immediate end. Send a regimental size force to BÃ¼tgenbach and prepare the rest of your division to follow. It is vital that we do not give the Germans control of all the roads they need to sustain their advance.	The Germans have started a major offensive in the Ardennes. Second Division is aborting its own attack slightly North N of the German advance and is moving South to block the German advance. Your first division troops were given time to refit earlier, after suffering heavy losses in and around the Hürtgen forest. That rest has come to an immediate end. Send a regimental size force to Bütgenbach and prepare the rest of your division to follow. It is vital that we do not give the Germans control of all the roads they need to sustain their advance.	The Germans have started a major offensive in the Ardennes. Second Division is aborting its own attack slightly North N of the German advance and is moving South to block the German advance. Your first division troops were given time to refit earlier, after suffering heavy losses in and around the Hurtgen forest. That rest has come to an immediate end. Send a regimental size force to Butgenbach and prepare the rest of your division to follow. It is vital that we do not give the Germans control of all the roads they need to sustain their advance.		
+EFILE_OPENPG	strings_efile.txt	68	Ç±Í§	Ǳͧ	DZͧ	潜艇	
+EFILE_OPENPG	strings_efile.txt	109	É³Ä®	ɳĮ	ɳI	沙漠	
+EFILE_PzLIGA	names.txt	1	ï»¿Altieri	﻿Altieri	﻿Altieri		
+EFILE_ROI	names.txt	779	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	787	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	789	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	791	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	793	LÃ³pez Pinto	López Pinto	Lopez Pinto		
+EFILE_ROI	names.txt	794	MillÃ¡n Astray	Millán Astray	Millan Astray		
+EFILE_ROI	names.txt	798	MoscardÃ³	Moscardó	Moscardo		
+EFILE_ROI	names.txt	799	MuÅ„oz Grandes	Muńoz Grandes	Munoz Grandes		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	800	NÃºÅ„ez de Olaneta	Núńez de Olaneta	Nunez de Olaneta		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	806	YagÃ¼e	Yagüe	Yague		
+EFILE_ROI	names.txt	809	CalderÃ³n	Calderón	Calderon		
+EFILE_ROI	names.txt	811	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	812	DÃ­az	Díaz	Diaz		
+EFILE_ROI	names.txt	816	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	818	GutiÃ©rrez	Gutiérrez	Gutierrez		
+EFILE_ROI	names.txt	819	KlÃ©ber	Kléber	Kleber		
+EFILE_ROI	names.txt	821	LÃ­ster	Líster	Lister		
+EFILE_ROI	names.txt	825	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	830	EspÃ­n	Espín	Espin		
+EFILE_ROI	names.txt	831	TagueÅ„a	Tagueńa	Taguena		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	837	GarcÃ­a Tirador	García Tirador	Garcia Tirador		
+EFILE_ROI	names.txt	1032	GonÃ§alvo	Gonçalvo	Goncalvo		
+EFILE_ROI	names.txt	1047	GonÃ§alvo	Gonçalvo	Goncalvo		
+EFILE_ROI	names.txt	1242	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1244	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	1247	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1249	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	1252	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	1254	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1256	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1259	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	1264	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1265	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1266	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	1268	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	1271	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1272	BermÃºdez	Bermúdez	Bermudez		
+EFILE_ROI	names.txt	1273	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1278	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1279	SÃ¡nchez	Sánchez	Sanchez		
+EFILE_ROI	names.txt	1283	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	1285	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1287	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1290	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	1295	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1296	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1297	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	1299	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	1302	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1304	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1306	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	1309	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1311	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	1314	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	1316	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1318	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1321	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	1326	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1327	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1328	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	1330	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	1333	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1335	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1337	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	1340	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1342	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	1345	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	1347	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1349	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1352	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	1357	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1358	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1359	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	1361	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	1364	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1614	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1616	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	1619	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1621	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	1624	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	1626	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1628	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1631	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	1636	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1637	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1638	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	1640	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	1643	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1799	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1801	CalderÃ³n	Calderón	Calderon		
+EFILE_ROI	names.txt	1803	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	1804	DÃ­az	Díaz	Diaz		
+EFILE_ROI	names.txt	1806	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	1807	ArgÃ¼elles	Argüelles	Arguelles		
+EFILE_ROI	names.txt	1808	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	1810	GutiÃ©rrez	Gutiérrez	Gutierrez		
+EFILE_ROI	names.txt	1811	BermÃºdez	Bermúdez	Bermudez		
+EFILE_ROI	names.txt	1813	RodrÃ­guez	Rodríguez	Rodriguez		
+EFILE_ROI	names.txt	1817	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	1822	SabÃ­n	Sabín	Sabin		
+EFILE_ROI	names.txt	1823	TagueÅ„a	Tagueńa	Taguena		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	1829	GarcÃ­a Tirador	García Tirador	Garcia Tirador		
+EFILE_ROI	names.txt	1883	MÃ¼ller	Müller	Muller		
+EFILE_ROI	names.txt	1887	KÃ¼ntz	Küntz	Kuntz		
+EFILE_ROI	names.txt	1889	KÃ¶hler	Köhler	Kohler		
+EFILE_ROI	names.txt	1892	SÃ¼kÃ¼r	Sükür	Sukur		
+EFILE_ROI	names.txt	1897	Ã‡elebi	Çelebi	Celebi		
+EFILE_ROI	names.txt	1903	InÃ¶nÃ¼	Inönü	Inonu		
+EFILE_ROI	names.txt	1904	IpekÃ§i	Ipekçi	Ipekci		
+EFILE_ROI	names.txt	1906	KÃ¼Ã§Ã¼k	Küçük	Kucuk		
+EFILE_ROI	names.txt	1908	BastÃ¼rk	Bastürk	Basturk		
+EFILE_ROI	names.txt	1909	Ã–kte	Ökte	Okte		
+EFILE_ROI	names.txt	1916	BastÃ¼rk	Bastürk	Basturk		
+EFILE_ROI	names.txt	1917	Ã–kte	Ökte	Okte		
+EFILE_ROI	names.txt	1956	MÃ¼ller	Müller	Muller		
+EFILE_ROI	names.txt	1960	KÃ¼ntz	Küntz	Kuntz		
+EFILE_ROI	names.txt	1962	KÃ¶hler	Köhler	Kohler		
+EFILE_ROI	names.txt	1993	GonÃ§alvo	Gonçalvo	Goncalvo		
+EFILE_ROI	names.txt	2008	GonÃ§alvo	Gonçalvo	Goncalvo		
+EFILE_ROI	names.txt	2017	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	2019	BarrÃ³n	Barrón	Barron		
+EFILE_ROI	names.txt	2022	MenÃ©ndez	Menéndez	Menendez		
+EFILE_ROI	names.txt	2024	DÃ¡vila	Dávila	Davila		
+EFILE_ROI	names.txt	2027	FernÃ¡ndez	Fernández	Fernandez		
+EFILE_ROI	names.txt	2029	GarcÃ­a	García	Garcia		
+EFILE_ROI	names.txt	2031	GÃ³mez	Gómez	Gomez		
+EFILE_ROI	names.txt	2034	LÃ³pez	López	Lopez		
+EFILE_ROI	names.txt	2039	MuÅ„oz	Muńoz	Munoz		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	2040	NuÅ„ez	Nuńez	Nunez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	2041	PÃ©rez	Pérez	Perez		
+EFILE_ROI	names.txt	2043	SacristÃ¡n	Sacristán	Sacristan		
+EFILE_ROI	names.txt	2046	YaÅ„ez	Yańez	Yanez		上游笔误: ń应为ñ
+EFILE_ROI	names.txt	2115	BairÃ©ad	Bairéad	Bairead		
+EFILE_ROI	names.txt	2133	Ã“ Fathaigh	Ó Fathaigh	O Fathaigh		

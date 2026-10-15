@@ -1,0 +1,12 @@
+源: pegww2\testbed\backup\text\WW2Gui.txt
+  字节 10,757  行元素 605（原版 605）
+
+将改 6 行（行数保持 605）：
+  行40   Next Unit              → 下一部队   [4 字 / 原文 9 字符]
+  行44   Supply                 → 补给   [2 字 / 原文 6 字符]
+  行46   Requisition Unit       → 征募部队   [4 字 / 原文 16 字符]
+  行54   End Turn               → 结束回合   [4 字 / 原文 8 字符]
+  行61   Full Screen            → 全屏   [2 字 / 原文 11 字符]
+  行63   Exit Game              → 退出游戏   [4 字 / 原文 9 字符]
+
+产物: pegww2\testbed\out\text\WW2Gui.txt  10,738 B  （行数一致 ✅ 回读一致 ✅）

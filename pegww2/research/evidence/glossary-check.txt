@@ -1,0 +1,36 @@
+跨层术语一致性校验 · 见下
+========================================================================================
+规范条目 2194 · 例外 9 · 逐层（词条数/违规数）：
+   UI       词条 692   违规 0
+   EQ       词条 1305  违规 0
+   PeG-UI   词条 653   违规 0
+   基准       词条 206   违规 0
+   DOCS     词条 42    违规 0
+   合计校验 2898 条（未在规范表内 0 条，不计违规）
+
+✅ 无违规：所有层的术语与规范表一致（例外表已登记 9 条分工/待裁定/前作未同步）
+
+⚠️ 撞名候选 34 组（不同英文→同一中文，需人工分类；多语言兵种同名属正常）：
+   上一国家           ← Last Country ｜ Previous Country
+   不可通行河流         ← IMPASSABLE RIVER ｜ Impassable River
+   全地形车辆          ← All Terrain Vehicle ｜ All Terrain-Vehicle
+   反坦克            ← Anti-tank ｜ Antitank
+   司令部            ← HQ ｜ Headquarters
+   回合             ← Turn ｜ turn
+   回合数            ← Number Of Turns ｜ Turns
+   场景标题           ← SCENARIO TITLE ｜ Scenario Title
+   场景说明           ← SCENARIO DESCRIPTION ｜ Scenario Description
+   天气             ← Weather ｜ weather
+   失败             ← Loss ｜ loss / defeat
+   威望             ← Prestige ｜ prestige
+   工兵             ← Combat Engineer ｜ Engineer / Sappers
+   开阔地            ← CLEAR ｜ Clear
+   战地司令部          ← Field HQ ｜ Field Headquarters
+   指挥官            ← LEADERS ｜ Leader ｜ leader
+   新场景            ← NEW SCENARIO ｜ New Scenario
+   更多选项           ← ADDITIONAL OPTIONS ｜ Additional Options
+   架桥工兵           ← Bridging Engineer ｜ Bridging Engineers ｜ Bridging Engnrs
+   查看部队           ← Examine Unit ｜ Inspect Unit
+
+📄 文档成品正文 · 非规范译法扫描（10 条规则 = 例外表待裁定 0 + 禁用词 10 + 文档表多形 0；警告级）：
+   未发现

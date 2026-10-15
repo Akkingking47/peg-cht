@@ -1,0 +1,47 @@
+# WW2Tips.TXT 行级译法（玩法提示）
+# 来源：WW2Tips.TXT（行号模式；引擎按行号取字，**行数必须与原版严格一致**）
+# 来源列：PeG=前作已验证译文（勿改）/ 新译=待填 / 保留=原样不动
+行号	原文	译文	来源
+1	Anti-tank units are good at softening up tanks at a range of 2.	反坦克单位擅长在 2 格外削弱坦克。	PeG+剥前缀
+2	Plane movement is halted if moved within range of a hidden Air Defense unit capable of engaging it.	飞机进入可对其开火的隐蔽防空单位射程内时，其移动将中止。	新译确认
+3	Infantry is best at attacking and defending from towns, forests, and mountains.	步兵在城市、森林与山地攻防最佳。	新译确认
+4	Move a unit adjacent to the enemy to fully spot them.	将部队移动到敌军相邻格，以完全侦察其动向。	PeG+剥前缀
+5	Partially spotted units have better defense than spotted units.	部分被侦察的部队，防御优于完全暴露的部队。	PeG+剥前缀
+6	Recon units are easily spotted, but they screen your other nearby units.	侦察单位容易被发现，但能掩护附近的友军。	PeG+剥前缀
+7	Recon units can stagger their movement into separate stages.	侦察单位可将移动分为多个阶段。	PeG+剥前缀
+8	Never leave light infantry out in open and clear terrain.	切勿让轻步兵暴露在开阔地形中。	PeG+剥前缀
+9	Focus on taking victory hexes, not just killing enemy units.	着眼于夺取胜利格，而非仅仅歼灭敌军。	PeG+剥前缀
+10	Artillery and air strikes reduce enemy entrenchment values by 1 point per attack.	炮击与空袭每次可使敌方工事值降低 1 点。	PeG+剥前缀
+11	Kill off a wounded enemy unit before it gets the chance to reinforce again.	在受损敌军获得补充之前将其歼灭。	PeG+剥前缀
+12	Engage enemy armor with anti-tank units from a distance.	用反坦克单位在远距离对付敌方装甲。	PeG+剥前缀
+13	Drop your air mobile units deep behind enemy lines to take victory objectives.	将空中机动部队投送至敌后纵深，夺取胜利目标。	PeG+剥前缀
+14	When you requisition new units, don't forget to add Attachments.	征募新部队时，别忘了添加附属编制。	PeG+剥前缀
+15	A Tank that overruns an enemy unit can continue its attack if it still has movement allowance left.	坦克碾压敌军后若仍有剩余移动力，可继续攻击。	PeG+剥前缀
+16	Don't attack well-entrenched infantry units in city hexes with your tanks.	不要用坦克攻击城市格中工事坚固的步兵。	PeG+剥前缀
+17	Keep your artillery close enough to the front lines to support your troops.	让炮兵靠前到足以支援前线部队。	PeG+剥前缀
+18	Air liftable units can only fly from friendly airport to friendly airport.	可空运单位只能在友方机场之间飞行。	PeG+剥前缀
+19	In a campaign, you can 'over-strength' your units between scenarios to increase their effectiveness.	在战役中，你可以在场景之间超编部队，以提升其战力。	PeG+剥前缀
+20	Increase Air Superiority levels to help maintain your air mission points from turn to turn.	提高制空权等级，有助于逐回合保持你的空中任务点数。	PeG+剥前缀
+21	Taking enemy cities adds to your prestige and might earn you a leader, a new unit, or additional air points.	攻占敌方城市可增加威望，还可能为你赢得指挥官、新部队或额外空中点数。	PeG+剥前缀
+22	Light Infantry units ignore enemy zones-of-control.	轻步兵单位可无视敌方控制区。	新译确认
+23	Fly a defensive air mission against an enemy helicopter to make it flee from the map.	对敌方直升机执行防御性空中任务，可迫使其逃离地图。	PeG+剥前缀
+24	Air strikes can be used against enemy ground and air units.	空中打击可用于攻击敌方地面和空中单位。	PeG+剥前缀
+25	You can deploy from Combat Support units as long as they're not in an enemy zone of control.	只要战斗支援单位不在敌方控制区内，即可由其部署部队。	新译确认
+26	Air mobile and plane movement ranges will lessen as your air superiority decreases.	制空权下降时，空中机动部队与飞机的移动范围会缩小。	新译确认
+27	Planes may only resupply at friendly airfields and at Combat Support units.	飞机只能在友方机场或战斗支援单位处补给。	新译确认
+28	Soften up entrenched units with artillery, air strikes, and ranged direct fire by certain tanks.	用炮击、空袭以及部分坦克的远程直射火力，削弱工事中的敌军。	PeG+剥前缀
+29	As Air Superiority goes lower, the range of Aircraft is shortened.	制空权越低，飞机的航程越短。	PeG+剥前缀
+30	When executing an Air Strike on a hex with both an enemy helicopter and ground unit, make sure the Air Mode button is correct.	对同时有敌方直升机与地面单位的格执行空中打击时，请确认「空中模式」按钮指向正确的目标。	新译确认
+31	Replacements are free but reduce the overall experience level of the unit if taken on the battlefield.	补充兵员是免费的，但若在战场上补充，会降低部队的整体经验等级。	PeG+剥前缀
+32	Airmobile units cannot land in an enemy zone of control.	空中机动部队不能在敌方控制区内着陆。	PeG+剥前缀
+33	Light infantry units can mount, fly, dismount, move 1/2, and attack the same turn.	轻步兵单位可在同一回合内上车、飞行、下车、移动一半移动力并攻击。	新译确认
+34	Units break entrenchment when they move.	部队移动即失去工事。	新译确认
+35	Units that don't move entrench 1 point more each turn (up to 5 levels over the terrain's base value).	不移动的部队每回合增加 1 点工事（至多超过地形基础值 5 级）。	PeG+剥前缀
+36	Tanks can overrun multiple weak opponents in clear terrain.	坦克可在开阔地形中连续碾压多个弱敌。	PeG+剥前缀
+37	Pull weakened units off the front lines and issue replacements.	将受损部队撤出前线，并给予补充。	PeG+剥前缀
+38	Watch your supply in inclement weather and in deserts.	恶劣天气与沙漠中请注意补给。	新译确认
+39	Night is a good time to resupply, reinforce, and entrench.	夜晚是补给、补充和构筑工事的好时机。	PeG+剥前缀
+40	Prestige is used to purchase and upgrade units, or to increase air superiority between campaign scenarios.	威望用于购买和升级部队，或在战役场景之间提升制空权。	PeG+剥前缀
+41	When requisitioning new units, buy Veteran and Elite units whenever possible.	征募新部队时，尽可能购买老兵和精锐单位。	PeG+剥前缀
+42	Engineer units ignore entrenchment when attacking.	工兵单位攻击时无视工事。	PeG+剥前缀
+43	You can't UNDO a move if by moving you discover a previously unknown unit.	如果移动中发现了此前未知的部队，该步移动无法撤销。	PeG+剥前缀

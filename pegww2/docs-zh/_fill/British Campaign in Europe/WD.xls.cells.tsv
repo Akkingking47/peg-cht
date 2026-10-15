@@ -1,0 +1,137 @@
+# British Campaign in Europe\WD.xls · 译文填写表：只改第五列（译文）
+工作表	行	列	原文	译文
+Book1	2	2	Campaign in Europe	欧洲战役
+Book1	3	2	Scenario	场景
+Book1	3	3	Map	地图
+Book1	3	4	Map #	地图#
+Book1	3	5	J. Gabitto	
+Book1	3	6	BV	辉煌胜利
+Book1	3	8	TV	战术胜利
+Book1	3	9	Loss	失败
+Book1	4	2	Narvik	纳尔维克
+Book1	4	3	Viipuri	维堡
+Book1	4	5	Wdnarv	
+Book1	5	2	Arras	阿拉斯
+Book1	5	3	Arract	
+Book1	5	5	Wdarra	
+Book1	6	2	Sidi Barrani	西迪拜拉尼
+Book1	6	3	Tobruk	托布鲁克
+Book1	6	5	Wdsidi	
+Book1	7	2	Bardia	拜尔迪耶
+Book1	7	3	Ptobruk	
+Book1	7	5	Wdbard	
+Book1	7	9	Loss	失败
+Book1	8	2	East Africa Invasion	东非入侵
+Book1	8	3	Ratobruk	
+Book1	8	5	Wdsoma	
+Book1	8	9	Loss	失败
+Book1	9	2	Defending Tobruk	保卫托布鲁克
+Book1	9	3	Tobruk	托布鲁克
+Book1	9	5	Wdtob	
+Book1	10	2	East Africa Invasion	东非入侵
+Book1	10	3	Ratobruk	
+Book1	10	5	Wdsoma	
+Book1	10	9	Loss	失败
+Book1	11	2	First Battle of El Alamein	第一次阿拉曼战役
+Book1	11	3	Alamein	
+Book1	11	5	Wdela1	
+Book1	12	2	Casablanca	卡萨布兰卡
+Book1	12	3	Tobruk	托布鲁克
+Book1	12	5	Wdcasa	
+Book1	12	9	Loss	失败
+Book1	13	2	Second Battle of El Alamein	第二次阿拉曼战役
+Book1	13	3	Alamein	
+Book1	13	5	Wdela2	
+Book1	13	9	Loss	失败
+Book1	14	2	Pantelleria	潘泰莱里亚
+Book1	14	3	Malta	马耳他
+Book1	14	5	Wdpant	
+Book1	14	9	Loss	失败
+Book1	15	2	Sicilian Invasion	西西里登陆
+Book1	15	3	Dunkirk	敦刻尔克
+Book1	15	5	Wdsici	
+Book1	15	9	Loss	失败
+Book1	16	2	Simeto Valley	西梅托谷
+Book1	16	3	Madrid	马德里
+Book1	16	5	Wdsime	
+Book1	16	9	Loss	失败
+Book1	17	2	Choice	选择
+Book1	17	3	RMY_Euro	
+Book1	17	5	Wdchoice	
+Book1	18	2	Salerno - Return to Europe	萨莱诺 - 重返欧洲
+Book1	18	3	Salerno	萨莱诺
+Book1	18	5	Wdsale	
+Book1	18	9	Loss	失败
+Book1	19	2	D-Day+2	D日+2
+Book1	19	3	Stlo	
+Book1	19	5	Wddday	
+Book1	19	9	Loss	失败
+Book1	20	2	Caen - Charnwood - Oden Valley	卡昂 - 查恩伍德(Charnwood) - 奥登河谷(Oden Valley)
+Book1	20	3	Caen	卡昂
+Book1	20	5	Wdcaen	
+Book1	20	9	Loss	失败
+Book1	21	2	Falaise Pocket	法莱斯包围圈
+Book1	21	3	Volokol	
+Book1	21	5	Wdfala	
+Book1	22	2	Malmedy	马尔梅迪
+Book1	22	3	Klin	克林
+Book1	22	5	Wdmalm	
+Book1	23	2	Push into Austria	挺进奥地利
+Book1	23	3	Kishinev	基什尼奥夫
+Book1	23	5	Wdaust	
+Book1	23	9	Loss	失败
+Book1	24	2	Eagle's Nest II	鹰巢 II
+Book1	24	3	Greece	希腊
+Book1	24	5	Wdeagl	
+Book1	24	9	Loss	失败
+Book1	25	2	Market Garden Phase 1	市场花园行动 第一阶段
+Book1	25	3	Arnhem	阿纳姆
+Book1	25	5	Wdmar1	
+Book1	25	9	Loss	失败
+Book1	26	2	Market Garden Phase 2	市场花园(Market Garden)行动第2阶段
+Book1	26	3	Prokhorv	
+Book1	26	5	Wdmar2	
+Book1	26	9	Loss	失败
+Book1	27	2	Metz	梅斯
+Book1	27	3	Metz	梅斯
+Book1	27	5	Wdmetz	
+Book1	27	9	Loss	失败
+Book1	28	2	Ardennes-The Bulge	阿登-突出部
+Book1	28	3	Ardenne2	
+Book1	28	5	Wdarde	
+Book1	28	9	Loss	失败
+Book1	29	2	Operation Plunder	掠夺行动
+Book1	29	3	Dessau	德绍
+Book1	29	5	Wdplun	
+Book1	29	9	Loss	失败
+Book1	30	2	Ruhr	鲁尔
+Book1	30	3	Ruhr	鲁尔
+Book1	30	5	Wdruhr	
+Book1	30	6	Win	胜利
+Book1	30	7	Win	胜利
+Book1	30	8	Win	胜利
+Book1	30	9	Loss	失败
+Book1	31	2	Gustav Line	古斯塔夫防线
+Book1	31	3	Cassino	卡西诺
+Book1	31	5	Wdgust	
+Book1	31	9	Loss	失败
+Book1	32	2	Monte Cassino	卡西诺山
+Book1	32	3	Greece	希腊
+Book1	32	5	Wdcass	
+Book1	32	9	Loss	失败
+Book1	33	2	Assault on Arracourt	突击阿拉库尔(Arracourt)
+Book1	33	3	Arract	
+Book1	33	5	Wdarrar	
+Book1	34	2	Assaulting the Gothic Line	突袭哥特防线
+Book1	34	3	Gothic	
+Book1	34	5	Wdgoth	
+Book1	35	2	Cage the Bear	困熊行动
+Book1	35	3	Seelow	塞洛
+Book1	35	5	Wdcage	
+Book1	35	6	Win	胜利
+Book1	35	7	Win	胜利
+Book1	35	8	Win	胜利
+Book1	35	9	Loss	失败
+Book1	37	5	Legend	图例
+Book1	37	7	Normal path	正常路径
+Book1	38	7	Alternative scenarios	备选场景

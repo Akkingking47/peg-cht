@@ -1,0 +1,128 @@
+# Road to Berlin\PG2 RTB Campaign Information J Gabitto.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+547	The Road to Berlin Campaign Information	《通往柏林之路》战役情报
+570	Jorge Gabitto	Jorge Gabitto
+572	jgabitto@aol.com	jgabitto@aol.com
+590	Download:	下载：
+596	Extract directly into the C:	直接解压到 C:
+598	Panzer2	Panzer2
+600	SCENARIO directory. A campaign will appear occupying the spot in your campaign list immediately below the campaigns with flags. It uses SSI and custom- maps and Lasse Jensen's equipment file, the one that was out there for only 3-4 days. You also need to use Lasse's icon upgrade file (Datup.exe). Extract this file directly into the directory C:	SCENARIO 目录。战役会出现在你的战役列表中，位置就在带旗帜的战役下面。它使用 SSI 地图和自制地图，以及 Lasse Jensen 的装备文件，就是那个只发布了 3-4 天的版本。你还需要使用 Lasse 的图标升级文件 (Datup.exe)。把这个文件直接解压到目录 C:
+602	Panzer2. Before the extraction back-up your equip97 and equip97.equip files. If you have problems you can put them back.	Panzer2。解压前先备份你的 equip97 和 equip97.equip 文件。如果出了问题，可以把它们放回去。
+604	All scenarios can be played individually as "gray" scenarios, similarly to what is done in the original SSI campaigns. The scenario army is equivalent to my campaign army during play-testing.	所有场景都可以单独作为"灰色"场景游玩，与原版 SSI 战役的做法类似。场景中的军队与我测试时使用的战役军队相当。
+612	Background:	背景：
+618	This campaign is meant to replace	本战役旨在取代
+620	Onward to Berlin.	《向柏林进军》。
+622	I have designed in the last two years several different campaigns on the German/Axis side or the Soviet side. Most of the scenarios were East-Front fighting. Histo rically most of the heaviest action occurred in the East Front within the period covered by the campaign (late 1942 - late 1945). Most of the casualties in WWII occurred in the Russian front (3/5 of all others combined). Therefore, the scenarios were fu l l of fast pace and violent action. The fighting was also extremely violent and continuous. Recently Mr. Frank Chini presented a campaign that was a combination of Onward to Berlin and Defending the Reich with the player being the German side. He develo p ed a procedure to reverse the players' sides, i.e., if originally the player was the German and the AI was the Soviets, he reversed the order. This campaign gave me the idea of collecting my more than 40 East-Front Scenarios together with the SSI scenari os and preparing a Russian campaign by retooling all these scenarios.	过去两年里，我设计过若干不同的战役，有的在德国/轴心国一方，有的在苏联一方。大多数场景都是东线作战。从历史上看，在战役覆盖的时段（1942 年末至 1945 年末）内，最激烈的行动大多发生在东线。二战中的大部分伤亡都出现在俄国战线（相当于其余各线总和的三分之五）。因此，这些场景充满了快节奏和激烈的战斗。战斗也极为激烈而持续不断。最近 Frank Chini 先生推出了一个战役，它把《向柏林进军》和《保卫帝国》结合起来，玩家扮演德军一方。他开发出了一套颠倒双方阵营的流程，也就是说，如果原本玩家是德军、AI 是苏军，他就把顺序反转过来。这个战役让我想到：把我 40 多个东线场景与 SSI 场景收集起来，通过改造所有这些场景来制作一个俄国战役。
+624	The action will take you from the Volga to Berlin. You start with a desperate struggle to hold the Germans at Stalingrad. Then, you follow with the series of battles related to the fate of the encircled 6	战斗将带你从伏尔加河一路打到柏林。开局是一场拼命把德军挡在斯大林格勒的苦战。随后是一系列与陷入重围的第 6
+628	th	集团军
+631	Army. Next, you play a series of battles related to the Zitadelle offensive. After that you follow a historic line. I have included several scenarios of my Stalingrad Soviet campaign. I have designed several new scenarios depict ing fighting on the Northern side of the front.	命运相关的战斗。接下来，你玩一系列与"堡垒"攻势相关的战斗。此后沿历史脉络推进。我收录了自己斯大林格勒苏联战役中的若干场景。我还设计了几个描写战线北段作战的新场景。
+633	It uses my new equipment efile, jointly with Lasse's icon update. The equipment file is provided. The update can be downloaded from his web site.	它使用我的新装备文件，配合 Lasse 的图标升级。装备文件已随附。升级文件可以从他的网站下载。
+635	The campaign is tough, but playable. It has been designed for your enjoyment. Therefore, if you want to say something, good or bad, please do it.	这个战役很艰苦，但可以玩。它是为你的乐趣而设计的。因此，如果你想说什么，无论好坏，都请说出来。
+643	Campaign Organization:	战役编排：
+649	The campaign contains 26 scenarios. It is mildly non-linear. You normally play two or three scenarios and then according to your result in the 3	本战役包含 26 个场景。它带有轻微的非线性。你通常先玩两三个场景，然后根据你在第 3
+653	rd	个场景的结果，
+656	continue to a choice 4	继续到你选择的第 4
+660	th	个场景
+663	. You need to obtain in most scenarios at least a TV to continue. A defeat sends you to the gulag.	。多数场景中你至少需要取得战术胜利才能继续。失败会把你送进古拉格。
+671	What this Campaign is:	本战役是什么：
+677	This campaign has been designed to reflect fast pace, heavy and continuous action. In many s cenarios the player will be allowed to deploy only a fraction of its army. The auxiliary units are very important because they contribute to the balance of power and at the same time provide some sorely needed capabilities. At the same time the game bec o mes more realistic. Successful campaign play requires minimum casualties or you will be out pretty soon. This fact leads to neglect of the auxiliary units and excessive caution concerning the core units. Here you cannot neglect your auxiliary units. Y ou will need every single one of them or you will not win. I regularly reinforced them to keep them alive.	本战役的设计要体现快节奏、沉重而持续的战斗。在许多场景中，玩家只被允许部署其军队的一小部分。辅助单位非常重要，因为它们有助于维持力量平衡，同时提供一些急需的能力。与此同时，游戏也变得更真实。要在战役中打好，就必须把伤亡降到最低，否则你很快就会出局。这一事实会导致玩家忽视辅助单位，并对核心单位过分谨慎。在这里你不能忽视辅助单位。你需要它们中的每一个，否则就赢不了。我经常给它们补充兵员，让它们活下来。
+679	One interesting concept used in this campaign is the idea of "defensive scenarios." There are several of these scenarios in the campaign. The mai n idea is, the player does not have neither victory nor supply objectives. In order to win the player has to keep all the victory objectives held by him at the beginning of the game. If some are lost the player has to retake them to win. Of course, the game is over if the player loses all of them. Mr. Lasse Jensen originally proposed this idea. It was implemented using his excellent editor. You set victory conditions for both players on the same hexes and then you make sure that at least one of your v ictory hexes is lost. I found out that 3-4 victory scenarios are the best number. One or two are practically lost from the beginning, and the other one-two is/are under very heavy attack. If you set the AI to attack mode and give adequate reinforcement s you have a nice game. The lack of supply hexes is used to reduce the number of player units.	本战役采用的一个有趣概念是"防御型场景"。战役中有几个这类场景。其主要思路是：玩家既没有胜利目标，也没有补给目标。要获胜，玩家必须守住自己在开局时掌握的全部胜利目标。如果有目标丢失，玩家必须夺回才能获胜。当然，如果全部丢失，游戏就结束了。这个想法最初由 Lasse Jensen 先生提出。它借助他出色的编辑器得以实现。你在同样的格上为双方设置胜利条件，然后确保自己至少有一个胜利格会丢失。我发现 3-4 个胜利格的场景效果最好。其中一两个实际上从一开始就丢了，另外一两个则遭到极猛烈的攻击。如果你把 AI 设为攻击模式并给予足够的补充兵员，就会有一场不错的游戏。缺少补给格被用来减少玩家单位的数量。
+687	What this Campaign is not:	本战役不是什么：
+693	This campaign is not a historical campaign. I have a lot of respect for people who try to reproduce history, but this is mostly a fictional campaign. Everybody knows how things ended and it was a good thing. I designed a movement, heavy and continuous action campaign. You start fighting from the first term and it will not be over until is over. I sincerely regret if you do not like this kind of scenarios, but everybody is entitled to his own taste.	本战役不是历史战役。我非常尊重那些试图重现历史的人，但这个战役基本上是虚构的。大家都知道事情最终如何收场，而那是件好事。我设计的是一个运动战、沉重而持续的战斗战役。你从第一回合起就在战斗，不到结束不会停歇。如果你不喜欢这类场景，我由衷感到遗憾，但每个人都有权有自己的口味。
+695	The fictional character of the campaign makes you fight a battle approximately every two months. The period in between battles is even smaller by the end of the campaign. Of course , in practice this is impossible even when in some scenarios you can deploy only part of your army. There were many interesting battles in the last year of the war. Please allow for this designer's license.	战役的虚构性质使你大约每两个月就要打一仗。到战役末期，两场战斗之间的间隔更短。当然，实际上这是不可能的，即使在某些场景中你只能部署部分军队。战争最后一年有许多有趣的战斗。请容许设计者有这样的自由。
+697	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. Before discovering Panzerg2 I was a master level chess player. I see the game as a more "colorful" chess.	本战役不代表对任何政治理念或战争的赞同。战争是人类最令人遗憾的活动之一。在发现 Panzerg2 之前，我是一名大师级国际象棋棋手。我把这个游戏看作一盘更"多彩"的棋。
+705	Structure:	编制结构：
+711	I have organized implicitly the two armies following th ese guidelines. The two armies are distributed in Corps, infantry and tank corps. A tank corps has 4-6 units, 3-4 are tanks the others are auxiliaries (anti-tanks, AD, etc.). Each infantry corps has 4-8 units. At least 3 are infantry units, the others are artillery, anti-tanks, AA, AD, etc. Every unit represents a division or division-like formation. Two Russian armies will eventually participate, the 3	我按照以下准则隐含地组织了两支军队。两支军队按军编成，分为步兵军和坦克军。一个坦克军有 4-6 个单位，其中 3-4 个是坦克，其余是辅助单位（反坦克、对空防御等）。每个步兵军有 4-8 个单位。至少 3 个是步兵单位，其余是炮兵、反坦克、高射炮、对空防御等。每个单位代表一个师或类似师的编队。最终将有两支俄国集团军参战，第 3
+715	rd	坦克集团军
+718	Tank Army and the 6	与第 6
+722	th	步兵集团军
+725	Infantry with 2-3 corps each.	，各辖 2-3 个军。
+727	In general both opponents	总体而言，交战双方的
+729	armies are similar in strength at the beginning, but the AI will receive substantial reinforcements during the scenarios.	军队在开局时实力相当，但 AI 会在场景过程中获得大量补充兵员。
+731	Expect to find AA and AD units close to all the important points in the scenarios. I do not like those pesky planes. The AI will also receive planes as reinforcements.	可以预期，场景中所有重要地点附近都会有高射炮和对空防御单位。我不喜欢那些讨厌的飞机。AI 也会获得飞机作为补充兵员。
+739	Timetable:	时间表：
+876	Name	名称
+878	Date	日期
+880	Map	地图
+882	File	文件
+1148	The Assault (1)	突击 (1)
+1152	Stalingrad	斯大林格勒
+1154	RTB01	RTB01
+1420	Operation Uranus (2)	天王星行动 (2)
+1424	SSI (Chir)	SSI 原版：奇尔
+1426	RTB02	RTB02
+1576	Winter Storm (3)	冬季风暴 (3)
+1580	Myshko	Myshko
+1582	RTB03	RTB03
+1732	Little Saturn (4)	小土星行动 (4)
+1736	Don	顿河
+1738	RTB04	RTB04
+1888	Kharkov (5)	哈尔科夫 (5)
+1892	SSI (Klin)	SSI 原版：克林
+1894	RTB05	RTB05
+2044	Ponyri Station (6)	波内里车站 (6)
+2048	Ponyri	波内里
+2050	RTB06	RTB06
+2200	Orel (7)	奥廖尔 (7)
+2204	SSI (Chiecano)	SSI 原版：Chiecano
+2206	RTB07	RTB07
+2356	Operation Rumientzev (8)	鲁缅采夫行动 (8)
+2360	SSI (Prokh)	SSI 原版：普罗霍罗夫卡
+2362	RTB08	RTB08
+2512	Dnepr Crossing (9)	强渡第聂伯河 (9)
+2516	SSI (Kanev)	SSI 原版：卡涅夫
+2518	RTB09	RTB09
+2668	Kiev (26)	基辅 (26)
+2672	Kiev	基辅
+2674	RTB26	RTB26
+2824	Mogilev (10)	莫吉廖夫 (10)
+2828	Mogilev	莫吉廖夫
+2830	RTB10	RTB10
+2980	Perekop (25)	彼列科普 (25)
+2984	SSI (Prokh)	SSI 原版：普罗霍罗夫卡
+2986	RTB25	RTB25
+3136	Leningrad (11)	列宁格勒 (11)
+3140	SSI (Lening)	SSI 原版：列宁格勒
+3142	RTB11	RTB11
+3292	Cherkassy (12)	切尔卡瑟 (12)
+3296	SSI (Chir)	SSI 原版：奇尔
+3298	RTB12	RTB12
+3448	Western Ukraine (13)	西乌克兰 (13)
+3452	SSI (Arrarct)	SSI 原版：Arrarct
+3454	RTB13	RTB13
+3604	Sevastopol Evacuation (14)	塞瓦斯托波尔撤退 (14)
+3608	SSI (Sealion)	SSI 原版：海狮
+3610	RTB14	RTB14
+3760	Viipuri (15)	维堡 (15)
+3764	SSI (Viipuri)	SSI 原版：维堡
+3766	RTB15	RTB15
+3916	Narva (23)	纳尔瓦 (23)
+3920	Narva	纳尔瓦
+3922	RTB23	RTB23
+4072	Riga (24)	里加 (24)
+4076	Dieppe	迪耶普
+4078	RTB24	RTB24
+4228	Army Group South Ukraine (16)	南乌克兰集团军群 (16)
+4232	SSI (Kanev)	SSI 原版：卡涅夫
+4234	RTB16	RTB16
+4384	Operation Bagration I (17)	巴格拉季昂行动 I (17)
+4388	Litovsk	Litovsk
+4390	RTB17	RTB17
+4540	Operation Bagration II (18)	巴格拉季昂行动 II (18)
+4544	SSI (Novgo)	SSI 原版：诺夫哥罗德
+4546	RTB18	RTB18
+4696	Vistula-Oder (19)	维斯瓦河-奥得河 (19)
+4700	SSI (Chir)	SSI 原版：奇尔
+4702	RTB19	RTB19
+4852	Operation Konrad (20)	康拉德行动 (20)
+4856	SSI (Konrad)	SSI 原版：康拉德
+4858	RTB20	RTB20
+5008	The Door to Berlin (21)	通往柏林之门 (21)
+5012	SSI (Dessau)	SSI 原版：德绍
+5014	RTB21	RTB21
+5280	Hitler Last Stand (22)	希特勒的最后抵抗 (22)
+5284	Berlin	柏林
+5286	RTB22	RTB22
+5440	Acknowledgements:	致谢：
+5446	This campaign was inspired by Mr. Frank Chini	本战役的灵感来自 Frank Chini 先生
+5448	s work. He found a way to reverse scenarios and prepared a nice campaign based on that. I thought that I could do the same and reverse scenarios that I had prepared myself. I als o appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you have as much fun playing it as I have designed it.	的作品。他找到了一种颠倒场景的方法，并据此制作了一个出色的战役。我想我也能这么做，把我自己准备好的场景颠倒过来。我也很欣赏众多其他人的工作，他们把兵棋推演变成了一门艺术。感谢你游玩这个战役。希望你在游玩时获得的乐趣，和我设计它时一样多。

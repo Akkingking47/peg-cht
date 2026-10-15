@@ -1,0 +1,267 @@
+================================================================================================
+A. SCENARIO / USERSCEN / DOCS / MAP 文本载体普查
+================================================================================================
+
+[SCENARIO]  共 4718 文件
+  txt(场景简报/其他)           n=1895   bytes=     505,780 lines=   16,403 最长行=726     高字节文件=57     高字节=157      CRLF=14415    裸LF=86      裸CR=7       BOM=0
+        ext={'.txt': 1895}
+        样本 110.txt: ['Welcome to Barcelona, General.', '', 'Your task is to lead your "all volunteer" SS Panzer Divisions south an', '']
+        样本 110bv.TXT: ['Outstanding work, General.  You have displayed superior tactics and ab']
+  m.txt(地图格名)            n=689    bytes=     299,599 lines=   20,876 最长行=482     高字节文件=32     高字节=58       CRLF=20183    裸LF=4       裸CR=0       BOM=0
+        ext={'.txt': 689}
+        样本 7Pzra7147_m.txt: ['Kalatsch (#1)', '']
+        样本 7Pzra715v_m.txt: ['Kharkov (#15v)', 'Khuper River', 'Medveditsa River', 'Don River']
+  u.txt(部队名)             n=682    bytes=     353,139 lines=   24,521 最长行=630     高字节文件=11     高字节=14       CRLF=23838    裸LF=1       裸CR=0       BOM=0
+        ext={'.txt': 682}
+        样本 7Pzra7147_u.txt: ['Kalatsch (#1)', 'captured T-34/76A', 'captured T-34/76A', '']
+        样本 7Pzra715v_u.txt: ['Kharkov (#15v)', 'capturedT-34/76', '']
+  scn(场景元数据)             n=648    bytes=  11,600,535 lines=  121,294 最长行=11976   高字节文件=648    高字节=203425   CRLF=585      裸LF=90342   裸CR=29719   BOM=0
+        ext={'.scn': 648}
+        样本 7Pzra7147.scn: ['\x01\x12\x00\x00\x00\x00\x03\x04\x14\x00\x0b\x00*\x00\x0c\x0f\x12\x00\x00\x00\x01\x00\x03\x0f\x12\x00\x00\x01\x03\x03\x00\x00<\x00(\x00/\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x087\x10\x08\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x0c`\x00\x00\x12Üf\x00E\x02"\x00\x02\x00\x01\x00\x01\x00E\x02\x00\x00\x00\x00\x03\x01g\x01E\x02\x00\x00\x03\x02\x00\x00\x12\x00\x0c\x087\x10\x04\x00\x00\x00\x00\x00\x00\x00\x0c\x00\x00\x0c\x00\x00\x00\x00\x00', '\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x0c`\x00\x00x�f\x00<\x01$\x00\x02\x00\t\x00\t\x00<\x01\x00\x00\x00\x7f\x05\x06N\x01<\x01\x01C\x03\x01\x00\x00\x12\x00\x0e\x10\x00\x0c\x04\x00\x00\x00\x00\x00\x00\x00\x0e\x00\x02\x0e\x00\x00']
+        样本 7Pzra715v.scn: ['\x01\x16\x00\x00\x00\x00\x03\x04\x0b\x00\x03\x00+\x00\x0e\x12\x16\x00\x00\x00\x01\x00\x03\x0f\x00\x00\x00\x00\x03\x03\x00\x005\x00(\x00+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00 \x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x007\x0c\x04\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00']
+  I(战役内场景)               n=470    bytes=     302,673 lines=    4,294 最长行=888     高字节文件=27     高字节=31       CRLF=3824     裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 470}
+        样本 7Pzra7147_i.txt: ['Kalatsch (#1) - November 20th, 1942', '', "Herr General, we have underestimated the Bolsheviks' powers of resista", '']
+        样本 7Pzra715v_i.txt: ['Kharkov (#15v) - March 11th, 1943', '', 'Strock: Herr General, The Soviets are counterattacking in the directio', '']
+  map(地图)                n=257    bytes=   3,716,337 lines=   24,303 最长行=14561   高字节文件=253    高字节=25344    CRLF=0        裸LF=21514   裸CR=2532    BOM=0
+        ext={'.map': 257}
+        样本 AGEDABIA.map: ["0\x00,\x00'\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00\x00\x00\x00\t\x00\x00\x00"]
+        样本 ALAMEIN.map: [".\x00,\x00'\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x00\x00\x00\x07\x00ˆ\x00\x00\x00\x00\x07\x00ˆ\x00\x00\x00\x00\x07\x00ˆ\x00\x00\x00\x00\x07\x00\x00\x00"]
+  cam(战役)                n=34     bytes=   1,086,096 lines=      323 最长行=31944   高字节文件=34     高字节=2398     CRLF=0        裸LF=156     裸CR=133     BOM=0
+        ext={'.cam': 34}
+        样本 7PzrCamp7dr.cam: ['\x0b\x00Ü\x05\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ˆ\x13\x00\x00–\x00\x00\x007Pzra7147.scn\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ÿ\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']
+        样本 ATM.cam: ['\x0e\x00¸\x0b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ATM_scn01.scn\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']
+  BV(大胜评述)               n=19     bytes=      16,620 lines=       60 最长行=1166    高字节文件=0      高字节=0        CRLF=41       裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 19}
+        样本 lah_it_01_bv.txt: ['On the first day of the campaign the Leibstandarte had achieved almost']
+        样本 lah_it_02_bv.txt: ['With the route to Warsaw now wide open, the 10th Army turned its axis ', '', 'On the Western approaches the 1st Battalion of the Leibstandarte fough']
+  tx(?)                  n=11     bytes=       2,553 lines=       63 最长行=607     高字节文件=2      高字节=4        CRLF=52       裸LF=0       裸CR=0       BOM=0
+        ext={'.tx': 11}
+        样本 LAH_IT_Kherson_i.tx: ['Unternehmen Barbarossa', 'Kherson - August 10th, 1941', '', 'With victory at Uman secured, the Leibstandarte moved south to take th']
+        样本 lah_it_rostov_tv.tx: ['Despite battling hard the Leibstandarte and the rest of the 1st Panzer', '', 'Even with the troubles of the first Russian winter, the Leibstandarte ']
+  L(败报)                  n=4      bytes=         890 lines=        6 最长行=340     高字节文件=0      高字节=0        CRLF=2        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 4}
+        样本 lah_it_15_l.txt: ['Although we held Caen we can not continue to hold these current positi']
+        样本 lah_it_17_l.txt: ['You have failed to do your duty...']
+  LOG                    n=3      bytes=         701 lines=       15 最长行=113     高字节文件=0      高字节=0        CRLF=12       裸LF=0       裸CR=0       BOM=0
+        ext={'.log': 3}
+        样本 Err_BoB_BoB04.LOG: ['Good job Commander. Although Greece has fallen, those submarines have ']
+        样本 Err_BoB_BoB05.LOG: ['Operation Rumientzev (RTB#08)', '', 'August 15, 1943', '']
+  V(胜报)                  n=3      bytes=       2,140 lines=        9 最长行=560     高字节文件=0      高字节=0        CRLF=6        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 3}
+        样本 lah_it_bzura_v.txt: ['On 30th September as the remaining Polish units were being mopped up, ', '', 'Overall, with their ability to redeploy rapidly from one sector of fig']
+        样本 lah_it_gran_v.txt: ['Despite widespread flooding and poor road conditions caused by an earl', '', 'By the first day, the Leibstandarte and the attached 46th Infantry Div']
+  ply(描述框)               n=1      bytes=           2 lines=        1 最长行=2       高字节文件=0      高字节=0        CRLF=0        裸LF=0       裸CR=0       BOM=0
+        ext={'.ply': 1}
+        样本 dd.ply: ['ee']
+  t                      n=1      bytes=       1,111 lines=        6 最长行=832     高字节文件=0      高字节=0        CRLF=5        裸LF=0       裸CR=0       BOM=0
+        ext={'.t': 1}
+        样本 lah_it_metsovon_i.t: ['Unternehmen Marita - April 19th, 1941', 'Metsovon Pass', '', 'The position of the Greek First Army, still fighting in Albania, was s']
+  TV(战术胜评述)              n=1      bytes=         938 lines=        3 最长行=489     高字节文件=0      高字节=0        CRLF=2        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 1}
+        样本 lah_it_rostov_tv.txt: ['Despite battling hard the Leibstandarte and the rest of the 1st Panzer', '', 'Even with the troubles of the first Russian winter, the Leibstandarte ']
+
+[USERSCEN]  共 5 文件
+  txt(场景简报/其他)           n=1      bytes=          52 lines=        1 最长行=52      高字节文件=0      高字节=0        CRLF=0        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 1}
+        样本 info.txt: ['In this folder will be added the usermade scenarios.']
+  ply(描述框)               n=1      bytes=         868 lines=       11 最长行=489     高字节文件=0      高字节=0        CRLF=10       裸LF=0       裸CR=0       BOM=0
+        ext={'.ply': 1}
+        样本 Third Reich.ply: ['Rise and Decline of the Third Reich', '', 'Hypothetical scenario where Germany wages an all out war in September ', '']
+  scn(场景元数据)             n=1      bytes=      24,155 lines=      536 最长行=5819    高字节文件=1      高字节=1365     CRLF=0        裸LF=461     裸CR=74      BOM=0
+        ext={'.scn': 1}
+        样本 Third Reich.scn: ["\x00\x0e\x00\x00\x00\x00\x00\x03\x01\x00\t\x00'\x00\x0c", '\x0e\x00\x00\x00\x01\x00\x03\x05\x12\x11\x06\x01\x00\x00\x00\x00b\x00(\x002\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x10\t\x01\x00\x00\x00\x00c\x00(\x00/\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00Õ\x00\x00\x00\x00\x00Õ\x00\x00\x00\x00\x00Õ\x00\x00\x00\x00\x00ñ\x00#\x01\x00\x00\x1f\x00#\x00\x00\x00»\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ð\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x10\x00\x00\x00\x00']
+  m.txt(地图格名)            n=1      bytes=       3,048 lines=      258 最长行=35      高字节文件=1      高字节=5        CRLF=257      裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 1}
+        样本 Third Reich_m.txt: ['Rise and Decline of the Third Reich', 'Scapa Flow (PORT)', 'Dublin', 'Belfast (OCEAN)']
+  u.txt(部队名)             n=1      bytes=           7 lines=        2 最长行=5       高字节文件=0      高字节=0        CRLF=1        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 1}
+        样本 Third Reich_u.txt: ['Dummy', '']
+
+[DOCS]  共 10 文件
+  txt(场景简报/其他)           n=4      bytes=      43,880 lines=      825 最长行=444     高字节文件=2      高字节=23       CRLF=821      裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 4}
+        样本 LG_shp2s16_ReadMe.txt: ['======================================================================', '* SHP to S16 Converter', '* Using Fred Chlanda converter utility and PG2 palette file', '* (C) Luis Guzman - July 2004']
+        样本 New Videos for PeGWWII.txt: ['NEW VIDEOS FOR PEG\t\t\t\t\t\t\t9:11 PM 7/31/2004', 'by Redball', '======================================================================', '']
+  pdf                    n=4      bytes=     831,935 lines=   11,747 最长行=2067    高字节文件=4      高字节=344474   CRLF=448      裸LF=6861    裸CR=4434    BOM=0
+        ext={'.pdf': 4}
+        样本 PeGWW2_French_Article.pdf: ['%PDF-1.3', '%âãÏÓ', '1 0 obj', '<< ']
+        样本 PeGWW2_Installer_Readme_v06.pdf: ['%PDF-1.4', '%Çì�¢', '5 0 obj', '<</Length 6 0 R/Filter /FlateDecode>>']
+  rtf                    n=1      bytes=      25,280 lines=      496 最长行=107     高字节文件=0      高字节=0        CRLF=495      裸LF=0       裸CR=0       BOM=0
+        ext={'.rtf': 1}
+        样本 Manual.rtf: ['{\\rtf1\\ansi\\ansicpg1252\\deff0{\\fonttbl{\\f0\\fnil\\fcharset0 Courier New;', '{\\colortbl ;\\red0\\green0\\blue255;}', '\\viewkind4\\uc1\\pard\\lang1033\\b\\f0\\fs56 PeG-WW2\\par', '\\b0\\fs20\\par']
+  doc                    n=1      bytes=      27,648 lines=       52 最长行=5086    高字节文件=1      高字节=1946     CRLF=0        裸LF=19      裸CR=32      BOM=0
+        ext={'.doc': 1}
+        样本 SMACK_to_AVI.doc: ['ÐÏ\x11à¡±\x1aá\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>\x00\x03\x00þÿ\t\x00\x06\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x001\x00\x00\x00\x00\x00\x00\x00\x00\x10\x00\x003\x00\x00\x00\x01\x00\x00\x00þÿ', '\x00\x00\x0e\x00bjbjt+t+\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\x04\x16\x00-\x1e\x00\x00\x16A\x01\x00\x16A\x01\x00Œ\t\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '']
+
+[MAP]  共 2327 文件
+  s16                    n=2321   bytes=1,050,840,726 lines=3,678,511 最长行=92339   高字节文件=2321   高字节=453447387 CRLF=2        裸LF=730641  裸CR=2945547 BOM=0
+        ext={'.s16': 2321}
+        样本 MAP0000.s16: ['\x01\x00\x00\x00€\x02\x00\x00à\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00€\x02\x00\x00à\x01\x00\x00\x00\x00\x00\x00È\x13\t\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x0e¥\x01l”\x01\x0e¥\x01Íœ\x02\x0e¥\x02l”\x01\x0e¥\x01l”\x01ï', 'Uæ\x01\x0e¥\x01l”\x02Íœ\x02ÏÞ\x01N\xad\x01Íœ\x02l”\x01\x0e¥\x01N\xad\x04ÏÞ\x013Þ\x05ÏÞ\x01îÝ\x01N\xad\x02¯½\x01\x0e¥\x03¯½\x01N\xad\x01\x0e¥\x01¯½\x01N\xad\x02¯½\x02Í', 'Uæ\x01\x0e¥\x02¯½\x01\x0e¥\x01¯½\x02ÏÞ\x01¯½\x01N\xad\x01îÝ\tÏÞ\x01¯½\x01N\xad\x01\x0e¥\x02Íœ\x01l”\x01N\xad\x02\x0e¥\x01Íœ\x01N\xad\x02\x0e¥\x02N\xad\x05¯½\x01N\xad\x01\x0e', 'Éj\x01Nt\x01Ë{\x01l”\x02ï„\x05\x0e¥\x02Íœ\x02\x0e¥\x04l”\x05\x0e¥\x02l”\x01\x0e¥\x02Íœ\x02l”\x02\x0e¥\x02Íœ\x03l”\x02Ë{\x01Íœ\x01l”\x01ªk\x01Éj\x02gb\x02É']
+        样本 MAP0001.s16: ['\x01\x00\x00\x00€\x02\x00\x00à\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00€\x02\x00\x00à\x01\x00\x00\x00\x00\x00\x00ïª\x08\x00\x01\x00\x00\x00\x00\x00\x00\x00\x013Þ\x01\x0e¥\x01îÝ\x01¯½\x01\x0e¥\x02l”\x01N\xad\x01\x0e¥\x02¯', 'iB\x01j³\x015ï\x01ºÖ\x01n[\x01iB\x01ËZ\x01\x10„\x01üÞ\x01ÿÿ\x01Ós\x03ž÷\x018ž\x01,S\x06iB\x01ÊJ\x01n[\x01\x0e¥\x019ß\x01ž÷\x01ºÖ\x01n[\x01kÄ\x01Ë', "gb\x01':\x01gb\x02':\x05gb\x01\x10„\x01+Œ\x01l”\x01\x12Ö\x03\x10„\x01ªk\x05\x10„\x01l”\x01Íœ\x02\x0e¥\x01N\xad\x01îÝ\x02\x0e¥\x01N\xad\x01¯½\x01N\xad\x01\x0e¥\x03¯½\x03N", '\x0e¥\x01Íœ\x02l”\x01Íœ\x01\x0e¥\x04l”\x02Íœ\x01\x0e¥\x04N\xad\x01¯½\x02\x0e¥\x02N\xad\x01Íœ\x01\x0e¥\x01Íœ\x04l”\x01Ë{\x01N\xad\x01¯½\x01Íœ\x02kÄ\x01l”\x01Íœ\x01\x0e']
+  txt(场景简报/其他)           n=2      bytes=       2,447 lines=       56 最长行=138     高字节文件=0      高字节=0        CRLF=54       裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 2}
+        样本 info.txt: ['In this directory are added the map files for the game (the files with']
+        样本 LG_shp2s16_ReadMe.txt: ['======================================================================', '* SHP to S16 Converter', '* Using Fred Chlanda converter utility and PG2 palette file', '* (C) Luis Guzman - July 2004']
+  exe                    n=1      bytes=     176,128 lines=      788 最长行=9311    高字节文件=1      高字节=52749    CRLF=31       裸LF=315     裸CR=441     BOM=0
+        ext={'.exe': 1}
+        样本 LG_shp2s16.exe: ['MZ�\x00\x03\x00\x00\x00\x04\x00\x00\x00ÿÿ\x00\x00¸\x00\x00\x00\x00\x00\x00\x00@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00ø\x00\x00\x00\x0e\x1fº\x0e\x00´', '', '$\x00\x00\x00\x00\x00\x00\x00\x0bþ\x18kOŸv8OŸv8OŸv8OŸv8]Ÿv8-€e8@Ÿv8OŸw8Úžv8 €}8EŸv8Ìƒx8UŸv8 €|8ÉŸ', 'ˆnB\x00�L$\x04Ç„$\x08\x01\x00\x00\x00\x00\x00\x00‰V\x1cèpD\x01\x00�Œ$ø\x00\x00\x00Ç„$\x08\x01\x00\x00\x06\x00\x00\x00èÑ<\x01\x00�Œ$ô\x00\x00\x00Æ„$\x08\x01\x00\x00\x05è½<\x01\x00']
+  pal                    n=1      bytes=       3,358 lines=      260 最长行=18      高字节文件=0      高字节=0        CRLF=259      裸LF=0       裸CR=0       BOM=0
+        ext={'.pal': 1}
+        样本 pg2.pal: ['Palette for shp_ed', 'FPC', '256', '  0   0   0']
+  EXE                    n=1      bytes=      50,328 lines=      662 最长行=1885    高字节文件=1      高字节=19808    CRLF=215      裸LF=310     裸CR=136     BOM=0
+        ext={'.exe': 1}
+        样本 SHP2S16.EXE: ["MZ\x00\x00\x04\x00\x00\x00 \x00'\x00ÿÿ\x00\x00`\x07\x00\x00T\x00\x00\x00", 'stub.h generated from stub.asm by djasm, on Mon Aug 26 21:04:05 1996', 'The STUB.EXE stub loader is Copyright (C) 1993-1995 DJ Delorie. ', 'Permission granted to use for any purpose provided this copyright ']
+  bat                    n=1      bytes=      15,572 lines=      348 最长行=68      高字节文件=0      高字节=0        CRLF=347      裸LF=0       裸CR=0       BOM=0
+        ext={'.bat': 1}
+        样本 _shp2s16_inFolder.bat: ['REM Created by LG_Shp2s16.exe (L.Guzman)', 'REM To convert all PG2 picture maps found in folder: Z:\\PeG-WW2\\MAP\\', "REM Fred's Chlanda SHP2S16.EXE and PG2.pal will be used", '']
+
+[SAVE]  共 3 文件
+  csv                    n=2      bytes=     121,820 lines=      597 最长行=27060   高字节文件=2      高字节=3819     CRLF=0        裸LF=443     裸CR=152     BOM=0
+        ext={'.csv': 2}
+        样本 AUTOSAVE CAMPAIGN.csv: ['PeG-WW2 027dRedball 2005', '', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x0e\x10\x00\x00\x00\x01\x00\x03\x00\x00\x00\x00\x01\x00\x02\x00\x00,\x00(\x00\x1b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']
+        样本 Ende1.csv: ['PeG-WW2 027dRedball 2005', '', '\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00', '\x00\x00\x00\x00\x00\x01\x03\x00\x00#\x00(\x00\x07\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']
+  txt(场景简报/其他)           n=1      bytes=          38 lines=        1 最长行=38      高字节文件=0      高字节=0        CRLF=0        裸LF=0       裸CR=0       BOM=0
+        ext={'.txt': 1}
+        样本 info.txt: ['This directory is for the saved games.']
+
+================================================================================================
+B. 根级文本载体：头部样本（判层）
+================================================================================================
+
+--- WW2Gui.txt  10,757 B / 605 行
+   [  0] Yugoslavia
+   [  1] Belgium
+   [  2] Germany
+   [  3] Soviet Union
+   [  4] Italy
+   [  5] Finland
+   [  6] France
+   [  7] Republican
+   [  8] Greece
+   [  9] United States
+   [ 10] Hungary
+   [ 11] Nationalist
+   [ 12] United Kingdom
+   [ 13] Norway
+
+--- WW2Misc.txt  471 B / 45 行
+   [  0] CLEAR
+   [  1] CITY
+   [  2] AIRFIELD
+   [  3] FOREST
+   [  4] JUNGLE
+   [  5] HILL
+   [  6] MOUNTAIN
+   [  7] SAND
+   [  8] WETLANDS
+   [  9] OCEAN
+   [ 10] RIVER
+   [ 11] FORTIFICATION
+   [ 12] PORT
+   [ 13] STREAM
+
+--- WW2NAME.TXT  3,598 B / 401 行
+   [  0] Ackenheil
+   [  1] Adler
+   [  2] Arndt
+   [  3] Auerbacher
+   [  4] Bachmann
+   [  5] Balck
+   [  6] Bauer
+   [  7] Blucher
+   [  8] Braun
+   [  9] Brecht
+   [ 10] Brunner
+   [ 11] Buchmann
+   [ 12] Campenhausen
+   [ 13] Carlburg
+
+--- WW2Tips.TXT  3,323 B / 44 行
+   [  0] Anti-tank units are good at softening up tanks at a range of 2.
+   [  1] Plane movement is halted if moved within range of a hidden Air Defense unit capable of e
+   [  2] Infantry is best at attacking and defending from towns, forests, and mountains.
+   [  3] Move a unit adjacent to the enemy to fully spot them.
+   [  4] Partially spotted units have better defense than spotted units.
+   [  5] Recon units are easily spotted, but they screen your other nearby units.
+   [  6] Recon units can stagger their movement into separate stages.
+   [  7] Never leave light infantry out in open and clear terrain. 
+   [  8] Focus on taking victory hexes, not just killing enemy units.
+   [  9] Artillery and air strikes reduce enemy entrenchment values by 1 point per attack.
+   [ 10] Kill off a wounded enemy unit before it gets the chance to reinforce again.
+   [ 11] Engage enemy armor with anti-tank units from a distance.
+   [ 12] Drop your air mobile units deep behind enemy lines to take victory objectives.
+   [ 13] When you requisition new units, don't forget to add Attachments.
+
+--- ww2-eqp.txt  16,416 B / 1,001 行
+   [  0] European E-file version 1.02d Robert Mary 05.10.2007
+   [  1] 37mm FlaK w/Kuorma-auto
+   [  2] 3.7cm PaK w/Wagon
+   [  3] 5cm PaK w/Wagon
+   [  4] 7.5cm  PaK w/Kuoma-auto
+   [  5] StuG IIIG
+   [  6] 105mm K34 w/Kuorma-auto
+   [  7] 152mm H17 w/Kuorma-auto
+   [  8] 76mm K02 w/Wagon
+   [  9] StuG IIIB
+   [ 10] Bunker Artillery
+   [ 11] AI Radar
+   [ 12] Jalkavaki w/Wagon
+   [ 13] Sissi-Joukkeet w/Kuorma-auto
+
+--- ww2-eqp.aux  2,000 B / 1,001 行
+   [  0] 
+   [  1] 
+   [  2] 
+   [  3] 
+   [  4] 
+   [  5] 
+   [  6] 
+   [  7] 
+   [  8] 
+   [  9] 
+   [ 10] 
+   [ 11] 
+   [ 12] 
+   [ 13] 
+
+--- WW2gen.txt  556,117 B / 13,533 行
+   [  0] CL180 .s16;Polish BM-13, Ludowe Wojsko Polskie (LWP - Polish Peoples Army), mod. JKM26; 
+   [  1] CL160.s16;# no text found ; ; ; 
+   [  2] CL171.s16;# no text found ; ; ; 
+   [  3] CL182.s16;# no text found ; ; ; 
+   [  4] JKM09.s16;WW1 18cm Minenwerfer brown; ; ; 
+   [  5] ZYB34.s16;(Pferdewagen - WILL FOLLOW); ; ; 
+   [  6] ZYB45.s16;Germany Panzergrau Wurfgerät 40/41 (modification of TD62); ; ; 
+   [  7] JJC01.s16;DO 17 Z2 (PAT MOD); ; ; 
+   [  8] PL04.s16;German cruiser Emden-class; ; ; 
+   [  9] ZY01.s16;Germany Mules (combination of icons by William Dickens and Halberdier); ; ; 
+   [ 10] ZY12.s16;Germany Gebirgsjager late war (made by using several icons by Juan Carlos Preci
+   [ 11] ZY23.s16;Germany Wehrmacht elite infantry - Grossdeutschland (modification of an icon by
+   [ 12] ZY34.s16;Germany Panzergrau SdKfz 251/1; ; ; 
+   [ 13] ZY45.s16;Germany Panzergrau Pz Ib (modification of an icon by Pat); ; ; 
+
+--- PEOPLES.INT  40 B / 1 行
+   [  0]                                    
+
+================================================================================================
+C. 启动入口线索（lnk/bat/ini/快捷方式/readme）
+================================================================================================
+  MPLAYNOW.INI
+  MSREG.INI
+  MAP\_shp2s16_inFolder.bat
+  --- DESKTOP/START MENU lnk ---
+  C:\Users\Administrator\Desktop\Play Open General.lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 1.0 [SSI e-file].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 2.0 [5 Stars e-file].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 2.0 [Armaggedon].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 2.0 [Super Powers].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 3.0 [Redball's e-file].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 3.0 [REDrake Asia].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG 3.0 [REDrake India].lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG DAT tool.lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\PeG Suite 4.19.lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\Peoples_General_Installer_Readme.lnk
+  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\PeG\Uninstall PeG.lnk
+  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\PeG -Part 2\PeG -Part 2.lnk
+  C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\PeG -Part 2\Uninstall PeG -Part 2.lnk

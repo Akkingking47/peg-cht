@@ -1,0 +1,233 @@
+# OpenPG2 前作汉化 · 单位名（equip.txt）体检
+# 用户指出：「之前汉化的 openpg2 中有很多乱码没完全翻译的单位名」
+#
+# 结论：
+#   · 变音缺失 224 处 = **编码所迫 202**（GBK 装不下 ä/ö/ß/ë/ñ/ç…）+ **可恢复真缺陷 22**
+#   · 真乱码（cp1252 残留，如 `Cami髇`）≈ 0
+#   · 整条拉丁原名未译：equip.txt 29,242 行 + names.txt 1,768 行
+# GBK 可编码（故『剥离』不是必然）：ä✘ ö✘ ü✔ ß✘ Ä✘ Ö✘ Ü✘ é✔ è✔ í✔ ñ✘ ç✘ ø✘ æ✘
+类	EFILE	行号	原文	汉化	丢失字母
+可恢复(真缺陷)	EFILE_GCE	2613	GE-3 Delfín	GE-3 Delfin	í
+可恢复(真缺陷)	EFILE_OLGWW2	1288	Lützow Class	Lutzow Class	ü
+可恢复(真缺陷)	EFILE_OLGWW2	2162	75mm Portée	75mm Portee	é
+可恢复(真缺陷)	EFILE_OLGWW2	2421	Pz II Brückenleger	Pz II Bruckenleger	ü
+可恢复(真缺陷)	EFILE_OLGWW2	2422	Pz IV Brückenleger	Pz IV Bruckenleger	ü
+可恢复(真缺陷)	EFILE_OLGWW2	2650	75mm Portée	75mm Portee	é
+可恢复(真缺陷)	EFILE_OLGWW2	2812	Geschütz B-2 	Geschutz B-2 	ü
+可恢复(真缺陷)	EFILE_OLGWW2	3009	37mm Portée	37mm Portee	é
+可恢复(真缺陷)	EFILE_OLGWW2	3205	Büssing NAC	Bussing NAC	ü
+可恢复(真缺陷)	EFILE_OLGWW2	3984	Büssing-NAG 4500	Bussing-NAG 4500	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4917	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4918	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4919	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4920	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4922	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4923	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4924	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4925	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	4926	Bü-131	Bu-131	ü
+可恢复(真缺陷)	EFILE_OLGWW2	5028	GE-3 Delfín	GE-3 Delfin	í
+可恢复(真缺陷)	EFILE_PzLIGA	974	Pz II Brückenleger	Pz II Bruckenleger	ü
+可恢复(真缺陷)	EFILE_PzLIGA	975	Pz IV Brückenleger	Pz IV Bruckenleger	ü
+编码所迫	EFILE_AO	198	Zerstörer 1936A Class	Zerstorer 1936A Class	ö
+编码所迫	EFILE_AO	618	Zerstörer 1945 Class	Zerstorer 1945 Class	ö
+编码所迫	EFILE_AO	621	Königsberg Class	Konigsberg Class	ö
+编码所迫	EFILE_ATOMIC	14	Jalkaväki 38	Jalkavaki 38	ä
+编码所迫	EFILE_ATOMIC	59	MG-Träger UE 630(f)	MG-Trager UE 630(f)	ä
+编码所迫	EFILE_ATOMIC	89	Panzerjäger I	Panzerjager I	ä
+编码所迫	EFILE_ATOMIC	127	Königsberg	Konigsberg	ö
+编码所迫	EFILE_ATOMIC	129	Zerstörer 1934	Zerstorer 1934	ö
+编码所迫	EFILE_ATOMIC	604	280mm Wurfgerät 41	280mm Wurfgerat 41	ä
+编码所迫	EFILE_ATOMIC	842	Jalkaväki 40	Jalkavaki 40	ä
+编码所迫	EFILE_ATOMIC	1143	Jalkaväki 42	Jalkavaki 42	ä
+编码所迫	EFILE_ATOMIC	1146	Jalkaväki 44	Jalkavaki 44	ä
+编码所迫	EFILE_ATOMIC	1147	Jalkaväki 46	Jalkavaki 46	ä
+编码所迫	EFILE_ATOMIC	1250	Fallschirmjäger 36	Fallschirmjager 36	ä
+编码所迫	EFILE_ATOMIC	1258	Fahrradaufklärer 34	Fahrradaufklarer 34	ä
+编码所迫	EFILE_ATOMIC	1286	Zerstörer 1936	Zerstorer 1936	ö
+编码所迫	EFILE_ATOMIC	1657	Göteborg	Goteborg	ö
+编码所迫	EFILE_ATOMIC	1660	Äran	Aran	Ä
+编码所迫	EFILE_ATOMIC	1915	Fahrradaufklärer 38	Fahrradaufklarer 38	ä
+编码所迫	EFILE_ATOMIC	2369	Panzerjäger 35R 731(f)	Panzerjager 35R 731(f)	ä
+编码所迫	EFILE_ATOMIC	2374	FlakPz IV Möbelwagen	FlakPz IV Mobelwagen	ö
+编码所迫	EFILE_ATOMIC	2417	Fallschirmjäger 40	Fallschirmjager 40	ä
+编码所迫	EFILE_ATOMIC	2463	FlakPz IV Zerstörer 45	FlakPz IV Zerstorer 45	ö
+编码所迫	EFILE_ATOMIC	2559	Fallschirmjäger 42	Fallschirmjager 42	ä
+编码所迫	EFILE_ATOMIC	2743	Fallschirmjäger 44	Fallschirmjager 44	ä
+编码所迫	EFILE_ATOMIC	2928	Fallschirmjäger 46	Fallschirmjager 46	ä
+编码所迫	EFILE_ATOMIC	2944	Zerstörer 1936A	Zerstorer 1936A	ö
+编码所迫	EFILE_ATOMIC	2945	Zerstörer 1936B	Zerstorer 1936B	ö
+编码所迫	EFILE_ATOMIC	2960	Zerstörer 1936C	Zerstorer 1936C	ö
+编码所迫	EFILE_ATOMIC	3259	Phänomen Granit 30	Phanomen Granit 30	ä
+编码所迫	EFILE_ATOMIC	3380	Ratsuväki 38	Ratsuvaki 38	ä
+编码所迫	EFILE_ATOMIC	3381	Ratsuväki 40	Ratsuvaki 40	ä
+编码所迫	EFILE_ATOMIC	3383	Ratsuväki 42	Ratsuvaki 42	ä
+编码所迫	EFILE_ATOMIC	3412	Gebirgsjäger 18	Gebirgsjager 18	ä
+编码所迫	EFILE_ATOMIC	3413	Gebirgsjäger 28	Gebirgsjager 28	ä
+编码所迫	EFILE_ATOMIC	3414	Gebirgsjäger 34	Gebirgsjager 34	ä
+编码所迫	EFILE_ATOMIC	3415	Gebirgsjäger 38	Gebirgsjager 38	ä
+编码所迫	EFILE_ATOMIC	3416	Gebirgsjäger 40	Gebirgsjager 40	ä
+编码所迫	EFILE_ATOMIC	3417	Gebirgsjäger 42	Gebirgsjager 42	ä
+编码所迫	EFILE_ATOMIC	3418	Gebirgsjäger 44	Gebirgsjager 44	ä
+编码所迫	EFILE_ATOMIC	3419	Gebirgsjäger 46	Gebirgsjager 46	ä
+编码所迫	EFILE_ATOMIC	3446	Jäger 18	Jager 18	ä
+编码所迫	EFILE_ATOMIC	3447	Jäger 28	Jager 28	ä
+编码所迫	EFILE_ATOMIC	3448	Jäger 34	Jager 34	ä
+编码所迫	EFILE_ATOMIC	3449	Jäger 38	Jager 38	ä
+编码所迫	EFILE_ATOMIC	3450	Jäger 40	Jager 40	ä
+编码所迫	EFILE_ATOMIC	3451	Jäger 42	Jager 42	ä
+编码所迫	EFILE_ATOMIC	3452	Jäger 44	Jager 44	ä
+编码所迫	EFILE_ATOMIC	3453	Jäger 46	Jager 46	ä
+编码所迫	EFILE_ATOMIC	3483	PzGren 41 auf Panzerjäger I	PzGren 41 auf Panzerjager I	ä
+编码所迫	EFILE_ATOMIC	3484	Fahrradaufklärer 40	Fahrradaufklarer 40	ä
+编码所迫	EFILE_ATOMIC	3485	Fahrradaufklärer 43	Fahrradaufklarer 43	ä
+编码所迫	EFILE_ATOMIC	3486	Aufklärungskavallerie 18	Aufklarungskavallerie 18	ä
+编码所迫	EFILE_ATOMIC	3487	Aufklärungskavallerie 30	Aufklarungskavallerie 30	ä
+编码所迫	EFILE_ATOMIC	3488	Aufklärungskavallerie 36	Aufklarungskavallerie 36	ä
+编码所迫	EFILE_ATOMIC	3489	Aufklärungskavallerie 40	Aufklarungskavallerie 40	ä
+编码所迫	EFILE_ATOMIC	3499	Gebirgsaufklärung 36	Gebirgsaufklarung 36	ä
+编码所迫	EFILE_ATOMIC	3500	Gebirgsaufklärung 41	Gebirgsaufklarung 41	ä
+编码所迫	EFILE_ATOMIC	3501	Gebirgsaufklärung 43	Gebirgsaufklarung 43	ä
+编码所迫	EFILE_ATOMIC	3502	Gebirgsaufklärung 46	Gebirgsaufklarung 46	ä
+编码所迫	EFILE_ATOMIC	3503	Fallschirmaufklärer 38	Fallschirmaufklarer 38	ä
+编码所迫	EFILE_ATOMIC	3504	Fallschirmaufklärer 43	Fallschirmaufklarer 43	ä
+编码所迫	EFILE_ATOMIC	3544	Hemvärnet 40	Hemvarnet 40	ä
+编码所迫	EFILE_ATOMIC	3777	VL Pyörremyrsky	VL Pyorremyrsky	ö
+编码所迫	EFILE_ATOMIC	4125	Fallschirmaufklärer 41	Fallschirmaufklarer 41	ä
+编码所迫	EFILE_ATOMIC	4446	Hemvärnet 42	Hemvarnet 42	ä
+编码所迫	EFILE_ATOMIC	4447	Hemvärnet 44	Hemvarnet 44	ä
+编码所迫	EFILE_ATOMIC	4449	Mörkö-Morane	Morko-Morane	öö
+编码所迫	EFILE_ATOMIC	4457	Hemvärnet 50	Hemvarnet 50	ä
+编码所迫	EFILE_ATOMIC	4759	Panzerjäger Tiger (P)	Panzerjager Tiger (P)	ä
+编码所迫	EFILE_ATOMIC	4802	420mm Gamma-Gerät	420mm Gamma-Gerat	ä
+编码所迫	EFILE_ATOMIC	5230	Fallschirmaufklärer 46	Fallschirmaufklarer 46	ä
+编码所迫	EFILE_ATOMIC	5335	Jäger 18	Jager 18	ä
+编码所迫	EFILE_ATOMIC	5336	Aufklärungskavallerie 18	Aufklarungskavallerie 18	ä
+编码所迫	EFILE_ATOMIC	5629	Panzerjäger Löwe	Panzerjager Lowe	äö
+编码所迫	EFILE_ATOMIC	5630	MTW Kätzchen	MTW Katzchen	ä
+编码所迫	EFILE_ATOMIC	5847	Cöln	Coln	ö
+编码所迫	EFILE_ATOMIC	6326	Juurdunud Jalavägi 18	Juurdunud Jalavagi 18	ä
+编码所迫	EFILE_ATOMIC	6372	Jäger 18	Jager 18	ä
+编码所迫	EFILE_ATOMIC	6452	Aufklärungskavallerie 18	Aufklarungskavallerie 18	ä
+编码所迫	EFILE_ATOMIC	6595	152mm Kustartilleripjäs m/40	152mm Kustartilleripjas m/40	ä
+编码所迫	EFILE_ATOMIC	6669	Fahrradaufklärer 18	Fahrradaufklarer 18	ä
+编码所迫	EFILE_ATOMIC	6702	Küstenjäger 43	Kustenjager 43	üä
+编码所迫	EFILE_ATOMIC	6749	Spähzug 18	Spahzug 18	ä
+编码所迫	EFILE_ATOMIC	6775	Ratsuväki 44	Ratsuvaki 44	ä
+编码所迫	EFILE_ATOMIC	6804	Jääkäri 38	Jaakari 38	äää
+编码所迫	EFILE_ATOMIC	6805	Jääkäri 40	Jaakari 40	äää
+编码所迫	EFILE_ATOMIC	6806	Jääkäri 42	Jaakari 42	äää
+编码所迫	EFILE_ATOMIC	6807	Jääkäri 44	Jaakari 44	äää
+编码所迫	EFILE_ATOMIC	6808	Jääkäri 46	Jaakari 46	äää
+编码所迫	EFILE_ATOMIC	6981	Ejtöernyös 36	Ejtoernyos 36	öö
+编码所迫	EFILE_ATOMIC	6982	Ejtöernyös 40	Ejtoernyos 40	öö
+编码所迫	EFILE_ATOMIC	6983	Ejtöernyös 42	Ejtoernyos 42	öö
+编码所迫	EFILE_ATOMIC	6984	Ejtöernyös 44	Ejtoernyos 44	öö
+编码所迫	EFILE_ATOMIC	7905	PzKpfw VII Löwe	PzKpfw VII Lowe	ö
+编码所迫	EFILE_ATOMIC	7920	Hs 297 Föhn	Hs 297 Fohn	ö
+编码所迫	EFILE_ATOMIC	7925	Panzerzerstörer Panther	Panzerzerstorer Panther	ö
+编码所迫	EFILE_ATOMIC	7954	210mm Wurfmörser 69	210mm Wurfmorser 69	ö
+编码所迫	EFILE_ATOMIC	8027	Götz von Berlichingen	Gotz von Berlichingen	ö
+编码所迫	EFILE_ATOMIC	8181	Zerstörer 1944	Zerstorer 1944	ö
+编码所迫	EFILE_ATOMIC	8198	305mm Mörser(t)	305mm Morser(t)	ö
+编码所迫	EFILE_ATOMIC	8211	Spähkreuzer 39	Spahkreuzer 39	ä
+编码所迫	EFILE_ATOMIC	8218	Pz IV Panzerfähre	Pz IV Panzerfahre	ä
+编码所迫	EFILE_ATOMIC	8235	Spähkreuzer 40	Spahkreuzer 40	ä
+编码所迫	EFILE_ATOMIC	8240	Zerstörer 1945	Zerstorer 1945	ö
+编码所迫	EFILE_ATOMIC	8297	Flakträger	Flaktrager	ä
+编码所迫	EFILE_ATOMIC	8540	Funkmessgerät Freya	Funkmessgerat Freya	ä
+编码所迫	EFILE_ATOMIC	9133	Fahrradaufklärer 18	Fahrradaufklarer 18	ä
+编码所迫	EFILE_ATOMIC	9142	Kustjägarna 56	Kustjagarna 56	ä
+编码所迫	EFILE_ATOMIC	9204	Jalavägi 18	Jalavagi 18	ä
+编码所迫	EFILE_ATOMIC	9207	Jalavägi 38	Jalavagi 38	ä
+编码所迫	EFILE_ATOMIC	9208	Jalavägi 40	Jalavagi 40	ä
+编码所迫	EFILE_ATOMIC	9209	Ratsavägi 18	Ratsavagi 18	ä
+编码所迫	EFILE_ATOMIC	9213	Ratsavägi 38	Ratsavagi 38	ä
+编码所迫	EFILE_ATOMIC	9214	Ratsavägi 40	Ratsavagi 40	ä
+编码所迫	EFILE_ATOMIC	9228	Kütiväeosa 18	Kutivaeosa 18	üä
+编码所迫	EFILE_ATOMIC	9231	Kütiväeosa 38	Kutivaeosa 38	üä
+编码所迫	EFILE_ATOMIC	9232	Kütiväeosa 40	Kutivaeosa 40	üä
+编码所迫	EFILE_ATOMIC	9273	Sd.Kfz. 3/4 Sanitätskraftwagen	Sd.Kfz. 3/4 Sanitatskraftwagen	ä
+编码所迫	EFILE_ATOMIC	9361	Öland	Oland	Ö
+编码所迫	EFILE_ATOMIC	9396	Leichter Einheitswaffenträger	Leichter Einheitswaffentrager	ä
+编码所迫	EFILE_ATOMIC	9468	Rajajääkäri 38	Rajajaakari 38	äää
+编码所迫	EFILE_ATOMIC	9469	Rajajääkäri 40	Rajajaakari 40	äää
+编码所迫	EFILE_ATOMIC	9471	Rajajääkäri 42	Rajajaakari 42	äää
+编码所迫	EFILE_ATOMIC	9473	Rajajääkäri 44	Rajajaakari 44	äää
+编码所迫	EFILE_ATOMIC	9478	Rajajääkäri 46	Rajajaakari 46	äää
+编码所迫	EFILE_ATOMIC	9625	Aufklärungskavallerie 42	Aufklarungskavallerie 42	ä
+编码所迫	EFILE_ATOMIC	9635	Kuperjanovi Jalaväepataljon 18	Kuperjanovi Jalavaepataljon 18	ä
+编码所迫	EFILE_ATOMIC	9898	Skijäger 38	Skijager 38	ä
+编码所迫	EFILE_ATOMIC	9899	Skijäger 40	Skijager 40	ä
+编码所迫	EFILE_ATOMIC	9900	Skijäger 42	Skijager 42	ä
+编码所迫	EFILE_ATOMIC	9901	Skijäger 44	Skijager 44	ä
+编码所迫	EFILE_ATOMIC	9925	Skijäger 46	Skijager 46	ä
+编码所迫	EFILE_ATOMIC	10238	Ratsuväki	Ratsuvaki	ä
+编码所迫	EFILE_ATOMIC	10245	Jääkäri	Jaakari	äää
+编码所迫	EFILE_ATOMIC	10249	Ratsuväki 18	Ratsuvaki 18	ä
+编码所迫	EFILE_ATOMIC	10603	Fahrradaufklärer 42	Fahrradaufklarer 42	ä
+编码所迫	EFILE_ATOMIC	10604	Fahrradaufklärer 44	Fahrradaufklarer 44	ä
+编码所迫	EFILE_ATOMIC	11015	Alpenjäger 28	Alpenjager 28	ä
+编码所迫	EFILE_ATOMIC	11016	Alpenjäger 34	Alpenjager 34	ä
+编码所迫	EFILE_ATOMIC	11021	Aufklärungskavallerie 30	Aufklarungskavallerie 30	ä
+编码所迫	EFILE_ATOMIC	11022	Aufklärungskavallerie 36	Aufklarungskavallerie 36	ä
+编码所迫	EFILE_ATOMIC	11023	Gebirgsaufklärung 28	Gebirgsaufklarung 28	ä
+编码所迫	EFILE_ATOMIC	11024	Gebirgsaufklärung 36	Gebirgsaufklarung 36	ä
+编码所迫	EFILE_ATOMIC	11062	Silbermöwe	Silbermowe	ö
+编码所迫	EFILE_ATOMIC	11063	Zerstörer 1	Zerstorer 1	ö
+编码所迫	EFILE_ATOMIC	11089	Jäger 52	Jager 52	ä
+编码所迫	EFILE_ATOMIC	11093	Feldjäger 48	Feldjager 48	ä
+编码所迫	EFILE_ATOMIC	11094	Gebirgsjäger 52	Gebirgsjager 52	ä
+编码所迫	EFILE_ATOMIC	11095	Fallschirmjäger 52	Fallschirmjager 52	ä
+编码所迫	EFILE_ATOMIC	11257	Jäger 52	Jager 52	ä
+编码所迫	EFILE_ATOMIC	11261	Feldjäger 48	Feldjager 48	ä
+编码所迫	EFILE_ATOMIC	11263	Fallschirmjäger 52	Fallschirmjager 52	ä
+编码所迫	EFILE_ATOMIC	11410	Gebirgsaufklärung 36	Gebirgsaufklarung 36	ä
+编码所迫	EFILE_ATOMIC	11413	Gebirgsaufklärung 41	Gebirgsaufklarung 41	ä
+编码所迫	EFILE_ATOMIC	11432	Gebirgsaufklärung 43	Gebirgsaufklarung 43	ä
+编码所迫	EFILE_ATOMIC	11433	Gebirgsaufklärung 46	Gebirgsaufklarung 46	ä
+编码所迫	EFILE_ATOMIC	11436	Panzerjäger G13	Panzerjager G13	ä
+编码所迫	EFILE_GCE	1424	Clase España	Clase Espana	ñ
+编码所迫	EFILE_KAISER	219	Jääkäri	Jaakari	äää
+编码所迫	EFILE_KAISER	407	Phönix C.I	Phonix C.I	ö
+编码所迫	EFILE_KAISER	610	42cm M-Gerät 'Dicke Bertha'	42cm M-Gerat 'Dicke Bertha'	ä
+编码所迫	EFILE_KAISER	1078	15cm Mörser M80	15cm Morser M80	ö
+编码所迫	EFILE_KAISER	1114	Phönix D.I	Phonix D.I	ö
+编码所迫	EFILE_KAISER	1415	Peça 7cm de Bronze m/882-887	Peca 7cm de Bronze m/882-887	ç
+编码所迫	EFILE_KAISER	1820	Phönix Type LDD s.23	Phonix Type LDD s.23	ö
+编码所迫	EFILE_KAISER	2287	Peça 7.5cm TR a Cavalo	Peca 7.5cm TR a Cavalo	ç
+编码所迫	EFILE_KAISER	2718	21cm Mörser C/70	21cm Morser C/70	ö
+编码所迫	EFILE_KAISER	2981	Königsberg Class	Konigsberg Class	ö
+编码所迫	EFILE_KAISER	2995	König Class	Konig Class	ö
+编码所迫	EFILE_KAISER	3042	Clase España 	Clase Espana	ñ
+编码所迫	EFILE_KAISER	3808	21cm Mörser C/70	21cm Morser C/70	ö
+编码所迫	EFILE_KAISER	4223	Phönix D.II	Phonix D.II	ö
+编码所迫	EFILE_KAISER	4224	Phönix D.IIa	Phonix D.IIa	ö
+编码所迫	EFILE_KAISER	4225	Phönix D.III	Phonix D.III	ö
+编码所迫	EFILE_KAISER	4388	Phönix D.I	Phonix D.I	ö
+编码所迫	EFILE_KAISER	4389	Phönix D.II	Phonix D.II	ö
+编码所迫	EFILE_KAISER	4430	Phönix C.I	Phonix C.I	ö
+编码所迫	EFILE_KAISER	4737	30,5cm Beta M-Gerät 09	30,5cm Beta M-Gerat 09	ä
+编码所迫	EFILE_OLGWW2	68	3.7cm FlaK Möbelwagen	3.7cm FlaK Mobelwagen	ö
+编码所迫	EFILE_OLGWW2	127	Königsberg Class	Konigsberg Class	ö
+编码所迫	EFILE_OLGWW2	129	Zerstörer 1934A Class	Zerstorer 1934A Class	ö
+编码所迫	EFILE_OLGWW2	835	Citroën 23U	Citroen 23U	ë
+编码所迫	EFILE_OLGWW2	1286	Zerstörer 1936A Class	Zerstorer 1936A Class	ö
+编码所迫	EFILE_OLGWW2	1424	España Class	Espana Class	ñ
+编码所迫	EFILE_OLGWW2	1552	Méndez Núñez Class	Mendez Nunez Class	éúñ
+编码所迫	EFILE_OLGWW2	1553	España Class	Espana Class	ñ
+编码所迫	EFILE_OLGWW2	1656	Zerstörer 1945 Class	Zerstorer 1945 Class	ö
+编码所迫	EFILE_OLGWW2	3202	Citroën 23U	Citroen 23U	ë
+编码所迫	EFILE_OLGWW2	3216	Citroën 23U	Citroen 23U	ë
+编码所迫	EFILE_OLGWW2	4005	Citroën-Kegresse	Citroen-Kegresse	ë
+编码所迫	EFILE_OLGWW2	4538	4.7cm M35 Böhler	4.7cm M35 Bohler	ö
+编码所迫	EFILE_OLGWW2	4539	8cm Mörser	8cm Morser	ö
+编码所迫	EFILE_PzLIGA	70	Cölian	Colian	ö
+编码所迫	EFILE_PzLIGA	844	Brummbär - Sd. Kfz. 166	Brummbar - Sd. Kfz. 166	ä
+编码所迫	EFILE_PzLIGA	1368	Möbelwagen - Sd. Kfz. 161/3	Mobelwagen - Sd. Kfz. 161/3	ö
+编码所迫	EFILE_PzLIGA	1996	Brummbär - Sd. Kfz. 166	Brummbar - Sd. Kfz. 166	ä
+编码所迫	EFILE_PzLIGA	2302	Königsberg Klasse	Konigsberg Klasse	ö
+编码所迫	EFILE_PzLIGA	3041	Brummbär - Sd. Kfz. 166 (Waffen)	Brummbar - Sd. Kfz. 166 (Waffen)	ä
+编码所迫	EFILE_PzLIGA	3060	Möbelwagen - Sd. Kfz. 161/3 (Waffen)	Mobelwagen - Sd. Kfz. 161/3 (Waffen)	ö
+编码所迫	EFILE_PzLIGA	3102	Cölian (Waffen)	Colian (Waffen)	ö
+编码所迫	EFILE_PzLIGA	4092	Miqueletes-Miñones (bask)	Miqueletes-Minones (bask)	ñ

@@ -1,0 +1,78 @@
+# For Stalin and Motherland\PG2_Readme.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+3090	?Za Stalina, za Rodinu	为了斯大林，为了祖国
+3142	?For Stalin and Motherland	为了斯大林与祖国
+3191	Soviet campaign	苏联战役
+3238	This campaign was made in Polish by	本战役由以下作者以波兰语制作：
+3251	Adam Bolesta,	Adam Bolesta，
+3263	the English text done by	英文文本由以下作者完成：
+3276	Darth Stalin.	Darth Stalin。
+3288	All *.txt files were originally in Polish and if you want to read English commentaries, install	所有 *.txt 文件原为波兰语，如果你想阅读英文说明，请安装
+3291	?English text.zip	English text.zip
+3342	Installation guide:	安装指南：
+3411	For this campaign you	进行本战役，你
+3414	?ll need maps from original PG2, as well the following Builders	还需要原版 PG2 的地图，以及下列 Builders
+3417	? Paradise maps: Ekaterinburg, Kharkov, Litovsk, Mozhaisk, Ponyri, Vistula.	' Paradise 地图：Ekaterinburg、Kharkov、Litovsk、Mozhaisk、Ponyri、Vistula。
+3464	Download them from the Builders	请从 Builders
+3467	? Paradise website if you haven	' Paradise 网站下载，如果你还没
+3470	?t got them.	有的话。
+3517	Map install:	地图安装：
+3585	You have to download both the map ( containing only *.shp files ) and *.map files, included in BP	你必须同时下载地图（只含 *.shp 文件）与 *.map 文件，二者都在 BP
+3591	?mapfiles	的 mapfiles
+3594	? folder.	文件夹中。
+3662	If you haven	如果你还
+3665	?t don so before, in your main PG2 Directory create folder	没有这样做过，请在你的 PG2 主目录中新建文件夹
+3668	?Map	“Map
+3671	? and copy there all the *.shp files from the	”，并把 PG2 CD 上
+3674	?Map	“Map
+3677	? folder from your PG2 CD; this MUST be done if you want to play with new maps; it also allows you to play without CD in your CD-ROM drive.	”文件夹中的所有 *.shp 文件复制到那里；如果你想用新地图，这一步必须完成，它还能让你在游戏时不必把 CD 放进光驱。
+3745	Unzip the *.shp files into	把 *.shp 文件解压到
+3748	?Map	“Map
+3751	? folder in your main PG2 Directory	”文件夹，位于你的 PG2 主目录
+3819	Unzip the *.map file from	把
+3822	?mapfiles	“mapfiles
+3825	? folder into	”文件夹中的 *.map 文件解压到
+3828	?Scenario	“Scenario
+3831	? folder in your main PG2 Directory.	”文件夹（你的 PG2 主目录）。
+3878	If you have some problems with maps, looka at the Builders Paradise	如果地图有问题，请到 Builders Paradise
+3881	? website for more info about custom made maps and installation.	' 网站查看有关自制地图与安装的更多信息。
+3949	Unzip the	把
+3965	zastalinu.zip	zastalinu.zip
+3979	? file into	 文件解压到
+3982	?Scenario	“Scenario
+3985	? folder in your main PG2 Directory.	”文件夹（你的 PG2 主目录）。
+4053	Install Icons upgrade ( works on	安装图标升级包（适用于
+4056	?clear	“纯净
+4059	?, not upgraded PG2. It is also possible to play on pg1.02 upgrade; however this was not tested by me	”的、未升级的 PG2。也可以配合 pg1.02 升级版运行；不过我未测试过
+4062	? Darth Satlin )	 Darth Satlin）
+4065	? needed at least 25MB free space on HD:	需要至少 25MB 硬盘可用空间：
+4134	Create 2 subfolders: 1) and 2); into 1) copy your Panzer2.dat from the PG2, and into 2) unzip	新建 2 个子文件夹：1) 和 2)；把 PG2 的 Panzer2.dat 复制到 1)，并把
+4150	icons.zip	icons.zip
+4164	? file	 文件解压到 2)。
+4233	Copy	把
+4236	?Upg2shp.exe	“Upg2shp.exe
+4239	? from folder 2) into 1) and run it	”从文件夹 2) 复制到 1)，然后运行它
+4308	Copy all the remaining files from folder 2) into folder 1), overwriting existing files when necessary	把文件夹 2) 中其余所有文件复制到文件夹 1)，必要时覆盖已有文件
+4377	Run	运行
+4380	?Ppg2shp.exe	“Ppg2shp.exe
+4383	? After that there will be created	”。之后会生成
+4386	?Newpg2.dat	 Newpg2.dat。
+4458	Rename	把
+4461	?Newpg2.dat	“Newpg2.dat
+4464	? into	”重命名为
+4467	?Panzer2.dat	“Panzer2.dat
+4470	? and copy it into main PG2 Directory, overwriting the existing one.	”，并复制到 PG2 主目录，覆盖原有文件。
+4538	unzip	把
+4554	new equip.zip	new equip.zip
+4568	? into main PG2 Directory	 解压到 PG2 主目录
+4636	unzip	把
+4652	English text.zip	English text.zip
+4666	? into	 解压到
+4669	?Scenario	“Scenario
+4672	? folder, overwriting existing *.txt files.	”文件夹，覆盖已有的 *.txt 文件。
+4740	Now you can run the campaign!	现在你可以运行战役了！
+4822	If you want to send any commentaries on this campaign, visit author	如果你想对本战役发表任何评论，请访问作者
+4825	?s website:	的网站：
+4915	http://bolesta.home.pl/pg2/index.html	http://bolesta.home.pl/pg2/index.html
+4975	or mail Darth Stalin:	或发邮件给 Darth Stalin：
+5065	przemek@free.plock.pl	przemek@free.plock.pl

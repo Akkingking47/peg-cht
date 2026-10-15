@@ -1,0 +1,409 @@
+# Manual.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+38	PeG-WW2	PeG-WW2
+46	WWII MODification for People's General	People's General 的二战 MOD
+54	Manual	手册
+64	Contents	目录
+75	Units	单位
+77	-Unit Attachments	-单位附件
+79	-Leader Abilities	-指挥官能力
+81	-Equipment Specials	-特种装备
+83	-Reinforcement Levels	-补充等级
+85	-Special Units	-特种单位
+87	-Prototypes	-原型
+89	Trigger Hexes	触发格
+91	Weather Conditions	天气状况
+93	Air Missions	空中任务
+95	Scenario Editor	场景编辑器
+97	Website	网站
+99	Troubleshooting	故障排除
+109	Units	单位
+113	-Overview	-概述
+115	-Unit Attachments:	-单位附件：
+117	Unit attachments are a way to customize your forces beyond what was ever	单位附件是一种定制部队的方式，其灵活程度超出以往
+119	possible in any of the other General titles. Each unit is able to have	任何一款 General 系列作品所能达到的程度。每个单位最多可分配
+121	up to two attachments assigned to it and these assignments can be changed	两个附件，这些分配可以
+123	in between scenarios during campaign play. Western forces, having a	在战役过程中的场景之间更改。西方部队拥有
+125	technological advantage over their Eastern counterparts, can purchase these	相对其东方对手的技术优势，购买这些附件时每个只需 30 威望点，
+127	attachments for 30 prestige points each instead of 50 for the Chinese player.	而中国玩家则需 50 点。
+129	Some attachments aren't available for all units and won't be present on the	有些附件并非所有单位都能使用，不会出现在
+131	requisition screen, or will simply be grayed out.	征召界面上，或者只会显示为灰色。
+135	Unit attachments are as follows:	单位附件如下：
+139	Recon	侦察
+144	+1 to spotting range, -1 to unit profile.	侦察范围 +1，单位轮廓 -1。
+148	Combat Engineer	战斗工兵
+150	+2 to close attack and defense value. Also entrenches	近战攻击与防御值 +2。构筑工事也比
+156	faster than normal.	正常情况更快。
+160	Air Defense	防空
+163	+2 to helicopter, air attack and to air defense.	直升机、对空攻击以及对空防御 +2。
+167	Bridging*	架桥*
+170	Gives unit ability to cross river hexes as rough terrain.	使单位能够像穿过粗糙地形一样穿过河流格。
+176	Also, allows unit to attack after entering a river hex.	此外，还允许单位在进入河流格后发起攻击。
+180	Helicopter	直升机
+183	+1 to spotting, +2 to hard attack value.	侦察 +1，硬目标攻击值 +2。
+187	Anti-tank	反坦克
+190	+4 hard attack.	硬目标攻击 +4。
+194	Combat Support**	战斗支援**
+196	+3 to Ammo and reinforcements aren't reduced during play	弹药 +3，且补充兵员在游戏过程中不会被削减，
+202	and are replaced to maximum over strength value.	而是补充至最大超编兵力值。
+206	Forward Observer	前沿观察员
+208	Gives artillery and defensive air support a +4 when	使炮兵与防御性空中支援在
+214	attacking and supporting against enemies adjacent to this	攻击和支援与该
+220	unit.	单位相邻的敌人时获得 +4。
+224	Special Munitions	特种弹药
+226	For Artillery only. +2 to soft and hard attack.	仅限炮兵。软目标与硬目标攻击 +2。
+230	*The bridging attachment is different from the bridging Equipment Special. The	*架桥附件与架桥特种装备不同。架桥
+232	bridging Equipment Special allows you to cross over a river as 'rough terrain' and	特种装备允许你像穿过「粗糙地形」一样穿过河流，
+234	it also allows you to place the unit on a river hex and the rest of your forces	它还允许你把单位放置在河流格上，而你的其余部队
+236	may cross over while this unit is in place. The bridging attachment only allows	可在该单位留在原地时穿过。架桥附件只允许
+238	the individual unit with the attachment to cross a river hex. If you place a unit	带有该附件的单个单位穿过河流格。如果你把一个带
+240	with the bridging attachment over a river, your other troops may not cross over.	有架桥附件的单位放到河上，你的其他部队则不能穿过。
+244	**The first time you take replacements for a unit during a scenario, they replace	**在一个场景中首次为单位接收补充兵员时，它们会补充
+246	to 10 max (15 for Chinese infantry). The next time this unit takes on	至上限 10（中国步兵为 15）。该单位下一次接收
+248	replacements, the unit will max out to 9 (14 for Chinese infantry) and each	补充兵员时，上限会是 9（中国步兵为 14），此后每
+250	subsequent turn you'll max out to one strength less. If the unit is equipped with	一个回合上限都会再少 1 点兵力。如果该单位装备了
+252	the Combat Support attachment, it will always replace to 10 (15 for Chinese	战斗支援附件，则始终补充至 10（中国
+254	infantry)	步兵为 15）
+258	-Leader Abilities	-指挥官能力
+260	When a unit is awarded a Leader, the unit gets two special abilities; one set	当单位被授予指挥官时，会获得两项特殊能力：一项是
+262	unit ability dependant on the units class, and one random ability. For instance,	取决于单位类别的固定单位能力，另一项是随机能力。例如，
+264	when a tank unit is awarded a Leader, the unit always gets the Aggressive Maneuver	当坦克单位被授予指挥官时，该单位总是获得「积极机动」
+266	ability then one other random ability from the Random ability list. Below are the	能力，然后再从随机能力列表中随机获得另一项能力。以下是
+268	Unit Class abilities and then the Random Ability List:	单位类别能力，然后是随机能力列表：
+272	Class Leader Abilities:	类别指挥官能力：
+280	Aggressive Maneuver:	积极机动：
+282	Tank unit class ability. Gives +1 to movement range.	坦克单位类别能力。移动范围 +1。
+286	Enhanced Radar:	增强雷达：
+288	Air Defense class ability. Gives +1 to weapon range.	防空类别能力。武器射程 +1。
+292	Force Recon:	强行侦察：
+295	Recon unit class ability. Gives +1 to spotting range.	侦察单位类别能力。侦察范围 +1。
+299	Multiple Fire Support:	多重火力支援：
+301	Artillery unit class ability. Unit may continue to	炮兵单位类别能力。只要单位还有弹药，
+307	support and counter-battery as long as it has ammo to	就可以持续进行支援和反炮兵
+313	do so.	射击。
+317	Stealth Pilot:	隐蔽飞行员：
+320	Helicopter unit class ability. Movement range not	直升机单位类别能力。移动范围不会
+326	reduced	因空中优势等级低
+328	due to low air superiority levels.	而减少。
+332	Tank Killer:	坦克杀手：
+335	Anti-tank unit class ability. Number of shots are not	反坦克单位类别能力。单位在射程 1 之外
+341	halved when unit fires beyond range 1.	开火时，射击次数不减半。
+345	Terrain Expert:	地形专家：
+347	Recon unit class ability. Gives +4 to Close attack and	侦察单位类别能力。近战攻击与
+353	defense values.	防御值 +4。
+357	Random Abilities:	随机能力：
+365	Aggressive Attack:	积极进攻：
+367	Available to all. Gives +2 to attack and defense when	对所有单位可用。发起攻击时攻击与防御
+373	initiating attack.	+2。
+377	Aggressive Maneuver:	积极机动：
+379	Available to all. +1 movement (cumulative with tank class	对所有单位可用。移动 +1（可与坦克类别
+386	leader bonus)	指挥官加成累加）
+390	All Weather Combat:	全天候作战：
+392	Only for helicopters. Number of shots are not halved in	仅限直升机。在暴风雨回合中射击次数
+398	storm turns.	不减半。
+402	Ambusher:	伏击者：
+405	Only infantry. If unit attacks in a close assault, then	仅限步兵。如果单位在近战突击中发起攻击，
+412	enemy gets no artillery support fire.	则敌方得不到炮兵支援射击。
+416	Blitzer:	闪击者：
+419	Not for tanks, ADA, or Arty. Grants the tank class	不适用于坦克、防空或炮兵。赋予坦克类别的
+425	overrun	击溃
+427	ability.	能力。
+431	Bridging:	架桥：
+434	Not for helicopters. Treat river and streams as rough	不适用于直升机。移动时把河流与溪流
+440	terrain	视为崎岖
+442	for movement.	地形。
+446	Camouflage Expert:	伪装专家：
+448	Available to all. -2 profile.	对所有单位可用。轮廓 -2。
+452	Defender:	防御者：
+455	Helicopters only. If unit is adjacent to both attacker	仅限直升机。如果单位同时与进攻方和
+461	and defender, then unit can provide support fire	防御方相邻，则单位可以提供支援射击
+467	(like artillery).	（类似炮兵）。
+471	Determined Defense:	坚定防御：
+473	Available to all. Get +2 to attack and defense when	对所有单位可用。防御时攻击与防御
+479	defending.	+2。
+483	Devastating Fire:	毁灭火力：
+485	Available to all. May shoot twice per turn.	对所有单位可用。每回合可以射击两次。
+489	Ferocious Defender:	凶猛防御者：
+491	For infantry, anti-tank, and ADA. Always gets	适用于步兵、反坦克和防空。无论敌人拥有何种
+498	entrenchment bonus no matter what specials and leaders	特种装备和指挥官，始终获得
+504	the enemy has.	工事加成。
+508	Fire Discipline:	射击纪律：
+510	Available to all. Use 1/2 shot each time in combat.	对所有单位可用。每次战斗只用 1/2 次射击。
+514	First Strike:	先发打击：
+517	Not available to ADA or Arty. Attacks before enemy unless	不适用于防空或炮兵。除非敌方拥有相同指挥官，
+523	enemy has same leader. Support fire, etc. still fire first.	否则先于敌方攻击。支援射击等仍然先开火。
+527	Ground Taker:	攻坚专家：
+530	Not available to air, ADA, and Arty. Does 50% more	不适用于空中单位、防空和炮兵。多造成 50% 的
+536	suppression (which helps cause retreat).	压制（有助于迫使敌人撤退）。
+540	Infiltrator:	渗透者：
+543	Not for ADA, light infantry, or Arty. Ignores ZOCs.	不适用于防空、轻步兵或炮兵。忽略 ZOC。
+547	Influence:	影响力：
+550	Not available in scenario play. Available to all. Units	在场景游戏中不可用。对所有单位可用。单位
+556	can overstrength for free.	可以免费超编。
+560	Liberator:	解放者：
+563	(Not for helicopters) x2 prestige for capturing towns	（不适用于直升机）占领城镇获得 x2 威望
+567	Marksman:	神射手：
+570	Helicopters only. Gives +4 to attack value when attacking.	仅限直升机。攻击时攻击值 +4。
+574	Motivator:	激励者：
+577	Available to all. Adds unit's experience level to all	对所有单位可用。把单位的经验等级加给所有
+583	adjacent units. If unit is a ground unit, it supports ground	相邻单位。如果单位是地面单位，则只支援地面
+589	units only. If unit is air unit, it supports air units only.	单位。如果单位是空中单位，则只支援空中单位。
+593	Overwatch:	守望：
+596	Tanks only. Shoots at enemy units entering its Zone of	仅限坦克。向进入其控制区的敌方
+602	Control.	单位射击。
+606	Overwhelming Attack:	压倒性攻击：
+608	Not available to helicopters or ADA. Unit has slightly	不适用于直升机或防空。单位造成杀伤的
+614	better chance of causing kills.	几率略有提高。
+618	Rangers:	游骑兵：
+621	Only available to infantry. Forest, Rough, Hill, Mountain,	仅对步兵可用。移动时森林、崎岖地形、丘陵、山地
+627	and Jungle are treated as clear terrain for movement.	和丛林都视为开阔地形。
+631	Recon Movement:	侦察移动：
+633	Not available to recon or helicopters. Gives unit the recon	不适用于侦察或直升机。赋予单位侦察类别的
+639	class segmented movement power.	分段移动能力。
+643	Resilience:	坚韧：
+646	Available to all. Unit takes slightly less kills.	对所有单位可用。单位受到的杀伤略有减少。
+650	The Rock:	磐石：
+653	Not available to helicopters, ADA, or Arty. Unit will not	不适用于直升机、防空或炮兵。单位不会
+659	retreat.	撤退。
+663	Sharpshooter:	精准射手：
+666	Not for helicopters, ADA, Artillery, or anti tank units.	不适用于直升机、防空、炮兵或反坦克单位。
+672	Shots are not halved at long range.	远距离射击次数不减半。
+676	Shock Tactics:	震慑战术：
+679	Available to all. Does long term suppression. Suppression	对所有单位可用。造成长期压制。压制
+685	lasts all turn.	持续整个回合。
+689	Shoot and Scoot:	打了就跑：
+691	Only for artillery. Enemy does not get counterbattery fire	仅限炮兵。敌人无法对该单位进行
+697	at this unit.	反炮兵射击。
+701	Sixth Sense:	第六感：
+704	Not available to ADA or Arty. Unit can't be ambushed.	不适用于防空或炮兵。单位不会遭到伏击。
+708	Skilled Recon:	精良侦察：
+711	Available to all units. +1 spotting (cumulative with the	对所有单位可用。侦察 +1（可与侦察类别
+717	recon class leader bonus)	指挥官加成累加）
+721	Skirmisher:	游击兵：
+724	Not for artillery or ADA units. Before attack, the number of	不适用于炮兵或防空单位。攻击之前，对手的
+730	the opponents shots is reduced by two, but never put below 1.	射击次数减少两次，但绝不会降到 1 以下。
+734	Smart Gambler:	聪明赌徒：
+737	Available to all units. Combat losses for attacker will never	对所有单位可用。进攻方在战斗中的损失绝不会
+743	be more than displayed and casualties listed will at least be	超过显示值，而列出的伤亡至少会达到
+749	what was displayed prior to combat (except for hidden	战斗之前显示的值（隐蔽的支援单位
+755	supporting units like artillery)	如炮兵除外）
+759	Street Fighter:	街头战士：
+761	Not for helicopters, ADA, or Artillery. Ignores entrenchment	不适用于直升机、防空或炮兵。忽略城镇或港口中
+767	and terrain bonus of target in town or port. Automatically	目标的工事与地形加成。如果敌人撤退出去，
+773	follows up in city or port hex if enemy retreats out.	则自动跟进到城市或港口格中。
+777	Tunnel Rats:	坑道鼠：
+780	Only for infantry units. Ignores entrenchments and entrenches	仅限步兵单位。忽略工事，并且构筑工事
+786	at a faster rate than normal.	快于正常。
+790	Quartermaster:	军需官：
+793	Available to all units. Always may take replacements up to	对所有单位可用。始终可以补充兵员到
+799	base strength.	基础兵力。
+805	-Equipment Specials	-特种装备
+807	Some units in People's General have inherit capabilities that come with the unit when	People's General 中的一些单位带有随购买而来的固有
+809	purchased and don't need to be added later (like attachments can). You can tell units	能力，无需事后添加（而附件则可以）。你可以通过单位
+811	that have these equipment specials by the green equipment icons listed under the units	统计数据下方（在 "View Unit"（「查看单位」）界面中）列出的
+813	statistical data (in the 'View Unit' screen) The following specials are listed:	绿色装备图标来辨认拥有这些特种装备的单位。列出的特种装备如下：
+817	River Assault:	渡河突击：
+820	Units with this equipment special can cross river hexes as	拥有此特种装备的单位在河流格中移动时
+826	rough terrain and make attacks while in river hexes.	按崎岖地形计算，并且可以在河流格中发起攻击。
+830	Light Infantry:	轻步兵：
+832	Units with this equipment special ignore enemy Zones-of-	拥有此特种装备的单位忽略敌人的
+838	Control.	控制区。
+842	Ignore Entrenchments:	忽略工事：
+844	Units with this equipment special aren't penalized when	拥有此特种装备的单位在攻击
+850	attacking an entrenched defender.	已构筑工事的防御方时不受惩罚。
+854	Destroy Entrechments:	摧毁工事：
+856	Units with this equipment special remove an enemies	拥有此特种装备的单位在战斗中
+862	entrenchment levels when they engage it in combat.	交战时，会消除敌人的工事等级。
+866	Entrench Quickly:	快速构筑工事：
+868	Units with this equipment special entrench at a faster rate	拥有此特种装备的单位构筑工事的速度
+874	(approx 3 times as fast).	更快（约为 3 倍）。
+878	Combat Support:	战斗支援：
+880	Allows you to deploy units adjacent to this unit and allows	允许你在该单位相邻的格部署单位，并允许
+886	you to resupply and reinforce any unit that moves to within	你对移动到该单位 2 格以内的任何单位进行
+892	2 hexes of this unit (as long as it hasn't fired in the turn.)	再补给和补充（只要它在该回合中还没有开火）。
+896	Paratroop:	伞兵：
+899	Units with this equipment special may execute a paratroop	拥有此特种装备的单位如果在其回合开始时
+905	mission if they start their turn in a friendly airport hex.	位于友方机场格，就可以执行伞兵任务。
+909	Bridging:	架桥：
+912	Units with this equipment special treat river hexes as rough	拥有此特种装备的单位把河流格视为崎岖
+918	terrain and when positioned across a river hex allow other	地形，并且当它们跨河流格就位时，还允许其他
+924	friendly units to cross over as road terrain as well.	友方单位按道路地形通过。
+930	-Reinforcement Levels	-补充等级
+932	There are three levels of reinforcements for units in People's General; one empty star	People's General 中单位的补充兵员有三个等级：一颗空星
+934	(regular), 1 filled star (veteran), and 2 filled stars (Elite). Eastern units (Chinese	（普通）、1 颗实心星（老兵）和 2 颗实心星（精锐）。东方单位（中国
+936	and Korean) can set their units to regular or veteran levels. Western units can set	和朝鲜）可以把单位设为普通或老兵等级。西方单位可以
+938	their units to regular, veteran, or elite levels. These levels default to regular, and	把单位设为普通、老兵或精锐等级。这些等级默认为普通，
+940	may only be changed the moment the unit is purchased, never afterward. These different	并且只能在购买单位的那一刻更改，之后永远不能改。这些不同的
+942	levels determine the starting experience level for the unit, and more importantly the	等级决定单位的初始经验等级，更重要的是决定
+944	type of reinforcements the unit will receive during game play. Regular replacements come	单位在游戏过程中会得到哪种补充兵员。普通补充兵员
+946	in at 0 experience per replacement. Veterans come in at 100 experience per replacement.	每人带来 0 点经验。老兵补充兵员每人带来 100 点经验。
+948	Elite come in at 200 experience per replacement. These experience points are averaged	精锐补充兵员每人带来 200 点经验。接收补充兵员时，这些经验值会在
+950	throughout the unit when replacements are taken on. For instance, lets say you have an	整个单位中取平均。例如，假设你有一个
+952	infantry unit that begins a scenario at 200 experience points and is strength 10. During	步兵单位，在场景开始时拥有 200 点经验值、兵力 10。在
+954	the course of the game it is attacked and is reduced in strength from 10 to 3. If this	游戏过程中它受到攻击，兵力从 10 降到 3。如果这个
+956	unit were purchased with a regular replacements (0 experience troops) its new experience	单位在购买时选用的是普通补充兵员（0 经验部队），它接收补充兵员后的
+958	level after taking on replacements would have dropped as follows:	新经验等级会下降如下：
+962	(current strength x current exp) + ( # of replacements x replacement exp level)	(当前兵力 x 当前经验) + (补充兵员数量 x 补充兵员经验等级)
+971	Original strength size of unit	单位的原始兵力规模
+984	= ----- = 60 experience points (a huge reduction!)	= ----- = 60 点经验值（大幅下降！）
+997	If this unit were to be purchased with veteran replacements you would have the following:	如果这个单位在购买时选用的是老兵补充兵员，结果会如下：
+1006	-------------------- = --------- = ----- = 130 experience (not so bad)	-------------------- = --------- = ----- = 130 点经验（还不算太糟）
+1022	If this unit were to be purchased with elite replacements you would have the following:	如果这个单位在购买时选用的是精锐补充兵员，结果会如下：
+1031	-------------------- = ---------- = ---- = 200 (no loss in experience)	-------------------- = ---------- = ---- = 200（经验没有损失）
+1045	It should be noted that because Chinese troops can over strength to 21 great care should	应当注意，由于中国部队可以超编到 21，在决定
+1047	be taken when deciding to take on replacements during a battle. Many times it will be	战斗中是否接收补充兵员时必须非常谨慎。很多时候
+1049	better to simply disengage a unit and move him away from harms way then to take on	更好的做法是让单位脱离接触、把它撤到安全地带，而不是接收
+1051	replacements (which will dilute and in many cases remove all his experience) If you don't	补充兵员（这会稀释、很多时候甚至抹掉它的全部经验）。如果你不在
+1053	take on replacements during a battle, your units will all get replacements equal to their	战斗中接收补充兵员，你的所有单位都会在战斗结束后（两场场景之间）
+1055	current experience level after the battle (in between scenarios)	得到与其当前经验等级相当的补充兵员。
+1059	-Helicopters	-直升机
+1061	Helicopters are by far the most powerful weapon on the battle field. Only ADA units with	直升机是战场上最强大的武器，远超其它。只有拥有未加括号的
+1063	non-bracketed helicopter attack values, fighter interceptors, and other helicopters may	直升机杀伤值的防空单位、战斗机截击机和其他直升机才能
+1065	actively engage helicopter units. This makes them very resilient. It should be noted that	主动与直升机单位交战。这使它们非常顽强。应当注意，
+1067	Helicopter movement is a function of your air supremacy rating. If you have 100% air	直升机的移动取决于你的制空权等级。如果你拥有 100% 的
+1069	supremacy, then your helicopters may move their full movement allowance during a given	制空权，那么你的直升机在某个回合内可以移动其全部移动力
+1071	turn (30 hexes). This number will be reduced as your air supremacy level drops. Your	（30 格）。这个数字会随制空权等级下降而减少。你的
+1073	helicopters movement may never fall below 9 movement.	直升机移动力永远不会低于 9 点移动力。
+1077	-Special Units (CSU, Recon, Bridging Units, Light Infantry)	-特种单位（CSU、侦察、架桥单位、轻步兵）
+1079	There are some very unique units in People's General that deserve special attention.	People's General 中有一些非常独特的单位值得特别关注。
+1081	They are:	它们是：
+1085	Combat Support Units:	战斗支援单位：
+1088	CSU's allow you to deploy new units deep within enemy	CSU 允许你在敌方纵深
+1095	territory. You may deploy any new unit that you purchase	部署新单位。你可以把购买的任何新单位部署在
+1102	in any of the adjacent hexes around a CSU that isn't	CSU 周围任何一个没有被敌方单位
+1109	occupied by an enemy unit. Usually you may only	占据的相邻格中。通常你只能对
+1111	resupply	一个在该回合中
+1118	or give replacements to a unit that hasn't moved or fired	还没有移动或开火的单位进行再补给或给予补充兵员。
+1125	in the turn. If you move a unit during a turn within 2	如果你在某回合中把一个单位移动到距离 CSU 2
+1132	hexes of a CSU, that unit may resupply or take on	格以内，该单位就可以再补给或接收
+1139	replacements as long as he hasn't fired that turn. This	补充兵员，只要它那个回合还没有开火。这
+1146	makes defending a position much easier as you can move	使防守阵地容易得多，因为你可以把
+1153	spent units to the rear and still reinforce the unit if	已经用尽的单位撤到后方，而只要附近有 CSU，
+1160	a CSU is nearby.	仍然能对该单位进行补充。
+1164	Recon Units:	侦察单位：
+1168	Recon units not only have their segmented movement like	侦察单位不仅像其它 General 系列游戏那样
+1175	in other General games, but they may also screen your troop	拥有分段移动，还能为你部队的
+1182	movements from the enemy. Spotting is greatly reduced for	移动提供掩护、不让敌人发现。当附近有侦察单位时，
+1189	the enemy when you have recon units nearby.	敌人的侦察范围会大幅降低。
+1193	Bridging Units:	架桥单位：
+1196	Bridging units that have the bridging equipment special are	拥有架桥特种装备的架桥单位与拥有
+1203	different then units that have the bridging attachment in	架桥附件的单位不同，区别在于：只要
+1210	that they may act as a bridge for your other units as long	它们跨河流格就位，就可以为你
+1217	as they remain positioned across a river hex.	其它单位充当桥梁。
+1221	Light Infantry:	轻步兵：
+1224	Light Infanty units are very nice in that they may move 1/2	轻步兵单位很好用，因为它们空运到某地后还能
+1231	their movement allowance after they air-mobile to a location	移动其一半的移动力，
+1238	and they ignore enemy Zones-of-Control. This makes them	并且无视敌方的控制区。这使它们
+1245	very effective when dropped deep within enemy territory to	在被空投到敌方纵深、夺取防守薄弱的
+1252	take lightly defended victory hexes. Keep these units in	胜利格时非常有效。把这些单位放在
+1259	cities,	城市、
+1261	forest, or other rough terrain areas as they will	森林或其它崎岖地形区域中，因为它们在
+1268	die quickly in clear terrain.	开阔地形中会很快阵亡。
+1272	-Prototype Units:	-原型单位：
+1275	Prototype Units are sometimes awarded in between scenario	原型单位有时会在两场场景之间授予，
+1282	and as a result of activating a trigger hex (see below).	也可能因激活触发格而获得（见下文）。
+1289	Prototype units don't ever count against your troop cap	原型单位永远不会占用你的部队上限
+1296	(the maximum amount of troops you may have in any given	（即你在任何给定场景中可拥有的部队数量上限），
+1303	scenario) and will never gain levels of experience like	也永远不会像其它部队那样
+1310	other troops.	获得经验等级。
+1317	Trigger Hexes	触发格
+1321	Certain city hexes in a scenario will give a special award to the player who takes them.	场景中的某些城市格会给占领它们的玩家一份特殊奖励。
+1323	Trigger hexes can give you more prestige, more air mission points, more experience for the	触发格可以给你更多威望、更多空中任务点数、让占领城市的
+1325	unit taking the city, or award a leader to the unit that takes the city. Because	单位获得更多经验，或者把一名指挥官授予占领城市的单位。由于
+1327	experience and leaders are only given to the unit that actually activates the trigger hex,	经验和指挥官只会给予实际激活触发格的那个单位，
+1329	its a good idea to take cities with units that don't already have leaders assigned to them.	所以最好用还没有分配指挥官的单位去占领城市。
+1335	Weather	天气
+1339	Poor weather will reduce the number of shots by 1/2. Night conditions reduce visible by 1/2.	恶劣天气会使射击次数减半。夜间条件会使可见范围减半。
+1345	Air Missions	空中任务
+1349	Air missions are one of the most powerful resources available in your arsenal. In many	空中任务是你手中最强大的资源之一。在许多
+1351	scenarios you will notice that you air mission points have been very limited. In these	场景中你会注意到，你的空中任务点数非常有限。在这些
+1353	cases you should use air missions with great reserve and planning. Your number of air	情况下，你应当非常克制、有计划地使用空中任务。你的空中
+1355	mission points will be reduced each turn depending on your air supremacy level and how	任务点数每回合都会减少，减少多少取决于你的制空权等级以及
+1357	many aircraft you lost during the current turn. If you have an 80% Air Supremacy rating,	你在当前回合损失了多少飞机。如果你的制空权等级为 80%，
+1359	you will lose20% of your remaining air mission points the next turn if you use execute	那么只要你执行任何类型的空中任务，下个回合就会失去剩余空中任务点数的 20%。
+1361	an air mission of any type. This reduction will grow even more for any aircraft that	任何在该回合中被击落的飞机都会使这一削减进一步加大。
+1363	were shot down during the turn. Below is a list of possible air missions:	下面列出可能执行的空中任务：
+1367	-Wild Weasel	-防空压制
+1371	(5 points) Used to attack enemy Air Defenses.	（5 点）用于攻击敌方防空。
+1375	-Recon	-侦察
+1380	(2 points) Used to gain recon in a specific location.	（2 点）用于在特定地点获得侦察。
+1384	-Air Strike	-空中打击
+1388	(10 points) Used to attack ground or helicopter units.	（10 点）用于攻击地面单位或直升机单位。
+1395	If used to attack helicopter units, enemy ADA won't engage.	如果用于攻击直升机单位，敌方防空不会迎击。
+1399	-Defensive Air Support	-防御性空中支援
+1402	(6 points) Positioned over friendly units greatly increases	（6 点）部署在友方单位上空，会在敌人回合中
+1409	their capabilities during your enemies turn. Defensive air	大幅提升它们的作战能力。防御性空中
+1416	support lasts as long as ammo last for the air unit (note:	支援持续到该空中单位的弹药耗尽为止（注意：
+1423	all air units have 4 ammo). Can also be used to chase enemy	所有空中单位都有 4 点弹药）。也可以用来驱赶敌方
+1430	helicopters away.	直升机。
+1434	-Airlift	-空运
+1438	(4 points) Lets you airlift units from one friendly	（4 点）允许你把单位从一个友方
+1445	airfield to another friendly airfield as long as no known	机场空运到另一个友方机场，只要没有已知的
+1452	enemy ADA screen or umbrella one of your airfields.	敌方防空遮蔽或覆盖你的某个机场。
+1456	-Air-mobile	-空中机动
+1460	(4 points) Allows units to move via helicopters as long as	（4 点）允许单位搭乘直升机移动，只要
+1467	enemy ADA doesn't keep them grounded.	敌方防空没有把它们压制在地面。
+1475	Scenario Editor	场景编辑器
+1479	The editor included with People's General gives you the ability to create any	People's General 附带的编辑器让你能够利用游戏附带的
+1481	number of scenarios using all of the maps included with the game. Some tips	所有地图创建任意数量的场景。以下是关于场景编辑器的一些
+1483	and suggestions when the scenario editor:	提示和建议：
+1487	-Trigger hexes will only be active for the first half of the scenario. If turns	-触发格只在场景的前一半期间有效。如果回合数
+1489	go beyond this point, all remaining trigger hexes will be deactivated.	超过这个界限，所有剩余的触发格都会被停用。
+1493	-All units in the game become available for purchase at certain dates. If you find	-游戏中的所有单位都会在特定日期变得可以购买。如果你发现
+1495	that for some reason you can't find a specific unit to place on the map, try increases	出于某种原因找不到某个特定单位放到地图上，请尝试把
+1497	the date in the scenario until it becomes available.	场景中的日期往后调，直到它变为可用。
+1501	-Setting the Western or Eastern 'stance' (attacker/defender) determines if one side	-设置西方或东方"立场"（攻击方/防御方）会决定某一方
+1503	has to take all victory hexes in 'x' amount of time or defend all victory hexes in	必须在"x"时间内夺取全部胜利格，还是必须在"x"时间内
+1505	'x' amount of time. It should be noted that if the defender manages to take the one	守住全部胜利格。应当注意，如果防御方设法夺取了
+1507	victory hex that the attacker starts the scenario with, the defender will win.	攻击方在场景开始时拥有的那个胜利格，防御方就会获胜。
+1511	-If you set the game to 'Nighttime', the first 2 game turns will be played at night.	-如果你把游戏设为 "Nighttime"（「夜间」），前 2 个游戏回合将在夜间进行。
+1515	-To place a generic small flag (a non-victory or supply hex flag) on the map, highlight	-要在地图上放置普通小旗（非胜利格或补给格的旗标），请选中
+1517	the country button in the top right hand corner of the scenario map screen, then click	场景地图画面右上角的国别按钮，然后点击
+1519	onto the hex you want the flag to appear in.	你想要旗标出现的格。
+1523	-To add a leader to a unit, first requisition and deploy the unit, then select 'adjust	-要给单位添加指挥官，先征募并部署该单位，然后选择 "adjust
+1525	unit' and click onto the unit you want to add the leader to. Next, select the Leader	unit"（「调整部队」）并点击你要添加指挥官的单位。接着选择指挥官
+1527	icon and you're set.	图标，就完成了。
+1531	-Units cannot over strength unless you first increase their experience. If you want	-除非先提高单位的经验，否则单位不能超编。如果你想
+1533	to over strength a unit from 10 to 12, it must have al least two hundred experience points	把一个单位从 10 超编到 12，它必须至少有 200 点经验值
+1535	to do so.	才能做到。
+1539	-To change the facing of a unit on the map, go into the deployment screen and right click	-要改变地图上单位的朝向，进入部署画面，右键点击
+1541	on a unit to rotate it. You may only do this to the units you are currently deploying	单位即可旋转它。你只能对当前正在部署的单位
+1543	(either Eastern or Western forces)	这样做（东方或西方部队均可）
+1555	PeG-WW2 Website	PeG-WW2 网站
+1561	Robert Mary site :	Robert Mary 的网站：
+1565	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+1572	Troubleshooting	故障排查
+1576	-If you encounter problems installing the game or get a 'Direct Media' error	-如果你在安装游戏时遇到问题，或者尝试运行游戏时出现 "Direct Media"
+1578	when trying to run the game, please reinstall the game and the problem will	错误，请重新安装游戏，问题就会
+1580	be fixed.	得到解决。
+1584	-If the game seems to run sluggishly or with slow or poor performance, be sure	-如果游戏运行迟缓，或者性能低下、表现不佳，请确认
+1586	that you have at least 80 MB of free hard drive space on your C:	你在 C:
+1588	drive	盘上至少有 80 MB 的可用硬盘空间。
+1592	-If you don't get the cut scenes, cinematics, or the game intro but the game	-如果你看不到过场动画、影片或游戏片头，但游戏
+1594	appears to run ok, you'll need to install (or reinstall) Quicktime - found on	似乎运行正常，你需要安装（或重新安装）Quicktime——它在
+1596	the game CD.	游戏光盘上。
+1600	-If People's General crashes when you first attempt to launch the game, you'll	-如果 People's General 在你第一次尝试启动游戏时崩溃，你
+1602	need to install (or reinstall) Microsoft's DirectX 6 - found on the game CD.	需要安装（或重新安装）Microsoft 的 DirectX 6——它在游戏光盘上。
+1606	-If the game crashes out when you try to launch a scenario or campaign, be	-如果你尝试启动场景或战役时游戏崩溃，请
+1608	sure that the game CD is in the CD-ROM drive. You MUST have the game CD in the	确认游戏光盘已在 CD-ROM 驱动器中。要玩 People's General，你
+1610	drive in order to play People's General. If the CD is present and the crash	必须把游戏光盘放在驱动器中。如果光盘已在其中而崩溃
+1612	persists, please remove and clean the CD. If scratches are present, you may	仍然存在，请取出并清洁光盘。如果有划痕，你可能
+1614	need to replace the CD. For CD replacements, please check the game manual for	需要更换光盘。关于更换光盘，请查阅游戏手册中的
+1616	proper instructions.	正确说明。
+1620	-If you experience any video problems while running People's General like	-如果你在运行 People's General 时遇到任何视频问题，例如
+1622	garbled text or graphical banding across the game screen, your current Windows	文字乱码或游戏画面上出现图形条带，你当前的 Windows
+1624	95 video drivers may be outdated and probably aren't DirectX 6 compliant and	95 显卡驱动可能已经过时，很可能不符合 DirectX 6，
+1626	will need to be updated. Please refer to the manufacturer of your video card	需要更新。请向你的显卡制造商
+1628	for driver update information. If new DirectX 6 compliant video drivers aren't	查询驱动更新信息。如果显卡制造商还没有提供
+1630	yet available from the manufacturer of your video card, you may be able to	符合 DirectX 6 的新显卡驱动，你也许可以
+1632	work around the problem (until new drivers are released) by reducing video	绕过这个问题（在新驱动发布之前），办法是在
+1634	acceleration in the Windows 95 Control Panel. To do this:	Windows 95 控制面板中降低显卡加速。做法如下：
+1638	1) go to 'Control Panel', then select 'System' and choose Device Manager	1) 进入 "Control Panel"（「控制面板」），选择 "System"（「系统」），再选择 Device Manager（「设备管理器」）
+1640	2) highlight 'Video Adapter' and go to Advanced properties	2) 选中 "Video Adapter"（「显示适配器」），进入高级属性
+1642	3) select the 'Performance' tab and reduce video acceleration all the way	3) 选择 "Performance"（「性能」）选项卡，把显卡加速一直调低
+1644	down to 'None'	到 "None"（「无」）
+1648	Note: this may slow down general windows performance significantly.	注意：这可能会显著降低 Windows 的整体性能。
+1652	-If you can't connect in a multiplayer game over the internet (TCP/IP), be	-如果你在互联网上进行多人游戏时无法连接(TCP/IP)，请
+1654	sure that your ISP isn't firewalled (AOL users will encounter this problem).	确认你的 ISP 没有设置防火墙(AOL 用户会遇到这个问题)。
+1656	If you're not sure about a possible firewall, please contact your Internet	如果你不确定是否存在防火墙，请联系你的互联网
+1658	Provider and ask. You cannot play People's General through a firewalled ISP.	服务提供商询问。你无法通过设置了防火墙的 ISP 玩 People's General。

@@ -1,0 +1,171 @@
+# For Stalin and Motherland\PeG WWII ZS campaign install.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+2019	Za Stalina, Za Rodinu (	为了斯大林，为了祖国 (
+2021	For Stalin and Motherland	For Stalin and Motherland
+2023	) soviet campaign (version 1.0)	) 苏军战役（版本 1.0）
+2029	Robert Mary	Robert Mary
+2062	rmypegww2@skynet.be	rmypegww2@skynet.be
+2087	This is the PeG WWII conversion of the Za Stalina soviet campaign originally designed for PG2 by Adam Bolesta which can be found here:	这是对 Za Stalina 苏军战役的 PeG WWII 移植版，该战役最初由 Adam Bolesta 为 PG2 设计，可在此找到：
+2120	http://bolesta.home.pl/pg2/index.html	http://bolesta.home.pl/pg2/index.html
+2146	A. How to install ?	A. 如何安装？
+2160	This package contains :	本压缩包包含：
+2208	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	场景与战役文件（*.scen、*.txt、*.cam）：将其中包含的所有文件解压到
+2215	ZS_v1.zip	ZS_v1.zip
+2221	in the SCENARIO directory of PeG-WW2.	PeG-WW2 的 SCENARIO 目录中。
+2286	Original campaign for PG2 design notes of A. Bolesta are included in the	原版 PG2 战役的设计说明（A. Bolesta 撰写）包含在
+2293	Readme.zip	Readme.zip
+2319	The Readme.zip also includes my	Readme.zip 中还包含我的
+2325	Excel file	Excel 文件
+2336	ZS.xls	ZS.xls
+2341	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	），其中显示战役流程、地图编号、所用地图名称以及备选战役路径。
+2348	The campaign path is included in	战役路径包含在
+2354	the Excel file	Excel 文件
+2369	ZS	ZS
+2376	.xls	.xls
+2383	. All scenari except 2 alternative ones (	中。除 2 个备选场景（
+2390	ZS#03 Operation Uranus and ZS#14 For the Freedom and Liberation of the People	ZS#03 Operation Uranus 与 ZS#14 For the Freedom and Liberation of the People
+2397	) are to be played (as long as you keep winning each of them of course	）外，所有场景都要玩（当然，前提是你每一场都保持获胜
+2471	The maps	地图
+2510	3.1 MAP files	3.1 MAP 文件
+2532	*.map files are included in the	*.map 文件包含在
+2539	Maps.zip	Maps.zip
+2545	, place them in the SCENARIO directory of PeG-WW2	中，将它们放入 PeG-WW2 的 SCENARIO 目录
+2549	PG2 maps (in SHP format) can be found on builder	PG2 地图（SHP 格式）可在建造者
+2551	s paradise website :	天堂网站上找到：
+2582	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+2591	Or on Panzer General2.com website:	或在 Panzer General2.com 网站上：
+2624	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+2671	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 地图文件可以转换（从 SHP 格式转为 S16 格式），使用我本人网站上提供的转换工具：
+2704	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+2713	in the campaign page (	在战役页面（
+2719	Luis	Luis
+2730	Map converter	地图转换器
+2735	(107Kb), or directly within Luis	（107Kb），或直接在 Luis
+2737	PeG editor (	PeG 编辑器（
+2743	PeG Suite 3.16	PeG Suite 3.16
+2769	3.2. S16 files	3.2. S16 文件
+2791	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	转换后的地图（*.S16 格式）需放入 PeG-WW2 的 MAP 目录。
+2795	You can find it with all *.SHP files on	你可以在以下网站找到它以及所有 *.SHP 文件：
+2797	a) Robert Mary	a) Robert Mary
+2799	s website:	的网站：
+2832	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+2859	b) Steve Brown	b) Steve Brown
+2861	s website:	的网站：
+2895	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	http://www.wargamer.com/pg2campaigns/steve/pg2.htm
+2927	Campaign flow and map files used can also be found on	战役流程与所用地图文件也可在
+2933	ZS.xls	ZS.xls
+2938	file.	文件中找到。
+2996	The movies (not mandatory)	电影（非必需）
+3007	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	PG2 存在一些 *.SMK 文件，它们会在场景开始前播放，让游戏过程更有沉浸感。它们可以转换为 PeG-WW2 使用的 AVI 格式。
+3009	You can find more SMK files	你可以在以下位置找到更多 SMK 文件
+3011	there:	：
+3037	http://www.stahlhelm.prv.pl/	http://www.stahlhelm.prv.pl/
+3044	here:	此处：
+3070	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+3077	or here:	或此处：
+3103	http://www.medio.mh.se/%7Evonadler/pg2/	http://www.medio.mh.se/%7Evonadler/pg2/
+3111	In order to convert SMK files into AVI format, follow the instructions on my website:	要将 SMK 文件转换为 AVI 格式，请按我网站上的说明操作：
+3152	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm
+3174	I have converted the following files:	我已转换以下文件：
+3222	sovintro	sovintro
+3284	sovbv	sovbv
+3308	medalrum	medalrum
+3333	DonBendA	DonBendA
+3357	DonBendB	DonBendB
+3407	Fas16	Fas16
+3431	Red_victory	Red_victory
+3456	sovend	sovend
+3517	sovloss	sovloss
+3549	All original SMK files are coming from AdlerKorps website:	所有原始 SMK 文件均来自 AdlerKorps 网站：
+3575	http://www.medio.mh.se/%7Evonadler/pg2/	http://www.medio.mh.se/%7Evonadler/pg2/
+3583	Movies must be placed in the	电影必须放入 PeG-WW2 的
+3587	CINE	CINE
+3590	directory of PeG-WW2.	目录中。
+3609	B. Using the modgen.dat and the equipment file	B. 使用 modgen.dat 与装备文件
+3662	The equipment file :	装备文件：
+3701	Either my Asian eqpt file version 3.07 or my European e-file version 1.02 is mandatory.	我的亚洲装备文件 3.07 版或我的欧洲装备文件（e-file）1.02 版，二者必用其一。
+3703	I suggest you to use the European e-file since the corresponding flags are by default included in my Modgen.dat.	我建议你使用欧洲装备文件（e-file），因为对应的国旗默认已包含在我的 Modgen.dat 中。
+3742	The equipment file is available at my own website :	装备文件可在我本人网站上获取：
+3774	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+3801	Unzip "	将 "
+3807	RMY_PeG-WW2_Eqpt_file.zip	RMY_PeG-WW2_Eqpt_file.zip
+3812	" in the Main directory of PeG-WW2.	" 解压到 PeG-WW2 的主目录中。
+3851	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	我的装备文件与 Mark Kirby 的装备文件结构相同（
+3857	Mark	Mark
+3859	s units are unchanged	的单位未作改动
+3864	excepted icons). I only added new units.	图标除外）。我只添加了新单位。
+3868	My equipment file is intended for use with Redball	我的装备文件供 Redball
+3870	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	的 PeG-WW2 2.7 压缩包使用，因此文件名已重命名，以便你下载后直接使用（Equip97.txt 改为
+3876	WW2-eqp.txt	WW2-eqp.txt
+3881	, Equip97.eqp became	，Equip97.eqp 改为
+3888	WW2-eqp.eqp	WW2-eqp.eqp
+3897	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	我各个装备文件（e-file）版本始终向下兼容，也就是说我最新的装备文件可用于我之前从 PG2 移植的所有战役。
+3964	The modgen.dat (intentionally not included in order to save space)	modgen.dat（为节省空间有意未包含在内）
+4003	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it	我的 modgen.dat 仅限 Mark 和我使用的图标，以减小文件体积（11 MB 压缩为 4 MB 的 zip 文件），如果你愿意，
+4005	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 70 MB).	也可以构建一个包含目前所有图标的巨大 modgen.dat（至少超过 70 MB）。
+4044	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	我的 modgen.dat 是必需的（以确保你拥有我使用的图标），除非你使用一个包含 Mark 和我所用全部图标的巨大 modgen。
+4048	You can	你可以
+4054	download	下载
+4059	the file at :	该文件，地址：
+4091	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+4100	Unzip "	将 "
+4106	RMY_PeG-WW2_MODGEN.zip	RMY_PeG-WW2_MODGEN.zip
+4111	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	" 解压到 PeG-WW2 的主目录中。这个 modgen——有意重命名为 WW2GEN.dat——适用于 Redball
+4113	s PeG-WW2 2.7 package.	的 PeG-WW2 2.7 压缩包。
+4115	All required S16 files contained in Redball	Redball
+4117	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	升级包中包含的所有必需 S16 文件都已包含在 WW2GEN.dat 中，可立即使用。
+4182	Peoples.exe file	Peoples.exe 文件
+4204	Please use the Redball	请使用 Redball
+4206	s PeG-WW2 2.7 package downloadable here:	的 PeG-WW2 2.7 压缩包，可在此下载：
+4232	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+4239	This file contains the most advanced game improvements for PeG-WW2 (see Redball	该文件包含 PeG-WW2 最先进的游戏改进（见 Redball
+4241	s readme file included in PeG-WW2 2.7 package).	的说明文件，包含在 PeG-WW2 2.7 压缩包中）。
+4264	C. What has been done ?	C. 做了哪些工作？
+4308	Minor changes brought to A. Bolesta	对 A. Bolesta
+4310	s campaign	战役所做的小改动
+4351	This campaign is not historically realistic about number of military units in presence, in most of scenari Adam Bolesta didn	就参战军事单位的数量而言，这个战役并不符合历史，在大多数场景中 Adam Bolesta 都没有
+4353	t have any Soviet unit (the original PG2 campaign was probably designed to be played by 2 human players, the player on Russian side had to purchase all his own units), therefore I added all auxiliary units. However the campaign fo llows the historical line.	任何苏军单位（原版 PG2 战役可能是为 2 名真人玩家对战设计的，俄方玩家必须自行购买自己的全部单位），因此我添加了所有辅助单位。不过战役仍遵循历史脉络。
+4371	I added map names where I found unnamed cities. I did this exercise in most of scenarios (mainly in	我在发现有未命名城市的地方添加了地图名称。我在大多数场景中做了这项工作（主要是在
+4378	ZS#02	ZS#02
+4380	Kharkov	哈尔科夫
+4388	Scenario) thanks to MS Encarta.	场景中），借助 MS Encarta 完成。
+4406	For some maps I added Narayan Sengupta	对某些地图，我添加了 Narayan Sengupta
+4408	s or standard PG2 mapnames even if those have no immediate link with Adam Bolesta	或标准 PG2 地图名，即使这些名称与 Adam Bolesta
+4410	s scenari (for instance	的场景没有直接关联（例如
+4418	ZS#11	ZS#11
+4420	East Prussia	东普鲁士
+4427	uses Vipurii map, I deliberately chose to use names of Vipurii map /	使用了 Vipurii 地图，我有意选择使用 Vipurii 地图的名称 /
+4434	ZS#12	ZS#12
+4436	Pommernstellung	Pommernstellung
+4444	uses Soumussa map, I deliberately chose to use names of Soumussa	使用了 Soumussa 地图，我有意选择使用 Soumussa 的名称
+4457	. The origina l PG2 campaign was created in 2001, this might explain why old SSI maps were chosen whereas new maps corresponding to the theatre of operation depicted by Adam Bolesta are now existing (with accurate map names).	。原版 PG2 战役创建于 2001 年，这也许能解释为什么当时选用了旧的 SSI 地图，而如今已存在与 Adam Bolesta 所描绘作战区域相对应的新地图（并且地图名称准确）。
+4475	I also used Narayan Sengupta	我还使用了 Narayan Sengupta
+4477	s detailed mapnames for some maps such as Seelow, Dessau,	的详细地图名，用于某些地图，例如 Seelow、Dessau、
+4497	I changed the spelling of some introduction text files (English wording too) and corrected some city names.	我修改了一些介绍文本文件的拼写（英文措辞也一并修改），并更正了一些城市名称。
+4515	Thanks to PeG game rules (no embark mode for ground transport) scenarios can be won earlier than in PG2 . As a result I reduced scenario length (number of turns to get a BV, V or TV) and reinforcement units appear earlier too.	由于 PeG 的游戏规则（地面运输没有装载模式），场景可以比 PG2 更早获胜。因此我缩短了场景长度（获得 BV、V 或 TV 所需的回合数），补充单位出现得也更早。
+4533	Names of scenari and campaign have been renamed and begin now with	场景与战役的名称已重新命名，现在以
+4535	ZS	ZS
+4537	, this allows the player to uninstall the campagn easily.	开头，这样玩家可以方便地卸载该战役。
+4578	Playing tips and possible releases	玩法提示与可能的发布
+4619	You have enough AUX units to win, just purchase a few arty units and you should win easily. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).	你有足够的 AUX 单位可以取胜，只需购买几个炮兵单位，就应该能轻松获胜。如果你愿意，可以提高难度设置（在开始战役前调整玩家威望百分比）。
+4637	I have 2 post-WW2 scenari in mind :	我构思了 2 个二战后场景：
+4639	Red Lion	红狮
+4641	and	以及
+4643	New York city	纽约市
+4645	: the invasion of England and then New York by Soviets.	：苏联入侵英格兰，随后入侵纽约市。
+4671	D. What this Campaign is not	D. 这个战役不是什么
+4678	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	这个战役并不代表对任何政治理念或战争的赞同。战争是人类最令人遗憾的活动之一。作为战术战争游戏，People
+4680	s General and PG2 might be considered as "colorful" chess games.	s General 和 PG2 或许可以被视为"色彩丰富"的国际象棋对局。
+4691	E. Acknowledgements	E. 致谢
+4698	My appreciation goes to	我要感谢
+4704	A. Bolesta	A. Bolesta
+4708	the campaign designer	战役设计师
+4714	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People	，以及 PeG Suite 的创造者 L. Guzman——没有它，从 PG2 平台到 PeG 的移植工作将无法完成；还有 J. Markham，他为游戏 exe 文件做了修改；创建 PeG-WW2 的 Mark Kirby；以及 People
+4716	s General forum.	s General 论坛版主之一 N. Sengupta。
+4722	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	我感谢众多其他把战争游戏变成一种艺术形式的人所做的努力。感谢你游玩这个战役。希望你在游玩这个战役时获得的乐趣，能与我移植它时一样多。
+4748	F. Comments	F. 评论
+4764	All comments good or bad are welcome at	欢迎把任何评论，无论好评还是差评，发送至
+4797	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+4807	Feel free to join us on People	欢迎加入我们，在 People
+4809	s General forum at:	s General 论坛：
+4844	http://pub131.ezboard.com/fjpspanzersfrm10	http://pub131.ezboard.com/fjpspanzersfrm10

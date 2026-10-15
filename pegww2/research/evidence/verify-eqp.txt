@@ -1,0 +1,117 @@
+================================================================================================
+① 原文列 vs 备份（**值模式**：map 是 906 唯一串，不能按行号比）
+================================================================================================
+  map 数据行 906（唯一串） · 备份非空行 1000 · 备份总行元素 1001
+  备份中未进 map 的串: 0 ✅
+  map 中不在备份的串: 0 ✅
+  ⇒ 唯一串集合一致 ✅；重数校验：备份唯一 906 vs map 906
+
+================================================================================================
+② 空值 / ③ 未译残留 / ④ 恒等残留 / ⑤ 禁用译法
+================================================================================================
+  ② 空译文: 0 处 ✅
+  ③ 疑似未译残留（译文含连续英文词）: 5 处
+      行684   [新译] Fokker DXXI/Blenheim IV Air Support            ⇒ Fokker DXXI/布伦海姆 IV 空中支援
+      行812   [人工确认] Hurricane II/Handley Page Halifax MkI Air Su   ⇒ 飓风 II/Handley Page 哈利法克斯 MkI 空中支援
+      行813   [人工确认] Handley Page MkI Halifax/Spitfire I            ⇒ Handley Page MkI 哈利法克斯/喷火 I
+      行823   [新译] Horten Ho XVIII B-1 Atomic                     ⇒ Horten Ho XVIII B-1 核武器型
+      行890   [人工确认] Handley Page Halifax MkI Air Support           ⇒ Handley Page 哈利法克斯 MkI 空中支援
+  ④ 来源=新译 但译文=原文（疑漏译）: 0 处
+  ⑤ 禁用译法命中: 0 处 ✅
+
+================================================================================================
+⑥ 同一原文的译文一致性（同串必须同译）
+================================================================================================
+  不一致的原文串: 0 个
+
+================================================================================================
+⑧ ⭐ 型号代号丢失检查（只查【含数字且含字母】的代号，排除尺寸；描述性缩写如 FlaK/PaK/Pz 意译不算丢失）
+================================================================================================
+  疑似丢失型号代号的条目: 65 处
+      [新译] 12.8cm PaK44 w/251/1                             丢失=w/251/1      ⇒ 12.8cm PaK44 反坦克炮（SdKfz 251 半履带车运载）
+      [新译] 15 sFH 18  w/251/1                               丢失=w/251/1      ⇒ 15 sFH 18 重型榴弹炮（SdKfz 251 半履带车运载）
+      [新译] 21 K38 w/251/1                                   丢失=w/251/1      ⇒ 21 K38 加农炮（SdKfz 251 半履带车运载）
+      [新译] 21 Morser 18 w/251/1                             丢失=w/251/1      ⇒ 21 Morser 18 臼炮（SdKfz 251 半履带车运载）
+      [新译] 21cm M18 w/251/1                                 丢失=w/251/1      ⇒ 21cm M18 臼炮（SdKfz 251 半履带车运载）
+      [新译] 240mm How M1 w/M3A1                              丢失=w/M3A1       ⇒ 240mm M1 榴弹炮（M3A1 运载）
+      [新译] 7.62cmw/Wagon                                    丢失=7.62cmw/Wagon ⇒ 7.62cm 加农炮（马车牵引）
+      [新译] 8.8 FK18 ATG w/251/1                             丢失=w/251/1      ⇒ 8.8 FK18 反坦克炮（SdKfz 251 半履带车运载）
+      [新译] 8.8cm FlaK36 w/251/1                             丢失=w/251/1      ⇒ 8.8cm FlaK36 高炮（SdKfz 251 半履带车运载）
+      [新译] 8.8cm PaK w/251/1                                丢失=w/251/1      ⇒ 8.8cm 反坦克炮（SdKfz 251 半履带车运载）
+      [新译] 88 mm ARTY w/251/1                               丢失=w/251/1      ⇒ 88 mm 炮兵（SdKfz 251 半履带车运载）
+      [新译] A-20G Boston/P-40F                               丢失=Boston/P-40F ⇒ A-20G 波士顿/P-40F
+      [新译] A-26B Invader/P-51D                              丢失=Invader/P-51D ⇒ A-26B 入侵者/P-51D
+      [新译] AR-234B Blitz/Me-262A-1b-R                       丢失=Blitz/Me-262A-1b-R ⇒ AR-234B 闪电/Me-262A-1b-R
+      [新译] B-17E Flying Fortress/P-38F                      丢失=Fortress/P-38F ⇒ B-17E 飞行堡垒/P-38F
+      [新译] B-17G Flying Fortress/P-38J                      丢失=Fortress/P-38J ⇒ B-17G 飞行堡垒/P-38J
+      [新译] B-24D Liberator/P-38F                            丢失=Liberator/P-38F ⇒ B-24D 解放者/P-38F
+      [新译] B-24J Liberator/P-51B                            丢失=Liberator/P-51B ⇒ B-24J 解放者/P-51B
+      [新译] B-25D Mitchell/P-38E                             丢失=Mitchell/P-38E ⇒ B-25D 米切尔/P-38E
+      [新译] B-25H Mitchell/P-51D                             丢失=Mitchell/P-51D ⇒ B-25H 米切尔/P-51D
+      [新译] B-25J Mitchell/P-51D                             丢失=Mitchell/P-51D ⇒ B-25J 米切尔/P-51D
+      [新译] B-26B Marauder/P-38E                             丢失=Marauder/P-38E ⇒ B-26B 劫掠者/P-38E
+      [新译] B-26C Marauder/P-38J                             丢失=Marauder/P-38J ⇒ B-26C 劫掠者/P-38J
+      [新译] B-26G Marauder/P-51D                             丢失=Marauder/P-51D ⇒ B-26G 劫掠者/P-51D
+      [新译] B-29A Superfortress/P-51H                        丢失=Superfortress/P-51H ⇒ B-29A 超级堡垒/P-51H
+      [新译] Bridging (B) w/M3A1                              丢失=w/M3A1       ⇒ 架桥连（B）（M3A1 运载）
+      [新译] C-47 Dakota/MiG-1                                丢失=Dakota/MiG-1 ⇒ C-47 达科他/MiG-1
+      [新译] C-47 Skytrain/P40-F                              丢失=Skytrain/P40-F ⇒ C-47 空中列车/P40-F
+      [新译] C-47/Rata                                        丢失=C-47/Rata    ⇒ C-47/老鼠
+      [新译] Engineer (E) w/M3A1                              丢失=w/M3A1       ⇒ 工兵连（E）（M3A1 运载）
+      [新译] Fusilier w/251/1                                 丢失=w/251/1      ⇒ 燧发枪兵（SdKfz 251 半履带车运载）
+      [新译] Gvardeiskaya w/M3A1                              丢失=w/M3A1       ⇒ 近卫部队（M3A1 运载）
+      [新译] He-111Z-1 Zwilling/FW-190A-3                     丢失=Zwilling/FW-190A-3 ⇒ He-111Z-1 双联/FW-190A-3
+      [新译] Il-10 Zver/La-5FN                                丢失=Zver/La-5FN  ⇒ Il-10 野兽/La-5FN
+      [新译] Il-2 Sturmovik/MiG-1                             丢失=Sturmovik/MiG-1 ⇒ Il-2 强击机/MiG-1
+      [新译] Il-2M3 Sturmovik/La-5                            丢失=Sturmovik/La-5 ⇒ Il-2M3 强击机/La-5
+      [新译] JgdPz IV/48                                      丢失=IV/48        ⇒ IV 号自行反坦克炮/48
+      [新译] JgdPz IV/70                                      丢失=IV/70        ⇒ IV 号自行反坦克炮/70
+      [新译] Ju-87B Stuka/Me-109E-3                           丢失=Stuka/Me-109E-3 ⇒ Ju-87B 斯图卡/Me-109E-3
+      [新译] Ju-87B Stuka/Me-109F-4                           丢失=Stuka/Me-109F-4 ⇒ Ju-87B 斯图卡/Me-109F-4
+      [新译] Ju-87B-1 Stuka/Me-109E-3                         丢失=Stuka/Me-109E-3 ⇒ Ju-87B-1 斯图卡/Me-109E-3
+      [人工确认] Ju-87C-1 Stuka (Kriegsmarine)/Me-109T            丢失=Kriegsmarine)/Me-109T ⇒ Ju-87C-1 斯图卡（德国海军）/Me-109T
+      [新译] Ju-87D-1 Stuka/Me-109F-4                         丢失=Stuka/Me-109F-4 ⇒ Ju-87D-1 斯图卡/Me-109F-4
+      [新译] Ju-87G-1 Stuka/FW-190A-3                         丢失=Stuka/FW-190A-3 ⇒ Ju-87G-1 斯图卡/FW-190A-3
+      [新译] LL A-20 Boston/La-5                              丢失=Boston/La-5  ⇒ 租借 A-20 波士顿/La-5
+      [新译] LL M4A3E8/76 Easy8                               丢失=Easy8        ⇒ 租借 M4A3E8/76 轻松八型
+      [新译] M4A3E8/76 Easy8                                  丢失=Easy8        ⇒ M4A3E8/76 轻松八型
+      [新译] MG Infanterie w/251/1                            丢失=w/251/1      ⇒ 机枪步兵（SdKfz 251 半履带车运载）
+      [新译] Marine w/M3A1                                    丢失=w/M3A1       ⇒ 海军陆战队（M3A1 运载）
+      [新译] P-38J Lightning/B17-E Air Support                丢失=Lightning/B17-E ⇒ P-38J 闪电/B17-E 空中支援
+      [新译] P-39D Airacobra/B17-B Air Support                丢失=Airacobra/B17-B ⇒ P-39D 眼镜蛇/B17-B 空中支援
+      [新译] P-39D Airacobra/Pe-2 Air Support                 丢失=Airacobra/Pe-2 ⇒ P-39D 眼镜蛇/Pe-2 空中支援
+      [新译] P-47D Thunderbolt/B17-G Air Support              丢失=Thunderbolt/B17-G ⇒ P-47D 雷电/B17-G 空中支援
+      [新译] P-47N Thunderbolt/B17-G Air Support              丢失=Thunderbolt/B17-G ⇒ P-47N 雷电/B17-G 空中支援
+      [新译] P-63A Kingcobra/Tu-2 Air Support                 丢失=Kingcobra/Tu-2 ⇒ P-63A 王眼镜蛇/Tu-2 空中支援
+      [新译] Ranger w/M3A1                                    丢失=w/M3A1       ⇒ 游骑兵（M3A1 运载）
+      [新译] SM 79 Sparviero/MC.200                           丢失=Sparviero/MC.200 ⇒ SM 79 食雀鹰/MC.200
+      [新译] SS Brückenbau (B) w/251/1                        丢失=w/251/1      ⇒ 党卫军架桥连（B）（SdKfz 251 半履带车运载）
+      [新译] SS Hitlerjugend w/251/1                          丢失=w/251/1      ⇒ 党卫军希特勒青年团师（SdKfz 251 半履带车运载）
+      [新译] SS Leibstandarte w/251/1                         丢失=w/251/1      ⇒ 党卫军警卫旗队（SdKfz 251 半履带车运载）
+      [新译] SS Panzergrenadiere w/251/1                      丢失=w/251/1      ⇒ 党卫军装甲掷弹兵（SdKfz 251 半履带车运载）
+      [人工确认] TBF-1 Avenger (US Navy)/F4AU-1                   丢失=Navy)/F4AU-1 ⇒ TBF-1 复仇者（美国海军）/F4AU-1
+      [新译] TBF-1 Avenger/F4AU-1                             丢失=Avenger/F4AU-1 ⇒ TBF-1 复仇者/F4AU-1
+      [新译] sIG33 38(t)M                                     丢失=38(t)M       ⇒ 38(t) 重型步兵炮运载车
+      [新译] sIG33 38(t)M                                     丢失=sIG33        ⇒ 38(t) 重型步兵炮运载车
+
+================================================================================================
+⑦ 来源分布 + 抽样（每 60 行取 1）
+================================================================================================
+  {'保留': 190, '新译': 618, '词库': 52, 'PeG同串': 4, '人工确认': 28, '新译+引号规范': 10, 'PeG': 3, '词库+引号规范': 1}
+
+  行1     European E-file version 1.02d Robert Mar   ⇒ European E-file version 1.02d Robert Mary 
+  行61    D.520                                      ⇒ D.520
+  行121   PSW 234/4                                  ⇒ PSW 234/4
+  行181   Tatra                                      ⇒ Tatra
+  行241   47mm w/Vogn                                ⇒ 47mm 反坦克炮（马车牵引）
+  行301   Sexton                                     ⇒ 塞克斯顿
+  行361   C-47 Dakota/Spitfire I                     ⇒ C-47 达科他/喷火 I
+  行421   B-25H Mitchell/P-51D                       ⇒ B-25H 米切尔/P-51D
+  行481   YaK-1                                      ⇒ YaK-1
+  行541   21 Morser 18 w/LKW                         ⇒ 21 Morser 18 臼炮（卡车牵引）
+  行601   M36B1 Jackson                              ⇒ M36B1 杰克逊
+  行661   100mm Skoda w/Ciezarowka                   ⇒ 100mm 斯柯达榴弹炮（卡车牵引）
+  行721   Waffen SS Amphibious Invasion Ship         ⇒ 武装党卫军两栖登陆舰
+  行781   LL M3A3 Grant                              ⇒ 租借 M3A3 格兰特
+  行841   SS Wallonien w/Pferden                     ⇒ 党卫军瓦隆师（马拉）
+  行901   Me-109T (Kriegsmarine)                     ⇒ Me-109T（德国海军）

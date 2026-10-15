@@ -1,0 +1,156 @@
+# Deutsches Afrika Korps\DAK.xls · 表格文字格抽取（工作表 \t 行 \t 列 \t 原文）
+工作表	行	列	原文
+Book1	2	2	Deutsches Afrika Korps
+Book1	3	2	Scenario
+Book1	3	3	Map
+Book1	3	4	Map #
+Book1	3	5	S. Fuertes
+Book1	3	6	BV
+Book1	3	8	TV
+Book1	3	9	Loss
+Book1	4	2	Beda Fomm - Benghazi
+Book1	4	3	Benghazi
+Book1	4	5	DAK_DAK1
+Book1	4	9	Loss
+Book1	5	2	Halfaya Pass & Sollum Battle
+Book1	5	3	Sollum
+Book1	5	5	DAK_DAK2
+Book1	5	9	Loss
+Book1	6	2	Operation Crusader
+Book1	6	3	Bardia
+Book1	6	5	DAK_DAK3
+Book1	6	9	Loss
+Book1	7	2	Mersa el Brega 1942
+Book1	7	3	Agedabia
+Book1	7	5	DAK_DAK4
+Book1	7	9	Loss
+Book1	8	2	Pursuit to Mechilli
+Book1	8	3	Benghazi
+Book1	8	5	DAK_DAK5
+Book1	8	9	Loss
+Book1	9	2	Gazala line (Unternehmen Theseus)
+Book1	9	3	Gazala
+Book1	9	5	DAK_DAK6
+Book1	9	9	Loss
+Book1	10	2	Mersa Matruh
+Book1	10	3	Matruh2
+Book1	10	5	DAK_DAK7
+Book1	11	2	Halam Halfa Battle
+Book1	11	3	Alamein
+Book1	11	5	DAK_DAK8
+Book1	12	2	El Alamein, Montgomery attack
+Book1	12	3	Alamein
+Book1	12	5	DAK_DAK9
+Book1	13	2	Choice1
+Book1	13	3	Eurormy
+Book1	13	5	DAK_Choice
+Book1	14	2	Alexandria
+Book1	14	3	Alexandria
+Book1	14	5	DAK_SP1
+Book1	15	2	Port Said: "Operation Rotterdam"
+Book1	15	3	Portsaid
+Book1	15	5	DAK_SP2
+Book1	16	2	El Cairo
+Book1	16	3	Cairo
+Book1	16	5	DAK_SP3
+Book1	17	2	Suez Kanal
+Book1	17	3	Suez
+Book1	17	5	DAK_SP4
+Book1	18	2	Battle of Kasserine Pass
+Book1	18	3	Kasserin
+Book1	18	5	DAK_DAKTU01
+Book1	19	2	Bone
+Book1	19	3	Bona
+Book1	19	5	DAK_DAKTU02
+Book1	20	2	Operation Herkules
+Book1	20	3	Malta
+Book1	20	5	DAK_SP0
+Book1	21	2	Choice2
+Book1	21	3	Eurormy
+Book1	21	5	DAK_SPChoice
+Book1	22	2	El Arish
+Book1	22	3	Elarish
+Book1	22	5	DAK_SPE01
+Book1	22	9	Loss
+Book1	23	2	Tel Aviv
+Book1	23	3	Telaviv
+Book1	23	5	DAK_SPE02
+Book1	23	9	Loss
+Book1	24	2	Syria
+Book1	24	3	Damascus
+Book1	24	5	DAK_SPE03
+Book1	24	9	Loss
+Book1	25	2	Baghdad
+Book1	25	3	Baghdad2
+Book1	25	5	DAK_SPE04
+Book1	25	9	Loss
+Book1	26	2	Teheran
+Book1	26	3	Tehran
+Book1	26	5	DAK_SPE05
+Book1	26	6	Win
+Book1	26	7	Win
+Book1	26	8	Win
+Book1	26	9	Loss
+Book1	27	2	Keren
+Book1	27	3	Keren
+Book1	27	5	DAK_SPS01
+Book1	27	9	Loss
+Book1	28	2	Massawa
+Book1	28	3	Massawa
+Book1	28	5	DAK_SPS02
+Book1	28	9	Loss
+Book1	29	2	Mogadishu
+Book1	29	3	Mogadi
+Book1	29	5	DAK_SPS03
+Book1	29	9	Loss
+Book1	30	2	Mombasa
+Book1	30	3	Mombasa
+Book1	30	5	DAK_SPS04
+Book1	30	6	Win
+Book1	30	7	Win
+Book1	30	8	Win
+Book1	30	9	Loss
+Book1	31	2	Algiers
+Book1	31	3	Algiers
+Book1	31	5	DAK_SPTU01
+Book1	31	9	Loss
+Book1	32	2	Oran
+Book1	32	3	Oran
+Book1	32	5	DAK_SPTU02
+Book1	32	9	Loss
+Book1	33	2	Port Lyautey
+Book1	33	3	Lyautey
+Book1	33	5	DAK_SPTU03
+Book1	33	9	Loss
+Book1	34	2	Casablanca
+Book1	34	3	Casablan
+Book1	34	5	DAK_SPTU04
+Book1	34	6	Win
+Book1	34	7	Win
+Book1	34	8	Win
+Book1	34	9	Loss
+Book1	35	2	Sidi Bou Zid
+Book1	35	3	Maknassy
+Book1	35	5	DAK_TU01
+Book1	36	2	Battle of Kasserine Pass
+Book1	36	3	Kasserin
+Book1	36	5	DAK_TU02
+Book1	37	2	Bone
+Book1	37	3	Bona
+Book1	37	5	DAK_TU03
+Book1	38	2	Medenine
+Book1	38	3	Medenine
+Book1	38	5	DAK_TU04
+Book1	39	2	Mareth Line
+Book1	39	3	Medenine
+Book1	39	5	DAK_TU05
+Book1	40	2	Tunis
+Book1	40	3	Tunis
+Book1	40	5	DAK_TU06
+Book1	40	6	Win
+Book1	40	7	Win
+Book1	40	8	Win
+Book1	40	9	Loss
+Book1	44	6	Legend
+Book1	44	8	Normal path
+Book1	45	8	Alternative scenarios

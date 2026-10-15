@@ -1,0 +1,258 @@
+# Road to Berlin\PeG WWII RTB campaign install.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+2019	Road to Berlin soviet campaign (version 3.0)	Road to Berlin soviet campaign (version 0)
+2025	Robert Mary	Robert Mary
+2058	rmypegww2@skynet.be	rmypegww2@skynet.be
+2076	This is the PeG WWII conversion of the Road to Berlin soviet campaign originally designed for PG2 by Jorge Gabitto.	This is the PeG WWII conversion of the Road to Berlin soviet campaign originally designed for PG2 by Jorge Gabitto.
+2086	A. How to install ?	A. How to install ?
+2100	This package contains :	This package contains :
+2148	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the
+2155	RTB_v3.zip	0
+2161	in the SCENARIO directory of PeG-WW2.	in the SCENARIO directory of PeG-WW2.
+2226	Original campaign for PG2 design notes of J. Gabitto are included in the	Original campaign for PG2 design notes of J. Gabitto are included in the
+2233	Readme.zip	0
+2259	The Readme.zip also includes my	The 0 also includes my
+2265	Excel file	Excel file
+2276	RTB.xls	0
+2281	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.
+2346	The maps	The maps
+2385	3.1 MAP files	0 MAP files
+2407	*.map files are included in the	*.map files are included in the
+2414	Maps.zip	0
+2420	, place them in the SCENARIO directory of PeG-WW2	, place them in the SCENARIO directory of PeG-WW2
+2424	PG2 maps (in SHP format) can be found on builder	PG2 maps (in SHP format) can be found on builder
+2426	s paradise website :	s paradise website :
+2457	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	0
+2466	Or on Panzer General2.com website:	Or on Panzer General2.com website:
+2499	http://es.geocities.com/latingenerals/	0
+2546	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :
+2579	http://users.skynet.be/rmypegww2/	0
+2588	in the campaign page (	in the campaign page (
+2594	Luis	Luis
+2605	Map converter	Map converter
+2610	(107Kb), or directly within Luis	(107Kb), or directly within Luis
+2612	PeG editor (	PeG editor (
+2618	PeG Suite 3.16	PeG Suite 0
+2644	3.2. S16 files	0. S16 files
+2666	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.
+2670	You can find it with all *.SHP files on	You can find it with all *.SHP files on
+2672	a) Robert Mary	a) Robert Mary
+2674	s website:	s website:
+2707	http://users.skynet.be/rmypegww2/	0
+2734	b) Steve Brown	b) Steve Brown
+2736	s website:	s website:
+2770	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	0
+2817	The needed maps are those :	The needed maps are those :
+2955	Name	Name
+2957	Date	Date
+2959	Map	Map
+2961	File	File
+3100	The Assault (1)	The Assault (1)
+3104	Sb2stal	Sb2stal
+3106	RTB01	RTB01
+3245	Operation Uranus (2)	Operation Uranus (2)
+3249	SSI (Chir)	SSI (Chir)
+3251	RTB02	RTB02
+3291	Winter Storm (3)	Winter Storm (3)
+3295	Myshko	Myshko
+3297	RTB03	RTB03
+3337	Little Saturn (4)	Little Saturn (4)
+3341	Don	Don
+3343	RTB04	RTB04
+3383	Kharkov (5)	Kharkov (5)
+3387	Karkhov2	Karkhov2
+3389	RTB05	RTB05
+3429	Ponyri Station (6)	Ponyri Station (6)
+3433	Ponyri	Ponyri
+3435	RTB06	RTB06
+3475	Orel (7)	Orel (7)
+3479	SSI (Chiecano)	SSI (Chiecano)
+3481	RTB07	RTB07
+3521	Operation Rumientzev (8)	Operation Rumientzev (8)
+3525	SSI (Prokh)	SSI (Prokh)
+3527	RTB08	RTB08
+3567	Dnepr Crossing (9)	Dnepr Crossing (9)
+3571	SSI (Kanev)	SSI (Kanev)
+3573	RTB09	RTB09
+3613	Kiev (26)	Kiev (26)
+3617	Kiev	Kiev
+3619	RTB26	RTB26
+3659	Mogilev (10)	Mogilev (10)
+3663	Mogilev	Mogilev
+3665	RTB10	RTB10
+3705	Perekop (25)	Perekop (25)
+3709	SSI (Prokh)	SSI (Prokh)
+3711	RTB25	RTB25
+3751	Leningrad (11)	Leningrad (11)
+3755	SSI (Lening)	SSI (Lening)
+3757	RTB11	RTB11
+3797	Cherkassy (12)	Cherkassy (12)
+3801	SSI (Chir)	SSI (Chir)
+3803	RTB12	RTB12
+3843	Western Ukraine (13)	Western Ukraine (13)
+3847	SSI (Arract)	SSI (Arract)
+3849	RTB13	RTB13
+3889	Odessa Evacuation (33)	Odessa Evacuation (33)
+3893	Odessa	Odessa
+3895	RTB33	RTB33
+3935	Sevastopol Evacuation (14)	Sevastopol Evacuation (14)
+3939	Sevastopol	Sevastopol
+3941	RTB14	RTB14
+3981	Viipuri (15)	Viipuri (15)
+3985	SSI (Viipuri)	SSI (Viipuri)
+3987	RTB15	RTB15
+4027	Narva (23)	Narva (23)
+4031	Narva	Narva
+4033	RTB23	RTB23
+4073	Riga (24)	Riga (24)
+4077	Dieppe	Dieppe
+4079	RTB24	RTB24
+4119	Army Group South Ukraine (16)	Army Group South Ukraine (16)
+4123	SSI (Kanev)	SSI (Kanev)
+4125	RTB16	RTB16
+4165	Operation Jassy-Kichinev (31)	Operation Jassy-Kichinev (31)
+4169	Bucharest	Bucharest
+4171	RTB31	RTB31
+4210	Operation Bagration I (17)	Operation Bagration I (17)
+4214	Litovsk	Litovsk
+4216	RTB17	RTB17
+4255	Belgrade (32)	Belgrade (32)
+4259	Belgrade	Belgrade
+4261	RTB32	RTB32
+4301	Operation Bagration II (18)	Operation Bagration II (18)
+4305	SSI (Novgo)	SSI (Novgo)
+4307	RTB18	RTB18
+4347	Vistula Crossing (19)	Vistula Crossing (19)
+4351	Vistula	Vistula
+4353	RTB19	RTB19
+4393	Operation Warsaw-Poznan (30)	Operation Warsaw-Poznan (30)
+4397	Poland	Poland
+4399	RTB30	RTB30
+4439	Operation Konrad (20)	Operation Konrad (20)
+4443	SSI (Konrad)	SSI (Konrad)
+4445	RTB20	RTB20
+4485	Auschwitz Liberation (34)	Auschwitz Liberation (34)
+4489	Stalag	Stalag
+4491	RTB34	RTB34
+4531	East Prussia (29)	East Prussia (29)
+4535	Koenisgberg	Koenisgberg
+4537	RTB29	RTB29
+4577	The Door to Berlin (21)	The Door to Berlin (21)
+4581	SSI (Dessau)	SSI (Dessau)
+4583	RTB21	RTB21
+4623	Peenemunde (28)	Peenemunde (28)
+4627	Peenemunde	Peenemunde
+4629	RTB28	RTB28
+4669	Hitler Last Stand (22)	Hitler Last Stand (22)
+4673	Berlin	Berlin
+4675	RTB22	RTB22
+4814	Race for Berlin (27)	Race for Berlin (27)
+4818	Berlin	Berlin
+4820	RTB27	RTB27
+4861	Campaign flow and map files used can also be found on	Campaign flow and map files used can also be found on
+4867	RTB.xls	0
+4872	file.	file.
+4930	The movies (not mandatory)	The movies (not mandatory)
+4941	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.
+4943	You can find more SMK files	You can find more SMK files
+4945	there:	there:
+4971	http://www.stahlhelm.prv.pl/	0
+4978	here:	here:
+5004	http://es.geocities.com/latingenerals/	0
+5011	or here:	or here:
+5037	http://www.medio.mh.se/%7Evonadler/pg2/	0
+5045	In order to convert SMK files into AVI format, follow the instructions on my website:	In order to convert SMK files into AVI format, follow the instructions on my website:
+5086	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	0
+5108	I have converted the following files:	I have converted the following files:
+5156	sovintro	sovintro
+5218	sovbv	sovbv
+5242	medalrum	medalrum
+5267	Ruloss	Ruloss
+5291	DonBendA	DonBendA
+5316	DonBendB	DonBendB
+5341	tempestA	tempestA
+5365	tempestB	tempestB
+5414	Fas16	Fas16
+5439	Finn-01	Finn-01
+5464	Chisinau44A	Chisinau44A
+5488	sovend	sovend
+5550	sovloss	sovloss
+5582	All original SMK files are coming from AdlerKorps website:	All original SMK files are coming from AdlerKorps website:
+5608	http://www.medio.mh.se/%7Evonadler/pg2/	0
+5616	Movies must be placed in the	Movies must be placed in the
+5620	CINE	CINE
+5623	directory of PeG-WW2.	directory of PeG-WW2.
+5642	B. Using the modgen.dat and the equipment file	B. Using the 0 and the equipment file
+5695	The equipment file :	The equipment file :
+5734	Either my Asian eqpt file version 3.07 or my European e-file version 1.02 is mandatory.	Either my Asian eqpt file version 0 or my European e-file version 1 is mandatory.
+5736	I suggest you to use the European e-file since the corresponding flags are by default included in my Modgen.dat.	I suggest you to use the European e-file since the corresponding flags are by default included in my 0.
+5775	The equipment file is available at my own website :	The equipment file is available at my own website :
+5807	http://users.skynet.be/rmypegww2/	0
+5834	Unzip "	Unzip "
+5840	RMY_PeG-WW2_Eqpt_file.zip	0
+5845	" in the Main directory of PeG-WW2.	" in the Main directory of PeG-WW2.
+5884	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	My eqpt file keeps the same structure as Mark Kirby's eqpt file (
+5890	Mark	Mark
+5892	s units are unchanged	s units are unchanged
+5897	excepted icons). I only added new units.	excepted icons). I only added new units.
+5901	My equipment file is intended for use with Redball	My equipment file is intended for use with Redball
+5903	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	s PeG-WW2 1 package, therefore file names have been renamed to be directly used when you download them (0 became
+5909	WW2-eqp.txt	0
+5914	, Equip97.eqp became	, 0 became
+5921	WW2-eqp.eqp	0
+5930	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.
+5997	The modgen.dat (intentionally not included in order to save space)	The 0 (intentionally not included in order to save space)
+6036	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it	My 0 is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it
+6038	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 70 MB).	s also possible to build up a huge 0 with all existing icons so far (at least more than 70 MB).
+6077	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	My 0 is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.
+6081	You can	You can
+6087	download	download
+6092	the file at :	the file at :
+6124	http://users.skynet.be/rmypegww2/	0
+6133	Unzip "	Unzip "
+6139	RMY_PeG-WW2_MODGEN.zip	0
+6144	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed 0- works with Redball
+6146	s PeG-WW2 2.7 package.	s PeG-WW2 0 package.
+6148	All required S16 files contained in Redball	All required S16 files contained in Redball
+6150	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	s upgrade are already included in 0 which is immediately ready for use.
+6215	Peoples.exe file	0 file
+6237	Please use the Redball	Please use the Redball
+6239	s PeG-WW2 2.7 package downloadable here:	s PeG-WW2 0 package downloadable here:
+6265	http://users.skynet.be/rmypegww2/	0
+6272	This file contains the most advanced game improvements for PeG-WW2 (see Redball	This file contains the most advanced game improvements for PeG-WW2 (see Redball
+6274	s readme file included in PeG-WW2 2.7 package).	s readme file included in PeG-WW2 0 package).
+6301	C. What has been done ?	C. What has been done ?
+6309	a) All units have been converted under PeG format	a) All units have been converted under PeG format
+6311	b) All maps have been converted under Peg format	b) All maps have been converted under Peg format
+6313	c) All scenarios are also playable as stand-alone scenarios.	c) All scenarios are also playable as stand-alone scenarios.
+6315	d) The original campaign of J. Gabitto has been slightly modified :	d) The original campaign of J. Gabitto has been slightly modified :
+6319	I designed 6 additionnal scenarios which are fully integrated in Jorge	I designed 6 additionnal scenarios which are fully integrated in Jorge
+6321	s original campaign :	s original campaign :
+6369	Operation Jassy-Kichinev (RTB#31) (liberation of Bucharest)	Operation Jassy-Kichinev (RTB#31) (liberation of Bucharest)
+6417	Belgrade (RTB#32) (liberation of Belgrade with Tito	Belgrade (RTB#32) (liberation of Belgrade with Tito
+6419	s partisans)	s partisans)
+6467	Operation Warsaw-Poznan (RTB#30) (liberation of Warsaw)	Operation Warsaw-Poznan (RTB#30) (liberation of Warsaw)
+6515	Auschwitz Liberation (RTB#34) (liberation of concentration camp)	Auschwitz Liberation (RTB#34) (liberation of concentration camp)
+6563	East Prussia (RTB#29) (attack of Danzig and Koenigsberg fortresses)	East Prussia (RTB#29) (attack of Danzig and Koenigsberg fortresses)
+6611	Peenemunde (RTB#28) (capture of V1 & V2 scientific research sites)	Peenemunde (RTB#28) (capture of V1 & V2 scientific research sites)
+6659	Race for Berlin (RTB#27) (Berlin attacked by Anglo-Americans and Soviets)	Race for Berlin (RTB#27) (Berlin attacked by Anglo-Americans and Soviets)
+6675	I replaced 2 scenarios of Jorge (Kharkov and Vistula-Oder) by mines :	I replaced 2 scenarios of Jorge (Kharkov and Vistula-Oder) by mines :
+6723	Karkhov (RTB#5)	Karkhov (RTB#5)
+6771	Vistula Crossing (RTB#19)	Vistula Crossing (RTB#19)
+6802	D. What this Campaign is not	D. What this Campaign is not
+6809	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People
+6811	s General and PG2 might be considered as "colorful" chess games.	s General and PG2 might be considered as "colorful" chess games.
+6822	E. Acknowledgements	E. Acknowledgements
+6829	My appreciation goes to	My appreciation goes to
+6835	J. Gabitto	J. Gabitto
+6839	the campaign designer	the campaign designer
+6845	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People
+6847	s General forum.	s General forum.
+6853	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.
+6879	F. Comments	F. Comments
+6895	All comments good or bad are welcome at	All comments good or bad are welcome at
+6928	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+6938	Feel free to join us on People	Feel free to join us on People
+6940	s General forum at:	s General forum at:
+6975	http://pub131.ezboard.com/fjpspanzersfrm10	0

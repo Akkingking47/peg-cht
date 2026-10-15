@@ -1,0 +1,257 @@
+# Road to Berlin\PeG WWII RTB campaign install.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+2019	Road to Berlin soviet campaign (version 3.0)	通往柏林之路(Road to Berlin)苏联战役（版本 3.0）
+2025	Robert Mary	Robert Mary
+2058	rmypegww2@skynet.be	rmypegww2@skynet.be
+2076	This is the PeG WWII conversion of the Road to Berlin soviet campaign originally designed for PG2 by Jorge Gabitto.	这是把最初由 Jorge Gabitto 为 PG2 设计的《通往柏林之路》苏联战役转换到 PeG WWII 的版本。
+2086	A. How to install ?	A. 如何安装？
+2100	This package contains :	本安装包包含：
+2148	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	场景与战役文件（*.scen、*.txt、*.cam）：把其中包含的全部文件解压，压缩包为
+2155	RTB_v3.zip	RTB_v3.zip
+2161	in the SCENARIO directory of PeG-WW2.	，请放入 PeG-WW2 的 SCENARIO 目录。
+2226	Original campaign for PG2 design notes of J. Gabitto are included in the	J. Gabitto 为 PG2 原战役所写的设计说明收录在
+2233	Readme.zip	Readme.zip
+2259	The Readme.zip also includes my	Readme.zip 中还包含我的
+2265	Excel file	Excel 文件
+2276	RTB.xls	RTB.xls
+2281	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	），其中展示了战役流程、地图编号、所用地图的名称以及备选战役路径。
+2346	The maps	地图
+2385	3.1 MAP files	3.1 MAP 文件
+2407	*.map files are included in the	*.map 文件包含在
+2414	Maps.zip	Maps.zip
+2420	, place them in the SCENARIO directory of PeG-WW2	中，请把它们放入 PeG-WW2 的 SCENARIO 目录。
+2424	PG2 maps (in SHP format) can be found on builder	PG2 地图（SHP 格式）可在 Builder
+2426	s paradise website :	s Paradise 网站找到：
+2457	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+2466	Or on Panzer General2.com website:	或在 Panzer General2.com 网站：
+2499	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+2546	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 地图文件可以使用我本人网站上的转换工具转换（从 SHP 格式转为 S16 格式）：
+2579	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+2588	in the campaign page (	在战役页面（
+2594	Luis	Luis
+2605	Map converter	的 Map converter
+2610	(107Kb), or directly within Luis	（107Kb），或者直接在 Luis
+2612	PeG editor (	的 PeG editor（
+2618	PeG Suite 3.16	PeG Suite 3.16
+2644	3.2. S16 files	3.2. S16 文件
+2666	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	转换后的地图（*.S16 格式）应放入 PeG-WW2 的 MAP 目录。
+2670	You can find it with all *.SHP files on	你可以在以下地方连同所有 *.SHP 文件一起找到它们：
+2672	a) Robert Mary	a) Robert Mary
+2674	s website:	的网站：
+2707	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+2734	b) Steve Brown	b) Steve Brown
+2736	s website:	的网站：
+2770	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	http://www.wargamer.com/pg2campaigns/steve/pg2.htm
+2817	The needed maps are those :	所需地图如下：
+2955	Name	名称
+2957	Date	日期
+2959	Map	地图
+2961	File	文件
+3100	The Assault (1)	突击 (1)
+3104	Sb2stal	Sb2stal
+3106	RTB01	RTB01
+3245	Operation Uranus (2)	天王星行动 (2)
+3249	SSI (Chir)	SSI (奇尔)
+3251	RTB02	RTB02
+3291	Winter Storm (3)	冬季风暴 (3)
+3295	Myshko	Myshko
+3297	RTB03	RTB03
+3337	Little Saturn (4)	小土星行动 (4)
+3341	Don	顿河
+3343	RTB04	RTB04
+3383	Kharkov (5)	哈尔科夫 (5)
+3387	Karkhov2	Karkhov2
+3389	RTB05	RTB05
+3429	Ponyri Station (6)	波内里车站 (6)
+3433	Ponyri	波内里
+3435	RTB06	RTB06
+3475	Orel (7)	奥廖尔 (7)
+3479	SSI (Chiecano)	SSI (Chiecano)
+3481	RTB07	RTB07
+3521	Operation Rumientzev (8)	鲁缅采夫行动 (8)
+3525	SSI (Prokh)	SSI (普罗霍罗夫卡)
+3527	RTB08	RTB08
+3567	Dnepr Crossing (9)	强渡第聂伯河 (9)
+3571	SSI (Kanev)	SSI (卡涅夫)
+3573	RTB09	RTB09
+3613	Kiev (26)	基辅 (26)
+3617	Kiev	基辅
+3619	RTB26	RTB26
+3659	Mogilev (10)	莫吉廖夫 (10)
+3663	Mogilev	莫吉廖夫
+3665	RTB10	RTB10
+3705	Perekop (25)	彼列科普 (25)
+3709	SSI (Prokh)	SSI (普罗霍罗夫卡)
+3711	RTB25	RTB25
+3751	Leningrad (11)	列宁格勒 (11)
+3755	SSI (Lening)	SSI (列宁格勒)
+3757	RTB11	RTB11
+3797	Cherkassy (12)	切尔卡瑟 (12)
+3801	SSI (Chir)	SSI (奇尔)
+3803	RTB12	RTB12
+3843	Western Ukraine (13)	西乌克兰 (13)
+3847	SSI (Arract)	SSI (Arract)
+3849	RTB13	RTB13
+3889	Odessa Evacuation (33)	敖德萨撤离 (33)
+3893	Odessa	敖德萨
+3895	RTB33	RTB33
+3935	Sevastopol Evacuation (14)	塞瓦斯托波尔撤退 (14)
+3939	Sevastopol	塞瓦斯托波尔
+3941	RTB14	RTB14
+3981	Viipuri (15)	维堡 (15)
+3985	SSI (Viipuri)	SSI (维堡)
+3987	RTB15	RTB15
+4027	Narva (23)	纳尔瓦 (23)
+4031	Narva	纳尔瓦
+4033	RTB23	RTB23
+4073	Riga (24)	里加 (24)
+4077	Dieppe	迪耶普
+4079	RTB24	RTB24
+4119	Army Group South Ukraine (16)	南乌克兰集团军群 (16)
+4123	SSI (Kanev)	SSI (卡涅夫)
+4125	RTB16	RTB16
+4165	Operation Jassy-Kichinev (31)	雅西-基什尼奥夫行动 (31)
+4169	Bucharest	布加勒斯特
+4171	RTB31	RTB31
+4210	Operation Bagration I (17)	巴格拉季昂行动 I (17)
+4214	Litovsk	利托夫斯克(Litovsk)
+4216	RTB17	RTB17
+4255	Belgrade (32)	贝尔格莱德 (32)
+4259	Belgrade	贝尔格莱德
+4261	RTB32	RTB32
+4301	Operation Bagration II (18)	巴格拉季昂行动 II (18)
+4305	SSI (Novgo)	SSI (诺夫哥罗德)
+4307	RTB18	RTB18
+4347	Vistula Crossing (19)	强渡维斯瓦河 (19)
+4351	Vistula	维斯瓦河
+4353	RTB19	RTB19
+4393	Operation Warsaw-Poznan (30)	华沙-波兹南行动 (30)
+4397	Poland	波兰(Poland)
+4399	RTB30	RTB30
+4439	Operation Konrad (20)	康拉德行动 (20)
+4443	SSI (Konrad)	SSI (康拉德)
+4445	RTB20	RTB20
+4485	Auschwitz Liberation (34)	解放奥斯维辛 (34)
+4489	Stalag	Stalag
+4491	RTB34	RTB34
+4531	East Prussia (29)	东普鲁士 (29)
+4535	Koenisgberg	柯尼斯堡(Koenisgberg)
+4537	RTB29	RTB29
+4577	The Door to Berlin (21)	通往柏林之门 (21)
+4581	SSI (Dessau)	SSI (德绍)
+4583	RTB21	RTB21
+4623	Peenemunde (28)	佩讷明德 (28)
+4627	Peenemunde	佩讷明德(Peenemunde)
+4629	RTB28	RTB28
+4669	Hitler Last Stand (22)	希特勒的最后抵抗 (22)
+4673	Berlin	柏林
+4675	RTB22	RTB22
+4814	Race for Berlin (27)	争夺柏林 (27)
+4818	Berlin	柏林
+4820	RTB27	RTB27
+4861	Campaign flow and map files used can also be found on	战役流程和所用地图文件也可以在
+4867	RTB.xls	RTB.xls
+4872	file.	文件中找到。
+4930	The movies (not mandatory)	电影（非必需）
+4941	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	PG2 有一些 *.SMK 文件，它们会在场景开始前播放，让游戏更有代入感。这些文件可以转换成 PeG-WW2 使用的 AVI 格式。
+4943	You can find more SMK files	你可以在以下地址找到更多 SMK 文件：
+4945	there:	这里：
+4971	http://www.stahlhelm.prv.pl/	http://www.stahlhelm.prv.pl/
+4978	here:	这里：
+5004	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+5011	or here:	或这里：
+5037	http://www.medio.mh.se/%7Evonadler/pg2/	http://www.medio.mh.se/%7Evonadler/pg2/
+5045	In order to convert SMK files into AVI format, follow the instructions on my website:	要把 SMK 文件转换成 AVI 格式，请按我网站上的说明操作：
+5086	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm
+5108	I have converted the following files:	我已经转换了以下文件：
+5156	sovintro	sovintro
+5218	sovbv	sovbv
+5242	medalrum	medalrum
+5267	Ruloss	Ruloss
+5291	DonBendA	DonBendA
+5316	DonBendB	DonBendB
+5341	tempestA	tempestA
+5365	tempestB	tempestB
+5414	Fas16	Fas16
+5439	Finn-01	Finn-01
+5464	Chisinau44A	Chisinau44A
+5488	sovend	sovend
+5550	sovloss	sovloss
+5582	All original SMK files are coming from AdlerKorps website:	所有原始 SMK 文件都来自 AdlerKorps 网站：
+5608	http://www.medio.mh.se/%7Evonadler/pg2/	http://www.medio.mh.se/%7Evonadler/pg2/
+5616	Movies must be placed in the	电影必须放入 PeG-WW2 的
+5620	CINE	CINE
+5623	directory of PeG-WW2.	目录中。
+5642	B. Using the modgen.dat and the equipment file	B. 使用 modgen.dat 和装备文件
+5695	The equipment file :	装备文件：
+5734	Either my Asian eqpt file version 3.07 or my European e-file version 1.02 is mandatory.	必须使用我的亚洲装备文件 3.07 版或我的欧洲装备文件 1.02 版中的一种。
+5736	I suggest you to use the European e-file since the corresponding flags are by default included in my Modgen.dat.	我建议你使用欧洲装备文件，因为相应的旗帜默认已包含在我的 Modgen.dat 中。
+5775	The equipment file is available at my own website :	装备文件可从我本人的网站获取：
+5807	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+5834	Unzip "	把 “
+5840	RMY_PeG-WW2_Eqpt_file.zip	RMY_PeG-WW2_Eqpt_file.zip
+5845	" in the Main directory of PeG-WW2.	” 解压到 PeG-WW2 的主目录中。
+5884	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	我的装备文件与 Mark Kirby 的装备文件结构相同（
+5890	Mark	Mark
+5892	s units are unchanged	的单位没有改动
+5897	excepted icons). I only added new units.	，只有图标除外）。我只添加了新单位。
+5901	My equipment file is intended for use with Redball	我的装备文件是为配合 Redball
+5903	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	的 PeG-WW2 2.7 安装包使用而设计的，因此文件名已经改过，下载后可直接使用（Equip97.txt 改名为
+5909	WW2-eqp.txt	WW2-eqp.txt
+5914	, Equip97.eqp became	，Equip97.eqp 改名为
+5921	WW2-eqp.eqp	WW2-eqp.eqp
+5930	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	我的各个装备文件版本始终向下兼容，也就是说，我最新的装备文件可用于我以前从 PG2 转换的所有战役。
+5997	The modgen.dat (intentionally not included in order to save space)	modgen.dat（为节省空间有意未包含在内）
+6036	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it	我的 modgen.dat 只收录我和 Mark 使用的图标，以减小文件体积（11 MB 压缩进 4 MB 的 zip 文件），如果你愿意，
+6038	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 70 MB).	也完全可以建立一个包含目前所有图标的巨大 modgen.dat（至少 70 MB 以上）。
+6077	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	我的 modgen.dat 是必需的（以确保你拥有我使用的图标），除非你使用一个包含我和 Mark 所用全部图标的巨大 modgen。
+6081	You can	你可以
+6087	download	下载
+6092	the file at :	该文件，地址：
+6124	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+6133	Unzip "	把 “
+6139	RMY_PeG-WW2_MODGEN.zip	RMY_PeG-WW2_MODGEN.zip
+6144	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	” 解压到 PeG-WW2 的主目录中。这个 modgen——特意改名为 WW2GEN.dat——配合 Redball
+6146	s PeG-WW2 2.7 package.	的 PeG-WW2 2.7 安装包使用。
+6148	All required S16 files contained in Redball	Redball 的
+6150	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	升级包中包含的所有必需 S16 文件都已放进 WW2GEN.dat，可直接使用。
+6215	Peoples.exe file	Peoples.exe 文件
+6237	Please use the Redball	请使用 Redball
+6239	s PeG-WW2 2.7 package downloadable here:	的 PeG-WW2 2.7 安装包，可在此下载：
+6265	http://users.skynet.be/rmypegww2/	http://users.skynet.be/rmypegww2/
+6272	This file contains the most advanced game improvements for PeG-WW2 (see Redball	该文件包含 PeG-WW2 最先进的游戏改进（参见 Redball
+6274	s readme file included in PeG-WW2 2.7 package).	的说明文件，包含在 PeG-WW2 2.7 安装包内）。
+6301	C. What has been done ?	C. 做了哪些工作？
+6309	a) All units have been converted under PeG format	a) 所有单位都已转换为 PeG 格式
+6311	b) All maps have been converted under Peg format	b) 所有地图都已转换为 Peg 格式
+6313	c) All scenarios are also playable as stand-alone scenarios.	c) 所有场景也都可以作为独立场景游玩。
+6315	d) The original campaign of J. Gabitto has been slightly modified :	d) J. Gabitto 的原战役做了少许修改：
+6319	I designed 6 additionnal scenarios which are fully integrated in Jorge	我设计了 6 个新增场景，它们已完全并入 Jorge
+6321	s original campaign :	的原战役中：
+6369	Operation Jassy-Kichinev (RTB#31) (liberation of Bucharest)	雅西-基什尼奥夫行动 (RTB#31)（解放布加勒斯特）
+6417	Belgrade (RTB#32) (liberation of Belgrade with Tito	贝尔格莱德 (RTB#32)（与 Tito
+6419	s partisans)	的游击队一起解放贝尔格莱德）
+6467	Operation Warsaw-Poznan (RTB#30) (liberation of Warsaw)	华沙-波兹南行动 (RTB#30)（解放华沙）
+6515	Auschwitz Liberation (RTB#34) (liberation of concentration camp)	解放奥斯维辛 (RTB#34)（解放集中营）
+6563	East Prussia (RTB#29) (attack of Danzig and Koenigsberg fortresses)	东普鲁士 (RTB#29)（进攻但泽和柯尼斯堡要塞）
+6611	Peenemunde (RTB#28) (capture of V1 & V2 scientific research sites)	佩讷明德 (RTB#28)（夺取 V1 与 V2 科研基地）
+6659	Race for Berlin (RTB#27) (Berlin attacked by Anglo-Americans and Soviets)	争夺柏林 (RTB#27)（英美与苏联共同进攻柏林）
+6675	I replaced 2 scenarios of Jorge (Kharkov and Vistula-Oder) by mines :	我把 Jorge 的 2 个场景（哈尔科夫和维斯瓦河-奥得河）换成了我自己的版本：
+6723	Karkhov (RTB#5)	哈尔科夫 (RTB#5)
+6771	Vistula Crossing (RTB#19)	强渡维斯瓦河(Vistula) (RTB#19)
+6802	D. What this Campaign is not	D. 本战役不是什么
+6809	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	本战役并不表示认同任何政治理念或战争。战争是人类最令人遗憾的活动之一。作为战术兵棋，People
+6811	s General and PG2 might be considered as "colorful" chess games.	s General 和 PG2 或许可以看作是“色彩丰富的”国际象棋。
+6822	E. Acknowledgements	E. 致谢
+6829	My appreciation goes to	我要感谢
+6835	J. Gabitto	J. Gabitto
+6839	the campaign designer	这位战役设计者
+6845	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People	，L. Guzman（PeG Suite 的创造者，没有它，从 PG2 平台到 PeG 的移植工作就不可能完成）、J. Markham（为游戏 exe 文件所做的修改）、Mark Kirby（PeG-WW2 的创建者）以及 N. Sengupta 等人（People
+6847	s General forum.	s General 论坛的版主）。
+6853	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	我感谢众多其他人所做的工作，他们把兵棋推演变成了一种艺术形式。感谢你游玩这个战役。希望你在游玩时获得的乐趣，不亚于我移植它时获得的乐趣。
+6879	F. Comments	F. 意见反馈
+6895	All comments good or bad are welcome at	欢迎把任何意见（无论好坏）发送到
+6928	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+6938	Feel free to join us on People	欢迎加入我们，来到 People
+6940	s General forum at:	s General 论坛：
+6975	http://pub131.ezboard.com/fjpspanzersfrm10	http://pub131.ezboard.com/fjpspanzersfrm10

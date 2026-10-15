@@ -1,0 +1,19 @@
+词库门报告  2026-10-15 11:26:34
+============================================================
+词库候选 41787 条 · override 824 条
+
+pegww2/research/WW2Gui-map.tsv     行 604    本项目层 603    跨层 1     缺失 0
+pegww2/research/WW2Misc-map.tsv    行 45     本项目层 45     跨层 0     缺失 0
+pegww2/research/WW2Tips-map.tsv    行 43     本项目层 43     跨层 0     缺失 0
+pegww2/research/ww2-eqp-map.tsv    行 906    本项目层 906    跨层 0     缺失 0
+pegww2/research/ww2-scn-map.tsv    行 21870  本项目层 21870  跨层 0     缺失 0
+pegww2/research/WW2NAME-map.tsv    行 399    本项目层 399    跨层 0     缺失 0
+peG/research/gui030-zh.tsv         行 653    本项目层 651    跨层 2     缺失 0
+
+偏离分级：
+   已登记            697
+
+相对基线新增：0 条
+
+阵营/年代维度（接线·只报不判，不影响判定）：
+   登记 65 ID（未解析 23）· 唯一阵营 79 / 多阵营 35 / 简称 29 / 复合标题 13 · 修键后放宽 0 条（真实门）

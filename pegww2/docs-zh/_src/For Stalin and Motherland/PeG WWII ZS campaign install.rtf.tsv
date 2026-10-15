@@ -1,0 +1,172 @@
+# For Stalin and Motherland\PeG WWII ZS campaign install.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+2019	Za Stalina, Za Rodinu (	Za Stalina, Za Rodinu (
+2021	For Stalin and Motherland	For Stalin and Motherland
+2023	) soviet campaign (version 1.0)	) soviet campaign (version 0)
+2029	Robert Mary	Robert Mary
+2062	rmypegww2@skynet.be	rmypegww2@skynet.be
+2087	This is the PeG WWII conversion of the Za Stalina soviet campaign originally designed for PG2 by Adam Bolesta which can be found here:	This is the PeG WWII conversion of the Za Stalina soviet campaign originally designed for PG2 by Adam Bolesta which can be found here:
+2120	http://bolesta.home.pl/pg2/index.html	0
+2146	A. How to install ?	A. How to install ?
+2160	This package contains :	This package contains :
+2208	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the
+2215	ZS_v1.zip	0
+2221	in the SCENARIO directory of PeG-WW2.	in the SCENARIO directory of PeG-WW2.
+2286	Original campaign for PG2 design notes of A. Bolesta are included in the	Original campaign for PG2 design notes of A. Bolesta are included in the
+2293	Readme.zip	0
+2319	The Readme.zip also includes my	The 0 also includes my
+2325	Excel file	Excel file
+2336	ZS.xls	0
+2341	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.	) showing campaign flow, map numbers, name of maps used and alternative campaign paths.
+2348	The campaign path is included in	The campaign path is included in
+2354	the Excel file	the Excel file
+2369	ZS	ZS
+2376	.xls	.xls
+2383	. All scenari except 2 alternative ones (	. All scenari except 2 alternative ones (
+2390	ZS#03 Operation Uranus and ZS#14 For the Freedom and Liberation of the People	ZS#03 Operation Uranus and ZS#14 For the Freedom and Liberation of the People
+2397	) are to be played (as long as you keep winning each of them of course	) are to be played (as long as you keep winning each of them of course
+2471	The maps	The maps
+2510	3.1 MAP files	0 MAP files
+2532	*.map files are included in the	*.map files are included in the
+2539	Maps.zip	0
+2545	, place them in the SCENARIO directory of PeG-WW2	, place them in the SCENARIO directory of PeG-WW2
+2549	PG2 maps (in SHP format) can be found on builder	PG2 maps (in SHP format) can be found on builder
+2551	s paradise website :	s paradise website :
+2582	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	0
+2591	Or on Panzer General2.com website:	Or on Panzer General2.com website:
+2624	http://es.geocities.com/latingenerals/	0
+2671	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :
+2704	http://users.skynet.be/rmypegww2/	0
+2713	in the campaign page (	in the campaign page (
+2719	Luis	Luis
+2730	Map converter	Map converter
+2735	(107Kb), or directly within Luis	(107Kb), or directly within Luis
+2737	PeG editor (	PeG editor (
+2743	PeG Suite 3.16	PeG Suite 0
+2769	3.2. S16 files	0. S16 files
+2791	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeG-WW2.
+2795	You can find it with all *.SHP files on	You can find it with all *.SHP files on
+2797	a) Robert Mary	a) Robert Mary
+2799	s website:	s website:
+2832	http://users.skynet.be/rmypegww2/	0
+2859	b) Steve Brown	b) Steve Brown
+2861	s website:	s website:
+2895	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	0
+2927	Campaign flow and map files used can also be found on	Campaign flow and map files used can also be found on
+2933	ZS.xls	0
+2938	file.	file.
+2996	The movies (not mandatory)	The movies (not mandatory)
+3007	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.
+3009	You can find more SMK files	You can find more SMK files
+3011	there:	there:
+3037	http://www.stahlhelm.prv.pl/	0
+3044	here:	here:
+3070	http://es.geocities.com/latingenerals/	0
+3077	or here:	or here:
+3103	http://www.medio.mh.se/%7Evonadler/pg2/	0
+3111	In order to convert SMK files into AVI format, follow the instructions on my website:	In order to convert SMK files into AVI format, follow the instructions on my website:
+3152	http://users.skynet.be/rmypegww2/Pages/WebpageRMY.htm	0
+3174	I have converted the following files:	I have converted the following files:
+3222	sovintro	sovintro
+3284	sovbv	sovbv
+3308	medalrum	medalrum
+3333	DonBendA	DonBendA
+3357	DonBendB	DonBendB
+3407	Fas16	Fas16
+3431	Red_victory	Red_victory
+3456	sovend	sovend
+3517	sovloss	sovloss
+3549	All original SMK files are coming from AdlerKorps website:	All original SMK files are coming from AdlerKorps website:
+3575	http://www.medio.mh.se/%7Evonadler/pg2/	0
+3583	Movies must be placed in the	Movies must be placed in the
+3587	CINE	CINE
+3590	directory of PeG-WW2.	directory of PeG-WW2.
+3609	B. Using the modgen.dat and the equipment file	B. Using the 0 and the equipment file
+3662	The equipment file :	The equipment file :
+3701	Either my Asian eqpt file version 3.07 or my European e-file version 1.02 is mandatory.	Either my Asian eqpt file version 0 or my European e-file version 1 is mandatory.
+3703	I suggest you to use the European e-file since the corresponding flags are by default included in my Modgen.dat.	I suggest you to use the European e-file since the corresponding flags are by default included in my 0.
+3742	The equipment file is available at my own website :	The equipment file is available at my own website :
+3774	http://users.skynet.be/rmypegww2/	0
+3801	Unzip "	Unzip "
+3807	RMY_PeG-WW2_Eqpt_file.zip	0
+3812	" in the Main directory of PeG-WW2.	" in the Main directory of PeG-WW2.
+3851	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	My eqpt file keeps the same structure as Mark Kirby's eqpt file (
+3857	Mark	Mark
+3859	s units are unchanged	s units are unchanged
+3864	excepted icons). I only added new units.	excepted icons). I only added new units.
+3868	My equipment file is intended for use with Redball	My equipment file is intended for use with Redball
+3870	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	s PeG-WW2 1 package, therefore file names have been renamed to be directly used when you download them (0 became
+3876	WW2-eqp.txt	0
+3881	, Equip97.eqp became	, 0 became
+3888	WW2-eqp.eqp	0
+3897	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.	My different e-file versions are always backwards compatible, in the meaning that my latest e-file can be used with all the campaigns I previously converted from PG2.
+3964	The modgen.dat (intentionally not included in order to save space)	The 0 (intentionally not included in order to save space)
+4003	My modgen.dat is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it	My 0 is limited to the icons Mark and I are using in order to reduce file size (11 MB compressed in a 4 MB zip file), if you wish it
+4005	s also possible to build up a huge modgen.dat with all existing icons so far (at least more than 70 MB).	s also possible to build up a huge 0 with all existing icons so far (at least more than 70 MB).
+4044	My modgen.dat is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.	My 0 is mandatory (to make sure you have the icons I use) unless you use a huge modgen containing all the icons Mark and I are using.
+4048	You can	You can
+4054	download	download
+4059	the file at :	the file at :
+4091	http://users.skynet.be/rmypegww2/	0
+4100	Unzip "	Unzip "
+4106	RMY_PeG-WW2_MODGEN.zip	0
+4111	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	" in the Main directory of PeG-WW2. This modgen -intentionnally renamed 0- works with Redball
+4113	s PeG-WW2 2.7 package.	s PeG-WW2 0 package.
+4115	All required S16 files contained in Redball	All required S16 files contained in Redball
+4117	s upgrade are already included in WW2GEN.dat which is immediately ready for use.	s upgrade are already included in 0 which is immediately ready for use.
+4182	Peoples.exe file	0 file
+4204	Please use the Redball	Please use the Redball
+4206	s PeG-WW2 2.7 package downloadable here:	s PeG-WW2 0 package downloadable here:
+4232	http://users.skynet.be/rmypegww2/	0
+4239	This file contains the most advanced game improvements for PeG-WW2 (see Redball	This file contains the most advanced game improvements for PeG-WW2 (see Redball
+4241	s readme file included in PeG-WW2 2.7 package).	s readme file included in PeG-WW2 0 package).
+4264	C. What has been done ?	C. What has been done ?
+4308	Minor changes brought to A. Bolesta	Minor changes brought to A. Bolesta
+4310	s campaign	s campaign
+4351	This campaign is not historically realistic about number of military units in presence, in most of scenari Adam Bolesta didn	This campaign is not historically realistic about number of military units in presence, in most of scenari Adam Bolesta didn
+4353	t have any Soviet unit (the original PG2 campaign was probably designed to be played by 2 human players, the player on Russian side had to purchase all his own units), therefore I added all auxiliary units. However the campaign fo llows the historical line.	t have any Soviet unit (the original PG2 campaign was probably designed to be played by 2 human players, the player on Russian side had to purchase all his own units), therefore I added all auxiliary units. However the campaign fo llows the historical line.
+4371	I added map names where I found unnamed cities. I did this exercise in most of scenarios (mainly in	I added map names where I found unnamed cities. I did this exercise in most of scenarios (mainly in
+4378	ZS#02	ZS#02
+4380	Kharkov	Kharkov
+4388	Scenario) thanks to MS Encarta.	Scenario) thanks to MS Encarta.
+4406	For some maps I added Narayan Sengupta	For some maps I added Narayan Sengupta
+4408	s or standard PG2 mapnames even if those have no immediate link with Adam Bolesta	s or standard PG2 mapnames even if those have no immediate link with Adam Bolesta
+4410	s scenari (for instance	s scenari (for instance
+4418	ZS#11	ZS#11
+4420	East Prussia	East Prussia
+4427	uses Vipurii map, I deliberately chose to use names of Vipurii map /	uses Vipurii map, I deliberately chose to use names of Vipurii map /
+4434	ZS#12	ZS#12
+4436	Pommernstellung	Pommernstellung
+4444	uses Soumussa map, I deliberately chose to use names of Soumussa	uses Soumussa map, I deliberately chose to use names of Soumussa
+4457	. The origina l PG2 campaign was created in 2001, this might explain why old SSI maps were chosen whereas new maps corresponding to the theatre of operation depicted by Adam Bolesta are now existing (with accurate map names).	. The origina l PG2 campaign was created in 2001, this might explain why old SSI maps were chosen whereas new maps corresponding to the theatre of operation depicted by Adam Bolesta are now existing (with accurate map names).
+4475	I also used Narayan Sengupta	I also used Narayan Sengupta
+4477	s detailed mapnames for some maps such as Seelow, Dessau,	s detailed mapnames for some maps such as Seelow, Dessau,
+4497	I changed the spelling of some introduction text files (English wording too) and corrected some city names.	I changed the spelling of some introduction text files (English wording too) and corrected some city names.
+4515	Thanks to PeG game rules (no embark mode for ground transport) scenarios can be won earlier than in PG2 . As a result I reduced scenario length (number of turns to get a BV, V or TV) and reinforcement units appear earlier too.	Thanks to PeG game rules (no embark mode for ground transport) scenarios can be won earlier than in PG2 . As a result I reduced scenario length (number of turns to get a BV, V or TV) and reinforcement units appear earlier too.
+4533	Names of scenari and campaign have been renamed and begin now with	Names of scenari and campaign have been renamed and begin now with
+4535	ZS	ZS
+4537	, this allows the player to uninstall the campagn easily.	, this allows the player to uninstall the campagn easily.
+4578	Playing tips and possible releases	Playing tips and possible releases
+4619	You have enough AUX units to win, just purchase a few arty units and you should win easily. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).	You have enough AUX units to win, just purchase a few arty units and you should win easily. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).
+4637	I have 2 post-WW2 scenari in mind :	I have 2 post-WW2 scenari in mind :
+4639	Red Lion	Red Lion
+4641	and	and
+4643	New York city	New York city
+4645	: the invasion of England and then New York by Soviets.	: the invasion of England and then New York by Soviets.
+4671	D. What this Campaign is not	D. What this Campaign is not
+4678	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People
+4680	s General and PG2 might be considered as "colorful" chess games.	s General and PG2 might be considered as "colorful" chess games.
+4691	E. Acknowledgements	E. Acknowledgements
+4698	My appreciation goes to	My appreciation goes to
+4704	A. Bolesta	A. Bolesta
+4708	the campaign designer	the campaign designer
+4714	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and N. Sengupta a.o. moderator on the People
+4716	s General forum.	s General forum.
+4722	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.
+4748	F. Comments	F. Comments
+4764	All comments good or bad are welcome at	All comments good or bad are welcome at
+4797	rmyPeG-WW2@skynet.be	rmyPeG-WW2@skynet.be
+4807	Feel free to join us on People	Feel free to join us on People
+4809	s General forum at:	s General forum at:
+4844	http://pub131.ezboard.com/fjpspanzersfrm10	0

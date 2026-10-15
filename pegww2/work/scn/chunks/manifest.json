@@ -1,0 +1,153 @@
+{
+ "total": 4021,
+ "size": 200,
+ "chunks": [
+  {
+   "chunk": 1,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_01.tsv",
+   "from": 0,
+   "to": 199,
+   "rows": 200
+  },
+  {
+   "chunk": 2,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_02.tsv",
+   "from": 200,
+   "to": 399,
+   "rows": 200
+  },
+  {
+   "chunk": 3,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_03.tsv",
+   "from": 400,
+   "to": 599,
+   "rows": 200
+  },
+  {
+   "chunk": 4,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_04.tsv",
+   "from": 600,
+   "to": 799,
+   "rows": 200
+  },
+  {
+   "chunk": 5,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_05.tsv",
+   "from": 800,
+   "to": 999,
+   "rows": 200
+  },
+  {
+   "chunk": 6,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_06.tsv",
+   "from": 1000,
+   "to": 1199,
+   "rows": 200
+  },
+  {
+   "chunk": 7,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_07.tsv",
+   "from": 1200,
+   "to": 1399,
+   "rows": 200
+  },
+  {
+   "chunk": 8,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_08.tsv",
+   "from": 1400,
+   "to": 1599,
+   "rows": 200
+  },
+  {
+   "chunk": 9,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_09.tsv",
+   "from": 1600,
+   "to": 1799,
+   "rows": 200
+  },
+  {
+   "chunk": 10,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_10.tsv",
+   "from": 1800,
+   "to": 1999,
+   "rows": 200
+  },
+  {
+   "chunk": 11,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_11.tsv",
+   "from": 2000,
+   "to": 2199,
+   "rows": 200
+  },
+  {
+   "chunk": 12,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_12.tsv",
+   "from": 2200,
+   "to": 2399,
+   "rows": 200
+  },
+  {
+   "chunk": 13,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_13.tsv",
+   "from": 2400,
+   "to": 2599,
+   "rows": 200
+  },
+  {
+   "chunk": 14,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_14.tsv",
+   "from": 2600,
+   "to": 2799,
+   "rows": 200
+  },
+  {
+   "chunk": 15,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_15.tsv",
+   "from": 2800,
+   "to": 2999,
+   "rows": 200
+  },
+  {
+   "chunk": 16,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_16.tsv",
+   "from": 3000,
+   "to": 3199,
+   "rows": 200
+  },
+  {
+   "chunk": 17,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_17.tsv",
+   "from": 3200,
+   "to": 3399,
+   "rows": 200
+  },
+  {
+   "chunk": 18,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_18.tsv",
+   "from": 3400,
+   "to": 3599,
+   "rows": 200
+  },
+  {
+   "chunk": 19,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_19.tsv",
+   "from": 3600,
+   "to": 3799,
+   "rows": 200
+  },
+  {
+   "chunk": 20,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_20.tsv",
+   "from": 3800,
+   "to": 3999,
+   "rows": 200
+  },
+  {
+   "chunk": 21,
+   "file": "D:/DSH/军事游戏汉化/pegww2/work/scn/chunks/chunk_21.tsv",
+   "from": 4000,
+   "to": 4020,
+   "rows": 21
+  }
+ ]
+}

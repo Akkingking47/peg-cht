@@ -1,0 +1,72 @@
+# Mediterranean 46\LH_GER46.xls · 表格文字格抽取（工作表 \t 行 \t 列 \t 原文）
+工作表	行	列	原文
+Mediterranean 46 campaign	1	2	Mediterranean 46
+Mediterranean 46 campaign	3	2	Scenario
+Mediterranean 46 campaign	3	3	Map
+Mediterranean 46 campaign	3	4	Map #
+Mediterranean 46 campaign	3	5	BV
+Mediterranean 46 campaign	3	7	TV
+Mediterranean 46 campaign	3	8	Loss
+Mediterranean 46 campaign	4	2	Italian Campaign Conclusion - Messina
+Mediterranean 46 campaign	4	3	LH_Messina
+Mediterranean 46 campaign	5	2	Operation Herkules II
+Mediterranean 46 campaign	5	3	Malta
+Mediterranean 46 campaign	5	8	Loss
+Mediterranean 46 campaign	6	2	Operation Fackel
+Mediterranean 46 campaign	6	3	Algiers
+Mediterranean 46 campaign	6	8	Loss
+Mediterranean 46 campaign	7	2	Taking the Bridgehead
+Mediterranean 46 campaign	7	3	Tunis
+Mediterranean 46 campaign	7	8	Loss
+Mediterranean 46 campaign	8	2	Operation Capri
+Mediterranean 46 campaign	8	3	Medenine
+Mediterranean 46 campaign	8	8	Loss
+Mediterranean 46 campaign	9	2	Unternehmen Sonnenblume II
+Mediterranean 46 campaign	9	3	Tripoli
+Mediterranean 46 campaign	9	8	Loss
+Mediterranean 46 campaign	10	2	Third Battle of Sirte
+Mediterranean 46 campaign	10	3	Agedabia
+Mediterranean 46 campaign	10	8	Loss
+Mediterranean 46 campaign	11	2	Battle of Sidi Rezegi
+Mediterranean 46 campaign	11	3	Tobruk
+Mediterranean 46 campaign	11	8	Loss
+Mediterranean 46 campaign	12	2	Operation Crusader
+Mediterranean 46 campaign	12	3	Barrani
+Mediterranean 46 campaign	12	8	Loss
+Mediterranean 46 campaign	13	2	Battle of Mersa Matruh II
+Mediterranean 46 campaign	13	3	Matruh
+Mediterranean 46 campaign	13	8	Loss
+Mediterranean 46 campaign	14	2	Battle of Rafa
+Mediterranean 46 campaign	14	3	Rafa
+Mediterranean 46 campaign	14	8	Loss
+Mediterranean 46 campaign	15	2	Shelling of Tel Aviv
+Mediterranean 46 campaign	15	3	Telaviv
+Mediterranean 46 campaign	15	8	Loss
+Mediterranean 46 campaign	16	2	Shelling of Lebanon
+Mediterranean 46 campaign	16	3	Lebanon
+Mediterranean 46 campaign	16	8	Loss
+Mediterranean 46 campaign	17	2	Gallipoli
+Mediterranean 46 campaign	17	3	Helles
+Mediterranean 46 campaign	17	8	Loss
+Mediterranean 46 campaign	18	2	Gallipoli Part 2
+Mediterranean 46 campaign	18	3	Ariburnu
+Mediterranean 46 campaign	18	8	Loss
+Mediterranean 46 campaign	19	2	Battle of Greece
+Mediterranean 46 campaign	19	3	Korinth
+Mediterranean 46 campaign	19	8	Loss
+Mediterranean 46 campaign	20	2	Battle of Crete
+Mediterranean 46 campaign	20	3	Kreta2
+Mediterranean 46 campaign	20	8	Loss
+Mediterranean 46 campaign	21	2	Gibraltar
+Mediterranean 46 campaign	21	3	Gibraltar+
+Mediterranean 46 campaign	21	5	Win
+Mediterranean 46 campaign	21	6	Win
+Mediterranean 46 campaign	21	7	Loss
+Mediterranean 46 campaign	21	8	Loss
+Mediterranean 46 campaign	23	3	Legend
+Mediterranean 46 campaign	23	6	Normal Path
+Mediterranean 46 campaign	24	6	Alternate scenarios 1
+Mediterranean 46 campaign	25	6	Choice scenarios
+Mediterranean 46 campaign	26	6	Modified map
+Mediterranean 46 campaign	28	3	*.MAP files must be installed in Scenario (or Scenpac/Scenkor/Scennap/Scenacw) directory
+Mediterranean 46 campaign	29	3	*.S16 files must be installed in Map directory

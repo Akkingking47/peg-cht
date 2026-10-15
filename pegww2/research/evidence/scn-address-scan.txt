@@ -1,0 +1,123 @@
+============================================================================================
+A. 称呼/敬语 实际出现频次
+============================================================================================
+  Herr                          568
+        [110.txt] …way.    All of Europe is watching you, Herr General.…
+        [111.txt] …ieved a great victory.    Best of luck, Herr General!…
+        [111l.txt] …itary capabilities, which we require!   Herr General, do not disappoint us again.…
+  Comrade                       264
+        [DR06V.txt] …Comrade General Vassiliev has asked for you to direct the operation…
+        [DR06V.txt] …xpect much of you! Do not dissapoint us Comrade!…
+        [DTR6L.TXT] …Congratulations Comrade, Italy has surrendered to us and there's only  a few allied…
+  Sir                            18
+        [133v.txt] …#17v) - October 15th, 1943    Von Beck: Sir, the Americans are on the rampage, and we only have enough…
+        [G7Pzra704_i.txt] …Major von Beck (Intelligence Officer): Sir, several of Colonel Talvela's units are isolated. Luckily,…
+        [G7Pzra705_i.txt] …s get stronger. Good luck.    von Beck: Sir, there are enemy anti-aircraft batteries and at least two e…
+  Commander(称呼)                 452
+        [110mv.TXT] …eed to improve if you want to remain as Commander of Germany's Elite Panzer Divisions.    There are many more…
+        [110tv.TXT] …ve or you will be transferred to U-Boat Commander School.    They are always looking for potential submariner…
+        [110v.TXT] …eed to improve if you want to remain as Commander of Germany's Elite Panzer Divisions.    There are many more…
+  General                      1017
+        [110.txt] …Welcome to Barcelona, General.    Your task is to lead your "all volunteer" SS Panzer Div…
+        [110.txt] …All of Europe is watching you, Herr General.…
+        [110bv.TXT] …Outstanding work, General.  You have displayed superior tactics and abilities.  I wil…
+  Marshal/Feld-Marschall         35
+        [7Pzragc7d_i.txt] …7d10) - April 4th, 1945    Strock: Herr Feld-Marschall, the Soviets threaten Berlin. Zhukov is about to break the…
+        [7Pzragc7de.txt] …Herr Feld-Marschall.  You have achieved a complete victory. The Russians are in…
+        [7Pzrb7147_i.txt] …- June 15th, 1945    Glorius news Herr Feld-Marschall!!! Marshall Model has taken Breslau ejecting the Russians f…
+  mein/meine                      0
+  mon/ma (法语)                    15
+        [LAH_IT_10_m.txt] …rpachin  Krasnyi Gorod-Sad  Sred. Kuter'ma  Nizhnegnilovskoi  Kuter'ma  Bol. Kuter'ma  Ol'ginskaya  Nizhn…
+        [LAH_IT_10_m.txt] …Sred. Kuter'ma  Nizhnegnilovskoi  Kuter'ma  Bol. Kuter'ma  Ol'ginskaya  Nizhnepodpol'nyi  Rukav Kalancha…
+        [LAH_IT_10_m.txt] …Nizhnegnilovskoi  Kuter'ma  Bol. Kuter'ma  Ol'ginskaya  Nizhnepodpol'nyi  Rukav Kalancha  Rogozhkino  Mo…
+  Signor/Signore (意)              0
+  Monsieur (法)                    0
+  soldiers/Comrades 呼语            0
+  Hail/Heil 式                     0
+  comrade 小写                     19
+        [O.TXT] …Well, comrade, thanks to the brilliant command of the Great Stalin your t…
+        [RTB03f.txt] …Well, comrade, thanks to the brilliant command of the Great Stalin your t…
+        [RTB08_i.txt] …Good work comrade, we have defeated the allied armies in Belgium, however, th…
+  sir 小写                          7
+        [7Pzra720v_i.txt] …: The Americans are on a rampage again, sir. They act as if we are raping their women and children. Any…
+        [G7Pzra711_i.txt] …istics Officer): I have excellent news, sir. We have captured a fully operational Soviet tank, and we h…
+        [RM_usvsruss17_i.txt] …Well sir, your performance at Metz was rather, how can I put it poli…
+  你方 our/we                    1568
+        [111l.txt] ….   But, the new Spanish government and our other allies have not yet learned to respect our military c…
+        [111l.txt] …allies have not yet learned to respect our military capabilities, which we require!   Herr General, do…
+        [111l.txt] …espect our military capabilities, which we require!   Herr General, do not disappoint us again.…
+
+============================================================================================
+B. 说话人前缀（`Name: …`）top 25
+============================================================================================
+  Strock                    50
+  Version                   34
+  Gameset                   33
+  Equipment                 31
+  Note                      26
+  Reinforcements             8
+  Source                     6
+  Arracourt                  4
+  Dessau                     4
+  Ciechanow                  4
+  Avalanche                  3
+  Choice                     3
+  Windsor                    3
+  Prokhorovka                3
+  Sakhalin                   3
+  London                     3
+  Cauldron                   2
+  Volokolamsk                2
+  Zitadelle                  2
+  Kanev                      2
+  Leningrad                  2
+  BTW                        2
+  Savannah                   2
+  Malta                      2
+  Viipuri                    2
+
+============================================================================================
+C. 文件前缀 → 视角国别 推定（关键词加权）
+============================================================================================
+  rm_usvsrus   文件  155  视角推定: [('苏', 32), ('德/奥', 30), ('西', 24)]
+  rg_usvsrus   文件  155  视角推定: [('苏', 50), ('德/奥', 31), ('西', 21)]
+  lh_ger46me   文件  128  视角推定: [('苏', 42), ('英', 39), ('美', 37)]
+  ra_redaler   文件   82  视角推定: [('苏', 119), ('德/奥', 26), ('美', 23)]
+  dak_daktu0   文件   10  视角推定: [('法', 1), ('美', 1)]
+  usvsussrw5   文件    8  视角推定: [('美', 4), ('苏', 1), ('德/奥', 1)]
+  usvsussrw4   文件    8  视角推定: [('苏', 7), ('德/奥', 4), ('美', 1)]
+  usvsussrw1   文件    8  视角推定: [('英', 2), ('德/奥', 1), ('苏', 1)]
+  usvsussr18   文件    8  视角推定: [('苏', 9), ('美', 3), ('英', 1)]
+  usvsussr17   文件    8  视角推定: [('美', 1)]
+  usvsussr16   文件    8  视角推定: [('苏', 2), ('德/奥', 1), ('美', 1)]
+  usvsussr15   文件    8  视角推定: [('苏', 5), ('波', 1)]
+  usvsussr14   文件    8  视角推定: [('英', 1)]
+  usvsussr13   文件    8  视角推定: [('比荷', 6), ('德/奥', 2), ('苏', 2)]
+  usvsussr12   文件    8  视角推定: [('苏', 3), ('德/奥', 2), ('英', 1)]
+  usvsussr11   文件    8  视角推定: [('英', 3), ('苏', 1), ('西', 1)]
+  usvsussr10   文件    8  视角推定: [('美', 1)]
+  dak_spchoi   文件    6  视角推定: [('法', 4), ('意', 3), ('苏', 3)]
+  dak_choice   文件    6  视角推定: [('苏', 3), ('意', 2), ('德/奥', 2)]
+  lah_it_ros   文件    5  视角推定: [('德/奥', 10), ('苏', 3), ('捷', 3)]
+  lah_it_mel   文件    5  视角推定: [('德/奥', 11), ('苏', 4), ('罗', 2)]
+  lah_it_18_   文件    5  视角推定: [('德/奥', 38), ('苏', 7), ('法', 1)]
+  lah_it_15_   文件    5  视角推定: [('德/奥', 23), ('英', 3), ('美', 2)]
+  dak_sptu04   文件    5  视角推定: [('德/奥', 1), ('西', 1), ('意', 1)]
+  dak_sptu03   文件    5  视角推定: [('美', 2), ('德/奥', 2), ('英', 1)]
+  dak_sptu02   文件    5  视角推定: [('希', 1)]
+  dak_sptu01   文件    5  视角推定: [('意', 4), ('德/奥', 2), ('英', 1)]
+  usvsussrw3   文件    4  视角推定: [('苏', 3), ('美', 1), ('英', 1)]
+  lah_it_met   文件    4  视角推定: [('希', 10), ('德/奥', 3), ('英', 2)]
+  lah_it_khe   文件    4  视角推定: [('德/奥', 4), ('苏', 2)]
+  lah_it_gra   文件    4  视角推定: [('德/奥', 13), ('苏', 6), ('法', 1)]
+  lah_it_bzu   文件    4  视角推定: [('波', 5), ('德/奥', 5)]
+  lah_it_16_   文件    4  视角推定: [('德/奥', 2), ('美', 2)]
+  lah_it_14_   文件    4  视角推定: [('苏', 10), ('德/奥', 7)]
+  lah_it_13_   文件    4  视角推定: [('德/奥', 38), ('苏', 8), ('意', 1)]
+  lah_it_12_   文件    4  视角推定: [('德/奥', 33), ('苏', 3)]
+  lah_it_11_   文件    4  视角推定: [('德/奥', 46), ('苏', 5), ('法', 1)]
+  lah_it_10_   文件    4  视角推定: [('德/奥', 4), ('苏', 2)]
+  lah_it_08_   文件    4  视角推定: [('苏', 3), ('德/奥', 1)]
+  lah_it_07_   文件    4  视角推定: [('德/奥', 8), ('苏', 8)]
+
+[out] pegww2\research\_scn-视角分桶.tsv

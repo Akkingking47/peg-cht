@@ -1,0 +1,212 @@
+================================================================================================
+段级一致性扫描（同一段英文 → 多种中文）
+================================================================================================
+
+【ww2-scn-map】段位可对齐行 7636 · 对齐失败(段数不等) 66 · 同词异译段 152 组（其中**词库真冲突 61 组**）
+  VIII                               共 61 处 ⚠️真冲突 → 第8集团军×57[词库] ｜ 第8×3[词库] ｜ 第8军×1[词库]
+        第8集团军                  ← 22 Br/7 Arm/XIII/VIII; 4 Br/7 Arm/XIII/VIII; 3 R/7 Arm/XIII/VIII
+        第8                     ← 126 R/51 ID/XXX/VIII; A/VIII/8th Division; B/VIII/8th Division
+        第8军                    ← 6 eB/2 NZ/XXX/VIII
+  2 NZ                               共 28 处 ⚠️真冲突 → 第2新西兰师×21[词库/人工] ｜ 第2新西兰×7[词库]
+        第2新西兰师                 ← 6 eB/2 NZ/XXX/VIII; 6 Bde/2 NZ/[XXX]; 10 Bde/2 NZ/[XXX]
+        第2新西兰                  ← 4 Bde/2 NZ/[XXX]; 5 Bde/2 NZ/[XXX]; 9 Bde/2 NZ/[XXX]
+  HG D                               共 26 处 ⚠️真冲突 → 赫尔曼·戈林师×23[人工] ｜ HG D×2[词库] ｜ HG师×1[词库]
+        赫尔曼·戈林师                ← eB/HG D; PzR/HG D; aaR/HG D
+        HG D                   ← 2 R/HG D; atB/HG D
+        HG师                    ← 1 R/HG D
+  [SS Pz]                            共 26 处 ⚠️真冲突 → [党卫军 装甲]×14[词库] ｜ [党卫军装甲]×12[词库]
+        [党卫军 装甲]               ← II/1/LSSAH/[SS Pz]; I/1/LSSAH/[SS Pz]; III/1/LSSAH/[SS Pz]
+        [党卫军装甲]                ← I/1/KG Meyer/[SS Pz]; StuG Bn/LSSAH/[SS Pz]; Aufk. Bn/KG Meyer/[SS Pz]
+  9 ID                               共 24 处 ⚠️真冲突 → 第9步兵师×22[词库/人工] ｜ 9步兵师×2[词库]
+        第9步兵师                  ← 15 R/9 ID/II Corps/I Army; 39 R/9 ID/II Corps/I Army; 49 R/9 ID/II Corps/I Army
+        9步兵师                   ← 2/7/9 ID/[XXX]; 2/8/9 ID/[XXX]
+  1 Army Free                        共 22 处 ⚠️真冲突 → 第1自由集团军×12[词库] ｜ 自由法国第1集团军×10[词库]
+        第1自由集团军                ← 1 Br/1 ID/1 Army Free; 2 Br/1 ID/1 Army Free; 4 Br/1 ID/1 Army Free
+        自由法国第1集团军              ← 6 R/2 ID Marroco/1 Army Free; 63 R/2 ID Marroco/1 Army Free; 7 R/3 ID Algeria/1 Army Free
+  Das Reich                          共 21 处 ⚠️真冲突 → 达斯帝国师×19[词库] ｜ 帝国师×2[词库]
+        达斯帝国师                  ← I/2-SS/Das Reich; 2/-/Das Reich; II/2-SS/Das Reich
+        帝国师                    ← 2-SS-Auf./-/Das Reich; 2-SS-StuG/-/Das Reich
+  1 Arm                              共 19 处 ⚠️真冲突 → 第1装甲师×18[词库] ｜ 1装甲师×1[词库]
+        第1装甲师                  ← 2 R/1 Arm; 141 R/1 Arm; 1 R/1 Arm
+        1装甲师                   ← /1 Arm/[XXX]
+  1 Br                               共 19 处 ⚠️真冲突 → 第1旅×12[词库/人工] ｜ 1 Br×6[词库] ｜ 1 旅×1[人工]
+        第1旅                    ← 1 Br/6 Arm D/V; 1 Br/50 ID/XIII/VIII; 1 Br/1 Arm D/X/VIII
+        1 Br                   ← 1 Br/1 ID/1 Army Free; 1 Br/36 ID/V Army; 1 Br/2 Indian ID
+        1 旅                    ← 1 Br/1 AirD
+  9 Aust.                            共 19 处 ⚠️真冲突 → 第9 Aust.×8[词库] ｜ 第9澳大利亚师×6[词库] ｜ 第9Aust.×4[词库] ｜ 第9澳大利亚×1[词库]
+        第9 Aust.               ← 25 Bde/9 Aust./[XIII]; 2/7 R/9 Aust./[XIII]; 2/8 R/9 Aust./[XIII]
+        第9澳大利亚师                ← 2/12 R/9 Aust./[XIII]; 2/3 AT/9 Aust./[XIII]; 2/3 MG/9 Aust./[XIII]
+        第9Aust.                ← 26 Bde/9 Aust./[XIII]; 27 Bde/9 Aust./[XIII]; 26 Bde/9 Aust./[XXX]
+        第9澳大利亚                 ← 9/9 Aust./[XIII]
+  4 Bde                              共 17 处 ⚠️真冲突 → 第4旅×16[词库] ｜ 4旅×1[词库]
+        第4旅                    ← 4 Bde/1 SA/[XXX]; 4 Bde/2 NZ/[XXX]; 4 RTR/4 Bde/7 Arm/[XIII]
+        4旅                     ← 1/4 Bde/7 Arm Div/[XXX]
+  90 LD                              共 16 处 ⚠️真冲突 → 第90轻装师×7[词库] ｜ 第90LD×4[词库] ｜ 90 LD×4[词库] ｜ 第90LD师×1[词库]
+        第90轻装师                 ← 361 R/90 LD/[DAK]; 190 AR/90 LD/[DAK]; 200 R/90 LD/[DAK]
+        第90LD                  ← 155 R/90 LD/[DAK]; 260 R/90 LD/[DAK]; Pzjgr/90 LD/[DAK]
+        90 LD                  ← Sverband 288/90 LD/[DAK]; Sonderverband 288/90 LD/[DAK]; Sonderv.288/90 LD/[DAK]
+        第90LD师                 ← AR 190/90 LD/[DAK]
+  I Army                             共 15 处 ⚠️真冲突 → 第1集团军×13[词库] ｜ 第I集团军×2[词库]
+        第1集团军                  ← 15 R/9 ID/II Corps/I Army; 16 R/1 ID/II Corps/I Army; 18 R/1 ID/II Corps/I Army
+        第I集团军                  ← 1 R/1 ID/II Corps/I Army; 1 B/1 ID/II Corps/I Army
+  II Corps                           共 15 处 ⚠️真冲突 → 第2军×13[词库] ｜ 第II军×2[词库]
+        第2军                    ← 15 R/9 ID/II Corps/I Army; 16 R/1 ID/II Corps/I Army; 18 R/1 ID/II Corps/I Army
+        第II军                   ← 1 R/1 ID/II Corps/I Army; 1 B/1 ID/II Corps/I Army
+  1 SA                               共 14 处 ⚠️真冲突 → 第1南非×7[词库] ｜ 第1SA×3[词库] ｜ 第1南非师×3[词库] ｜ 南非第1师×1[人工]
+        第1南非                   ← 3 Bde/1 SA/[XXX]; 1 Bde/1 SA/[XXX]; 3 Recce/1 SA/[XXX]
+        第1SA                   ← 4 Bde/1 SA/[XXX]; 5 Bde/1 SA/[XXX]; 2 Bde/1 SA/[XXX]
+        第1南非师                  ← 8 RTR/1 SA/[XXX]; 4 AR/1 SA/[XXX]; 7 AR/1 SA/[XXX]
+        南非第1师                  ← 1/1 SA
+  5 LD                               共 14 处 ⚠️真冲突 → 第5轻装师×12[词库/人工] ｜ 第5LD×1[词库] ｜ 5轻装师×1[词库]
+        第5轻装师                  ← 33 Pzjgr/5 LD/[DAK]; 36 Pzjgr/5 LD/[DAK]; 39 Pio/5 LD/[DAK]
+        第5LD                   ← 5 Pz R/5 LD/[DAK]
+        5轻装师                   ← I/75 AR/5 LD/[DAK]
+  4 Br                               共 12 处 ⚠️真冲突 → 第4旅×10[人工/词库] ｜ 4 Br×1[词库] ｜ 4 旅×1[人工]
+        第4旅                    ← 4 Br/2 ID NZ; 4 Br/1 ID/1 Army Free; 4 Br/7 Arm/XIII/VIII
+        4 Br                   ← 1 R/4 Br/Habforce/Arab Legion
+        4 旅                    ← 4 Br/1 AirD
+  8 R                                共 12 处 ⚠️真冲突 → 第8团×11[词库/人工] ｜ 8团×1[词库]
+        第8团                    ← 8 R/KG/DAK; 8 R/132 Ariete/[XX]; 8 R/6 ID/RAA/WDD
+        8团                     ← 2/8 R/9 Aust./[XIII]
+  1 SA Div                           共 11 处 ⚠️真冲突 → 第1南非师×8[词库] ｜ 第1SA师×3[词库]
+        第1南非师                  ← 1 Bde/1 SA Div/[XXX]; 3 Bde/1 SA Div/[XXX]; 3 Recce/1 SA Div/[XXX]
+        第1SA师                  ← 2 Bde/1 SA Div/[XXX]; 4 Bde/1 SA Div/[XXX]; 5 Bde/1 SA Div/[XXX]
+  12 R                               共 11 处 ⚠️真冲突 → 第12团×10[词库/人工] ｜ 12团×1[词库]
+        第12团                   ← 12 R/133 Littorio/[XX]; 12 R/7 SG/RAA/WDD; 12 R/4 Fj D
+        12团                    ← 2/12 R/9 Aust./[XIII]
+  2 Indian ID                        共 10 处 ⚠️真冲突 → 第2印度步兵师×8[词库] ｜ 2 Indian 步兵师×1[词库] ｜ 第2印度师×1[词库]
+        第2印度步兵师                ← 1 Br/2 Indian ID; 2 Br/2 Indian ID; 3 Br/2 Indian ID
+        2 Indian 步兵师           ← at B/2 Indian ID
+        第2印度师                  ← RTR/2 Indian ID
+  V Army                             共 10 处 ⚠️真冲突 → 第5集团军×8[词库] ｜ 第V集团军×2[词库]
+        第5集团军                  ← 2 Br/36 ID/V Army; 3 Br/36 ID/V Army; AR/36 ID/V Army
+        第V集团军                  ← 1 RTR/36 ID/V Army; 1 Br/36 ID/V Army
+  2 African D                        共 9 处 ⚠️真冲突 → 第2非洲师×6[词库] ｜ 第2南非师×3[词库]
+        第2非洲师                  ← 22 B/2 African D; 1 Br/2 African D; 24 Br/2 African D
+        第2南非师                  ← 51 R/2 African D; 52 R/2 African D; 54 R/2 African D
+  - [A Corps]                        共 8 处 ⚠️真冲突 → - [ 军]×7[词库] ｜ - [A军]×1[词库]
+        - [ 军]                 ← I/Heavy/- [A Corps]; II/Heavy/- [A Corps]; III/Heavy/- [A Corps]
+        - [A军]                 ← Eng/-/- [A Corps]
+  7 R                                共 8 处 ⚠️真冲突 → 第7团×7[人工/词库] ｜ 7团×1[词库]
+        第7团                    ← 7 R/3 ID; 7 R/3 ID Algeria/1 Army Free; 7 R/KAR
+        7团                     ← 2/7 R/9 Aust./[XIII]
+  1 African D                        共 7 处 ⚠️真冲突 → 第1非洲师×4[词库] ｜ 第1南非师×3[词库]
+        第1非洲师                  ← 23 Br/1 African D; 21 Br/1 African D; 1 R/1 African D
+        第1南非师                  ← 52 B/1 African D; 51 R/1 African D; 53 R/1 African D
+  102 Trento                         共 7 处 ⚠️真冲突 → 第102特伦托师×4[词库] ｜ 第102特伦托×3[词库]
+        第102特伦托师               ← 61 R/102 Trento/[XXI]; 62 R/102 Trento/[XXI]; 61 AR/102 Trento/[XXI]
+        第102特伦托                ← 46 AR/102 Trento/[XXI]; 9 R/102 Trento/[XXI]; 9/102 Trento/[XXI]
+  2 SA Div                           共 7 处 ⚠️真冲突 → 第2南非师×6[词库] ｜ 第2SA师×1[词库]
+        第2南非师                  ← 1 R/5 Bde/2 SA Div/[XIII]; 3 R/5 Bde/2 SA Div/[XIII]; 1 AT Bde/2 SA Div/[XIII]
+        第2SA师                  ← 2 R/5 Bde/2 SA Div/[XIII]
+  4 Ind                              共 7 处 ⚠️真冲突 → 第4印度×3[词库] ｜ 第4印度师×3[词库] ｜ 第4独立×1[词库]
+        第4印度                   ← 11 Bde/4 Ind/[XXX]; 5 Bde/4 Ind/[XXX]; 25 AR/4 Ind/[XXX]
+        第4印度师                  ← 7 Bde/4 Ind/[XXX]; 31 AR/4 Ind/[XXX]; 68 Med.AR/4 Ind/[XXX]
+        第4独立                   ← 1 AR/4 Ind/[XXX]
+  4 Ind D.                           共 7 处 ⚠️真冲突 → 第4印度师×6[词库] ｜ 第4独立师×1[词库]
+        第4印度师                  ← 11 Bde/4 Ind D./[XXX]; 5 Bde/4 Ind D./[XXX]; 7 Bde/4 Ind D./[XXX]
+        第4独立师                  ← 1 AR/4 Ind D./[XXX]
+  4 Indian.                          共 7 处 ⚠️真冲突 → 第4印度师×5[词库] ｜ 第4印度×2[词库]
+        第4印度师                  ← 7  Bde/4 Indian./[XXX]; 1 AR/4 Indian./[XXX]; 25 AR/4 Indian./[XXX]
+        第4印度                   ← 11 Bde/4 Indian./[XXX]; 5 Bde/4 Indian./[XXX]
+  7 Arm D                            共 7 处 ⚠️真冲突 → 第7装甲师×6[词库] ｜ 7装甲师×1[词库]
+        第7装甲师                  ← 1 RTR/7 Bde/7 Arm D/[XIII]; 2 RTR/4 Bde/7 Arm D/[XIII]; 7 H/4 Bde/7 Arm D/[XIII]
+        7装甲师                   ← 2/7/7 Arm D/[XIII]
+  StG1                               共 7 处 ⚠️真冲突 → 第1俯冲轰炸机联队×6[词库/人工] ｜ 俯冲轰炸机联队1×1[词库]
+        第1俯冲轰炸机联队              ← II/StG1; II./StG1; StG1/VIII F.Korps/[L3]
+        俯冲轰炸机联队1               ← I./StG1
+  132 Ariete                         共 6 处 ⚠️真冲突 → 第132公羊×4[词库] ｜ 第132公羊师×2[词库]
+        第132公羊                 ← 32 R/132 Ariete/[XX]; 132 AR/132 Ariete/[XX]; 132 R/132 Ariete/[XX]
+        第132公羊师                ← 8 R/132 Ariete/[XX]; 8/132 Ariete/[XX]
+  4 Ind D                            共 6 处 ⚠️真冲突 → 第4印度师×5[词库] ｜ 第4独立师×1[词库]
+        第4印度师                  ← 11 Bde/4 Ind D/[XXX]; 5 Bde/4 Ind D/[XXX]; 7 Bde/4 Ind D/[XXX]
+        第4独立师                  ← 1 AR/4 Ind D/[XXX]
+  Carpathian Rifle Brigade           共 6 处 ⚠️真冲突 → 喀尔巴阡步枪旅×5[词库] ｜ Carpathian Rifle Brigade×1[词库]
+        喀尔巴阡步枪旅                ← Carpathian Rifle Brigade/ Polish; Eng/Carpathian Rifle Brigade/ Polish; Lancers/Carpathian Rifle Brigade/ Polish
+        Carpathian Rifle Briga ← HMS B/Carpathian Rifle Brigade/ Polish
+  Polish                             共 6 处 ⚠️真冲突 → 波兰×5[词库] ｜ Polish×1[词库]
+        波兰                     ← Carpathian Rifle Brigade/ Polish; Eng/Carpathian Rifle Brigade/ Polish; Lancers/Carpathian Rifle Brigade/ Polish
+        Polish                 ← HMS B/Carpathian Rifle Brigade/ Polish
+  Raemcke Bde.                       共 6 处 ⚠️真冲突 → 雷姆克旅×4[词库] ｜ 第拉姆克旅×2[词库]
+        雷姆克旅                   ← 5 R/Raemcke Bde./[DAK]; Raemcke Bde./[DAK]; Burkhardt/Raemcke Bde./[DAK]
+        第拉姆克旅                  ← Huebner/Raemcke Bde./[DAK]; Heyte/Raemcke Bde./[DAK]
+  101 Trieste                        共 5 处 ⚠️真冲突 → 第101的里雅斯特×3[词库] ｜ 第101的里雅斯特师×2[词库]
+        第101的里雅斯特              ← 21 AR/101 Trieste/[XX]; 9 R/101 Trieste/[XX]; 9/101 Trieste/[XX]
+        第101的里雅斯特师             ← 65 R/101 Trieste/[XX]; 66 R/101 Trieste/[XX]
+  164 LD                             共 5 处 ⚠️真冲突 → 164 LD×3[词库] ｜ 第164LD×1[词库] ｜ 第164Li×1[词库]
+        164 LD                 ← Sverband/164 LD/[DAK]; StuIG K/164 LD/[DAK]; AR/164 LD/[DAK]
+        第164LD                 ← R/164 LD/[DAK]
+        第164Li                 ← Pio/164 LD/[DAK]
+  168 R                              共 5 处 ⚠️真冲突 → 第168团×4[人工/词库] ｜ 168团×1[词库]
+        第168团                  ← 168 R/34 ID; 1 B/168 R/1 Inf; 168 R/1 ID
+        168团                   ← 2 B/168 R/1 Inf
+  101Trieste                         共 4 处 ⚠️真冲突 → 第101的里雅斯特×2[词库] ｜ 第101的里雅斯特师×2[词库]
+        第101的里雅斯特              ← 9 R/101Trieste/[XX]; 21 AR/101Trieste/[XX]
+        第101的里雅斯特师             ← 66 R/101Trieste/[XX]; 65 R/101Trieste/[XX]
+  27 Brescia                         共 4 处 ⚠️真冲突 → 第27布雷西亚×3[词库] ｜ 第27布雷西亚师×1[词库]
+        第27布雷西亚                ← 20 R/27 Brescia/[X]; 19 R/27 Brescia/[X]; 205 AR/27 Brescia/[X]
+        第27布雷西亚师               ← 55 AR/27 Brescia/[X]
+  Saharian Grouping                  共 4 处 ⚠️真冲突 → 撒哈拉集群×3[词库] ｜ 撒哈拉战斗群×1[词库]
+        撒哈拉集群                  ← 350 R/Saharian Grouping; Novara B/Saharian Grouping; atB/Saharian Grouping
+        撒哈拉战斗群                 ← 290 R/Saharian Grouping
+  17SS                               共 3 处 ⚠️真冲突 → 17SS×2[词库] ｜ 第17党卫军×1[词库]
+        17SS                   ← 37/17SS; 38/17SS
+        第17党卫军                 ← 17/17SS
+  185 Folgore                        共 3 处 ⚠️真冲突 → 第185福尔戈雷×2[词库] ｜ 第185“闪电”师×1[词库]
+        第185福尔戈雷               ← 186 R/185 Folgore/[X]; 187 R/185 Folgore/[X]
+        第185“闪电”师              ← AR 185/185 Folgore/[X]
+  2 155 R                            共 3 处 ⚠️真冲突 → 2 第155团×2[词库] ｜ 2 155团×1[词库]
+        2 第155团                ← 1/2 155 R/21 Pz; 1/2 155 R/21Pz
+        2 155团                 ← 2/2 155 R/21Pz
+  55 Savona                          共 3 处 ⚠️真冲突 → 第55萨沃纳师×2[词库] ｜ 第55萨沃纳×1[词库]
+        第55萨沃纳师                ← 15 R/55 Savona/[DAK]; 16 R/55 Savona/[DAK]
+        第55萨沃纳                 ← 12 R/55 Savona/[DAK]
+  7 SG                               共 3 处 ⚠️真冲突 → 第7SG×2[词库] ｜ 第7 SG×1[词库]
+        第7SG                   ← 2 B/7 SG/RAA/WDD; 18 R/7 SG/RAA/WDD
+        第7 SG                  ← 12 R/7 SG/RAA/WDD
+  DR [2SS]                           共 3 处 ⚠️真冲突 → 帝国师 [2SS]×2[词库] ｜ 帝国 [第2党卫军]×1[词库]
+        帝国师 [2SS]              ← 2/DR [2SS]; DF/DR [2SS]
+        帝国 [第2党卫军]             ← D/DR [2SS]
+  Imperiali D                        共 3 处 ⚠️真冲突 → 因佩里亚利师×2[词库] ｜ 帝国师×1[词库]
+        因佩里亚利师                 ← 3 G/Imperiali D/XXX/V; 15 B/Imperiali D/XXX/V
+        帝国师                    ← 6 R/Imperiali D/XXX/V
+  JG26 [JFF2] LF2                    共 3 处 ⚠️真冲突 → 第26战斗机联队 [JFF2] LF2×2[词库] ｜ 第26战斗机联队 [JFF2] 第2航空队×1[词库]
+        第26战斗机联队 [JFF2] LF2    ← II/JG26 [JFF2] LF2; I/JG26 [JFF2] LF2
+        第26战斗机联队 [JFF2] 第2航空队  ← III/JG26 [JFF2] LF2
+  JG51 [II] LF2                      共 3 处 ⚠️真冲突 → 战斗机联队第51 [II] LF2×2[词库] ｜ 第51战斗机联队 [II] LF2×1[词库]
+        战斗机联队第51 [II] LF2      ← II/JG51 [II] LF2; III/JG51 [II] LF2
+        第51战斗机联队 [II] LF2      ← I/JG51 [II] LF2
+  Trento D                           共 3 处 ⚠️真冲突 → 第102特伦托师×2[词库] ｜ 特伦托师×1[词库]
+        第102特伦托师               ← 62 R/Trento D/XXI; 46 R/Trento D/XXI
+        特伦托师                   ← 61 R/Trento D/XXI
+  2 90 R                             共 2 处 ⚠️真冲突 → 2 第90团×1[词库] ｜ 2 90团×1[词库]
+        2 第90团                 ← 1/2 90 R/10 Pz
+        2 90团                  ← 2/2 90 R/10 Pz
+  7 Mot Bde                          共 2 处 ⚠️真冲突 → 第7摩托化旅×1[词库] ｜ 7摩托化旅×1[词库]
+        第7摩托化旅                 ← 9/7 Mot Bde/7 Arm Div/[XXX]
+        7摩托化旅                  ← 2/7 Mot Bde/7 Arm Div/[XXX]
+  8 FR                               共 2 处 ⚠️真冲突 → 8 FR×1[词库] ｜ 第8 FR×1[词库]
+        8 FR                   ← 2/8 FR/9 Aust./[XXX]
+        第8 FR                  ← 8 FR/22 Guards Inf.Bde.
+  GD [48]                            共 2 处 ⚠️真冲突 → GD [48]×1[词库] ｜ 大德意志 [48]×1[词库]
+        GD [48]                ← GD/GD [48]
+        大德意志 [48]              ← 3/GD/GD [48]
+  Giov.Fasc D                        共 2 处 ⚠️真冲突 → 法西斯青年师×1[词库] ｜ 青年法西斯师×1[词库]
+        法西斯青年师                 ← 136 R/Giov.Fasc D/XX/I
+        青年法西斯师                 ← 8 R/Giov.Fasc D/XX/I
+  LAH [2SS]                          共 2 处 ⚠️真冲突 → 希特勒警卫旗队 [2SS]×1[词库] ｜ 警卫旗队 [2SS]×1[词库]
+        希特勒警卫旗队 [2SS]          ← 1/LAH [2SS]
+        警卫旗队 [2SS]             ← 2/LAH [2SS]
+  ZG1 [JFF2] LF2                     共 2 处 ⚠️真冲突 → 第1驱逐机联队 [JFF2] LF2×1[词库] ｜ 第1驱逐机联队 [JFF2] 第2航空队×1[词库]
+        第1驱逐机联队 [JFF2] LF2     ← II/ZG1 [JFF2] LF2
+        第1驱逐机联队 [JFF2] 第2航空队   ← I/ZG1 [JFF2] LF2
+
+【ww2-eqp-map】段位可对齐行 127 · 对齐失败(段数不等) 26 · 同词异译段 0 组（其中**词库真冲突 0 组**）
+
+【WW2NAME-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组**）
+
+【WW2Misc-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组**）
+
+【WW2Gui-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组**）
+
+【WW2Tips-map】段位可对齐行 0 · 对齐失败(段数不等) 0 · 同词异译段 0 组（其中**词库真冲突 0 组**）

@@ -1,0 +1,326 @@
+# Das Reich\PeGWW2 DR Campaign Install.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+2547	Das Reich campaign 1.0 (	《帝国师》战役 1.0（
+2612	Robert Mary	Robert Mary
+2669	info@pegww2.net	info@pegww2.net
+2715	This is the PeG-WW2 conversion of the	这是 PeG-WW2 移植版的
+2717	Das Reich	帝国师
+2719	German campaign originally designed for PG2 by Wonderdoc.	德军战役，原由 Wonderdoc 为 PG2 设计。
+2736	A. How to install ?	A. 如何安装？
+2763	This package contains :	本压缩包包含：
+2821	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	场景与战役文件（*.scen、*.txt、*.cam）：将
+2836	DR_v1.zip	DR_v1.zip
+2848	in the	中包含的全部文件解压到
+2862	SCENARIO	SCENARIO
+2873	directory of PeG WWII.	目录，即 PeG WWII 的目录。
+2953	Original campaign for PG2 design notes (with campaign flow) of J. Gabitto are included in the	J. Gabitto 的 PG2 原版战役设计说明（含战役流程）包含在
+2967	Readme.zip	Readme.zip
+3002	The	该
+3015	Readme.zip	Readme.zip
+3027	also includes my	还包含我的
+3039	Excel file	Excel 文件，
+3050	showing campaign flow, map numbers, name of maps used and alternative campaign paths.	其中列出战役流程、地图编号、所用地图的名称以及备选战役路线。
+3130	The maps	地图
+3168	*.map files are included in the	*.map 文件包含在
+3182	Maps.zip	Maps.zip
+3194	, place them in the	中，请将它们放入
+3208	SCENARIO	SCENARIO
+3219	directory of PeG WWII	目录，即 PeG WWII 的目录
+3223	PG2 maps (in SHP format) can be found on builder	PG2 地图（SHP 格式）可在 Builder's
+3225	s paradise website :	 Paradise 网站上找到：
+3276	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+3300	Important note :	重要提示：
+3312	Map # 333	地图 #333
+3323	North Crimea	北克里米亚(North Crimea)
+3339	should not be downloaded at Builder	不应从 Builder's
+3341	s paradise website because its *.SHP files have bugs, please download it at Steve Brown Website (within Builder	 Paradise 网站下载，因为它的 *.SHP 文件有错误，请到 Steve Brown 网站下载（在 Builder's
+3343	s paradise you will find a direct link towards Steve PG2 website).	 Paradise 网站内可以找到指向 Steve PG2 网站的直链）。
+3347	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 地图文件可以用我自己网站上的转换工具从 SHP 格式转换为 S16 格式：
+3396	http://www.pe	http://www.pe
+3410	ww2.net	ww2.net
+3479	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeGWW2.	转换后的地图（*.S16 格式）应放入 PeGWW2 的 MAP 目录。
+3551	The movie	影片
+3562	(not mandatory)	（非必需）
+3617	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	PG2 有一些 *.SMK 文件，它们会在场景开始前播放，以增加游戏时的沉浸感。它们可以转换为 PeG-WW2 所使用的 AVI 格式。
+3619	You can find more SMK files	更多 SMK 文件可在
+3621	there:	此处找到：
+3665	http://ww	http://ww
+3693	tahlhel	tahlhel
+3707	.prv.pl/	.prv.pl/
+3749	or here:	或在此处：
+3795	http://www.medio.mh.se/%7Evonadler/pg2/	http://www.medio.mh.se/%7Evonadler/pg2/
+3873	In order to convert SMK files into AVI format, follow the instructions on my website:	要把 SMK 文件转换为 AVI 格式，请按我网站上的说明操作：
+3922	http://www.pegww2	http://www.pegww2
+3936	net	net
+3996	They must be placed into the	它们必须放入
+4008	CINE	CINE
+4017	folder of PeG-WW2.	文件夹，即 PeG-WW2 的文件夹。
+4021	I have converted the following files:	我已转换以下文件：
+4101	FAS5.smk	FAS5.smk
+4231	FAS6.smk	FAS6.smk
+4361	FAS9.smk	FAS9.smk
+4491	FAS10.smk	FAS10.smk
+4621	FAS11.smk	FAS11.smk
+4751	FAS12.smk	FAS12.smk
+4881	FAS13.avi	FAS13.avi
+5011	FAS14.avi	FAS14.avi
+5141	FAS15.smk	FAS15.smk
+5271	FAS16.smk	FAS16.smk
+5401	001.smk	001.smk
+5531	003.smk	003.smk
+5661	005.smk	005.smk
+5791	007.smk	007.smk
+5921	008.smk	008.smk
+6051	010.smk	010.smk
+6181	012.smk	012.smk
+6311	013.smk	013.smk
+6441	014.smk	014.smk
+6571	017.smk	017.smk
+6701	018.smk	018.smk
+6831	020.smk	020.smk
+6961	021.smk	021.smk
+7091	023.smk	023.smk
+7221	024.smk	024.smk
+7351	027.smk	027.smk
+7481	034.smk	034.smk
+7611	035.smk	035.smk
+7741	037.smk	037.smk
+7871	086.smk	086.smk
+8001	Kursk.smk	Kursk.smk
+8193	The WAV files	WAV 文件
+8205	(not mandatory)	（非必需）
+8312	Speeches	语音
+8377	Sounds into MUS format have been converted into WAV Mono 8 bits format via the Goldwave software available here:	MUS 格式的音效已通过 Goldwave 软件转换为 WAV 单声道 8 位格式，该软件可在此获取：
+8456	http://www.download.com/GoldWave/3000-2170_4-10001099.html	http://www.download.com/GoldWave/3000-2170_4-10001099.html
+8505	Sound files are the following (most of them from the game Panzer General 1):	音效文件如下（大多来自游戏 Panzer General 1）：
+8534	GE04l	GE04l
+8536	GE05BV	GE05BV
+8538	GE05V	GE05V
+8540	GE06MV	GE06MV
+8542	GE06L	GE06L
+8544	PANZ0003	PANZ0003
+8546	PANZ0016	PANZ0016
+8548	PANZ0013	PANZ0013
+8550	PANZ0015	PANZ0015
+8552	PANZ0018	PANZ0018
+8554	PANZ0016	PANZ0016
+8556	PANZ0094	PANZ0094
+8558	PANZ0095	PANZ0095
+8560	PANZ0100	PANZ0100
+8562	PANZ0102	PANZ0102
+8564	PANZ0103	PANZ0103
+8566	PANZ0101	PANZ0101
+8568	PANZ0104	PANZ0104
+8570	PANZ0015	PANZ0015
+8572	PANZ0105	PANZ0105
+8574	PANZ0106	PANZ0106
+8576	PANZ0107	PANZ0107
+8578	PANZ0108	PANZ0108
+8580	GE59V	GE59V
+8582	PANZ0112	PANZ0112
+8584	GE51L	GE51L
+8586	GE61L	GE61L
+8588	PANZ0122	PANZ0122
+8590	PANZ0127	PANZ0127
+8592	PANZ0128	PANZ0128
+8594	PANZ0129	PANZ0129
+8596	PANZ0130	PANZ0130
+8598	PANZ0131	PANZ0131
+8600	PANZ0134	PANZ0134
+8602	PANZ0137	PANZ0137
+8604	PANZ0066	PANZ0066
+8606	PANZ0067	PANZ0067
+8608	PANZ0068	PANZ0068
+8610	PANZ0083	PANZ0083
+8612	PANZ0081	PANZ0081
+8614	PANZ0077	PANZ0077
+8616	PANZ0079	PANZ0079
+8618	DTR17BV	DTR17BV
+8634	PANZ0146	PANZ0146
+8636	DTR12L	DTR12L
+8648	DTR18V	DTR18V
+8650	DTR19L	DTR19L
+8654	Converted WAV files are available on my website here:	转换后的 WAV 文件可在我网站上的此处获取：
+8706	http://www.pegww2.net/Music/DR_wavs.rar	http://www.pegww2.net/Music/DR_wavs.rar
+8739	They must be placed into the	它们必须放入
+8752	WAVS	WAVS
+8762	folder of PeG-WW2.	文件夹，即 PeG-WW2 的文件夹。
+8847	Game Music	游戏音乐
+8895	German music file while playing the game is available here:	游戏进行时播放的德军音乐文件可在此获取：
+8983	http://users.skynet.be/rmypegww7/Music/German_Music.rar	http://users.skynet.be/rmypegww7/Music/German_Music.rar
+9040	They must be placed into the	它们必须放入
+9053	WAVS	WAVS
+9064	folder of PeG-WW2.	文件夹，即 PeG-WW2 的文件夹。
+9118	B. Using the modgen.dat and the equipment file	B. 使用 modgen.dat 与装备文件
+9207	The equipment file :	装备文件：
+9275	My European E-file v1.02d is mandatory.	我的欧洲装备文件 v1.02d 是必需的。
+9344	The equipment file is available at my own website :	装备文件可在我的网站上获取：
+9393	http://www.pegww2.net	http://www.pegww2.net
+9447	Unzip "	将“
+9461	RMY_PeGWW2_European_1_02	RMY_PeGWW2_European_1_02
+9487	.zip	.zip
+9498	" in the Main directory of PeG WWII.	”解压到 PeG WWII 的主目录。
+9566	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	我的装备文件与 Mark Kirby 的装备文件结构相同（
+9579	Mark	Mark
+9581	s units are unchanged	 的单位未作改动
+9592	excepted icons). I only added new units.	，图标除外）。我只添加了新单位。
+9596	My equipment file is intended for use with Redball	我的装备文件用于配合 Redball
+9598	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	 的 PeG-WW2 2.7 包，因此文件名已重命名，下载后可直接使用（Equip97.txt 现为
+9610	WW2-eqp.txt	WW2-eqp.txt
+9622	, Equip97.eqp became	，Equip97.eqp 现为
+9634	WW2-eqp.eqp	WW2-eqp.eqp
+9649	Files.txt contains a list of all icons I used, it	Files.txt 包含我使用过的所有图标的清单，
+9651	s necessary to use it unless you have a huge modgen.dat (far bigger than mine) with all possible icons existing so far.	有必要使用它，除非你有一个很大的 modgen.dat（比我的大得多），里面有目前已有的所有图标。
+9759	The modgen.dat (intentionally not included in order to save space)	modgen.dat（为节省空间有意未包含）
+9827	Try first to use the DAT file already delivered with the game installer programme. Only if some icons are missing then download from my website the latest version of the DAT file.	请先尝试使用游戏安装程序已附带的 DAT 文件。只有当缺少某些图标时，才从我网站下载最新版本的 DAT 文件。
+9829	My modgen.dat is mandatory, it includes all icons existing so far.	我的 modgen.dat 是必需的，它包含目前已有的所有图标。
+9833	You can	你可以
+9845	download	下载
+9856	the file at :	该文件，地址：
+9904	http://www.pegww2.net	http://www.pegww2.net
+9926	Unzip "	将“
+9939	WW2GEN.RAR	WW2GEN.RAR
+9950	" in the Main directory of PeG WWII. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	”解压到 PeG WWII 的主目录。这个 modgen——有意重命名为 WW2GEN.dat——可与 Redball
+9952	s PeG-WW2 2.7 package.	 的 PeG-WW2 2.7 包配合使用。
+9954	All required S16 files contained in Redball	Redball
+9956	s update are already included in WW2GEN.dat which is immediately ready for use.	 的更新中包含的所有必需 S16 文件都已包含在 WW2GEN.dat 中，可立即使用。
+10066	Peoples.exe file (User-made gamesets)	Peoples.exe 文件（玩家自制游戏集）
+10128	Please use the	请使用
+10130	all purpose	通用型的
+10132	German Western Front Gameset	德军西线游戏集
+10145	Germany_West.zip	Germany_West.zip
+10155	you can find here:	可在此找到：
+10201	http://w	http://w
+10215	w.pegww2.net	w.pegww2.net
+10236	It refers to the German medalset, the Standard leaderset and the Western Front flagset (already stored in the WW2GEN.DAT file).	它对应德军勋章集、标准指挥官集与西线旗帜集（已存储在 WW2GEN.DAT 文件中）。
+10240	Since most of scenarios take place on the Eastern Front (5 scenarios on a total of 11) and if seeing red stars on Western Allied unit leaders does not bother you, you might also consider using the German Eastern Front Gameset	由于大多数场景发生在东线（11 个场景中有 5 个），并且如果你不介意西方盟军单位的指挥官上出现红星，也可以考虑使用德军东线游戏集
+10254	Germany_East.zip	Germany_East.zip
+10330	Note that you could also use the German Western Front gameset but the Eastern Front gameset has an improved Romanian Flag and keeps the	注意，你也可以使用德军西线游戏集，但东线游戏集的罗马尼亚国旗经过改进，并保留了
+10341	US	US
+10347	and British flags used by Allied units in	与英国国旗，它们是盟军单位在
+10358	Ploesti	普洛耶什蒂
+10364	scenario.	场景中使用的。
+10386	you can find here:	可在此找到：
+10432	http://www.pegww2.net	http://www.pegww2.net
+10452	It refers to the German medalset, the Soviet leaderset and the Eastern Front flagset (already stored in the WW2GEN.DAT file).	它对应德军勋章集、苏联指挥官集与东线旗帜集（已存储在 WW2GEN.DAT 文件中）。
+10456	Both user-made gamesets are based on the following basic gameset : Redball	两个玩家自制游戏集都基于以下基础游戏集：Redball
+10458	s PeG-WW2 2.7 package. The basic gameset contains the most advanced game improvements for PeG-WW2 (see Redball	 的 PeG-WW2 2.7 包。基础游戏集包含 PeG-WW2 最先进的游戏改进（参见 Redball
+10460	s readme file included in PeG-WW2 2.7 package).	 的说明文件，包含在 PeG-WW2 2.7 包中）。
+10545	C. Comments	C. 说明
+10646	Minor changes brought to Wonderdoc	对 Wonderdoc
+10648	s campaign	 战役所作的小幅改动
+10734	Since the way to handle pr estige is different in PG2 and in PeG I added some trigger hexes to allow the player to gather only a few prestige points he must spend before the end of a scenario. This will allow him to purchase max one new unit to replace a killed unit.	由于 PG2 与 PeG 处理威望的方式不同，我添加了一些触发格，让玩家只能积攒少量威望点，并且必须在场景结束前花掉。这样他最多只能购买一个新单位来替换被消灭的单位。
+10763	I altered som e defensive scenarios otherwise they would have been lost very quickly due to PeG engine (conquest by AI of any VH you owned at the beginning of a scenario means immediate scenario loss), as a result victory conditions are based on the number of hexes (an d not the number of turns) the player captures (the VH	我改动了一些防御型场景，否则由于 PeG 引擎的原因，它们会很快失败（AI 占领你在场景开始时拥有的任何一个胜利格，都意味着立即场景失败），因此胜利条件改为基于玩家占领的格数（而不是回合数）（胜利格
+10765	s you owned at the beginning of the scenario are not counted in the calculation).	——你在场景开始时拥有的——不计入计算）。
+10794	I corrected one scenario (	我更正了一个场景（
+10796	the fourth Battle of Kharkov	第四次哈尔科夫(Kharkov)战役
+10798	: I set a Soviet unit as a reinforcement unit at turn nr 12 like mentioned in the scenario introduction text file, the original scenario has this unit already deployed at the beginning of the scenario).	：我按照场景介绍文本文件所述，把一支苏联单位设为第 12 回合到达的补充单位，而原场景中该单位在场景开始时就已经部署）。
+10840	I altered campaign path forcing the player to play now two more scenarios	我改动了战役路线，迫使玩家现在多打两个场景
+10856	Smolensk-Drive to Yelnya	斯摩棱斯克—向叶利尼亚推进
+10872	and	和
+10908	Kiev	基辅
+10919	encirclement-Romny	包围-罗姆内(Romny)
+10948	They will	当通向它们的场景取得 BV、V 或 TV 时，它们会被
+10963	be played	玩到
+10977	with scenarios leading normally to them in case of BV, V or TV, they will not be played in case of loss of such scenarios.	；如果这类场景失败，则不会被玩到。
+11063	Playing tips	游玩提示
+11149	You have enough AUX units to win, just purchase a few infantry (preferably	你有足够的辅助单位取胜，只需购买几支步兵（最好是
+11166	engineers	工兵
+11180	to destroy bunker arty units) and min four	，用来摧毁地堡中的炮兵单位），以及至少四支
+11197	arty	炮兵
+11211	units. If you have enough prestige purchase some	单位。如果威望足够，就购买一些
+11228	AT units	反坦克单位
+11242	, then you should win. Getting air superiority is also an option to consider. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign). AT units are cheap and devastating to defend cities. You might also consider spending your prestige in order to increase air superiority between scenarios.	，这样你应该就能取胜。夺取制空权也是值得考虑的选项。如果你愿意，可以提高难度设置（在战役开始前调整玩家威望百分比）。反坦克单位便宜，用于防守城市威力巨大。你也可以考虑在场景之间花掉威望，以增强制空权。
+11271	D&S units:	部署与补给单位：
+11331	Deploy & Supply units behave like mobile supply hexes (they include the combat support	部署与补给单位的作用类似可移动的补给格（它们包含战斗支援
+11410	These units speed up rearming other units and act like supply hexes (i.e., units can be deployed in their adjacent hexes).	这些单位能加快其他单位的弹药补充，并像补给格一样起作用（即单位可以部署在其相邻格中）。
+11426	special equipment (HQ icon)).	特种装备（HQ 图标））。
+11437	They can provide deployment of any ground and air unit. D&S units allow to re-supply and give replacements to a unit even after it has moved as long as the unit ends up within 2 hexes of the D&S unit. They allow the unit to r etreat and re-supply on the same turn. This unit on the German side is named	它们可以为任何地面与空中单位提供部署。部署与补给单位允许在单位移动后仍对其进行补给和补充兵员，只要该单位最终位于部署与补给单位 2 格以内。它们允许该单位在同一回合内撤退并补给。德方的这种单位名为
+11439	Mobil HQ Armee	Mobil HQ Armee
+11443	Mobile HQ Army	Mobile HQ Army
+11445	for allied side). You can also use them to deploy units when the number of supply hexes at the begin of a scenario is too short to deploy your w hole core forces. You can also use them to deploy any of your unit at anytime during game play (and not only at the beginning of the scenario	（盟军方面）。你也可以在场景开始时补给格数量太少、不足以部署全部核心部队时，用它们来部署单位。你也可以在游戏过程中的任何时间用它们部署你的任何单位（而不只是在场景开始时
+11520	Thanks to Trigger hexes you can gain prestige during any scenario, this allows the purchase of new units deployable at anytime and anywhere via the D&S units.	借助触发格，你可以在任何场景中获得威望，这样就能通过部署与补给单位购买新单位，并在任何时间、任何地点部署。
+11584	In my e-file I also gave to	在我的装备文件中，我还给
+11596	ground	地面
+11606	D&S units 2 special equipments: bridging	部署与补给单位配置了 2 种特种装备：架桥
+11681	The Special	特种
+11683	bridging Equipment	架桥装备
+11685	allows you to cross over a river as	允许你把河流当作
+11687	rough terrain	崎岖地形
+11689	and it also allows you to place the unit on a river hex and the rest of your forces may cross over while this unit is in place	来通过，它还允许你把该单位放在河流格上，只要该单位在位，你其余的部队就可以通过
+11701	and river assault	以及渡河突击
+11776	River assault unit can attack while on a river. By default no unit can attack from a river hex unless they have this feature or the bridging attachment.	渡河突击单位可以在河流上攻击。默认情况下，任何单位都不能从河流格发起攻击，除非它们具备此特性或架桥附件。
+11788	like infantry engineers.	例如步兵工兵。
+11858	Playing tip to deploy airborne units	部署空降单位的游玩提示
+11880	not used in this campaign	本战役中未使用
+11981	Air Deploy units are used to deploy paratroops when they don	空中部署单位用于在伞兵不
+11983	t start from any airfield but	从任何机场出发时部署伞兵，但
+11985	on air	在空中
+12059	You have to move your air transport units where you want (and hope that AI has no AD units close), then where and when you want (you don't have to use your paratroops at the very 1st turn, you can wait) you deploy the paratroops (play by the rule, don't d eploy other unit types). Please play by the rule and don	你必须先把空中运输单位移动到你想去的位置（并祈祷 AI 附近没有防空单位），然后在你想去的位置和时机（你不必在第 1 回合就使用伞兵，可以等待）部署伞兵（按规则游玩，不要部署其他类型的单位）。请按规则游玩，不要
+12061	t deploy any other units as paratroops.	把任何其他单位当作伞兵部署。
+12116	Playing tip to deploy your troops from the Ocean	从海上部署部队的游玩提示
+12138	not used in this campaign	本战役中未使用
+12201	FDU's (Floating Deployment units) can be placed on any ocean hex but must be adj acent to a land hex in order to deploy ground units. The entire core units can be deployed from 1 FDU (ship) by deploying one or more units, exiting the deployment screen, moving these units, and repeating as necessary. FDU	FDU（浮动部署单位）可以放置在任意海洋格上，但必须与一个陆地格相邻才能部署地面单位。全部核心单位都可以从 1 个 FDU（船只）上部署：部署一个或多个单位，退出部署界面，移动这些单位，然后按需重复。FDU
+12203	s are	分别是
+12216	Sea transports	海上运输船
+12228	Mine layers	、布雷舰
+12230	and	和
+12232	Carriers	航空母舰
+12234	in my e-file. So please use the provided sea transport units in order to deploy your core forces in some scenarios!	，都收录在我的装备文件中。所以在某些场景中，请使用提供的海上运输单位来部署你的核心部队！
+12319	The Mine layer boat (as well as carriers and sea transports -all are FDU	布雷舰船（以及航空母舰和海上运输船——它们全都是 FDU
+12321	s-) can be used to deploy sea mines (	）都可以用来布设水雷（
+12331	not used in this campaign	本战役中未使用
+12413	after deployment of ground units exit the deployment screen,	部署地面单位之后，退出部署界面，
+12486	select a ship then click on the "deploy forces" button,	选中一艘船，然后点击「deploy forces」(部署部队)按钮，
+12559	only then you can deploy sea mines wherever you move the ship at any game turn.	只有这样，你才能在游戏任何回合把船移动到任何位置后布设水雷。
+12640	Role of D&S units and FDU	部署与补给单位与 FDU 的作用
+12642	s is also explained in small scenario introduction txt files when needed (e.g. the assault of	的作用在需要时也会在场景的小型介绍 txt 文件中说明（例如
+12673	Malta	马耳他
+12690	requires FDU	的突击需要 FDU
+12743	You can transport units by ship from ports to ports (conquest of unoccupied ports is therefore possible but this costs air mission points):	你可以用船把单位从港口运到港口（因此可以占领未被占领的港口，但这会消耗空中任务点数）：
+12833	Select a unit, click on strategic transport button (on the lower left), this works only with	选中一个单位，点击战略运输按钮（位于左下方），这只对
+12835	sealiftable	可海运的
+12837	units (the mention	单位有效（单位界面左上角会出现
+12839	sealifatble	sealifatble
+12841	appears on the top left of the unit screen).	字样）。
+12915	Move the unit from any PORT hex to any unoccupied or friendly PORT hex.	把单位从任意 PORT 格移动到任意未被占领或友方的 PORT 格。
+13004	From the	从
+13045	destination	目标
+13067	PORT	PORT
+13083	hex you can still move normally infantry units, whereas other unit types cannot move anymore during the same turn.	格出发，步兵单位仍可正常移动，而其他类型的单位在同一回合内不能再移动。
+13157	Playing tip to use sea planes	使用水上飞机的游玩提示
+13177	not used in this campaign	本战役中未使用
+13219	Aircrafts belonging to the fighter class (e.g. the italian naval carrier based aircraft Re 2001) can be repaired and resupplied on its carrier and on any Axis ground airfield.	属于战斗机类别的飞机（例如意大利海军舰载机 Re 2001）可以在其母舰上以及任意轴心国地面机场上修理和补给。
+13320	Campaign path	战役路线
+13349	See details in the Excel file	详见 Excel 文件
+13367	DR.xls	DR.xls
+13516	Your comments	你的意见
+13545	All comments good or bad are welcome at	欢迎提出任何意见，无论好坏，请发到
+13602	info	info
+13616	pegww2.ne	pegww2.ne
+13655	Feel free to join us on People	欢迎加入我们 People
+13657	s General forum at:	s General 论坛：
+13717	http://panzercentral.com/	http://panzercentral.com/
+13731	orum/	orum/
+13797	If some of you are interested in converting PG2 campaigns or creating PeG-WW2 campaigns from	如果你们中有人对转换 PG2 战役或从
+13808	scratch, I have written	零开始创建 PeG-WW2 战役感兴趣，我写了
+13833	a campaign PG2 to PeG-WW2 conversion guide which includes specific instructions. You can find it there in PDF format:	一份 PG2 战役转换为 PeG-WW2 的指南，其中包含具体说明。你可以在那里找到 PDF 格式的它：
+13882	http://www.pegw	http://www.pegw
+13896	2.net	2.net
+13944	D. What this Campaign is not	D. 本战役不是什么
+13957	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. As tactical wargames, People	本战役并不表示对任何政治理念或战争的认同。战争是人类最令人遗憾的活动之一。作为战术兵棋，People
+13959	s General and PG2 might be considered as "colorful" chess games.	s General 与 PG2 也许可以看作“色彩丰富”的国际象棋。
+13975	E. Acknowledgements	E. 致谢
+13989	My appreciation goes to	我要感谢
+14003	WONDERDOC	WONDERDOC
+14013	the campaign designer	这位战役设计者
+14028	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG-WW2 would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and moderator on the JP	，L. Guzman——PeG Suite 的创作者，没有它，从 PG2 平台到 PeG-WW2 的移植工作就不可能完成，J. Markham——为游戏 exe 文件带来了修改，Mark Kirby——他创建了 PeG-WW2，并且是 JP
+14030	s Panzers forum.	s Panzers 论坛的版主。
+14042	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	我感谢众多其他人士的工作，他们把兵棋游戏变成了一种艺术形式。感谢你游玩本战役。希望你在游玩本战役时获得的乐趣，和我移植它时一样多。
+14086	F. Copyright	F. 版权
+14113	Copyright 2007, Robert Mary.	版权所有 2007，Robert Mary。
+14117	This campaign is the product of many hours of work, so I hope you respect my copyright.	本战役是许多小时工作的成果，所以希望你能尊重我的版权。
+14121	Please do not change or remove anything from this or any of the enclosed archives without permission if you make this ca mpaign available on a web site, by ftp, on a CD or any other method. These files are freeware and may be freely distributed as long as they are not modified.	如果你要把本战役放到网站、通过 ftp、放在 CD 上或以任何其他方式提供，请不要未经许可改动或删除本档案或所附任何压缩档案中的任何内容。这些文件是免费软件，只要不作修改就可以自由分发。
+14125	You absolutely may NOT include this campaign on any commercially available product, or charge for a download, without my permission.	未经我的许可，你绝对不得把本战役包含在任何商业产品中，也不得对下载收费。
+14129	No warranty, either express or implied is made that the campaign will work as intended, on your computer. It is being provided solely on an "as is" basis. The user by installing the campaign for use, assumes the risk of his computer system crashing. The campaign is thoroughly tested but I assume no liability whatsoever for any damage that may be caused to your computer system by use of this product. You may not modify the product in any manner, except for your own perso nal use.	不提供任何明示或默示的担保，保证本战役会在你的计算机上按预期运行。它仅按“现状”提供。用户安装并使用本战役，即自行承担其计算机系统崩溃的风险。本战役经过充分测试，但对于因使用本产品而对你计算机系统造成的任何损害，我一概不承担任何责任。除供你个人使用外，你不得以任何方式修改本产品。
+14133	I hope you will enjoy this campaign.	希望你喜欢本战役。

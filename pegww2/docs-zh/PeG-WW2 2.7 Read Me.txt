@@ -1,0 +1,110 @@
+﻿PEG-WW2 版本 2.7c（测试版）\t	
+由 REDBALL 修改
+测试版发布 \t2004年9月22日
+===============================================================================================
+
+
+法律声明
+-----------
+People's General 是 SSI 的版权财产。  
+
+PeG-WW2 2.7x 不是 People's General 的授权修改版，SSI 对其不承担任何责任。  PeG-WW2 2.7x 是 People's General 的玩家修改版，仅限分发给持有 People's General 授权的用户。 
+
+如果你没有 PeG 的副本，请从授权销售商处购买：
+	\tNarayan Sengupta 的网站：
+		\t\thttp://www.peachmountain.com/5star/PEG_DownloADS.ASP
+	\t或者在 The Underdog's
+		\t\thttp://www.the-underdogs.org/
+
+由我最初分发的 PeG-WW2 不含任何故意的恶意代码。  不过，它属于测试版修改；尽管我和其他测试人员进行了令人满意的试玩测试，某些系统上仍可能出现问题。  对于你因使用本程序而遇到的任何问题、损害、困扰、心痛、恼怒、态度或哭泣，我一概不负责。  只要就任何缺陷给我发一封电子邮件，我会尽力修复。
+
+
+REDBALL 的要求
+------------------
+PeG-WW2 2.7x 免费提供。  不得在任何对访问或下载收取费用的网站上提供，也不得单独出售或包含在任何收取费用的套装中。
+
+PeG-WW2 2.7x 可以发布在具备以下条件的网站上：  (1) 对用户免费；(2) 主要服务于持有 People's General 授权的用户；(3) 发布内容包含随附 README 文件中列出的完整套件。
+
+PeG-WW2 2.7x 是我向更广泛的 PeG 社区分发的唯一修改版本。  我为个别用户所作的修改属于“特别版”。  请不要把这些分发给其他人。  如果你正在某个特别版中测试某项功能，并认为它应当被纳入以后的正式发布版，请告诉我。
+
+
+
+本版概览
+------------------------
+PeG-WW2 可以安装在现有的 People’s General 文件夹中，也可以安装在单独的文件夹中。  
+
+它不会替换任何现有文件。  EXE 文件已修改为调用下文所述各文件的对应版本。
+
+
+以下修改过的文件是本发布的必需组成部分，已包含在 ZIP 内：
+	\tWW2-027b.EXE\t\t\t（PEOPLES.EXE 的新版本）
+
+	\tWW2GUI.TXT\t\t\t（专为 PEG-WW2 制作的 GUI97.TXT 新版本）
+	\tWW2MISC.txt\t\t\t（专为 PEG-WW2 制作的 MISC.TXT 新版本）
+	\tWW2NAME.TXT\t\t\t（专为 PEG-WW2 制作的 NAMES.TXT 新版本）
+	\tWW2TIPS.TXT\t\t\t（专为 PEG-WW2 制作的 TIPS97.TXT 新版本）
+
+	\tSTART.S16\t\t\t（.DAT 中 START.s16 的新版本）
+	\tINFOICON.S16\t\t\t（.DAT 中 INFOICON.s16 的新版本）
+	\tBUTTONS.S16\t\t\t（MODGEN.DAT 中 BUTTONS.s16 的新版本）
+
+	\tPeG-WW2 2.7 Update.txt\t\t（当前及以往修改的详细说明）
+	\tNew Videos for PeG.txt\t\t（关于使用任何可用 Quicktime 播放的视频的说明）
+
+	\tPeG-WW2 2.7 Read Me.txt\t\t（本文件）
+	
+
+以下文件不包含在本套件中。  如果你已经有这些文件，必须把它们重命名为下面给出的名称：
+	\tWW2-EQP.EQP\t\t\t（旧名称：  EQUIP97.EQP）\t	
+	\tWW2-EQP.TXT\t\t\t（旧名称：  EQUIP97.TXT）\t	
+	\tWW2GEN.DAT\t\t\t（旧名称：  MODGEN.DAT）
+
+
+安装说明
+-------------------------
+(1)  将 PEG-WW2_027B.ZIP 解压到你选择的文件夹。  它可以安装在你的主 People's General 文件夹中，并且不会覆盖你的任何常规文件。  或者你也可以选择把它安装在单独的 PeG-WW2 文件夹中。
+
+
+(2)  你应当替换 DAT 文件中的这三个文件：
+	\tSTART.S16
+	\tINFOICN2.S16\t	
+	\tBUTTON2.S16\t	
+这些用来替换旧的 START.S16、INFOICON.s16 和 BUTTONS.s16。  
+
+
+如果你以前向 .DAT 文件中添加过 S16 文件，就使用你惯用的 .DAT 升级程序 -- Fred Chlanda 的 PPEG.EXE 和 UPEG.EXE，或者 Progi 的图标工具。  （.DAT 文件常被称为“Modgen”，因为其标准名称是 MODGEN.DAT。  不过这个版本的 PeG-WW2 使用的是名称 WW2GEN.DAT。）
+
+
+如果你以前从未向 .DAT 文件中添加过 S16 文件，添加的意思就是把新 S16 文件的副本放进 .DAT 文件本身。  你必须使用 .DAT 工具把这些 S16 文件添加进去。  .DAT 文件是一组类似 ZIP 文件的子文件集合。  它不是 ZIP 文件，所以不必费心尝试用 WinZIP、WinRAR 或其他压缩工具处理它。  
+
+
+(3)  以下文件不包含在本套件中，但运行 PeG-WW2 需要这些文件。  
+	
+如果你已经有这些文件，必须把它们重命名为下面给出的名称：
+	\tWW2-EQP.EQP\t\t\t（旧名称：  EQUIP97.EQP）\t	
+	\tWW2-EQP.TXT\t\t\t（旧名称：  EQUIP97.TXT）\t	
+	\tWW2GEN.DAT\t\t\t（旧名称：  MODGEN.DAT）
+
+如果你没有这些文件，可以从你获取本套件的同一站点下载。
+
+
+
+===============================================================================================
+问题与缺陷报告
+
+Mark Kirby 和 Robert Mary 开发并维护了整个 PeG-WW2 套件，包括 DAT 文件、声音文件、装备文件、想定和战役。  我完成了 PeG-WW2 2.7 的 EXE 文件修改。
+
+关于 PeG-WW2 的大多数问题应当发给 Mark，发布在 JP's Panzers People's General Forum：
+		\t\thttp://b25.ezboard.com/fjpspanzersfrm10
+
+或者通过他的网站发给 Robert Mary。
+	\thttp://users.skynet.be/rmypegww2/Pages/Webpage%20RMY.htm
+
+
+如果你对 PeG-WW2 2.7x（EXE 文件）或本文档有任何缺陷报告、问题或意见，请在 JP's Panzers People's General Forum 上发帖联系我： 
+	\thttp://b25.ezboard.com/fjpspanzersfrm10
+
+
+-- Redball，2004年9月22日
+
+

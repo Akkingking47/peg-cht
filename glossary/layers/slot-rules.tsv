@@ -1,0 +1,6 @@
+# 槽位/长度规则（**每条都有证据**；本工具只对适用行判限，不搞一刀切）
+规则	上限	单位	适用用途	证据
+scn20B	20	bytes	PEGWW2_SCN_FIELD	`.scn` @11210/@11230/@11329 定长 20B（recon9_scnfields.py 实测）
+ui5	5	hanzi	MISCELLANEOUS INTERFACE LABELS|MISCELLANEOUS INTERFACE LABELS 2|MISCELLANEOUS INTERFACE LABELS 3|MISCELLANEOUS INTERFACE LABELS 4|MISCELLANEOUS INTERFACE LABELS 5|HOT KEYS HELP	UI 短标签 ≤5 汉字可完整显示（docs/38 §6.5/6.9 实测）
+eqp	-	-	装备名(采购列表)	无硬上限，但括注需压缩（_eqp-carrier-shorten.tsv 有原/新字数）
+scndisp	120	chars	场景列表显示名(_m.txt 行0)	超长=缺陷（scan_nameslot.py 判据），须改写成场景名

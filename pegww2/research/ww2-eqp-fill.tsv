@@ -1,0 +1,39 @@
+# ww2-eqp.txt 人工确认覆盖（原文串模式）
+# 用途：由 work/pegww2/apply_eqp_fill.py 覆盖进 ww2-eqp-map.tsv（来源→人工确认）
+# 依据：装备层独立核验（evidence/verify-eqp.txt）发现的 ① 国别海军标记丢信息 ② 同型机译名不一致
+#       ③ 型号标记被抹掉（Pz 35(t)）④ 拼写变体误读（SS Algemein）
+# 口径：制造商/品牌名保留拉丁原文；机型名（绰号或官方名）按中文惯例意译/音译；绝不动型号代号
+原文	译文	原因
+Sea Hurricane (Royal Navy)	海飓风（皇家海军）	国别标记不得丢
+Seafire (Royal Navy)	海火（皇家海军）	国别标记不得丢
+F4U-1 Corsair (US Navy)	F4U-1 海盗（美国海军）	国别标记不得丢
+TBF-1 Avenger (US Navy)/F4AU-1	TBF-1 复仇者（美国海军）/F4AU-1	国别标记不得丢
+Typhoon IB (Royal Navy)	台风 IB（皇家海军）	国别标记不得丢
+Swordfish (Royal Navy)	剑鱼（皇家海军）	国别标记不得丢
+FW-190C (Kriegsmarine)	FW-190C（德国海军）	国别标记不得丢
+Me-109T (Kriegsmarine)	Me-109T（德国海军）	国别标记不得丢
+Ju-87C-1 Stuka (Kriegsmarine)/Me-109T	Ju-87C-1 斯图卡（德国海军）/Me-109T	国别标记不得丢
+Re.2001 (Regia Marina)/BA 65	Re.2001（意大利海军）/BA 65	国别标记不得丢
+Avro Lancaster Mk I Air Support	Avro 兰开斯特 Mk I 空中支援	同型机译名统一（品牌保留+机型译）
+Avro Lancaster MkI/Spitfire VC	Avro 兰开斯特 MkI/喷火 VC	同上（原误判「保留」）
+Typhoon IB/Avro Lancaster MkI Air Support	台风 IB/Avro 兰开斯特 MkI 空中支援	同上
+Typhoon IB	台风 IB	同上（原误判「保留」）
+C-47 Skytrain/Spitfire II	C-47 空中列车/喷火 II	同上
+Spitfire XII (Sqn 421)	喷火 XII（第421中队）	同上
+Spitfire I	喷火 I	去掉多余引号，与他处统一
+C-47 Dakota/Spitfire I	C-47 达科他/喷火 I	同上
+Spitfire I Air Support	喷火 I 空中支援	同上
+Handley Page MkI Halifax/Spitfire I	Handley Page MkI 哈利法克斯/喷火 I	同上
+Hurricane II/Handley Page Halifax MkI Air Support	飓风 II/Handley Page 哈利法克斯 MkI 空中支援	同上
+Handley Page Halifax MkI Air Support	Handley Page 哈利法克斯 MkI 空中支援	同上
+Tempest IV/Avro Lancaster MkI Air Support	暴风 IV/Avro 兰开斯特 MkI 空中支援	同上
+Pz 35(t)	Pz 35(t)	⚠️ 原译文把型号前缀 Pz 抹掉了 ⇒ 恢复原样
+SS Algemein	普通党卫队	原文为 SS Allgemeine 漏拼；标准中文＝普通党卫队
+HoneyI	蜜糖 I	英军对斯图亚特的绰号，按「绰号意译」口径
+Honey V	蜜糖 V	同上
+Honey VI	蜜糖 VI	同上
+sIG33 38(t)M	sIG33 38(t)M 重型步兵炮运载车	⚠️ 原译把型号 sIG33 抹掉了 ⇒ 型号保留 + 补类别
+JgdPz IV/48	IV 号自行反坦克炮 L/48	⚠️ 原译「IV 号自行反坦克炮/48」割裂了型号 ⇒ 用 L/48 体例
+JgdPz IV/70	IV 号自行反坦克炮 L/70	同上
+M4A3E8/76 Easy8	M4A3E8/76 E8 型	⚠️ 原译「轻松八型」是 Easy 8 的字面误译 ⇒ 改用型号体例
+LL M4A3E8/76 Easy8	租借 M4A3E8/76 E8 型	同上

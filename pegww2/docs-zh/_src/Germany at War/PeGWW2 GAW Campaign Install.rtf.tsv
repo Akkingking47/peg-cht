@@ -1,0 +1,354 @@
+# Germany at War\PeGWW2 GAW Campaign Install.rtf · RTF 抽取（段号 \t 原文 \t protected）\n段号	原文	protected
+2053	Germany at War	Germany at War
+2118	Robert Mary	Robert Mary
+2154	Info@pegww2.net	Info@pegww2.net
+2181	This is the PeG-WW2 conversion of the	This is the PeG-WW2 conversion of the
+2188	Germany at War	Germany at War
+2201	campaign	campaign
+2208	originally designed for PG2 by	originally designed for PG2 by
+2215	Skotska Vysocina aka Georg	Skotska Vysocina aka Georg
+2221	. The original campaign can be found on	. The original campaign can be found on
+2227	Steve Brown	Steve Brown
+2236	website:	website:
+2288	http://hosted.wargamer.com/pg2campaigns/	0
+2312	A. How to install ?	A. How to install ?
+2328	This package contains :	This package contains :
+2391	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the	The scenarios and the campaign file (*.scen, *.txt, *.cam) : Unzip all files included in the
+2399	GAW	GAW
+2407	_v1.zip	0
+2414	in the	in the
+2422	SCENARIO	SCENARIO
+2428	directory of PeG WWII.	directory of PeG WWII.
+2516	Original campaign for PG2 design notes (with campaign flow) of	Original campaign for PG2 design notes (with campaign flow) of
+2522	Dennis Felling	Dennis Felling
+2529	are included in the	are included in the
+2536	Readme.zip	0
+2569	The	The
+2576	Readme.zip	0
+2582	also includes my	also includes my
+2590	Excel file	Excel file
+2596	showing campaign flow, map numbers, name of maps used and alternative campaign paths.	showing campaign flow, map numbers, name of maps used and alternative campaign paths.
+2684	The maps	The maps
+2738	*.map files are included in the	*.map files are included in the
+2746	Maps.zip	0
+2753	, place them in the	, place them in the
+2761	SCENARIO	SCENARIO
+2767	directory of PeG-WW2	directory of PeG-WW2
+2776	*.s16 files to be placed in the MAP directory of PeG-WW2 can be found here:	*.s16 files to be placed in the MAP directory of PeG-WW2 can be found here:
+2828	http://www.pegww2.net/Pages/MapsPeG.htm	0
+2891	PG2 maps (in SHP format) can be found on	PG2 maps (in SHP format) can be found on
+2897	Steve Brown	Steve Brown
+2906	website:	website:
+2942	http://www.wargamer.com/pg2campaigns/steve/pg2.htm	0
+2978	or on builder	or on builder
+2980	s paradise website :	s paradise website :
+3035	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	0
+3076	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :	PG2 map files can be converted (from SHP format into S16 format) using conversion tools available at my own website :
+3114	http://www.pegww2.net/	0
+3176	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeGWW2.	Converted maps (in *.S16 format) are to be placed in the MAP directory of PeGWW2.
+3180	See the PeG-WW2 game readme file (under PDF format) delivered with the installer programme for detailed instructions or	See the PeG-WW2 game readme file (under PDF format) delivered with the installer programme for detailed instructions or
+3185	the "Installation of additional maps" section on the campaign page of my website:	the "Installation of additional maps" section on the campaign page of my website:
+3223	http://www.pegww2.net/	0
+3301	The movie	The movie
+3306	(not mandatory)	(not mandatory)
+3342	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.	Some *.SMK files exist for PG2, they are included before start of scenarios to bring more immersion in gameplay. They can be converted into AVI format which is used for PeG-WW2.
+3344	You can find more SMK files	You can find more SMK files
+3346	there:	there:
+3375	http://ww	0
+3403	tahlhel	tahlhel
+3417	.prv.pl/	.prv.pl/
+3425	or here:	or here:
+3455	http://www.medio.mh.se/%7Evonadler/pg2/	0
+3465	In order to convert SMK files into AVI format, follow the instructions on my website:	In order to convert SMK files into AVI format, follow the instructions on my website:
+3520	http://www.pegww2.net/	0
+3528	Pages/WebpageRMY.htm	Pages/WebpageRMY.htm
+3560	Read also my PG2 to PeG-WW2 campaign conversion guide (chapter 17) (in the	Read also my PG2 to PeG-WW2 campaign conversion guide (chapter 17) (in the
+3562	Links to PeG documentation	Links to PeG documentation
+3564	section of my website):	section of my website):
+3619	http://www.pegww2.net/	0
+3627	Pages/WebpageRMY.htm	Pages/WebpageRMY.htm
+3644	All files have already been converted into avi format. They are available at:	All files have already been converted into avi format. They are available at:
+3691	http://www.pegww2.net/Pages/MoviesPeG.htm	0
+3731	They must be placed into the	They must be placed into the
+3737	CINE	CINE
+3741	folder of PeG-WW2.	folder of PeG-WW2.
+3759	I have	I have
+3763	used	used
+3767	the following files:	the following files:
+3905	NewGMWin.avi	0
+3943	037.avi	0
+4102	Medalgem.avi	0
+4140	005.avi	0
+4299	Gerloss.avi	0
+4337	010.avi	0
+4496	1.avi	0
+4533	027.avi	0
+4692	2.avi	0
+4729	006.avi	0
+4888	Fas3.avi	0
+4926	021.avi	0
+5085	4.avi	0
+5122	024.avi	0
+5281	france1940.avi	0
+5319	022.avi	0
+5478	Fas14.avi	0
+5516	014.avi	0
+5675	Fas12.avi	0
+5713	017.avi	0
+5872	Fas7.avi	0
+5910	018.avi	0
+6069	Fas13.avi	0
+6107	012.avi	0
+6266	11.avi	0
+6303	086.avi	0
+6462	Fas15.avi	0
+6500	034.avi	0
+6659	Blue.avi	0
+6824	15.avi	0
+6988	19.avi	0
+7152	22.avi	0
+7316	23.avi	0
+7495	5. Music file (	5. Music file (
+7502	not mandatory	not mandatory
+7517	SSI has developed music files for PG2.	SSI has developed music files for PG2.
+7524	If you use goldwa	If you use goldwa
+7530	ve software you can convert yourself those	ve software you can convert yourself those
+7536	file	file
+7548	under wav format.	under wav format.
+7550	You can find Goldwave and conversion instructions here:	You can find Goldwave and conversion instructions here:
+7585	http://panzergeneral.strategyplanet.gamespy.com/PG2Main_tools.html	0
+7595	Another tool that can be used is the OSS audio converter which you can find here:	Another tool that can be used is the OSS audio converter which you can find here:
+7631	ht tp://products.ecommerce-guide.com/development/audio/1058093208.html	ht tp://products.ecommerce-guide.com/development/audio/1058093208.html
+7665	Read also my PG2 to PeG-WW2 campaign conversion guide (chapter 18) (in the	Read also my PG2 to PeG-WW2 campaign conversion guide (chapter 18) (in the
+7667	Links to PeG documentation	Links to PeG documentation
+7669	section of my website):	section of my website):
+7723	http://www.pegww2.net/	0
+7731	Pages/WebpageRMY.htm	Pages/WebpageRMY.htm
+7763	Music files (	Music files (
+7771	CGP.wav	0
+7777	and	and
+7785	WGP.wav	0
+7791	) are also downloadable from my website:	) are also downloadable from my website:
+7850	http://www.pegww2.net/Pages/install.htm	0
+7879	The music files are a conversion of SSI MUS files into WAV format.	The music files are a conversion of SSI MUS files into WAV format.
+7883	The music of American campaigns must be placed in the	The music of American campaigns must be placed in the
+7892	WAVS	WAVS
+7899	directory of PeGWW2.	directory of PeGWW2.
+7901	First make a backup of	First make a backup of
+7907	previous version of	previous version of
+7914	CGP.wav and WGP.wav.	0 and 1.
+7916	In game just turn music on and you will have the American music playing permanently in the background.	In game just turn music on and you will have the American music playing permanently in the background.
+7920	Those music files can be used for any campaign at your convenience.	Those music files can be used for any campaign at your convenience.
+7957	B. Using the modgen.dat and the equipment file	B. Using the 0 and the equipment file
+8028	The equipment file :	The equipment file :
+8082	My	My
+8088	European	European
+8094	E-file v1.02	E-file v1.02
+8113	is mandatory.	is mandatory.
+8168	The equipment file is available at my own website :	The equipment file is available at my own website :
+8205	http://www.pegww2.net/	0
+8240	Unzip "	Unzip "
+8247	RMY_PeGWW2_	RMY_PeGWW2_
+8254	Europe	Europe
+8275	.zip	.zip
+8281	" in the Main directory of PeG-WW2.	" in the Main directory of PeG-WW2.
+8335	My eqpt file keeps the same structure as Mark Kirby's eqpt file (	My eqpt file keeps the same structure as Mark Kirby's eqpt file (
+8342	Mark	Mark
+8344	s u nits are unchanged	s u nits are unchanged
+8350	excepted icons). I only added new units.	excepted icons). I only added new units.
+8354	My equipment file is intended for use with Redball	My equipment file is intended for use with Redball
+8356	s PeG-WW2 2.7 package, therefore file names have been renamed to be directly used when you download them (Equip97.txt became	s PeG-WW2 1 package, therefore file names have been renamed to be directly used when you download them (0 became
+8363	WW2-eqp.txt	0
+8369	, Equip97.eqp became	, 0 became
+8376	WW2-eqp.eqp	0
+8386	Files.txt contains a list of all icons I used, it	0 contains a list of all icons I used, it
+8388	s necessary to use it unless you have a huge modgen.dat (far bigger than mine) with all possible icons existing so far.	s necessary to use it unless you have a huge 0 (far bigger than mine) with all possible icons existing so far.
+8476	The modgen.dat (intentionally not included in order to save space)	The 0 (intentionally not included in order to save space)
+8530	Try first to use the DAT file already delivered with the game installer programme.	Try first to use the DAT file already delivered with the game installer programme.
+8537	Only if some icons are missing	Only if some icons are missing
+8543	then download from my website the latest version of the DAT file.	then download from my website the latest version of the DAT file.
+8545	My modgen.dat is mandatory, it includes all icons existing so far.	My 0 is mandatory, it includes all icons existing so far.
+8549	You can	You can
+8556	download	download
+8562	the file at :	the file at :
+8599	http://www.pegww2.net/	0
+8609	Unzip "	Unzip "
+8616	WW2GEN.RAR	WW2GEN.RAR
+8622	" in the Main directory of PeG WWII. This modgen -intentionnally renamed WW2GEN.dat- works with Redball	" in the Main directory of PeG WWII. This modgen -intentionnally renamed 0- works with Redball
+8624	s PeG-WW2 2.7 package.	s PeG-WW2 0 package.
+8626	All required S16 files contained in Redball	All required S16 files contained in Redball
+8628	s update are already included in WW2GEN.dat which is immediately ready for use.	s update are already included in 0 which is immediately ready for use.
+8718	Peoples.exe file (User-made gamesets)	0 file (User-made gamesets)
+8760	Please use the	Please use the
+8764	Eastern	Eastern
+8768	Front or SS East ern Front	Front or SS East ern Front
+8772	Gameset	Gameset
+8787	Germany East	Germany East
+8793	.zip	.zip
+8802	and	and
+8810	SS Germany	SS Germany
+8817	East	East
+8822	not	not
+8826	delivered with the insta	delivered with the insta
+8830	ller programme but you can	ller programme but you can
+8834	find it here	find it here
+8891	http://www.pegww2.net/	0
+8939	It refers to the	It refers to the
+8943	German	German
+8947	medalset, the	medalset, the
+8951	German	German
+8955	leaderset and the	leaderset and the
+8959	European	European
+8963	flagset (already stored in the WW2GEN.DAT file).	flagset (already stored in the 0 file).
+8972	You can also use the Western Front or SS Western Front Gamesets	You can also use the Western Front or SS Western Front Gamesets
+8979	Germany Wet.zip	Germany 0
+8984	and	and
+8992	SS Germany	SS Germany
+8998	West	West
+9003	not delivered with the installer programme.	not delivered with the installer programme.
+9035	Tho	Tho
+9047	user-made gameset	user-made gameset
+9051	s are	s are
+9055	based on the follow ing basic gameset : Redball	based on the follow ing basic gameset : Redball
+9057	s PeG-WW2 2.7 package. The basic gameset contains the m	s PeG-WW2 0 package. The basic gameset contains the m
+9061	GAW	GAW
+9065	advanced game improvements for PeG-WW2 (see Redball	advanced game improvements for PeG-WW2 (see Redball
+9067	s readme file included in PeG-WW2 2.7 package).	s readme file included in PeG-WW2 0 package).
+9120	C. Comments	C. Comments
+9193	Minor changes brought to	Minor changes brought to
+9203	Georg	Georg
+9223	campaign	campaign
+9244	essential reading	essential reading
+9329	Since the way to handle prestige is different in PG2 and in PeG I added some	Since the way to handle prestige is different in PG2 and in PeG I added some
+9340	trigger hexes	trigger hexes
+9350	to allow the player to gather only a few prestige points he must spend before the end of a scenario. This will allow him to purchase max one new unit to replace a killed unit.	to allow the player to gather only a few prestige points he must spend before the end of a scenario. This will allow him to purchase max one new unit to replace a killed unit.
+9373	I altered some defensive scenarios	I altered some defensive scenarios
+9382	otherwise they would have been won	otherwise they would have been won
+9391	very quickly due to PeG engine (conquest by AI of any VH you owned at the beginning of a scenario means immediate scenario loss), as a result	very quickly due to PeG engine (conquest by AI of any VH you owned at the beginning of a scenario means immediate scenario loss), as a result
+9403	victory conditions are based on the number of hexes	victory conditions are based on the number of hexes
+9412	(and not the number of turns) the player captures (the VH	(and not the number of turns) the player captures (the VH
+9414	s you owned at the beginning of the scenario are not counted in the calculation).	s you owned at the beginning of the scenario are not counted in the calculation).
+9445	Since Georg did not set any German AUX units in his scenarios, I added them by myself otherwise loss in PeG-WW2 would have been a certainty.	Since Georg did not set any German AUX units in his scenarios, I added them by myself otherwise loss in PeG-WW2 would have been a certainty.
+9468	I added many map names to existing maps.	I added many map names to existing maps.
+9491	I added leaders to many units.	I added leaders to many units.
+9522	I wanted to have a linear campaign so that instead of having an	I wanted to have a linear campaign so that instead of having an
+9524	end of campaign	end of campaign
+9528	loss	loss
+9530	result in PG2 in case of scenario loss, the player is allowed to move to next scenario.	result in PG2 in case of scenario loss, the player is allowed to move to next scenario.
+9596	Playing tips	Playing tips
+9662	You have enough AUX units to win, just purchase a few infantry (preferably	You have enough AUX units to win, just purchase a few infantry (preferably
+9674	engineers	engineers
+9684	to destroy bunker arty units) or if you have enough prestige	to destroy bunker arty units) or if you have enough prestige
+9696	arty	arty
+9706	units and you should win. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).	units and you should win. Increase the difficulty settings if you wish (alter prestige player percentage before beginning the campaign).
+9720	This campaign was developed and playtested at 100 prestige, I have no idea what will happen at other levels but inexpe rienced players may want to start at 150. AT units are cheap and devastating to defend cities. You might also consider spending your prestige in order to increase	This campaign was developed and playtested at 100 prestige, I have no idea what will happen at other levels but inexpe rienced players may want to start at 150. AT units are cheap and devastating to defend cities. You might also consider spending your prestige in order to increase
+9732	air superiority	air superiority
+9741	between scenarios.	between scenarios.
+9750	I usually played with four arty units and three engineers as CORE units.	I usually played with four arty units and three engineers as CORE units.
+9760	You can also win this campaign by using SS infantry units and German 88mm AT guns.	You can also win this campaign by using SS infantry units and German 88mm AT guns.
+9792	D&S units:	D&S units:
+9839	Deploy & Supply units behave like mobile supply hexes (they include the combat support	Deploy & Supply units behave like mobile supply hexes (they include the combat support
+9886	These units speed up rearming other units and act lik e supply hexes (i.e., units can be deployed in their adjacent hexes).	These units speed up rearming other units and act lik e supply hexes (i.e., units can be deployed in their adjacent hexes).
+9897	special equipment (HQ icon)).	special equipment (HQ icon)).
+9902	They can provide deployment of any ground and air unit. D&S units allow to re-supply and give replacements to a unit even after it has moved as long as the unit ends up within 2 hexes of the D&S unit. They allow the unit to retreat and re-supply on the same turn. This unit on the German side is named	They can provide deployment of any ground and air unit. D&S units allow to re-supply and give replacements to a unit even after it has moved as long as the unit ends up within 2 hexes of the D&S unit. They allow the unit to retreat and re-supply on the same turn. This unit on the German side is named
+9904	Mobil HQ Armee	Mobil HQ Armee
+9908	Mobile HQ Army	Mobile HQ Army
+9910	for allied side). You can also use them to deploy units when the number of supply hexes at the begin of a scenario is too short to deploy your whole core forces. You can also use them to deploy any of your unit at anytime during game play (and not only at the beginning of the scenario	for allied side). You can also use them to deploy units when the number of supply hexes at the begin of a scenario is too short to deploy your whole core forces. You can also use them to deploy any of your unit at anytime during game play (and not only at the beginning of the scenario
+9953	Thanks to Trigger hexes you can gain prestige during any scenario, this allows the purchase of new units deployable at anytime and anywhere via the D&S units.	Thanks to Trigger hexes you can gain prestige during any scenario, this allows the purchase of new units deployable at anytime and anywhere via the D&S units.
+9995	In my e-file I also gave to	In my e-file I also gave to
+10001	ground	ground
+10006	D&S units 2 special equipments: bridging	D&S units 2 special equipments: bridging
+10049	The Special	The Special
+10051	bridging Equipment	bridging Equipment
+10053	allows you to cross over a river as	allows you to cross over a river as
+10055	rough terrain	rough terrain
+10057	and it also allows you to place the unit on a river hex and the rest of your forces may cross over while this unit is in place	and it also allows you to place the unit on a river hex and the rest of your forces may cross over while this unit is in place
+10064	and river assault	and river assault
+10107	River assault unit can attack while on a river. By defa ult no unit can attack from a river hex unless they have this feature or the bridging attachment.	River assault unit can attack while on a river. By defa ult no unit can attack from a river hex unless they have this feature or the bridging attachment.
+10114	like infantry engineers.	like infantry engineers.
+10164	Playing tip to deploy airborne units	Playing tip to deploy airborne units
+10175	not used in this campaign	not used in this campaign
+10249	Air Deploy	Air Deploy
+10254	ment	ment
+10259	units are used to deploy paratroops when they don	units are used to deploy paratroops when they don
+10261	t start from any airfield but	t start from any airfield but
+10263	on air	on air
+10325	You have to move your air transport units where you want (and hope that AI has no AD units close), then where and when you want (you don't have to use your paratroops at the very 1st turn, you can wait) you d eploy the paratroops (play by the rule, don't deploy other unit types). Please play by the rule and don	You have to move your air transport units where you want (and hope that AI has no AD units close), then where and when you want (you don't have to use your paratroops at the very 1st turn, you can wait) you d eploy the paratroops (play by the rule, don't deploy other unit types). Please play by the rule and don
+10327	t deploy any other units as paratroops.	t deploy any other units as paratroops.
+10368	Playing tip to deploy your troops from the Ocean	Playing tip to deploy your troops from the Ocean
+10380	not used in this campaign	not used in this campaign
+10419	FDU's (Floating Deployment units) can be placed on any ocean hex but must be adjacent to a land hex in order to deploy ground units. The entire core units can be deployed from 1 FDU (ship) by deploying one or more units, exiting the deployment screen, mov ing these units, and repeating as necessary. FDU	FDU's (Floating Deployment units) can be placed on any ocean hex but must be adjacent to a land hex in order to deploy ground units. The entire core units can be deployed from 1 FDU (ship) by deploying one or more units, exiting the deployment screen, mov ing these units, and repeating as necessary. FDU
+10421	s are	s are
+10427	Sea transports	Sea transports
+10434	Mine layers	Mine layers
+10436	and	and
+10438	Carriers	Carriers
+10440	in my e-file. So please use the provided sea transport units in order to deploy your core forces in some scenarios!	in my e-file. So please use the provided sea transport units in order to deploy your core forces in some scenarios!
+10507	The Mine layer boat (as well as carriers and sea transports -all are FDU	The Mine layer boat (as well as carriers and sea transports -all are FDU
+10509	s-) can be used to deploy sea mines (	s-) can be used to deploy sea mines (
+10515	not used in this campaign	not used in this campaign
+10579	after deployment of ground units exit the deployment screen,	after deployment of ground units exit the deployment screen,
+10639	select a ship then click on the "deploy forces" button,	select a ship then click on the "deploy forces" button,
+10699	only then you can deploy sea mines wherever you move the ship at any game turn.	only then you can deploy sea mines wherever you move the ship at any game turn.
+10754	Role of D&S units and FDU	Role of D&S units and FDU
+10756	s is also explained in small scenario introduction txt files when needed (e.g. the assault of Malta requires FDU	s is also explained in small scenario introduction txt files when needed (e.g. the assault of Malta requires FDU
+10794	You can transport u nits by ship from ports to ports (conquest of unoccupied ports is therefore possible but this c	You can transport u nits by ship from ports to ports (conquest of unoccupied ports is therefore possible but this c
+10799	GAW	GAW
+10804	s air mission points) (	s air mission points) (
+10811	not	not
+10818	used in this campaign	used in this campaign
+10828	(see	(see
+10830	Race to Messina	Race to Messina
+10832	scenario)	scenario)
+10906	Select a unit, click on strategic transport button (on the lower left) , this works only with	Select a unit, click on strategic transport button (on the lower left) , this works only with
+10908	sealiftable	sealiftable
+10910	units (the mention	units (the mention
+10912	sealifatble	sealifatble
+10914	appears on the top left of the unit screen).	appears on the top left of the unit screen).
+10975	Move the unit from any PORT hex to any unoccupied or friendly PORT hex.	Move the unit from any PORT hex to any unoccupied or friendly PORT hex.
+11043	From the destination PORT hex you can still move normally infan try units, whereas other unit types cannot move anymore during the same turn.	From the destination PORT hex you can still move normally infan try units, whereas other unit types cannot move anymore during the same turn.
+11104	Playing tip to use sea planes	Playing tip to use sea planes
+11113	not used in this campaign	not used in this campaign
+11139	Aircrafts belonging to the fighter class (e.g. the italian naval carrier based aircraft Re 2001) can be repaired an d resupplied on its carrier and on any Axis ground airfield.	Aircrafts belonging to the fighter class (e.g. the italian naval carrier based aircraft Re 2001) can be repaired an d resupplied on its carrier and on any Axis ground airfield.
+11212	Campaign path	Campaign path
+11234	See details in the Excel file	See details in the Excel file
+11255	GAW	GAW
+11265	.xls	.xls
+11367	Your comments	Your comments
+11389	All comments good or bad are welcome at	All comments good or bad are welcome at
+11425	Info@pegww2.net	Info@pegww2.net
+11443	Feel free to join us on People	Feel free to join us on People
+11445	s General forum at:	s General forum at:
+11490	http://pub131.ezboard.com/fjpspanzersfrm10	0
+11503	Feel free to join us on Cyberstratege forum here (in French) at:	Feel free to join us on Cyberstratege forum here (in French) at:
+11548	http://www.cyberstratege.com/forum/viewtopic.php?t=70	0
+11586	If some of you are interested in converting PG2 campaigns or creating PeG-WW2 campaigns from	If some of you are interested in converting PG2 campaigns or creating PeG-WW2 campaigns from
+11592	scratch, I have written	scratch, I have written
+11606	a campaign PG2 to PeG-WW2 conversion guide which includes specific instructions. You can find it there in PDF format:	a campaign PG2 to PeG-WW2 conversion guide which includes specific instructions. You can find it there in PDF format:
+11644	http://www.pegww2.net/	0
+11653	Pages/conversion.htm	Pages/conversion.htm
+11685	D. Extended installation instructions	D. Extended installation instructions
+11693	Instructions included in this readme file assume you have some basic knowledge of copying, moving and unzipping files in Windows 95/98/XP and some knowledge of installing user-made additions to PeG-WW2. You should at least know which folder on your comput er contains the program.	Instructions included in this readme file assume you have some basic knowledge of copying, moving and unzipping files in Windows 95/98/XP and some knowledge of installing user-made additions to PeG-WW2. You should at least know which folder on your comput er contains the program.
+11697	User-made additions to PeG-WW2 are not as easy to install as the original software, but are not difficult if you read the installation instructions and use a certain amount of common sense - new maps, equipment files and other mate rial ALL have installation instructions (some of which are included with the downloads and some of which are on the web sites). It is important to remember that while I am happy to help with any problems - all the information you need is available, you on l y need to take the time to find and read it. Especially the "Installation of additional maps" section on the campaign page of my website should help if you have problems. You should also consider reading the readme file (under PDF format) of PeG-WW2 game delivered with the installer programme.	User-made additions to PeG-WW2 are not as easy to install as the original software, but are not difficult if you read the installation instructions and use a certain amount of common sense - new maps, equipment files and other mate rial ALL have installation instructions (some of which are included with the downloads and some of which are on the web sites). It is important to remember that while I am happy to help with any problems - all the information you need is available, you on l y need to take the time to find and read it. Especially the "Installation of additional maps" section on the campaign page of my website should help if you have problems. You should also consider reading the readme file (under PDF format) of PeG-WW2 game delivered with the installer programme.
+11707	E. What this Campaign is not	E. What this Campaign is not
+11715	This campaign is not an endorsement of any political idea or of war. War is one of the m	This campaign is not an endorsement of any political idea or of war. War is one of the m
+11720	GAW	GAW
+11725	regrettable human activities. As tactical wargames, People	regrettable human activities. As tactical wargames, People
+11727	s General and PG2 might be considered as "colorful" chess games.	s General and PG2 might be considered as "colorful" chess games.
+11737	F. Acknowledgements	F. Acknowledgements
+11746	My appreciation goes to	My appreciation goes to
+11755	DENNIS FELLING	DENNIS FELLING
+11760	the campaign designer	the campaign designer
+11769	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG-WW2 would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and moderator on the JP	, L. Guzman the creator of the PeG Suite without which the portage work from PG2 platform to PeG-WW2 would have been impossible, J. Markham for modifications brought to the game exe file, Mark Kirby who created PeG-WW2 and moderator on the JP
+11771	s Panzers forum.	s Panzers forum.
+11778	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.	I appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you will have as much fun playing the campaign as I have converted it.
+11807	G. Copyright	G. Copyright
+11824	Copyright 200	Copyright 200
+11842	, Robert Mary.	, Robert Mary.
+11846	This campaign is the product of	This campaign is the product of
+11856	many hours	many hours
+11865	of work, so I hope you respect my copyright.	of work, so I hope you respect my copyright.
+11869	Please do not change or remove anything from th is or any of the enclosed archives without permission if you make this campaign available on a web site, by ftp, on a CD or any other method. These files are freeware and may be freely distributed as long as they are not modified.	Please do not change or remove anything from th is or any of the enclosed archives without permission if you make this campaign available on a web site, by ftp, on a CD or any other method. These files are freeware and may be freely distributed as long as they are not modified.
+11873	You absolutely may NOT include this campaign on any commercially available product, or charge for a download, without my permission.	You absolutely may NOT include this campaign on any commercially available product, or charge for a download, without my permission.
+11877	No warranty, either express or implied is made that the campaign will work as intended, on your computer. It is being prov ided solely on an "as is" basis. The user by installing the campaign for use, assumes the risk of his computer system crashing. The campaign is thoroughly tested but I assume no liability whatsoever for any damage that may be caused to your computer syste m by use of this product. You may not modify the product in any manner, except for your own personal use.	No warranty, either express or implied is made that the campaign will work as intended, on your computer. It is being prov ided solely on an "as is" basis. The user by installing the campaign for use, assumes the risk of his computer system crashing. The campaign is thoroughly tested but I assume no liability whatsoever for any damage that may be caused to your computer syste m by use of this product. You may not modify the product in any manner, except for your own personal use.
+11881	I hope you will enjoy this campaign.	I hope you will enjoy this campaign.

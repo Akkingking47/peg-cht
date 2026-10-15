@@ -1,0 +1,32 @@
+============================================================================================
+参照系（已实机成功的 PeG030.exe）
+============================================================================================
+  ② 新字节: 40 00 40 80 40 80 40 80 40 80 40 80 40 80 40 80 40 80 40 80 40 80 40 80 …（256 B）
+  ② 旧字节: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 …（1 种取值）
+
+待处理 efile: 12 个（源：pegww2\testbed\backup\exe）
+
+============================================================================================
+efile                    状态         ①    ②    ③    ④    差异字节  产物
+============================================================================================
+Germany 46.exe           已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Germany 46.exe
+Germany DAK.exe          已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Germany DAK.exe
+Germany East.exe         已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Germany East.exe
+Germany West.exe         已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Germany West.exe
+Great Britain 46.exe     已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Great Britain 46.exe
+Great Britain.exe        已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\Great Britain.exe
+SS Germany East.exe      已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\SS Germany East.exe
+SS Germany West.exe      已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\SS Germany West.exe
+USA 46.exe               已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\USA 46.exe
+USA.exe                  已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\USA.exe
+USSR 46.exe              已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\USSR 46.exe
+USSR.exe                 已写入        待打   待打   待打     待打     261       pegww2\testbed\out\exe\USSR.exe
+
+============================================================================================
+校验：与参照成品的差异形态一致性
+============================================================================================
+  参照 PeG030（原版→成品）差异 382 B，FO 段：[462048, 507520, 570480, 570496, 570512, 570528, 570544, 570560, 570576, 570592, 570640, 570656] …
+  本作 Germany 46.exe：差异 261 B；FO 区间 0x70ce4–0xa948d
+    （参照同四段为 1+4+256+2 = 263 B；本作不含已作废的 ⑤ 与两条旧补丁）
+
+[APPLIED] 12 个产物写入 pegww2\testbed\out\exe

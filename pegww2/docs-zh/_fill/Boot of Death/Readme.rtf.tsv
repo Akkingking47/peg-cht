@@ -1,0 +1,81 @@
+# Boot of Death\Readme.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+1967	The Boot of death	死亡之靴
+2028	By	作者
+2100	Pablo Schlegel	Pablo Schlegel
+2170	Schlegelpablo@yahoo.com	Schlegelpablo@yahoo.com
+2292	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+2405	-Historical Background-	-历史背景-
+2489	July 10th of 1943, the 7th US Army in command of General Patton and 8th British Army in charge of General Montgomery, iniciate the invasion to Sicily Island, when, on January 1943, the Allied Joint Major State Chiefs take the decision to invade Italy.	1943年7月10日，由 Patton 将军指挥的美国第7集团军和由 Montgomery 将军统率的英国第8集团军发起对西西里岛(Sicily Island)的入侵，而早在1943年1月，盟军联合参谋长会议就做出了入侵意大利的决定。
+2533	They planned three goals:	他们计划了三个目标：
+2609	- Free the Mediterranean's naval routes	- 打通地中海的海上航线
+2653	- Amuse forces from Russian front.	- 从俄国前线牵走兵力。
+2697	- Push pression on Italy, trying to get it out of fight	- 对意大利施压，试图让它退出战争
+2773	Allies expected and quick and easy victory, but instead it was a hard campaign that will last until the end of war.	盟军本以为会是一场迅速而轻松的胜利，结果却是一场一直打到战争结束的苦战。
+2817	The difficult terrain, the great and determined German's defense and the Allies's lack of iniciative, helped the to make a long term campaign.	艰难的地形、德军出色而坚决的防御，以及盟军缺乏主动，使这场战役变成了持久战。
+2902	-The campaign-	-战役-
+2986	With a total of eighteen scenarios, major part historics and some other fictitious, where you fight them according to your perform.	总共十八个场景，大部分是历史场景，另一些是虚构的，在其中的战斗结果取决于你的表现。
+3030	Your core army is composed mainly by Hermann G	你的核心军队主要由 Hermann Göring
+3033	?ring's German Division plus some other elements added.	的德国师组成，另有其他一些部队加入。
+3077	You'll find out in some scenarios you cannot deploy your entire core division, due to the	你会发现，在某些场景里你无法部署整个核心师，原因是
+3121	historic fidelity of the campaign	战役的历史还原度
+3165	Tips: each of your core unit is represented according to the equipment in the moment of the campaign's begining. You will find lots of units with force of five (representing battalions).	提示：你的每个核心单位都是按战役开始时那一刻的装备来表示的。你会发现很多单位的兵力为五（代表营）。
+3209	The prestige is implemented in a certain way so you can regularly upgrade your units of replace	威望的实现方式经过一定安排，使你可以定期升级你的单位，或补充
+3221	eventual lost, but keep in mind the importance of overstrength your units, especially the anti-air units, to counteract the Allied's air supremacy.	可能出现的损失，但请记住给单位超编的重要性，尤其是防空单位，以对抗盟军的空中优势。
+3349	Scn name BV V TV L Start date Mapname	场景名称 BV V TV 失败 开始日期 地图名
+3477	0 Gela 1 1 1 LOSE 10 JUL 43 GELA	0 杰拉(Gela) 1 1 1 失败 43年7月10日 GELA
+3553	1 Etna Line 2 2 2 LOSE 7 AUG 43 NSICILY	1 埃特纳防线(Etna Line) 2 2 2 失败 43年8月7日 NSICILY
+3617	2 Sicily evacuation 3 3 3 LOSE 15 AUG 43 MESSINA	2 西西里撤退(Sicily evacuation) 3 3 3 失败 43年8月15日 MESSINA
+3681	3 Avalanche: The German Counterattack 14 4 4 4 9 SEP 43 SALERNO	3 雪崩行动：德军反击(Avalanche: The German Counterattack) 14 4 4 4 43年9月9日 SALERNO
+3745	4 Volturno Crossing 5 5 5 LOSE 12 OCT 43 VOLTURNO	4 渡过沃尔图诺河(Volturno Crossing) 5 5 5 失败 43年10月12日 VOLTURNO
+3809	5 Battle for Ortona 6 6 6 LOSE 27 NOV 43 GUSTAVEA	5 奥尔托纳之战(Battle for Ortona) 6 6 6 失败 43年11月27日 GUSTAVEA
+3873	6 First Battle for Cassino 7 7 7 LOSE 20 JAN 44 CASS2	6 第一次卡西诺之战(First Battle for Cassino) 7 7 7 失败 44年1月20日 CASS2
+3937	7 Anzio Beachhead: The German Offensive 15 15 15 LOSE 16 FEB 44 ANZIO	7 安齐奥滩头：德军攻势(Anzio Beachhead: The German Offensive) 15 15 15 失败 44年2月16日 ANZIO
+4001	8 Drive on Rome 9 9 9 LOSE 23 MAY 44 ROME	8 向罗马推进(Drive on Rome) 9 9 9 失败 44年5月23日 ROME
+4065	9 Gothic choice 10 11 11 9 20 AUG 44 EURO	9 哥特线的选择(Gothic choice) 10 11 11 9 44年8月20日 EURO
+4129	10 Arno and Gothic Line West 12 12 12 LOSE 25 AUG 44 GOTHICEX	10 阿尔诺河与哥特防线西段(Arno and Gothic Line West) 12 12 12 失败 44年8月25日 GOTHICEX
+4193	11 Gothic Line East 12 12 12 LOSE 25 AUG 44 GOTHICEA	11 哥特防线东段(Gothic Line East) 12 12 12 失败 44年8月25日 GOTHICEA
+4257	12 Operation Wintergewitter 13 13 13 13 26 DEC 44 SERCHIO	12 冬季风暴行动(Operation Wintergewitter) 13 13 13 13 44年12月26日 SERCHIO
+4321	13 The Spring Offensive WIN WIN WIN LOSE 13 APR 45 POVALLEY	13 春季攻势(The Spring Offensive) 胜 胜 胜 失败 45年4月13日 POVALLEY
+4385	14 Taranto Recapturing 4 4 4 4 25 SEP 43 TARANTO	14 重新夺取塔兰托(Taranto Recapturing) 4 4 4 4 43年9月25日 TARANTO
+4449	15 Choice 16 8 8 15 25 FEB 44 EURO	15 选择 16 8 8 15 44年2月25日 EURO
+4513	16 Anzio: The German Offensive 2 Part 17 17 17 9 26 FEB 44 ANZIO	16 安齐奥：德军攻势 第2部分(Anzio: The German Offensive 2 Part) 17 17 17 9 44年2月26日 ANZIO
+4577	17 Fourth Battle for Cassino WIN WIN WIN 9 11 MAY 44 CASS2	17 第四次卡西诺之战(Fourth Battle for Cassino) 胜 胜 胜 9 44年5月11日 CASS2
+4694	-Installation-	-安装-
+4795	Unzip all the files from the file named	把名为
+4801	?The Boot of death Gc English.zip	“The Boot of death Gc English.zip”
+4807	? into your main scenario folder, usually C:	“ 的文件全部解压到你的主场景文件夹，通常是 C:
+4809	PANZER	PANZER
+4811	SCENARIO.	SCENARIO。
+4902	-The e-file-	-装备文件-
+5001	This campaign uses the last version of the LG Efile (included with the zip). Unzip the files from	本战役使用最新版本的 LG 装备文件（已随 zip 附带）。把以下文件解压出来
+5007	?LG 1.01.zip	“LG 1.01.zip”
+5013	? into your main Panzer General 2, usually C:	“ 到你的主 Panzer General 2 目录，通常是 C:
+5015	PANZER2.	PANZER2。
+5109	This efile works with the last datup of AdlerKorps, get it from:	这个装备文件要与 AdlerKorps 的最新数据更新配合使用，可从以下地址获取：
+5226	http://www.medio.mh.se/~vonadler/pg2/	http://www.medio.mh.se/~vonadler/pg2/
+5301	or	或者
+5418	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+5549	Also, you need the V2.0 patch, get it from	另外，你还需要 V2.0 补丁，可从以下地址获取
+5628	http://go.to/panzergeneral2	http://go.to/panzergeneral2
+5665	or from	或者从
+5744	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+5863	-Maps-	-地图-
+5962	You can download all the maps needed for this campaign from;	本战役所需的全部地图都可以从以下地址下载；
+6079	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html	http://www.strategyplanet.com/panzergeneral/PG2Main_news.html
+6154	or	或者
+6271	http:/	http:/
+6297	es.geocities.com/latingenerals/	es.geocities.com/latingenerals/
+6378	or	或者
+6437	http://www.wargamer.com/pg2campaigns/steve/clearinghouse/pg2-mods_n_stuff.htm	http://www.wargamer.com/pg2campaigns/steve/clearinghouse/pg2-mods_n_stuff.htm
+6534	User Maps needed:	需要的用户地图：
+6613	Gela, North Sicily, Messina, Volturno, Gustav East, Cassino 2, Anzio, Rome, Gothic extended, Gothic East, Serchio, Po Valley, Taranto y Euro.	Gela、North Sicily、Messina、Volturno、Gustav East、Cassino 2、Anzio、Rome、Gothic extended、Gothic East、Serchio、Po Valley、Taranto 和 Euro。
+6715	-SMACKS-	-SMACKS-
+6815	The campaign use only original SSI smacks.	本战役只使用 SSI 原版 smacks。
+6915	-Finally...-	-最后……-
+7012	This files are FREE, we made it only for fun, and we hope you also take fun playing it	这些文件是免费的，我们做它只是为了好玩，也希望你玩得开心
+7069	Please, we would like if you email us, we'll know about if you enjoy the campaign, or if not.	请给我们发邮件吧，这样我们就知道你是否喜欢这个战役，还是不喜欢。
+7126	The authors are not responsible from any bad use or damaged caused by this files.	作者对这些文件造成的任何不当使用或损害不承担责任。
+7222	~MADE WITH LUIS GUZMAN	~用 LUIS GUZMAN 制作
+7225	?S PG2 SUITE~	的 PG2 Suite~
+7294	LatinGenerals	拉丁将军(LatinGenerals)

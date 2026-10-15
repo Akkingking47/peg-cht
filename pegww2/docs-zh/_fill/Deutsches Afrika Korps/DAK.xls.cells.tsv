@@ -1,0 +1,156 @@
+# Deutsches Afrika Korps\DAK.xls · 译文填写表：只改第五列（译文）
+工作表	行	列	原文	译文
+Book1	2	2	Deutsches Afrika Korps	德国非洲军
+Book1	3	2	Scenario	场景
+Book1	3	3	Map	地图
+Book1	3	4	Map #	地图#
+Book1	3	5	S. Fuertes	
+Book1	3	6	BV	辉煌胜利
+Book1	3	8	TV	战术胜利
+Book1	3	9	Loss	失败
+Book1	4	2	Beda Fomm - Benghazi	贝达富姆 — 班加西
+Book1	4	3	Benghazi	班加西
+Book1	4	5	DAK_DAK1	
+Book1	4	9	Loss	失败
+Book1	5	2	Halfaya Pass & Sollum Battle	哈勒法亚隘口与索卢姆之战
+Book1	5	3	Sollum	塞卢姆
+Book1	5	5	DAK_DAK2	
+Book1	5	9	Loss	失败
+Book1	6	2	Operation Crusader	十字军行动
+Book1	6	3	Bardia	拜尔迪耶
+Book1	6	5	DAK_DAK3	
+Book1	6	9	Loss	失败
+Book1	7	2	Mersa el Brega 1942	布赖加港 1942
+Book1	7	3	Agedabia	阿杰达比亚
+Book1	7	5	DAK_DAK4	
+Book1	7	9	Loss	失败
+Book1	8	2	Pursuit to Mechilli	向梅基利追击
+Book1	8	3	Benghazi	班加西
+Book1	8	5	DAK_DAK5	
+Book1	8	9	Loss	失败
+Book1	9	2	Gazala line (Unternehmen Theseus)	加扎拉防线 (Unternehmen Theseus)
+Book1	9	3	Gazala	加扎拉
+Book1	9	5	DAK_DAK6	
+Book1	9	9	Loss	失败
+Book1	10	2	Mersa Matruh	马特鲁港
+Book1	10	3	Matruh2	
+Book1	10	5	DAK_DAK7	
+Book1	11	2	Halam Halfa Battle	阿拉姆哈勒法之战
+Book1	11	3	Alamein	
+Book1	11	5	DAK_DAK8	
+Book1	12	2	El Alamein, Montgomery attack	阿拉曼，蒙哥马利进攻
+Book1	12	3	Alamein	
+Book1	12	5	DAK_DAK9	
+Book1	13	2	Choice1	Choice1
+Book1	13	3	Eurormy	
+Book1	13	5	DAK_Choice	
+Book1	14	2	Alexandria	亚历山大
+Book1	14	3	Alexandria	亚历山大
+Book1	14	5	DAK_SP1	
+Book1	15	2	Port Said: "Operation Rotterdam"	塞得港：「鹿特丹行动」
+Book1	15	3	Portsaid	
+Book1	15	5	DAK_SP2	
+Book1	16	2	El Cairo	开罗
+Book1	16	3	Cairo	开罗
+Book1	16	5	DAK_SP3	
+Book1	17	2	Suez Kanal	苏伊士运河
+Book1	17	3	Suez	苏伊士
+Book1	17	5	DAK_SP4	
+Book1	18	2	Battle of Kasserine Pass	卡塞林隘口之战
+Book1	18	3	Kasserin	
+Book1	18	5	DAK_DAKTU01	
+Book1	19	2	Bone	博讷
+Book1	19	3	Bona	博纳
+Book1	19	5	DAK_DAKTU02	
+Book1	20	2	Operation Herkules	海格力斯行动
+Book1	20	3	Malta	马耳他
+Book1	20	5	DAK_SP0	
+Book1	21	2	Choice2	Choice2
+Book1	21	3	Eurormy	
+Book1	21	5	DAK_SPChoice	
+Book1	22	2	El Arish	阿里什
+Book1	22	3	Elarish	
+Book1	22	5	DAK_SPE01	
+Book1	22	9	Loss	失败
+Book1	23	2	Tel Aviv	特拉维夫
+Book1	23	3	Telaviv	
+Book1	23	5	DAK_SPE02	
+Book1	23	9	Loss	失败
+Book1	24	2	Syria	叙利亚
+Book1	24	3	Damascus	大马士革
+Book1	24	5	DAK_SPE03	
+Book1	24	9	Loss	失败
+Book1	25	2	Baghdad	巴格达
+Book1	25	3	Baghdad2	
+Book1	25	5	DAK_SPE04	
+Book1	25	9	Loss	失败
+Book1	26	2	Teheran	德黑兰
+Book1	26	3	Tehran	德黑兰
+Book1	26	5	DAK_SPE05	
+Book1	26	6	Win	胜利
+Book1	26	7	Win	胜利
+Book1	26	8	Win	胜利
+Book1	26	9	Loss	失败
+Book1	27	2	Keren	克伦
+Book1	27	3	Keren	克伦
+Book1	27	5	DAK_SPS01	
+Book1	27	9	Loss	失败
+Book1	28	2	Massawa	马萨瓦
+Book1	28	3	Massawa	马萨瓦
+Book1	28	5	DAK_SPS02	
+Book1	28	9	Loss	失败
+Book1	29	2	Mogadishu	摩加迪沙
+Book1	29	3	Mogadi	
+Book1	29	5	DAK_SPS03	
+Book1	29	9	Loss	失败
+Book1	30	2	Mombasa	蒙巴萨
+Book1	30	3	Mombasa	蒙巴萨
+Book1	30	5	DAK_SPS04	
+Book1	30	6	Win	胜利
+Book1	30	7	Win	胜利
+Book1	30	8	Win	胜利
+Book1	30	9	Loss	失败
+Book1	31	2	Algiers	阿尔及尔
+Book1	31	3	Algiers	阿尔及尔
+Book1	31	5	DAK_SPTU01	
+Book1	31	9	Loss	失败
+Book1	32	2	Oran	奥兰
+Book1	32	3	Oran	奥兰
+Book1	32	5	DAK_SPTU02	
+Book1	32	9	Loss	失败
+Book1	33	2	Port Lyautey	利奥泰港
+Book1	33	3	Lyautey	
+Book1	33	5	DAK_SPTU03	
+Book1	33	9	Loss	失败
+Book1	34	2	Casablanca	卡萨布兰卡
+Book1	34	3	Casablan	
+Book1	34	5	DAK_SPTU04	
+Book1	34	6	Win	胜利
+Book1	34	7	Win	胜利
+Book1	34	8	Win	胜利
+Book1	34	9	Loss	失败
+Book1	35	2	Sidi Bou Zid	西迪布济德
+Book1	35	3	Maknassy	马克纳西
+Book1	35	5	DAK_TU01	
+Book1	36	2	Battle of Kasserine Pass	卡塞林隘口之战
+Book1	36	3	Kasserin	
+Book1	36	5	DAK_TU02	
+Book1	37	2	Bone	博讷
+Book1	37	3	Bona	博纳
+Book1	37	5	DAK_TU03	
+Book1	38	2	Medenine	梅德宁
+Book1	38	3	Medenine	梅德宁
+Book1	38	5	DAK_TU04	
+Book1	39	2	Mareth Line	马雷特防线
+Book1	39	3	Medenine	梅德宁
+Book1	39	5	DAK_TU05	
+Book1	40	2	Tunis	突尼斯
+Book1	40	3	Tunis	突尼斯
+Book1	40	5	DAK_TU06	
+Book1	40	6	Win	胜利
+Book1	40	7	Win	胜利
+Book1	40	8	Win	胜利
+Book1	40	9	Loss	失败
+Book1	44	6	Legend	图例
+Book1	44	8	Normal path	正常路径
+Book1	45	8	Alternative scenarios	备选场景

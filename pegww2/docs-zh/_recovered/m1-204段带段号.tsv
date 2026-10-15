@@ -1,0 +1,206 @@
+# Manual.rtf 手册翻译 · 第 1 片（段号 \t 原文 \t 译文）——只填第三列
+段号	原文	译文
+38	PeG-WW2	PeG-WW2
+46	WWII MODification for People's General	People's General 的二战 MOD
+54	Manual	手册
+64	Contents	目录
+75	Units	单位
+77	-Unit Attachments	-单位附件
+79	-Leader Abilities	-指挥官能力
+81	-Equipment Specials	-特种装备
+83	-Reinforcement Levels	-补充等级
+85	-Special Units	-特种单位
+87	-Prototypes	-原型
+89	Trigger Hexes	触发格
+91	Weather Conditions	天气状况
+93	Air Missions	空中任务
+95	Scenario Editor	场景编辑器
+97	Website	网站
+99	Troubleshooting	疑难解答
+109	Units	单位
+113	-Overview	-总览
+115	-Unit Attachments:	-单位附件：
+117	Unit attachments are a way to customize your forces beyond what was ever	单位附件是一种按自己意愿定制部队的方式，其自由程度超过了以往任何一款
+119	possible in any of the other General titles. Each unit is able to have	General 系列作品。每个单位最多可以分配两个附件，而这些分配
+121	up to two attachments assigned to it and these assignments can be changed	可以在战役进程中在场景之间更改。西方部队相对其东方对手
+123	in between scenarios during campaign play. Western forces, having a	拥有技术优势，因此
+125	technological advantage over their Eastern counterparts, can purchase these	购买这些附件只需 30 点威望，而中国玩家则需 50 点。
+127	attachments for 30 prestige points each instead of 50 for the Chinese player.	
+129	Some attachments aren't available for all units and won't be present on the	有些附件并非对所有单位可用，它们不会出现在
+131	requisition screen, or will simply be grayed out.	征募界面上，或者只是变为灰色不可选。
+135	Unit attachments are as follows:	单位附件如下：
+139	Recon	侦察
+144	+1 to spotting range, -1 to unit profile.	侦察范围 +1，单位轮廓 -1。
+148	Combat Engineer	战斗工兵
+150	+2 to close attack and defense value. Also entrenches	近战攻击与防御值 +2。构筑工事的速度也
+156	faster than normal.	快于正常。
+160	Air Defense	防空
+163	+2 to helicopter, air attack and to air defense.	对直升机、对空攻击以及对空防御 +2。
+167	Bridging*	架桥*
+170	Gives unit ability to cross river hexes as rough terrain.	使单位能够把河流格当作崎岖地形穿越。
+176	Also, allows unit to attack after entering a river hex.	此外，还允许单位在进入河流格后发起攻击。
+180	Helicopter	直升机
+183	+1 to spotting, +2 to hard attack value.	侦察 +1，硬目标攻击值 +2。
+187	Anti-tank	反坦克
+190	+4 hard attack.	硬目标攻击 +4。
+194	Combat Support**	战斗支援**
+196	+3 to Ammo and reinforcements aren't reduced during play	弹药 +3，并且在游戏过程中补充兵员不会减少，
+202	and are replaced to maximum over strength value.	而是补充到最大超编兵力值。
+206	Forward Observer	前沿观察员
+208	Gives artillery and defensive air support a +4 when	当炮兵和防御性空中支援攻击或支援与
+214	attacking and supporting against enemies adjacent to this	本单位相邻的敌人时，
+220	unit.	给予它们 +4。
+224	Special Munitions	特种弹药
+226	For Artillery only. +2 to soft and hard attack.	仅限炮兵。软目标与硬目标攻击 +2。
+230	*The bridging attachment is different from the bridging Equipment Special. The	*架桥附件与架桥特种装备不同。
+232	bridging Equipment Special allows you to cross over a river as 'rough terrain' and	架桥特种装备允许你以「崎岖地形」穿越河流，并且还允许你把
+234	it also allows you to place the unit on a river hex and the rest of your forces	单位放到河流格上，而你的其余部队可以在该单位
+236	may cross over while this unit is in place. The bridging attachment only allows	留在原地时渡河。架桥附件只允许携带该附件的
+238	the individual unit with the attachment to cross a river hex. If you place a unit	单个单位穿越河流格。如果你把一个携带架桥附件的
+240	with the bridging attachment over a river, your other troops may not cross over.	单位放到河流上，你的其它部队则不能渡河。
+244	**The first time you take replacements for a unit during a scenario, they replace	**在一个场景中，你第一次为单位补充兵员时，会补充到
+246	to 10 max (15 for Chinese infantry). The next time this unit takes on	最大 10（中国步兵为 15）。下一次该单位接受
+248	replacements, the unit will max out to 9 (14 for Chinese infantry) and each	补充时，单位的上限会降到 9（中国步兵为 14），此后
+250	subsequent turn you'll max out to one strength less. If the unit is equipped with	每过一个回合上限都会再少一点兵力。如果该单位装备了
+252	the Combat Support attachment, it will always replace to 10 (15 for Chinese	战斗支援附件，则始终补充到 10（中国步兵为
+254	infantry)	15）。
+258	-Leader Abilities	-指挥官能力
+260	When a unit is awarded a Leader, the unit gets two special abilities; one set	当单位获得一名指挥官时，该单位会得到两项特殊能力：一项是取决于
+262	unit ability dependant on the units class, and one random ability. For instance,	单位类别的固定能力，另一项是随机能力。例如，
+264	when a tank unit is awarded a Leader, the unit always gets the Aggressive Maneuver	当坦克单位获得一名指挥官时，该单位总会得到积极机动
+266	ability then one other random ability from the Random ability list. Below are the	能力，然后再从随机能力表中得到一项其它随机能力。以下是
+268	Unit Class abilities and then the Random Ability List:	单位类别能力，随后是随机能力表：
+272	Class Leader Abilities:	类别指挥官能力：
+280	Aggressive Maneuver:	积极机动：
+282	Tank unit class ability. Gives +1 to movement range.	坦克单位类别能力。移动范围 +1。
+286	Enhanced Radar:	增强雷达：
+288	Air Defense class ability. Gives +1 to weapon range.	防空类别能力。武器射程 +1。
+292	Force Recon:	强行侦察：
+295	Recon unit class ability. Gives +1 to spotting range.	侦察单位类别能力。侦察范围 +1。
+299	Multiple Fire Support:	多重火力支援：
+301	Artillery unit class ability. Unit may continue to	炮兵单位类别能力。只要单位还有弹药，
+307	support and counter-battery as long as it has ammo to	就可以持续进行支援和反炮兵
+313	do so.	射击。
+317	Stealth Pilot:	隐蔽飞行员：
+320	Helicopter unit class ability. Movement range not	直升机单位类别能力。移动范围不会
+326	reduced	因空中优势等级低
+328	due to low air superiority levels.	而减少。
+332	Tank Killer:	坦克杀手：
+335	Anti-tank unit class ability. Number of shots are not	反坦克单位类别能力。单位在射程 1 之外
+341	halved when unit fires beyond range 1.	开火时，射击次数不减半。
+345	Terrain Expert:	地形专家：
+347	Recon unit class ability. Gives +4 to Close attack and	侦察单位类别能力。近战攻击与
+353	defense values.	防御值 +4。
+357	Random Abilities:	随机能力：
+365	Aggressive Attack:	积极进攻：
+367	Available to all. Gives +2 to attack and defense when	对所有单位可用。发起攻击时攻击与防御
+373	initiating attack.	+2。
+377	Aggressive Maneuver:	积极机动：
+379	Available to all. +1 movement (cumulative with tank class	对所有单位可用。移动 +1（可与坦克类别
+386	leader bonus)	指挥官加成累加）
+390	All Weather Combat:	全天候作战：
+392	Only for helicopters. Number of shots are not halved in	仅限直升机。在暴风雨回合中射击次数
+398	storm turns.	不减半。
+402	Ambusher:	伏击者：
+405	Only infantry. If unit attacks in a close assault, then	仅限步兵。如果单位在近战突击中发起攻击，
+412	enemy gets no artillery support fire.	则敌方得不到炮兵支援射击。
+416	Blitzer:	闪击者：
+419	Not for tanks, ADA, or Arty. Grants the tank class	不适用于坦克、防空或炮兵。赋予坦克类别的
+425	overrun	击溃
+427	ability.	能力。
+431	Bridging:	架桥：
+434	Not for helicopters. Treat river and streams as rough	不适用于直升机。移动时把河流与溪流
+440	terrain	视为崎岖
+442	for movement.	地形。
+446	Camouflage Expert:	伪装专家：
+448	Available to all. -2 profile.	对所有单位可用。轮廓 -2。
+452	Defender:	防御者：
+455	Helicopters only. If unit is adjacent to both attacker	仅限直升机。如果单位同时与进攻方和
+461	and defender, then unit can provide support fire	防御方相邻，则单位可以提供支援射击
+467	(like artillery).	（类似炮兵）。
+471	Determined Defense:	坚定防御：
+473	Available to all. Get +2 to attack and defense when	对所有单位可用。防御时攻击与防御
+479	defending.	+2。
+483	Devastating Fire:	毁灭火力：
+485	Available to all. May shoot twice per turn.	对所有单位可用。每回合可以射击两次。
+489	Ferocious Defender:	凶猛防御者：
+491	For infantry, anti-tank, and ADA. Always gets	适用于步兵、反坦克和防空。无论敌人拥有何种
+498	entrenchment bonus no matter what specials and leaders	特种装备和指挥官，始终获得
+504	the enemy has.	工事加成。
+508	Fire Discipline:	射击纪律：
+510	Available to all. Use 1/2 shot each time in combat.	对所有单位可用。每次战斗只用 1/2 次射击。
+514	First Strike:	先发打击：
+517	Not available to ADA or Arty. Attacks before enemy unless	不适用于防空或炮兵。除非敌方拥有相同指挥官，
+523	enemy has same leader. Support fire, etc. still fire first.	否则先于敌方攻击。支援射击等仍然先开火。
+527	Ground Taker:	地面占领者：
+530	Not available to air, ADA, and Arty. Does 50% more	不适用于空中单位、防空和炮兵。多造成 50% 的
+536	suppression (which helps cause retreat).	压制（有助于迫使敌人撤退）。
+540	Infiltrator:	渗透者：
+543	Not for ADA, light infantry, or Arty. Ignores ZOCs.	不适用于防空、轻步兵或炮兵。忽略 ZOC。
+547	Influence:	影响力：
+550	Not available in scenario play. Available to all. Units	在场景游戏中不可用。对所有单位可用。单位
+556	can overstrength for free.	可以免费超编。
+560	Liberator:	解放者：
+563	(Not for helicopters) x2 prestige for capturing towns	（不适用于直升机）占领城镇获得 x2 威望
+567	Marksman:	神射手：
+570	Helicopters only. Gives +4 to attack value when attacking.	仅限直升机。攻击时攻击值 +4。
+574	Motivator:	激励者：
+577	Available to all. Adds unit's experience level to all	对所有单位可用。把单位的经验等级加给所有
+583	adjacent units. If unit is a ground unit, it supports ground	相邻单位。如果单位是地面单位，则只支援地面
+589	units only. If unit is air unit, it supports air units only.	单位。如果单位是空中单位，则只支援空中单位。
+593	Overwatch:	守望：
+596	Tanks only. Shoots at enemy units entering its Zone of	仅限坦克。向进入其控制区的敌方
+602	Control.	单位射击。
+606	Overwhelming Attack:	压倒性攻击：
+608	Not available to helicopters or ADA. Unit has slightly	不适用于直升机或防空。单位造成杀伤的
+614	better chance of causing kills.	几率略有提高。
+618	Rangers:	游骑兵：
+621	Only available to infantry. Forest, Rough, Hill, Mountain,	仅对步兵可用。移动时森林、崎岖地形、丘陵、山地
+627	and Jungle are treated as clear terrain for movement.	和丛林都视为开阔地形。
+631	Recon Movement:	侦察移动：
+633	Not available to recon or helicopters. Gives unit the recon	不适用于侦察或直升机。赋予单位侦察类别的
+639	class segmented movement power.	分段移动能力。
+643	Resilience:	坚韧：
+646	Available to all. Unit takes slightly less kills.	对所有单位可用。单位受到的杀伤略有减少。
+650	The Rock:	磐石：
+653	Not available to helicopters, ADA, or Arty. Unit will not	不适用于直升机、防空或炮兵。单位不会
+659	retreat.	撤退。
+663	Sharpshooter:	精准射手：
+666	Not for helicopters, ADA, Artillery, or anti tank units.	不适用于直升机、防空、炮兵或反坦克单位。
+672	Shots are not halved at long range.	远距离射击次数不减半。
+676	Shock Tactics:	震慑战术：
+679	Available to all. Does long term suppression. Suppression	对所有单位可用。造成长期压制。压制
+685	lasts all turn.	持续整个回合。
+689	Shoot and Scoot:	打了就跑：
+691	Only for artillery. Enemy does not get counterbattery fire	仅限炮兵。敌人无法对该单位进行
+697	at this unit.	反炮兵射击。
+701	Sixth Sense:	第六感：
+704	Not available to ADA or Arty. Unit can't be ambushed.	不适用于防空或炮兵。单位不会遭到伏击。
+708	Skilled Recon:	精良侦察：
+711	Available to all units. +1 spotting (cumulative with the	对所有单位可用。侦察 +1（可与侦察类别
+717	recon class leader bonus)	指挥官加成累加）
+721	Skirmisher:	游击兵：
+724	Not for artillery or ADA units. Before attack, the number of	不适用于炮兵或防空单位。攻击之前，对手的
+730	the opponents shots is reduced by two, but never put below 1.	射击次数减少两次，但绝不会降到 1 以下。
+734	Smart Gambler:	聪明赌徒：
+737	Available to all units. Combat losses for attacker will never	对所有单位可用。进攻方在战斗中的损失绝不会
+743	be more than displayed and casualties listed will at least be	超过显示值，而列出的伤亡至少会达到
+749	what was displayed prior to combat (except for hidden	战斗之前显示的值（隐蔽的支援单位
+755	supporting units like artillery)	如炮兵除外）
+759	Street Fighter:	街头战士：
+761	Not for helicopters, ADA, or Artillery. Ignores entrenchment	不适用于直升机、防空或炮兵。忽略城镇或港口中
+767	and terrain bonus of target in town or port. Automatically	目标的工事与地形加成。如果敌人撤退出去，
+773	follows up in city or port hex if enemy retreats out.	则自动跟进到城市或港口格中。
+777	Tunnel Rats:	坑道鼠：
+780	Only for infantry units. Ignores entrenchments and entrenches	仅限步兵单位。忽略工事，并且构筑工事
+786	at a faster rate than normal.	快于正常。
+790	Quartermaster:	军需官：
+793	Available to all units. Always may take replacements up to	对所有单位可用。始终可以补充兵员到
+799	base strength.	基础兵力。
+805	-Equipment Specials	-特种装备
+807	Some units in People's General have inherit capabilities that come with the unit when	People's General 中的一些单位带有随购买而来的固有
+809	purchased and don't need to be added later (like attachments can). You can tell units	能力，无需事后添加（而附件则可以）。你可以通过单位
+811	that have these equipment specials by the green equipment icons listed under the units	统计数据下方（在 "View Unit"（「查看单位」）界面中）列出的
+813	statistical data (in the 'View Unit' screen) The following specials are listed:	绿色装备图标来辨认拥有这些特种装备的单位。列出的特种装备如下：
+817	River Assault:	强渡：
+820	Units with this equipment special can cross river hexes as	拥有此特种装备的单位可以把河流格当作崎岖

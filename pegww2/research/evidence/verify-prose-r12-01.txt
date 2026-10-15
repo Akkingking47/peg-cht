@@ -1,0 +1,18 @@
+========================================================================================
+核验 _scn-fill-prose-r12-01.tsv   （todo 数据 600 行 / fill 数据 600 行）
+========================================================================================
+  ② 原文列不一致: 0 ✅
+  ③ 缺字段 0 / 空译文 0 / 译文含 TAB·换行 0 ✅
+  ④ 转义序列未保留: 0 ✅
+  ⑤ 疑似「原文照抄」（非元数据/型号）: 16 ⚠ 见下
+       Gameset: Germany East or West
+       Gameset: USA
+       Gameset: Germany West
+       Gameset: USSR
+       PeGWW2 conversion: Robert Mary, 02/2005
+       Gameset: SS Germany East or West
+       Gameset: Great Britain
+       Equipment: European'46 E-File
+  ⑥ 禁用译法命中: 0 ✅
+
+总判定: ✅ 可并入译法真源

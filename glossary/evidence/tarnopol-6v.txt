@@ -1,0 +1,11 @@
+# Tarnopol 第 7 个同族文件 · 落盘留痕
+文件	SCENARIO/RM_usvsruss6v.txt
+临时产物md5	95fad61d50b29bbd5bec3f2ec3d2a43b
+out md5	95fad61d50b29bbd5bec3f2ec3d2a43b
+game md5	95fad61d50b29bbd5bec3f2ec3d2a43b
+
+覆盖条目
+SCENARIO	RM_usvsruss6v.txt	0	Ternopil'	塔尔诺波尔
+SCENARIO	RM_usvsruss6v.txt	1	Ternopil'	塔尔诺波尔
+
+临时重建 vs out 内容不同文件数	1

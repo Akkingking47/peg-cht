@@ -1,0 +1,573 @@
+  1 | REDBALL'S E-FILE 3.0   system 1 19 Augus | REDBALL'S E-FILE 3.0   system 1 19 August 2007  (31 countries)
+  2 | M2A3 Bradley                             | M2A3 布雷德利
+  3 | M2A4 Bradley                             | M2A4 布雷德利
+  4 | Knight                                   | 骑士
+  5 | Light Inf 2001                           | 轻步兵 2001
+  6 | Special Forces                           | 特种部队
+  7 | Type 85/90                               | Type 85/90
+  8 | BTR-60                                   | BTR-60
+  9 | LAV-25                                   | LAV-25
+ 10 | National Guard                           | 国民警卫队
+ 11 | BMP-3                                    | BMP-3
+ 12 | BMP-4                                    | BMP-4
+ 13 | Marines                                  | 海军陆战队
+ 14 | Light Infantry                           | 轻步兵
+ 15 | Airborne Inf                             | 空降步兵
+ 16 | Conscript                                | 征召兵
+ 17 | Guerillas                                | 游击队
+ 18 | Type 95                                  | Type 95
+ 19 | Type 99                                  | Type 99
+ 20 | Type 05                                  | Type 05
+ 21 | Light Inf 2001                           | 轻步兵 2001
+ 22 | Special Forces                           | 特种部队
+ 23 | AMX-10P                                  | AMX-10P
+ 24 | Garrison                                 | 守备队
+ 25 | Guerillas                                | 游击队
+ 26 | BMP-2                                    | BMP-2
+ 27 | Light Infantry                           | 轻步兵
+ 28 | Leg Infantry                             | 徒步步兵
+ 29 | Guerillas                                | 游击队
+ 30 | BTR-80                                   | BTR-80
+ 31 | Light Infantry                           | 轻步兵
+ 32 | Leg Infantry                             | 徒步步兵
+ 33 | Guerillas                                | 游击队
+ 34 | KIFV                                     | KIFV
+ 35 | M2 Bradley                               | M2 布雷德利
+ 36 | Light Infantry                           | 轻步兵
+ 37 | Garrison                                 | 守备队
+ 38 | Inf-fragments                            | 步兵残部
+ 39 | M113A4                                   | M113A4
+ 40 | Light Infantry                           | 轻步兵
+ 41 | Garrison                                 | 守备队
+ 42 | Guerillas                                | 游击队
+ 43 | Marder 1A3                               | 黄鼠狼 1A3
+ 44 | Light Infantry                           | 轻步兵
+ 45 | Garrison                                 | 守备队
+ 46 | Stormer                                  | 风暴者
+ 47 | Light Infantry                           | 轻步兵
+ 48 | Garrison                                 | 守备队
+ 49 | AMX-10P                                  | AMX-10P
+ 50 | Foreign Legion                           | 外籍军团
+ 51 | Garrison                                 | 守备队
+ 52 | Type 89                                  | Type 89
+ 53 | Leg Infantry                             | 徒步步兵
+ 54 | M113A4                                   | M113A4
+ 55 | Garrison                                 | 守备队
+ 56 | Stormer                                  | 风暴者
+ 57 | Garrison                                 | 守备队
+ 58 | Spartan                                  | 斯巴达人
+ 59 | Light Infantry                           | 轻步兵
+ 60 | BTR-80                                   | BTR-80
+ 61 | SA-11 Gadfly                             | SA-11 牛虻
+ 62 | BMP-1                                    | BMP-1
+ 63 | BMP-2                                    | BMP-2
+ 64 | Engineer                                 | 工兵
+ 65 | LAV-150                                  | LAV-150
+ 66 | Roland 3                                 | 罗兰 3
+ 67 | Engineer                                 | 工兵
+ 68 | Gurkha                                   | 廓尔喀
+ 69 | AMX-13                                   | AMX-13
+ 70 | SA-17 Grizzly                            | SA-17 灰熊
+ 71 | Wiesel SAM                               | 鼬鼠 防空导弹
+ 72 | Stinger                                  | 毒刺
+ 73 | Engineer                                 | 工兵
+ 74 | Engineer                                 | 工兵
+ 75 | Type 85-III                              | Type 85-III
+ 76 | AMX-10P AT                               | AMX-10P AT
+ 77 | YW 551 AT                                | YW 551 反坦克
+ 78 | AMX-30B2                                 | AMX-30B2
+ 79 | LAV AT                                   | LAV 反坦克
+ 80 | LAV AT - TOW 2A                          | LAV 反坦克 - TOW 2A
+ 81 | M60A1                                    | M60A1
+ 82 | M1A3 Abrams                              | M1A3 艾布拉姆斯
+ 83 | M2A1 Schwarzkopf                         | M2A1 施瓦茨科普夫
+ 84 | M3A1 Powell                              | M3A1 鲍威尔
+ 85 | T90                                      | T90
+ 86 | T99                                      | T99
+ 87 | Type 90-II                               | Type 90-II
+ 88 | Type 99-I                                | Type 99-I
+ 89 | Type 05-I                                | Type 05-I
+ 90 | Type 07-I                                | Type 07-I
+ 91 | Type 07-II                               | Type 07-II
+ 92 | Challenger II                            | 挑战者 II
+ 93 | Challenger III                           | 挑战者 III
+ 94 | Leclerc                                  | 勒克莱尔
+ 95 | Leclerc II                               | 勒克莱尔 II
+ 96 | Leopard 2A5                              | 豹2A5
+ 97 | T-80U                                    | T-80U
+ 98 | Type 69                                  | Type 69
+ 99 | Leopard 1A4                              | 豹1A4
+100 | Type 88                                  | Type 88
+101 | Type 90                                  | Type 90
+102 | T-80                                     | T-80
+103 | T-80UD                                   | T-80UD
+104 | AMX-13 SM-1                              | AMX-13 SM-1
+105 | M3A3 Recon Squadron                      | M3A3 侦察中队
+106 | M3A4 Recon Squadron                      | M3A4 侦察中队
+107 | Trackwolf Scout                          | Trackwolf 侦察
+108 | TRACER Scout                             | TRACER 侦察
+109 | BRDM-1                                   | BRDM-1
+110 | BRDM-1 Scout                             | BRDM-1 侦察
+111 | WZ523 Scout                              | WZ523 侦察
+112 | Fuchs                                    | 狐式
+113 | Scimitar                                 | 弯刀
+114 | AMX-10RC                                 | AMX-10RC
+115 | PT-76                                    | PT-76
+116 | M109A6 Paladin                           | M109A6 圣骑士
+117 | Crusader                                 | 十字军
+118 | MLRS                                     | MLRS 多管火箭炮
+119 | TACMS 1A                                 | TACMS 1A
+120 | LTH 155mm                                | LTH 155mm
+121 | M777 155 LWH                             | M777 155 轻型榴弹炮
+122 | SO-152 Akatsiya                          | SO-152 金合欢
+123 | SO-122 Gvozdika                          | SO-122 康乃馨
+124 | BM-21                                    | BM-21
+125 | PLZ-45                                   | PLZ-45
+126 | Type 85                                  | Type 85
+127 | WS-1                                     | WS-1
+128 | 122 Air Mobile                           | 第122空中机动部队
+129 | Monitor                                  | 浅水重炮舰
+130 | M109                                     | M109
+131 | AS90                                     | AS90
+132 | PzH2000                                  | PzH2000
+133 | AS90-2                                   | AS90-2
+134 | GCT                                      | GCT
+135 | Kornet                                   | 短号
+136 | MLRS                                     | MLRS 多管火箭炮
+137 | FH 2000                                  | FH 2000
+138 | FH 70                                    | FH 70
+139 | M1977 SPH                                | M1977 自行榴弹炮
+140 | M46                                      | M46
+141 | MLRS                                     | MLRS 多管火箭炮
+142 | M198                                     | M198
+143 | M46                                      | M46
+144 | SO-122                                   | SO-122
+145 | SO-152                                   | SO-152
+146 | BM-21                                    | BM-21
+147 | M46                                      | M46
+148 | M46                                      | M46
+149 | BM-21                                    | BM-21
+150 | AH-66 Comanche                           | AH-66 科曼奇
+151 | AH-64A Apache                            | AH-64A 阿帕奇
+152 | AH-64D Longbow                           | AH-64D 长弓
+153 | Ka-50 Werewolf                           | Ka-50 狼人
+154 | Mi-24 Hind                               | Mi-24 雌鹿
+155 | Mi-28 Havoc                              | Mi-28 浩劫
+156 | Ka-52 Hokum                              | Ka-52 短吻鳄
+157 | WZ-9                                     | WZ-9
+158 | Ka-50 Werewolf                           | Ka-50 狼人
+159 | Tiger                                    | 虎式
+160 | WAH-64                                   | WAH-64
+161 | Patriot                                  | 爱国者
+162 | MIM-23 Hawk                              | MIM-23 霍克
+163 | M6 Linebacker                            | M6 后卫
+164 | Stinger                                  | 毒刺
+165 | Avenger                                  | 复仇者
+166 | Wiesel AT                                | 鼬鼠 反坦克
+167 | Roland 2                                 | 罗兰 2
+168 | Gepard 2                                 | 猎豹 2
+169 | Ozelot                                   | 豹猫
+170 | Stinger                                  | 毒刺
+171 | Stormer AD                               | 风暴者 防空
+172 | 2S6M Tunguska                            | 2S6M 通古斯卡
+173 | SA-8 Gecko                               | SA-8 壁虎
+174 | SA-10B Grumble                           | SA-10B 轰鸣
+175 | SA-13 Gopher                             | SA-13 金花鼠
+176 | Strela                                   | 箭式
+177 | LY-60                                    | LY-60
+178 | S-300 PMU1                               | S-300 PMU1
+179 | KS-1                                     | KS-1
+180 | HQ-7                                     | HQ-7
+181 | Bradley AT                               | 布雷德利 反坦克
+182 | Javelin                                  | 标枪
+183 | Milan                                    | 米兰
+184 | TRIGAT                                   | 崔格特
+185 | Marder AT                                | 黄鼠狼 反坦克
+186 | Red Arrow                                | 红箭
+187 | LOSAT                                    | LOSAT
+188 | YW-531b AT                               | YW-531b 反坦克
+189 | Scorpion AT                              | 蝎式 反坦克
+190 | Stormer AT                               | 风暴者 反坦克
+191 | VBL AD                                   | VBL 防空
+192 | YW-531a AT                               | YW-531a 反坦克
+193 | AMX-10P AT                               | AMX-10P AT
+194 | Bison                                    | 野牛
+195 | BRDM-3 AT                                | BRDM-3 AT
+196 | AV-8B Harrier                            | AV-8B 鹞
+197 | BRDM-1                                   | BRDM-1
+198 | F-16B Falcon                             | F-16B 战隼
+199 | B-2 Bomber                               | B-2 轰炸机
+200 | C-5                                      | C-5
+201 | UH-60L Blackhawk                         | UH-60L 黑鹰
+202 | F-15E                                    | F-15E
+203 | Su-25 Frogfoot                           | Su-25 蛙足
+204 | IL-76 Candid                             | IL-76 耿直
+205 | Mig-27 Flogger J                         | Mig-27 鞭挞者 J
+206 | Berkut                                   | 金雕
+207 | J-10                                     | J-10
+208 | JH-7                                     | JH-7
+209 | MI-17                                    | MI-17
+210 | IL-76B Candid                            | IL-76B 耿直
+211 | J-12                                     | J-12
+212 | Tornado                                  | 狂风
+213 | Harrier                                  | 鹞式
+214 | Tornado                                  | 狂风
+215 | Strela                                   | 箭式
+216 | Air Support                              | 空中支援
+217 | BRDM-1                                   | BRDM-1
+218 | A-10 Warthog                             | A-10 疣猪
+219 | DK-9                                     | DK-9
+220 | Strela                                   | 箭式
+221 | Air Support                              | 空中支援
+222 | Air Support                              | 空中支援
+223 | Air Support                              | 空中支援
+224 | F-16                                     | F-16
+225 | Guerillas                                | 游击队
+226 | Air Support                              | 空中支援
+227 | Air Support                              | 空中支援
+228 | Stinger                                  | 毒刺
+229 | Warrior AT                               | 武士 反坦克
+230 | MLRS                                     | MLRS 多管火箭炮
+231 | MLRS                                     | MLRS 多管火箭炮
+232 | ASLAV-25                                 | ASLAV-25
+233 | WAH-64                                   | WAH-64
+234 | Tiger                                    | 虎式
+235 | Scorpion AT                              | 蝎式 反坦克
+236 | WAH-64                                   | WAH-64
+237 | Scorpion                                 | 蝎式
+238 | Scorpion                                 | 蝎式
+239 | Stinger                                  | 毒刺
+240 | Stinger                                  | 毒刺
+241 | Strela                                   | 箭式
+242 | Stinger                                  | 毒刺
+243 | Mistral                                  | 西北风
+244 | J-11                                     | J-11
+245 | MI-17                                    | MI-17
+246 | Scorpion AT                              | 蝎式 反坦克
+247 | BRDM-2 AT                                | BRDM-2 AT
+248 | Bradley AT                               | 布雷德利 反坦克
+249 | Sappers                                  | 工兵
+250 | Type 87                                  | Type 87
+251 | Mi-24 Hind                               | Mi-24 雌鹿
+252 | Scorpion 90                              | 蝎式 90
+253 | I-2000                                   | I-2000
+254 | Guerillas                                | 游击队
+255 | Mi-25                                    | Mi-25
+256 | Mi-24 Hind                               | Mi-24 雌鹿
+257 | Strela                                   | 箭式
+258 | MLRS-1                                   | MLRS-1
+259 | VBL AT                                   | VBL 反坦克
+260 | Scorpion 90                              | 蝎式 90
+261 | Type 74                                  | Type 74
+262 | Type 75                                  | Type 75
+263 | Scorpion 90                              | 蝎式 90
+264 | KIFV                                     | KIFV
+265 | Stormer                                  | 风暴者
+266 | Condor                                   | 秃鹰
+267 | Shorland S53                             | Shorland S53
+268 | LAV-150                                  | LAV-150
+269 | Stinger                                  | 毒刺
+270 | Garrison                                 | 守备队
+271 | 155mm                                    | 155mm
+272 | BMP-1                                    | BMP-1
+273 | ZSU-23-4                                 | ZSU-23-4
+274 | 2S19                                     | 2S19
+275 | 2S19B                                    | 2S19B
+276 | BMD-3 AT                                 | BMD-3 AT
+277 | Metis                                    | 混血儿
+278 | T-80U                                    | T-80U
+279 | AMX-10P                                  | AMX-10P
+280 | Centurion Mk13                           | 百人队长 Mk13
+281 | LAV-200                                  | LAV-200
+282 | KIFV AD                                  | KIFV 防空
+283 | M110                                     | M110
+284 | M60A3                                    | M60A3
+285 | Type 88-II                               | Type 88-II
+286 | M60A3                                    | M60A3
+287 | M113A4                                   | M113A4
+288 | Piranha                                  | 食人鱼
+289 | Piranha                                  | 食人鱼
+290 | LAV-150                                  | LAV-150
+291 | LAV-150                                  | LAV-150
+292 | M110                                     | M110
+293 | LAV-150                                  | LAV-150
+294 | M109                                     | M109
+295 | M733                                     | M733
+296 | LAV-150                                  | LAV-150
+297 | Stingray II                              | 黄貂鱼 II
+298 | M163 Vulcan                              | M163 火神
+299 | Dragoon                                  | 龙骑兵
+300 | Scorpion                                 | 蝎式
+301 | Milan                                    | 米兰
+302 | Shorland S53                             | Shorland S53
+303 | M109A2                                   | M109A2
+304 | Type 63                                  | Type 63
+305 | YW531c                                   | YW531c
+306 | BRDM-2                                   | BRDM-2
+307 | ZSU-23-4                                 | ZSU-23-4
+308 | ZSU-23-2                                 | ZSU-23-2
+309 | SA-6 Gainful                             | SA-6 根弗
+310 | Sa-9 Gaskin                              | SA-9 灯笼裤
+311 | SA-6 Gainful                             | SA-6 根弗
+312 | Sa-9 Gaskin                              | SA-9 灯笼裤
+313 | Stealth                                  | 隐身战机
+314 | IL-76B Candid                            | IL-76B 耿直
+315 | MI-17                                    | MI-17
+316 | IL-76B Candid                            | IL-76B 耿直
+317 | MI-17                                    | MI-17
+318 | IL-76B Candid                            | IL-76B 耿直
+319 | MI-17                                    | MI-17
+320 | IL-76B Candid                            | IL-76B 耿直
+321 | MI-17                                    | MI-17
+322 | Blackhawk                                | 黑鹰
+323 | C-5                                      | C-5
+324 | Blackhawk                                | 黑鹰
+325 | C-5                                      | C-5
+326 | Blackhawk                                | 黑鹰
+327 | C-5                                      | C-5
+328 | Blackhawk                                | 黑鹰
+329 | C-5                                      | C-5
+330 | Blackhawk                                | 黑鹰
+331 | C-5                                      | C-5
+332 | Blackhawk                                | 黑鹰
+333 | C-5                                      | C-5
+334 | Blackhawk                                | 黑鹰
+335 | C-5                                      | C-5
+336 | Blackhawk                                | 黑鹰
+337 | C-5                                      | C-5
+338 | Blackhawk                                | 黑鹰
+339 | C-5                                      | C-5
+340 | Blackhawk                                | 黑鹰
+341 | C-5                                      | C-5
+342 | Blackhawk                                | 黑鹰
+343 | C-5                                      | C-5
+344 | IL-76B Candid                            | IL-76B 耿直
+345 | MI-17                                    | MI-17
+346 | Air Support                              | 空中支援
+347 | Air Support                              | 空中支援
+348 | HIMARS                                   | HIMARS
+349 | Mi-35                                    | Mi-35
+350 | Air Support                              | 空中支援
+351 | Air Support                              | 空中支援
+352 | Air Support                              | 空中支援
+353 | Air Support                              | 空中支援
+354 | Air Support                              | 空中支援
+355 | Corps HQ                                 | 军司令部
+356 | Division HQ                              | 师司令部
+357 | Division HQ                              | 师司令部
+358 | Division HQ                              | 师司令部
+359 | Division HQ                              | 师司令部
+360 | Division HQ                              | 师司令部
+361 | 2S6M Tunguska                            | 2S6M 通古斯卡
+362 | Badger                                   | 獾式
+363 | Type 99                                  | Type 99
+364 | Ka-50 Werewolf                           | Ka-50 狼人
+365 | UH-60L Blackhawk                         | UH-60L 黑鹰
+366 | C-5                                      | C-5
+367 | F-16 Falcon                              | F-16 战隼
+368 | TRACER II Scout                          | TRACER II 侦察
+369 | Ka-50B Werewolf                          | Ka-50B 狼人
+370 | AH-69 Seminole                           | AH-69 塞米诺尔
+371 | SA-13 Gopher                             | SA-13 金花鼠
+372 | M104 Wolverine                           | M104 狼獾
+373 | Bridging Unit                            | 架桥单位
+374 | Division HQ                              | 师司令部
+375 | Marines                                  | 海军陆战队
+376 | Seal Team                                | 海豹小队
+377 | 101 Air Assault                          | 第101空中突击师
+378 | LHA-1 Assault Ship                       | LHA-1 两栖攻击舰
+379 | M220 TOW 2A                              | M220 TOW 2A
+380 | F-22 Raptor                              | F-22 猛禽
+381 | Submarine                                | 潜艇
+382 | Cruiser                                  | 巡洋舰
+383 | Light Cruiser                            | 轻巡洋舰
+384 | Heavy Cruiser                            | 重巡洋舰
+385 | Cruiser                                  | 巡洋舰
+386 | Light Cruiser                            | 轻巡洋舰
+387 | Heavy Cruiser                            | 重巡洋舰
+388 | BB Iowa                                  | BB 衣阿华
+389 | AH-1W Super Cobra                        | AH-1W 超级眼镜蛇
+390 | Seawolf/Harpoon                          | 海狼/鱼叉
+391 | F-16 Falcon                              | F-16 战隼
+392 | JH-7 Fighter                             | JH-7 战斗轰炸机
+393 | J-10 Fighter                             | J-10 战斗机
+394 | FMC M163A1 Vulcan                        | FMC M163A1 火神
+395 | C-5B Galaxy                              | C-5B 银河
+396 | C-17 Globemaster                         | C-17 环球霸王
+397 | A-10 Warthog                             | A-10 疣猪
+398 | LCAC Supply Ship                         | LCAC 补给船
+399 | LHD-1 Assault Ship                       | LHD-1 两栖攻击舰
+400 | AAVP7A1                                  | AAVP7A1
+401 | M109A6 Paladin                           | M109A6 圣骑士
+402 | 155 mm                                   | 155 mm
+403 | 105 mm                                   | 105 mm
+404 | Abrams M1A1                              | M1A1 艾布拉姆斯
+405 | Patriot                                  | 爱国者
+406 | Light Infantry                           | 轻步兵
+407 | LAV                                      | LAV
+408 | M3A3                                     | M3A3
+409 | LAV AT                                   | LAV 反坦克
+410 | Aegis Cruiser                            | 宙斯盾巡洋舰
+411 | Ming Type 35                             | 明级 35
+412 | Light Inf 2008                           | 轻步兵 2008
+413 | Type 7-III                               | Type 7-III
+414 | BRDM-2                                   | BRDM-2
+415 | Fort                                     | 要塞
+416 | Stryker Infantry                         | 斯特赖克 步兵
+417 | Fort                                     | 要塞
+418 | Fort                                     | 要塞
+419 | Fort                                     | 要塞
+420 | Fort                                     | 要塞
+421 | People's Militia                         | 民兵
+422 | J-10 Fighter ASW                         | J-10 战斗机 反潜
+423 | Leg Infantry                             | 徒步步兵
+424 | Bunker                                   | 碉堡
+425 | 75th Rangers Reg                         | 第75游骑兵团
+426 | Marine Recon                             | 陆战队侦察队
+427 | Ground Transport                         | 地面运输
+428 | Engineer                                 | 工兵
+429 | Marder 2A                                | 黄鼠狼 2A
+430 | J-10 Fighter                             | J-10 战斗机
+431 | Light Inf 2010                           | 轻步兵 2010
+432 | Type 05b                                 | Type 05b
+433 | Mujahdin Mortar                          | 圣战者 迫击炮
+434 | Mujahidin 105mm                          | 圣战者 105mm
+435 | Stinger                                  | 毒刺
+436 | Scout                                    | 侦察兵
+437 | Mujahidin 155mm                          | 圣战者 155mm
+438 | AH-64 Apache                             | AH-64 阿帕奇
+439 | Armored Infantry                         | 装甲步兵
+440 | CH-47D Chinook                           | CH-47D 支奴干
+441 | Type 93                                  | Type 93
+442 | Bridging Engnrs                          | 架桥工兵
+443 | M60A1 AVLB                               | M60A1 装甲架桥车
+444 | Patriot                                  | 爱国者
+445 | Gunboat                                  | 炮艇
+446 | Shanghai V                               | 上海 V
+447 | LAV AT - TOW 2B                          | LAV 反坦克 - TOW 2B
+448 | M1045 TOW                                | M1045 TOW
+449 | Minefield                                | 雷场
+450 | Bunker                                   | 碉堡
+451 | Heavy Bunker                             | 重型碉堡
+452 | Tank Traps                               | 反坦克桩
+453 | Bunker                                   | 碉堡
+454 | Heavy Bunker                             | 重型碉堡
+455 | Tank Traps                               | 反坦克桩
+456 | Bunker                                   | 碉堡
+457 | Heavy Bunker                             | 重型碉堡
+458 | M220 TOW FF                              | M220 TOW FF
+459 | LOSAT II                                 | LOSAT II
+460 | CVN Charles de Gaulle                    | CVN 戴高乐
+461 | CVN Kusnetzov                            | CVN 库兹涅佐夫
+462 | FFG Floreal                              | FFG 花月
+463 | CVN Mao                                  | CVN 毛
+464 | DDG Luda                                 | DDG 旅大
+465 | M1128 Mobile Gun                         | M1128 机动火炮
+466 | CG Ticonderoga                           | CG 提康德罗加
+467 | DD Arleigh Burke                         | DD 阿利·伯克
+468 | CVN Roosevelt                            | CVN 罗斯福
+469 | CG Bunker Hill                           | CG 邦克山
+470 | CGN Kirov                                | CGN 基洛夫
+471 | CG Slava                                 | CG 光荣
+472 | CG Udaloy                                | CG 无畏
+473 | CG Kara                                  | CG 卡拉
+474 | FFG Krivak                               | FFG 克里瓦克
+475 | CV Foch                                  | CV 福煦
+476 | Los Angeles Class [X]                    | 洛杉矶级 [X]
+477 | CV Invincible                            | CV 无敌
+478 | LPH Tarawa                               | LPH 塔拉瓦
+479 | Akula [X]                                | 阿库拉 [X]
+480 | DD Kongo                                 | DD 金刚
+481 | Sea Mines                                | 水雷
+482 | Minesweeper                              | 扫雷舰
+483 | Shanghai V                               | 上海 V
+484 | DD Spruance                              | DD 斯普鲁恩斯
+485 | FFG O H Perry                            | FFG 佩里
+486 | FFG Tang                                 | FFG 唐
+487 | FFG Lafayette                            | FFG 拉法耶特
+488 | FFG Arriyad                              | FFG 利雅得
+489 | FFG Kang Ting                            | FFG 康定
+490 | FFG Brandenburg                          | FFG 勃兰登堡
+491 | FFG Godvari                              | FFG 戈达瓦里
+492 | FFG Maestrale                            | FFG 密斯特拉尔
+493 | FFG Abukuma                              | FFG 阿武隈
+494 | FFG Amazon                               | FFG 亚马逊
+495 | FFG Broadsword                           | FFG 大刀
+496 | FFG Duke                                 | FFG 公爵
+497 | DDG Luhu                                 | DDG 旅沪
+498 | DDG Suffren                              | DDG 絮弗伦
+499 | DDG Cassard                              | DDG 卡萨尔
+500 | DDG Rajput                               | DDG 拉杰普特
+501 | DDG De La Penne                          | DDG 德拉潘内
+502 | DDG Haruna                               | DDG 榛名
+503 | DDG Tachikaze                            | DDG 太刀风
+504 | DDG Hatsuyuki                            | DDG 初雪
+505 | DDG Asagiri                              | DDG 朝雾
+506 | DDG Murasame                             | DDG 村雨
+507 | CG Sovremenny                            | CG 现代
+508 | CG Udaloy II                             | CG 无畏 II
+509 | CV Garibaldi                             | CV 加里波第
+510 | CV Chakri Nareubet                       | CV 查克里·纳吕贝特
+511 | CVN Churchill                            | CVN 丘吉尔
+512 | CVN Enterprise                           | CVN 企业
+513 | CV Kitty Hawk                            | CV 小鹰
+514 | Han [X]                                  | 汉级 [X]
+515 | CG Sovremenny                            | CG 现代
+516 | DDG Delhi                                | DDG 德里
+517 | CV Akbar                                 | CV 阿克巴
+518 | CV Viraat                                | CV 维拉特
+519 | CVN Jefferson                            | CVN 杰斐逊
+520 | DDG Luhai                                | DDG 旅海
+521 | Kwang Hwa                                | 光华
+522 | Seawolf/Tomahawk                         | 海狼/战斧
+523 | Fast Support Ship                        | 快速支援舰
+524 | SH-2G Sea Sprite                         | SH-2G 海妖
+525 | JH-7b Fighter                            | JH-7b 战斗轰炸机
+526 | F-16A Falcon                             | F-16A 战隼
+527 | LCAC Amphib Tran                         | LCAC 两栖运输
+528 | LCAC Transport                           | LCAC 运输
+529 | Light Inf 2001                           | 轻步兵 2001
+530 | LRRP                                     | 远程侦察队
+531 | Guerillas                                | 游击队
+532 | Air Assault Marines                      | 空中突击陆战队
+533 | Supply Truck                             | 补给卡车
+534 | OH-58D                                   | OH-58D
+535 | Minefield                                | 雷场
+536 | Bunker                                   | 碉堡
+537 | Heavy Bunker                             | 重型碉堡
+538 | Tank Traps                               | 反坦克桩
+539 | Bunker                                   | 碉堡
+540 | Heavy Bunker                             | 重型碉堡
+541 | Tank Traps                               | 反坦克桩
+542 | Bunker                                   | 碉堡
+543 | Heavy Bunker                             | 重型碉堡
+544 | Tank Traps                               | 反坦克桩
+545 | F-14 Tomcat                              | F-14 雄猫
+546 | M3A3 Scout                               | M3A3 侦察
+547 | HMMWV Scout                              | HMMWV 侦察
+548 | HMMWV Troop                              | HMMWV 运兵
+549 | Stryker ATGM                             | 斯特赖克 反坦克导弹
+550 | Stryker Engineer                         | 斯特赖克 工兵
+551 | LTH 155mm                                | LTH 155mm
+552 | Light Inf 2010                           | 轻步兵 2010
+553 | M1A2 Abrams                              | M1A2 艾布拉姆斯
+554 | M1A2 Abrams                              | M1A2 艾布拉姆斯
+555 | M1A3 Abrams                              | M1A3 艾布拉姆斯
+556 | M777 155 Howitzer                        | M777 155 榴弹炮
+557 | LTH 155-rocket                           | LTH 155 火箭炮
+558 | LTH 155-rocket                           | LTH 155 火箭炮
+559 | AAAV Amphib Assault                      | AAAV 两栖突击车
+560 | F-16B Falcon                             | F-16B 战隼
+561 | MLRS-1 (counter battery)                 | MLRS-1（炮火压制）
+562 | Stryker Scout                            | 斯特赖克 侦察
+563 | M113 Gavin                               | M113 加文
+564 | BRDM-1 Screen                            | BRDM-1 Screen
+565 | WZ523 Screen                             | WZ523 掩护
+566 | AH-1Z Viper                              | AH-1Z 蝰蛇
+567 | AC-130U Spooky Gunship                   | AC-130U 幽灵炮艇机
+568 | 15th Airborne                            | 第15空降师
+569 | Motorized Infantry                       | 摩托化步兵
+570 | Type 63A                                 | Type 63A
+571 | Light Infantry 2009                      | 轻步兵 2009
+572 | M1A2 Abrams TUSK                         | M1A2 艾布拉姆斯 TUSK
+573 |                                          | 

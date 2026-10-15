@@ -1,0 +1,84 @@
+# Boot of Death\IT.xls · 表格文字格抽取（工作表 \t 行 \t 列 \t 原文）
+工作表	行	列	原文
+Book1	2	2	Scenario
+Book1	2	3	Map
+Book1	2	4	Map #
+Book1	2	5	P Schlegel
+Book1	2	6	BV
+Book1	2	8	TV
+Book1	2	9	Loss
+Book1	3	2	Gela
+Book1	3	3	Gela
+Book1	3	5	ita01
+Book1	3	9	Loss
+Book1	4	2	Etna Line
+Book1	4	3	Nsicily
+Book1	4	5	ita02
+Book1	4	9	Loss
+Book1	5	2	Sicily Evacuation
+Book1	5	3	Messina
+Book1	5	5	ita03
+Book1	5	9	Loss
+Book1	6	2	Avalanche: the German Counterattack
+Book1	6	3	Salerno
+Book1	6	5	ita04
+Book1	7	2	Volturno Crossing
+Book1	7	3	Volturno
+Book1	7	5	ita05
+Book1	7	9	Loss
+Book1	8	2	Battle for Ortona
+Book1	8	3	Gustavea
+Book1	8	5	ita06
+Book1	8	9	Loss
+Book1	9	2	First Battle for Cassino
+Book1	9	3	Cass2
+Book1	9	5	ita07
+Book1	9	9	Loss
+Book1	10	2	Anzio Beachhead: the German offensive
+Book1	10	3	Anzio
+Book1	10	5	ita08
+Book1	10	9	Loss
+Book1	11	2	Drive on Rome
+Book1	11	3	Rome
+Book1	11	5	ita09
+Book1	11	9	Loss
+Book1	12	2	Gothic Choice
+Book1	12	3	Euro
+Book1	12	5	ita10
+Book1	13	2	Arno and Gothic Line West
+Book1	13	3	Gothicex
+Book1	13	5	ita11
+Book1	13	9	Loss
+Book1	14	2	Gothic Line East
+Book1	14	3	Gothicea
+Book1	14	5	ita12
+Book1	14	9	Loss
+Book1	15	2	Operation Wintergewitter
+Book1	15	3	Serchio
+Book1	15	5	ita13
+Book1	16	2	The Spring Offensive
+Book1	16	3	Povalley
+Book1	16	5	ita14
+Book1	16	6	Win
+Book1	16	7	Win
+Book1	16	8	Win
+Book1	16	9	Loss
+Book1	17	2	Taranto Recapturing
+Book1	17	3	Taranto
+Book1	17	5	ita15
+Book1	18	2	Choice
+Book1	18	3	Euro
+Book1	18	5	ita16
+Book1	19	2	Anzio Beachhead: the German Offensive Part 2
+Book1	19	3	Anzio
+Book1	19	5	ita17
+Book1	20	2	Fourth Battle for Cassino
+Book1	20	3	Cass2
+Book1	20	5	ita18
+Book1	20	6	Win
+Book1	20	7	Win
+Book1	20	8	Win
+Book1	22	5	Legend
+Book1	22	7	Normal path
+Book1	23	7	Alternative scenarios
+Book1	24	7	Alternative scenarios

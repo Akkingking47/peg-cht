@@ -1,0 +1,3 @@
+  词库门 未过：缺失 1 · 新增偏离 0 · 自基线变动层表 1
+     ⚠️ 层表已变（对应成品需重建）：pegww2/research/WW2Tips-map.tsv
+  ⛔ 词库门未过 ⇒ 拒绝构建（先跑 work/glossary/layer_gate.py --full 看明细）

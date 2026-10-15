@@ -1,0 +1,654 @@
+line	GUI97.TXT	GUI97.DEU	GUI97.FRA	GUI98.TXT	GUISA.txt	GUISP.TXT	Gui030.txt	Gui031.txt
+1	United States	Österrceich	Autriche	United States	United States	United States	United States	United States
+2	Russia	Belgien	Belgique	Russia	Russia	Russia	Russia	Russia
+3	China	Bulgarien	Bulgarie	China 	China 	China 	China	China
+4	Vietnam	die Tschechloslovakei	Czech	Islamic Coalition	Vietnam	Islamic Coalitian	Vietnam	Vietnam
+5	North Korea	Dänemark	Danemark	N. Korea / Mong. / Viet.	N. Korea	N. Korea / Mong/ Viet	North Korea	North Korea
+6	South Korea	Finland	Finlande	South Korea	South Korea	South Korea	South Korea	South Korea
+7	Thailand	Frankreich	France	E. European Block	Thailand	E. Euro-Bloc: Rom/Czech/Hun/Ukr	Thailand	Thailand
+8	Germany	Deutschland	Allemagne	Germany	Germany	Germany	Germany	Germany
+9	United Kingdom	Griechenland	Grèce	United Kingdom	United Kingdom	United Kingdom	United Kingdom	United Kingdom
+10	France	die USA	USA	France	France	France	France	France
+11	Japan	Ungarn	Hongrie	Japan	Japan	Japan	Japan	Japan
+12	Singapore	die Turkei	Turquie	SE Asia:Sing/Aus/Thai/Mal	Singapore	SE Asia:Sing/ Indo/ Aus/ Thai/ Mal	Singapore	Singapore
+13	Indonesia	Italien	l'Italie	Sweden / Finland	Indonesia	Sweden/ Finn/ Nor	Indonesia	Indonesia
+14	Australia	Die Nederlande	les Pays-Bas	Israel	Australia	Israel	Australia	Australia
+15	Mongolia	Norwegen	Norvège	Iraq / Iran	Mongolia	Iran	Mongolia	Mongolia
+16	Taiwan	Polen	Poland	Taiwan	Taiwan	Taiwan	Taiwan	Taiwan
+17	Ukraine	Portugal	Portugal	C.I.S.	E. European Block	Turkey	Ukraine	Ukraine
+18	Kazakhstan	Rumanien	Roumanie	India	India	India	Kazakhstan	Kazakhstan
+19	Malaysia	Spainien	l'Espagne	Italy	Turkey	Pakistan	Malaysia	Malaysia
+20	United Nations	Russland	Russie	United Nations	United Nations / Israel	United Nations	United Nations	United Nations
+21	Recon	Sweden	Suède	Recon	Recon	Recon	India	India
+22	Combat Engineer	die Schweiz	la Suisse	Combat Engineer	Combat Engineer	Combat Engineer	Pakistan	Pakistan
+23	Air Defense	Großbritannien	Grande-Bretagne	Air Defense	Air Defense	Air Defense	Iran	Iran
+24	Bridging	Yugoslavien	Yugoslavie	Bridging	River Assault	Bridging	Israel	Israel
+25	Helicopter	Nationalist	Nationaliste	Ground Attack	Helicopter	Ground Attack	Arab League	Arab League
+26	Anti-tank	Republican	Republicaine	Anti-tank	Anti-tank	Anti-tank	Brazil	Chechnya
+27	Combat Support	Achse:	Axe	Combat Support	Combat Support	Combat Support	Mexico	Azerbaidjan
+28	Forward Observer	Alliierte:	Alliés	Forward Observer	Forward Observer	Forward Observer	Venezuela	Islamic Coalition
+29	Special Munitions	Großartiger Sieg	Victoire fracassante	Advanced Munitions	Special Munitions	Advanced Munitions	Myanmar	Myanmar
+30	Airmobile	Sieg	Victoire	Airmobile	Airmobile	Airmobile	US Marine Corps	US Marine Corps
+31	Airliftable	Wenig-bedeutender Sieg	Petite victoire	Airliftable	Airliftable	Airliftable	Rebels	Afghanistan
+32	No Country	Verlust	Perte	No Country	No Country	No Country	No Country	No Country
+33	Eastern	Es ist ein Unentschieden.	Egalité.	Eastern	Eastern	Eastern	Eastern	Eastern
+34	Western	Nächste Einheit	Unité suivante	Western	Western	Western	Western	Western
+35	Brilliant Victory	Zug abbrechen	Annuler le déplacement	Brilliant Victory	Brilliant Victory	Brilliant Victory	Brilliant Victory	Brilliant Victory
+36	Victory	Beladen / Entladen	Monter / Démonter	Victory	Victory	Victory	Victory	Victory
+37	Tactical Victory	Einschiffen / Ausschiffen	Embarquer/ Débarquer	Tactical Victory	Tactical Victory	Tactical Victory	Tactical Victory	Tactical Victory
+38	Loss	Nachschub	Ravitaillement	Loss	Loss	Loss	Loss	Loss
+39	It's A Draw - 	Ersatz schicken	Remplacements	It's A Draw - 	It's A Draw - 	It's A Draw - 	It's A Draw - 	It's A Draw - 
+40	Next Unit	Einheit kaufen	Achat	Next Unit	Next Unit	Next Unit	Next Unit	Next Unit
+41	Cancel Move	Truppen inspizieren	Inspecter les forces	Cancel Move	Cancel Move	Cancel Move	Cancel Move	Cancel Move
+42	Mount - Dismount	Luftmodus	Mode aérien	Mount - Dismount	Mount - Dismount	Mount - Dismount	Mount - Dismount	Mount - Dismount
+43	Air Transport	Strategische Karte	Carte stratégique	Air Transport	Air Transport	Air Transport	Air Transport	Air Transport
+44	Supply	Laden / Speichern	Charger / Sauvegarder	Supply	Supply	Supply	Supply	Supply
+45	Replacements	Zusätzliche Optionen	Options supplémentaires	Replacements	Replacements	Replacements	Replacements	Replacements
+46	Requisition Unit	Unterhaltung	Dialogue	Requisition Unit	Requisition Unit	Requisition Unit	Requisition Unit	Requisition Unit
+47	Field Headquarters	Spielanleitung	Comment jouer	Field Headquarters	Field Headquarters	Field Headquarters	Field Headquarters	Field Headquarters
+48	Air Mode	Zug beenden	Finir le tour	Air Mode	Air Mode	Air Mode	Air Mode	Air Mode
+49	Strategic Map	Dossier	Dossier	Strategic Map	Strategic Map	Strategic Map	Strategic Map	Strategic Map
+50	Game Functions	Hexfelder anzeigen	Afficher territoires	Game Functions	Game Functions	Game Functions	Game Functions	Game Functions
+51	Additional Options	Audio-Einstellungen	Paramètres audio	Additional Options	Additional Options	Additional Options	Additional Options	Additional Options
+52	Chat	Per E-Mail spielen	Jouer via e-mail	Chat	Chat	Chat	Chat	Chat
+53	How To Play The Game - 	Video	Magnétoscope	How To Play The Game - 	How To Play The Game - 	How To Play The Game - 	How To Play The Game - 	How To Play The Game - 
+54	End Turn	Zug abspielen	Rejouer le tour	End Turn	End Turn	End Turn	End Turn	End Turn
+55	Dossier	Vollbild	Plein écran	Dossier	Dossier	Dossier	Dossier	Dossier
+56	Show Hexsides	Terrain anzeigen	Afficher le terrain	Show Hexsides	Show Hexsides	Show Hexsides	Show Hexsides	Show Hexsides
+57	Audio Settings	Spiel beenden	Quitter le jeu	Audio Settings	Audio Settings	Audio Settings	Audio Settings	Audio Settings
+58	Play By EMail	Gold Coins	Gold Coins	Play By EMail	Play By EMail	Play By EMail	Play By EMail	Play By EMail
+59	VCR	Unit Soft	Unit Soft	VCR	VCR	VCR	VCR	VCR
+60	Replay Turn	Unit Hard	Unit Hard	Replay Turn	Replay Turn	Replay Turn	Replay Turn	Replay Turn
+61	Full Screen	Unit Air	Unit Air	Full Screen	Full Screen	Full Screen	Full Screen	Full Screen
+62	Show Terrain	Unit Naval	Unit Naval	Show Terrain/Hide Units	Show Terrain	Show Terrain/Hide Units	Show Terrain	Show Terrain
+63	Exit Game	Treibstoff	Carburant	Exit Game	Exit Game	Exit Game	Exit Game	Exit Game
+64	Inspect Unit	Munition	Munitions	Inspect Unit	Inspect Unit	Inspect Unit	Inspect Unit	Inspect Unit
+65	Go To Unit	Reichweite	Portée	Go To Unit	Go To Unit	Go To Unit	Go To Unit	Go To Unit
+66	Overstrength Unit	Initiative	Initiative	Overstrength Unit	Overstrength Unit	Overstrength Unit	Overstrength Unit	Overstrength Unit
+67	Upgrade Unit	Sichtweite	Portée de vue	Upgrade Unit	Upgrade Unit	Upgrade Unit	Upgrade Unit	Upgrade Unit
+68	Reassign Unit	Move Sea	Move Sea	Reassign Unit	Reassign Unit	Reassign Unit	Reassign Unit	Reassign Unit
+69	Undo Last Action	Move Wheeled	Move Wheeled	Undo Last Action	Undo Last Action	Undo Last Action	Undo Last Action	Undo Last Action
+70	Gold Coins - 	Move All Terrain	Move All Terrain	Gold Coins - 	Gold Coins - 	Gold Coins - 	Gold Coins - 	Gold Coins - 
+71	Soft Target	Move Air	Move Air	Soft Target	Soft Target	Soft Target	Soft Target	Soft Target
+72	Hard Target	Move Half Track	Move Half Track	Hard Target	Hard Target	Hard Target	Hard Target	Hard Target
+73	Air Unit	Move Towed	Move Towed	Air Unit	Air Unit	Air Unit	High altitude air target	High altitude air target
+74	Helicopter Unit	Move Tracked	Move Tracked	Helo or Aircraft Unit	Helicopter Unit	Helo or Aircraft Unit	Helo or naval target	Helo or naval target
+75	Close Defense	Move Leg	Move Leg	Close Defense	Close Defense	Close Defense	Close Defense	Close Defense
+76	Ammo	Angriff auf harte Ziele	Attaque lourde	Ammo	Ammo	Ammo	Ammo	Ammo
+77	Range	Angriff auf weiche Ziele	Attaque légère	Range	Range	Range	Fire Range	Fire Range
+78	Close Attack	Angriff auf Luftziele	Attaque aérienne	Close Attack	Close Attack	Close Attack	Close Attack	Close Attack
+79	Spotting Range	Angriff auf Seeziele	Attaque naval	Spotting Range	Spotting Range	Spotting Range	Spotting Range	Spotting Range
+80	Sea Movement	Bodenverteidigung 	Défense terrestre	Sea Movement	unused	Sea Movement	unused	unused
+81	Wheeled Movement	Luftangriffverteidigung	Défense aérienne	Wheeled Movement	unused   GUI97.TXT modified by Redball March 10, 2004 and re-modded Oct. 31/2011 by Deuce Savage  	Wheeled Movement	unused   GUI97.TXT modified by Redball March 16, 2004  	unused   GUI97.TXT modified by Redball March 16, 2004  
+82	All Terrain Movement	Sturmangriffverteidigung	Défense rapprochée	All Terrain Movement	unused   requires PeG 2.6 or later ( elements of 2.9 currently in use ).	All Terrain Movement	unused   requires Redball's modified PeG 2.6 or later	unused   requires Redball's modified PeG 2.6 or later
+83	Air Movement	Weitverteidigungsbonus	Bonus de défense à distance	Air Movement	unused	Air Movement	unused	unused
+84	Half Track Movement	Select Anti Aircraft	Select Anti Aircraft	Half Track Movement	unused   these 8 lines with asterisks peviously used for 	Half Track Movement	unused   these 8 lines originally were used for 	unused   these 8 lines originally were used for 
+85	Towed Movement	Select Air Defense	Select Air Defense	Towed Movement	unused   movement types but not all names were utilized	Towed Movement	unused   movement types but not all names were utilized	unused   movement types but not all names were utilized
+86	Tracked Movement	Select Anti Tank	Select Anti Tank	Tracked Movement	unused   complete list of movement types on lines 584-595	Tracked Movement	unused   complete list of movement types on lines 584-595	unused   complete list of movement types on lines 584-595
+87	Leg Movement	Select Artillery	Select Artillery	Leg Movement	unused	Leg Movement	unused	unused
+88	Hard Attack	Select Infantry	Select Infantry	Hard Attack	Hard Attack	Hard Attack	Hard Attack	Hard Attack
+89	Soft Attack	Select Recon	Select Recon	Soft Attack	Soft Attack	Soft Attack	Soft Attack	Soft Attack
+90	Air Attack	Select Tank	Select Tank	Air Attack	Air Attack	Air Attack	Air Attack	Air Attack
+91	Helicopter Attack	Select Fighter	Select Fighter	Helo or Air Attack	Helicopter Attack	Helo or Air Attack	Helicopter Attack	Helicopter Attack
+92	Ground Defense	Select Level Bomber	Select Level Bomber	Ground Defense	Ground Defense	Ground Defense	Ground Defense	Ground Defense
+93	Air Defense	Select Tac Bomber	Select Tac Bomber	Air Defense	Air Defense	Air Defense	Air Defense	Air Defense
+94	Indirect Defense	Core	Core	Indirect Defense	Indirect Defense	Indirect Defense	Indirect Defense	Indirect Defense
+95	Profile	Auxiliary	Auxiliary	Profile	Profile	Profile	Profile	Profile
+96	Select Air Defense	Purchase	Purchase	Select Air Defense	Select Air Defense	Select Air Defense	Recon	Recon
+97	Select Air Defense	Scroll Up	Scroll Up	Select Air Defense	Select Air Defense	Select Air Defense	Combat Engineer	Combat Engineer
+98	Select Anti-tank	Scroll Down	Scroll Down	Select Anti-tank	Select Anti-tank	Select Anti-tank	Air Defense	Air Defense
+99	Select Artillery	Beenden	Quitter	Select Artillery	Select Artillery	Select Artillery	River Assault	River Assault
+100	Select Infantry	Cancel	Cancel	Select Infantry	Select Infantry	Select Infantry	Helicopter	Helicopter
+101	Select Recon	Prestige Total	Prestige Total	Select Recon	Select Recon	Select Recon	Anti-tank	Anti-tank
+102	Select Tank	Prestige Available	Prestige Available	Select Tank	Select Tank	Select Tank	Combat Support	Combat Support
+103	Select Helicopter	Prestige Spent	Prestige Spent	Select Helo or Air	Select Helicopter	Select Helo or Air	Forward Observer	Forward Observer
+104	Select Level Bomber - 	Exit Deployment	Exit Deployment	Select Level Bomber - 	Select Level Bomber - 	Select Level Bomber - 	Special Munitions	Special Munitions
+105	Select Tactical Bomber	Edit Equipment	Edit Equipment	Select Tactical Bomber	Select Tactical Bomber	Select Tactical Bomber	Airmobile	Airmobile
+106	Core	Load Excel Text Equipment File	Load Excel Text Equipment File	Core	Core	Core	Airliftable	Airliftable
+107	Auxiliary - 	Load Campaign Script	Load Campaign Script	Auxiliary - 	Auxiliary - 	Auxiliary - 	unused	unused
+108	Requisition Unit	Save New Campaign	Save New Campaign	Requisition Unit	Requisition Unit	Requisition Unit	Requisition Unit	Requisition Unit
+109	Scroll Up	Edit Scenario	Edit Scenario	Scroll Up	Scroll Up	Scroll Up	Scroll Up	Scroll Up
+110	Scroll Down	Save Scenario	Save Scenario	Scroll Down	Scroll Down	Scroll Down	Scroll Down	Scroll Down
+111	Exit	Edit Map	Edit Map	Exit	Exit	Exit	Exit	Exit
+112	Cancel	Edit Army	Edit Army	Cancel	Cancel	Cancel	Cancel	Cancel
+113	Total Prestige	Place Army	Place Army	Total Prestige	Total Prestige	Total Prestige	Total Prestige	Total Prestige
+114	Available Prestige	Clear All Victory Hexes	Clear All Victory Hexes	Available Prestige	Available Prestige	Available Prestige	Available Prestige	Available Prestige
+115	Expended Prestige	Clear All Scenario Hex Info	Clear All Scenario Hex Info	Expended Prestige	Expended Prestige	Expended Prestige	Expended Prestige	Expended Prestige
+116	Exit Deployment	Change Terrain Type	Change Terrain Type	Exit Deployment	Exit Deployment	Exit Deployment	Exit Deployment	Exit Deployment
+117	Edit Equipment	Save Map	Save Map	Edit Equipment	Edit Equipment	Edit Equipment	Edit Equipment - NOT AVAILABLE	Edit Equipment - NOT AVAILABLE
+118	Load Excel Text Equipment File	Load Map	Load Map	Load Excel Text Equipment File	Load Excel Text Equipment File	Load Excel Text Equipment File	Load Excel Text Equipment File	Load Excel Text Equipment File
+119	Load Campaign Script	Load Map Art	Load Map Art	Load Campaign Script	Load Campaign Script	Load Campaign Script	Convert Campaign TXT Script to CAM	Convert Campaign TXT Script to CAM
+120	Save New Campaign	Identify Map	Identify Map	Save New Campaign	Save New Campaign	Save New Campaign	Save New Campaign	Save New Campaign
+121	Load Scenario	Toggle Road Mode	Toggle Road Mode	Load Scenario	Load Scenario	Load Scenario	Load Scenario	Load Scenario
+122	Save Scenario	Fill Map	Fill Map	Save Scenario	Save Scenario	Save Scenario	Save Scenario	Save Scenario
+123	Edit Map	Clear Roads	Clear Roads	Edit Map	Edit Map	Edit Map	Edit Map	Edit Map
+124	Edit Army	Exit Edit Map	Exit Edit Map	Edit Army	Edit Army	Edit Army	Edit Army	Edit Army
+125	Place Army	Next Army	Next Army	Place Army	Place Army	Place Army	Place Army	Place Army
+126	Clear All Victory Hexes	Toggle Entrench Mode	Toggle Entrench Mode	Clear All Victory Hexes	Clear All Victory Hexes	Clear All Victory Hexes	Clear All Victory Hexes	Clear All Victory Hexes
+127	Clear All Scenario Hex Info	Describe Scenario Hexes	Describe Scenario Hexes	Clear All Scenario Hex Info	Clear All Scenario Hex Info	Clear All Scenario Hex Info	Clear All Scenario Hex Info	Clear All Scenario Hex Info
+128	Change Terrain Type	Keine Klasse	Sans catégorie	Change Terrain Type	Change Terrain Type	Change Terrain Type	Highlight Selected Terrain Type	Highlight Selected Terrain Type
+129	Save Map	Infanterie	Infanterie	Save Map	Save Map	Save Map	Save Map	Save Map
+130	Load Map	Panzer	Char	Load Map	Load Map	Load Map	Load Map by Name	Load Map by Name
+131	Load Map	Spähfahrzeug	Reconnaissance	Load Map	Load Map	Load Map	Load Map By #	Load Map By #
+132	Identify Map	Panzerabwehr	Antichar	Identify Map	Identify Map	Identify Map	Show Terrain Names on Hexes	Show Terrain Names on Hexes
+133	Toggle Road Mode	Flak	Artillerie antiaérienne	Toggle Road Mode	Toggle Road Mode	Toggle Road Mode	Display Roads (toggle on/off)	Display Roads (toggle on/off)
+134	Fill Map	Befestigung	Fort	Fill Map	Fill Map	Fill Map	Fill Map	Fill Map
+135	Clear Roads	Bodentransport	Moyen de transport terrestre	Clear Roads	Clear Roads	Clear Roads	Clear Roads	Clear Roads
+136	Exit Edit Map	Artillerie	Artillerie	Exit Edit Map	Exit Edit Map	Exit Edit Map	Exit Edit Map	Exit Edit Map
+137	Next Army	Luftabwehr	Défense aérienne	Next Army	Next Army	Next Army	Next Army	Next Army
+138	Toggle Entrench Mode	Jagdflugzeug	Chasseur	Toggle Entrench Mode	Toggle Entrench Mode	Toggle Entrench Mode	Toggle Entrench Mode	Toggle Entrench Mode
+139	Enter Scenario Description	Jagdbomber	Bombardier tactique	Enter Scenario Description	Enter Scenario Description	Enter Scenario Description	Enter Scenario Description	Enter Scenario Description
+140	Class None	Langstreckenbomber	Bombardier d'altitude	Class None	Class None	Class None	Class None	Class None
+141	Infantry	Lufttransport	Moyen de transport aérien	Infantry	Infantry	Infantry	Infantry	Infantry
+142	Tank	U-Boot	Sous-marin	Tank	Tank	Tank	Tank	Tank
+143	Recon	Zerstörer	Destroyer	Recon	Recon	Recon	Recon	Recon
+144	Anti-tank	Schlachtschiff	Cuirassé	Anti-tank	Anti-tank	Anti-tank	Anti-tank	Tank Destroyer
+145	FlaK - 	Flugzeugträger	Porte-avions	FlaK - 	Flak	FlaK - 	Command+Support	Command+Support
+146	Fortification	Seetransport	Moyen de transport maritime	Forts / Mines	Fortification	Forts / Mines	Fortification	Fortification
+147	Ground Transport	Kampagne spielen	Lancer une campagne	Ground Transport	Ground Transport	Ground Transport	Ground Transport	Ground Transport
+148	Artillery	Demo-Szenario spielen	Lancer la démo	Artillery	Artillery	Artillery	Artillery	Artillery
+149	Air Defense	Multiplayer-Szenario spielen	Lancer un scénario multijoueurs	AD/Air Superiority	Air Defense	AD/Air Superiority	Air Defense	Air Defense
+150	Fighter	Credits	Afficher les crédits	Fighter	Fighter	Fighter	Fighter	Fighter
+151	Tactical Bomber	Scenario-Editor starten	Lancer l'éditeur de jeu	Tactical Bomber	Tactical Bomber	Tactical Bomber	Air Support	Air Support
+152	Attack Helicopter	Gespeichertes Spiel laden	Charger une partie sauvegardée	Helo or Air	Attack Helicopter	Helo or Air	Attack Helicopter	Attack Helicopter
+153	Air Transport	Dossier anzeigen	Revoir un dossier	Air Transport	Air Transport	Air Transport	Air Transport	Air Transport
+154	Submarine	Einführung anzeigen	Afficher l'introduction	Submarine	Submarine	Submarine	Submarine	Submarine
+155	Destroyer	Spiel beenden	Quitter le jeu	ASW / Aircraft Carriers	Destroyer	ASW / Aircraft Carriers	Destroyer	Destroyer
+156	Battleship	Trocken	Dry	Battleship	Battleship	Battleship	Battleship	Multi-Role Vessel
+157	Carrier	Gefroren	Frozen	Carrier UNUSED	Carrier	Carrier UNUSED	Carrier	Carrier
+158	Naval Transport	Zug	Tour	Naval Transport	Naval Transport	Naval Transport	Naval Transport	Naval Transport
+159	Battle Cruiser	Januar	Janvier	Cruisers and Frigates	Battle Cruiser	Cruisers and Frigates	Aegis Cruiser	AEGIS Cruiser
+160	Cruiser	Februar	Février	Cruiser	Cruiser	Cruiser	Corvette	Corvette
+161	Light Cruiser	März	Mars	Light Cruiser	Light Cruiser	Light Cruiser	Brown Water Boat	Patrol Boat
+162	Play A Campaign	April	Avril	Play A Campaign	Play A Campaign	Play A Campaign	Play A Campaign	Play A Campaign
+163	Play A Scenario	Mai	Mai	Play A Scenario	Play A Scenario	Play A Scenario	Play A Scenario	Play A Scenario
+164	Start A Multiplayer Scenario	Juni	Juin	Start A Multiplayer Scenario	Start A Multiplayer Scenario	Start A Multiplayer Scenario	Start A Multiplayer Scenario	Start A Multiplayer Scenario
+165	Show The Credits	Juli	Juillet	Show The Credits	Show The Credits	Show The Credits	Show The Credits	Show The Credits
+166	Start The Scenario Builder	August	Août	Start The Scenario Builder	Start The Scenario Builder	Start The Scenario Builder	Start The Scenario Builder	Start The Scenario Builder
+167	Load A Saved Game	September	Septembre	Load A Saved Game	Load A Saved Game	Load A Saved Game	Load A Saved Game	Load A Saved Game
+168	Review A Dossier - 	Oktober	Octobre	Review A Dossier - 	Review A Dossier - 	Review A Dossier - 	Review A Dossier - 	Review A Dossier - 
+169	Show The Introduction	November	Novembre	Show The Introduction	Show The Introduction	Show The Introduction	Start the Main editor (show the introduction)	Start the Main editor (show the introduction)
+170	Exit The Game	Dezember	Décembre	Exit The Game	Exit The Game	Exit The Game	Exit The Game	Exit The Game
+171	Dry	Bewölkt	Nuageux	Dry	Dry	Dry	Dry	Dry
+172	Frozen	Heiter	Beau	Frozen	Frozen	Frozen	Frozen	Frozen
+173	Turn	Regen	Pluvieux	Turn	Turn	Turn	Turn	Turn
+174	January	Schnee	Neige	January	January	January	January	January
+175	February	Verbleibende Züge	Tours restants	February	February	February	February	February
+176	March	Unbegrenzte Züge	Tours illimités	March	March	March	March	March
+177	April	Aktuelle Stärke	Résistance	April	April	April	April	April
+178	May	Level	Niveau	May	May	May	May	May
+179	June	Befehlshaber	Leader	June	June	June	June	June
+180	July	Einheit mit Transport	L'unité dispose d'un moyen de transport	July	July	July	July	July
+181	August	Einheit wurde bewegt	L'unité s'est déplacée	August	August	August	August	August
+182	September	Hurra, Sie haben gewonnen!	Félicitations pour votre victoire !	September	September	September	September	September
+183	October	Demo Version 1.0	Démo Version 1.0	October	October	October	October	October
+184	November	Next Country	Next Country	November	November	November	November	November
+185	December	Total Cost Of Unit	Total Cost Of Unit	December	December	December	December	December
+186	Fair	Cost of Equipment	Cost of Equipment	Fair	Fair	Fair	Fair	Fair
+187	Overcast	Available	Available	Overcast	Overcast	Overcast	Overcast	Overcast
+188	Rain	Casualties Inflicted	Casualties Inflicted	Rain	Rain	Rain	Rain	Rain
+189	Snow	Casualties Taken	Casualties Taken	Snow	Snow	Snow	Snow	Snow
+190	Turns	Entrenchment	Entrenchment	Turns	Turns	Turns	Turns	Turns
+191	Unlimited Turns - ?	Sturmangriff auf	Assaut	Unlimited Turns - ?	Unlimited Turns - ?	Unlimited Turns - ?	Unlimited Turns - ?	Unlimited Turns - ?
+192	Current Strength	Angriff auf	Attaque	Current Strength	Current Strength	Current Strength	Current Strength	Current Strength
+193	Experience	Strategic Bombing	Strategic Bombing	Experience	Experience	Experience	Experience	Experience
+194	Leader	INTERCEPTORS!	INTERCEPTORS!	Leader	Leader	Leader	Leader	Leader
+195	Unit Has Transport	AIR DEFENSE!	AIR DEFENSE!	Unit Has Transport	Unit Has Transport	Unit Has Transport	Unit Has Transport	Unit Has Transport
+196	Unit Has Moved	Sperrfeuer	Tir de soutien rapproché	Unit Has Moved	Unit Has Moved	Unit Has Moved	Unit Has Moved	Unit Has Moved
+197	Congratulations on your Victory	Artillerieunterstützung	Tir de soutien	Congratulations on your Victory	Congratulations on the stunning shit kicking Victory! heh heh	Congratulations on a Stunning Victory! That was some Shit Kicking they took Heh Heh Hehhh...Rum?	Congratulations on your Victory	Congratulations on your Victory
+198	Demo Version 1.0 - 	Angriff zusammengebrochen!	Attaque interrompue !	Demo Version 1.0 - 	Mod Version 2.0 	Demo Version 1.0 - 	Demo Version 1.0 - 	Demo Version 1.0 - 
+199	Next Country	Kapitulation	Réddition	Next Country	Next Country	Next Country	Next Country	Next Country
+200	Previous Country	Fleeing Port	Fleeing Port	Previous Country	Previous Country	Previous Country	Last Country	Last Country
+201	Total Cost Of Unit	Scuttling	Scuttling	Total Cost Of Unit	Total Cost Of Unit	Total Cost Of Unit	Total Cost Of Unit	Total Cost Of Unit
+202	Cost of Equipment	Submarine Dives!	Submarine Dives!	Cost of Equipment	Cost of Equipment	Cost of Equipment	Cost of Equipment	Cost of Equipment
+203	Available	Submarine Evades!	Submarine Evades!	Available	Available	Available	Available	Available
+204	Casualties Inflicted	Zähe Verteidigung	Défense difficile !	Casualties Inflicted	Casualties Inflicted	Casualties Inflicted	Casualties Inflicted	Casualties Inflicted
+205	Casualties Taken	Sperrfeuerdruck	Supprimé(s)	Casualties Taken	Casualties Taken	Casualties Taken	Casualties Taken	Casualties Taken
+206	Entrenchment	Verluste	Tué(s)	Entrenchment	Entrenchment	Entrenchment	Entrenchment	Entrenchment
+207	Assaulting			Assaulting	Assaulting	Assaulting	Assaulting	Assaulting
+208	Attacking			Attacking	Attacking	Attacking	Attacking	Attacking
+209	Strategic Bombing - 			Strategic Bombing - 	Strategic Bombing - 	Strategic Bombing - 	Strategic Bombing - 	Strategic Bombing - 
+210	Interceptors			Interceptors	Interceptors	Interceptors	Interceptors	Interceptors
+211	Air Defense			Air Defense	Air Defense	Air Defense	Air Defense	Air Defense
+212	Close Support Fire			Close Support Fire	Close Support Fire	Close Support Fire	Close Support Fire	Close Support Fire
+213	Support Fire			Support Fire	Support Fire	Support Fire	Support Fire	Support Fire
+214	Reactive Defense!			Reactive Defense!	Reactive Defense!	Reactive Defense!	Reactive Defense!	Reactive Defense!
+215	Attack Broken Off!			Attack Broken Off!	Attack Broken Off!	Attack Broken Off!	Attack Broken Off!	Attack Broken Off!
+216	Surrender			Surrender	Surrender	Surrender	Surrender	Surrender
+217	Fleeing Port			Fleeing Port	Fleeing Port	Fleeing Port	Fleeing Port	Fleeing Port
+218	Scuttling			Scuttling	Scuttling	Scuttling	Scuttling	Scuttling
+219	Have %s			Have %s	Have %s	Have %s	Have %s	Have %s
+220	%d victory hexes for %s			%d victory hexes for %s	%d victory hexes for %s	%d victory hexes for %s	%d victory hexes for %s	%d victory hexes for %s
+221	%s turn %d of %d			%s turn %d of %d	%s turn %d of %d	%s turn %d of %d	%s turn %d of %d	%s turn %d of %d
+222	Suppressed			Suppressed	Suppressed	Suppressed	Suppressed	Suppressed
+223	Destroyed			Destroyed	Destroyed	Destroyed	Destroyed	Destroyed
+224	LAN Connection			LAN Connection	LAN Connection	LAN Connection	LAN Connection	LAN Connection
+225	Internet Connection			Internet Connection	Internet Connection	Internet Connection	Internet Connection	Internet Connection
+226	Free Internet Play on mplayer.com			Free Internet Play on mplayer.com	Free Internet Play on mplayer.com	Free Internet Play on mplayer.com	[ no longer available ]	[ no longer available ]
+227	Internet List - 			Internet List - 	Internet List - 	Internet List - 	Internet List - 	Internet List - 
+228	Create Game			Create Game	Create Game	Create Game	Create Game	Create Game
+229	Join Game			Join Game	Join Game	Join Game	Join Game	Join Game
+230	Enter Your Player Name			Enter Your Player Name	Enter Your Player Name	Enter Your Player Name	Enter Your Player Name	Enter Your Player Name
+231	Enter The Game Name			Enter The Game Name	Enter The Game Name	Enter The Game Name	Enter The Game Name	Enter The Game Name
+232	Show Scenario Save Games			Show Scenario Save Games	Show Scenario Save Games	Show Scenario Save Games	Show Scenario Save Games	Show Scenario Save Games
+233	Show Campaign Save Games			Show Campaign Save Games	Show Campaign Save Games	Show Campaign Save Games	Show Campaign Save Games	Show Campaign Save Games
+234	Show Multiplayer Save Games			Show Multiplayer Save Games	Show Multiplayer Save Games	Show Multiplayer Save Games	Show Multiplayer Save Games	Show Multiplayer Save Games
+235	Show Email Games			Show Email Games	Show Email Games	Show Email Games	Show Email Games	Show Email Games
+236	Save Game			Save Game	Save Game	Save Game	Save Game	Save Game
+237	Load Game			Load Game	Load Game	Load Game	Load Game	Load Game
+238	Up One Level			Up One Level	Up One Level	Up One Level	Up One Level	Up One Level
+239	Create Directory			Create Directory	Create Directory	Create Directory	Create Directory	Create Directory
+240	New Game			New Game	New Game	New Game	New Game	New Game
+241	Successfully Saved			Successfully Saved	Successfully Saved	Successfully Saved	Successfully Saved	Successfully Saved
+242	WAS NOT SAVED-ERROR			WAS NOT SAVED-ERROR	WAS NOT SAVED-ERROR	WAS NOT SAVED-ERROR	WAS NOT SAVED-ERROR	WAS NOT SAVED-ERROR
+243	No File Description			No File Description	No File Description	No File Description	No File Description	No File Description
+244	Deploy Forces			Deploy Forces	Deploy Forces	Deploy Forces	Deploy Forces	Deploy Forces
+245	Name Scenario			Name Scenario	Name Scenario	Name Scenario	Enter Name for Scenario	Enter Name for Scenario
+246	Starting Date			Starting Date	Starting Date	Starting Date	STARTING DATE	STARTING DATE
+247	Number Of Turns			Number Of Turns	Number Of Turns	Number Of Turns	Number Of Turns	Number Of Turns
+248	Day or Night			Day or Night	Start Day or Night	Day or Night	Start Day or Night	Start Day or Night
+249	Ground Conditions			Ground Conditions	Ground Conditions	Ground Conditions	Ground Conditions	Ground Conditions
+250	ATMOSPHERIC CONDITIONS			ATMOSPHERIC CONDITIONS	ATMOSPHERIC CONDITIONS	ATMOSPHERIC CONDITIONS	ENVIRONMENTAL CONDITIONS	ENVIRONMENTAL CONDITIONS
+251	Scenario Description			Scenario Description	Scenario Description	Scenario Description	SCENARIO DESCRIPTION	SCENARIO DESCRIPTION
+252	Designate Supply			Designate Supply	Designate Supply	Designate Supply	Designate Supply	Designate Supply
+253	Designate Victory			Designate Victory	Designate Victory	Designate Victory	Designate Victory	Designate Victory
+254	Designate Ownership			Designate Ownership	Designate Ownership	Designate Ownership	Designate Ownership	Designate Ownership
+255	Designate Deployment			Designate Deployment	Designate Deployment	Designate Deployment	Designate Deployment	Designate Deployment
+256	Build Army			Build Army	Build Army	Build Army	Build Army	Build Army
+257	Unit Settings			Unit Settings	Unit Settings	Unit Settings	Unit Settings	Unit Settings
+258	Deploy Army			Deploy Army	Deploy Army	Deploy Army	Deploy Army	Deploy Army
+259	Set Prestige			Set Prestige	Set Prestige 35,000	Set Prestige	Set Prestige	Set Prestige
+260	Scenario Parameters			Scenario Parameters	Scenario Parameters	Scenario Parameters	Scenario Parameters	Scenario Parameters
+261	Prestige Allocated Per Turn			Prestige Allocated Per Turn	Prestige Allocated Per Turn	Prestige Allocated Per Turn	Prestige Allocated Per Turn	Prestige Allocated Per Turn
+262	Unit Names			Unit Names	Unit Names	Unit Names	Unit Names	Unit Names
+263	Make Global Settings			Make Global Settings	Make Global Settings	Make Global Settings	Make Global Settings	Make Global Settings
+264	Scott and Rick Say Hi!			Narayan Says Hi!	Deuce Savage Says Hi!	Deuce Savage Says Hi!	Redball Says Hi!	Redball Says Hi!
+265	Enter An IP Address			Enter An IP Address	Enter An IP Address	Enter An IP Address	Enter an IP address including all dots	Enter an IP address including all dots
+266	Are You Sure You Want to Quit?			Are You Sure You Want to Quit People's General 2.0?	Do You Want to Quit People's General: Shock & Awe - Classic v_2.3 ?	Do You Want to Quit People's General: SuperPowers - Classic v_2.0 series?	Are You Sure You Want to Quit?	Are You Sure You Want to Quit?
+267	Empty Slot			Empty Slot	Empty Slot	Empty Slot	Empty Slot	Empty Slot
+268	Yes			Yes/Da!	Yes	Yes	Yes	Yes
+269	No			No/Nyet!	No	No	No	No
+270	No Leader Power			No Leader Power	No Leader Power	No Leader Power	No Leader Power	No Leader Power
+271	Terrain Expert			Terrain Expert	Terrain Expert	Terrain Expert	Terrain Expert	Terrain Expert
+272	Aggressive Maneuver			Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver
+273	Force Recon			Force Recon	Force Recon	Force Recon	Force Recon	Force Recon
+274	Tank Killer			Tank Killer	Tank Killer	Tank Killer	Tank Killer	Tank Killer
+275	Enhanced Radar			Enhanced Radar	Enhanced Radar	Enhanced Radar	Enhanced Radar	Enhanced Radar
+276	Multiple Fire Support			Multiple Fire Support	Multiple Fire Support	Multiple Fire Support	Multiple Fire Support	Multiple Fire Support
+277	Stealth Pilot			Stealth Pilot	Stealth Pilot	Stealth Pilot	Stealth Pilot	Stealth Pilot
+278	Skilled Assault			Skilled Assault	Skilled Assault	Skilled Assault	Precision Bomber	Precision Bomber
+279	Aggressive Attack			Aggressive Attack	Aggressive Attack	Aggressive Attack	Aggressive Attack	Aggressive Attack
+280	Determined Defense			Determined Defense	Determined Defense	Determined Defense	Determined Defense	Determined Defense
+281	Sixth Sense			Sixth Sense	Sixth Sense	Sixth Sense	Sixth Sense	Sixth Sense
+282	First Strike			First Strike	First Strike	First Strike	First Strike	First Strike
+283	Resilience			Resilience	Resilience	Resilience	Resilience	Resilience
+284	Influence			Influence	Influence	Influence	Influence	Influence
+285	Fire Discipline			Fire Discipline	Fire Discipline	Fire Discipline	Fire Discipline	Fire Discipline
+286	Ground Taker			Ground Taker	Ground Taker	Ground Taker	Ground Taker	Ground Taker
+287	Rangers			Rangers	Rangers	Rangers	Rangers	Rangers
+288	All Weather Combat			All Weather Combat	All Weather Combat	All Weather Combat	All Weather Combat	All Weather Combat
+289	Blitzer			Blitzer	Blitzer	Blitzer	Blitzer	Blitzer
+290	Motivator			Motivator	Motivator	Motivator	Motivator	Motivator
+291	Tunnel Rats			Tunnel Rats	Tunnel Rats	Tunnel Rats	Tunnel Rats	Tunnel Rats
+292	Aggressive Maneuver			Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver	Aggressive Maneuver
+293	Skilled Reconnaissance			Skilled Reconnaissance	Skilled Reconnaissance	Skilled Reconnaissance	Skilled Reconnaissance	Skilled Reconnaissance
+294	Recon Movement			Recon Movement	Recon Movement	Recon Movement	Recon Movement	Recon Movement
+295	Marksman			Marksman	Marksman	Marksman	Airforce Marksman	Airforce Marksman
+296	Street Fighter			Street Fighter	Street Fighter	Street Fighter	Street Fighter	Street Fighter
+297	Overwhelming Attack			Overwhelming Attack	Overwhelming Attack	Overwhelming Attack	Overwhelming Attack	Overwhelming Attack
+298	Infiltrator			Infiltrator	Infiltrator	Infiltrator	Infiltrator	Infiltrator
+299	Camouflage Expert			Camouflage Expert	Camouflage Expert	Camouflage Expert	Camouflage Expert	Camouflage Expert
+300	Ferocious Defender			Ferocious Defender	Ferocious Defender	Ferocious Defender	Ferocious Defender	Ferocious Defender
+301	Overwatch			Overwatch	Overwatch	Overwatch	Overwatch	Overwatch
+302	Devastating Fire			Devastating Fire	Devastating Fire	Devastating Fire	Devastating Fire	Devastating Fire
+303	Bridging			Bridging	River Assault	Bridging	River Assault	River Assault
+304	Shock Tactics			Shock Tactics	Shock Tactics	Shock Tactics	Shock Tactics	Shock Tactics
+305	The Rock			The Rock	The Rock	The Rock	The Rock	The Rock
+306	Quartermaster			Quartermaster	Quartermaster	Quartermaster	Quartermaster	Quartermaster
+307	Sharpshooter			Sharpshooter	Sharpshooter	Sharpshooter	Sharpshooter	Sharpshooter
+308	Defender			Defender	Defender	Defender	Defender	Defender
+309	Smart Gambler			Smart Gambler	Smart Gambler	Smart Gambler	Smart Gambler	Smart Gambler
+310	Skirmisher			Skirmisher	Skirmisher	Skirmisher	Skirmisher	Skirmisher
+311	Ambusher			Ambusher	Ambusher	Ambusher	Ambusher	Ambusher
+312	Shoot and Scoot			Shoot and Scoot	Shoot and Scoot	Shoot and Scoot	Shoot and Scoot	Shoot and Scoot
+313	Liberator			Liberator	Liberator	Liberator	Liberator	Liberator
+314	Random Leader Power			Random Leader Power	Random Leader Power	Random Leader Power	Random Leader Power	Random Leader Power
+315	Axis Turn			Axis Turn	Axis Turn	Axis Turn	Axis Turn	Axis Turn
+316	Allied Turn			Allied Turn	Allied Turn	Allied Turn	Allied Turn	Allied Turn
+317	Weather : %s, %s			Weather : %s, %s	Weather : %s, %s	Weather : %s, %s	Conditions:  %s, %s	Conditions:  %s, %s
+318	Fair			Fair	Fair	Fair	Fair	Fair
+319	Overcast			Overcast	Overcast	Overcast	Overcast	Overcast
+320	Rain			Rain	Rain	Rain	Rain	Rain
+321	Snow			Snow	Snow	Snow	Snow	Snow
+322	Review Best Careers			Review Best Careers	Review Best Careers	Review Best Careers	Review Best Careers	Review Best Careers
+323	Enter Password			Enter Password	Enter Password	Enter Password	Enter Password	Enter Password
+324	You have Been Awarded A Prototype Unit			Congratulations General!  You have Been Awarded A Prototype Unit!	Way to go Jar-Head! You have been Awarded A PROTOTYPE UNIT	Way to go Jar-Head!  You have been Awarded A Prototype Unit!	You have Been Awarded A PROTOTYPE UNIT	You have Been Awarded A PROTOTYPE UNIT
+325	Review Battlefield			Review Battlefield	Review Battlefield	Review Battlefield	Review Battlefield	Review Battlefield
+326	Overrunning			Overrunning	Overrunning	Overrunning	Overrunning	Overrunning
+327	Lost Connection With Player			Lost Connection With Player	Lost Connection With Player	Lost Connection With Player	Lost Connection With Player	Lost Connection With Player
+328	Lost Session			Lost Session	Lost Session	Lost Session	Lost Session	Lost Session
+329	Exchange Unit			Exchange Unit	Exchange Unit	Exchange Unit	Exchange Unit	Exchange Unit
+330	Hard Target			Hard Target	Hard Target	Hard Target	Hard Target	Hard Target
+331	Soft Target			Soft Target	Soft Target	Soft Target	Soft Target	Soft Target
+332	Increase Prestige Percentage			Increase Prestige Percentage	DECREASE DIFFICULTY  (Increase Player Prestige % )	Increase Prestige Percentage	DECREASE DIFFICULTY (+ Player Prestige %)	DECREASE DIFFICULTY (+ Player Prestige %)
+333	Decrease Prestige Percentage			Decrease Prestige Percentage	INCREASE DIFFICULTY  (Decrease Player Prestige % )	Decrease Prestige Percentage	INCREASE DIFFICULTY (- Player Prestige %)	INCREASE DIFFICULTY (- Player Prestige %)
+334	Player Prestige Modifier			Player Prestige Modifier	Player Prestige Percentage	Player Prestige Modifier	Player Prestige Percentage	Player Prestige Percentage
+335	Computer Player			Computer Player	Computer Player	Computer Player	Computer Player	Computer Player
+336	Human Player			Human Player	Human Player	Human Player	Human Player	Human Player
+337	Increase Campaign Difficulty			Increase Campaign Difficulty	INCREASE DIFFICULTY  (Increase AI Prestige % )	Increase Campaign Difficulty	INCREASE DIFFICULTY (+ AI Prestige %)	INCREASE DIFFICULTY (+ AI Prestige %)
+338	Decrease Campaign Difficulty			Decrease Campaign Difficulty	DECREASE DIFFICULTY  (Decrease AI Prestige % )	Decrease Campaign Difficulty	DECREASE DIFFICULTY (- AI Prestige %)	DECREASE DIFFICULTY (- AI Prestige %)
+339	Campaign Difficulty			Campaign Difficulty	Computer Prestige Percentage	Campaign Difficulty	Computer Prestige Percentage	Computer Prestige Percentage
+340	Next			Next	Next	Next	Next	Next
+341	Choose Connection			Choose Connection	Choose Connection	Choose Connection	Choose Connection	Choose Connection
+342	Number Of Players In Game			Number Of Players In Game	Number Of Players In Game	Number Of Players In Game	Number Of Players In Game	Number Of Players In Game
+343	Create Or Join Game			Create Or Join Game	Create Or Join Game	Create Or Join Game	Create Or Join Game	Create Or Join Game
+344	Choose Game To Join			Choose Game To Join	Choose Game To Join	Choose Game To Join	Choose Game To Join	Choose Game To Join
+345	Set Scenario Time Limit			Set Scenario Time Limit	Set Scenario Time Limit	Set Scenario Time Limit	Set Scenario Time Limit	Set Scenario Time Limit
+346	Set Time Limit			Set Time Limit	Set Time Limit	Set Time Limit	Set Time Limit	Set Time Limit
+347	Set Time Limit			Set Time Limit	Set Time Limit	Set Time Limit	Set Time Limit	Set Time Limit
+348	Enter Scenario Name			Enter Scenario Name	Enter Scenario Name	Enter Scenario Name	Enter Scenario Name	Enter Scenario Name
+349	Set Starting Scenario Month			Set Starting Scenario Month	Set Starting Scenario Month	Set Starting Scenario Month	Set Starting Scenario Month	Set Starting Scenario Month
+350	Set Starting Scenario Day			Set Starting Scenario Day	Set Starting Scenario Day	Set Starting Scenario Day	Set Starting Scenario Day	Set Starting Scenario Day
+351	Set Starting Scenario Year			Set Starting Scenario Year	Set Starting Scenario Year	Set Starting Scenario Year	Set Starting Scenario Year	Set Starting Scenario Year
+352	Set Month			Set Month	Set Month	Set Month	Increase Month	Increase Month
+353	Set Month			Set Month	Set Month	Set Month	Decrease Month	Decrease Month
+354	Set Day			Set Day	Set Day	Set Day	Increase Day	Increase Day
+355	Set Day			Set Day	Set Day	Set Day	Decrease Day	Decrease Day
+356	Set Year			Set Year	Set Year	Set Year	Increase Year	Increase Year
+357	Set Year			Set Year	Set Year	Set Year	Decrease Year	Decrease Year
+358	Number Of Turns In Scenario			Number Of Turns In Scenario	Number Of Turns In Scenario	Number Of Turns In Scenario	Number Of Turns In Scenario	Number Of Turns In Scenario
+359	Set Turns			Set Turns	Set Turns	Set Turns	Increase Turns	Increase Turns
+360	Set Turns			Set Turns	Set Turns	Set Turns	Decrease Turns	Decrease Turns
+361	Set Turns Per Day			Set Turns Per Day	Set Turns Per Day	Set Turns Per Day	Set Turns Per Day	Set Turns Per Day
+362	Set Turns Per Day			Set Turns Per Day	Set Turns Per Day	Set Turns Per Day	Set Turns Per Day	Set Turns Per Day
+363	Set Number Of Players			Set Number Of Players	Set Number Of Players	Set Number Of Players	Set Number Of Players	Set Number Of Players
+364	Set As Eastern Side			Set As Eastern Side	Set As Eastern Side	Set As Eastern Side	Set As Eastern Side	Set As Eastern Side
+365	Set As Western Side			Set As Western Side	Set As Western Side	Set As Western Side	Set As Western Side	Set As Western Side
+366	Set Primary Country			Set Primary Country	Set Primary Country	Set Primary Country	Set Primary Country	Set Primary Country
+367	Set Country			Set Country	Set Country	Set Country	Set Country	Set Country
+368	Set AI Aggressive			Set AI Aggressive	Set AI Aggressive	Set AI Aggressive	Set AI Strategy Aggressive	Set AI Strategy Aggressive
+369	Set AI Defensive			Set AI Defensive	Set AI Defensive	Set AI Defensive	Set AI Strategy Defensive	Set AI Strategy Defensive
+370	No Map Chosen For Scenario			No Map Chosen For Scenario	No Map Chosen For Scenario	No Map Chosen For Scenario	No Map Chosen For Scenario	No Map Chosen For Scenario
+371	Must Name Scenario			Must Name Scenario	Must Name Scenario	Must Name Scenario	Must Name Scenario	Must Name Scenario
+372	Must Have Players For Both Sides.			Must Have Players For Both Sides.	Must Have Players For Both Sides.	Must Have Players For Both Sides.	Must Have Players For Both Sides.	Must Have Players For Both Sides.
+373	Must Have Countries For All Players.			Must Have Countries For All Players.	Must Have Countries For All Players.	Must Have Countries For All Players.	Must Have Countries For All Players.	Must Have Countries For All Players.
+374	Must Have Units For All Players.			Must Have Units For All Players.	Must Have Units For All Players.	Must Have Units For All Players.	Must Have Units For All Players.	Must Have Units For All Players.
+375	Must Deploy All Players Starting Units.			Must Deploy All Players Starting Units.	Must Deploy All Players Starting Units.	Must Deploy All Players Starting Units.	Must Deploy All Players Starting Units.	Must Deploy All Players Starting Units.
+376	Must Have At Least One Victory Hex Per Player.			Must Have At Least One Victory Hex Per Player.	Must Have At Least One Victory Hex Per Player.	Must Have At Least One Victory Hex Per Player.	Must Have At Least One Victory Hex Per Player.	Must Have At Least One Victory Hex Per Player.
+377	Must Have At Least One Unit Deployed Per Player.			Must Have At Least One Unit Deployed Per Player.	Must Have At Least One Unit Deployed Per Player.	Must Have At Least One Unit Deployed Per Player.	Must Have At Least One Unit Deployed Per Player.	Must Have At Least One Unit Deployed Per Player.
+378	Colonel			Colonel	Colonel	Colonel	Captain	Captain
+379	General			General	General	General	Colonel	Colonel
+380	Field Marshal			Field Marshal	Field Marshal	Field Marshal	General	General
+381	New Equipment Available			New Equipment Available	New Equipment Available	Hey Jar-Head - New Equipment Available	New Equipment Available	New Equipment Available
+382	PEOPLE'S GENERAL HOT KEYS			PEOPLE'S GENERAL HOT KEYS	PEOPLE'S GENERAL HOT KEYS	PEOPLE'S GENERAL HOT KEYS	PEOPLE'S GENERAL HOT KEYS	PEOPLE'S GENERAL HOT KEYS
+383	FILE FUNCTIONS			FILE FUNCTIONS	FILE FUNCTIONS	FILE FUNCTIONS	FILE FUNCTIONS	FILE FUNCTIONS
+384	CTRL-S, Save			CTRL-S, Save	CTRL-S, Save	CTRL-S, Save	CTRL-S, Save	CTRL-S, Save
+385	CTRL-L, Load			CTRL-L, Load	CTRL-L, Load	CTRL-L, Load	CTRL-L, Load	CTRL-L, Load
+386	CTRL-Q, Quit People's General			CTRL-Q, Quit NATO General	CTRL-Q, Quit People's General	CTRL-Q, Quit NATO General	CTRL-Q, Quit People's General	CTRL-Q, Quit People's General
+387	CTRL-A, Autosave			CTRL-A, Autosave	CTRL-A, Autosave	CTRL-A, Autosave	CTRL-A, Autosave	CTRL-A, Autosave
+388	ESC, Exit current menu or screen			ESC, Exit current menu or screen	ESC, Exit current menu or screen	ESC, Exit current menu or screen	ESC, Exit current menu or screen	ESC, Exit current menu or screen
+389	(If on Start Screen, exits game)			(If on Start Screen, exits game)	(If on Start Screen, exits game)	(If on Start Screen, exits game)	(If on Start Screen, exits game)	(If on Start Screen, exits game)
+390	MENU FUNCTIONS			MENU FUNCTIONS	MENU FUNCTIONS	MENU FUNCTIONS	MENU FUNCTIONS	MENU FUNCTIONS
+391	N - Next Unit			N - Next Unit	N - Next Unit	N - Next Unit	N - Next Unit	N - Next Unit
+392	X - Cancel Move			X - Cancel Move	X - Cancel Move	X - Cancel Move	X - Cancel Move	X - Cancel Move
+393	R - Requisition			R - Requisition	R - Requisition	R - Requisition	R - Requisition	R - Requisition
+394	D - Deploy			D - Deploy	D - Deploy	D - Deploy	D - Deploy	D - Deploy
+395	F - Field HQ			F - Field HQ	F - Field HQ	F - Field HQ	F - Field HQ	F - Field HQ
+396	B - Unit Battle Record			B - Unit Battle Record	B - Unit Battle Record	B - Unit Battle Record	B - Unit Battle Record	B - Unit Battle Record
+397	V - View Unit			V - View Unit	V - View Unit	V - View Unit	V - View Unit	V - View Unit
+398	A - Air Mode			A - Air Mode	A - Air Mode	A - Air Mode	A - Air Mode	A - Air Mode
+399	S - Strategic Map			S - Strategic Map	S - Strategic Map	S - Strategic Map	S - Strategic Map	S - Strategic Map
+400	G - Dossier			G - Dossier	G - Dossier	G - Dossier	G - Dossier	G - Dossier
+401	C - Chat			C - Chat	C - Chat	C - Chat	C - Chat	C - Chat
+402	T - Toggle pop-up screen text			T - Toggle pop-up screen text	T - Toggle pop-up screen text	T - Toggle pop-up screen text	T - Toggle pop-up screen text	T - Toggle pop-up screen text
+403	O - Omit selected unit from the			O - Omit selected unit from the	O - Omit selected unit from the	O - Omit selected unit from the	O - Omit selected unit from the	O - Omit selected unit from the
+404	Next unit cycle for that turn			Next unit cycle for that turn	Next unit cycle for that turn	Next unit cycle for that turn	Next unit cycle for that turn	Next unit cycle for that turn
+405	P - Previous Unit			P - Previous Unit	P - Previous Unit	P - Previous Unit	P - Previous Unit	P - Previous Unit
+406	M - Air Mission			M - Air Mission	M - Air Mission	M - Air Mission	M - Air Mission	M - Air Mission
+407	SHIFT-F, Toggle full screen			SHIFT-F, Toggle full screen	SHIFT-F, Toggle full screen	SHIFT-F, Toggle full screen	SHIFT-F, Toggle full screen	SHIFT-F, Toggle full screen
+408	Space - Center on currently selected unit			Space - Center on currently selected unit	Space - Center on currently selected unit	Space - Center on currently selected unit	Space - Center on currently selected unit	Space - Center on currently selected unit
+409	Arrow Keys - Scroll Map			Arrow Keys - Scroll Map	Arrow Keys - Scroll Map	Arrow Keys - Scroll Map	Arrow Keys - Scroll Map	Arrow Keys - Scroll Map
+410	ADDITIONAL OPTIONS			ADDITIONAL OPTIONS	ADDITIONAL OPTIONS	ADDITIONAL OPTIONS	ADDITIONAL OPTIONS	ADDITIONAL OPTIONS
+411	1 - Status Report			1 - Status Report	1 - Status Report	1 - Status Report	1 - Status Report	1 - Status Report
+412	2 - Hot Key List			2 - Hot Key List	2 - Hot Key List	2 - Hot Key List	2 - Hot Key List	2 - Hot Key List
+413	3 - Sound Effects Toggle			3 - Sound Effects Toggle	3 - Sound Effects Toggle	3 - Sound Effects Toggle	3 - Sound Effects Toggle	3 - Sound Effects Toggle
+414	4 - Music Toggle			4 - Music Toggle	4 - Music Toggle	4 - Music Toggle	4 - Music Toggle	4 - Music Toggle
+415	5 - VCR Panel			5 - VCR Panel	5 - VCR Panel	5 - VCR Panel	5 - VCR Panel	5 - VCR Panel
+416	6 - View Terrain			6 - View Terrain	6 - View Terrain	6 - View Terrain	6 - View Terrain	6 - View Terrain
+417	7 - Hexes Toggle			7 - Hexes Toggle	7 - Hexes Toggle	7 - Hexes Toggle	7 - Hexes Toggle	7 - Hexes Toggle
+418	8 - Toggle Unit Strength Boxes			8 - Toggle Unit Strength Boxes	8 - Toggle Unit Strength Boxes	8 - Toggle Unit Strength Boxes	8 - Toggle Unit Strength Boxes	8 - Toggle Unit Strength Boxes
+419	VIEW UNIT FUNCTIONS			VIEW UNIT FUNCTIONS	VIEW UNIT FUNCTIONS	VIEW UNIT FUNCTIONS	VIEW UNIT FUNCTIONS	VIEW UNIT FUNCTIONS
+420	ALT-E, Embark - Disembark			ALT-E, Embark - Disembark	ALT-E, Embark - Disembark	ALT-E, Embark - Disembark	ALT-E, Embark - Disembark	ALT-E, Embark - Disembark
+421	ALT-S, Supply			ALT-S, Supply	ALT-S, Supply	ALT-S, Supply	ALT-S, Supply	ALT-S, Supply
+422	ALT-R, Replacements			ALT-R, Replacements	ALT-R, Replacements	ALT-R, Replacements	ALT-R, Replacements	ALT-R, Replacements
+423	List Of Hot Keys			List Of Hot Keys	List Of Hot Keys	List Of Hot Keys	List Of Hot Keys	List Of Hot Keys
+424	Status Report			Status Report	Status Report	Status Report	Status Report	Status Report
+425	Reinforcements have arrived			Reinforcements have arrived	Reinforcements have arrived	Reinforcements have arrived	Reinforcements have arrived	Reinforcements have arrived
+426	Do You Want Air Transport?			Do You Want Air Transport?	Do You Want Air Transport?	Do You Want Air Transport?	Do You Want Air Transport?	Do You Want Air Transport?
+427	Replay Email Opponent's Turn			Replay Email Opponent's Turn	Replay Email Opponent's Turn	Replay Email Opponent's Turn	Replay Email Opponent's Turn	Replay Email Opponent's Turn
+428	Play			Play	Play	Play	Play	Play
+429	Stop			Stop	Stop	Stop	Stop	Stop
+430	Fast Forward			Fast Forward	Fast Forward	Fast Forward	Fast Forward	Fast Forward
+431	Rewind			Rewind	Rewind	Rewind	Rewind	Rewind
+432	Are you sure you wish to remove this unit?			Are you sure you wish to remove this unit?	Are you sure you wish to remove this unit?	Are you sure you wish to remove this unit?	Are you sure you wish to remove this unit?	Are you sure you wish to remove this unit?
+433	Rename Unit			Rename Unit	Rename Unit	Rename Unit	Rename Unit	Rename Unit
+434	Battle Honors			Battle Honors	Battle Honors	Battle Honors	Battle Honors	Battle Honors
+435	Air Transport Available:			Air Transport Available:	Air Transport Available:	Air Transport Available:	Air Transport Available:	Air Transport Available:
+436	Sea Transport Available:			Sea Transport Available:	Sea Transport Available:	Sea Transport Available:	Sea Transport Available:	Sea Transport Available:
+437	Enter a Game Description			Enter a Game Description	Enter a Game Description	Enter a Game Description	Enter a Game Description	Enter a Game Description
+438	Surprised!			Surprised!	Surprised!	Surprised!	Ambushed!	Ambushed!
+439	Surprise Attack!			Surprise Attack!	Surprise Attack!	Surprise Attack!	Out of the sun!	Out of the sun!
+440	Surprise Contact!			Surprise Contact!	Surprise Contact!	Surprise Contact!	Surprise Contact!	Surprise Contact!
+441	Done			Done	Done	Done	Done	Done
+442	Music On-Off			Music On-Off	Music On-Off	Music On-Off	Music On-Off	Music On-Off
+443	Sound Effects On-Off			Sound Effects On-Off	Sound Effects On-Off	Sound Effects On-Off	Sound Effects On-Off	Sound Effects On-Off
+444	in			in	in	in	in	in
+445	Incorrect Password			Incorrect Password	Incorrect Password	Incorrect Password	Incorrect Password	Incorrect Password
+446	Global Prestige			Global Prestige	Global Prestige	Global Prestige	Global Prestige	Global Prestige
+447	Quit			Quit	Quit	Quit	Quit	Quit
+448	SHIFT-E, End Turn			SHIFT-E, End Turn	SHIFT-E, End Turn	SHIFT-E, End Turn	SHIFT-E, End Turn	SHIFT-E, End Turn
+449	Load Scenario			Load Scenario	Load Scenario	Load Scenario	Load Scenario	Load Scenario
+450	AUTOSAVE SCENARIO			AUTOSAVE SCENARIO	AUTOSAVE SCENARIO	AUTOSAVE SCENARIO	AUTOSAVE SCENARIO	AUTOSAVE SCENARIO
+451	AUTOSAVE CAMPAIGN			AUTOSAVE CAMPAIGN	AUTOSAVE CAMPAIGN	AUTOSAVE CAMPAIGN	AUTOSAVE CAMPAIGN	AUTOSAVE CAMPAIGN
+452	Change Commands			Change Commands	Change Commands	Change Commands	Change Commands	Change Commands
+453	Requisition			Requisition	Requisition	Requisition	Requisition	Requisition
+454	Field Headquarters			Field Headquarters	Field Headquarters	Field Headquarters	Field Headquarters	Field Headquarters
+455	Dossier			Dossier	Dossier	Dossier	Dossier	Dossier
+456	Upgrade			Upgrade	Upgrade	Upgrade	Upgrade	Upgrade
+457	Build Army			Build Army	Build Army	Build Army	Build Army	Build Army
+458	Viewing Unit Record			Viewing Unit Record	Viewing Unit Record	Viewing Unit Record	Viewing Unit Record	Viewing Unit Record
+459	Done			Done	Done	Done	Done	Done
+460	Last Turn			Last Turn	Last Turn	Last Turn	Last Turn	Last Turn
+461	Enter Scenario Name			Enter Scenario Name	Enter Scenario Name	Enter Scenario Name	Enter Scenario Name	Enter Scenario Name
+462	Failed To Open Session			Failed To Open Session	Failed To Open Session	Failed To Open Session	Failed To Open Session	Failed To Open Session
+463	Version 1.0			People's General 2.0 (People's General Upgrade) by Narayan Sengupta with Mark Kirby and Pat Fitzgibbon	   ******** ATTUN HUT!  Officer on Duty!  Salute!  Welcome Sir to People's General: Shock and Awe - Classic v 2.3  Mod by Deuce Savage ********	 ****** ATTUN HUT!  Officer on Duty!  Salute!  Welcome Sir to People's General:  SuperPowers - Classic v_2.0 series  Mod by Deuce Savage ******	PEOPLE'S GENERAL Version 3.0  (1 June 2006, modified PEOPLES.EXE & auxiliary files)	PEOPLE'S GENERAL Version 3.0  (1 June 2006, modified PEOPLES.EXE & auxiliary files)
+464	Scenario Builder			Scenario Builder	Scenario Builder	Scenario Builder                                                	Scenario Builder	Scenario Builder
+465	Helicopters flee!			Helos or Fighter/Bombers flee!	Helicopters flee!	Helos or Fighter/Bombers flee!	Helicopters flee!	Helicopters flee!
+466	Ignore Entrenchments			Ignore Entrenchments	Ignore Entrenchments	Ignore Entrenchments	unused   These 8 lines originally were used to name	unused   These 8 lines originally were used to name
+467	Bridging			Bridging	Bridging Engineers	Bridging	unused   Special Equipment.  They have been replaced by	unused   Special Equipment.  They have been replaced by
+468	Paratroop			Paratroop	Paratroop	Paratroop	unused   lines 613-628 below.	unused   lines 613-628 below.
+469	Combat Support			Combat Support	Deploy & Supply	Combat Support	unused	unused
+470	River Assault			River Assault	River Assault	River Assault	unused	unused
+471	Light Infantry			Light Infantry	Light Infantry	Light Infantry	unused	unused
+472	Destroys Entrenchments			Destroys Entrenchments	Destroys Entrenchments	Destroys Entrenchments	Next Equipment Group	Next Equipment Group
+473	Entrenches Quickly			Entrenches Quickly	Entrenches Quickly	Entrenches Quickly	Last Equipment Group	Last Equipment Group
+474	Wild Weasel			Wild Weasel	Wild Weasel	Wild Weasel	Wild Weasel	Wild Weasel
+475	Air Strike			Air Strike	Air Strike	Air Strike	Air Strike	Air Strike
+476	Recon			Recon	Recon	Recon	Air Recon	Air Recon
+477	Interdiction			Interdiction	Interdiction	Interdiction	Interdiction	Interdiction
+478	Defensive Support			Defensive Support	Defensive Support	Defensive Support	Defensive Support	Defensive Support
+479	Airlift			Airlift	Airlift	Airlift	Airlift	Airlift
+480	Transport Helicopter			Transport Helicopter	Transport Helicopter	Transport Helicopter	Transport Helicopter	Transport Helicopter
+481	Cost			Cost	Cost	Cost	Cost 	Cost 
+482	Day			Day	Day	Day	Day	Day
+483	Night			Night	Night	Night	Night	Night
+484	Month			Month	Month	Month	Month	Month
+485	Year			Year	Year	Year	Year	Year
+486	Current Air Points			Current Air Points	Current Air Points	Current Air Points	Current Air Points	Current Air Points
+487	Mission Cost			Mission Cost	Mission Cost	Mission Cost	Mission Cost	Mission Cost
+488	Fly A Mission			Fly A Mission	Fly A Mission	Fly A Mission	Air Missions	Air Missions
+489	Subtract One Mission			Subtract One Mission	Subtract One Mission	Subtract One Mission	Subtract One Mission	Subtract One Mission
+490	Add One Mission			Add One Mission	Add One Mission	Add One Mission	Add One Mission	Add One Mission
+491	Cancel All Missions			Cancel All Missions	Cancel All Missions	Cancel All Missions	Cancel All Missions	Cancel All Missions
+492	View Battle Record			View Battle Record	View Battle Record	View Battle Record	View Battle Record	View Battle Record
+493	Air Defense Killed			Air Defense Destroyed	Air Defense Killed	Air Defense Destroyed	Air Defense Killed	Air Defense Killed
+494	Anti-tank Killed			Anti-tank Destroyed	Anti-tank Killed	Anti-tank Destroyed	Anti-tank Killed	Anti-tank Killed
+495	Artillery Killed			Artillery Destroyed	Artillery Killed	Artillery Destroyed	Artillery Killed	Artillery Killed
+496	Infantry Killed			Infantry Destroyed	Infantry Killed	Infantry Destroyed	Infantry Killed	Infantry Killed
+497	Recon Killed			Recon Destroyed	Recon Killed	Recon Destroyed	Recon Killed	Recon Killed
+498	Tanks Killed			Tanks Destroyed	Tanks Killed	Tanks Destroyed	Tanks Killed	Tanks Killed
+499	Helicopters Killed			Helos and Aircraft Destroyed	Helicopters Killed	Helos and Aircraft Destroyed	Helicopters Killed	Helicopters Killed
+500	Planes Killed			Support Aircraft Destroyed	Planes Killed	Support Aircraft Destroyed	Planes Killed	Planes Killed
+501	Kills			Kills	Kills	Kills	Kills	Kills
+502	Select Unit For Upgrade			Select Unit For Upgrade	Select Unit For Upgrade	Select Unit For Upgrade	Select Unit For Upgrade	Select Unit For Upgrade
+503	Select Upgrade For Unit			Select Upgrade For Unit	Select Upgrade For Unit	Select Upgrade For Unit	Select Upgrade For Unit	Select Upgrade For Unit
+504	Examine Unit			Examine Unit	Examine Unit	Examine Unit	Examine Unit	Examine Unit
+505	Select Unit For Purchase			Select Unit For Purchase	Select Unit For Purchase	Select Unit For Purchase	Select Unit For Purchase	Select Unit For Purchase
+506	Adjust Air Superiority			Adjust Air Superiority	Adjust Air Superiority	Adjust Air Superiority	Adjust Air Superiority	Adjust Air Superiority
+507	Rename General			Rename General	Rename General	Rename General	Rename General	Rename General
+508	Victory Medals			Victory Medals	Victory Medals	Victory Medals	Victory Medals	Victory Medals
+509	Cities Conquered			Cities Conquered	Victory Hexes Captured	Cities Conquered	Victory Hexes Captured	Victory Hexes Captured
+510	Air Superiority Percentage %d			Air Superiority Percentage %d	Air Superiority Percentage %d	Air Superiority Percentage %d	Air Superiority:  %d percent	Air Superiority:  %d percent
+511	Increase Strength			Increase Strength	Increase Strength	Increase Strength	Increase Strength	Increase Strength
+512	Decrease Strength			Decrease Strength	Decrease Strength	Decrease Strength	Decrease Strength	Decrease Strength
+513	Air Mission Aborted!			Air Mission Aborted!	Stand Down! Air Mission Aborted!	Stand Down! Air Mission Aborted!	Air Mission Aborted!	Air Mission Aborted!
+514	Headquarters is pleased. You have gained prestige.			Headquarters is pleased. You have gained prestige.	Headquarters is pleased. You have gained prestige.	Headquarters is pleased. You have gained prestige.	PRESTIGE BONUS!	PRESTIGE BONUS!
+515	The commander of these troops has become renowned.			The commander of these troops has become renowned.	The commander of these troops has become renowned.	The commander of these troops has become renowned.	LEADER ASSIGNED!	LEADER ASSIGNED!
+516	These troops have improved!			These troops have improved!	These troops have become outstanding! Hoo-Rah!	These troops have become outstanding! Hoo-Rah!	TROOP IMPROVEMENT!	TROOP IMPROVEMENT!
+517	Headquarters is pleased. They promise more air missions.			Headquarters is pleased. They promise more air missions.	Generals are pleased. They promise more air missions.	Generals are pleased. They promise more air missions.	MORE AIR MISSIONS!	MORE AIR MISSIONS!
+518	Headquarters is pleased. They promise advanced equipment.			Headquarters is pleased. They promise advanced equipment.	Brass is estatic! They promise advanced equipment.	Brass is estatic! They promise advanced equipment.	ADVANCED EQUIPMENT!	ADVANCED EQUIPMENT!
+519	Choose Scenario to Edit			Choose Scenario to Edit	Choose Scenario to Edit	Choose Scenario to Edit	Choose Scenario to Edit	Choose Scenario to Edit
+520	Choose Map for Scenario			Choose Map for Scenario	Choose Map for Scenario	Choose Map for Scenario	Choose Map for Scenario	Choose Map for Scenario
+521	Configure Game			Configure Game	Configure Game	Configure Game	Scenario Builder-Configure Game	Scenario Builder-Configure Game
+522	Configure Player			Configure Player	Configure Player	Configure Player	Scenario Builder-Configure Player	Scenario Builder-Configure Player
+523	Edit Player 1			Edit Player 1	Edit Player 1	Edit Player 1	Edit Player 1	Edit Player 1
+524	Edit Player 2			Edit Player 2	Edit Player 2	Edit Player 2	Edit Player 2	Edit Player 2
+525	Edit Player 3			Edit Player 3	Edit Player 3	Edit Player 3	Edit Player 3	Edit Player 3
+526	Edit Player 4			Edit Player 4	Edit Player 4	Edit Player 4	Edit Player 4	Edit Player 4
+527	Editing Player 1			Editing Player 1	Editing Player 1	Editing Player 1	Editing Player 1	Editing Player 1
+528	Editing Player 2			Editing Player 2	Editing Player 2	Editing Player 2	Editing Player 2	Editing Player 2
+529	Editing Player 3			Editing Player 3	Editing Player 3	Editing Player 3	Editing Player 3	Editing Player 3
+530	Editing Player 4			Editing Player 4	Editing Player 4	Editing Player 4	Editing Player 4	Editing Player 4
+531	Designate Victory Hexes			Designate Victory Hexes	Designate Victory Hexes	Designate Victory Hexes	Designate Victory Hexes	Designate Victory Hexes
+532	Designate Supply Hexes			Designate Supply Hexes	Designate Supply Hexes	Designate Supply Hexes	Designate Supply Hexes	Designate Supply Hexes
+533	Designate Trigger Hexes			Designate Trigger Hexes	Designate Trigger Hexes	Designate Trigger Hexes	Designate Trigger Hexes	Designate Trigger Hexes
+534	Designate Reaction Hexes			Designate Reaction Hexes	Designate Reaction Hexes	Designate Reaction Hexes	Designate Reaction Hexes	Designate Reaction Hexes
+535	Adjust Units			Adjust Units	Adjust Units	Adjust Units	Adjust Units	Adjust Units
+536	Next Screen			Next Screen	Next Screen	Next Screen	Next Screen	Next Screen
+537	New Scenario			New Scenario	New Scenario	New Scenario	NEW SCENARIO	NEW SCENARIO
+538	CHOOSE SCENARIO			CHOOSE SCENARIO	CHOOSE SCENARIO	CHOOSE SCENARIO	CHOOSE SCENARIO	CHOOSE SCENARIO
+539	SELECT MAP			SELECT MAP	SELECT MAP	SELECT MAP	SELECT MAP	SELECT MAP
+540	Turns For Brilliant Victory			Turns For Brilliant Victory	Turns For Brilliant Victory	Turns For Brilliant Victory	Turns For Brilliant Victory	Turns For Brilliant Victory
+541	Turns For Victory			Turns For Victory	Turns For Victory	Turns For Victory	Turns For Victory	Turns For Victory
+542	Turns For Marginal			Turns For Marginal Victory	Turns For Marginal	Turns For Marginal Victory	Turns For Tactical Victory	Turns For Tactical Victory
+543	Increase Air Superiority			Increase Air Superiority	Increase Air Superiority	Increase Air Superiority	Increase Air Superiority	Increase Air Superiority
+544	Decrease Air Superiority			Decrease Air Superiority	Decrease Air Superiority	Decrease Air Superiority	Decrease Air Superiority	Decrease Air Superiority
+545	Subtropical			Subtropical	Subtropical	Subtropical	(A) Tropical Humid	(A) Tropical Humid
+546	Desert			Desert	Desert	Desert	(B) Dry	(B) Dry
+547	Warm Temperate			Warm Temperate	Warm Temperate	Warm Temperate	(C) Warm Temperate	(C) Warm Temperate
+548	Cool Temperate			Cool Temperate	Cool Temperate	Cool Temperate	(D) Cold Temperate	(D) Cold Temperate
+549	Subarctic			Subarctic	Subarctic	Subarctic	(E) Polar	(E) Polar
+550	Set Eastern Stance			Set Eastern Stance	Set Eastern Stance	Set Eastern Stance	Eastern Victory Requirement	Eastern Victory Requirement
+551	Set Western Stance			Set Western Stance	Set Western Stance	Set Western Stance	Western Victory Requirement	Western Victory Requirement
+552	Set to Aggressor			Set to Aggressor	AI must capture ALL VH to win	Set to Aggressor	Capture ALL VH to win	Capture ALL VH to win
+553	Set to Defender			Set to Defender	AI can capture ANY VH to win	Set to Defender	Capture ONE VH to win	Capture ONE VH to win
+554	Scenario Title			Scenario Title	Scenario Title	Scenario Title	SCENARIO TITLE	SCENARIO TITLE
+555	Weather			Weather	Weather	Weather	Weather	Weather
+556	Latitude			Latitude	Latitude	Latitude	Climate Type	Climate Type
+557	Eastern Starting Air Level			Eastern Starting Air Level	Eastern Starting Air Level	Eastern Starting Air Level	Eastern Starting Air Level	Eastern Starting Air Level
+558	Western Starting Air Level			Western Starting Air Level	Western Starting Air Level	Western Starting Air Level	Western Starting Air Level	Western Starting Air Level
+559	Increase Air Mission Pts			Increase Air Mission Pts	Increase Air Mission Pts	Increase Air Mission Pts	Increase Air Mission Pts	Increase Air Mission Pts
+560	Decrease Air Mission Pts			Decrease Air Mission Pts	Decrease Air Mission Pts	Decrease Air Mission Pts	Decrease Air Mission Pts	Decrease Air Mission Pts
+561	Player Air Mission Pts			Player Air Mission Pts	Player Air Mission Pts	Player Air Mission Pts	Player Air Mission Pts	Player Air Mission Pts
+562	Increase Prestige			Increase Prestige	Increase Prestige	Increase Prestige	Increase Prestige	Increase Prestige
+563	Decrease Prestige			Decrease Prestige	Decrease Prestige	Decrease Prestige	Decrease Prestige	Decrease Prestige
+564	Player Prestige			Player Prestige	Player Prestige	Player Prestige	Player Prestige	Player Prestige
+565	Alter Unit Leader			Alter Unit Leader	Alter Unit Leader	Alter Unit Leader	Alter Unit Leader	Alter Unit Leader
+566	NAME UNIT			NAME UNIT	NAME UNIT	NAME UNIT	NAME UNIT	NAME UNIT
+567	Increase Experience			Increase Experience	Increase Experience	Increase Experience	Increase Experience	Increase Experience
+568	Decrease Experience			Decrease Experience	Decrease Experience	Decrease Experience	Decrease Experience	Decrease Experience
+569	LEADERS			LEADERS	LEADERS	LEADERS	LEADERS	LEADERS
+570	Requisition Elite Unit			Requisition Elite Unit	Requisition Elite Unit	Requisition Elite Unit	Elite Unit	Elite Unit
+571	Requisition Veteran Unit			Requisition Veteran Unit	Requisition Veteran Unit	Requisition Veteran Unit	Veteran Unit	Veteran Unit
+572	Requisition Regular Unit			Requisition Regular Unit	Requisition Regular Unit	Requisition Regular Unit	Regular Unit	Regular Unit
+573	Campaign Selection Screen			Campaign Selection Screen	Campaign Selection Screen	Campaign Selection Screen	Campaign Selection Screen	Campaign Selection Screen
+574	Scenario Selection Screen			Scenario Selection Screen	Scenario Selection Screen	Scenario Selection Screen	Scenario Selection Screen	Scenario Selection Screen
+575	Tips			Tips	Tips	Tips	Tips	Tips
+576	Strength: %d/%d			Strength: %d/%d	Strength: %d/%d	Strength: %d/%d	Strength: %d/%d	Strength: %d/%d
+577	Tactical Operations			Tactical Operations	Tactical Operations	Tactical Operations	Tactical Operations	Tactical Operations
+578	If you exit you will lose your work. Do you still want to exit?			If you exit you will lose your work. Do you still want to exit People's General 2.0?	If you exit you will lose your work. Do you still want to retreat?	If you exit you will lose your work. Do you still want to retreat?	If you exit you will lose your work. Do you still want to exit?	If you exit you will lose your work. Do you still want to exit?
+579	Edit This Scenario			Edit This Scenario	Edit This Scenario	Edit This Scenario	Edit This Scenario	Edit This Scenario
+580	Create New Scenario			Create New Scenario	Create New Scenario	Create New Scenario	Create New Scenario	Create New Scenario
+581	%d Experience Regulars			%d Experience Regulars	%d Experience Regulars	%d Experience Regulars	%d Experience Regulars	%d Experience Regulars
+582	%d Experience Veterans			%d Experience Veterans	%d Experience Veterans	%d Experience Veterans	%d Experience Veterans	%d Experience Veterans
+583	%d Experience Elites			%d Experience Elites	%d Experience Elites	%d Experience Elites	%d Experience Elites	%d Experience Elites
+584	Bad Weather! Air units are significantly reduced in effectiveness!			Bad Weather! Air units are significantly reduced in effectiveness!	Bad Weather! Air units are significantly reduced in effectiveness!	Bad Weather! Air units are significantly reduced in effectiveness!	Bad Weather! Air units are significantly reduced in effectiveness!	Bad Weather! Air units are significantly reduced in effectiveness!
+585					Tracked		Tracked	Tracked
+586					Half-Tracked		Half-Tracked	Half-Tracked
+587					Wheeled		Wheeled	Wheeled
+588					Leg		Leg	Leg
+589					Light Tracked		Light Tracked	Light Tracked
+590					Air		Air	Air
+591					Deep Naval		Deep Naval	Deep Naval
+592					Coastal		Coastal	Coastal
+593					All Terrain-Vehicle		All Terrain Vehicle (Multi-Wheeled)	All Terrain Vehicle (Multi-Wheeled)
+594					Amphibious		Amphibious	Amphibious
+595					Guerilla		Guerilla	Guerilla
+596					Ranger		Ranger	Ranger
+597					[		Fly The Planned Air Missions	Fly The Planned Air Missions
+598							Exit Mission Planning (no air missions flown)	Exit Mission Planning (no air missions flown)
+599							Core	Core
+600							Auxiliary - 	Auxiliary - 
+601							Select Air Defense	Select Air Defense
+602							Select Air Defense	Select Air Defense
+603							Select Anti-tank	Select Anti-tank
+604							Select Artillery	Select Artillery
+605							Select Infantry	Select Infantry
+606							Select Recon	Select Recon
+607							Select Tank	Select Tank
+608							Select Helicopter	Select Helicopter
+609							Select Level Bomber - 	Select Level Bomber - 
+610							Select Tactical Bomber	Select Tactical Bomber
+611							Select Bomber	Select Bomber
+612							Select Fighter	Select Fighter
+613							Select Submarine	Select Submarine
+614							Select Destroyer	Select Destroyer
+615							Select Gun Cruiser	Select Gun Cruiser
+616							Select Missile Cruiser	Select Missile Cruiser
+617							Select Aegis Cruiser	Select Aegis Cruiser
+618							Select Fortification	Select Fortification
+619							Select Command & Support	Select Command & Support
+620							Select Ground Transport	Select Ground Transport
+621							Select Air Transport	Select Air Transport
+622							Select Naval Transport	Select Naval Transport
+623							Select Battleship	Select Battleship
+624							Select Carrier	Select Carrier
+625							Next Purchase Screen	Next Purchase Screen
+626							Previous Purchase Screen	Previous Purchase Screen
+627							Ignore Entrenchments	Ignore Entrenchments
+628							Bridging Engineers	Bridging Engineers
+629							Paratroop	Paratroop
+630							Deployment HQ	Deployment HQ
+631							River Assault	River Assault
+632							Infilitrator	Infilitrator
+633							Destroys Entrenchments	Destroys Entrenchments
+634							Entrenches Quickly	Entrenches Quickly
+635							Supply Truck	Supply Truck
+636							Unknown Special Equipment	Unknown Special Equipment
+637							Multiple Counter-Battery	Multiple Counter-Battery
+638							ASW	ASW
+639							Carrier Aircraft	Carrier Aircraft
+640							Recon Movement	Recon Movement
+641							Unused Special Equipment 2	Unused Special Equipment 2
+642							Unused Special Equipment 3	Unused Special Equipment 3
+643							---------	---------
+644							Test -- Line 644 (offset 643 = $0283)	Test -- Line 644 (offset 643 = $0283)
+645							Test -- Line 645 (offset 644 = $0284)	Test -- Line 645 (offset 644 = $0284)
+646							Test -- Line 646 (offset 645 = $0285)	Test -- Line 646 (offset 645 = $0285)
+647							Test -- Line 647 (offset 646 = $0286)	Test -- Line 647 (offset 646 = $0286)
+648							---------	---------
+649							lines below this are not referenced	lines below this are not referenced
+650							maximum GUI length = 1000 lines	maximum GUI length = 1000 lines
+651							GUI030 -- GUI97 for PEOPLES.EXE version 3.0 or higher	GUI030 -- GUI97 for PEOPLES.EXE version 3.0 or higher
+652							file date:  3:00 PM Tuesday, June 27, 2006	file date:  3:00 PM Tuesday, June 27, 2006
+653							total lines = 653	total lines = 653

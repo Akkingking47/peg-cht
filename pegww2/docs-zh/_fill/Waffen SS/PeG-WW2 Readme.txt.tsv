@@ -1,0 +1,18 @@
+# Waffen SS\PeG-WW2 Readme.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	Waffen SS campaign version 2.0	武装党卫军战役版本 2.0
+2	This PG2 campaign of John McNulty has been converted for PeG-WW2 by Mark Kirby in 2000.	John McNulty 的这个 PG2 战役已由 Mark Kirby 于 2000 年移植为 PeG-WW2 版本。
+3	Download all files in the SCENARIO directory of PeG-WW2, since file names have not been modified they will just replace the existing ones of version 1.0.	请下载 PeG-WW2 的 SCENARIO 目录中的所有文件；由于文件名未作修改，它们会直接替换 1.0 版的现有文件。
+4	No download of maps is needed since all SSI maps are already included with the PeG-WW2 installer programme.	无需下载地图，因为所有 SSI 地图都已包含在 PeG-WW2 安装程序中。
+6	Changes to Mark Kirby's campaign conversion	对 Mark Kirby 战役转换版的改动
+8	* I have added references to movies in the CAM file. 	* 我在 CAM 文件中加入了影片引用。
+9	The following movies have been used: NewGMWin, Medalgem, Gerloss, 1, 2, Fas3, 4, finn-01, Fas2, Wdunkirk, Fas9, victory1940, Fas11, Fas13, 11, Kursk, 16, Fas15, 17.	使用了以下影片：NewGMWin, Medalgem, Gerloss, 1, 2, Fas3, 4, finn-01, Fas2, Wdunkirk, Fas9, victory1940, Fas11, Fas13, 11, Kursk, 16, Fas15, 17。
+10	Download movies in SMK format at Adlerkorps website: http://www.adlerkorps.com/	请在 Adlerkorps 网站下载 SMK 格式的影片：http://www.adlerkorps.com/
+11	The PeG-WW2 game readme file explains how to convert SMK movies into AVI format.	PeG-WW2 游戏说明文件介绍了如何把 SMK 影片转换为 AVI 格式。
+13	* Campaign introduction text file has been changed.	* 战役介绍文本文件已作修改。
+15	* I have also added Waffen SS country as member of the coalition in each scenario of the campaign, so that Waffen SS units would become purchasable with future PeG 3.0 engine.	* 我还在战役的每个场景中把武装党卫军国家加为联军成员，这样武装党卫军单位在将来的 PeG 3.0 引擎中就可以购买。
+17	* Scenarios have not been changed compared with version 1 of this campaign (except the coalition with country nr 15).	* 与这个战役的 1 版相比，各场景没有改动（除了与 15 号国家的联军关系）。
+19	* A Waffen SS.XLS file shows now the campaign path.	* 现在有一个 Waffen SS.XLS 文件显示战役路线。
+21	* I have added the original PG2 readme file of John McNulty.	* 我加入了 John McNulty 的原始 PG2 说明文件。
+23	Robert Mary, 17/03/2007	[[KEEP]]
+25	Other campaigns at: http://www.pegww2.net/	其他战役见：http://www.pegww2.net/

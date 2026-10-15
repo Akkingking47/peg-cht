@@ -1,0 +1,1169 @@
+装备条目（非空行）: 1000  唯一: 906
+
+纯型号/番号串（可自动保留）: 294
+含实义词的串（需处理）: 706
+
+=== 实义词频表（452 个不同词）===
+    56  w/Truck
+    45  Air
+    45  Support
+    37  Class
+    32  w/Camion
+    27  w/LKW
+    21  w/Wagon
+    19  Transport
+    16  w/Pferden
+    14  inch
+    14  Paratrooper
+    11  Churchill
+    10  w/Gruzovik
+     9  Infanterie
+     9  w/Carro
+     9  Pdr
+     9  w/Ciezarowka
+     7  Sem
+     7  Sqn
+     7  Sherman
+     7  aérien
+     6  Sea
+     6  Crusader
+     6  Cromwell
+     6  Valentine
+     6  Mortar
+     6  Soutien
+     5  Bunker
+     5  Sdkfz
+     5  Panther
+     5  Wolverine
+     5  Royal
+     5  Cruiser
+     5  Team
+     5  Navy
+     4  w/Kuorma-auto
+     4  w/Charrette
+     4  Fortification
+     4  Avro
+     4  FlaKPz
+     4  FlakPz
+     4  Engineer
+     4  w/Vagon
+     4  Staghound
+     4  Grant
+     4  Firefly
+     4  Lightning
+     4  Mustang
+     4  Infantry
+     4  Amphibious
+     4  Invasion
+     4  Ship
+     4  Mobile
+     4  Army
+     4  Sniper
+     3  SdKfz
+     3  Waffen
+     3  Brückenbau
+     3  Tiger
+     3  Zerstorer
+     3  w/Szeker
+     3  Infanteria
+     3  w/Vogn
+     3  Piechota
+     3  Bridging
+     3  Transportschiffe
+     3  Rata
+     3  Strongpoint
+     3  Daimler
+     3  Scout
+     3  Matilda
+     3  w/Jeep
+     3  Stuart
+     3  Thunderbolt
+     3  Katyusha
+     3  Pehota
+     3  Airacobra
+     3  Nave
+     3  Jeep
+     3  Willis
+     3  U-Boot
+     3  Type
+     3  Page
+     3  Legion
+     2  Fokker
+     2  MkI/Spitfire
+     2  Skytrain
+     2  JgdPanther
+     2  sFH
+     2  PzA
+     2  sIG
+     2  StuH
+     2  Kavallerie
+     2  Sturmpioniere
+     2  Gebirgsjäger
+     2  Maus
+     2  Tauchfähig
+     2  VIb
+     2  Koenigstiger
+     2  w
+     2  Emil
+     2  Gustav
+     2  Dora
+     2  Tante
+     2  w/Teherkocsi
+     2  Mine
+     2  Field
+     2  Turan
+     2  Mk.III
+     2  Fortificacion
+     2  Milicia
+     2  Sk
+     2  Carrier
+     2  Regular
+     2  Marine
+     2  Humber
+     2  Honey
+     2  IB/Avro
+     2  Morser
+     2  Dakota/Spitfire
+     2  Jackson
+     2  Jumbo
+     2  Railgun
+     2  Kavaleria
+     2  Gvardeiskaya
+     2  Parashutno
+     2  Leibstandarte
+     2  Del
+     2  Transporte
+     2  Grille
+     2  Centaur
+     2  mm
+     2  Flying
+     2  Panzergrenadiere
+     2  Kriegsmarine
+     2  Sturmvogel
+     2  Armia
+     2  Partisans
+     2  Horten
+     2  Ho
+     2  XVIII
+     2  Corsair
+     2  Handley
+     2  Wallonien
+     2  City
+     2  of
+     2  Stuka
+     2  Swordfish
+     2  Pzl
+     1  European
+     1  E-file
+     1  version
+     1  Robert
+     1  Mary
+     1  w/Kuoma-auto
+     1  Artillery
+     1  Radar
+     1  Jalkavaki
+     1  Sissi-Joukkeet
+     1  Suksi
+     1  Abri
+     1  Cavalerie
+     1  Chasseurs
+     1  Ingenieurs
+     1  Dunkerque
+     1  Richelieu
+     1  Suffren
+     1  La
+     1  Galissoniere
+     1  Le
+     1  Fantasque
+     1  PzJgd
+     1  Wurfrahmen
+     1  Bison
+     1  Blockhaus
+     1  Festigung
+     1  Grenzwacht
+     1  Fallschirmjäger
+     1  Volkssturm
+     1  Puma
+     1  Bismarck
+     1  Scharnhorst
+     1  Hipper
+     1  Nurnberg
+     1  Zeppelin
+     1  Maass
+     1  Krad
+     1  Kurfuerst
+     1  Pfeil
+     1  Wuerger
+     1  Salamander
+     1  Komet
+     1  Schwalbe
+     1  Mtm
+     1  Megerosites
+     1  Huszar
+     1  Sorkatonasag
+     1  Tatra
+     1  Portee
+     1  Cabonile
+     1  Fortificazione
+     1  Alpini
+     1  Bersaglieri
+     1  Genio
+     1  Fanteria
+     1  Littorio
+     1  Zara
+     1  Condottieri
+     1  Centauro
+     1  Folgore
+     1  Veltro
+     1  Falco
+     1  Sagittario
+     1  Legionario
+     1  Festning
+     1  Infanteri
+     1  Roadblock
+     1  Bunkier
+     1  Fort
+     1  Kawaleria
+     1  Inzynier
+     1  Spadochroniarze
+     1  Skytrain/Spitfire
+     1  Brigada
+     1  Maresal
+     1  Cazemata
+     1  Cetate
+     1  Cavelerie
+     1  Balloon
+     1  Barbed
+     1  Wire
+     1  Achilles
+     1  Mk.II
+     1  Mk.IV
+     1  Bishop
+     1  Sexton
+     1  Australian
+     1  Canadian
+     1  Commando
+     1  w/Bren
+     1  Ghurka
+     1  Home
+     1  Guard
+     1  Indian
+     1  New
+     1  Zealand
+     1  King
+     1  George
+     1  Renown
+     1  County
+     1  Leander
+     1  Illustrious
+     1  Tribal
+     1  Centurion
+     1  Challenger
+     1  Comet
+     1  HoneyI
+     1  Beaufighter/Spitfire
+     1  Meatchopper
+     1  Hellcat
+     1  Priest
+     1  National
+     1  Ranger
+     1  Chaffee
+     1  Greyhound
+     1  Car
+     1  Iowa
+     1  Baltimore
+     1  Brooklyn
+     1  Essex
+     1  Yorktown
+     1  Fletcher
+     1  Pershing
+     1  Patton
+     1  Skink
+     1  Kuljetus
+     1  Warhawk
+     1  Razorback
+     1  Shooting
+     1  Star
+     1  Saperno-Shturmovoi
+     1  Opolchenye
+     1  Sapernii
+     1  Morskaya
+     1  Sovetskiy
+     1  Soyuz
+     1  Kirov
+     1  Leningrad
+     1  Storozhevoi
+     1  Ratte
+     1  Bateau
+     1  De
+     1  Di
+     1  Trasporto
+     1  Soldati
+     1  Aquila
+     1  entrenched
+     1  Command
+     1  Seafire
+     1  Mountain
+     1  Szallitohajo
+     1  CHawk
+     1  PaK(t
+     1  PaK(f
+     1  PzSelb
+     1  Maultier
+     1  Grenadiere
+     1  Luftwaffe
+     1  Volksgrenadier
+     1  Friedrich
+     1  Zrinyi
+     1  Paracadutisti
+     1  Archer
+     1  Cavalier
+     1  Quad
+     1  Voiska
+     1  Shocktroops
+     1  Blenheim
+     1  I/Spitfire
+     1  Kingcobra
+     1  Fusilier
+     1  Tank
+     1  Skijäger
+     1  South
+     1  African
+     1  Czechosovak
+     1  Belgian
+     1  Nederland
+     1  Tetrarch
+     1  Cavalleria
+     1  Jäger
+     1  Skoda
+     1  Giovani
+     1  Fascisti
+     1  Algerian
+     1  Hadsereg
+     1  Mernok
+     1  Das
+     1  Reich
+     1  Totenkopf
+     1  DXXI/Blenheim
+     1  Finnish
+     1  Hungary
+     1  Italian
+     1  Nationalist
+     1  Norway
+     1  Poland
+     1  Republican
+     1  Romania
+     1  Russian
+     1  Fagot
+     1  Pulkzerstorer
+     1  FlamPz
+     1  Algemein
+     1  Enola
+     1  Diana
+     1  Alaska
+     1  Partizani
+     1  Paradropped
+     1  Spy
+     1  Siberians
+     1  SturmPz
+     1  Brummbaer
+     1  Gornostrelky
+     1  Cossacks
+     1  Gato
+     1  Trident
+     1  Stalinets
+     1  Marconi
+     1  IV/Avro
+     1  Gloster
+     1  Meteor
+     1  Krajowa
+     1  Chetniks
+     1  Pontoon
+     1  Bridge
+     1  Karl
+     1  Sparviero
+     1  Armored
+     1  Anti-Tank
+     1  Hinders
+     1  Ski
+     1  Bren
+     1  Grossdeutschland
+     1  Bunkkeri
+     1  Linnake
+     1  f
+     1  w/Krad
+     1  Blitz
+     1  Avenger
+     1  II/Handley
+     1  Halifax/Spitfire
+     1  Twin
+     1  Liberator
+     1  Superfortress
+     1  Atomic
+     1  Calliope
+     1  Flame-thrower
+     1  Duster
+     1  Werewolf
+     1  Résistance
+     1  Div
+     1  Azul
+     1  Motociclistas
+     1  Zapadores
+     1  Charlemagne
+     1  Italienische
+     1  Langemarck
+     1  Gebirgspionere
+     1  Normandie
+     1  Niemen
+     1  Arabien
+     1  Légion
+     1  étrangère
+     1  Nordland
+     1  Arabian
+     1  Cavallry
+     1  Hunyadi
+     1  Arab
+     1  Alsace
+     1  Glasgow
+     1  Deblin
+     1  Hitlerjugend
+     1  with
+     1  Kittyhawk
+     1  Picchiatello"/Falco
+     1  Sturmpionere
+     1  Pioneri
+     1  Unitati
+     1  da
+     1  Geniu
+     1  Rezerwa
+     1  Obrona
+     1  Narodowa
+     1  Gorska
+     1  Mobil
+     1  Armee
+     1  Boston/Spitfire
+     1  Egyptian
+     1  Boston
+     1  Bazooka
+     1  Scottish
+     1  Highlanders
+     1  Brandenburger
+     1  mobile
+     1  d'Armée
+     1  Sapeurs
+     1  Ludowa
+     1  Mines
+     1  Minelayer
+     1  Regia
+     1  Marina)/BA
+
+=== 含实义词的串：全部列出（供人工定词法规则后复算）===
+  European E-file version 1.02d Robert Mary 05.10.2007
+  37mm FlaK w/Kuorma-auto
+  3.7cm PaK w/Wagon
+  5cm PaK w/Wagon
+  7.5cm  PaK w/Kuoma-auto
+  105mm K34 w/Kuorma-auto
+  152mm H17 w/Kuorma-auto
+  76mm K02 w/Wagon
+  Bunker Artillery
+  AI Radar
+  Jalkavaki w/Wagon
+  Sissi-Joukkeet w/Kuorma-auto
+  Suksi
+  21cm M18 w/LKW
+  Fokker DXXI
+  25mm SA34 w/Charrette
+  76mm w/Camion
+  105mm C mle36 w/Camion
+  155mm L mle17 w/Camion
+  75mm C mle97 w/Camion
+  Abri
+  Fortification
+  Cavalerie
+  Chasseurs (M)
+  Ingenieurs (E) w/Camion
+  Infanterie w/Charrette
+  FFL Infanterie w/Camion
+  Dunkerque Class
+  Richelieu Class
+  Suffren Class
+  La Galissoniere Class
+  Le Fantasque Class
+  Avro Lancaster Mk I Air Support
+  Avro Lancaster MkI/Spitfire VC
+  Sea Transport
+  C47 Skytrain
+  20mm FlaK w/LKW
+  20mm (Q) FlaK w/LKW
+  3.7cm PaK w/Pferden
+  37mm FlaK w/LKW
+  FlaKPz IV Mobelwagen
+  8.8cm FlaK36 w/LKW
+  FlaKPz V Coelian
+  FlaKPz 38(t)
+  FlakPz IV Ostwind
+  SdKfz 7/1
+  SdKfz 6/2
+  SdKfz 10/4
+  FlaKPz IV Wirbelwind
+  5cm PaK w/Pferden
+  7.5cm PaK w/LKW
+  8.8 FK18 ATG w/LKW
+  JgdPanther
+  PzJgd I
+  10.5 leFH18m w/Pferden
+  15 sFH 18 w/LKW
+  17 K18 w/LKW
+  7.5 leFK18 w/Pferden
+  PzA IV Hummel
+  15 NbWf41 w/LKW
+   Sdkfz 251/1 Wurfrahmen
+  3.7 inch w/Truck
+  sIG IB Bison
+  sIG II
+  StuH 42G
+  PzA II Wespe
+  Blockhaus
+  Festigung
+  Waffen SS w/LKW
+  Kavallerie
+  Sturmpioniere (E) w/LKW
+  Brückenbau (B) w/LKW
+  Grenzwacht
+  Gebirgsjäger (M)
+  Fallschirmjäger (P)
+  Infanterie w/Pferden
+  Volkssturm
+  PSW 234/2 Puma
+  Bismarck Class
+  Scharnhorst Class
+  Hipper Class
+  Nurnberg Class
+  Zeppelin Class
+  Maass Class
+  Pz VII Maus
+  Pz VA Panther
+  Pz VD Panther
+  Pz VG Panther
+  Pz VIII Panther II
+  Pz IIIG Tauchfähig
+  Pz IVD Tauchfähig
+  Pz VI Tiger
+  Pz VIb Koenigstiger
+  Krad
+  Sturmpioniere (E) w/ 251/1
+  15 sFH 18  w/251/1
+  17 K18 w/ 251/1
+  Me-109E-3 Emil
+  Me-109G-2 Gustav
+  Me-109K-4 Kurfuerst
+  Me-110C-1 Zerstorer
+  Do-335A-1 Pfeil
+  FW-190A-3 Wuerger
+  FW-190D-9 Dora
+  He-162A-2 Salamander
+  Me-163B-1 Komet
+  Me-262A-1b-R/4M Schwalbe
+  Me-110E-2 Zerstorer
+  Ju-52-3M "Tante Ju"/Me-109E-3
+  5cm PaK w/Szeker
+  7.5cm  PaK w/Teherkocsi
+  105mm How w/Szeker
+  75mm Mtm
+  AP Mine Field
+  Megerosites
+  Huszar
+  Sorkatonasag w/Szeker
+  Tatra
+  Turan I
+  Turan II
+  Crusader III
+  5.5 inch Mk.III w/Truck
+  20mm 20/65  w/Camion
+  20mm Portee
+  47mm w/Wagon
+  Sem 47/32
+  Sem 75/34
+  Sem 90/53
+  100mm/17 How w/Wagon
+  149mm/35 How w/Camion
+  75mm/27 FG w/Wagon
+  Sem 47
+  Sem 75/18
+  Cabonile
+  Fortificazione
+  Alpini (M)
+  Bersaglieri w/Camion
+  Genio (E) w/Camion
+  Fanteria w/Wagon
+  Littorio Class
+  Zara Class
+  Condottieri Class
+  G.55 Centauro
+  MC.202 Folgore
+  MC.205 Veltro
+  Re.2000 Falco I
+  Re.2005 Sagittario
+  20mm 20/65 w/Camion
+  3.7cm  PaK w/Carro
+  7.5cm PaK w/Camion
+  47mm w/Carro
+  149/13 149mm w/Camion
+  65/17 65mm w/Carro
+  Bunker
+  Fortificacion
+  Legionario w/Camion
+  Milicia
+  Infanteria w/Carro
+  Me-109G-6 Gustav
+  3.7 inch w/Truck
+  47mm w/Vogn
+  7.5cm m/01 w/Vogn
+  Bunker
+  Festning
+  Infanteri w/Vogn
+  Roadblock
+  17 Pdr w/Ciezarowka
+  47mm w/Wagon
+  105mm C mle13 w/Ciezarowka
+  100mm How w/Ciezarowka
+  75mm M1897 w/Ciezarowka
+  Bunkier
+  Fort
+  Kawaleria
+  Inzynier (E) w/Ciezarowka
+  Spadochroniarze (P)
+  Piechota w/Wagon
+  Piechota w/Ciezarowka
+  Engineer (E) w/Truck
+  Bridging (B) w/Truck
+  C-47 Skytrain/Spitfire II
+  47mm w/Carro
+  155mm C mle17 w/Camion
+  75mm M1897 w/Carro
+  Bunker
+  Fortificacion
+  Brigada w/Camion
+  Milicia
+  Infanteria w/Carro
+  Spitfire XII (Sqn 421)
+  Transportschiffe
+  Rata
+  37mm Md.39 w/Camion
+  7.5cm  PaK w/Camion
+  47mm w/Vagon
+  Maresal
+  10cm Sk Md.34 w/Camion
+  7.5cm Sk Md.28 w/Vagon
+  Cazemata
+  Cetate
+  Cavelerie
+  Infanterie w/Vagon
+  Balloon
+  Barbed Wire
+  20mm w/Truck
+  40mm w/Truck
+  17 Pdr w/Truck
+  2 Pdr w/Wagon
+  6 Pdr w/Truck
+  Achilles
+  Wolverine
+  25 Pdr Mk.II w/Truck
+  18 Pdr Mk.IV w/Truck
+  5.5 inch Mk.III w/Truck
+  7.2 inch II w/Truck
+  Bishop
+  Sexton
+  Strongpoint
+  Fortification
+  Australian w/Truck
+  Canadian w/Truck
+  Engineer (E) w/Truck
+  Commando w/Bren Carrier
+  Bridging (B) w/Truck
+  Ghurka (M)
+  Home Guard w/Truck
+  Indian w/Truck
+  New Zealand w/Truck
+  Paratrooper w/Truck
+  Regular w/Truck
+  Royal Marine w/Truck
+  Daimler
+  Humber II
+  Humber IV
+  Daimler Scout
+  Staghound I
+  King George V Class
+  Renown Class
+  County Class
+  Leander Class
+  Illustrious Class
+  Tribal Class
+  Centurion
+  Challenger
+  Churchill III
+  Churchill IV
+  Comet
+  Cromwell IV
+  Cromwell VII
+  Cruiser IV
+  Crusader I
+  Crusader II
+  Crusader III
+  Grant
+  HoneyI
+  Sherman III
+  Honey V
+  Matilda II
+  Firefly VC
+  Valentine III
+  Valentine XI
+  Typhoon IB/Avro Lancaster MkI Air Support
+  7.2 inch VI w/Truck
+  21 Morser 18 w/251/1
+  Beaufighter/Spitfire VC
+  C-47 Dakota/Spitfire I
+  3 inch M3 w/Truck
+  90mm M1A1 w/Truck
+  M16 Meatchopper
+  3 inch w/Jeep
+  37mm w/Truck
+  57mm w/Truck
+  M10 Wolverine
+  M18 Hellcat
+  M36 Jackson
+  105mm M2 w/Jeep
+  155mm M3 w/Truck
+  75mm FH M1A1 w/Truck
+  8 inch How M1 w/Truck
+  M7 Priest
+  Strongpoint
+  Fortification
+  Engineer (E) w/M3A1
+  Bridging (B) w/M3A1
+  Marine w/M3A1
+  National w/Truck
+  Paratrooper (P)
+  Ranger w/M3A1
+  Regular w/Truck
+  M24 Chaffee
+  M8 Greyhound
+  Scout Car
+  Iowa Class
+  Baltimore Class
+  Brooklyn Class
+  Essex Class
+  Yorktown Class
+  Fletcher Class
+  M3A1 Stuart
+  M26 Pershing
+  M29 Patton
+  M4A3 Sherman
+  M4A3E2 Jumbo
+  Skink
+  Wolverine
+  6 Pdr w/Truck
+  Kuljetus
+  P-38E Lightning
+  P-38F Lightning
+  P-38J Lightning
+  P-38L Lightning
+  P-40F Warhawk
+  P-47C Razorback
+  P-47D Thunderbolt
+  P-47N Thunderbolt
+  P-51B Mustang
+  P-51D Mustang
+  P-51H Mustang
+  P-80 Shooting Star
+  37mm 61-K w/Gruzovik
+  76.2mm obr.38 w/Gruzovik
+  45mm w/Wagon
+  122mm A-19 w/Gruzovik
+  152mm ML-20 w/Gruzovik
+  76.2mm F-22 w/Wagon
+  Waffen SS 44 w/LKW
+  Paratrooper Mortar Team
+  Katyusha 132
+  Katyusha 300
+  Railgun Dora
+  44 Infantry w/Truck
+  Strongpoint
+  Fortification
+  Kavaleria
+  Saperno-Shturmovoi (E) w/Gruzovik
+  Opolchenye
+  Sapernii (B) w/Gruzovik
+  Gvardeiskaya Kavaleria
+  Gvardeiskaya w/M3A1
+  Morskaya Pehota w/Wagon
+  Parashutno (P)
+  Pehota w/Wagon
+  Sovetskiy Soyuz Class
+  Kirov Class
+  Leningrad Class
+  Storozhevoi Class
+  SS Leibstandarte w/251/1
+  SS Brückenbau (B) w/251/1
+  I-16/6 Ratte
+  LL P-39D Airacobra
+  Bateau De Transport
+  Transportschiffe
+  Nave Di Trasporto
+  Sea Transport
+  Sea Transport
+  Sea Transport
+  Soldati Class
+  Aquila Class
+  SS Pz VIb Koenigstiger
+  Staghound III
+  21 K38 (entrenched)
+  Command Bunker
+  Sea Hurricane (Royal Navy)
+  Seafire (Royal Navy)
+  Paratrooper (P) w/Jeep
+  Mountain (M)
+  Szallitohajo
+  Nave Del Transporte
+  Transport
+  Transport
+  Nave Del Transporte
+  Transport
+  C-47 Dakota/Spitfire I
+  Paratrooper MG Team (EP)
+  47mm Mle39 w/Camion
+  Grille 88mm FlaK 41
+  75mm M17 w/Camion
+  47mm SA37 w/Charrette
+  105mm How w/Charrette
+  155mm How w/Camion
+  155mm M32 w/Camion
+  CHawk 75A
+  4.7cm PaK(t) w/Pferden
+  7.5cm PaK(f) w/LKW
+  PzSelb IIK
+  StuH 42F
+  21 Morser 18 w/LKW
+  21 NbWf43 w/LKW
+  30 NbWf42 w/LKW
+  Sdkfz 4/1 Maultier
+  Grenadiere w/LKW
+  Luftwaffe w/Pferden
+  Volksgrenadier w/LKW
+  Pz VF  Panther
+  Me-109F-4 Friedrich
+  Me-110G-4 Zerstorer
+  Zrinyi II
+  75mm w/Camion
+  Sem 105/25
+  210mm/22 How w/Camion
+  Sem 149/40
+  Paracadutisti (P)
+  Archer
+  18 Pdr w/Truck
+  25 Pdr How w/Truck
+  4.5 inch w/Truck
+  7.2 inch VI w/Truck
+  Daimler CS
+  Staghound II CS
+  Staghound III
+  Cavalier
+  Centaur I
+  Centaur IV
+  Churchill I
+  Churchill II
+  Churchill IV NA
+  Churchill IX
+  Churchill V
+  Churchill VII
+  Churchill VIII
+  Churchill X
+  Churchill XI
+  Cromwell I
+  Cromwell III
+  Cromwell VI
+  Cromwell VIII
+  Cruiser I
+  Cruiser IIA
+  Cruiser III
+  Cruiser V
+  Crusader II CS
+  Sherman I
+  Honey VI
+  Valentine I
+  Valentine VIII
+  Valentine X
+  90mm M2 w/Truck
+  90mm w/Truck
+  M10A1 Wolverine
+  M36B1 Jackson
+  M10B2 Wolverine
+  8 inch How w/Truck
+  M3 Grant
+  M3A4 Grant
+  M3 Stuart
+  M3A3 Stuart
+  M4 Sherman
+  M4A3/76 Sherman
+  M4A3E2/76 Jumbo
+  GAZ/20 Quad
+  15.5 mm How w/Wagon
+  Katyusha 82
+  Voiska NKVD w/Gruzovik
+  Shocktroops w/Gruzovik
+  Matilda I
+  Blenheim I/Spitfire IX
+  Grille
+  LL P-63A Kingcobra
+  FlakPz IV Kugelblitz
+  Fusilier w/251/1
+  Ta-152H Tank
+  Skijäger
+  South African w/Truck
+  Czechosovak w/Truck
+  Belgian w/Truck
+  Nederland w/Truck
+  105mm M3 w/Truck
+  37mm w/Wagon
+  Tetrarch I
+  Cavalleria
+  Jäger w/LKW
+  75mm w/Wagon
+  100mm Skoda w/Ciezarowka
+  155mm How w/Ciezarowka
+  40mm w/Ciezarowka
+  Giovani Fascisti w/Camion
+  Firefly IIC
+  Firefly IVC
+  Algerian w/Camion
+  Hadsereg Mernok (E) w/Teherkocsi
+  SS Leibstandarte w/LKW
+  SS Das Reich w/LKW
+  SS Totenkopf w/LKW
+  SS Brückenbau (B) w/LKW
+  US Transport
+  Me-110C-1/He-111H-3 Air Support
+  P-38J Lightning/B17-E Air Support
+  MC.200/BA.65 Air Support
+  MiG-1/I-16 Rata Air Support
+  Spitfire I Air Support
+  Fokker DXXI/Blenheim IV Air Support
+  MS-406/Pz 633 Soutien aérien
+  Me-109B-2/He-111B Air Support
+  Me-109B-2/He-111B Air Support
+  P.23 B/P.24 Air Support
+  Rata Air Support
+  IAR 80 Air Support
+  Finnish Transport
+  Transport aérien
+  Hungary Transport
+  Italian Transport
+  Nationalist Transport
+  Norway Transport
+  Poland Transport
+  Republican Transport
+  Romania Transport
+  C47 Skytrain
+  USSR Transport
+  Ju52-3M "Tante Ju"
+  US Amphibious Invasion Ship
+  UK Amphibious Invasion Ship
+  Paratrooper (P)
+  Transportschiffe
+  Russian Amphibious Invasion Ship
+  MiG-15 Fagot
+  B-17E Flying Fortress/P-38F
+  FlakPz VI Tiger
+  Me-262A-1a/U-4 Pulkzerstorer
+  Sdkfz 251/16 (FlamPz) (E)
+  SS Algemein
+  B-17G Flying Fortress/P-38J
+  B-29B "Enola Gay"/P-51H
+  Avro Lancaster MkI/Spitfire VC
+  Paratrooper (P)
+  FlakPz VII Maus
+  Sdkfz 8/8,8cm Diana
+  Waffen SS Amphibious Invasion Ship
+  Alaska Class
+  Partizani (G)
+  Paradropped Spy
+  Siberians w/Wagon
+  SS JgdPanther
+  SturmPz IV Brummbaer
+  15 K39 w/Pferden
+  Gornostrelky (M)
+  Cossacks
+  LL Jeep Willis
+  Panzergrenadiere w/LKW
+  21cm BR-17 w/Gruzovik
+  LL M4A3 Sherman
+  FW-190C (Kriegsmarine)
+  U-Boot Type VII C
+  U-Boot Type XXI
+  U-Boot Type IXD
+  Gato Class
+  Trident Class
+  Stalinets Class
+  Marconi Class
+  MG Infanterie w/251/1
+  Jeep Willis
+  Typhoon IB/Avro Lancaster MkI Air Support
+  Tempest IV/Avro Lancaster MkI Air Support
+  P-63A Kingcobra/Tu-2 Air Support
+  FW-190F-3/He-111H-3 Air Support
+  FW-190G-2/Ju-188E-1 Air Support
+  Me-262A-2a Sturmvogel Air Support
+  Pe-2 Air Support
+  Gloster Meteor
+  Armia Krajowa (G)
+  Partisans Chetniks (G)
+  Pontoon Bridge
+  Jeep Willis
+  Railgun Karl
+  SM 79 Sparviero Air Support
+  Armored Infantry w/Truck
+  Anti-Tank Hinders
+  Ski Pehota
+  44 Infantry w/Truck
+  Firefly IVC
+  Paratrooper Mortar Team
+  SS Gebirgsjäger (M)
+  Horten Ho XVIII B-1
+  Sherman III
+  Sdkfz 251/22
+  FJ MG Infanterie (P)
+  F4U-1 Corsair (US Navy)
+  Mobile Army HQ (B)
+  Bren Carrier
+  LL Matilda II
+  LL M3A3 Grant
+  LL Valentine I
+  Grossdeutschland
+  Bunkkeri
+  Linnake
+  S35 (f)
+  105mm w/Wagon
+  Infanterie w/Vagon
+  Me-109E Emil
+  25mm w/Truck
+  Parashutno Sniper (P)
+  FJ Sniper (P)
+  Paratrooper Scout (P)
+  Paratrooper Sniper (P)
+  81mm Mortar w/Wagon
+  FJ 8 GrW42k (P) w/Krad
+  P-39D Airacobra
+  P-39D Airacobra/B17-B Air Support
+  B-17B Air Support
+  He-111B-1 Air Support
+  Avro Lancaster Mk I Air Support
+  AR-234B Blitz Air Support
+  Mosquito XVI Air Support
+  P-39D Airacobra/Pe-2 Air Support
+  B-17G Air Support
+  Infantry
+  He-111 Air Support
+  Tu-2  Air Support
+  F4U-1 Corsair
+  TBF-1 Avenger (US Navy)/F4AU-1
+  Me-110C Air Support
+  Hurricane II/Handley Page Halifax MkI Air Support
+  Handley Page MkI Halifax/Spitfire I
+  Me-109F-4/Ju-87B-1 Air Support
+  D.520/Pz 633 Soutien aérien
+  FW-190F-8/Ju-87B-1 Air Support
+  P-82 Twin Mustang
+  P-47D Thunderbolt/B17-G Air Support
+  P-47N Thunderbolt/B17-G Air Support
+  B-24J Liberator Air Support
+  B-29A Superfortress Air Support
+  Horten Ho XVIII B-1 Atomic
+  Me-262A-2a Sturmvogel
+  SS Panzergrenadiere w/251/1
+  M4 Calliope
+  M4A1 Flame-thrower
+  M42 Duster
+  Partisans (G)
+  Werewolf (G)
+  FFI Résistance (G)
+  Div Azul Infanteria w/Carro
+  Motociclistas
+  Zapadores (E) w/Camion
+  He-111B Air Support
+  10.5 leFH18m w/Carro
+  Legion Wallonien Infanterie w/Pferden
+  LVF Infanterie w/Pferden
+  SS Wallonien w/Pferden
+  SS Charlemagne w/Pferden
+  SS Italienische w/Pferden
+  SS Langemarck w/Pferden
+  Gebirgspionere (MEB)
+  YaK-9 Normandie Niemen
+  Paratrooper Engineer (EP)
+  Arabien w/LKW
+  Légion étrangère w/Camion
+  SS Kavallerie
+  SS Nordland w/Pferden
+  Arabian Legion Cavallry
+  SS Hunyadi w/Pferden
+  Arab Legion w/Truck
+  Spitfire VC (Sqn 341 Alsace)
+  Tempest VI (Sqn 602 City of Glasgow)
+  Spitfire II (Sqn 350)
+  Spitfire II (Sqn 315 City of Deblin)
+  Spitfire II (Sqn 331)
+  Spitfire II (Sqn 313)
+  SS Hitlerjugend w/251/1
+  He-111 with V-1/FW-190D-9
+  88 mm ARTY w/251/1
+  P-40F Kittyhawk
+  Ju-87R Stuka "Picchiatello"/Falco I
+  Ju-88A-4 Air Support
+  SS Pz VI Tiger
+  Ju-88A Air Support
+  Ju-88A Air Support
+  Swordfish
+  Mortar 4.2 inch w/Truck
+  FJ Sturmpionere (EP)
+  Pioneri (E) w/Camion
+  57mm w/Truck
+  Mortar 4.2 inch w/Truck
+  Unitati da Geniu (B) w/Camion
+  Mobile Army HQ (B)
+  Rezerwa
+  Obrona Narodowa
+  Piechota Gorska (M)
+  Pzl P.37C/P.24
+  Pzl P.37C/P.24 Air Support
+  Mobil Armee HQ (B)
+  Mobile Army HQ (B)
+  Typhoon IB (Royal Navy)
+  Mobile Army HQ (B)
+  Hurricane II Soutien aérien
+  Tempest VI Soutien aérien
+  Crusader II
+  A-20 Boston/Spitfire VC
+  AT Mine Field
+  Handley Page Halifax MkI Air Support
+  Egyptian w/Truck
+  A-20 Boston Soutien aérien
+  Paratrooper Bazooka Team (EP)
+  Scottish Highlanders w/Truck
+  Brandenburger (MEP)
+  QG mobile d'Armée (B)
+  Sapeurs (B) w/Camion
+  Armia Ludowa w/Gruzovik
+  Sea Mines
+  Minelayer
+  Me-109T (Kriegsmarine)
+  Ju-87C-1 Stuka (Kriegsmarine)/Me-109T
+  Re.2001 (Regia Marina)/BA 65
+  Swordfish (Royal Navy)
+  P-47D Thunderbolt II
+  Paratrooper Sniper (P)
+  P-39Q Airacobra Soutien aérien
+  Paratrooper Mortar Team
+
+[out] pegww2\research\_eqp-vocab.tsv
+[out] pegww2\research\_eqp-need.txt

@@ -1,0 +1,126 @@
+# British Campaign in Europe\BCampaign Information.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+568	British Campaign Information	英国战役情报
+591	Jorge Gabitto	Jorge Gabitto
+593	jgabitto@aol.com	jgabitto@aol.com
+611	Download:	下载：
+617	Extract directly into the C:	直接解压到 C:
+619	Panzer2	Panzer2
+621	SCENARIO directory. The campaign will appear, occupying the last spot in your campaign list, after the flags. It uses my new efile attached. Go t o your Panzer2 folder, rename your eqp97.eqp, eqp97.txt and guide97 files by adding an extra number or letter to the name. Extract the files in CNefile.zip folder there. You are ready to play. It works better if you have your Panzer2.dat modified by La sse	SCENARIO 目录。战役会出现在你的战役列表中，占据最后一位，在各旗帜之后。它使用我随附的新装备文件(efile)。进入你的 Panzer2 文件夹，把你的 eqp97.eqp、eqp97.txt 和 guide97 文件重命名，在名字上加一个数字或字母。把 CNefile.zip 文件夹里的文件解压到那里。你就可以开始玩了。如果你的 Panzer2.dat 经过 Lasse
+623	s Datup. It is not required though. It requires several new maps. They can be downloaded from Mr. Lasse Jensen web page (	s Datup 修改，效果会更好。不过这不是必需的。它需要几张新地图。这些地图可以从 Lasse Jensen 先生的网页下载(
+649	www.strategyplanet.com/panzergeneral/	www.strategyplanet.com/panzergeneral/
+654	). You can also download the maps from Oronzo's or Dirk Kraemer's sites. The links to these sites can be found in Lasse's web page. Dirk has all the converted People General maps there.	)。你也可以从 Oronzo 或 Dirk Kraemer 的网站下载这些地图。这些网站的链接可以在 Lasse 的网页上找到。Dirk 那里有所有已转换的 People General 地图。
+656	All scenarios can be played individually as "gray" scenarios, similarly to what is done in the original SSI campaigns. The scenario army is equivalent to my campaign army during play-testing.	所有场景都可以单独作为“灰色”场景来玩，与原版 SSI 战役中的做法类似。场景中的军队相当于我在试玩时的战役军队。
+666	Background:	背景：
+672	This campaign depicts British participation in WW2 since the expedition to relieve Narvik in 1940 until the invasion of Germany. The required maps and the campaign flow are shown below.	本战役描绘了英国在二战中的参战历程，从 1940 年为解救纳尔维克(Narvik)而进行的远征，直到攻入德国。所需地图与战役流程如下所示。
+680	Campaign Organization:	战役结构：
+686	The campaign contains 30 scenarios arranged in a nonlinear way. There is a	本战役包含 30 个场景，以非线性方式排列。其中有一条
+688	winning track	胜利路线
+690	and a loosing one, but you can move back and forth between the two. Normally a victory is enough to stay in the upper track and a TV is enough to stay in the lower one. This is a campaign where it is very difficult to get BVs and attainment of the final objectives is more important that some tactical successes.	和一条失败路线，但你可以在两者之间来回移动。通常一场胜利就足以留在上路线，一次战术胜利(TV)就足以留在下路线。在这个战役中很难取得辉煌胜利(BV)，达成最终目标比取得某些战术胜利更重要。
+698	Historical Background:	历史背景：
+704	This campaign depicts many of the most important events in the struggle of British arms during world war II. The British were significantly handicapped in regards to land based weapons. The German weaponry was generally superior. They have very competitive pl anes and a vast superiority on sea to balance this negative fact. The infantry was good and their morale was high. Their tanks and guns were very inferior to equivalent German and Soviet models though. These facts will appear reflected in the campaign and the player should take them into account.	本战役描绘了二战中英国军事斗争里许多最重要的事件。英国在陆基武器方面明显处于劣势。德国的武器总体上更优越。他们拥有很有竞争力的飞机和巨大的海上优势，以抵消这一不利因素。步兵素质不错，士气也高。不过他们的坦克和火炮与同级的德国和苏联型号相比差得多。这些事实会体现在战役中，玩家应当把它们考虑在内。
+712	Timetable:	时间表：
+849	Name	名称
+851	Date	日期
+853	Map	地图
+855	File	文件
+1121	Narvik	纳尔维克
+1125	SSI (Viipuri)	SSI 原版：维堡
+1127	wdnarv	wdnarv
+1277	Arras	阿拉斯
+1281	SSI (Arract)	SSI 原版：阿拉克特
+1283	wdarra	wdarra
+1433	Sidi Barrani	西迪拜拉尼
+1437	SSI (Tobruk)	SSI 原版：托布鲁克
+1439	wdsidi	wdsidi
+1589	Bardia	拜尔迪耶
+1593	SSI (Ptobruk)	SSI 原版：普托布鲁克
+1595	wdbard	wdbard
+1745	East Africa	东非
+1749	SSI (RATobruk)	SSI 原版：拉托布鲁克
+1751	wdsoma	wdsoma
+1901	Defending Tobruk	保卫托布鲁克
+1905	SSI (Trobruk)	SSI 原版：特罗布鲁克
+1907	wddtobr	wddtobr
+2057	First Battle of the Alamein	第一次阿拉曼战役
+2061	Alamein	阿拉曼(Alamein)
+2063	wdelal	wdelal
+2213	Casablanca	卡萨布兰卡
+2217	SSI (Atobruk)	SSI 原版：阿托布鲁克
+2219	wdcasa	wdcasa
+2369	Second Battle of the Alamein	第二次阿拉曼战役
+2373	Alamein	阿拉曼
+2375	wdela2	wdela2
+2525	Pantelleria	潘泰莱里亚
+2529	SSI (Malta)	SSI 原版：马耳他
+2531	wdpant	wdpant
+2681	Sicilian Invasion	西西里登陆
+2685	SSI (Dunkirk)	SSI 原版：敦刻尔克
+2687	wdsici	wdsici
+2837	Simietto	西梅托(Simietto)
+2841	SSI (Madrid)	SSI 原版：马德里
+2843	wdsimi	wdsimi
+2993	Salerno	萨莱诺
+2997	SSI (Salerno)	SSI 原版：萨莱诺
+2999	wdsale	wdsale
+3149	Salerno	萨莱诺
+3153	SSI (Salerno)	SSI (萨莱诺)
+3155	wdsale	wdsale
+3305	Gustav	古斯塔夫(Gustav)
+3309	Cassino	卡西诺
+3311	wdgust	wdgust
+3461	Monte Cassino	卡西诺山
+3465	SSI (Greece)	SSI 原版：希腊
+3467	wdcassa	wdcassa
+3617	D Day+2	D 日+2
+3621	SSI (Caen)	SSI 原版：卡昂
+3623	wddday	wddday
+3773	Caen - Charnwood - Oden Valley	卡昂 - 查恩伍德(Charnwood) - 奥登河谷(Oden Valley)
+3777	SSI (St Lo)	SSI 原版：圣洛
+3779	wdcaen	wdcaen
+3929	Falaise	法莱斯
+3933	SSI (Voloklmsk)	SSI 原版：沃洛科姆斯克
+3935	wdfala	wdfala
+4085	Arracourt	阿拉库尔
+4089	SSI (Arract)	SSI 原版：阿拉克特
+4091	wdarrar	wdarrar
+4241	Gothic	哥特(Gothic)
+4245	Gothic	哥特
+4247	wdgoth	wdgoth
+4397	Malmedy	马尔梅迪
+4401	SSI (Klin)	SSI 原版：克林
+4403	wdmalm	wdmalm
+4553	Attack into Austria	攻入奥地利
+4557	SSI (Kishinev)	SSI 原版：基什尼奥夫
+4559	wdaust	wdaust
+4709	Eagle Nest II	鹰巢 II
+4713	SSI (Greece)	SSI (希腊)
+4715	wdeagl	wdeagl
+4865	Market Garden 1	市场花园 1
+4869	Arhem	阿纳姆(Arhem)
+4871	wdmar1	wdmar1
+5021	Market Garden 2	市场花园 2
+5025	SSI (Zitadell)	SSI 原版：堡垒
+5027	wdmar2	wdmar2
+5177	Metz	梅斯
+5181	SSI (Metz)	SSI 原版：梅斯
+5183	wdmetz	wdmetz
+5333	Ardennes	阿登(Ardennes)
+5337	Arden2	阿登2(Arden2)
+5339	wdarde	wdarde
+5489	Operation Plunder	掠夺行动
+5493	SSI (Dessau)	SSI 原版：德绍
+5495	wdplun	wdplun
+5761	Ruhr	鲁尔
+5765	Ruhr	鲁尔
+5767	wdruhr	wdruhr
+5923	What this Campaign is:	本战役是什么：
+5929	This campaign is significantly different from the one designed by Mr. William Dickens. Seven scenarios are completely new and four more have gone through complete renovation. Some of the scenarios have been inspired on similar ones designed by Steve Brown. They are very different from Steve's scenarios though.	本战役与 William Dickens 先生设计的那个战役有显著不同。有七个场景是全新的，另外四个经过了彻底翻新。有些场景的灵感来自 Steve Brown 设计的类似场景。不过它们与 Steve 的场景差别很大。
+5931	My new efile that features stronger infantry and higher prices for heavy weapons is particularly suitable for this campaign. There are hard terrain and city-fighting scenarios where the stronger infantry is actually superior to tanks. The AI plays particularly aggressive with the infantry in cities, counterattacking often and punishing mistakes, increasing the interest of the game. Higher prices for heavy weapons, lower than other efiles though, guarantee that players will not upset the balance by buying too many heavy weapons.	我的新装备文件增强了步兵，并提高了重型武器的价格，特别适合这个战役。在艰难地形和城市战场景里，更强的步兵实际上比坦克更占优势。AI 在城市中使用步兵时特别有攻击性，经常反击，惩罚失误，这增加了游戏的趣味。重型武器的价格更高(不过仍低于其他装备文件)，可以保证玩家不会因为买太多重型武器而破坏平衡。
+5933	This campaign depicts scenarios in several kinds of terrains and conditions, open field, mountains, cities, etc. You also have big battles with many units on each side and smaller more strategic scenarios.	本战役的场景涵盖多种地形和条件：开阔地、山地、城市等。你也会遇到双方各有很多单位的大战役，以及规模更小、更讲策略的场景。
+5941	What this Campaign is not:	本战役不是什么：
+5947	This campaign depicts heavy and continuous action. You start fighting from the first term and it will not be over until is over. I sincerely regret if you do not like this kind of scenarios, but everybody is entitled to his own taste.	本战役描绘的是激烈而连续的战斗。你从第一回合就开始打，直到打完才会结束。如果你不喜欢这类场景，我真心感到遗憾，但每个人都有自己的口味。
+5949	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. Before discovering Panzerg2 I was a master level chess player. I see the game as a more "colorful" chess.	本战役并不为任何政治理念或战争背书。战争是人类最令人遗憾的活动之一。在发现 Panzerg2 之前，我是一名大师级国际象棋棋手。我把这个游戏看作一盘更“丰富多彩”的国际象棋。
+5957	Acknowledgements:	致谢：
+5963	I really appreciate Mr. Williams Dickens allowing me to retool his excellent British campaign. This campaign was strikingly modern for its time and the designer deserves a lot of credit. A good job done with limited tools. Some scenarios were inspired on similar scenarios designed by Steve Brown for his original British campaign.	我非常感谢 Williams Dickens 先生允许我改造他出色的英国战役。这个战役在当时相当现代，设计者值得大力称赞。他是在工具很有限的情况下做出了好作品。有些场景的灵感来自 Steve Brown 为他原版英国战役设计的类似场景。
+5965	My interest on wargaming design was inspired by the campaign 7PanzerArmee by Mr. Dave Anderson, my appreciation goes to him. After I started the campaign I read the work of many others and it was a great help (Lasse Jensen and Andr eas Seidel among others. I also appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you have as much fun playing as I have designed it.	我对兵棋设计产生兴趣，是受 Dave Anderson 先生的战役 7PanzerArmee 启发，在此向他致谢。开始做这个战役之后，我读了另外许多人的作品，它们帮了大忙(其中有 Lasse Jensen 和 Andreas Seidel)。我也感谢其他众多把兵棋推演变成一种艺术形式的人。感谢你玩这个战役。希望你在玩的时候能和我设计时一样开心。

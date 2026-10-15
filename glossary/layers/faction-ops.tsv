@@ -1,0 +1,30 @@
+# 作战 · 战役名 · 历史各方称法（**以史料为准，不看原文拼写**）
+# 用户口径：「作战行动也是，例如库尔斯克会战是苏联的叫法，德国称呼『堡垒』行动。」
+# 列：作战ID | 阵营 | 该方称法 | 中文译名 | 英文/其它写法 | 时期 | 依据/备注
+Kursk	德	Unternehmen Zitadelle	堡垒行动|堡垒	Zitadelle, Citadel, Operation Citadel	1943.7	德方代号（场景名/描述里常作简称「堡垒」✔）
+Kursk	苏	Курская битва	库尔斯克会战	Kursk, Battle of Kursk	1943.7–8	苏方战史名（**地名** Kursk 双方同译「库尔斯克」）
+Barbarossa	德	Unternehmen Barbarossa	巴巴罗萨行动	Barbarossa	1941.6	德方代号
+Barbarossa	苏	—	—	—	1941.6	苏方叙述不用德方代号（作「边境交战／卫国战争初期」）——**无对应专名，不参与判定**
+Typhoon	德	Unternehmen Taifun	台风行动	Typhoon, Taifun	1941.10	德方代号（本作已用「台风」行动 ✔）
+Typhoon	苏	Битва за Москву	莫斯科会战	Battle of Moscow	1941.10–1942.1	苏方战史名
+Citadel_ND	德	Unternehmen Nordwind	北风行动|北风	Nordwind	1945.1	德方代号（本作场景名常作简称「北风」✔）
+Citadel_ND	盟	—	—	—	1945.1	盟方**沿用德方代号**（英文亦称 Operation Nordwind）——无另名，不参与判定
+Konrad	德	Unternehmen Konrad	康拉德行动	Konrad	1945.1	德方代号（本作已用「康拉德」行动 ✔）
+Frühlingserwachen	德	Unternehmen Frühlingserwachen	春醒行动	Frühlingserwachen, Spring Awakening	1945.3	德方代号
+Frühlingserwachen	苏	Балатонская операция	巴拉顿湖战役	Lake Balaton operation	1945.3	苏方战史名
+Wacht am Rhein	德	Wacht am Rhein	莱茵守望行动	Wacht am Rhein	1944.12	德方代号（阿登反攻）
+Wacht am Rhein	盟	Battle of the Bulge	阿登战役|突出部之战|突出部战役	Ardennes	1944.12	盟方称法（本作用「突出部之战」✔）
+Bagration	苏	Операция Багратион	巴格拉季昂行动	Bagration	1944.6	苏方代号（本作已用 ✔）
+Bagration	德	—	—	—	1944.6	德方无对应专名（作「中央集团军群覆灭」等叙述）——**不参与判定**
+Seelöwe	德	Unternehmen Seelöwe	海狮行动	Sealion, Seelöwe	1940	德方代号（本作已用「海狮」✔）
+Husky	盟	Operation Husky	哈士奇行动	Husky	1943.7	盟方代号（本作已用 ✔）
+Avalanche	盟	Operation Avalanche	雪崩行动|雪崩	Avalanche	1943.9	盟方代号（场景名常作简称「雪崩」✔）
+Shingle	盟	Operation Shingle	鹅卵石行动	Shingle	1944.1	盟方代号（本作已用 ✔）
+Torch	盟	Operation Torch	火炬行动	Torch	1942.11	盟方代号（本作已用 ✔）
+Overlord	盟	Operation Overlord	霸王行动	Overlord	1944.6	盟方代号（本作行若写「盟军登陆」应改）
+Overlord	德	—	—	—	1944.6	德方作「盟军登陆／入侵」等叙述，**无专名**，不参与判定
+Goodwood	盟	Operation Goodwood	古德伍德行动	Goodwood	1944.7	盟方代号（本作已用 ✔）
+Charnwood	盟	Operation Charnwood	查恩伍德行动|查恩伍德	Charnwood	1944.7	盟方代号（本作已用简称「查恩伍德」✔）
+Crusader	盟	Operation Crusader	十字军行动	Crusader	1941.11	盟方代号（本作已用 ✔）
+Vistula_Oder	苏	Висло-Одерская операция	维斯瓦河-奥得河行动	Vistula-Oder	1945.1	苏方战史名
+Vistula_Oder	波	Operacja Wisła-Odra	维斯瓦河-奥得河攻势	—	1945.1	波方称法

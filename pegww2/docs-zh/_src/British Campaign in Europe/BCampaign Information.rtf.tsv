@@ -1,0 +1,127 @@
+# British Campaign in Europe\BCampaign Information.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+568	British Campaign Information	British Campaign Information
+591	Jorge Gabitto	Jorge Gabitto
+593	jgabitto@aol.com	jgabitto@aol.com
+611	Download:	Download:
+617	Extract directly into the C:	Extract directly into the C:
+619	Panzer2	Panzer2
+621	SCENARIO directory. The campaign will appear, occupying the last spot in your campaign list, after the flags. It uses my new efile attached. Go t o your Panzer2 folder, rename your eqp97.eqp, eqp97.txt and guide97 files by adding an extra number or letter to the name. Extract the files in CNefile.zip folder there. You are ready to play. It works better if you have your Panzer2.dat modified by La sse	SCENARIO directory. The campaign will appear, occupying the last spot in your campaign list, after the flags. It uses my new efile attached. Go t o your Panzer2 folder, rename your 0, 1 and guide97 files by adding an extra number or letter to the name. Extract the files in 2 folder there. You are ready to play. It works better if you have your 3 modified by La sse
+623	s Datup. It is not required though. It requires several new maps. They can be downloaded from Mr. Lasse Jensen web page (	s Datup. It is not required though. It requires several new maps. They can be downloaded from Mr. Lasse Jensen web page (
+649	www.strategyplanet.com/panzergeneral/	www.strategyplanet.com/panzergeneral/
+654	). You can also download the maps from Oronzo's or Dirk Kraemer's sites. The links to these sites can be found in Lasse's web page. Dirk has all the converted People General maps there.	). You can also download the maps from Oronzo's or Dirk Kraemer's sites. The links to these sites can be found in Lasse's web page. Dirk has all the converted People General maps there.
+656	All scenarios can be played individually as "gray" scenarios, similarly to what is done in the original SSI campaigns. The scenario army is equivalent to my campaign army during play-testing.	All scenarios can be played individually as "gray" scenarios, similarly to what is done in the original SSI campaigns. The scenario army is equivalent to my campaign army during play-testing.
+666	Background:	Background:
+672	This campaign depicts British participation in WW2 since the expedition to relieve Narvik in 1940 until the invasion of Germany. The required maps and the campaign flow are shown below.	This campaign depicts British participation in WW2 since the expedition to relieve Narvik in 1940 until the invasion of Germany. The required maps and the campaign flow are shown below.
+680	Campaign Organization:	Campaign Organization:
+686	The campaign contains 30 scenarios arranged in a nonlinear way. There is a	The campaign contains 30 scenarios arranged in a nonlinear way. There is a
+688	winning track	winning track
+690	and a loosing one, but you can move back and forth between the two. Normally a victory is enough to stay in the upper track and a TV is enough to stay in the lower one. This is a campaign where it is very difficult to get BVs and attainment of the final objectives is more important that some tactical successes.	and a loosing one, but you can move back and forth between the two. Normally a victory is enough to stay in the upper track and a TV is enough to stay in the lower one. This is a campaign where it is very difficult to get BVs and attainment of the final objectives is more important that some tactical successes.
+698	Historical Background:	Historical Background:
+704	This campaign depicts many of the most important events in the struggle of British arms during world war II. The British were significantly handicapped in regards to land based weapons. The German weaponry was generally superior. They have very competitive pl anes and a vast superiority on sea to balance this negative fact. The infantry was good and their morale was high. Their tanks and guns were very inferior to equivalent German and Soviet models though. These facts will appear reflected in the campaign and the player should take them into account.	This campaign depicts many of the most important events in the struggle of British arms during world war II. The British were significantly handicapped in regards to land based weapons. The German weaponry was generally superior. They have very competitive pl anes and a vast superiority on sea to balance this negative fact. The infantry was good and their morale was high. Their tanks and guns were very inferior to equivalent German and Soviet models though. These facts will appear reflected in the campaign and the player should take them into account.
+712	Timetable:	Timetable:
+849	Name	Name
+851	Date	Date
+853	Map	Map
+855	File	File
+1121	Narvik	Narvik
+1125	SSI (Viipuri)	SSI (Viipuri)
+1127	wdnarv	wdnarv
+1277	Arras	Arras
+1281	SSI (Arract)	SSI (Arract)
+1283	wdarra	wdarra
+1433	Sidi Barrani	Sidi Barrani
+1437	SSI (Tobruk)	SSI (Tobruk)
+1439	wdsidi	wdsidi
+1589	Bardia	Bardia
+1593	SSI (Ptobruk)	SSI (Ptobruk)
+1595	wdbard	wdbard
+1745	East Africa	East Africa
+1749	SSI (RATobruk)	SSI (RATobruk)
+1751	wdsoma	wdsoma
+1901	Defending Tobruk	Defending Tobruk
+1905	SSI (Trobruk)	SSI (Trobruk)
+1907	wddtobr	wddtobr
+2057	First Battle of the Alamein	First Battle of the Alamein
+2061	Alamein	Alamein
+2063	wdelal	wdelal
+2213	Casablanca	Casablanca
+2217	SSI (Atobruk)	SSI (Atobruk)
+2219	wdcasa	wdcasa
+2369	Second Battle of the Alamein	Second Battle of the Alamein
+2373	Alamein	Alamein
+2375	wdela2	wdela2
+2525	Pantelleria	Pantelleria
+2529	SSI (Malta)	SSI (Malta)
+2531	wdpant	wdpant
+2681	Sicilian Invasion	Sicilian Invasion
+2685	SSI (Dunkirk)	SSI (Dunkirk)
+2687	wdsici	wdsici
+2837	Simietto	Simietto
+2841	SSI (Madrid)	SSI (Madrid)
+2843	wdsimi	wdsimi
+2993	Salerno	Salerno
+2997	SSI (Salerno)	SSI (Salerno)
+2999	wdsale	wdsale
+3149	Salerno	Salerno
+3153	SSI (Salerno)	SSI (Salerno)
+3155	wdsale	wdsale
+3305	Gustav	Gustav
+3309	Cassino	Cassino
+3311	wdgust	wdgust
+3461	Monte Cassino	Monte Cassino
+3465	SSI (Greece)	SSI (Greece)
+3467	wdcassa	wdcassa
+3617	D Day+2	D Day+2
+3621	SSI (Caen)	SSI (Caen)
+3623	wddday	wddday
+3773	Caen - Charnwood - Oden Valley	Caen - Charnwood - Oden Valley
+3777	SSI (St Lo)	SSI (St Lo)
+3779	wdcaen	wdcaen
+3929	Falaise	Falaise
+3933	SSI (Voloklmsk)	SSI (Voloklmsk)
+3935	wdfala	wdfala
+4085	Arracourt	Arracourt
+4089	SSI (Arract)	SSI (Arract)
+4091	wdarrar	wdarrar
+4241	Gothic	Gothic
+4245	Gothic	Gothic
+4247	wdgoth	wdgoth
+4397	Malmedy	Malmedy
+4401	SSI (Klin)	SSI (Klin)
+4403	wdmalm	wdmalm
+4553	Attack into Austria	Attack into Austria
+4557	SSI (Kishinev)	SSI (Kishinev)
+4559	wdaust	wdaust
+4709	Eagle Nest II	Eagle Nest II
+4713	SSI (Greece)	SSI (Greece)
+4715	wdeagl	wdeagl
+4865	Market Garden 1	Market Garden 1
+4869	Arhem	Arhem
+4871	wdmar1	wdmar1
+5021	Market Garden 2	Market Garden 2
+5025	SSI (Zitadell)	SSI (Zitadell)
+5027	wdmar2	wdmar2
+5177	Metz	Metz
+5181	SSI (Metz)	SSI (Metz)
+5183	wdmetz	wdmetz
+5333	Ardennes	Ardennes
+5337	Arden2	Arden2
+5339	wdarde	wdarde
+5489	Operation Plunder	Operation Plunder
+5493	SSI (Dessau)	SSI (Dessau)
+5495	wdplun	wdplun
+5761	Ruhr	Ruhr
+5765	Ruhr	Ruhr
+5767	wdruhr	wdruhr
+5923	What this Campaign is:	What this Campaign is:
+5929	This campaign is significantly different from the one designed by Mr. William Dickens. Seven scenarios are completely new and four more have gone through complete renovation. Some of the scenarios have been inspired on similar ones designed by Steve Brown. They are very different from Steve's scenarios though.	This campaign is significantly different from the one designed by Mr. William Dickens. Seven scenarios are completely new and four more have gone through complete renovation. Some of the scenarios have been inspired on similar ones designed by Steve Brown. They are very different from Steve's scenarios though.
+5931	My new efile that features stronger infantry and higher prices for heavy weapons is particularly suitable for this campaign. There are hard terrain and city-fighting scenarios where the stronger infantry is actually superior to tanks. The AI plays particularly aggressive with the infantry in cities, counterattacking often and punishing mistakes, increasing the interest of the game. Higher prices for heavy weapons, lower than other efiles though, guarantee that players will not upset the balance by buying too many heavy weapons.	My new efile that features stronger infantry and higher prices for heavy weapons is particularly suitable for this campaign. There are hard terrain and city-fighting scenarios where the stronger infantry is actually superior to tanks. The AI plays particularly aggressive with the infantry in cities, counterattacking often and punishing mistakes, increasing the interest of the game. Higher prices for heavy weapons, lower than other efiles though, guarantee that players will not upset the balance by buying too many heavy weapons.
+5933	This campaign depicts scenarios in several kinds of terrains and conditions, open field, mountains, cities, etc. You also have big battles with many units on each side and smaller more strategic scenarios.	This campaign depicts scenarios in several kinds of terrains and conditions, open field, mountains, cities, etc. You also have big battles with many units on each side and smaller more strategic scenarios.
+5941	What this Campaign is not:	What this Campaign is not:
+5947	This campaign depicts heavy and continuous action. You start fighting from the first term and it will not be over until is over. I sincerely regret if you do not like this kind of scenarios, but everybody is entitled to his own taste.	This campaign depicts heavy and continuous action. You start fighting from the first term and it will not be over until is over. I sincerely regret if you do not like this kind of scenarios, but everybody is entitled to his own taste.
+5949	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. Before discovering Panzerg2 I was a master level chess player. I see the game as a more "colorful" chess.	This campaign is not an endorsement of any political idea or of war. War is one of the most regrettable human activities. Before discovering Panzerg2 I was a master level chess player. I see the game as a more "colorful" chess.
+5957	Acknowledgements:	Acknowledgements:
+5963	I really appreciate Mr. Williams Dickens allowing me to retool his excellent British campaign. This campaign was strikingly modern for its time and the designer deserves a lot of credit. A good job done with limited tools. Some scenarios were inspired on similar scenarios designed by Steve Brown for his original British campaign.	I really appreciate Mr. Williams Dickens allowing me to retool his excellent British campaign. This campaign was strikingly modern for its time and the designer deserves a lot of credit. A good job done with limited tools. Some scenarios were inspired on similar scenarios designed by Steve Brown for his original British campaign.
+5965	My interest on wargaming design was inspired by the campaign 7PanzerArmee by Mr. Dave Anderson, my appreciation goes to him. After I started the campaign I read the work of many others and it was a great help (Lasse Jensen and Andr eas Seidel among others. I also appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you have as much fun playing as I have designed it.	My interest on wargaming design was inspired by the campaign 7PanzerArmee by Mr. Dave Anderson, my appreciation goes to him. After I started the campaign I read the work of many others and it was a great help (Lasse Jensen and Andr eas Seidel among others. I also appreciate the work of so many others who have transformed war-gaming into an art form. Thank you for playing the campaign. I hope you have as much fun playing as I have designed it.

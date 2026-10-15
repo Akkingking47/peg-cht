@@ -1,0 +1,123 @@
+# Road to Berlin\RTB Campaign Path.xls · 译文填写表：只改第五列（译文）
+工作表	行	列	原文	译文
+Sheet1	1	1	No.	
+Sheet1	1	2	Scenario Name	场景名
+Sheet1	1	3	BV	辉煌胜利
+Sheet1	1	5	TV	战术胜利
+Sheet1	1	6	LOSS	失败
+Sheet1	1	7	MAP NAME	
+Sheet1	1	8	MAP No.	地图编号
+Sheet1	1	9	DATE	
+Sheet1	1	10	BV	辉煌胜利
+Sheet1	1	12	TV	战术胜利
+Sheet1	2	2	The Assault (1)	突击 (1)
+Sheet1	2	6	LOSS	失败
+Sheet1	2	7	Sb2stal	
+Sheet1	3	2	Operation Uranus (2)	天王星行动 (2)
+Sheet1	3	6	LOSS	失败
+Sheet1	3	7	SSI (Chir)	SSI (奇尔)
+Sheet1	4	2	Winter Storm (3)	冬季风暴 (3)
+Sheet1	4	6	LOSS	失败
+Sheet1	4	7	Myshko	
+Sheet1	5	2	Little Saturn (4)	小土星行动 (4)
+Sheet1	5	6	LOSS	失败
+Sheet1	5	7	Don	顿河
+Sheet1	6	2	Kharkov (5)	
+Sheet1	6	6	LOSS	失败
+Sheet1	6	7	Kharkov2	
+Sheet1	7	2	Ponyri Station (6)	波内里车站 (6)
+Sheet1	7	6	LOSS	失败
+Sheet1	7	7	Ponyri	波内里
+Sheet1	8	2	Orel (7)	
+Sheet1	8	6	LOSS	失败
+Sheet1	8	7	SSI (Chiecano)	SSI (Chiecano)
+Sheet1	9	2	Operation Rumientzev (8)	鲁缅采夫行动 (8)
+Sheet1	9	6	LOSS	失败
+Sheet1	9	7	SSI (Prokh)	SSI (普罗霍罗夫卡)
+Sheet1	10	2	Dnepr Crossing (9)	强渡第聂伯河 (9)
+Sheet1	10	6	LOSS	失败
+Sheet1	10	7	SSI (Kanev)	SSI (卡涅夫)
+Sheet1	11	2	Kiev (26)	
+Sheet1	11	6	LOSS	失败
+Sheet1	11	7	Kiev	基辅
+Sheet1	12	2	Mogilev (10)	
+Sheet1	12	6	LOSS	失败
+Sheet1	12	7	Mogilev	莫吉廖夫
+Sheet1	13	2	Perekop (25)	彼列科普 (25)
+Sheet1	13	6	LOSS	失败
+Sheet1	13	7	SSI (Prokh)	SSI (普罗霍罗夫卡)
+Sheet1	14	2	Leningrad (11)	列宁格勒 (11)
+Sheet1	14	6	LOSS	失败
+Sheet1	14	7	SSI (Lening)	SSI (列宁格勒)
+Sheet1	15	2	Cherkassy (12)	切尔卡瑟 (12)
+Sheet1	15	6	LOSS	失败
+Sheet1	15	7	SSI (Chir)	SSI (奇尔)
+Sheet1	16	2	Western Ukraine (13)	西乌克兰 (13)
+Sheet1	16	6	LOSS	失败
+Sheet1	16	7	SSI (Arract)	SSI (Arract)
+Sheet1	17	2	Odessa Evacuation (33)	敖德萨撤离 (33)
+Sheet1	17	6	LOSS	失败
+Sheet1	17	7	Odessa	敖德萨
+Sheet1	18	2	Sevastopol Evacuation (14)	塞瓦斯托波尔撤退 (14)
+Sheet1	18	6	LOSS	失败
+Sheet1	18	7	Sevastopol	塞瓦斯托波尔
+Sheet1	19	2	Viipuri (15)	
+Sheet1	19	6	LOSS	失败
+Sheet1	19	7	SSI (Viipuri)	SSI (维堡)
+Sheet1	20	2	Narva (23)	
+Sheet1	20	6	LOSS	失败
+Sheet1	20	7	Narva	纳尔瓦
+Sheet1	21	2	Riga (24)	
+Sheet1	21	6	LOSS	失败
+Sheet1	21	7	Dieppe	迪耶普
+Sheet1	22	2	Army Group South Ukraine (16)	南乌克兰集团军群 (16)
+Sheet1	22	6	LOSS	失败
+Sheet1	22	7	SSI (Kanev)	SSI (卡涅夫)
+Sheet1	23	2	Operation Jassy-Kichinev (31)	雅西-基什尼奥夫行动 (31)
+Sheet1	23	6	LOSS	失败
+Sheet1	23	7	Bucharest	布加勒斯特
+Sheet1	24	2	Operation Bagration I (17)	巴格拉季昂行动 I (17)
+Sheet1	24	6	LOSS	失败
+Sheet1	24	7	Litovsk	
+Sheet1	25	2	Belgrade (32)	
+Sheet1	25	6	LOSS	失败
+Sheet1	25	7	Belgrade	贝尔格莱德
+Sheet1	26	2	Operation Bagration II (18)	巴格拉季昂行动 II (18)
+Sheet1	26	6	LOSS	失败
+Sheet1	26	7	SSI (Novgo)	SSI (诺夫哥罗德)
+Sheet1	27	2	Vistula Crossing (19)	强渡维斯瓦河 (19)
+Sheet1	27	6	LOSS	失败
+Sheet1	27	7	Vistula	维斯瓦河
+Sheet1	28	2	Operation Warsaw-Poznan (30)	华沙-波兹南行动 (30)
+Sheet1	28	6	LOSS	失败
+Sheet1	28	7	Poland	
+Sheet1	29	2	Operation Konrad (20)	康拉德行动 (20)
+Sheet1	29	6	LOSS	失败
+Sheet1	29	7	SSI (Konrad)	SSI (康拉德)
+Sheet1	29	12	WIN	胜利
+Sheet1	30	2	Auschwitz Liberation (34)	解放奥斯维辛 (34)
+Sheet1	30	6	LOSS	失败
+Sheet1	30	7	Stalag	
+Sheet1	31	2	East Prussia (29)	东普鲁士 (29)
+Sheet1	31	6	LOSS	失败
+Sheet1	31	7	Koenisgberg	
+Sheet1	31	10	WIN	胜利
+Sheet1	31	11	WIN	胜利
+Sheet1	32	2	The Door to Berlin (21)	通往柏林之门 (21)
+Sheet1	32	6	LOSS	失败
+Sheet1	32	7	SSI (Dessau)	SSI (德绍)
+Sheet1	33	2	Peenemunde (28)	佩讷明德 (28)
+Sheet1	33	6	LOSS	失败
+Sheet1	33	7	Peenemunde	佩讷明德(Peenemunde)
+Sheet1	34	2	Hitler Last Stand (22)	希特勒的最后抵抗 (22)
+Sheet1	34	3	WIN	胜利
+Sheet1	34	4	WIN	胜利
+Sheet1	34	5	WIN	胜利
+Sheet1	34	6	LOSS	失败
+Sheet1	34	7	Berlin	柏林
+Sheet1	35	2	Race for Berlin (27)	争夺柏林 (27)
+Sheet1	35	3	WIN	胜利
+Sheet1	35	4	WIN	胜利
+Sheet1	35	5	WIN	胜利
+Sheet1	35	6	LOSS	失败
+Sheet1	35	7	Berlin	柏林

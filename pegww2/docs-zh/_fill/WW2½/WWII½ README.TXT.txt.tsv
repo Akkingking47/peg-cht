@@ -1,0 +1,26 @@
+# WW2½\WWII½ README.TXT.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	WW II½ is a hypothetical conflcit between the Western Allies and the USSR in the immediate aftermath of WWII in Europe.	WW II½ 是二战在欧洲刚结束后、西方盟国与苏联之间爆发的一场架空冲突。
+2	It uses one of the features of PeG that hasn't yet been exploited in a campaign.	它用到了 PeG 中一项尚未在任何战役里被利用的功能。
+4	Victory conditions are based on the number of VH's you capture from the AI's control.	胜利条件取决于你从 AI 手中夺取的胜利格数量。
+6	If you look at the prompt between turns (or if you hit the F1 key) you will be told how many hexes you must capture for any given victory level.	如果你查看回合之间的提示（或者按 F1 键），就会得知要达到某一胜利等级必须夺取多少格。
+8	If at any time you capture the number of hexes necessary for a BV, or if you destroy all of the AI's units, you will get a Brilliant Victory.  Otherwise, your victory level is determined based on the number of hexes you have captured by the last turn.	如果你在任何时候夺取了达到辉煌胜利所需的格数，或者消灭了 AI 的全部单位，就会获得辉煌胜利。否则，你的胜利等级取决于到最后一回合为止你已夺取的格数。
+10	It should be noted that one cannot achive a BV in the first scenario.  The number of hexes reqired for a BV is greater than what is on the map.  This will force you to defend against the Ai for the duration of the scenario.  The prestige awards are adjusted accordingly.	需要注意的是，第一个场景中无法取得辉煌胜利。达到辉煌胜利所需的格数比地图上实际存在的格数还多。这会迫使你在整个场景期间一直防御 AI。威望奖励也相应做了调整。
+12	This campaign requires 5 maps that are not part of the SSI PG2 or PeG map package.	本战役需要 5 张不属于 SSI PG2 或 PeG 地图包的地图。
+14	They are as follows.	具体如下。
+16	AMIENS.MAP\t#140	[[KEEP]]
+17	BELGRADE.MAP\t#208	[[KEEP]]
+18	DURSTEIN.MAP\t#269 	[[KEEP]]
+19	LAMATZ.MAP\t#247 	[[KEEP]]
+20	LITOVSK.MAP\t#35	[[KEEP]]
+21	MOGILEV2.MAP\t#233  	[[KEEP]]
+23	If you do not have any of these maps go here	如果你没有上述任何一张地图，请访问这里
+25	http://www.peachmountain.com/5star/PEG_DOWNLOADS.asp#Section5	[[KEEP]]
+27	get the map converter program and get the PG2 maps from the link provided.	下载地图转换程序，并通过给出的链接获取 PG2 地图。
+29	There are three invasion scenarios (Sakhalin, Vlaivostok, and Irkutsk).  In each of these, there are "amphibious invasion ships".  These units have the combat support function and so will act as mobile deployment hexes.	共有三个登陆场景（萨哈林(Sakhalin)、符拉迪沃斯托克(Vlaivostok)和伊尔库茨克(Irkutsk)）。每个场景中都有“两栖登陆舰”。这些单位具备战斗支援功能，因此可以当作可移动的部署格使用。
+31	Move them adjacent to the shore and you can then deploy your units on the adjacent land hexes.	把它们移动到紧邻海岸的位置，随后就能在相邻的陆地格上部署你的单位。
+33	This campaign was built with the SS campaign e-file available in the main PeG:WW2 package at http://www.peachmountain.com/5star/PEG_PeoplesGeneral_WW2.asp	本战役是用 SS 战役装备文件构建的，该文件可在 PeG:WW2 主包中获取：http://www.peachmountain.com/5star/PEG_PeoplesGeneral_WW2.asp
+35	Comments are welcome	欢迎提出意见
+37	Mark Kirby	[[KEEP]]
+38	June, 2005	2005 年 6 月
+40	kali.opt@comcast.net	[[KEEP]]

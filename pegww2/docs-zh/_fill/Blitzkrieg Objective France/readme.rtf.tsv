@@ -1,0 +1,85 @@
+# Blitzkrieg Objective France\readme.rtf · 译文填写表：只改第三列（译文）
+段号	原文	译文
+2808	Blitzkrieg!: Objective France	闪电战！：目标法国
+2867	By	作者
+2926	Santiago Fuertes	Santiago Fuertes
+2985	The Latin Generals 2005	The Latin Generals 2005
+3107	http:	http:
+3110	es.geocities.com	es.geocities.com
+3112	latingenerals	latingenerals
+3231	Introduction	引言
+3322	The moment that Germany has been waiting for long time has come; the revenge time for the Versalles humillation is nearly. After the Poland invasion in 1939 (FallWeiss), France and Great Britain has declared the war on Germany, and with the incompleted Operation Weser	德国期盼已久的时刻已经到来；为凡尔赛的屈辱复仇的时刻就在眼前。1939 年入侵波兰(FallWeiss)之后，法国和英国对德宣战，而随着未完成的 Operation Weser
+3325	?bung	übung
+3328	?but decided-, Germany are going to launch a full-scale operation against the west allies, in order to destroy the French army (considered one of the mosts powerfuls armies in the 1940 world) and to capture the British Expeditionary Force (B.E.F.).	——但已决定——，德国将对西方盟国发动一场全面作战，以摧毁法国军队（被认为是 1940 年世界上最强大的军队之一），并俘获英国远征军(B.E.F.)。
+3385	The German High command has special plans for this, and a new strategy to show the world... can YOU manage the BlitzKrieg on France?, can you reach Paris?, the world is watching you...	德国最高统帅部为此有专门的计划，还有一套要向世界展示的新战略……你能在法国打好这场闪击战吗？你能打到巴黎吗？全世界都在看着你……
+3482	The Campaign	战役
+3582	Battles	战斗
+3683	(fi01) Sedan, May 13th, 1940	(fi01) 色当(Sedan)，1940 年 5 月 13 日
+3782	(fi02) Laon	(fi02) 拉昂(Laon)
+3785	? Saint Quentin, May 18th, 1940	? 圣康坦(Saint Quentin)，1940 年 5 月 18 日
+3884	(fi03) Amiens	(fi03) 亚眠(Amiens)
+3887	? Somme River, May 20th, 1940	? 索姆河(Somme River)，1940 年 5 月 20 日
+3985	(fi04) Arras, 21st May, 1940	(fi04) 阿拉斯(Arras)，1940 年 5 月 21 日
+4084	(fi05) Dunquerke, May 25th, 1940	(fi05) 敦刻尔克(Dunquerke)，1940 年 5 月 25 日
+4182	(fi06) Lille, May 27th ,1940	(fi06) 里尔(Lille)，1940 年 5 月 27 日
+4274	Setup and Requirements	安装与要求
+4371	Unzip the file English_Campaign.zip into your main scenarios folder, usually c:	将 English_Campaign.zip 解压到你的主场景文件夹，通常是 c:
+4373	panzer2	panzer2
+4375	scenario, and then unzip the file LG2.0.zip into the main Panzer General 2 folder, usually c:	scenario，然后将 LG2.0.zip 解压到 Panzer General 2 主文件夹，通常是 c:
+4377	panzer2. The efile versi	panzer2。这个战役所用的 LG 装备文件(efile)版本
+4380	?n of LG that uses this campaign is the 2.0, and it	是 2.0，而它
+4383	?s the version included with the campaign. Look for newest versions at Latin Generals!	就是随这个战役附带的版本。最新版本请到 Latin Generals 找！
+4541	Patch PG2 2.02	PG2 2.02 补丁
+4577	This match is needed for efiles with more than 2000 units. That patch it	装备文件里的单位超过 2000 个时就需要这个补丁。这个补丁可在
+4580	?s available at	下面的地址找到：
+4659	http://es.geocities.com/lgefile	http://es.geocities.com/lgefile
+4696	and also ay	也可在
+4775	http://go.to/panzergeneral2	http://go.to/panzergeneral2
+4812	, look at the	，看看那里的
+4818	?clearinghouse section	clearinghouse 版块
+4824	? there.	。
+4941	The newest Soundup, (2004)	最新的 Soundup(2004)
+4977	The SoundUp of 2004 (by Pablo Schlegel) is required, you can fid it on the next sites;	必须使用 2004 年的 SoundUp（作者 Pablo Schlegel），你可以在以下站点找到它：
+5135	http://es.geocities.com/latingenerals/utilidades.htm	http://es.geocities.com/latingenerals/utilidades.htm
+5250	And also here;	还有这里；
+5407	http://es.geocities.com/lgefile/equip.htm	http://es.geocities.com/lgefile/equip.htm
+5581	The newest Datup	最新的 Datup
+5618	It	它
+5621	?s really easy to install. Unzip the Datup into your main PG2 folder, usually c:	安装起来真的很简单。将 Datup 解压到你的 PG2 主文件夹，通常是 c:
+5623	panzer2. You can find the lastest Datup in the next link at the	panzer2。你可以在下面这个链接的
+5629	?equipment	装备
+5635	? section (see NewPanzer2.dat);	版块找到最新的 Datup（见 NewPanzer2.dat）；
+5714	http://www.medio.mh.se/~vonadler/pg2/equipment/equipment.html	http://www.medio.mh.se/~vonadler/pg2/equipment/equipment.html
+5851	Maps	地图
+5888	The campaign needs the next maps, which can be found on the next links;	这个战役需要以下地图，可以在下面的链接找到：
+5967	http://66.34.91.232	http://66.34.91.232
+6004	or here	或者这里
+6083	http://go.to/panzergeneral2	http://go.to/panzergeneral2
+6120	, and also here;	，还有这里；
+6199	http://www.stahlhelm.prv.pl/	http://www.stahlhelm.prv.pl/
+6316	The maps needed are	需要的地图是
+6417	SEDAN41, LAON, AMIENS, ARRAS, DUNKIRK (SSI), LILLE	SEDAN41, LAON, AMIENS, ARRAS, DUNKIRK (SSI), LILLE
+6508	SMACKs	SMACK 影片
+6606	The campaign uses smack secuences, you can play without that smacks, but the smacks are good in order to make more enjoyable the campaign. Put it into the SMACK folder, you should made into the main game folder. Also, you should copy the original smacks included in the CD of the game, also in a folder named SMACK.	这个战役使用了 smack 影片，没有这些影片也能玩，但这些影片能让战役玩起来更有意思。把它放进 SMACK 文件夹，这个文件夹你应当建在主游戏文件夹里。另外，你还应当把游戏光盘里自带的原始影片复制过来，同样放在一个名为 SMACK 的文件夹里。
+6702	The smacks needed are; FAS9 and FAS11 (by Andreas Seidel)	需要的影片是：FAS9 和 FAS11（作者 Andreas Seidel）
+6798	You can download it from;	可以从这里下载：
+6954	http://www.medio.mh.se/~vonadler/pg2/	http://www.medio.mh.se/~vonadler/pg2/
+7072	Internet references	网络参考资料
+7233	http://www.europa1939.com/ww2/1939/index.html	http://www.europa1939.com/ww2/1939/index.html
+7373	http://www.feldgrau.com/	http://www.feldgrau.com/
+7515	http://www.wwiidaybyday.com/	http://www.wwiidaybyday.com/
+7657	http://www.eliteforces.freewire.co.uk/	http://www.eliteforces.freewire.co.uk/
+7799	http://www.axishistory.com/	http://www.axishistory.com/
+7919	Finally	最后
+8019	This files are FREE, I made it only for fun. I hope you take fun too playing it	这些文件是免费的，我做它只是为了好玩。希望你也玩得开心
+8129	Please, I would like if you email me, I'll know about if you enjoy the campaign, or if not. The LatinGenerals logo is property of the LatinGenerals webmasters, and nobody is allowed to use it.	请给我发邮件吧，这样我就知道你是否喜欢这个战役。LatinGenerals 标志是 LatinGenerals 网站管理员的财产，任何人都不许使用它。
+8186	The web contents included in Latin Generals can not be copied without our permission.	Latin Generals 收录的网页内容未经我们许可不得复制。
+8281	If you have any doubt or related comment, please feel free to write to me;	如果你有任何疑问或相关意见，请随时写信给我：
+8436	fuertesbermudez@yahoo.es	fuertesbermudez@yahoo.es
+8567	Also you can post in the Latin Generals forum;	你也可以在 Latin Generals 论坛发帖：
+8722	http://p090.ezboard.com/fjpspanzersfrm125	http://p090.ezboard.com/fjpspanzersfrm125
+8838	Santiago, March 2005	Santiago，2005 年 3 月
+8937	http:	http:
+8940	es.geocities.com	es.geocities.com
+8942	latingenerals	latingenerals
+9041	Made with Luis Guzman PG2 Suite	用 Luis Guzman 的 PG2 Suite 制作

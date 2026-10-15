@@ -1,0 +1,912 @@
+# ww2-eqp-map.tsv（行号模式=否）
+# 来源：PeG=前作行级已验 / PeG同串=同英文串在前作别处的已验译法 / 词库=术语总库精确命中
+#      新译=待人工填 / 保留=按型号规范原样保留
+原文	译文	来源
+European E-file version 1.02d Robert Mary 05.10.2007	European E-file version 1.02d Robert Mary 05.10.2007	保留
+37mm FlaK w/Kuorma-auto	37mm 高炮（库尔马卡车牵引）	新译
+3.7cm PaK w/Wagon	3.7cm 反坦克炮（马车牵引）	新译
+5cm PaK w/Wagon	5cm 反坦克炮（马车牵引）	新译
+7.5cm  PaK w/Kuoma-auto	7.5cm 反坦克炮（库尔马卡车牵引）	新译
+StuG IIIG	StuG IIIG	保留
+105mm K34 w/Kuorma-auto	105mm K34 加农炮（库尔马卡车牵引）	新译
+152mm H17 w/Kuorma-auto	152mm H17（库尔马卡车牵引）	新译+W20类别词
+76mm K02 w/Wagon	76mm K02 加农炮（马车牵引）	新译
+StuG IIIB	StuG IIIB	保留
+Bunker Artillery	掩体炮兵	新译
+AI Radar	AI 雷达	词库
+Jalkavaki w/Wagon	步兵（马车牵引）	新译
+Sissi-Joukkeet w/Kuorma-auto	西西部队（库尔马卡车牵引）	新译
+Suksi	滑雪板	词库
+PSW 231	231型装甲车	词库
+Pz IIIJ2	Pz IIIJ2	保留
+Pz IVD	Pz IVD	保留
+Pz IVG	Pz IVG	保留
+21cm M18 w/LKW	21cm M18（卡车牵引）	新译+W20类别词
+21cm M18 w/251/1	21cm M18（SdKfz 251/1）	新译+W20载具缩写+W20类别词
+Me-109F	Me-109F	保留
+F-2A	F-2A	保留
+Fokker DXXI	Fokker DXXI	保留
+Ju-87B Stuka/Me-109F-4	Ju-87B 斯图卡/Me-109F-4	新译
+Ju-52/Me-109F-4	Ju-52/Me-109F-4	保留
+M16 MGMC	M16 自行高炮	新译
+25mm SA34 w/Charrette	25mm SA34（马车牵引）	新译+W20类别词
+76mm w/Camion	76mm（卡车牵引）	新译+W20类别词
+M10	M10	保留
+105mm C mle36 w/Camion	105mm C mle36（卡车牵引）	新译+W20类别词
+155mm L mle17 w/Camion	155mm L mle17（卡车牵引）	新译+W20类别词
+75mm C mle97 w/Camion	75mm C mle97（卡车牵引）	新译+W20类别词
+M7 105mm M2	M7 105mm M2	保留
+Abri	掩蔽部	词库
+Fortification	要塞	PeG同串
+Cavalerie	骑兵	词库
+Chasseurs (M)	猎兵连（M）	新译
+Ingenieurs (E) w/Camion	工兵连（E）（卡车牵引）	新译
+Infanterie w/Charrette	步兵（马车牵引）	新译
+FFL Infanterie w/Camion	自由法国步兵（卡车牵引）	新译
+M8	M8装甲车	词库
+Panhard 178	Panhard 178	保留
+Dunkerque Class	敦刻尔克级	新译
+Richelieu Class	黎塞留级	新译
+Suffren Class	絮弗伦级	新译
+La Galissoniere Class	拉加利索尼埃级	新译
+Le Fantasque Class	空想级	新译
+B1-bis	B1-bis	保留
+H39	H39	保留
+M5A1	M5A1	保留
+M4A1	M4A1	PeG同串
+M4A1/76	M4A1/76	保留
+R35	R35	保留
+R40-2	R40-2	保留
+S35	S35	保留
+Avro Lancaster Mk I Air Support	Avro 兰开斯特 Mk I 空中支援	人工确认
+Avro Lancaster MkI/Spitfire VC	Avro 兰开斯特 MkI/喷火 VC	人工确认
+Sea Transport	登船 - 登陆	PeG同串
+C47 Skytrain	C47 空中列车	新译
+D.520	D.520	保留
+MS-406	MS-406	保留
+Pz 633/MS-406	Pz 633/MS-406	保留
+C-47/MS-406	C-47/MS-406	保留
+20mm FlaK w/LKW	20mm 高炮（卡车牵引）	新译
+20mm (Q) FlaK w/LKW	意大利 20mm 高炮（卡车牵引）	新译
+3.7cm PaK w/Pferden	3.7cm 反坦克炮（骡马牵引）	新译
+37mm FlaK w/LKW	37mm 高炮（卡车牵引）	新译
+FlaKPz IV Mobelwagen	家具车自行高炮	新译
+8.8cm FlaK36 w/LKW	8.8cm FlaK36 高炮（卡车牵引）	新译
+FlaKPz V Coelian	彗星自行高炮	新译
+FlaKPz 38(t)	38(t) 自行高炮	新译
+FlakPz IV Ostwind	东风自行高炮	新译
+SdKfz 7/1	SdKfz 7/1	保留
+SdKfz 6/2	SdKfz 6/2	保留
+SdKfz 10/4	SdKfz 10/4	保留
+FlaKPz IV Wirbelwind	旋风自行高炮	新译
+5cm PaK w/Pferden	5cm 反坦克炮（骡马牵引）	新译
+7.5cm PaK w/LKW	7.5cm 反坦克炮（卡车牵引）	新译
+8.8 FK18 ATG w/LKW	8.8 FK18 反坦克炮（卡车牵引）	新译
+8.8cm PaK w/251/1	8.8cm 反坦克炮（SdKfz 251/1）	新译+W20载具缩写
+Ferdinand	斐迪南	新译
+JgdPz 38 (t) Hetzer	38(t) 追猎者自行反坦克炮	新译
+JgdPanther	黑豹自行反坦克炮	新译
+JgdPz IV/48	IV 号自行反坦克炮 L/48	人工确认
+JgdPz IV/70	IV 号自行反坦克炮 L/70	人工确认
+JagdTiger	猎虎自行反坦克炮	新译
+Marder IIIH	黄鼠狼 IIIH	新译+W20类别词
+JgdPz IV Nashorn	犀牛自行反坦克炮	新译
+PzJgd I	I 号自行反坦克炮	新译
+StuG IIIF	StuG IIIF	保留
+10.5 leFH18m w/Pferden	10.5 leFH18m 轻型榴弹炮（骡马牵引）	新译
+15 sFH 18 w/LKW	15 sFH 18 重型榴弹炮（卡车牵引）	新译
+17 K18 w/LKW	17 K18 加农炮（卡车牵引）	新译
+7.5 leFK18 w/Pferden	7.5 leFK18 轻型加农炮（骡马牵引）	新译
+sIG33 38(t)M	sIG33 38(t)M 重型步兵炮运载车	人工确认
+PzA IV Hummel	野蜂	新译+W20类别词
+15 NbWf41 w/LKW	15 NbWf41 火箭炮（卡车牵引）	新译
+ Sdkfz 251/1 Wurfrahmen	 Sdkfz 251/1 火箭发射框	新译
+3.7 inch w/Truck	3.7 英寸（卡车牵引）	新译+W20类别词
+sIG IB Bison	IB 野牛自行重型步兵炮	新译
+sIG II	sIG II	保留
+StuH 42G	StuH 42G	保留
+PzA II Wespe	黄蜂	新译+W20类别词
+Blockhaus	堡垒	新译
+Festigung	工事	新译
+Waffen SS w/LKW	武装党卫军（卡车牵引）	新译
+Kavallerie	骑兵	词库
+Sturmpioniere (E) w/LKW	突击工兵连（E）（卡车牵引）	新译
+Brückenbau (B) w/LKW	架桥连（B）（卡车牵引）	新译
+Grenzwacht	边防军	词库
+Gebirgsjäger (M)	山地猎兵连（M）	新译
+Fallschirmjäger (P)	伞兵连（P）	新译
+Infanterie w/Pferden	步兵（骡马牵引）	新译
+Volkssturm	国民突击队	词库
+PSW 222	PSW 222	保留
+PSW 233	PSW 233	保留
+PSW 234/1	PSW 234/1	保留
+PSW 234/2 Puma	PSW 234/2 美洲狮	新译
+PSW 234/3	PSW 234/3	保留
+PSW 234/4	PSW 234/4	保留
+Bismarck Class	俾斯麦级	新译
+Scharnhorst Class	沙恩霍斯特级	新译
+Hipper Class	希佩尔级	新译
+Nurnberg Class	纽伦堡级	新译
+Zeppelin Class	齐柏林级	新译
+Maass Class	马阿斯级	新译
+Pz VII Maus	VII 号鼠式	新译
+Pz VA Panther	V 号A型黑豹	新译
+Pz VD Panther	V 号D型黑豹	新译
+Pz VG Panther	V 号G型黑豹	新译
+Pz VIII Panther II	VIII 号黑豹 II	新译
+Pz 35(t)	Pz 35(t)	人工确认
+Pz 38(t)A	Pz 38(t)A	保留
+Pz 38(t)F	Pz 38(t)F	保留
+Pz IA	Pz IA	保留
+Pz IB	Pz IB	保留
+Pz IIA	Pz IIA	保留
+Pz IIF	Pz IIF	保留
+Pz IIIE	三号坦克E型	词库
+Pz IIIG Tauchfähig	三号坦克G型（可潜航）	新译
+Pz IIIL	Pz IIIL	保留
+Pz IIIH	Pz IIIH	保留
+Pz IIIN	Pz IIIN	保留
+Pz IVD Tauchfähig	四号坦克D型（可潜航）	新译
+Pz IVF2	Pz IVF2	保留
+Pz IVH	四号坦克H型	词库
+Pz IVJ	Pz IVJ	保留
+Pz VI Tiger	VI 号虎式	新译
+Pz VIb Koenigstiger	VI 号B型虎王	新译
+Krad	摩托车	新译
+Sturmpioniere (E) w/ 251/1	突击工兵连（E）（SdKfz 251/1）	新译+W20载具缩写
+15 sFH 18  w/251/1	15 sFH 18 重型榴弹炮（SdKfz 251/1）	新译+W20载具缩写
+17 K18 w/ 251/1	17 K18 加农炮（SdKfz 251/1）	新译+W20载具缩写
+Me-109E-3 Emil	Me-109E-3 埃米尔	新译
+Me-109G-2 Gustav	Me-109G-2 古斯塔夫	新译
+Me-109K-4 Kurfuerst	Me-109K-4 选帝侯	新译
+Me-110C-1 Zerstorer	Me-110C-1「驱逐机」	新译+引号规范
+Do-335A-1 Pfeil	Do-335A-1 箭式	新译
+FW-190A-3 Wuerger	FW-190A-3 伯劳	新译
+FW-190D-9 Dora	FW-190D-9 多拉	新译
+He-162A-2 Salamander	He-162A-2 火蜥蜴	新译
+Me-163B-1 Komet	Me-163B-1 彗星	新译
+Me-262A-1b-R/4M Schwalbe	Me-262A-1b-R/4M 燕子	新译
+Me-110E-2 Zerstorer	Me-110E-2「驱逐机」	新译+引号规范
+FW-190F-3	FW-190F-3	保留
+FW-190G-2	FW-190G-2	保留
+HS-129B-2/FW-190A-3	HS-129B-2/FW-190A-3	保留
+Ju-87B-1 Stuka/Me-109E-3	Ju-87B-1 斯图卡/Me-109E-3	新译
+Ju-87D-1 Stuka/Me-109F-4	Ju-87D-1 斯图卡/Me-109F-4	新译
+Ju-87G-1 Stuka/FW-190A-3	Ju-87G-1 斯图卡/FW-190A-3	新译
+Ju-52-3M "Tante Ju"/Me-109E-3	Ju-52-3M「姑妈 Ju」/Me-109E-3	新译+引号规范
+5cm PaK w/Szeker	5cm 反坦克炮（马车牵引）	新译
+7.5cm  PaK w/Teherkocsi	7.5cm 反坦克炮（卡车牵引）	新译
+105mm How w/Szeker	105mm 榴弹炮（马车牵引）	新译
+75mm Mtm	75mm 山炮	新译
+AP Mine Field	反步兵雷场	新译
+Megerosites	加固工事	新译
+Huszar	骠骑兵	词库
+Sorkatonasag w/Szeker	义务兵（马车牵引）	新译
+Tatra	Tatra	保留
+BT-5	BT-5	保留
+LT-38	LT-38	保留
+Turan I	图兰 I	新译
+Turan II	图兰 II	新译
+Crusader III	十字军 III	新译
+5.5 inch Mk.III w/Truck	5.5 英寸 Mk.III（卡车牵引）	新译+W20类别词
+FW-190F	FW-190F	保留
+Ju-52/Me-109E-3	Ju-52/Me-109E-3	保留
+20mm 20/65  w/Camion	20mm 20/65 高炮（卡车牵引）	新译
+20mm Portee	20mm 车载炮	新译
+47mm w/Wagon	47mm（马车牵引）	新译+W20类别词
+Sem 47/32	Sem 47/32	新译+W20类别词
+Sem 75/34	Sem 75/34	新译+W20类别词
+Sem 90/53	Sem 90/53	新译+W20类别词
+100mm/17 How w/Wagon	100mm/17 榴弹炮（马车牵引）	新译
+149mm/35 How w/Camion	149mm/35 榴弹炮（卡车牵引）	新译
+75mm/27 FG w/Wagon	75mm/27（马车牵引）	新译+W20类别词
+Sem 47	Sem 47	新译+W20类别词
+Sem 75/18	Sem 75/18	新译+W20类别词
+Cabonile	掩体	新译
+Fortificazione	要塞	词库
+Alpini (M)	山地兵连（M）	新译
+Bersaglieri w/Camion	狙击兵（卡车牵引）	新译
+Genio (E) w/Camion	工兵连（E）（卡车牵引）	新译
+Fanteria w/Wagon	步兵（马车牵引）	新译
+AB-41	AB-41	保留
+Littorio Class	利托里奥级	新译
+Zara Class	扎拉级	新译
+Condottieri Class	佣兵队长级	新译
+L6/40	L6/40	保留
+M13/40	M13/40	保留
+M14/41	M14/41	保留
+M15/42	M15/42	保留
+P26/40	P26/40	保留
+8.8cm FlaK36 w/251/1	8.8cm FlaK36 高炮（SdKfz 251/1）	新译+W20载具缩写
+8.8 FK18 ATG w/251/1	8.8 FK18 反坦克炮（SdKfz 251/1）	新译+W20载具缩写
+G.55 Centauro	G.55 半人马	新译
+MC.200	MC.200	保留
+MC.202 Folgore	MC.202 闪电	新译
+MC.205 Veltro	MC.205 猎犬	新译
+Re.2000 Falco I	Re.2000 猎鹰 I	新译
+Re.2005 Sagittario	Re.2005 弓箭手	新译
+BA.65/MC.200	BA.65/MC.200	保留
+SM 79 Sparviero/MC.200	SM 79 食雀鹰/MC.200	新译
+Ju-52/MC.200	Ju-52/MC.200	保留
+20mm 20/65 w/Camion	20mm 20/65 高炮（卡车牵引）	新译
+3.7cm  PaK w/Carro	3.7cm 反坦克炮（车辆牵引）	新译
+7.5cm PaK w/Camion	7.5cm 反坦克炮（卡车牵引）	新译
+47mm w/Carro	47mm（车辆牵引）	新译+W20类别词
+149/13 149mm w/Camion	149/13 149mm（卡车牵引）	新译+W20类别词
+65/17 65mm w/Carro	65/17 65mm（车辆牵引）	新译+W20类别词
+Bunker	碉堡	PeG
+Fortificacion	要塞	新译
+Legionario w/Camion	军团兵（卡车牵引）	新译
+Milicia	民兵	词库
+Infanteria w/Carro	步兵（车辆牵引）	新译
+Me-109G-6 Gustav	Me-109G-6 古斯塔夫	新译
+Me-109B	Me-109B	保留
+Ju-52/Me-109B-2	Ju-52/Me-109B-2	保留
+47mm w/Vogn	47mm（马车牵引）	新译+W20类别词
+7.5cm m/01 w/Vogn	7.5cm m/01（马车牵引）	新译+W20类别词
+Festning	要塞	新译
+Infanteri w/Vogn	步兵（马车牵引）	新译
+Roadblock	路障	词库
+17 Pdr w/Ciezarowka	17 磅（卡车牵引）	新译+W20类别词
+105mm C mle13 w/Ciezarowka	105mm C mle13（卡车牵引）	新译+W20类别词
+100mm How w/Ciezarowka	100mm 榴弹炮（卡车牵引）	新译
+75mm M1897 w/Ciezarowka	75mm M1897（卡车牵引）	新译+W20类别词
+Bunkier	碉堡	新译
+Fort	要塞	PeG
+Kawaleria	骑兵	词库
+Inzynier (E) w/Ciezarowka	工兵连（E）（卡车牵引）	新译
+Spadochroniarze (P)	伞兵连（P）	新译
+Piechota w/Wagon	步兵（马车牵引）	新译
+Piechota w/Ciezarowka	步兵（卡车牵引）	新译
+7TP	7TP	保留
+TKS	TKS	保留
+Engineer (E) w/Truck	工兵连（E）（卡车牵引）	新译
+Bridging (B) w/Truck	架桥连（B）（卡车牵引）	新译
+P.24	P.24	保留
+P.23B/P.24	P.23B/P.24	保留
+C-47 Skytrain/Spitfire II	C-47 空中列车/喷火 II	人工确认
+155mm C mle17 w/Camion	155mm C mle17（卡车牵引）	新译+W20类别词
+75mm M1897 w/Carro	75mm M1897（车辆牵引）	新译+W20类别词
+Brigada w/Camion	旅（卡车牵引）	新译
+BA-6	BA-6	保留
+T-26	T-26	保留
+Spitfire XII (Sqn 421)	喷火 XII（第421中队）	人工确认
+Transportschiffe	运输船	词库
+Rata	老鼠	新译
+C-47/Rata	C-47/老鼠	新译
+37mm Md.39 w/Camion	37mm Md.39（卡车牵引）	新译+W20类别词
+7.5cm  PaK w/Camion	7.5cm 反坦克炮（卡车牵引）	新译
+47mm w/Vagon	47mm（马车牵引）	新译+W20类别词
+Maresal	元帅	新译
+10cm Sk Md.34 w/Camion	10cm Sk Md.34（卡车牵引）	新译+W20类别词
+7.5cm Sk Md.28 w/Vagon	7.5cm Sk Md.28（马车牵引）	新译+W20类别词
+Cazemata	掩体	新译
+Cetate	要塞	词库
+Cavelerie	骑兵	词库
+Infanterie w/Vagon	步兵（马车牵引）	新译
+R2	R2	保留
+Balloon	气球	词库
+Barbed Wire	铁丝网	词库
+IAR 80	IAR 80	保留
+PZL P-24E	PZL P-24E	保留
+IAR 81	IAR 81	保留
+20mm w/Truck	20mm（卡车牵引）	新译+W20类别词
+40mm w/Truck	40mm（卡车牵引）	新译+W20类别词
+40mm	40毫米炮	词库
+17 Pdr w/Truck	17 磅（卡车牵引）	新译+W20类别词
+2 Pdr w/Wagon	2 磅（马车牵引）	新译+W20类别词
+6 Pdr w/Truck	6 磅（卡车牵引）	新译+W20类别词
+Achilles	阿基里斯	新译
+Wolverine	狼獾	新译
+25 Pdr Mk.II w/Truck	25 磅 Mk.II（卡车牵引）	新译+W20类别词
+18 Pdr Mk.IV w/Truck	18 磅 Mk.IV（卡车牵引）	新译+W20类别词
+7.2 inch II w/Truck	7.2 英寸 II（卡车牵引）	新译+W20类别词
+Bishop	毕晓普	词库
+Sexton	塞克斯顿	新译
+Strongpoint	据点	词库
+Australian w/Truck	澳大利亚部队（卡车牵引）	新译
+Canadian w/Truck	加拿大部队（卡车牵引）	新译
+Commando w/Bren Carrier	突击队（布伦机枪车运载）	新译
+Ghurka (M)	廓尔喀连（M）	新译
+Home Guard w/Truck	国民自卫军（卡车牵引）	新译
+Indian w/Truck	印度部队（卡车牵引）	新译
+New Zealand w/Truck	新西兰部队（卡车牵引）	新译
+Paratrooper w/Truck	伞兵（卡车牵引）	新译
+Regular w/Truck	正规军（卡车牵引）	新译
+Royal Marine w/Truck	皇家海军陆战队（卡车牵引）	新译
+AEC I	AEC I	保留
+AEC II	AEC II	保留
+AEC III	AEC III	保留
+Daimler	戴姆勒	新译
+Humber II	亨伯 II	新译
+Humber IV	亨伯 IV	新译
+Daimler Scout	戴姆勒侦察车	新译
+Staghound I	猎鹿犬 I	新译
+King George V Class	英王乔治五世级	新译
+Renown Class	声望级	新译
+County Class	郡级	新译
+Leander Class	利安得级	新译
+Illustrious Class	光辉级	新译
+Tribal Class	部族级	词库
+Centurion	百人队长	新译
+Challenger	挑战者	新译
+Churchill III	丘吉尔 III	新译
+Churchill IV	丘吉尔 IV	新译
+Comet	彗星	新译
+Cromwell IV	克伦威尔 IV	新译
+Cromwell VII	克伦威尔 VII	新译
+Cruiser IV	巡洋舰 IV	词库
+Crusader I	十字军 I	新译
+Crusader II	十字军 II	新译
+Grant	格兰特	词库
+HoneyI	蜜糖 I	人工确认
+Sherman III	谢尔曼 III	新译
+Honey V	蜜糖 V	人工确认
+Matilda II	玛蒂尔达 II	新译
+Firefly VC	萤火虫 VC	新译
+Valentine III	瓦伦丁 III	新译
+Valentine XI	瓦伦丁 XI	新译
+LT Mk IV	LT Mk IV	保留
+Typhoon IB/Avro Lancaster MkI Air Support	台风 IB/Avro 兰开斯特 MkI 空中支援	人工确认
+Typhoon IB	台风 IB	人工确认
+7.2 inch VI w/Truck	7.2 英寸 VI（卡车牵引）	新译+W20类别词
+Hurricane	飓风	新译
+21 Morser 18 w/251/1	21 Morser 18 臼炮（SdKfz 251/1）	新译+W20载具缩写
+Spitfire I	喷火 I	人工确认
+Spitfire IX	喷火 IX	新译
+Spitfire VC	喷火 VC	新译
+Spitfire XII	喷火 XII	新译
+Spitfire XIV	喷火 XIV	新译
+Beaufighter/Spitfire VC	英俊战士/喷火 VC	新译
+Hurricane II	飓风 II	新译
+Hurricane IV	飓风 IV	新译
+Mosquito VI	蚊式 VI	新译
+Tempest VI	暴风 VI	新译
+C-47 Dakota/Spitfire I	C-47 达科他/喷火 I	人工确认
+3 inch M3 w/Truck	3 英寸 M3（卡车牵引）	新译+W20类别词
+90mm M1A1 w/Truck	90mm M1A1 高炮（卡车牵引）	新译
+M15A1 MGMC	M15A1 自行高炮	新译
+M16 Meatchopper	M16 绞肉机自行高炮	新译
+3 inch w/Jeep	3 英寸（吉普车牵引）	新译+W20类别词
+37mm w/Truck	37mm（卡车牵引）	新译+W20类别词
+57mm w/Truck	57mm（卡车牵引）	新译+W20类别词
+M10 Wolverine	M10 狼獾	新译
+M18 Hellcat	M18 地狱猫	新译
+M3 GMC	M3 自行反坦克炮	新译
+M36 Jackson	M36 杰克逊	新译
+105mm M2 w/Jeep	105mm M2（吉普车牵引）	新译+W20类别词
+155mm M3 w/Truck	155mm M3（卡车牵引）	新译+W20类别词
+75mm FH M1A1 w/Truck	75mm FH M1A1（卡车牵引）	新译+W20类别词
+8 inch How M1 w/Truck	8 英寸 M1 榴弹炮（卡车牵引）	新译
+M12	M12	保留
+M4/105	M4/105	保留
+M7 Priest	M7 牧师	新译
+T19 HMC	T19自行榴弹炮	词库
+Engineer (E) w/M3A1	工兵连（E）（M3A1 运载）	新译
+Bridging (B) w/M3A1	架桥连（B）（M3A1 运载）	新译
+Marine w/M3A1	海军陆战队（M3A1 运载）	新译
+National w/Truck	国民军（卡车牵引）	新译
+Paratrooper (P)	伞兵连（P）	新译
+Ranger w/M3A1	游骑兵（M3A1 运载）	新译
+M20	M20	保留
+M24 Chaffee	M24 查菲	新译
+M8 Greyhound	M8 灰狗	新译
+Scout Car	侦察车	词库
+Iowa Class	衣阿华级	新译
+Baltimore Class	巴尔的摩级	新译
+Brooklyn Class	布鲁克林级	新译
+Essex Class	埃塞克斯级	新译
+Yorktown Class	约克城级	新译
+Fletcher Class	弗莱彻级	新译
+M2A4	M2A4	保留
+M3A1 Stuart	M3A1 斯图亚特	新译
+M26 Pershing	M26 潘兴	新译
+M29 Patton	M29 巴顿	新译
+M4A3 Sherman	M4A3 谢尔曼	新译
+M4A3E2 Jumbo	M4A3E2 巨无霸	新译
+M4A3E8/76 Easy8	M4A3E8/76 E8 型	人工确认
+Skink	Skink	保留
+Kuljetus	运输船	词库
+P-38E Lightning	P-38E 闪电	新译
+P-38F Lightning	P-38F 闪电	新译
+P-38J Lightning	P-38J 闪电	新译
+P-38L Lightning	P-38L 闪电	新译
+P-40F Warhawk	P-40F 战鹰	新译
+P-47C Razorback	P-47C 剃刀背	新译
+P-47D Thunderbolt	P-47D 雷电	新译
+P-47N Thunderbolt	P-47N 雷电	新译
+P-51B Mustang	P-51B 野马	新译
+P-51D Mustang	P-51D 野马	新译
+P-51H Mustang	P-51H 野马	新译
+P-80 Shooting Star	P-80 流星	新译
+A-20G Boston/P-40F	A-20G 波士顿/P-40F	新译
+A-26B Invader/P-51D	A-26B 入侵者/P-51D	新译
+B-25D Mitchell/P-38E	B-25D 米切尔/P-38E	新译
+B-25H Mitchell/P-51D	B-25H 米切尔/P-51D	新译
+B-25J Mitchell/P-51D	B-25J 米切尔/P-51D	新译
+B-26B Marauder/P-38E	B-26B 劫掠者/P-38E	新译
+B-26C Marauder/P-38J	B-26C 劫掠者/P-38J	新译
+B-26G Marauder/P-51D	B-26G 劫掠者/P-51D	新译
+C-47 Skytrain/P40-F	C-47 空中列车/P40-F	新译
+GAZ/37	GAZ/37	保留
+37mm 61-K w/Gruzovik	37mm 61-K 高炮（卡车牵引）	新译
+76.2mm obr.38 w/Gruzovik	76.2mm obr.38 高炮（卡车牵引）	新译
+45mm w/Wagon	45mm（马车牵引）	新译+W20类别词
+7.62cmw/Wagon	7.62cm（马车牵引）	新译+W20类别词
+ISU-122	ISU-122	保留
+ISU-152	ISU-152	保留
+SU-100	SU-100	保留
+SU-152	SU-152	保留
+SU-76	SU-76	保留
+SU-85	SU-85	保留
+122mm A-19 w/Gruzovik	122mm A-19（卡车牵引）	新译+W20类别词
+152mm ML-20 w/Gruzovik	152mm ML-20（卡车牵引）	新译+W20类别词
+76.2mm F-22 w/Wagon	76.2mm F-22（马车牵引）	新译+W20类别词
+Waffen SS 44 w/LKW	武装党卫军 44（卡车牵引）	新译
+Paratrooper Mortar Team	伞兵迫击炮小组	新译
+Katyusha 132	喀秋莎 132	新译
+Katyusha 300	喀秋莎 300	新译
+SU-122	SU-122	保留
+Railgun Dora	多拉列车炮	新译
+44 Infantry w/Truck	第44步兵师（卡车牵引）	新译
+Kavaleria	骑兵	词库
+Saperno-Shturmovoi (E) w/Gruzovik	工兵突击连（E）（卡车牵引）	新译
+Opolchenye	民兵	词库
+Sapernii (B) w/Gruzovik	工兵连（B）（卡车牵引）	新译
+Gvardeiskaya Kavaleria	近卫骑兵	新译
+Gvardeiskaya w/M3A1	近卫部队（M3A1 运载）	新译
+Morskaya Pehota w/Wagon	海军步兵（马车牵引）	新译
+Parashutno (P)	伞兵连（P）	新译
+Pehota w/Wagon	步兵（马车牵引）	新译
+BA-10	BA-10	保留
+BA-64	BA-64	保留
+Sovetskiy Soyuz Class	苏联级	新译
+Kirov Class	基洛夫级	新译
+Leningrad Class	列宁格勒级	新译
+Storozhevoi Class	警戒级	新译
+BT-7	BT-7	保留
+IS-2	IS-2	保留
+IS-3	IS-3	保留
+KV-1	KV-1	保留
+KV-1A	KV-1A	保留
+KV-1C	KV-1C	保留
+KV-2	KV-2	保留
+KV-85	KV-85	保留
+T-26S	T-26S	保留
+T-34/76A	T-34/76A	保留
+T-34/76B	T-34/76B	保留
+T-43	T-43	保留
+T-34/76C	T-34/76C	保留
+T-34/85	T-34/85	保留
+T-60	T-60	保留
+T-70	T-70	保留
+SS Leibstandarte w/251/1	党卫军警卫旗队（SdKfz 251/1）	新译+W20载具缩写
+SS Brückenbau (B) w/251/1	党卫军架桥连（B）（SdKfz 251/1）	新译+W20载具缩写
+YaK-1	YaK-1	保留
+YaK-9	YaK-9	保留
+La-5	La-5	保留
+La-7	La-7	保留
+La-9	La-9	保留
+LaGG-3	LaGG-3	保留
+MiG-1	MiG-1	保留
+MiG-3	MiG-3	保留
+I-16/6 Ratte	I-16/6 老鼠	新译
+YaK-7	YaK-7	保留
+LL P-39D Airacobra	租借 P-39D 眼镜蛇	新译
+Il-10 Zver/La-5FN	Il-10 野兽/La-5FN	新译
+Il-2 Sturmovik/MiG-1	Il-2 强击机/MiG-1	新译
+Il-2M3 Sturmovik/La-5	Il-2M3 强击机/La-5	新译
+C-47 Dakota/MiG-1	C-47 达科他/MiG-1	新译
+Bateau De Transport	运输船	词库
+Nave Di Trasporto	运输舰	词库
+LT MK VI	LT MK VI	保留
+Soldati Class	士兵级	新译
+Pz IVC	Pz IVC	保留
+Aquila Class	鹰级	新译
+Me-109B-2	Me-109B-2	保留
+SS Pz VIb Koenigstiger	党卫军 VI 号B型虎王	新译
+Staghound III	猎鹿犬 III	新译
+240mm How M1 w/M3A1	240mm M1 榴弹炮（M3A1 运载）	新译
+21 K38 (entrenched)	21 K38 加农炮（构筑工事）	新译
+21 K38 w/251/1	21 K38 加农炮（SdKfz 251/1）	新译+W20载具缩写
+Command Bunker	指挥碉堡	词库
+FJ 8 GrW42k (P)	伞兵 8cm GrW42k 迫击炮连（P）	新译
+FJ 5cm PaK38 (P)	伞兵 5cm PaK38 反坦克炮连（P）	新译
+Sea Hurricane (Royal Navy)	海飓风（皇家海军）	人工确认
+Seafire (Royal Navy)	海火（皇家海军）	人工确认
+Paratrooper (P) w/Jeep	伞兵连（P）（吉普车牵引）	新译
+Mountain (M)	山地兵连（M）	新译
+Szallitohajo	运输船	新译
+Nave Del Transporte	运输舰	新译
+Transport	运输	词库
+Ju-52	Ju-52	保留
+Paratrooper MG Team (EP)	伞兵机枪小组（EP）	新译
+Wz-34A	Wz-34A	保留
+47mm Mle39 w/Camion	47mm Mle39（卡车牵引）	新译+W20类别词
+H35	H35	保留
+Pz IID	Pz IID	保留
+Grille 88mm FlaK 41	蟋蟀 88mm FlaK 41 自行高炮	新译
+75mm M17 w/Camion	75mm M17（卡车牵引）	新译+W20类别词
+47mm SA37 w/Charrette	47mm SA37（马车牵引）	新译+W20类别词
+105mm How w/Charrette	105mm 榴弹炮（马车牵引）	新译
+155mm How w/Camion	155mm 榴弹炮（卡车牵引）	新译
+155mm M32 w/Camion	155mm M32（卡车牵引）	新译+W20类别词
+Char D1B	Char D1B	保留
+Char D2	Char D2	保留
+H38	H38	保留
+R40-1	R40-1	保留
+CHawk 75A	CHawk 75A	保留
+4.7cm PaK(t) w/Pferden	4.7cm PaK(t) 反坦克炮（骡马牵引）	新译
+7.5cm PaK(f) w/LKW	7.5cm PaK(f) 反坦克炮（卡车牵引）	新译
+Marder IIK	黄鼠狼 IIK	新译+W20类别词
+PzSelb IIK	PzSelb IIK	保留
+StuG IV	StuG IV	保留
+StuH 42F	StuH 42F	保留
+21 Morser 18 w/LKW	21 Morser 18 臼炮（卡车牵引）	新译
+21 NbWf43 w/LKW	21 NbWf43 火箭炮（卡车牵引）	新译
+30 NbWf42 w/LKW	30 NbWf42 火箭炮（卡车牵引）	新译
+Sdkfz 4/1 Maultier	Sdkfz 4/1 骡式	新译
+Grenadiere w/LKW	掷弹兵（卡车牵引）	新译
+Luftwaffe w/Pferden	空军野战部队（骡马牵引）	新译
+Volksgrenadier w/LKW	国民掷弹兵（卡车牵引）	新译
+PSW 232	PSW 232	保留
+Pz VF  Panther	V 号F型黑豹	新译
+Pz IIIC	Pz IIIC	保留
+Pz IIIF	Pz IIIF	保留
+Pz IIIJ	Pz IIIJ	保留
+Pz IIJ	Pz IIJ	保留
+Pz IIL	Pz IIL	保留
+Pz IVE	Pz IVE	保留
+Pz IVF1	Pz IVF1	保留
+Me-109F-4 Friedrich	Me-109F-4 弗里德里希	新译
+Me-110G-4 Zerstorer	Me-110G-4「驱逐机」	新译+引号规范
+Zrinyi II	兹里尼 II	新译
+75mm w/Camion	75mm（卡车牵引）	新译+W20类别词
+Sem 105/25	Sem 105/25	新译+W20类别词
+210mm/22 How w/Camion	210mm/22 榴弹炮（卡车牵引）	新译
+Sem 149/40	Sem 149/40	新译+W20类别词
+Paracadutisti (P)	伞兵连（P）	新译
+Archer	弓箭手	新译
+18 Pdr w/Truck	18 磅（卡车牵引）	新译+W20类别词
+25 Pdr How w/Truck	25 磅榴弹炮（卡车牵引）	新译
+4.5 inch w/Truck	4.5 英寸（卡车牵引）	新译+W20类别词
+Daimler CS	戴姆勒 CS	新译
+Staghound II CS	猎鹿犬 II CS	新译
+Cavalier	骑士	新译
+Centaur I	半人马 I	新译
+Centaur IV	半人马 IV	新译
+Churchill I	丘吉尔 I	新译
+Churchill II	丘吉尔 II	新译
+Churchill IV NA	丘吉尔 IV NA	新译
+Churchill IX	丘吉尔 IX	新译
+Churchill V	丘吉尔 V	新译
+Churchill VII	丘吉尔 VII	新译
+Churchill VIII	丘吉尔 VIII	新译
+Churchill X	丘吉尔 X	新译
+Churchill XI	丘吉尔 XI	新译
+Cromwell I	克伦威尔 I	新译
+Cromwell III	克伦威尔 III	新译
+Cromwell VI	克伦威尔 VI	新译
+Cromwell VIII	克伦威尔 VIII	新译
+Cruiser I	巡洋舰 I	词库
+Cruiser IIA	巡洋舰 IIA	新译
+Cruiser III	巡洋舰 III	词库
+Cruiser V	巡洋舰 V	新译
+Crusader II CS	十字军 II CS	新译
+Sherman I	谢尔曼 I	新译
+Honey VI	蜜糖 VI	人工确认
+Valentine I	瓦伦丁 I	新译
+Valentine VIII	瓦伦丁 VIII	新译
+Valentine X	瓦伦丁 X	新译
+Spitfire II	喷火 II	新译
+90mm M2 w/Truck	90mm M2（卡车牵引）	新译+W20类别词
+90mm w/Truck	90mm（卡车牵引）	新译+W20类别词
+M10A1 Wolverine	M10A1 狼獾	新译
+M36B1 Jackson	M36B1 杰克逊	新译
+M10B2 Wolverine	M10B2 狼獾	新译
+8 inch How w/Truck	8 英寸榴弹炮（卡车牵引）	新译
+M37	M37	保留
+M43	M43	保留
+M7B1	M7B1	保留
+T30 HMC	T30 自行榴弹炮	新译
+M3 Grant	M3 格兰特	新译
+M3A4 Grant	M3A4 格兰特	新译
+M3 Stuart	M3 斯图亚特	新译
+M3A3 Stuart	M3A3 斯图亚特	新译
+M4 Sherman	M4 谢尔曼	新译
+M4A3/76 Sherman	M4A3/76 谢尔曼	新译
+M4A3E2/76 Jumbo	M4A3E2/76 巨无霸	新译
+GAZ/20 Quad	GAZ/20 四联装高炮	新译
+15.5 mm How w/Wagon	15.5 mm 榴弹炮（马车牵引）	新译
+Katyusha 82	喀秋莎 82	新译
+Voiska NKVD w/Gruzovik	内务人民委员部部队（卡车牵引）	新译
+Shocktroops w/Gruzovik	突击部队（卡车牵引）	新译
+BA-27M	BA-27M	保留
+BT-5A	BT-5A	保留
+BT-7A	BT-7A	保留
+BT-7M	BT-7M	保留
+IS-1	IS-1	保留
+KV-1B	KV-1B	保留
+KV-1S	KV-1S	保留
+KV-2B	KV-2B	保留
+T-26B	T-26B	保留
+T-34/76F	T-34/76F	保留
+T-40	T-40	保留
+T-44/100	T-44/100	保留
+T-44/85	T-44/85	保留
+T-70A	T-70A	保留
+YaK-1M	YaK-1M	保留
+YaK-7B	YaK-7B	保留
+YaK-9T	YaK-9T	保留
+Matilda I	玛蒂尔达 I	新译
+AB-40	AB-40	保留
+Blenheim I/Spitfire IX	布伦海姆 I/喷火 IX	新译
+Elefant	象式	新译
+Grille	蟋蟀	新译+W20类别词
+LL P-63A Kingcobra	租借 P-63A 王眼镜蛇	新译
+TK3	TK3	保留
+StuG IIIF8	StuG IIIF8	保留
+FlakPz IV Kugelblitz	IV 号防空坦克「球形闪电」	词库+引号规范
+Fusilier w/251/1	燧发枪兵（SdKfz 251/1）	新译+W20载具缩写
+Ta-152H Tank	Ta-152H 坦克	新译
+Skijäger	滑雪猎兵	词库
+South African w/Truck	南非部队（卡车牵引）	新译
+Czechosovak w/Truck	捷克斯洛伐克部队（卡车牵引）	新译
+Belgian w/Truck	比利时部队（卡车牵引）	新译
+Nederland w/Truck	荷兰部队（卡车牵引）	新译
+75mm M19	75mm M19	保留
+105mm M3 w/Truck	105mm M3（卡车牵引）	新译+W20类别词
+AMC35	AMC35	保留
+37mm w/Wagon	37mm（马车牵引）	新译+W20类别词
+Tetrarch I	领主 I	新译
+Cavalleria	骑兵	词库
+Jäger w/LKW	猎兵（卡车牵引）	新译
+75mm w/Wagon	75mm（马车牵引）	新译+W20类别词
+100mm Skoda w/Ciezarowka	100mm 斯柯达（卡车牵引）	新译+W20类别词
+155mm How w/Ciezarowka	155mm 榴弹炮（卡车牵引）	新译
+40mm w/Ciezarowka	40mm（卡车牵引）	新译+W20类别词
+Wz-29	Wz-29	保留
+Marder IIIM	黄鼠狼 IIIM	新译+W20类别词
+250/9	250/9	保留
+250/10	250/10	保留
+M13	M13	保留
+Giovani Fascisti w/Camion	青年法西斯（卡车牵引）	新译
+Firefly IIC	萤火虫 IIC	新译
+Firefly IVC	萤火虫 IVC	新译
+Algerian w/Camion	阿尔及利亚部队（卡车牵引）	新译
+Hadsereg Mernok (E) w/Teherkocsi	陆军工兵连（E）（卡车牵引）	新译
+SS Leibstandarte w/LKW	党卫军警卫旗队（卡车牵引）	新译
+SS Das Reich w/LKW	党卫军帝国师（卡车牵引）	新译
+SS Totenkopf w/LKW	党卫军骷髅师（卡车牵引）	新译
+SS Brückenbau (B) w/LKW	党卫军架桥连（B）（卡车牵引）	新译
+US Transport	美军运输船	新译
+Me-110C-1/He-111H-3 Air Support	Me-110C-1/He-111H-3 空中支援	新译
+P-38J Lightning/B17-E Air Support	P-38J 闪电/B17-E 空中支援	新译
+MC.200/BA.65 Air Support	MC.200/BA.65 空中支援	新译
+MiG-1/I-16 Rata Air Support	MiG-1/I-16 老鼠 空中支援	新译
+Spitfire I Air Support	喷火 I 空中支援	人工确认
+Fokker DXXI/Blenheim IV Air Support	Fokker DXXI/布伦海姆 IV 空中支援	新译
+MS-406/Pz 633 Soutien aérien	MS-406/Pz 633 空中支援	新译
+Me-109B-2/He-111B Air Support	Me-109B-2/He-111B 空中支援	新译
+P.23 B/P.24 Air Support	P.23 B/P.24 空中支援	新译
+Rata Air Support	老鼠 空中支援	新译
+IAR 80 Air Support	IAR 80 空中支援	新译
+Finnish Transport	芬兰运输船	新译
+Transport aérien	空中运输	新译
+Hungary Transport	匈牙利运输船	新译
+Italian Transport	意大利运输船	新译
+Nationalist Transport	国民军运输船	新译
+Norway Transport	挪威运输船	新译
+Poland Transport	波兰运输船	新译
+Republican Transport	共和军运输船	新译
+Romania Transport	罗马尼亚运输船	新译
+USSR Transport	苏联运输船	新译
+Ju52-3M "Tante Ju"	Ju52-3M「姑妈 Ju」	新译+引号规范
+US Amphibious Invasion Ship	美军两栖登陆舰	新译
+UK Amphibious Invasion Ship	英军两栖登陆舰	新译
+Russian Amphibious Invasion Ship	苏军两栖登陆舰	新译
+MiG-15 Fagot	MiG-15 柴捆	新译
+B-17E Flying Fortress/P-38F	B-17E 飞行堡垒/P-38F	新译
+B-24D Liberator/P-38F	B-24D 解放者/P-38F	新译
+B-29A Superfortress/P-51H	B-29A 超级堡垒/P-51H	新译
+Sturmtiger	突击虎	新译
+V-1	V-1	保留
+FlakPz VI Tiger	VI 号虎式自行高炮	新译
+Me-262A-1a/U-4 Pulkzerstorer	Me-262A-1a/U-4 轰炸机驱逐机	新译
+Sdkfz 251/16 (FlamPz) (E)	Sdkfz 251/16 喷火坦克（E）	新译
+SS Algemein	普通党卫队	人工确认
+V-2	V-2	保留
+B-24J Liberator/P-51B	B-24J 解放者/P-51B	新译
+B-17G Flying Fortress/P-38J	B-17G 飞行堡垒/P-38J	新译
+B-29B "Enola Gay"/P-51H	B-29B「艾诺拉·盖伊」/P-51H	新译+引号规范
+FlakPz VII Maus	VII 号鼠式自行高炮	新译
+Sdkfz 8/8,8cm Diana	Sdkfz 8 8.8cm 黛安娜	新译+W20类别词
+TBF-1 Avenger/F4AU-1	TBF-1 复仇者/F4AU-1	新译
+Waffen SS Amphibious Invasion Ship	武装党卫军两栖登陆舰	新译
+He-111B-1/Me-109B-2	He-111B-1/Me-109B-2	保留
+AR-234B Blitz/Me-262A-1b-R	AR-234B 闪电/Me-262A-1b-R	新译
+Alaska Class	阿拉斯加级	新译
+Tu-2/Yak-7B	Tu-2/Yak-7B	保留
+Partizani (G)	游击队员连（G）	新译
+Paradropped Spy	空降间谍	新译
+Siberians w/Wagon	西伯利亚部队（马车牵引）	新译
+He-111/Me-109E-3	He-111/Me-109E-3	保留
+LL M4A3E8/76 Easy8	租借 M4A3E8/76 E8 型	人工确认
+SS JgdPanther	党卫军黑豹自行反坦克炮	新译
+SturmPz IV Brummbaer	IV 号灰熊突击坦克	新译
+15 K39 w/Pferden	15 K39 加农炮（骡马牵引）	新译
+Gornostrelky (M)	山地步兵连（M）	新译
+Cossacks	哥萨克	词库
+LL Jeep Willis	租借威利斯吉普	新译
+Panzergrenadiere w/LKW	装甲掷弹兵（卡车牵引）	新译
+Lorraine	洛林	词库
+21cm BR-17 w/Gruzovik	21cm BR-17（卡车牵引）	新译+W20类别词
+LL M4A3 Sherman	租借 M4A3 谢尔曼	新译
+FW-190C (Kriegsmarine)	FW-190C（德国海军）	人工确认
+U-Boot Type VII C	VII C 型 U 艇	新译
+U-Boot Type XXI	XXI 型 U 艇	新译
+U-Boot Type IXD	IXD 型 U 艇	新译
+Gato Class	加托级	新译
+Trident Class	三叉戟级	新译
+Stalinets Class	斯大林级	新译
+Marconi Class	马可尼级	新译
+MG Infanterie w/251/1	机枪步兵（SdKfz 251/1）	新译+W20载具缩写
+Jeep Willis	威利斯吉普	新译
+Tempest IV/Avro Lancaster MkI Air Support	暴风 IV/Avro 兰开斯特 MkI 空中支援	人工确认
+P-63A Kingcobra/Tu-2 Air Support	P-63A 王眼镜蛇/Tu-2 空中支援	新译
+FW-190F-3/He-111H-3 Air Support	FW-190F-3/He-111H-3 空中支援	新译
+FW-190G-2/Ju-188E-1 Air Support	FW-190G-2/Ju-188E-1 空中支援	新译
+Me-262A-2a Sturmvogel Air Support	Me-262A-2a 风暴鸟 空中支援	新译
+Pe-2 Air Support	Pe-2 空中支援	新译
+Gloster Meteor	格罗斯特流星	新译
+Armia Krajowa (G)	波兰家乡军（G）	新译
+Partisans Chetniks (G)	切特尼克游击队（G）	新译
+FJ 10.5 LG42 (P)	伞兵 10.5 LG42 无后坐力炮连（P）	新译
+Pontoon Bridge	浮桥	词库
+He-111Z-1 Zwilling/FW-190A-3	He-111Z-1 双联/FW-190A-3	新译
+Railgun Karl	卡尔列车炮	新译
+SM 79 Sparviero Air Support	SM 79 食雀鹰 空中支援	新译
+Armored Infantry w/Truck	装甲步兵（卡车牵引）	新译
+Anti-Tank Hinders	反坦克障碍	新译
+Ski Pehota	滑雪步兵	新译
+SS Gebirgsjäger (M)	党卫军山地猎兵连（M）	新译
+A-9	A-9	保留
+Horten Ho XVIII B-1	Horten Ho XVIII B-1	保留
+Sdkfz 251/22	Sdkfz 251/22	保留
+FJ MG Infanterie (P)	伞兵机枪步兵连（P）	新译
+F4U-1 Corsair (US Navy)	F4U-1 海盗（美国海军）	人工确认
+Mobile Army HQ (B)	机动集团军司令部（B）	新译
+Bren Carrier	布伦机枪车	词库
+T-34/76A (r)	T-34/76A (r)	保留
+LL Hurricane II	租借飓风 II	新译
+Pe-2/MiG-1	Pe-2/MiG-1	保留
+LL A-20 Boston/La-5	租借 A-20 波士顿/La-5	新译
+LL Matilda II	租借玛蒂尔达 II	新译
+LL M3A3 Grant	租借 M3A3 格兰特	新译
+LL Valentine I	租借瓦伦丁 I	新译
+Grossdeutschland	大德意志	词库
+Bunkkeri	碉堡	词库
+Linnake	要塞	词库
+S35 (f)	S35 (f)	保留
+105mm w/Wagon	105mm（马车牵引）	新译+W20类别词
+SO-75	SO-75	保留
+Me-109E Emil	Me-109E 埃米尔	新译
+25mm w/Truck	25mm（卡车牵引）	新译+W20类别词
+Parashutno Sniper (P)	伞兵狙击手（P）	新译
+FJ Sniper (P)	伞兵狙击手（P）	新译
+Paratrooper Scout (P)	伞兵侦察连（P）	新译
+Paratrooper Sniper (P)	伞兵狙击手（P）	新译
+Tu-4	Tu-4	保留
+81mm Mortar w/Wagon	81mm 迫击炮（马车牵引）	新译
+FJ 8 GrW42k (P) w/Krad	伞兵 8cm GrW42k 迫击炮连（P）（摩托车牵引）	新译
+P-39D Airacobra	P-39D 眼镜蛇	新译
+P-39D Airacobra/B17-B Air Support	P-39D 眼镜蛇/B17-B 空中支援	新译
+B-17B Air Support	B-17B 空中支援	新译
+He-111B-1 Air Support	He-111B-1 空中支援	新译
+AR-234B Blitz Air Support	AR-234B 闪电 空中支援	新译
+Mosquito XVI Air Support	蚊式 XVI 空中支援	新译
+P-39D Airacobra/Pe-2 Air Support	P-39D 眼镜蛇/Pe-2 空中支援	新译
+B-17G Air Support	B-17G 空中支援	新译
+Infantry	步兵	PeG同串
+He-111 Air Support	He-111 空中支援	新译
+Tu-2  Air Support	Tu-2 空中支援	新译
+F4U-1 Corsair	F4U-1 海盗	新译
+TBF-1 Avenger (US Navy)/F4AU-1	TBF-1 复仇者（美国海军）/F4AU-1	人工确认
+Me-110C Air Support	Me-110C 空中支援	新译
+Hurricane II/Handley Page Halifax MkI Air Support	飓风 II/Handley Page 哈利法克斯 MkI 空中支援	人工确认
+Handley Page MkI Halifax/Spitfire I	Handley Page MkI 哈利法克斯/喷火 I	人工确认
+Me-109F-4/Ju-87B-1 Air Support	Me-109F-4/Ju-87B-1 空中支援	新译
+D.520/Pz 633 Soutien aérien	D.520/Pz 633 空中支援	新译
+FW-190F-8/Ju-87B-1 Air Support	FW-190F-8/Ju-87B-1 空中支援	新译
+YaK-9K w/45mm	YaK-9K 45mm 机炮型	新译
+P-82 Twin Mustang	P-82 双野马	新译
+P-47D Thunderbolt/B17-G Air Support	P-47D 雷电/B17-G 空中支援	新译
+P-47N Thunderbolt/B17-G Air Support	P-47N 雷电/B17-G 空中支援	新译
+B-24J Liberator Air Support	B-24J 解放者 空中支援	新译
+B-29A Superfortress Air Support	B-29A 超级堡垒 空中支援	新译
+Horten Ho XVIII B-1 Atomic	Horten Ho XVIII B-1 核武器型	新译
+Me-262A-2a Sturmvogel	Me-262A-2a 风暴鸟	新译
+Go-229	Go-229	保留
+La-5FN	La-5FN	保留
+SS Panzergrenadiere w/251/1	党卫军装甲掷弹兵（SdKfz 251/1）	新译+W20载具缩写
+M4 Calliope	M4 风琴炮	新译
+M4A1 Flame-thrower	M4A1 喷火坦克	新译
+M42 Duster	M42 除尘者	词库
+Partisans (G)	游击队（G）	新译
+Werewolf (G)	狼人（G）	新译
+FFI Résistance (G)	法国内地军抵抗组织（G）	新译
+Div Azul Infanteria w/Carro	蓝色师步兵（车辆牵引）	新译
+Motociclistas	摩托车兵	新译
+Zapadores (E) w/Camion	工兵连（E）（卡车牵引）	新译
+He-111B Air Support	He-111B 空中支援	新译
+10.5 leFH18m w/Carro	10.5 leFH18m 轻型榴弹炮（车辆牵引）	新译
+Legion Wallonien Infanterie w/Pferden	瓦隆军团步兵（骡马牵引）	新译
+LVF Infanterie w/Pferden	法国志愿军团步兵（骡马牵引）	新译
+SS Wallonien w/Pferden	党卫军瓦隆师（骡马牵引）	新译
+SS Charlemagne w/Pferden	党卫军查理曼师（骡马牵引）	新译
+SS Italienische w/Pferden	党卫军意大利师（骡马牵引）	新译
+SS Langemarck w/Pferden	党卫军朗格马克师（骡马牵引）	新译
+Gebirgspionere (MEB)	山地工兵连（MEB）	新译
+YaK-9 Normandie Niemen	YaK-9 诺曼底-涅曼	新译
+Paratrooper Engineer (EP)	伞兵工兵连（EP）	新译
+Arabien w/LKW	阿拉伯部队（卡车牵引）	新译
+Légion étrangère w/Camion	外籍军团（卡车牵引）	新译
+SS Kavallerie	党卫军骑兵	词库
+SS Nordland w/Pferden	党卫军诺德兰师（骡马牵引）	新译
+Arabian Legion Cavallry	阿拉伯军团骑兵	新译
+SS Hunyadi w/Pferden	党卫军匈雅提师（骡马牵引）	新译
+Arab Legion w/Truck	阿拉伯军团（卡车牵引）	新译
+Spitfire VC (Sqn 341 Alsace)	喷火 VC（第341中队「阿尔萨斯」）	新译+引号规范
+Tempest VI (Sqn 602 City of Glasgow)	暴风 VI（第602中队「格拉斯哥市」）	新译+引号规范
+Spitfire II (Sqn 350)	喷火 II（第350中队）	新译
+Spitfire II (Sqn 315 City of Deblin)	喷火 II（第315中队「德布林市」）	新译+引号规范
+Spitfire II (Sqn 331)	喷火 II（第331中队）	新译
+Spitfire II (Sqn 313)	喷火 II（第313中队）	新译
+SS Hitlerjugend w/251/1	党卫军希特勒青年团师（SdKfz 251/1）	新译+W20载具缩写
+He-111 with V-1/FW-190D-9	He-111 挂载 V-1/FW-190D-9	新译
+88 mm ARTY w/251/1	88 mm 炮兵（SdKfz 251/1）	新译+W20载具缩写
+P-40F Kittyhawk	P-40F 小鹰	新译
+Ju-87R Stuka "Picchiatello"/Falco I	Ju-87R 斯图卡「皮基亚泰洛」/Falco I	新译+引号规范
+Ju-88A-4/Me-109F-4	Ju-88A-4/Me-109F-4	保留
+Ju-88A-4 Air Support	Ju-88A-4 空中支援	新译
+Ju-87B Stuka/Me-109E-3	Ju-87B 斯图卡/Me-109E-3	新译
+SS Pz VI Tiger	党卫军 VI 号虎式	新译
+Ju-88A/Me-109F-4	Ju-88A/Me-109F-4	保留
+Ju-88A Air Support	Ju-88A 空中支援	新译
+Ju-88A/Me-109E-3	Ju-88A/Me-109E-3	保留
+Swordfish	剑鱼	新译
+Mortar 4.2 inch w/Truck	4.2 英寸迫击炮（卡车牵引）	新译
+FJ Sturmpionere (EP)	伞兵突击工兵连（EP）	新译
+12.8cm PaK44 w/251/1	12.8cm PaK44 反坦克炮（SdKfz 251/1）	新译+W20载具缩写
+Pioneri (E) w/Camion	工兵连（E）（卡车牵引）	新译
+Unitati da Geniu (B) w/Camion	工兵部队（B）（卡车牵引）	新译
+Rezerwa	预备队	词库
+Obrona Narodowa	国民防卫队	词库
+Piechota Gorska (M)	山地步兵连（M）	新译
+Pzl P.37C/P.24	Pzl P.37C/P.24	保留
+Pzl P.37C/P.24 Air Support	Pzl P.37C/P.24 空中支援	新译
+Mobil Armee HQ (B)	机动集团军司令部（B）	新译
+Typhoon IB (Royal Navy)	台风 IB（皇家海军）	人工确认
+Hurricane II Soutien aérien	飓风 II 空中支援	新译
+Tempest VI Soutien aérien	暴风 VI 空中支援	新译
+A-20 Boston/Spitfire VC	A-20 波士顿/喷火 VC	新译
+AT Mine Field	反坦克雷场	新译
+Handley Page Halifax MkI Air Support	Handley Page 哈利法克斯 MkI 空中支援	人工确认
+Egyptian w/Truck	埃及部队（卡车牵引）	新译
+A-20 Boston Soutien aérien	A-20 波士顿 空中支援	新译
+Paratrooper Bazooka Team (EP)	伞兵巴祖卡小组（EP）	新译
+Scottish Highlanders w/Truck	苏格兰高地部队（卡车牵引）	新译
+Brandenburger (MEP)	勃兰登堡部队（MEP）	新译
+QG mobile d'Armée (B)	机动集团军司令部（B）	新译
+Sapeurs (B) w/Camion	工兵连（B）（卡车牵引）	新译
+Armia Ludowa w/Gruzovik	人民军（卡车牵引）	新译
+Sea Mines	水雷	PeG
+Minelayer	布雷舰	词库
+Me-109T (Kriegsmarine)	Me-109T（德国海军）	人工确认
+Ju-87C-1 Stuka (Kriegsmarine)/Me-109T	Ju-87C-1 斯图卡（德国海军）/Me-109T	人工确认
+Re.2001 (Regia Marina)/BA 65	Re.2001（意大利海军）/BA 65	人工确认
+Swordfish (Royal Navy)	剑鱼（皇家海军）	人工确认
+P-47D Thunderbolt II	P-47D 雷电 II	新译
+P-39Q Airacobra Soutien aérien	P-39Q 眼镜蛇 空中支援	新译
+
+

@@ -1,0 +1,90 @@
+# Deutsches Afrika Korps\PG2 DAK Readme.txt · 译文填写表：只改第三列（译文），其余别动
+行号	原文	译文
+0	Deutsches Afrika-Korps	德意志非洲军
+1	By	作者
+2	Pablo Schlegel and Santiago Fuertes	Pablo Schlegel 与 Santiago Fuertes
+3	PANZER GENERAL 2	PANZER GENERAL 2
+4	The Latin Generals 2004	The Latin Generals 2004
+6	***Welcome to Africa, General!***	***欢迎来到非洲，将军！***
+8	Congratulations for your designation as new commander in chief of our expeditionary forces in Africa. Your mission is to aid our Italian partners in their fight against the British, after a bad year of defeats for our allies in Africa.	祝贺你被任命为我们非洲远征军的新任总司令。你的任务是在我们的盟军经历了一年失败之后，协助我们的意大利伙伴对抗英军。
+10	The Italians have lost the most of his territories in Africa, and we cannot allow the British to get the whole control of this continent, otherwise, the Mediterranean Sea would be completely under the enemy management.	意大利人在非洲已经失去了大部分领土，我们不能允许英国人取得整个大陆的控制权，否则地中海将完全落入敌人的掌控。
+12	The OKH knows that you will be able to stop the enemy, and defeat his plans. For this purpose, we will put under your command the 15 Panzer Division, and the 5 Leichte Division, however, depending from your success, more reinforcements would be sent to you.	OKH 知道你有能力阻止敌人，粉碎他的计划。为此，我们将把第15装甲师和第5轻装师交给你指挥，不过，随着你的战果，会有更多补充兵员派给你。
+14	As soon as you arrive to Africa, you will feel that the environment is completely different from the Polish or French soil, where you have taken actions until now. The terrain there, is desertical, with extremely hot days, and icy nights. The roads are mainly sand stripes made by the wheels of the trucks, drawed between the dunes. The fuel and the water are precious goods, and basically the life is hard in the deserts of North Africa. 	一旦你抵达非洲，你就会感觉到这里的环境与迄今为止你作战过的波兰或法国土地完全不同。那里的地形是沙漠，白天酷热，夜晚冰冷。道路主要是卡车车轮在沙丘之间碾出的沙带。燃料和水都是珍贵的物资，基本上，北非沙漠里的生活很艰苦。
+16	In the other hand, the enemy forces consist mainly of elements from the 8th British Army. Some of the enemy units are the finest of all the British Armies, like the 7th Armoured Division (Desert Rats). The British surely will outnumber our units, but our equipment is better, at least we think that.	另一方面，敌方部队主要由英国第8集团军的部队组成。其中一些敌方单位是英军中最精锐的，例如第7装甲师（沙漠之鼠）。英军的人数肯定超过我们的单位，但我们的装备更好，至少我们是这样认为的。
+18	***Introduction***	***引言***
+20	This campaign shows historically all the DAK actions in North Africa, from the arrive of Rommel to Tripoli, until the battles at El Alamein. It also shows the desert conditions in the battles, the lack of supplies and the lack of fuel. We won't be able to replace all the losses of our units, and the enema air force has a complete air superiority… Basically the conditions in the desert are HARD.	本战役如实展现了德意志非洲军团在北非的全部行动，从 Rommel 抵达 Tripoli 起，直到 El Alamein 的战役。它也展现了战役中的沙漠条件、补给短缺与燃料短缺。我们无法补充单位损失的全部兵员，而敌方空军拥有完全的空中优势……基本上，沙漠中的条件很艰苦。
+22	You will fight from 1941 until the important battles at El Alamein. After that… only you know where the DAK will go.	你将自1941年一直战斗到 El Alamein 的重要战役。在那之后……只有你知道德意志非洲军团会去向何方。
+24	***The campaign.***	***战役。***
+26	Scenario Name               \tDate    \tMap\tMap type	场景名称                 \t日期    \t地图\t地图类型
+28	 Historical part 1941-1942	 历史部分 1941-1942
+29	Beda Fomm - Benghazi                   \t\t\t24 MAR  1941  \tBENGHAZI\tUSER	贝达富姆—班加西                   \t\t\t24 MAR  1941  \tBENGHAZI\tUSER
+30	Halfaya Pass                  \t15 MAY  1941  \tSOLLUM \tUSER	哈勒法亚山口                  \t15 MAY  1941  \tSOLLUM \tUSER
+31	OperationCrusader                   \t18 NOV  1941  \tBARDIA \tUSER	十字军行动                   \t18 NOV  1941  \tBARDIA \tUSER
+32	Mersa el Brega 1942                   \t21 JAN  1942  \tAGEDABIA \tUSER	布雷加港(Mersa el Brega) 1942                   \t21 JAN  1942  \tAGEDABIA \tUSER
+33	Pursuit to Mechilli                    \t25 JAN  1942\tBENGHAZI \tUSER	向 Mechilli 追击                    \t25 JAN  1942\tBENGHAZI \tUSER
+34	Gazala Line                   \t26 MAY  1942  \tGAZALA \tUSER	加扎拉防线                   \t26 MAY  1942  \tGAZALA \tUSER
+35	Mersa Matruh                    \t6 JUN  1942   \tMATRUH2 \tUSER	马特鲁港(Mersa Matruh)                    \t6 JUN  1942   \tMATRUH2 \tUSER
+36	Operation Herkules                    \t24 JUL  1942  \tMALTA \tSSI	赫拉克勒斯行动                    \t24 JUL  1942  \tMALTA \tSSI
+37	Alam Halfa Battle                   \t\t31 AUG  1942  \tALAMEIN \tUSER	阿拉姆哈勒法战役                   \t\t31 AUG  1942  \tALAMEIN \tUSER
+38	El Alamein                   \t\t23 OCT  1942  \tALAMEIN       \tUSER	El Alamein                   \t\t23 OCT  1942  \tALAMEIN       \tUSER
+40	Hipothetical part 1942-1943	假想部分 1942-1943
+41	Alexandria                       \t3 NOV  1942  \tALEXANDRIA \tUSER	Alexandria                       \t3 NOV  1942  \tALEXANDRIA \tUSER
+42	Port Said                     \t9 NOV  1942  \tPORTSAID    \tUSER	塞得港(Port Said)                     \t9 NOV  1942  \tPORTSAID    \tUSER
+43	El Cairo                     \t14 NOV  1942\tCAIRO \tUSER	开罗(El Cairo)                       \t14 NOV  1942\tCAIRO \tUSER
+44	Suez Kanal                    \t22 NOV  1942  \tSUEZ \tUSER	苏伊士运河(Suez Kanal)                    \t22 NOV  1942  \tSUEZ \tUSER
+45	Kasserine Pass              \t16 FEB  1943\tKASSERIN \tUSER	卡塞林山口(Kasserine Pass)              \t16 FEB  1943\tKASSERIN \tUSER
+46	Bone              \t28 FEB  1943\tBONA \tUSER	波恩(Bone)              \t28 FEB  1943\tBONA \tUSER
+47	Choice               \t1 MAR  1943\tEURO \tUSER	抉择               \t1 MAR  1943\tEURO \tUSER
+49	Middle East	中东
+50	El Arish                \t10 APR  1943  \tELARISH \tUSER	阿里什(El Arish)                \t10 APR  1943  \tELARISH \tUSER
+51	Tel Aviv                  \t15 APR  1943\tTELAVIV \tUSER	特拉维夫(Tel Aviv)                  \t15 APR  1943\tTELAVIV \tUSER
+52	Siria                  \t\t30 APR  1943\tDAMASCUS \tUSER	叙利亚(Siria)                 \t\t30 APR  1943\tDAMASCUS \tUSER
+53	Baghdad                \t14 MAY  1943  \tBAGHDAD2 \tUSER	巴格达(Baghdad)                \t14 MAY  1943  \tBAGHDAD2 \tUSER
+54	Teheran  \t1 JUN  1943  \tTEHRAN \tUSER	德黑兰(Teheran)   \t1 JUN  1943  \tTEHRAN \tUSER
+56	East Africa	东非
+57	Keren                   \t10 APR  1943\tKEREN \tUSER	克伦(Keren)                   \t10 APR  1943\tKEREN \tUSER
+58	Massawa                 \t25 APR  1943  \tMASSAWA \tUSER	马萨瓦(Massawa)                 \t25 APR  1943  \tMASSAWA \tUSER
+59	Mogadishu                  \t6 MAY  1943\tMOGADI \tUSER	摩加迪沙(Mogadishu)                   \t6 MAY  1943\tMOGADI \tUSER
+60	Mombasa               \t26 MAY  1943  \tMOMBASA \tUSER	蒙巴萨(Mombasa)               \t26 MAY  1943  \tMOMBASA \tUSER
+62	Historical part 1943	历史部分 1943
+63	Algiers    \t25 MAR  1943  \tALGIERS  \tUSER	阿尔及尔(Algiers)    \t25 MAR  1943  \tALGIERS  \tUSER
+64	Oran    \t12 APR  1943  \tORAN \tUSER	奥兰(Oran)    \t12 APR  1943  \tORAN \tUSER
+65	Port Lyautey                \t25 APR  1943  \tLYAUTEY \tUSER	利奥泰港(Port Lyautey)                \t25 APR  1943  \tLYAUTEY \tUSER
+66	Casablanca\t8 MAY  1943  \tCASABLAN \tUSER	卡萨布兰卡(Casablanca)\t8 MAY  1943  \tCASABLAN \tUSER
+67	Maknassy\t14 FEB  1943  \tMAKNASSY \tUSER	马克纳西(Maknassy)\t14 FEB  1943  \tMAKNASSY \tUSER
+68	Kasserine Pass                  \t16 FEB  1943  \tKASSERIN \tUSER	卡塞林山口                  \t16 FEB  1943  \tKASSERIN \tUSER
+69	Bone\t28 FEB  1943  \tBONA \tUSER	波恩\t28 FEB  1943  \tBONA \tUSER
+70	Medenine\t6 MAR  1943  \tMEDENINE \tUSER	梅德宁(Medenine)\t6 MAR  1943  \tMEDENINE \tUSER
+71	Mareth Line                  \t20 MAR  1943  \tMEDENINE \tUSER	马雷特防线(Mareth Line)                  \t20 MAR  1943  \tMEDENINE \tUSER
+72	Tunis\t20 APR  1943  \tTUNIS \tUSER	突尼斯(Tunis)\t20 APR  1943  \tTUNIS \tUSER
+75	***Setup***	***安装***
+77	Unzip the file English_Campaign.zip into your main scenarios fólder, usually c:\panzer2\scenario, and then unzip the file Efile_LG.zip into the main Panzer General 2 folder, usually c:\panzer2. The efile versión of LG that uses this campaign is the 1.4, and it's the version included with the campaign.	将文件 English_Campaign.zip 解压到你的主场景文件夹，通常是 c:\panzer2\scenario，然后把文件 Efile_LG.zip 解压到 Panzer General 2 主文件夹，通常是 c:\panzer2。本战役使用的 LG 装备文件版本是 1.4，也就是随战役附带的版本。
+79	Requeriments	需求
+81	 \tPatch PG2 2.0. This match is needed for efiles with more than 2000 units. That patch it's available at http://es.geocities.com/latingenerals/ into the ''downloads y tutoriales'' section, also you can find it on; http://go.to/panzergeneral2 .	 \tPG2 2.0 补丁。装备文件超过 2000 个单位时需要这个补丁。该补丁可在 http://es.geocities.com/latingenerals/ 的“downloads y tutoriales”栏目中找到，你也可以在这里找到；http://go.to/panzergeneral2 。
+83	 \tThe newest Soundup, (2004). The SoundUp of 2004 (by Pablo Schlegel) is required, you can fid it on the next sites;	 \t最新的 Soundup（2004）。需要 2004 年的 SoundUp（作者 Pablo Schlegel），你可以在以下网站找到它；
+85	http://es.geocities.com/latingenerals/utilidades.htm	http://es.geocities.com/latingenerals/utilidades.htm
+87	And also here;	以及这里；
+89	http://es.geocities.com/lgefile/equip.htm	http://es.geocities.com/lgefile/equip.htm
+92	 \tThe newest Datup. It's really easy to install. Unzip the Datup into your main PG2 folder, usually c:\panzer2. You can find the lastest Datup in the next link at the ''equipment'' section (see NewPanzer2.dat); http://www.medio.mh.se/~vonadler/pg2/equipment/equipment.html	 \t最新的 Datup。安装非常简单。把 Datup 解压到你的 PG2 主文件夹，通常是 c:\panzer2。你可以在下面链接的“equipment”栏目中找到最新的 Datup（参见 NewPanzer2.dat）；http://www.medio.mh.se/~vonadler/pg2/equipment/equipment.html
+94	 \tMaps; The campaign needs the next maps, which can be found on the next links; http://66.34.91.232 or here http://go.to/panzergeneral2 	 \t地图；本战役需要下列地图，可在以下链接中找到；http://66.34.91.232 或这里 http://go.to/panzergeneral2 
+96	***The maps needed are…;***	***所需的地图是……；***
+98	BENGHAZI, SOLLUM, BARDIA, AGEDABIA, GAZALA, MATRUH2, ALAMEIN, ALEXANDRIA, PORT SAID, CAIRO, SUEZ, KASSERINE, BONA, EURO, EL ARISH, TEL AVIV, DAMASCUS, BAGHDAD2, TEHRAN, KEREN, MASSAWA, MOGADISHU, MOMBASA, ALGIERS, ORAN, PORT LYAUTEY, CASABLANCA, MAKNASSY, MEDENINE, TUNIS.	BENGHAZI, SOLLUM, BARDIA, AGEDABIA, GAZALA, MATRUH2, ALAMEIN, ALEXANDRIA, PORT SAID, CAIRO, SUEZ, KASSERINE, BONA, EURO, EL ARISH, TEL AVIV, DAMASCUS, BAGHDAD2, TEHRAN, KEREN, MASSAWA, MOGADISHU, MOMBASA, ALGIERS, ORAN, PORT LYAUTEY, CASABLANCA, MAKNASSY, MEDENINE, TUNIS.
+100	***Internet References***	***互联网参考资料***
+102	http://cosmos.oninetspeed.pt/dak/dak/dakmenu.htm	http://cosmos.oninetspeed.pt/dak/dak/dakmenu.htm
+104	http://www.btinternet.com/~ian.a.paterson/main.htm	http://www.btinternet.com/~ian.a.paterson/main.htm
+106	http://www.europa1939.com/ww2/1939/index.html	http://www.europa1939.com/ww2/1939/index.html
+108	http://www.feldgrau.com/	http://www.feldgrau.com/
+110	http://www.eliteforces.freewire.co.uk/	http://www.eliteforces.freewire.co.uk/
+112	http://www.axishistory.com/	http://www.axishistory.com/
+114	***Finally...***	***最后……***
+116	These files are FREE; we made it only for fun. I hope you take fun too playing it .	这些文件是免费的；我们做它只是为了好玩。希望你也玩得开心。
+117	Please, I would like if you email me, I'll know about if you enjoy the campaign, or if not. The Latin Generals logo is property of The Latin Generals webmasters, and nobody is allowed to use it.	如果可以的话，请给我发电子邮件，让我知道你是否喜欢这个战役。The Latin Generals 的标志归 The Latin Generals 网站管理员所有，任何人不得使用。
+118	The author is not responsible from any bad use or damaged caused by these files.	作者对这些文件造成的任何不当使用或损害不承担责任。
+119	We haven't any political interest with this campaign; which is only made for historical and fun purposes for Panzer General 2.	我们与本战役没有任何政治利益；它只是为 Panzer General 2 制作，用于历史与娱乐目的。
+121	Come to Latin Generals for get the last updates of this campaign and many more for Panzer General 2!	来 Latin Generals 获取本战役以及更多 Panzer General 2 战役的最新更新！
+123	http://es.geocities.com/latingenerals/	http://es.geocities.com/latingenerals/
+125	If you have any doubt about the campaign or whatever related with, write to us;	如果你对本战役或任何相关事项有疑问，请写信给我们；
+127	Pablo Schlegel ->\tschlegelpablo@yahoo.com	Pablo Schlegel ->\tschlegelpablo@yahoo.com
+129	Santiago Fuertes ->\tfuertesbermudez@yahoo.es	Santiago Fuertes ->\tfuertesbermudez@yahoo.es
+133	Good Luck General!	祝你好运，将军！
+134	THE LATIN GENERALS 2004	THE LATIN GENERALS 2004

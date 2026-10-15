@@ -1,0 +1,7 @@
+# WW2Misc.txt 人工填译（行号 → 译文）
+# 注意：本作的 45 行与前作 misc030 的 53 行**并非逐行同文**，对齐审计已清空 2 处错配
+行号	译文	类别	说明
+12	要塞	地形	本作此处为 FORTIFICATION（前作是 DENSE URBAN=密集城区，已判错配）
+39	@KEEP	缩写	前作即按「大写缩写保留」处理（同 AT/FlaK/BB 口径）
+40	@KEEP	缩写	同上
+45	删除此行：	编辑器	本作此处为 Remove this Line:（前作是 Game version:，已判错配）

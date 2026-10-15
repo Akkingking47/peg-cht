@@ -1,0 +1,79 @@
+# For Stalin and Motherland\PG2_Readme.rtf · RTF 抽取（段号 	 原文；段号=chunk 序号，回写按它定位）
+# 保护串（URL/文件名/版本号）已替换为 \x01N\x02，译文里原样保留即可
+段号	原文	protected
+3090	?Za Stalina, za Rodinu	?Za Stalina, za Rodinu
+3142	?For Stalin and Motherland	?For Stalin and Motherland
+3191	Soviet campaign	Soviet campaign
+3238	This campaign was made in Polish by	This campaign was made in Polish by
+3251	Adam Bolesta,	Adam Bolesta,
+3263	the English text done by	the English text done by
+3276	Darth Stalin.	Darth Stalin.
+3288	All *.txt files were originally in Polish and if you want to read English commentaries, install	All *.txt files were originally in Polish and if you want to read English commentaries, install
+3291	?English text.zip	?English 0
+3342	Installation guide:	Installation guide:
+3411	For this campaign you	For this campaign you
+3414	?ll need maps from original PG2, as well the following Builders	?ll need maps from original PG2, as well the following Builders
+3417	? Paradise maps: Ekaterinburg, Kharkov, Litovsk, Mozhaisk, Ponyri, Vistula.	? Paradise maps: Ekaterinburg, Kharkov, Litovsk, Mozhaisk, Ponyri, Vistula.
+3464	Download them from the Builders	Download them from the Builders
+3467	? Paradise website if you haven	? Paradise website if you haven
+3470	?t got them.	?t got them.
+3517	Map install:	Map install:
+3585	You have to download both the map ( containing only *.shp files ) and *.map files, included in BP	You have to download both the map ( containing only *.shp files ) and *.map files, included in BP
+3591	?mapfiles	?mapfiles
+3594	? folder.	? folder.
+3662	If you haven	If you haven
+3665	?t don so before, in your main PG2 Directory create folder	?t don so before, in your main PG2 Directory create folder
+3668	?Map	?Map
+3671	? and copy there all the *.shp files from the	? and copy there all the *.shp files from the
+3674	?Map	?Map
+3677	? folder from your PG2 CD; this MUST be done if you want to play with new maps; it also allows you to play without CD in your CD-ROM drive.	? folder from your PG2 CD; this MUST be done if you want to play with new maps; it also allows you to play without CD in your CD-ROM drive.
+3745	Unzip the *.shp files into	Unzip the *.shp files into
+3748	?Map	?Map
+3751	? folder in your main PG2 Directory	? folder in your main PG2 Directory
+3819	Unzip the *.map file from	Unzip the *.map file from
+3822	?mapfiles	?mapfiles
+3825	? folder into	? folder into
+3828	?Scenario	?Scenario
+3831	? folder in your main PG2 Directory.	? folder in your main PG2 Directory.
+3878	If you have some problems with maps, looka at the Builders Paradise	If you have some problems with maps, looka at the Builders Paradise
+3881	? website for more info about custom made maps and installation.	? website for more info about custom made maps and installation.
+3949	Unzip the	Unzip the
+3965	zastalinu.zip	0
+3979	? file into	? file into
+3982	?Scenario	?Scenario
+3985	? folder in your main PG2 Directory.	? folder in your main PG2 Directory.
+4053	Install Icons upgrade ( works on	Install Icons upgrade ( works on
+4056	?clear	?clear
+4059	?, not upgraded PG2. It is also possible to play on pg1.02 upgrade; however this was not tested by me	?, not upgraded PG2. It is also possible to play on pg1.02 upgrade; however this was not tested by me
+4062	? Darth Satlin )	? Darth Satlin )
+4065	? needed at least 25MB free space on HD:	? needed at least 25MB free space on HD:
+4134	Create 2 subfolders: 1) and 2); into 1) copy your Panzer2.dat from the PG2, and into 2) unzip	Create 2 subfolders: 1) and 2); into 1) copy your 0 from the PG2, and into 2) unzip
+4150	icons.zip	0
+4164	? file	? file
+4233	Copy	Copy
+4236	?Upg2shp.exe	?0
+4239	? from folder 2) into 1) and run it	? from folder 2) into 1) and run it
+4308	Copy all the remaining files from folder 2) into folder 1), overwriting existing files when necessary	Copy all the remaining files from folder 2) into folder 1), overwriting existing files when necessary
+4377	Run	Run
+4380	?Ppg2shp.exe	?0
+4383	? After that there will be created	? After that there will be created
+4386	?Newpg2.dat	?0
+4458	Rename	Rename
+4461	?Newpg2.dat	?0
+4464	? into	? into
+4467	?Panzer2.dat	?0
+4470	? and copy it into main PG2 Directory, overwriting the existing one.	? and copy it into main PG2 Directory, overwriting the existing one.
+4538	unzip	unzip
+4554	new equip.zip	new 0
+4568	? into main PG2 Directory	? into main PG2 Directory
+4636	unzip	unzip
+4652	English text.zip	English 0
+4666	? into	? into
+4669	?Scenario	?Scenario
+4672	? folder, overwriting existing *.txt files.	? folder, overwriting existing *.txt files.
+4740	Now you can run the campaign!	Now you can run the campaign!
+4822	If you want to send any commentaries on this campaign, visit author	If you want to send any commentaries on this campaign, visit author
+4825	?s website:	?s website:
+4915	http://bolesta.home.pl/pg2/index.html	0
+4975	or mail Darth Stalin:	or mail Darth Stalin:
+5065	przemek@free.plock.pl	przemek@free.plock.pl
