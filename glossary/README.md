@@ -138,6 +138,27 @@ $PY audit_authority.py                 # 六路审计 → ../glossary/glossary-a
 工具：`make_utf8_fix.py`（A 类清单）· `make_orig_charset_fix.py`（B 类清单）·
 `scan_orig_charset.py`（全库普查）· `restore_orig_encoding.py`（逐行编码还原）· `make_scenario_zh.py`（场景中文侧）。
 
+## 层表体系（`layers/`）与冲突路由
+
+`layers/` 是主库之外的**分层补写体系**（17 张表），由合入链生成（`work/glossary/ingest_layers.py` → `converge_plan.py`），
+`build_glossary.py` 按固定优先级把它们合入主库：
+
+| 表 | 作用 |
+|---|---|
+| `common-glossary.tsv`（4.0MB）· `scope-glossary.tsv`（2.0MB） | 通用层 / 按 scope 切分层（体量最大） |
+| `series-glossary.tsv` · `short-glossary.tsv` | 系列名层 · 短名层 |
+| `override.tsv` · `side-override.tsv` | 人工定点覆盖 |
+| `scn-place-override.tsv` | **按场景定点覆盖地名** —— 同一地名的译法取决于该场景预设扮演哪方势力 |
+| `faction-places.tsv` · `faction-terms.tsv` · `faction-ops.tsv` | 阵营视角约定（依据见 `阵营视角-约定.md`） |
+| `seg-canon.tsv` · `seg-canon-outliers.tsv` · `seg-canon-proposal.tsv` | 段位规范名及其离群项 / 提案 |
+| `slot-rules.tsv` · `common-drift.tsv` · `scope-diff.tsv` · `converge-list.tsv` | 槽位规则 · 层间漂移 · 差异与收敛清单 |
+
+> **操作指引（docs\68 建议 D-3 裁定）**：**同键多译一律走覆盖表** —— 地名场景相关走
+> `layers/scn-place-override.tsv`，其余走 `layers/override.tsv`；**禁止改层表主键**。
+> 理由：层表是合入链的**派生结果**，改主键会同时污染多条下游链路且无法逐条追溯；
+> 覆盖表是**追加式**的，可逐条回退，回归入口（`work/regression.py`）也只看新增偏离。
+
+
 ## 维护流程
 
 1. **新增译名**：优先改**源文件**（`OpenPG2/<EFILE>/TEXT-ZH/` 或原文），然后 `build_glossary.py` 重建 —— 库永远由源文件派生，不手改。

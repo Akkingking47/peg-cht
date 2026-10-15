@@ -5,6 +5,7 @@
 - 母本：`D:\Program Files\PeG\PeG030.exe`（md5 `c462e897b3aa1c384870c857ce9e01df`，**永不修改**）
 - 现状产物：`D:\Program Files\PeG-1\PeG030-1920x1080.exe`（md5 `44ac5cfe5a5875aa5ef51efd3d1afcf4`）、`PeG030-1600x900.exe`（md5 `2c0369eb9aa3960e75c751bc72b6429d`）
 - 构建器：`work\peg\patch_res_wh.py`（v5c 配方＝只改尺寸类站点，共 106 处；默认干跑）
+> 效力：**已被后续篇目取代** —— 路线 B 的静态重构由 `docs\63` 的 v9a 判读与 v9b 设计取代；画布根因见 `docs\64`；现行路线见 `docs\67`。
 
 ## 一、用户实机反馈（m01288，16:9 版）
 

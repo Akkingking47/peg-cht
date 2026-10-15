@@ -126,6 +126,12 @@
 **/out-*/
 **/_regen-*/
 **/out/
+*.lineage.tsv
+
+# 例外：回归基线是 B-1 的真源，必须入库（其余 out/ 产物仍不入库）
+!/work/out/
+/work/out/*
+!/work/out/regression-baseline.json
 
 *.log
 *.bak
