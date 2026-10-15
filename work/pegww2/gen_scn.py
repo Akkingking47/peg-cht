@@ -13,7 +13,12 @@
   ③ **TAB/控制字符个数与原文一致**（原文含 `\\t`/`\\xNN` 时）
   ④ 禁用译法（整串精确匹配）
   ⑤ GBK 可编码
-用法: python gen_scn.py [build|dry]
+用法: python gen_scn.py [build|dry] [--lineage[=DIR]]
+
+★ D-1 溯源（**缺省关闭**；关闭时产物 sha256 与开启前逐字节相同）：
+    --lineage       每个成品旁出 <成品>.lineage.tsv（逐行：命中哪张表 / 表内第几行 / 哪个键）
+    --lineage=DIR   sidecar 集中到 DIR（按成品相对输出根的路径镜像）
+  `dry` 不落盘 ⇒ 也不产 sidecar。格式与 src_kind 词表见 work/lineage.py。
 """
 import io
 import os
@@ -22,6 +27,9 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from tsv_esc import esc, unesc  # noqa: E402
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from lineage import parse_argv, rel, show_help, want_help  # noqa: E402  D-1 溯源（缺省关闭）
 
 WS = r"D:\DSH\军事游戏汉化"
 GAME = r"D:\Program Files\PeG-WW2"
@@ -33,6 +41,11 @@ BAN = os.path.join(RES, "banned.tsv")
 #    地名该用哪个写法取决于**该场景预设扮演哪方势力**，而 `ww2-scn-map.tsv` 只有全局一张值。
 OVRFILE = os.path.join(WS, r"glossary\layers\scn-place-override.tsv")
 OUTROOT = os.path.join(WS, "pegww2", "testbed", "out")
+OVF = os.path.join(RES, "_scn-file-overrides.tsv")   # per-file 行级覆盖表
+# ⭐ D-1 溯源：sidecar 的 `src_table` 用**表文件的工作区相对 POSIX 路径**（跨机器可比）
+T_MAP = rel(MAP)
+T_OVR = rel(OVRFILE)
+T_FILEOV = rel(OVF)
 _sink = io.StringIO()
 
 EXCLUDE = re.compile(r"(?i)(^info\.txt$|read ?me|report)")
@@ -56,10 +69,11 @@ class _Tee:
 sys.stdout = _Tee(sys.stdout, _sink)
 
 
-def load_map():
+def load_map(lineno=None):
+    """`lineno` 给定时顺带记「键 → 表内 1 起行号」，供 D-1 溯源（缺省 None 时不记）。"""
     m = {}
     with open(MAP, encoding="utf-8-sig") as f:
-        for line in f:
+        for ln, line in enumerate(f, 1):
             s = line.rstrip("\r\n")
             if not s or s.startswith("#") or s.split("\t")[0].strip() == "原文":
                 continue
@@ -72,6 +86,9 @@ def load_map():
                 #    实测：带 NUL 补位的长简报行成批漏译（`tsv_esc.py` 文档已预言此坑）。
                 m[unesc(f2[0])] = (unesc(f2[1]), f2[2].strip())
                 m.setdefault(esc(f2[0]), m[unesc(f2[0])])   # 兼容旧查表写法
+                if lineno is not None:                      # ⭐ D-1：别名键指向同一行
+                    lineno[unesc(f2[0])] = ln
+                    lineno[esc(f2[0])] = ln
     return m
 
 
@@ -86,7 +103,7 @@ def stem_of(fn):
     return STEM_TAIL.sub("", STEM_TAIL.sub("", base)).lower()
 
 
-def load_scn_override():
+def load_scn_override(lineno=None):
     """按场景定点覆盖：`{(场景词干小写, 英文键): 译名}`（只取 `PEGWW2` 侧）。"""
     ov = {}
     if not os.path.isfile(OVRFILE):
@@ -103,6 +120,8 @@ def load_scn_override():
             if c[1].strip().upper() != "PEGWW2":
                 continue
             ov[(c[2].strip().lower(), unesc(c[0]))] = unesc(c[3])
+            if lineno is not None:
+                lineno[(c[2].strip().lower(), unesc(c[0]))] = ln
     return ov
 
 
@@ -117,12 +136,17 @@ def load_banned():
 
 
 def main():
-    dry = "dry" in sys.argv
-    m = load_map()
-    ovr = load_scn_override()
+    if want_help(sys.argv):                # ⭐ D-1：`--help` 打印用法（含 --lineage）后退出
+        show_help(__doc__)                 #    ⚠️ 必须 sys.exit：否则 __main__ 尾部的
+        sys.exit(0)                        #    evidence 报告会被这次 help 调用覆盖掉
+    lin, rest = parse_argv(sys.argv)       # ⭐ D-1：缺省 (None, argv) ⇒ 走完全不知道溯源的旧路径
+    dry = "dry" in rest
+    mpl, ovrl = ({}, {}) if lin is not None else (None, None)
+    m = load_map(mpl)
+    ovr = load_scn_override(ovrl)
     # ⭐ per-file 覆盖表：子目录 \t 文件名 \t 行号(0-based) \t 期望原文 \t 译文
     file_ov = {}
-    OVF = os.path.join(RES, "_scn-file-overrides.tsv")
+    file_ov_line = {}                      # ⭐ D-1：同上键 → 表内 1 起行号
     if os.path.isfile(OVF):
         for j, l in enumerate(open(OVF, encoding="utf-8")):
             if j < 2 or not l.strip() or l.startswith("#"):
@@ -130,10 +154,15 @@ def main():
             c = l.rstrip("\n").split("\t")
             if len(c) >= 5 and c[2].strip().isdigit():
                 file_ov[(c[0].strip(), c[1].strip(), int(c[2]))] = c[4]
+                file_ov_line[(c[0].strip(), c[1].strip(), int(c[2]))] = j + 1
     banned = load_banned()
     from collections import Counter
     print(f"译法真源: {len(m)} 条（其中有效译文 {sum(1 for v, t in m.values() if v.strip() and t != '保留')} 条）"
           f" · 禁用词 {len(banned)} 条 · 按场景定点覆盖 {len(ovr)} 条（{len({s for s, _ in ovr})} 个场景）")
+    if lin is not None:                    # ⭐ D-1
+        print("[D-1] 溯源已开启：sidecar -> %s%s"
+              % (lin.base or "(成品同级 <成品>.lineage.tsv)",
+                 "（dry 模式不落盘，故不产 sidecar）" if dry else ""))
     tag = Counter()
     files_ok = files_bad = 0
     changed_total = 0
@@ -155,14 +184,17 @@ def main():
             #       否则 `zh, src = ent` 会把中文字符串拆包（曾报 `too many values to unpack`）。
             _st = stem_of(f)
             eff_m = m
+            _mo = {}
             if _st:
-                _mo = {}
                 for (s, en), zh in ovr.items():
                     if s == _st:
                         _mo[en] = (zh, m[en][1] if en in m else "scn-override")
                 if _mo:
                     eff_m = dict(m)
                     eff_m.update(_mo)
+            mo_line = {}                       # ⭐ D-1：键 → 定点覆盖表内 1 起行号
+            if lin is not None and _mo:
+                mo_line = {en: ovrl[(_st, en)] for en in _mo if (_st, en) in ovrl}
             # ⭐⭐ **构建必须从 backup 读原文**（踩坑 W14：曾从游戏目录读 ⇒ 部署后二次生成静默变 no-op）
             bak = os.path.join(BKROOT, sub, f)
             if os.path.isfile(bak):
@@ -176,6 +208,7 @@ def main():
             parts = re.split(rb"(\r\n|\r|\n)", raw)
             lines, seps = parts[0::2], parts[1::2]
             errs, out, changed = [], [], 0
+            lg_rows = []                   # ⭐ D-1：与 lines 同序的 sidecar 行（4 元组）
             for i, ln in enumerate(lines):
                 orig = ln.decode("latin-1")
                 key = orig.strip()
@@ -186,10 +219,22 @@ def main():
                 ov = file_ov.get((sub, f, i))
                 if ov is not None:
                     ent = (ov, "per-file")
+                # ⭐ D-1：先定「命中来源」（键 / 表 / 表内行），只在开关打开时算
+                lg_row = ("", "-", 0, "none")
+                if lin is not None:
+                    if ov is not None:
+                        lg_row = (key, T_FILEOV, file_ov_line.get((sub, f, i), 0), "override")
+                    elif key and key in mo_line:
+                        lg_row = (key, T_OVR, mo_line[key], "override")
+                    elif ent is not None:
+                        lg_row = (key, T_MAP, mpl.get(key, 0), "exact")
                 if not ent or not ent[0].strip() or ent[1] == "保留":
                     if key and re.search(r"[A-Za-z]", key):
                         unmatched[key] += 1
                     out.append(ln)
+                    if lin is not None:    # ⭐ D-1：命中「保留原文」⇒ identity；无表项 ⇒ none
+                        lg_rows.append((lg_row[0], lg_row[1], lg_row[2], "identity")
+                                       if ent is not None else ("", "-", 0, "none"))
                     continue
                 zh, src = ent
                 if any(c in zh for c in ("\r", "\n", "\t")):
@@ -226,6 +271,9 @@ def main():
                 if nb != ln:
                     changed += 1
                 out.append(nb)
+                if lin is not None:        # ⭐ D-1：译文与原文同字节 ⇒ 仍算 identity（保留原文）
+                    lg_rows.append((lg_row[0], lg_row[1], lg_row[2],
+                                    "identity" if nb == ln else lg_row[3]))
             if len(out) != len(lines):
                 errs.append("行数不一致")
             if errs:
@@ -245,6 +293,10 @@ def main():
                 back = open(dst, "rb").read()
                 assert back == bytes(buf), f"回读校验失败 {f}"
                 assert len(re.split(rb"\r\n|\r|\n", back)) == len(lines), f"复验行数失败 {f}"
+                if lin is not None:        # ⭐ D-1：成品写完 ⇒ 旁出 <成品>.lineage.tsv
+                    with lin.open(dst, root=OUTROOT) as lg:
+                        for n, r in enumerate(lg_rows, 1):
+                            lg.record(n, r[0], r[1], r[2], r[3])
             files_ok += 1
             changed_total += changed
             outcomes.append((sub, f, "✅", changed))

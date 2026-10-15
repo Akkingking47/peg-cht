@@ -4,6 +4,11 @@
 用法:
   python build_glossary.py            # 生成库 + 报告 + 冲突 + 漏译清单
   python build_glossary.py --dry      # 只统计，不写文件
+  python build_glossary.py --lineage[=DIR]
+                                      # ★ D-1 溯源：额外产出标准库的 sidecar（`--dry` 不产）
+                                      #   逐行记「哪条记录胜出 / 来自哪个原文文件第几行 / 哪个键」
+                                      #   缺省关闭；关闭时产物 sha256 与开启前逐字节相同
+                                      #   格式与 src_kind 词表见 work/lineage.py
 
 真源:  backup/ORIGINAL-<EFILE>/  与  OpenPG2/<EFILE>/TEXT-ZH/
        （同结构同行数，逐行平行 ⇒ en->zh 零对齐风险）
@@ -30,6 +35,9 @@ from apply_residual import parse  # noqa: E402  复用 .xscn 解析器
 
 sys.path.insert(0, HERE)
 from cat_fix_rules import recat as _recat  # noqa: E402  cat 纠正规则（见 docs/50）
+
+sys.path.append(WORK)                      # ⭐ D-1：work/lineage.py（用 append，不抢已有优先级）
+from lineage import parse_argv, rel, show_help, table_key_line, want_help  # noqa: E402  D-1 溯源
 
 # cat 纠正留痕：[(en, zh, scope, 新cat, 理由), ...]，由 _recat() 判定
 CAT_FIXED = []
@@ -322,6 +330,8 @@ def merge(recs, keep_keys):
         if en in keep_keys:
             cat = next((c for z, c, s, _ in lst if z == en), lst[0][1])
             rows.append((en, en, cat, scope, "POLICY", "+".join(srcs), "POLICY", "POLICY"))
+            # ⭐ D-1：KEEP 登记在 olgww2-glossary.tsv 里 ⇒ 来源记它（行号由 prov_of 回查）
+            PROV[(en, scope)] = ("identity", scope, "olgww2-glossary.tsv")
             continue
 
         zh_items = [t for t in lst if CJK(t[0])]
@@ -332,6 +342,9 @@ def merge(recs, keep_keys):
             dist = collections.Counter(t[0] for t in zh_items)
             zh = pick(dist, zh_items)
             cat = next(c for z, c, s, _ in zh_items if z == zh)
+            # ⭐ D-1：胜出记录就是这一行的命中来源（loc 形如 `SCENARIO/x.txt:12`）
+            PROV[(en, scope)] = ("exact", scope,
+                                 next(t[3] for t in zh_items if t[0] == zh))
             # 哪些「层」给出过中文 —— 校验时只跟同层比（equip 保留型号、
             # xscn 译地名，同一原文的合法处理本就可能不同）
             zh_in = "+".join(sorted({t[2] for t in zh_items}, key=lambda x: PRI.get(x, 99)))
@@ -349,6 +362,8 @@ def merge(recs, keep_keys):
         else:
             zh, cat = en, lst[0][1]
             conf = "POLICY"
+            # ⭐ D-1：无任何中文来源 ⇒ 原样保留（identity），来源记首条记录出处
+            PROV[(en, scope)] = ("identity", scope, lst[0][3])
         status = "LOCKED" if CJK(zh) and zh != en else "POLICY"
         rows.append((en, zh, cat, scope, status, "+".join(srcs), conf, zh_in))
 
@@ -370,10 +385,44 @@ def merge(recs, keep_keys):
     return rows, conflicts, residual
 
 
+# ---------------------------------------------------------------- D-1 溯源
+
+# 每行成品的「获胜来源」：键与 rows 同构 `(en, scope)` → `(src_kind, scope, loc)`，由
+# merge() 填写。`(en, scope)` 是 merge 的主键，sort 与 cat 纠正都不动它 ⇒ 可安全回查。
+PROV = {}
+# scope（efile 名）→ 原文备份目录（D-1 用它把 loc 还原成真实路径）
+EBS = {e: os.path.dirname(o) for e, _, o in EFILES}
+
+
+def prov_of(en, scope, key):
+    """把 merge() 记下的 `loc` 解析成 sidecar 的 `(src_kind, src_table, src_line)`。
+
+    `loc` 形态见各 `collect_*`：`names.txt:12` / `SCENARIO/x.txt:12` /
+    `SCENARIO/x.xscn:g0#3` / `SCENARIO/x.xscn:title` / `olgww2-glossary.tsv` /
+    `pegww2-glossary.tsv`。
+    ⚠️ `src_table` 指向**原文侧文件**（与中文侧逐行平行、行号一致）；
+       `g0#3` 这类「组#键」定位没有行号 ⇒ `src_line=0`，靠 `key` 定位。
+    """
+    kind, sc, loc = PROV.get((en, scope), ("none", scope, ""))
+    if not loc or loc == "POLICY":
+        return kind, "-", 0
+    i = loc.rfind(":")
+    path, tail = (loc[:i], loc[i + 1:]) if i > 0 else (loc, "")
+    if path.endswith(".tsv"):              # 并入库：行号按表内首列键回查
+        p = os.path.join(WORK, "glossary", path) if path == "pegww2-glossary.tsv" \
+            else os.path.join(WORK, "efile-nashornpbem", path)
+        return kind, rel(p), table_key_line(p, key)
+    base = EBS.get(sc, "")
+    return kind, rel(os.path.join(base, path)), (int(tail) if tail.isdigit() else 0)
+
+
 # ---------------------------------------------------------------- 主流程
 
 def main():
-    dry = "--dry" in sys.argv
+    if want_help(sys.argv):            # ⭐ D-1：`--help` 打印用法（含 --lineage）后退出
+        show_help(__doc__); return
+    lin, rest = parse_argv(sys.argv)   # ⭐ D-1：缺省 (None, argv) ⇒ 走完全不知道溯源的旧路径
+    dry = "--dry" in rest
     recs = []
     stats = collections.defaultdict(int)
     stats["skip"] = []
@@ -476,6 +525,12 @@ def main():
 
     dump("standard-glossary.tsv",
          ["en", "zh", "cat", "scope", "status", "src", "conf", "zh_in"], rows)
+    if lin is not None:
+        # ⭐ D-1：主库旁出 <成品>.lineage.tsv（`dump()` 先写 1 行表头 ⇒ 第 n 行数据 = 成品第 n+2 行）
+        with lin.open(os.path.join(OUTD, "standard-glossary.tsv")) as lg:
+            for n, r in enumerate(rows, 2):
+                kind, tbl, ln0 = prov_of(r[0], r[3], r[0])
+                lg.record(n, r[0], tbl, ln0, kind)
     dump("glossary-conflicts.tsv",
          ["en", "scope", "kept", "rejected", "kind", "cat", "n"], conflicts)
     dump("glossary-residual.tsv",
@@ -500,6 +555,8 @@ def main():
     print("  glossary-conflicts.tsv  %6d 条" % len(conflicts))
     print("  glossary-residual.tsv   %6d 处" % len(residual))
     print("  glossary-skip.tsv       %6d 项" % len(stats["skip"]))
+    if lin is not None:                    # ⭐ D-1
+        print("  standard-glossary.tsv.lineage.tsv  %6d 行（逐行命中来源）" % len(rows))
 
 
 if __name__ == "__main__":

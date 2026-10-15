@@ -1,7 +1,7 @@
 {
  "schema": "regression-baseline/v1",
- "generated_at": "2026-10-15 15:47:08",
- "generated_at_unix": 1792050428,
+ "generated_at": "2026-10-15 16:10:01",
+ "generated_at_unix": 1792051801,
  "python": "3.14.7",
  "python_full": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
  "platform": "win32",
@@ -77,7 +77,7 @@
     "work\\glossary\\layer_gate.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 6255,
+   "elapsed_ms": 5650,
    "metrics": {
     "candidates": 41787,
     "overrides": 824,
@@ -126,7 +126,7 @@
     "work\\glossary\\audit_authority.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 884,
+   "elapsed_ms": 710,
    "metrics": {
     "rows": 23475,
     "baseline_rows": 284,
@@ -162,7 +162,7 @@
     "work\\_sync-audit\\verify_naming.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 109,
+   "elapsed_ms": 115,
    "metrics": {
     "files": 242,
     "bad_slots": 0,
@@ -192,7 +192,7 @@
     "work\\_sync-audit\\residual_scan.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 30527,
+   "elapsed_ms": 27810,
    "metrics": {
     "hits[PeG 生成产物][库里]": 0,
     "hits[PeG 生成产物][初代]": 0,
@@ -226,7 +226,7 @@
     "work\\audit\\progress.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 17574,
+   "elapsed_ms": 15547,
    "metrics": {
     "l1_lines": 861,
     "l1_pending": 778,
@@ -253,7 +253,7 @@
     "total_ply_zh": 63,
     "done_efiles": 11
    },
-   "stdout_sha256": "5289af8606b42a162d156ac4ac78e74795f19e410102d8e7ff5d9e3dcde3d9e1",
+   "stdout_sha256": "053a3ad8893804206455d698e17824853bd54253f6b92d3a7aaacb9e3f691cf7",
    "stdout_lines": 43,
    "stdout_tail": [
     "",
@@ -274,7 +274,7 @@
     "work\\pegww2\\verify_deploy.py"
    ],
    "exit_code": 0,
-   "elapsed_ms": 113,
+   "elapsed_ms": 109,
    "metrics": {
     "items_total": 17,
     "items_ok": 17,
@@ -315,7 +315,7 @@
     "--selftest"
    ],
    "exit_code": 0,
-   "elapsed_ms": 226,
+   "elapsed_ms": 252,
    "metrics": {
     "mother_md5": "c462e897b3aa1c384870c857ce9e01df",
     "patch_sites": 267,
@@ -330,12 +330,12 @@
     "verify_fail": 0,
     "selftest_terminated": 1
    },
-   "stdout_sha256": "5124174383475d9f6505dc706ca32531f5c7b90deed1514718f378f89a37a8d2",
+   "stdout_sha256": "70ea1a9159bec51930fe449fe944c902f633f07a56058e55735c6de1e1b5dce1",
    "stdout_lines": 13,
    "stdout_tail": [
     "  · 布局表右对齐记录：37 条 × 2 word = 74 处",
     "  · M 地图面/绘制界：31 处 1920 -> 4096",
-    "已挂起启动：pid=6168",
+    "已挂起启动：pid=17792",
     "  实际模块基址：0x400000",
     "✅ 内存补丁完成：267 条已写入并回读一致（exe 文件未改动）",
     "selftest：已终止进程（游戏未执行任何指令，也没有窗口）"
