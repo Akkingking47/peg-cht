@@ -1,0 +1,57 @@
+obs_id	分类	原文	出处文件	定位	观察要点	中文译文	译者	状态
+O1-01	O1 阵营槽	United States	Gui030.txt	行 1；exe 内置表 VA 0x492fec（FO 0x907ec）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-02	O1 阵营槽	Russia	Gui030.txt	行 2；exe 内置表 VA 0x493000（FO 0x90800）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-03	O1 阵营槽	China	Gui030.txt	行 3；exe 内置表 VA 0x493014（FO 0x90814）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-04	O1 阵营槽	Vietnam	Gui030.txt	行 4；exe 内置表 VA 0x493028（FO 0x90828）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-05	O1 阵营槽	North Korea	Gui030.txt	行 5；exe 内置表 VA 0x49303c（FO 0x9083c）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-06	O1 阵营槽	South Korea	Gui030.txt	行 6；exe 内置表 VA 0x493050（FO 0x90850）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-07	O1 阵营槽	Thailand	Gui030.txt	行 7；exe 内置表 VA 0x493064（FO 0x90864）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-08	O1 阵营槽	Germany	Gui030.txt	行 8；exe 内置表 VA 0x493078（FO 0x90878）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-09	O1 阵营槽	United Kingdom	Gui030.txt	行 9；exe 内置表 VA 0x49308c（FO 0x9088c）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-10	O1 阵营槽	France	Gui030.txt	行 10；exe 内置表 VA 0x4930a0（FO 0x908a0）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-11	O1 阵营槽	Japan	Gui030.txt	行 11；exe 内置表 VA 0x4930b4（FO 0x908b4）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-12	O1 阵营槽	Singapore	Gui030.txt	行 12；exe 内置表 VA 0x4930c8（FO 0x908c8）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-13	O1 阵营槽	Indonesia	Gui030.txt	行 13；exe 内置表 VA 0x4930dc（FO 0x908dc）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-14	O1 阵营槽	Australia	Gui030.txt	行 14；exe 内置表 VA 0x4930f0（FO 0x908f0）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-15	O1 阵营槽	Mongolia	Gui030.txt	行 15；exe 内置表 VA 0x493104（FO 0x90904）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-16	O1 阵营槽	Taiwan	Gui030.txt	行 16；exe 内置表 VA 0x493118（FO 0x90918）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-17	O1 阵营槽	Ukraine	Gui030.txt	行 17；exe 内置表 VA 0x49312c（FO 0x9092c）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-18	O1 阵营槽	Kazakhstan	Gui030.txt	行 18；exe 内置表 VA 0x493140（FO 0x90940）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-19	O1 阵营槽	Malaysia	Gui030.txt	行 19；exe 内置表 VA 0x493154（FO 0x90954）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-20	O1 阵营槽	United Nations	Gui030.txt	行 20；exe 内置表 VA 0x493168（FO 0x90968）	槽位固定 20 条 × 20 字节；GUI 文本可覆盖 exe 内置表			待填
+O1-4R	O1 槽位复用	GUI97/Gui030 行4: 'Vietnam'  ↔  GUI98.TXT 同行: 'Islamic Coalition'	Gui030.txt / GUI98.TXT	行 4	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-5R	O1 槽位复用	GUI97/Gui030 行5: 'North Korea'  ↔  GUI98.TXT 同行: 'N. Korea / Mong. / Viet.'	Gui030.txt / GUI98.TXT	行 5	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-7R	O1 槽位复用	GUI97/Gui030 行7: 'Thailand'  ↔  GUISP.TXT 同行: 'E. Euro-Bloc: Rom/Czech/Hun/Ukr'	Gui030.txt / GUISP.TXT	行 7	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-12R	O1 槽位复用	GUI97/Gui030 行12: 'Singapore'  ↔  GUISP.TXT 同行: 'SE Asia:Sing/ Indo/ Aus/ Thai/ Mal'	Gui030.txt / GUISP.TXT	行 12	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-13R	O1 槽位复用	GUI97/Gui030 行13: 'Indonesia'  ↔  GUISP.TXT 同行: 'Sweden/ Finn/ Nor'	Gui030.txt / GUISP.TXT	行 13	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-14R	O1 槽位复用	GUI97/Gui030 行14: 'Australia'  ↔  GUISP.TXT 同行: 'Israel'	Gui030.txt / GUISP.TXT	行 14	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O1-20R	O1 槽位复用	GUI97/Gui030 行20: 'United Nations'  ↔  GUISA.txt 同行: 'United Nations / Israel'	Gui030.txt / GUISA.txt	行 20	同一槽位在不同 e-file 被重标为不同阵营 ⇒ 阵营标签是**可换壳的槽位**，非固定国别表			待填
+O2-01	O2 叙事立场	The Chinese and the North Koreans look poised to make a sudden attack on Seoul.  Stop them at all costs.	Scenario/nspegu01.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-02	O2 叙事立场	The Chinese and the North Koreans look like they're entrenched in Seoul, but it's up to you to take it all back.  Don't let me down commander!	Scenario/nspegu19.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-03	O2 叙事立场	Storming Volgograd / The U.S. mobilizes its forces to aid their Russian allies ... to drive the People's Republic of China from the Urals ...	Scenario/nspegu25.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-04	O2 叙事立场	Russian rebels have seized and taken control of ICBM missile bases in the outskirts of Artem ...	Userscen/Crimson.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-05	O2 叙事立场	The demise of Osma / Taliban forces have retreated to their stronghold in Kandahar ...	Userscen/Demise of Osma.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-06	O2 叙事立场	I MEF is asked by CINCPACFOR to bypass Hanoi in order to allow Vietnamese exile forces to retake the city ...	Userscen/Eome2.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-07	O2 叙事立场	Since 1945 Japans Northern Islands have been illegally in Russian hands. Chinese aggression has given us the opportunity ...	Userscen/Land Reclamation.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-08	O2 叙事立场	Return to Stalingrad / ... German and Italian Troops return to Stalingrad, this time to help their Russian Ally to repulse Chinese Army ...	Userscen/RetStal27.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-09	O2 叙事立场	Chinese Rebels have decided to join forces with america and strike singapore ...	Userscen/Revolution.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-10	O2 叙事立场	Siege of Sarajevo 28/10/1992 / Serbian Army is ready to launch his final assault ...	Userscen/Sarajevo.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-11	O2 叙事立场	Enter Scenario Description（占位未填）	Scenario/nspegu10.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O2-12	O2 叙事立场	（共 14 个 .ply：13 个 501 B ＋ 1 个 525 B；全文见 evidence/ply-narrative.txt）	Userscen/*.ply	见 evidence/ply-narrative.txt（定长记录，原文原样）				待填
+O3-01	O3 多语言实践	英语 GUI97.TXT（585 行）／德语 GUI97.DEU（207 行）／法语 GUI97.FRA（207 行）三份同构文本包	GUI97.TXT / GUI97.DEU / GUI97.FRA	目录根；逐行对照见 evidence/gui-languages.tsv	SSI 官方即用「换文本文件」实现德/法发行 ⇒ 本地化机制为厂商原生设计			待填
+O3-02	O3 多语言实践	德语样本：Österrceich / die Tschechloslovakei / Großbritannien；法语样本：Autriche / Tchécoslovaquie 风格拼写	GUI97.DEU / GUI97.FRA	行 1–10（见 gui-languages.tsv 第 2、3 列）				待填
+O3-03	O3 多语言实践	exe 内多语言分支：LoadLanguageConfigFile / lang.cfg / 与 'german'、'french' 比较（调试串 'we are german' / 'we are french'）	PeG030.exe	字符串 VA 区（FO 0x9E81C 附近 lang.cfg）				待填
+O3-04	O3 多语言实践	社区俄语化：标题画面俄文 'Генерал Холодной войны'（与英文 'COLD WAR GENERAL' 并存）	CWGEN.dat → ST030.S16[1]	图形 800×600；渲染证据 symbol-layer/ST030_title.png				待填
+O4-01	O4 外置化程度	exe 硬编码 5 个文本 stem：Equip30 / gui030 / misc030 / name030 / tips030	PeG030.exe	字符串表（Text.c 模块：InitGlobalText / LoadEquipText / LoadScenarioText）	⇒ 换语言＝换同名文本文件，零代码改动			待填
+O4-02	O4 外置化程度	Gui030.txt 653 行 / 11,855 B（纯 ASCII）；Gui031.txt 同规模	Gui030.txt / Gui031.txt	目录根				待填
+O4-03	O4 外置化程度	装备名 Equip30/31/97/98/SA/SP.TXT 合计 4,850 行；人名 Name030.txt 1,000 行 ＋ NAMES*.TXT 1,062 行	多个 *.TXT	目录根（明细见 docs\38 §一）				待填
+O4-04	O4 外置化程度	场景文本 Scenario\*.TXT 790 文件 / 8,502 行 / 223 KB；9 类命名后缀（_M 地图格名 / _U 部队名 / I 简报 / BV·V·TV·L 战后评述…）	Scenario\*.TXT	官方规范 PFS `SCN & CAM text files` 表				待填
+O4-05	O4 外置化程度	二进制层零文本：.scn×213 每文件仅 2 个文件名引用；.map×46 可打印串 0；.eqp 仅图标码	.scn / .map / .eqp	实测（work\peg\census_text.py）	⇒ 立场/叙事的替换成本几乎为零，这是核心渗透机制			待填
+O5-01	O5 符号层	Brilliant Victory	Gui030.txt	行 35（早期 GUI97.TXT 行 32–36 对应）	胜利分级体系：大胜 / 胜 / 战术胜 / 败 / 平			待填
+O5-02	O5 符号层	Victory	Gui030.txt	行 36（早期 GUI97.TXT 行 32–36 对应）	胜利分级体系：大胜 / 胜 / 战术胜 / 败 / 平			待填
+O5-03	O5 符号层	Tactical Victory	Gui030.txt	行 37（早期 GUI97.TXT 行 32–36 对应）	胜利分级体系：大胜 / 胜 / 战术胜 / 败 / 平			待填
+O5-04	O5 符号层	Loss	Gui030.txt	行 38（早期 GUI97.TXT 行 32–36 对应）	胜利分级体系：大胜 / 胜 / 战术胜 / 败 / 平			待填
+O5-05	O5 符号层	It's A Draw - 	Gui030.txt	行 39（早期 GUI97.TXT 行 32–36 对应）	胜利分级体系：大胜 / 胜 / 战术胜 / 败 / 平			待填
+O5-06	O5 符号层	HONOR ROLL 荣誉榜画面（含栏目标题，为位图烘焙文字）	CWGEN.dat → HEX.S16[0]	图形 800×600；渲染证据 symbol-layer/HEX_honor-roll.png				待填
+O5-07	O5 符号层	MEDALS.S16[0] 勋章界面底图（纯深绿底，无文字；勋章为独立图形）	CWGEN.dat → MEDALS.S16[0]	图形 265×185；渲染证据 symbol-layer/MEDALS_medal-board.png				待填
+O5-08	O5 符号层	exe 内置兵种表含 'Flak'（11 条 × 20 B @ VA 0x492C2C）	PeG030.exe	见 evidence/exe-tables.md				待填

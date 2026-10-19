@@ -1,0 +1,64 @@
+# PeG 场景列表数字序号（**分组**；组内按原英文名字母序）
+# 单人组＝「进行场景」列表（Player3 主国家=0）共 51；多人组＝「开始多人场景」共 10
+# stem	NN	entry	原名	现名	组别
+TUTORIAL	01	0	1-Tutorial	01 教学	单人
+nspegu19	02	0	Allied Drive on Seoul	03 盟军进军首尔	单人
+SEOUL3	03	0	Assault at Seoul	04 首尔突击	单人
+INCHON	04	0	Beachhead at Inchon	05 仁川登陆场	单人
+Khabarovsk3	05	0	Border War at Khabarovsk	06 哈巴罗夫斯克边境战	单人
+PUSAN3	06	0	Breakout Through Pusan	07 突围釜山	单人
+TAEJON3	07	0	Breakthrough at Taejon	09 大田突破	单人
+KAZAN4	08	0	Crazy in Kazan	13 喀山狂想	单人
+Crimson	09	0	Crimson Tide	14 赤色风暴	单人
+Khabarovsk4	10	0	Crossing to Khabarovsk	15 渡河向哈巴罗夫斯克	单人
+Saigon2mp	11	0	Dash for Ho Chi Minh City (2 Player)	16 突进胡志明市（2 人）	单人
+nspegu01	12	0	Defending Seoul	17 保卫首尔	单人
+Eome2	13	0	Enemy of My Enemy 	19 敌人的敌人 	单人
+nspegu10	14	0	Fall Back to Taejon	20 退回大田	单人
+RED_Taipeic	15	0	Formosa Liberation	21 解放台湾	单人
+IRKUTSK3	16	0	Fortress Irkutsk	22 伊尔库茨克要塞	单人
+ALMATY3	17	0	Free Almaty	23 解放阿拉木图	单人
+HANOI2MP	18	0	Fury in Hanoi (2 Player)	24 河内之怒（2 人）	单人
+Ekaterin2mp	19	0	Hordes at Ekaterinburg (2 Player)	26 叶卡捷琳堡蜂拥（2 人）	单人
+IRKUTSK4	20	0	Invasion Irkutsk	27 入侵伊尔库茨克	单人
+Kazansnow3	21	0	Kazan: Crossing the Volga	28 喀山：强渡伏尔加	单人
+Kazansnow4	22	0	Kazan: The Frozen Field	29 喀山：冰封原野	单人
+KAZAN3	23	0	Komrades in Kazan	30 喀山的同志	单人
+Land Reclamation	24	0	Land Reclamation	31 收复失地	单人
+nspegu13	25	0	Last Man Standing in Pusan	32 釜山最后一人	单人
+Vladivostok4	26	0	March Towards Vladivostok	33 向符拉迪沃斯托克进军	单人
+Sakhalin4	27	0	Mountain War on Sakhalin	34 萨哈林山地战	单人
+ALMATY4	28	0	Onward to Almaty	35 进军阿拉木图	单人
+PENANG3	29	0	Pile up at Penang	37 槟城集结	单人
+PENANG4	30	0	Primed for Penang	39 备战槟城	单人
+Ekaterinburg3	31	0	Rails to Ekaterinburg	40 通往叶卡捷琳堡的铁路	单人
+KAZAN2MP	32	0	Rally at Kazan (2 Player)	41 喀山集结（2 人）	单人
+nspegu16	33	0	Recapture Taejon	42 夺回大田	单人
+PUSAN2MP	34	0	Redemption at Pusan (2 Player)	43 釜山救赎（2 人）	单人
+Astrakhan2mp	35	0	Repulse at Astrakhan (2 Player)	44 阿斯特拉罕击退（2 人）	单人
+RetStal27	36	0	Return to Stalingrad 2.7	45 重返斯大林格勒 2.7	单人
+Revolution	37	0	Revolution	46 革命	单人
+Vladivostok3	38	0	Rumble on the Roads to Vladivostok	47 符拉迪沃斯托克路上轰鸣	单人
+Sakhalin2mpb	39	0	Sacking Sakhalin (2 Player)	48 洗劫萨哈林（2 人）	单人
+Sakhalin3	40	0	Sacrifice at Sakhalin Island	49 萨哈林岛牺牲	单人
+Sakhalin2mp	41	0	Sakhalin: Battle in the Wilds (2 Player)	50 萨哈林：荒野之战（2 人）	单人
+Sarajevo	42	0	Siege of Sarajevo (2 Players)	51 围攻萨拉热窝（2 人）	单人
+nspegu25	43	0	Storming Volgograd	53 强攻伏尔加格勒	单人
+Volgograd2mp	44	0	Storming Volgograd (2 Player)	54 强攻伏尔加格勒（2 人）	单人
+RED_TAIPEI	45	0	Tempest in Taipei	55 台北风暴	单人
+TAIPEI1	46	0	Tempest in Taipei	56 台北风暴	单人
+Demise of Osma	47	0	The Demise of Osma bin Ladin	57 奥萨马·本·拉登的覆灭	单人
+Volokolamsk2	48	0	The Highway at Volokolamsk	58 沃洛科拉姆斯克公路	单人
+PUSAN4	49	0	The Sack of Pusan	59 洗劫釜山	单人
+Taejon2mp	50	0	Trading Blows in Taejon (2 Player)	60 大田交锋（2 人）	单人
+Ekaterinburg4	51	0	Westward to Ekaterinburg	61 西进叶卡捷琳堡	单人
+Vladivostok3mp	01	0	Advance on Vladivostok (3 Player)	02 向符拉迪沃斯托克推进（3 人）	多人
+SEOUL4MP	02	0	Breakout at Seoul (4 Player)	08 首尔突围（4 人）	多人
+CHIR3MP	03	0	Charge at Chir (3 Player)	10 奇尔冲锋（3 人）	多人
+Bangkok4mp	04	0	Clash at Bangkok (4 Player)	11 曼谷冲突（4 人）	多人
+Khabarovsk3mp	05	0	Crashing Khabarovsk (3 Player)	12 强袭哈巴罗夫斯克（3 人）	多人
+Ulanude3mp	06	0	Defiance at Ulan Ude (3 Player)	18 乌兰乌德抗命（3 人）	多人
+Almaty3mp	07	0	Havoc at Almaty (3 Player)	25 阿拉木图鏖战（3 人）	多人
+Penang4mp	08	0	Payback at Penang (4 Player)	36 槟城复仇（4 人）	多人
+Irkutsk3mp	09	0	Pocketing Irkutsk (3 Player)	38 合围伊尔库茨克（3 人）	多人
+Singapore4mp	10	0	Siege of Singapore (4 Player)	52 新加坡围攻（4 人）	多人

@@ -1,0 +1,12 @@
+* text=auto
+
+# Windows 批处理必须保持 CRLF，否则 cmd.exe 解析 label/goto 会出错
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制（若日后入库）
+*.exe binary
+*.dll binary
+*.png binary
+*.ico binary
+*.zip binary

@@ -1,0 +1,239 @@
+# PeG UI 军事术语表  v1  2026-10-10
+# 用途：PeG（People's General）界面文本中文化的术语基准（Gate-1 术语库）
+# 依据优先级：① OpenPG OPENGUI/strings-zh.txt（同引擎前作，已交付锁定）
+#             ② 工作区 glossary/standard-glossary.tsv（23,200 条）与 work/xscn/master-words.tsv
+#             ③ 军语规范（GJB 军标 / 中国军语习惯）
+# 列：en  zh  类别  依据  备注（含禁用译法）
+en	zh	类别	依据	备注
+# ---- 武器/装备 量词与型号 ----
+M4A1	M4A1	武器型号	规范§3	型号原文保留，不翻译
+M2A3 Bradley	M2A3 Bradley	武器型号	规范§3	型号原文保留
+AT	AT	缩写	规范	反坦克；大写缩写保留
+FlaK	FlaK	缩写	规范	高射炮；大写缩写保留
+BB	BB	缩写	规范	战列舰；大写缩写保留
+ASW	反潜战	战术	技能规范	Anti-Submarine Warfare
+# ---- 载具/单位（编制与兵种）----
+Infantry	步兵	兵种	OpenPG L232	禁用"步兵队"
+Tank	坦克	兵种	OpenPG L232	—
+Recon	侦察	兵种	OpenPG L231	—
+Anti-tank	反坦克	兵种	OpenPG L228	—
+Artillery	炮兵	兵种	OpenPG L229	—
+Air Defense	防空	兵种	OpenPG L225	—
+Fighter	战斗机	兵种	OpenPG L233	—
+Air Support	空中支援	兵种	OpenPG L235	含战术/重型轰炸机
+Attack Helicopter	攻击直升机	兵种	OpenPG	—
+Air Transport	空运	兵种	OpenPG	—
+Submarine	潜艇	兵种	OpenPG L236	—
+Destroyer	驱逐舰	兵种	OpenPG L237	—
+Battleship	战列舰	兵种	OpenPG L238	原 BB
+Carrier	航空母舰	兵种	OpenPG L239	原 CV
+Naval Transport	海上运输	兵种	OpenPG	—
+Aegis Cruiser	宙斯盾巡洋舰	兵种	OpenPG	—
+Corvette	护卫舰	兵种	装甲军团/PC 系	不用「轻型护卫舰」
+Brown Water Boat	内河炮艇	兵种	军语	越战内河作战艇
+Ground Transport	地面运输	兵种	OpenPG	—
+Fortification	要塞	兵种	OpenPG L227	—
+Command+Support	指挥+支援	兵种	OpenPG	—
+Combat Support	战斗支援	兵种	OpenPG L848	—
+Combat Engineer	工兵	兵种	军语	兵种简洁化，不用「战斗工兵」
+Forward Observer	炮兵观察员	兵种	军语	功能直观，不用「前沿观察员」
+Airmobile	空中机动	属性	OpenPG L838	—
+Airliftable	可空运	属性	军语	—
+# ---- 军衔/编制 ----
+Captain	上尉	军衔	规范§4	—
+Colonel	上校	军衔	规范§4	—
+General	上将	军衔	规范§4	—
+Field Headquarters	战地司令部	编制	OpenPG L309	⚠️禁用"野战司令部"
+Field HQ	战地司令部	编制	OpenPG L309	—
+HQ	司令部	编制	OpenPG L197	Field HQ 的简写
+Headquarters	司令部	编制	OpenPG L197	—
+US Marine Corps	美国海军陆战队	阵营	军语	—
+Rangers	游骑兵	编制	军语	美军游骑兵
+Tunnel Rats	坑道兵	编制	通俗化	去俚语
+Guerilla	游击队	编制	军语	—
+Ranger	突击队	编制	军语	★2026-10-12 裁决：以界面层为准（行596＝突击队）
+Paratroop	伞兵	编制	军语	—
+# ---- 战术/战斗 ----
+Prestige	威望	游戏机制	装甲军团2 官方中文	⚠️与 OpenPG 的「声望」不同；本作取 PC 系口径（禁用「声望/资历」）
+Overstrength	超编	游戏机制	OpenPG L256	超编部队
+Replacements	补充兵员	游戏机制	OpenPG L267	⚠️**禁用"补充兵"**；简式"补员"
+Supply	补给	游戏机制	OpenPG L266	—
+Requisition	征募	游戏机制	OpenPG L311	—
+Upgrade	升级	游戏机制	OpenPG L312	—
+Reassign	重新指派	游戏机制	OpenPG L244	—
+Entrenchment	工事	战术	军语	构筑工事
+Overwatch	警戒射击	战术	OpenPG L910	—
+Shock Tactics	震慑战术	战术	OpenPG L913	—
+Infiltrator	渗透者	战术	OpenPG L900	渗透战术
+River Assault	渡河突击	战术	OpenPG	—
+Interdiction	空中封锁	战术	通俗化	不用「遮断」
+Wild Weasel	防空压制	战术	通俗化	功能命名，不用直译「野鼬鼠」
+Defensive Support	防御支援	战术	OpenPG	—
+Close Support Fire	近距支援火力	战术	OpenPG L158	—
+Support Fire	支援火力	战术	OpenPG L157	—
+Reactive Defense!	防御反击！	战斗提示	通俗化	提示语可读
+Attack Broken Off!	攻击中止！	战斗提示	OpenPG L159	—
+Overrunning	碾压中	战斗提示	OpenPG L147	碾压突击
+Suppressed	已压制	战斗提示	OpenPG	—
+Destroyed	已击毁	战斗提示	OpenPG L146	—
+Surrender	投降	战斗提示	OpenPG L165	—
+Fleeing Port	弃港而逃	战斗提示	OpenPG L163	—
+Scuttling	自沉	战斗提示	OpenPG L164	—
+Ambushed!	遭伏击！	战斗提示	OpenPG	—
+Out of the sun!	背阳突袭！	战斗提示	OpenPG L153	—
+Surprise Contact!	意外接触！	战斗提示	OpenPG L154	—
+# ---- 战场要素 ----
+Victory Hex / VH	胜利格	战场要素	军语	保留缩写 VH 作后缀
+Supply Hex	补给格	战场要素	军语	—
+Trigger Hex	触发格	战场要素	军语	—
+Reaction Hex	反应格	战场要素	军语	—
+ZOC	ZOC	缩写	规范	控制区；大写保留
+LOS	LOS	缩写	规范	视线；大写保留
+LOF	LOF	缩写	规范	射界；大写保留
+# ---- 战斗数值 ----
+Soft Target	软目标	数值	OpenPG	—
+Hard Target	硬目标	数值	OpenPG	—
+Hard Attack	硬目标杀伤	数值	GJB 1365-92 + OpenPG LOCKED	硬目标＝GJB 1365-92 正式军语；数值用「杀伤」不用「攻击」。旧译「对硬攻击」「对装甲攻击」均已废
+Soft Attack	软目标杀伤	数值	GJB 1365-92 + OpenPG LOCKED	软目标＝GJB 1365-92 正式军语；数值用「杀伤」不用「攻击」。旧译「对软攻击」「对人员攻击」均已废
+Air Attack	对空杀伤	数值	量度词口径	数值用「杀伤」不用「攻击」
+Helicopter Attack	对直升机杀伤	数值	量度词口径	数值用「杀伤」不用「攻击」
+Ground Defense	对地防御	数值	OpenPG L303	—
+Air Defense	对空防御	数值	OpenPG L304	—
+Close Defense	近距防御	数值	OpenPG L305	—
+Indirect Defense	远程防御	数值	OpenPG L306	对齐前作，不用「间接防御」
+Close Attack	近距杀伤	数值	量度词口径	数值用「杀伤」不用「攻击」
+Fire Range	射程	数值	OpenPG L295	—
+Spotting Range	侦察范围	数值	OpenPG L297	—
+Ammo	弹药	数值	OpenPG L293	—
+Strength	兵力	数值	OpenPG L294	—
+Current Strength	当前兵力	数值	军语	—
+Experience	经验	数值	OpenPG L290	—
+Leader	指挥官	数值	OpenPG L287	—
+Profile	轮廓	数值	机制	★2026-10-12 订正（原「概况」通俗化过头、义失）；原文＝单位轮廓/曝露度
+# ---- 结果/菜单 ----
+Brilliant Victory	决定性胜利	战果	OpenPG L108	⚠️禁用"大胜"
+Victory	胜利	战果	OpenPG L109	—
+Tactical Victory	战术胜利	战果	OpenPG L110	—
+Loss	失败	战果	OpenPG L111	—
+It's A Draw	平局	战果	军语	—
+Next Unit	下一部队	菜单	OpenPG L193	⚠️禁用"下一单位"
+Previous Unit	上一部队	菜单	OpenPG	—
+Cancel Move	取消移动	菜单	OpenPG L194	—
+Mount - Dismount	上车 - 下车	菜单	OpenPG L264	—
+Sea Transport	登船 - 登陆	菜单	OpenPG L265	海运/登陆
+Air Mode	空中模式	菜单	OpenPG L198	—
+Strategic Map	战略地图	菜单	OpenPG L199	原"战略/常规地图"过长，按格宽缩写
+Game Functions	游戏功能	菜单	OpenPG L205	—
+Additional Options	更多选项	菜单	OpenPG L202	⚠️禁用"其他选项"
+Chat	聊天	菜单	OpenPG L201	—
+End Turn	结束回合	菜单	OpenPG L204	—
+Dossier	战后报告	菜单	OpenPG L248	⚠️禁用"部队档案"
+Show Hexsides	显示网格	菜单	OpenPG L213	—
+Show Terrain	显示地形	菜单	OpenPG L212	—
+Inspect Unit	查看部队	菜单	OpenPG L313	⚠️禁用"检视部队"
+Go To Unit	定位部队	菜单	OpenPG L254	—
+Upgrade Unit	升级部队	菜单	OpenPG L257	—
+Reassign Unit	重新指派部队	菜单	OpenPG L258	—
+Overstrength Unit	超编部队	菜单	OpenPG L256	—
+Undo Last Action	撤销上一步	菜单	军语	—
+Full Screen	全屏	菜单	OpenPG L203	—
+Exit Game	退出游戏	菜单	OpenPG L190	—
+Preview/Demo	演示版	菜单	—	—
+# ---- 地形/气候 ----
+Dry	干燥	地形	OpenPG L127	—
+Frozen	冻结	地形	OpenPG L128	—
+Fair	晴好	天气	OpenPG L121	—
+Overcast	阴天	天气	OpenPG L122	—
+Rain	雨天	天气	OpenPG L123	—
+Snow	雪天	天气	OpenPG L124	—
+Tracked	履带式	移动方式	OpenPG L84	—
+Half-Tracked	半履带式	移动方式	OpenPG	—
+Wheeled	轮式	移动方式	OpenPG L86	—
+Leg	徒步	移动方式	OpenPG L87	—
+Light Tracked	轻型履带式	移动方式	OpenPG	—
+Air	空中	移动方式	OpenPG	—
+Deep Naval	远洋	移动方式	OpenPG	—
+Coastal	近海	移动方式	OpenPG	—
+Amphibious	两栖	移动方式	OpenPG L91	—
+All Terrain Vehicle	全地形车辆	移动方式	OpenPG	—
+Shoot and Scoot	打了就跑	战术	通俗化	玩家口语，不用「快打快撤」
+Blitzer	闪电战	指挥官技能	通俗化	玩家熟词，不用「闪击」
+Ground Taker	攻坚专家	指挥官技能	通俗化	技能形象化，不用「占领者」
+Ambusher	伏击者	指挥官技能	通俗化	通行译法，不用「埋伏者」
+Multiple Counter-Battery	多次炮火压制	特种装备	通俗化	不用「多重反炮兵」
+Sharpshooter	精准射手	指挥官技能	机制	★2026-10-12 订正（原「神射手」与 Marksman 撞名）；手册：远程射击不减半
+
+# ================================================================
+# v1.2 追加：装备名（Equip30）· 将领姓名（name030）· 界面标签（misc030）口径
+# ================================================================
+# ---- 装备名：风格基准取自 OpenPG 前作 equip（型号保留 + 绰号意译 + 补类别）----
+# AH-64A Apache → AH-64A 阿帕奇 | F-14 Tomcat → F-14 雄猫 | M198 → M198 榴弹炮 | MLRS → MLRS 多管火箭炮
+Infantry	步兵	兵种	OpenPG	—
+Light Infantry	轻步兵	兵种	OpenPG	—
+Leg Infantry	徒步步兵	兵种	军语	—
+Motorized Infantry	摩托化步兵	兵种	军语	—
+Armored Infantry	装甲步兵	兵种	OpenPG	—
+Airborne Inf	空降步兵	兵种	军语	—
+Marines	海军陆战队	兵种	OpenPG	—
+Marine Recon	陆战队侦察队	兵种	军语	—
+National Guard	国民警卫队	兵种	OpenPG	—
+Conscript	征召兵	兵种	OpenPG	—
+Garrison	守备队	兵种	OpenPG	—
+People's Militia	民兵	兵种	军语	—
+Foreign Legion	外籍军团	兵种	军语	—
+Guerillas	游击队	兵种	军语	—
+Special Forces	特种部队	兵种	军语	—
+Scout	侦察兵	兵种	OpenPG	—
+Engineer / Sappers	工兵	兵种	OpenPG	—
+Seal Team	海豹小队	兵种	军语	—
+LRRP	远程侦察队	缩写	军语	Long Range Recon Patrol
+Corps HQ	军司令部	编制	军语	—
+Division HQ	师司令部	编制	军语	—
+Bunker	碉堡	工事	OpenPG	—
+Heavy Bunker	重型碉堡	工事	军语	—
+Fort	要塞	工事	OpenPG	—
+Minefield	雷场	工事	军语	—
+Tank Traps	反坦克桩	工事	军语	—
+Sea Mines	水雷	工事	OpenPG	—
+Bridging Unit	架桥单位	工事	军语	—
+Bridging Engnrs	架桥工兵	工事	军语	—
+Minesweeper	扫雷舰	舰艇	OpenPG	—
+Gunboat	炮艇	舰艇	OpenPG	—
+Monitor	浅水重炮舰	舰艇	OpenPG	—
+Cruiser	巡洋舰	舰艇	OpenPG	—
+Heavy Cruiser	重巡洋舰	舰艇	军语	—
+Light Cruiser	轻巡洋舰	舰艇	OpenPG	—
+Aegis Cruiser	宙斯盾巡洋舰	舰艇	军语	—
+Submarine	潜艇	舰艇	OpenPG	—
+Supply Truck	补给卡车	后勤	OpenPG	—
+Ground Transport	地面运输	后勤	OpenPG	—
+Fast Support Ship	快速支援舰	舰艇	军语	—
+# 舰艇命名：舷号代号保留（DD/DDG/CG/CGN/CV/CVN/FFG/BB/LPH），舰名音译
+# DDG Arleigh Burke → DDG 阿利·伯克 | CVN Enterprise → CVN 企业 | FFG O H Perry → FFG 佩里
+# 纯型号一律原样保留（BMP-3 / T-80 / Type 99 / AMX-13 / ZSU-23-4 / M109 / F-16 …）
+# ---- 将领姓名（name030）：能还原汉字的还原，其余音译 ----
+# 中日韩朝台越：按拼音/威妥玛/罗马字/汉越词还原汉字（CHÉN→陈 · DJANG→张 · WONG→黄 · NGUYUN→阮）
+# Rebels 组（真实历史人物）：用约定俗成译名（MAO→毛泽东 · QIU JIN→秋瑾 · GIAP→武元甲 · SITTING BULL→坐牛）
+# 其余国家：标准音译（ADAMS→亚当斯 · GRIGORIEV→格里戈里耶夫 · GARCÍA→加西亚）
+# 格式：`名    (国家)`（3 空格分隔，保持原格式）；国家名与 Gui030 完全一致（Taiwan→中国台湾）
+# ---- 界面标签（misc030）----
+Counterbattery Fire!	炮火反击！	战斗提示	通俗化	B轨；不用「反炮兵」
+Expected Losses:	预计损失:	标签	通俗化	—
+Attk: / Dfnd: / Ent:	杀伤:/防御:/工事:	标签	通俗化	缩写展开
+Clear	开阔地	地形	军语	—
+Dense Urban	密集城区	地形	军语	—
+Escarpment	陡崖	地形	军语	—
+Impassable River	不可通行河流	地形	军语	—
+
+# ---- 第 32 轮（2026-10-10）：术语统一 / 补漏 ----
+Air Mission	空中任务 / 出击	战术	★定稿(第34轮,用户拍板)	⚠️**按词性分工**：面板名·资源名(名词)＝「空中任务」(行406/517/559-561)；动作·按钮·事件(动词)＝「出击」(行487-491/513/597-598)。禁用整串「空中出击」(第32轮试行版)
+Air Transport	空中运输	兵种	对齐	⚠️兵种名不用「空运」（与 地面运输/海上运输 对齐）；按钮/任务仍作「空运」
+Air Support	空中支援	兵种	OpenPG L235	含战术/重型轰炸机（与面板名「空中任务」并存，用户接受此同源命名）
+SA-6 Gainful	SA-6 有利	装备名	北约代号意译	⚠️不用「根弗」（无出处的音译）；同族 SA-8 壁虎/SA-10 轰鸣/SA-11 牛虻
+SA-9 Gaskin	SA-9 灯笼裤	装备名	北约代号意译	Gaskin=马裤；中文军史通行
+Metis	混血儿	装备名	俄语原名意译	俄«Метис»＝混血儿；非希腊神话
+Shorland S53	肖兰 S53	装备名	名称意译	同族 Spartan/Condor/Fuchs 均意译
+Screen	掩护	装备后缀	统一	⚠️「X Screen」后缀统一译「掩护」（如 BRDM-1 掩护 / WZ523 掩护）
+AT	反坦克	装备后缀	统一	⚠️「X AT」后缀统一译「反坦克」（LAV AT / BRDM-2 AT / BMD-3 AT …）
+
+Marksman	神射手	指挥官技能	机制	与 Sharpshooter（精准射手）区分

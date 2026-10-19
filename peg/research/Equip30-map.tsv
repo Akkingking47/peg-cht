@@ -1,0 +1,277 @@
+# PeG Equip30 译文映射（原文串模式；未列出＝原样保留）
+# 依据 ui-glossary.tsv + 术语平衡口径.md；基准取自 OpenPG 前作 equip
+101 Air Assault	第101空中突击师
+122 Air Mobile	第122空中机动部队
+15th Airborne	第15空降师
+2S6M Tunguska	2S6M 通古斯卡
+75th Rangers Reg	第75游骑兵团
+A-10 Warthog	A-10 疣猪
+AAAV Amphib Assault	AAAV 两栖突击车
+AC-130U Spooky Gunship	AC-130U 幽灵炮艇机
+AH-1W Super Cobra	AH-1W 超级眼镜蛇
+AH-1Z Viper	AH-1Z 蝰蛇
+AH-64 Apache	AH-64 阿帕奇
+AH-64A Apache	AH-64A 阿帕奇
+AH-64D Longbow	AH-64D 长弓
+AH-66 Comanche	AH-66 科曼奇
+AH-69 Seminole	AH-69 塞米诺尔
+AV-8B Harrier	AV-8B 鹞
+Abrams M1A1	M1A1 艾布拉姆斯
+Aegis Cruiser	宙斯盾巡洋舰
+Air Assault Marines	空中突击陆战队
+Air Support	空中支援
+Airborne Inf	空降步兵
+Akula [X]	阿库拉 [X]
+Armored Infantry	装甲步兵
+Avenger	复仇者
+B-2 Bomber	B-2 轰炸机
+BB Iowa	BB 衣阿华
+BRDM-1 Scout	BRDM-1 侦察
+Badger	獾式
+Berkut	金雕
+Bison	野牛
+Blackhawk	黑鹰
+Bradley AT	布雷德利 反坦克
+Bridging Engnrs	架桥工兵
+Bridging Unit	架桥单位
+Bunker	碉堡
+C-17 Globemaster	C-17 环球霸王
+C-5B Galaxy	C-5B 银河
+CG Bunker Hill	CG 邦克山
+CG Kara	CG 卡拉
+CG Slava	CG 光荣
+CG Sovremenny	CG 现代
+CG Ticonderoga	CG 提康德罗加
+CG Udaloy	CG 无畏
+CG Udaloy II	CG 无畏 II
+CGN Kirov	CGN 基洛夫
+CH-47D Chinook	CH-47D 支奴干
+CV Akbar	CV 阿克巴
+CV Chakri Nareubet	CV 查克里·纳吕贝特
+CV Foch	CV 福煦
+CV Garibaldi	CV 加里波第
+CV Invincible	CV 无敌
+CV Kitty Hawk	CV 小鹰
+CV Viraat	CV 维拉特
+CVN Charles de Gaulle	CVN 戴高乐
+CVN Churchill	CVN 丘吉尔
+CVN Enterprise	CVN 企业
+CVN Jefferson	CVN 杰斐逊
+CVN Kusnetzov	CVN 库兹涅佐夫
+CVN Mao	CVN 毛
+CVN Roosevelt	CVN 罗斯福
+Centurion Mk13	百人队长 Mk13
+Challenger II	挑战者 II
+Challenger III	挑战者 III
+Condor	秃鹰
+Conscript	征召兵
+Corps HQ	军司令部
+Cruiser	巡洋舰
+Crusader	十字军
+DD Arleigh Burke	DD 阿利·伯克
+DD Kongo	DD 金刚
+DD Spruance	DD 斯普鲁恩斯
+DDG Asagiri	DDG 朝雾
+DDG Cassard	DDG 卡萨尔
+DDG De La Penne	DDG 德拉潘内
+DDG Delhi	DDG 德里
+DDG Haruna	DDG 榛名
+DDG Hatsuyuki	DDG 初雪
+DDG Luda	DDG 旅大
+DDG Luhai	DDG 旅海
+DDG Luhu	DDG 旅沪
+DDG Murasame	DDG 村雨
+DDG Rajput	DDG 拉杰普特
+DDG Suffren	DDG 絮弗伦
+DDG Tachikaze	DDG 太刀风
+Division HQ	师司令部
+Dragoon	龙骑兵
+Engineer	工兵
+F-14 Tomcat	F-14 雄猫
+F-16 Falcon	F-16 战隼
+F-16A Falcon	F-16A 战隼
+F-16B Falcon	F-16B 战隼
+F-22 Raptor	F-22 猛禽
+FFG Abukuma	FFG 阿武隈
+FFG Amazon	FFG 亚马逊
+FFG Arriyad	FFG 利雅得
+FFG Brandenburg	FFG 勃兰登堡
+FFG Broadsword	FFG 大刀
+FFG Duke	FFG 公爵
+FFG Floreal	FFG 花月
+FFG Godvari	FFG 戈达瓦里
+FFG Kang Ting	FFG 康定
+FFG Krivak	FFG 克里瓦克
+FFG Lafayette	FFG 拉法耶特
+FFG Maestrale	FFG 密斯特拉尔
+FFG O H Perry	FFG 佩里
+FFG Tang	FFG 唐
+FMC M163A1 Vulcan	FMC M163A1 火神
+Fast Support Ship	快速支援舰
+Foreign Legion	外籍军团
+Fort	要塞
+Fuchs	狐式
+Garrison	守备队
+Gepard 2	猎豹 2
+Ground Transport	地面运输
+Guerillas	游击队
+Gunboat	炮艇
+Gurkha	廓尔喀
+HMMWV Scout	HMMWV 侦察
+HMMWV Troop	HMMWV 运兵
+Han [X]	汉级 [X]
+Harrier	鹞式
+Heavy Bunker	重型碉堡
+Heavy Cruiser	重巡洋舰
+IL-76 Candid	IL-76 耿直
+IL-76B Candid	IL-76B 耿直
+Inf-fragments	步兵残部
+J-10 Fighter	J-10 战斗机
+J-10 Fighter ASW	J-10 战斗机 反潜
+JH-7 Fighter	JH-7 战斗轰炸机
+JH-7b Fighter	JH-7b 战斗轰炸机
+Javelin	标枪
+KIFV AD	KIFV 防空
+Ka-50 Werewolf	Ka-50 狼人
+Ka-50B Werewolf	Ka-50B 狼人
+Ka-52 Hokum	Ka-52 短吻鳄
+Knight	骑士
+Kornet	短号
+Kwang Hwa	光华
+LAV AT	LAV 反坦克
+LAV AT - TOW 2A	LAV 反坦克 - TOW 2A
+LAV AT - TOW 2B	LAV 反坦克 - TOW 2B
+LCAC Amphib Tran	LCAC 两栖运输
+LCAC Supply Ship	LCAC 补给船
+LCAC Transport	LCAC 运输
+LHA-1 Assault Ship	LHA-1 两栖攻击舰
+LHD-1 Assault Ship	LHD-1 两栖攻击舰
+LPH Tarawa	LPH 塔拉瓦
+LRRP	远程侦察队
+LTH 155-rocket	LTH 155 火箭炮
+Leclerc	勒克莱尔
+Leclerc II	勒克莱尔 II
+Leg Infantry	徒步步兵
+Leopard 1A4	豹1A4
+Leopard 2A5	豹2A5
+Light Cruiser	轻巡洋舰
+Light Inf 2001	轻步兵 2001
+Light Inf 2008	轻步兵 2008
+Light Inf 2010	轻步兵 2010
+Light Infantry	轻步兵
+Light Infantry 2009	轻步兵 2009
+Los Angeles Class [X]	洛杉矶级 [X]
+M104 Wolverine	M104 狼獾
+M109A6 Paladin	M109A6 圣骑士
+M1128 Mobile Gun	M1128 机动火炮
+M113 Gavin	M113 加文
+M163 Vulcan	M163 火神
+M1977 SPH	M1977 自行榴弹炮
+M1A2 Abrams	M1A2 艾布拉姆斯
+M1A2 Abrams TUSK	M1A2 艾布拉姆斯 TUSK
+M1A3 Abrams	M1A3 艾布拉姆斯
+M2 Bradley	M2 布雷德利
+M2A1 Schwarzkopf	M2A1 施瓦茨科普夫
+M2A3 Bradley	M2A3 布雷德利
+M2A4 Bradley	M2A4 布雷德利
+M3A1 Powell	M3A1 鲍威尔
+M3A3 Recon Squadron	M3A3 侦察中队
+M3A3 Scout	M3A3 侦察
+M3A4 Recon Squadron	M3A4 侦察中队
+M6 Linebacker	M6 后卫
+M60A1 AVLB	M60A1 装甲架桥车
+M777 155 Howitzer	M777 155 榴弹炮
+M777 155 LWH	M777 155 轻型榴弹炮
+MIM-23 Hawk	MIM-23 霍克
+MLRS	MLRS 多管火箭炮
+MLRS-1 (counter battery)	MLRS-1（炮火压制）
+Marder 1A3	黄鼠狼 1A3
+Marder 2A	黄鼠狼 2A
+Marder AT	黄鼠狼 反坦克
+Marine Recon	陆战队侦察队
+Marines	海军陆战队
+Metis	混血儿
+Mi-24 Hind	Mi-24 雌鹿
+Mi-28 Havoc	Mi-28 浩劫
+Mig-27 Flogger J	Mig-27 鞭挞者 J
+Milan	米兰
+Minefield	雷场
+Minesweeper	扫雷舰
+Ming Type 35	明级 35
+Mistral	西北风
+Monitor	浅水重炮舰
+Motorized Infantry	摩托化步兵
+Mujahdin Mortar	圣战者 迫击炮
+Mujahidin 105mm	圣战者 105mm
+Mujahidin 155mm	圣战者 155mm
+National Guard	国民警卫队
+Ozelot	豹猫
+Patriot	爱国者
+People's Militia	民兵
+Piranha	食人鱼
+Red Arrow	红箭
+Roland 2	罗兰 2
+Roland 3	罗兰 3
+SA-10B Grumble	SA-10B 轰鸣
+SA-11 Gadfly	SA-11 牛虻
+SA-13 Gopher	SA-13 金花鼠
+SA-17 Grizzly	SA-17 灰熊
+SA-6 Gainful	SA-6 有利
+SA-8 Gecko	SA-8 壁虎
+SH-2G Sea Sprite	SH-2G 海妖
+SO-122 Gvozdika	SO-122 康乃馨
+SO-152 Akatsiya	SO-152 金合欢
+Sa-9 Gaskin	SA-9 灯笼裤
+Sappers	工兵
+Scimitar	弯刀
+Scorpion	蝎式
+Scorpion 90	蝎式 90
+Scorpion AT	蝎式 反坦克
+Scout	侦察兵
+Sea Mines	水雷
+Seal Team	海豹小队
+Seawolf/Harpoon	海狼/鱼叉
+Seawolf/Tomahawk	海狼/战斧
+Shanghai V	上海 V
+Spartan	斯巴达人
+Special Forces	特种部队
+Stealth	隐身战机
+Stinger	毒刺
+Stingray II	黄貂鱼 II
+Stormer	风暴者
+Stormer AD	风暴者 防空
+Stormer AT	风暴者 反坦克
+Strela	箭式
+Stryker ATGM	斯特赖克 反坦克导弹
+Stryker Engineer	斯特赖克 工兵
+Stryker Infantry	斯特赖克 步兵
+Stryker Scout	斯特赖克 侦察
+Su-25 Frogfoot	Su-25 蛙足
+Submarine	潜艇
+Supply Truck	补给卡车
+TRACER II Scout	TRACER II 侦察
+TRACER Scout	TRACER 侦察
+TRIGAT	崔格特
+Tank Traps	反坦克桩
+Tiger	虎式
+Tornado	狂风
+Trackwolf Scout	Trackwolf 侦察
+UH-60L Blackhawk	UH-60L 黑鹰
+VBL AD	VBL 防空
+VBL AT	VBL 反坦克
+WZ523 Scout	WZ523 侦察
+WZ523 Screen	WZ523 掩护
+Warrior AT	武士 反坦克
+Wiesel AT	鼬鼠 反坦克
+Wiesel SAM	鼬鼠 防空导弹
+YW 551 AT	YW 551 反坦克
+YW-531a AT	YW-531a 反坦克
+YW-531b AT	YW-531b 反坦克
+
+# ---- 第 32 轮补漏：角色后缀统一 / 名称补译 ----
+AMX-10P AT	AMX-10P 反坦克
+BMD-3 AT	BMD-3 反坦克
+BRDM-1 Screen	BRDM-1 掩护
+BRDM-2 AT	BRDM-2 反坦克
+BRDM-3 AT	BRDM-3 反坦克
+Shorland S53	肖兰 S53

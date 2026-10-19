@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────────────────────────
+# peg-cht｜入库原则
+#   入库：脚本、译文真源表、方法论文档、技术档案
+#   不入库：游戏本体与原始素材、成品文本、中间产物、日志
+# ─────────────────────────────────────────────────────────────
+
+# 1. 可执行文件与媒体（版权内容，一律不入库）
+*.exe
+*.dll
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.ico
+*.zip
+*.7z
+*.rar
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# 2. 游戏数据格式（场景 / 地图 / 部队 / 描述框 —— 版权内容）
+*.SCN
+*.scn
+*.MAP
+*.map
+*.cam
+*.eqp
+*.ply
+*.STR
+*.pgscn
+*.pgeqp
+*.pgbrf
+
+# 3. 原始文本与成品文本（只保护 peg/testbed 下的；
+#    peg/research 下的对照表是研究资产，必须入库）
+peg/testbed/**/*.txt
+peg/testbed/backup/
+peg/testbed/backup-scn-flag/
+peg/testbed/backup-ui-src/
+peg/testbed/scn-zh/
+peg/testbed/*.pre-*
+peg/research/evidence/
+!peg/research/*.txt
+!requirements.txt
+
+# 4. 中间产物（可由「脚本 ＋ 译文表 ＋ 你自己的游戏副本」复算）
+work/peg/out/
+work/peg/s16/
+work/peg/pfs/
+**/out-*/
+**/out/
+**/_regen-*/
+
+# 5. 临时
+*.log
+*.bak
+*.tmp
+*.pre-*
+*.before-*
+*~
+Thumbs.db
+.DS_Store

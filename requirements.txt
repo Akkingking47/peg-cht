@@ -1,0 +1,42 @@
+# ============================================================================
+# 汉化工程 · Python 依赖清单（唯一真源）
+# ----------------------------------------------------------------------------
+# 解释器：C:\Python314\python.exe   实测 Python 3.14.7
+# 证据：本文件每个版本号都逐字取自实测
+#         C:\Python314\python.exe -m pip freeze
+#       「引用文件数」取自全仓 import 普查（971 个 .py 文件）。
+# 用法：见根目录 env.cmd（注入 UTF-8 变量 / 自检 / 安装）
+#         call env.cmd install   ==   "%PY%" -m pip install -r requirements.txt
+# 纪律：改环境 = 改本文件与 env.cmd；README.md / MEMORY.md 只指向这一处。
+# ============================================================================
+
+# ── 一、实测被工作区脚本 import 的第三方包（跑这些脚本必需）──────────────────
+pillow==12.3.0        # PIL    · 35 个文件（截图取证 / 图集 / 图形诊断）
+pefile==2024.8.26     # pefile · 20 个文件（PE 导入表、exe 等长补丁）
+numpy==2.5.3          # numpy  ·  4 个文件（截图条纹分析、图形量测）
+
+# ── 二、按需安装：非核心流水线必需 ──────────────────────────────────────────
+# capstone —— 逆向 / 反汇编工具链的硬依赖：45 个文件 import，其中 42 处是
+#   无 try: 保护的顶层 import。但核心 build / 交付流水线 16 个脚本实测 0 引用：
+#     gen_scn_zh · gen_ply_zh · gen_gui030_zh · gen_peg_text · build_glossary ·
+#     apply_master · deploy · progress · layer_gate · faction_place_audit ·
+#     ingest_layers · converge_plan · gen_text · gen_value · deploy_docs · patch-mbcs
+#   ⇒ 只交付汉化成果不必装；跑 dis_at.py / disasm_*.py / hint_pe.py 一类才需要。
+# capstone==5.0.9
+#
+# fontTools —— 仅 _ref\pg-cht\tools\ 下 4 个「官方繁中版考古」脚本 import，
+#   不属于本工程工具链；当前解释器未安装 ⇒ 无实测版本号，故不写死版本。
+# fonttools
+
+# ── 三、缺口：被 import 但当前解释器未安装（无实测版本号，不编造）────────────
+# xlrd —— work\peg\dump_pfs.py:3   import xlrd, os, sys（读 PFS 的 .xls，无保护）
+#   pip freeze 中不存在该包 ⇒ 用到该脚本时再装。
+# xlrd
+
+# ── 四、留档：C:\Python314 已装、但本工作区 971 个 .py 实测 0 引用 ────────────
+# 该解释器与其它项目共用，下列包非本工程依赖（版本照抄实测 pip freeze）：
+# beautifulsoup4==4.15.0 · cffi==2.1.1 · charset-normalizer==3.5.1
+# cryptography==50.0.1 · EbookLib==0.20 · lxml==6.1.3 · pdfminer.six==20260107
+# pycparser==3.0 · pypdf==6.18.1 · python-docx==1.2.0 · python-pptx==1.0.2
+# PyYAML==6.0.3 · six==1.17.0 · soupsieve==2.9.2 · striprtf==0.0.33
+# typing_extensions==4.16.0 · xlsxwriter==3.2.9
