@@ -2,31 +2,55 @@
 # 层表键＝(en, 层, scope)，没有**文件维度** ⇒ 同一英文在不同文件取值不同时压平会造假，故只登记来源。
 # 注：『映射表另有中文』自 m01713-② 起已**并入**（scope=PEGWW2_SCN_OVR，与映射表并存）。
 en	覆盖表中文	来源文件	未并入原因
+=================================	保卫托布鲁克(Tobruk)	SCENARIO/wddtob_m.txt	同键多译
+=================================	坚守防线 - 第2部分	SCENARIO/usvsussrw5_m.txt	同键多译
+A good performance, to be sure. Kyiv has fallen; the Bolshevik armies are cut off without hope of relief.  And now, Moscow is threatened.	纳尔维克(Narvik)	SCENARIO/Wdnarv_m.txt	同键多译
+A good performance, to be sure. Kyiv has fallen; the Bolshevik armies are cut off without hope of relief.  And now, Moscow is threatened.	维斯瓦河	SCENARIO/zz119_m.txt	同键多译
+AIRFIELD	大顿申卡	SCENARIO/SATURN_m.txt	同键多译
+AIRFIELD	苏维埃茨卡亚	SCENARIO/SATURN_m.txt	同键多译
 Avalanche	色当：重制版	SCENARIO/sedan-R_m.txt	同键多译
 Avalanche	西线-06 色当：重制版	SCENARIO/sedan-R_m.txt	同键多译
-Dessau	西线-09 德绍	SCENARIO/windsor-R_m.txt	同键多译
-Dessau	西线-10 德绍	SCENARIO/WINDSOR_m.txt	同键多译
+Comrade General: Comrade Stalin is very pleased with your performance!!! Koenigsberg and Danzig have lived, Kaliningrad and Gdansk are born, our borders are now secured for a long time!!!	佩内明德(Peenemunde)	SCENARIO/RTB28_m.txt	同键多译
+Comrade General: Comrade Stalin is very pleased with your performance!!! Koenigsberg and Danzig have lived, Kaliningrad and Gdansk are born, our borders are now secured for a long time!!!	将军同志：斯大林同志对你的表现非常满意！！！柯尼斯堡(Koenigsberg)与但泽(Danzig)已经消亡，加里宁格勒(Kaliningrad)与但泽(Gdansk)就此诞生，我们的边界将长期安全！！！	SCENARIO/RTB28_m.txt	同键多译
+Dessau	西线-09 温莎	SCENARIO/windsor-R_m.txt	同键多译
+Dessau	西线-09 温莎	SCENARIO/windsor-R_m.txt	同键多译
+Dessau	西线-10 温莎	SCENARIO/WINDSOR_m.txt	同键多译
+Dessau	西线-10 温莎	SCENARIO/WINDSOR_m.txt	同键多译
 Excellent work, Commander. You've got the Krauts high-tailing it back to the fatherland. Looks like you might get another star for this one. I heard you were right up there with your boys!  Good job, good job, son.	北非-03 萨凡纳：重制版	SCENARIO/savannah-R_m.txt	同键多译
 Excellent work, Commander. You've got the Krauts high-tailing it back to the fatherland. Looks like you might get another star for this one. I heard you were right up there with your boys!  Good job, good job, son.	萨凡纳：重制版	SCENARIO/savannah-R_m.txt	同键多译
 Good work Commander!  You have met our expectations.	堡垒行动	SCENARIO/LAH_IT_12_m.txt	同键多译
+Good work Commander!  You have met our expectations.	塞得港(Port Said)（「鹿特丹」行动(Operation Rotterdam)）	SCENARIO/DAK_SP2_m.txt	同键多译
 Good work Commander!  You have met our expectations.	第聂伯河(Dniepr)防御战	SCENARIO/lah_it_18_m.txt	同键多译
 Herr General, Ternopil' is secure. German and Romanian troops are occupying the Ukraine.  This victory is worthy of great praise.  Soon, you will be needed at Army Group North. I am sure that you will do very well.	向柏林前进	SCENARIO/USSR5_m.txt	同键多译
 Herr General, Ternopil' is secure. German and Romanian troops are occupying the Ukraine.  This victory is worthy of great praise.  Soon, you will be needed at Army Group North. I am sure that you will do very well.	将军阁下，塔尔诺波尔(Ternopil')已确保无虞。德军与罗马尼亚军队正在占领乌克兰。这一胜利值得大加赞扬。很快，北方集团军群(Army Group North)就需要你。我相信你会干得非常出色。	SCENARIO/119V.txt	同键多译
 Herr General, this defeat is out of the question, thanks to your stupidity the whole plan was unsuccessful.	东线-05 奇尔河上的土星行动：重制版	SCENARIO/saturn-R_m.txt	同键多译
 Herr General, this defeat is out of the question, thanks to your stupidity the whole plan was unsuccessful.	奇尔河上的土星行动：重制版	SCENARIO/saturn-R_m.txt	同键多译
+Kalatsch (#1)	奥廖尔(Orel) (RTB#07)	SCENARIO/RTB07_m.txt	同键多译
+Kalatsch (#1)	里加 (RTB#24)	SCENARIO/RTB24_m.txt	同键多译
 Kyiv has been captured, and your SS PanzerKorps has earned a well-deserved rest.  Take some leave, Herr General Berlin is wonderful this time of year!	东线-11 维堡	SCENARIO/viipuri-R_m.txt	同键多译
 Kyiv has been captured, and your SS PanzerKorps has earned a well-deserved rest.  Take some leave, Herr General Berlin is wonderful this time of year!	维堡	SCENARIO/viipuri-R_m.txt	同键多译
+London	湖泊	SCENARIO/SATURN_m.txt	同键多译
+London	顿河	SCENARIO/SATURN_m.txt	同键多译
+London	顿河（不可通行）	SCENARIO/SATURN_m.txt	同键多译
 Message from:-	北非-07 格兰桥头堡	SCENARIO/lah_it_ngran_m.txt	同键多译
 Message from:-	塞洛高地反击战	SCENARIO/selow_m.txt	同键多译
 Message from:-	柏林(Berlin) - 1945 年 5 月 8 日	SCENARIO/s001_m.txt	同键多译
 Message from:-	格兰桥头堡	SCENARIO/lah_it_ngran_m.txt	同键多译
 Message from:-	红狮行动(Red Lion) - 1946 年 4 月 1 日	SCENARIO/s0016_m.txt	同键多译
+Southall	布利诺夫斯基	SCENARIO/SATURN_m.txt	同键多译
+Southall	杜博夫斯基	SCENARIO/SATURN_m.txt	同键多译
 Superb performance, Herr General!  You have again broken the Soviet's back with your tenacity and skill!  Your troops have earned a well-deserved rest!	东线-24 维堡	SCENARIO/VIIPURI_m.txt	同键多译
 Superb performance, Herr General!  You have again broken the Soviet's back with your tenacity and skill!  Your troops have earned a well-deserved rest!	洛杉矶'46(L.A. '46) - 1946 年 8 月 16 日	SCENARIO/s0023_m.txt	同键多译
 Superb performance, Herr General!  You have again broken the Soviet's back with your tenacity and skill!  Your troops have earned a well-deserved rest!	维堡	SCENARIO/VIIPURI_m.txt	同键多译
+Thames River	顿河	SCENARIO/SATURN_m.txt	同键多译
+Thames River	顿河（不可通行）	SCENARIO/SATURN_m.txt	同键多译
 The Germans have pushed us back to our starting point. We will be lucky if we can halt them.  Your brave men have suffered terribly. You are ordered back to London where you will face a firing squad!	北非-13 马耳他	SCENARIO/MALTA_m.txt	同键多译
 The Germans have pushed us back to our starting point. We will be lucky if we can halt them.  Your brave men have suffered terribly. You are ordered back to London where you will face a firing squad!	马耳他	SCENARIO/MALTA_m.txt	同键多译
 Unfortunately, sir, you have not quite met the expectations of crown and government.  You will be transferred to, what shall we say, a less exciting post.  I believe there is a billet awaiting you in Nepal, training our Gurkha volunteers. I would arrange to obtain warm clothing. You will need it.	东线-25 红色浪潮涌起	SCENARIO/Red_m.txt	同键多译
 Unfortunately, sir, you have not quite met the expectations of crown and government.  You will be transferred to, what shall we say, a less exciting post.  I believe there is a billet awaiting you in Nepal, training our Gurkha volunteers. I would arrange to obtain warm clothing. You will need it.	红色浪潮涌起	SCENARIO/Red_m.txt	同键多译
+Windsor	二战1/2：易北河	SCENARIO/usvsussrw1_m.txt	同键多译
+Windsor	日尔科夫斯基	SCENARIO/SATURN_m.txt	同键多译
 Wonderful victory General !!! You have defeated the Soviets and destroyed their beach-heads on the left bank of the  Don.  Unfortunately the Soviets have defeated our 3rd Army and encircled the German 6th Army and some units of our 3rd Army inside Stalingrad.	东线-32 堡垒行动：重制版	SCENARIO/prok1-R_m.txt	同键多译
 Wonderful victory General !!! You have defeated the Soviets and destroyed their beach-heads on the left bank of the  Don.  Unfortunately the Soviets have defeated our 3rd Army and encircled the German 6th Army and some units of our 3rd Army inside Stalingrad.	堡垒行动：重制版	SCENARIO/prok1-R_m.txt	同键多译
+Zhytomyr	乌格列戈尔斯克	SCENARIO/s0019_m.txt	同键多译
+Zhytomyr	萨哈林(Sakhalin)：「恩格斯」行动	SCENARIO/s0019_m.txt	同键多译

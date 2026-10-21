@@ -3906,8 +3906,8 @@ Adjust Units	调整部队	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	8		SCENARIO BUI
 Adjust Units	调整部队	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	8		SCENARIO BUILDER LABELS 4
 ADVANCED EQUIPMENT!	先进装备！	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	10		MISCELLANEOUS INTERFACE LABELS 11
 ADVANCED EQUIPMENT!	先进装备！	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	10		MISCELLANEOUS INTERFACE LABELS 11
-AI can capture ANY VH to win	电脑夺取任一胜利点即可获胜	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	26		SCENARIO BUILDER LABELS 4
-AI must capture ALL VH to win	电脑须夺取全部胜利点方可获胜	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	28		SCENARIO BUILDER LABELS 4
+AI can capture ANY 胜利格 to win	电脑夺取任一胜利点即可获胜	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	26		SCENARIO BUILDER LABELS 4
+AI must capture ALL 胜利格 to win	电脑须夺取全部胜利点方可获胜	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	28		SCENARIO BUILDER LABELS 4
 Air	空中	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	4		主库:TERM
 Air	空中	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	4		未分类
 Air Attack	空中攻击	TERM	EFILE_NASHORNPBEM	LOCKED	strings	HIGH	strings	SCOPE	8		主库:TERM
@@ -4901,12 +4901,12 @@ Set AI Aggressive	设为电脑进攻	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	12		
 Set AI Defensive	设为电脑防守	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	12		SCENARIO BUILDER LABELS 3
 Set AI Strategy Aggressive	设置 AI 策略为进攻	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	18		SCENARIO BUILDER LABELS 3
 Set AI Strategy Defensive	设置 AI 策略为防御	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	18		SCENARIO BUILDER LABELS 3
-Set Allied Required VH Captures	设定盟军所需夺取的胜利点	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	24		SCENARIO BUILDER LABELS 4
+Set Allied Required 胜利格 Captures	设定盟军所需夺取的胜利点	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	24		SCENARIO BUILDER LABELS 4
 Set As Allied Side	设为盟军方	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	10		SCENARIO BUILDER LABELS 3
 Set As Axis Side	设为轴心国方	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	12		SCENARIO BUILDER LABELS 3
 Set As Eastern Side	设为东方阵营	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	12		SCENARIO BUILDER LABELS 3
 Set As Western Side	设为西方阵营	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	12		SCENARIO BUILDER LABELS 3
-Set Axis Required VH Captures	设定轴心国所需夺取的胜利点	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	26		SCENARIO BUILDER LABELS 4
+Set Axis Required 胜利格 Captures	设定轴心国所需夺取的胜利点	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	26		SCENARIO BUILDER LABELS 4
 Set Country	设置国家	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	8		SCENARIO BUILDER LABELS 3
 Set Country	设置国家	TERM	PEG_UI	LOCKED	ui	HIGH	ui	SCOPE	8		SCENARIO BUILDER LABELS 3
 Set Number Of Players	设置玩家数	TERM	PEGWW2_UI	LOCKED	ui	HIGH	ui	SCOPE	10		SCENARIO BUILDER LABELS 3
@@ -5249,7 +5249,7 @@ ZOC	ZOC	TERM	PEG_BASE	POLICY	basis	HIGH	basis	SCOPE	3		保留原文政策
 - If playing with restrictions: Do not requisition new units.	- 如果使用限制规则：不要征用新单位。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	36		长文本
 - If playing with restrictions: You can add a Sturmgeschuetz Anti Tank unit, an artillery unit (no heavier than 105mm) and a Krad Infanterie unit to your core forces for the upcoming invasion of Russia.	- 若在限制条件下游玩：你可以为即将到来的入侵俄罗斯，向核心部队中增加一个突击炮(Sturmgeschuetz)反坦克单位、一个炮兵单位（不得重于 105mm）和一个摩托化步兵(Krad Infanterie)单位。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	175		长文本
 - If playing with restrictions: You can deploy the following core units once you have captured the deployment hex (you start the scenario without core unit deployment): 1FlaK+ 4TowedAty+ 9Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT.	- 如果使用限制规则：夺取部署格之后，你可以部署以下核心单位（本场景开始时你无法部署核心单位）：1 高射炮+ 4 牵引炮兵+ 9 步兵+ 1 工兵+ 1 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮+ 1 自行反坦克炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	186		长文本
-- If playing with restrictions: You can deploy the following core units: 1FlaK+ 3TowedAty+ 3Inf+ 0Pio+ 0KradInf+ 1Recon.	- 若在限制条件下游玩：你可以部署以下核心部队：1FlaK+ 3TowedAty+ 3Inf+ 0Pio+ 0KradInf+ 1Recon。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	94		长文本
+- If playing with restrictions: You can deploy the following core units: 1FlaK+ 3TowedAty+ 3Inf+ 0Pio+ 0KradInf+ 1Recon.	- 若在限制条件下游玩：你可以部署以下核心部队：1FlaK+ 3TowedAty+ 第3步兵+ 0Pio+ 0KradInf+ 1Recon。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	97		长文本
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 3TowedAty+ 9Inf+ 1Pio+ 0KradInf+ 1Recon+ 1TowedAT.	- 如果使用限制规则：你可以部署以下核心单位：1 高射炮+ 3 牵引炮兵+ 9 步兵+ 1 工兵+ 0 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	120		长文本
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 4Aty(1SP)+ 6Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT+ 1Pz (Your 2nd Pz unit has been sent to Germany to be reequiped and retrained on Panther tanks - Do not deploy your 2nd Pz unit).	- 如果使用限制规则：你可以部署以下核心单位：1 高射炮+ 4 炮兵（1 自行）+ 6 步兵+ 1 工兵+ 1 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮+ 1 自行反坦克炮+ 1 装甲（你的第2个装甲单位已被送回德国，换装「豹」式坦克并重新训练——不要部署你的第2个装甲单位）。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	240		长文本
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 4Aty(1SP)+ 6Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT+ 1Pz (Your 2nd Pz unit is still in Germany  - Do not deploy your 2nd Pz unit).	- 如果使用限制规则：你可以部署以下核心单位：1 高射炮+ 4 炮兵（1 自行）+ 6 步兵+ 1 工兵+ 1 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮+ 1 自行反坦克炮+ 1 装甲（你的第2个装甲单位仍在德国——不要部署你的第2个装甲单位）。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	208		长文本
@@ -5260,8 +5260,8 @@ ZOC	ZOC	TERM	PEG_BASE	POLICY	basis	HIGH	basis	SCOPE	3		保留原文政策
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 4TowedAty+ 6Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT.	- 若有使用限制：你可以部署以下核心单位：1 高炮 + 4 牵引炮兵 + 6 步兵 + 1 工兵 + 1 摩托化步兵 + 1 侦察 + 1 牵引反坦克炮 + 1 自行反坦克炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	137		长文本
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 4TowedAty+ 6Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT. If you have not lost core units, this means you have to sell off 3 infantry units (11SS Regiment).	- 如果使用限制规则：你可以部署以下核心单位：1 高射炮+ 4 牵引炮兵+ 6 步兵+ 1 工兵+ 1 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮+ 1 自行反坦克炮。如果你没有损失核心单位，这意味着你必须卖掉 3 个步兵单位（党卫军第11团）。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	209		长文本
 - If playing with restrictions: You can deploy the following core units: 1FlaK+ 4TowedAty+ 9Inf+ 1Pio+ 1Krad Inf+ 1Recon+ 1TowedAT+ 1SPAT.	- 如果使用限制规则：你可以部署以下核心单位：1 高射炮+ 4 牵引炮兵+ 9 步兵+ 1 工兵+ 1 摩托车步兵+ 1 侦察+ 1 牵引反坦克炮+ 1 自行反坦克炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	136		长文本
-- If playing with restrictions: You can deploy the following core units: 1FlaK+ 4TowedAty+ 9Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT.	- 若在限制条件下游玩：你可以部署以下核心部队：1FlaK+ 4TowedAty+ 9Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	111		长文本
-- If playing with restrictions: You can expand your core with 6 Infantry Battalions, a Pioniere Battalion and an Anti Tank (AT) Battalion to: 1 FlaK, 3 Aty, 9 Inf, 1 Pio, 1 Recon, 1 Towed AT.	- 若在限制条件下游玩：你可以用 6 个步兵营、1 个工兵营和 1 个反坦克(AT)营扩充你的核心部队，使其达到：1 FlaK、3 Aty、9 Inf、1 Pio、1 Recon、1 Towed AT。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	150		长文本
+- If playing with restrictions: You can deploy the following core units: 1FlaK+ 4TowedAty+ 9Inf+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT.	- 若在限制条件下游玩：你可以部署以下核心部队：1FlaK+ 4TowedAty+ 第9步兵+ 1Pio+ 1KradInf+ 1Recon+ 1TowedAT+ 1SPAT。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	114		长文本
+- If playing with restrictions: You can expand your core with 6 Infantry Battalions, a Pioniere Battalion and an Anti Tank (AT) Battalion to: 1 FlaK, 3 Aty, 9 Inf, 1 Pio, 1 Recon, 1 Towed AT.	- 若在限制条件下游玩：你可以用 6 个步兵营、1 个工兵营和 1 个反坦克(AT)营扩充你的核心部队，使其达到：1 FlaK、3 Aty、第9步兵、1 Pio、1 Recon、1 Towed AT。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	152		长文本
 - If playing with restrictions: You can expand your core with 6 SS Infantry Battalions, a Pioniere Battalion and an Anti Tank (AT) Battalion - all in trucks - to: 1 FlaK, 3 Aty, 9 Inf, 1 Pio, 1 Recon, 1 Towed AT.	- 若按限制游玩：你可以用 6 个党卫军步兵营、1 个工兵营和 1 个反坦克(AT)营——均乘卡车——把核心扩充为：1 高炮、3 炮兵、9 步兵、1 工兵、1 侦察、1 牵引反坦克炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	158		长文本
 - Keep control of the Kharkov VH and capture the Partizan HQ VH where the partisans show up in turn 12.	- 守住哈尔科夫的胜利格，并夺取游击队在第 12 回合出现的游击队司令部胜利格。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	74		长文本
 - Land your troops and take the Amiens victory hex.	- 让你的部队登陆并夺取亚眠胜利格。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	34		长文本
@@ -5367,7 +5367,7 @@ ZOC	ZOC	TERM	PEG_BASE	POLICY	basis	HIGH	basis	SCOPE	3		保留原文政策
 225th RE. Field Company	第225皇家工兵野战连	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	19		长文本
 226th RE. Field Company	第226皇家工兵野战连	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	19		长文本
 22nd/30th/77th Field Regiments RA / 4th Div / II Corps / BEF	第22/30/77皇家野战炮兵团/第4师/第2军/英国远征军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	47		长文本
-23rd Div.Mot. [BEF]	第23摩托化师/[BEF]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
+23rd Div.Mot. [BEF]	第23摩托化师/[英国远征军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	25		长文本
 23rd Exeter/3rd Inf. Div.	第23埃克塞特(Exeter)团/第3步兵师	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 25 Aufkl.-Abt. /  ID / IX AK / AOK 6	第25侦察营 /  / 第9军 / 第6集团军	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	33		长文本
 25-11-1950 Chongchon River, near the Chinese border.	1950年11月25日 清川江，中国边境附近。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	37		长文本
@@ -5404,7 +5404,7 @@ ZOC	ZOC	TERM	PEG_BASE	POLICY	basis	HIGH	basis	SCOPE	3		保留原文政策
 4 German Units (Waffen SS) around Rostoff (NE)	德军 4 个单位（武装党卫军）于罗斯托夫（东北）一带	TEXT	EFILE_NASHORNPBEM	LOCKED	txt	HIGH	txt	SCOPE	49		长文本
 4 Grd Tk Bde/2 Grd Tk Cps	第4近卫坦克旅/第2近卫坦克军	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
 4 Pz. Div	第4装甲师	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	9		长文本
-4 SA Arm. Car Rgt./-/[XIII]	第4SA装甲车团/-/[XIII]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	22		长文本
+4 SA Arm. Car Rgt./-/[XIII]	第4南非装甲车团/-/[XIII]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
 4. Rosiori/8th Cavalry Bde.	4. 罗希奥里(Rosiori)/第8骑兵旅	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	30		长文本
 4. You should complete the operation as soon as possible, because the assault on El Cairo must begin in two or three days.	4. 你应当尽快完成这次行动，因为对开罗(El Cairo)的突击必须在两三天内开始。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	73		长文本
 4/ The 4 Corner Supply Hexes: Become deactivated immediately once the nearest Victory Hex (NW-Dropov Airfield/NE-Rostoff Town Hall/SW-Partisan Base/SE-Oil Depot Alpha) to the corresponsing Supply Hex is taken by any enemy unit. Can be reactivated immediately if Victory Hex recaptured.	4/ 四角补给格：一旦与该补给格对应的最近胜利格（西北-德罗波夫机场／东北-罗斯托夫市政厅／西南-游击队基地／东南-阿尔法油库）被任一敌方单位占领，便立即失效。若该胜利格被夺回，则可立即恢复。	TEXT	EFILE_NASHORNPBEM	LOCKED	txt	HIGH	txt	SCOPE	185		长文本
@@ -5427,17 +5427,17 @@ ZOC	ZOC	TERM	PEG_BASE	POLICY	basis	HIGH	basis	SCOPE	3		保留原文政策
 503rd Hy. Pz. Abt.	第503重型装甲营	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	15		长文本
 503rd Pz. Abt.	第503装甲营	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	11		长文本
 506th Hy. Pz. Abt.	第506重型装甲营	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	15		长文本
-50th Div.Mot. [BEF]	第50摩托化师/[BEF]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
+50th Div.Mot. [BEF]	第50摩托化师/[英国远征军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	25		长文本
 52nd/53rd Field Regiments RA / 42nd (East Lancashire) Div / III Corps / BEF	第52/53皇家野战炮兵团/第42(东兰开夏)师/第3军/英国远征军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	55		长文本
 57th/58th/65th Field Regiments RA / 44th (Home Counties) Div / III Corps / BEF	第57/58/65皇家野战炮兵团/第44(本土郡)师/第3军/英国远征军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	56		长文本
 58 Pi Bn/-/2 Le. Div	第58工兵营/-/第2轻装师	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	22		长文本
 59 Aufkl.-Abt./ 8 Pz.Div. / XLI AK / AOK 4	59侦察营/8装甲师/第41军/第4集团军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	33		长文本
 5th Br (+remanents 4th/6th Br) / 2nd Div / I Corps / BEF	第5旅(含第4/6旅残部)/第2师/第1军/英国远征军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	43		长文本
-5th Div.Mot. [BEF]	第5摩托化师/[BEF]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	17		长文本
+5th Div.Mot. [BEF]	第5摩托化师/[英国远征军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
 600,000 Bolsjeviks are trapped in the Kiev pocket, but we lost valuable time. Send your troops back North for the final assault on Moscow. And don't give me any excuses, I know the raspoetitsa - the dreaded Fall rains - have set in. This will disrupt mobility but we do need to reach Moscow before the winter.	60万布尔什维克被困在基辅包围圈中，但我们浪费了宝贵的时间。把你的部队调回北方，准备对莫斯科的最后突击。别给我找任何借口，我知道「泥泞季」——那可怕的秋雨——已经来了。这会影响机动，但我们必须在入冬前抵达莫斯科。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	210		长文本
-627/-/- [2.SS Pz. Corps]	第627/-/- [2.SS 装甲 军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
+627/-/- [2.SS Pz. Corps]	第627/-/- [2.党卫军 装甲 军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
 65th ATR RA / 50th (Northumbrian) Div / II Corps/ BEF	第65皇家反坦克炮兵团/第50(诺森伯兰)师/第2军/英国远征军	TEXT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn	SCOPE	54		长文本
-666/-/- [2.SS Pz. Corps]	第666/-/- [2.SS 装甲 军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
+666/-/- [2.SS Pz. Corps]	第666/-/- [2.党卫军 装甲 军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
 67 Lgt Art. Bn [Poznan]	第67轻炮兵营 [波兹南(Poznan)]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
 67 Lgt Art. Bn [Poznan]	第67轻炮兵营 [波森(Poznan)]	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	27		长文本
 670/-/- [1. Panzergruppe]	第670/-/- [1. Panzergruppe]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
@@ -5477,7 +5477,6 @@ A fourth year plebe could have done better than that General.	四年级军校生
 A German-Romanian army tries to capture Grozny in the Caucasus Mountains.	一支德罗联军试图夺取高加索山脉(Caucasus Mountains)中的格罗兹尼(Grozny)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	72		长文本
 A good performance, commander, but the brass seems to think you could have moved a lot faster than you did. Don't worry, we'll get them next time.	表现不错，指挥官，但上面那些人似乎认为你本可以推进得快得多。别担心，下次我们收拾他们。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	86		长文本
 A good performance, to be sure. Kyiv has fallen; the Bolshevik armies are cut off without hope of relief.  And now, Moscow is threatened.	确实是一场出色的表现。基辅(Kyiv)已经陷落；布尔什维克各集团军已被切断，救援无望。而现在，莫斯科也受到威胁。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	106		长文本
-A good performance, to be sure. Kyiv has fallen; the Bolshevik armies are cut off without hope of relief.  And now, Moscow is threatened.	维斯瓦河	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	8		长文本
 A horrible massacre... this time the high command has decided to avoid your sepukku, since your services have been requested from Tokyo...	一场惨烈的屠杀……这一次高层决定免您切腹，因为东京方面已要求调用您的部队……	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	76		长文本
 A huge battle against the last Soviet units is about to begin, the Red army will fight to the finish and has countless forces. Unfortunately bad weather conditions are on its side like in 1941...	一场对付苏军最后部队的大战即将开始，红军将战至最后，且兵力不计其数。不幸的是，与 1941 年一样，恶劣天气站在他们一边……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	118		长文本
 A Kamfgruppe of your division will stay on the Eastern front until June 1st, but you are ordered to move to France to prepare the reorganization of Das Reich into a Panzer-Grenadier division.	你师的一个战斗群将留在东线直到6月1日，但你奉命调往法国，为「帝国」师改编为装甲掷弹兵师做准备。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	94		长文本
@@ -5531,7 +5530,7 @@ After 19 days of indecisiveness - known as the 19 day interregnum, Hitler has de
 After 4 days of fighting, Goering decided to force the Dutch in Rotterdam to surrender by bombing the city. When Generalleutnant Schmidt (9th PzDiv) reached an agreement on the terms of surrender of Rotterdam with it's Dutch commander, it was too late to recall all bombers and Rotterdam city center got hit very hard. The same day, Dutch General Winkelman decided to have all equipment destroyed in preparation for the overall Dutch surrender.	经过4天战斗，戈林决定以轰炸城市的方式迫使鹿特丹的荷兰人投降。当施密特中将（第9装甲师）与鹿特丹的荷军指挥官就投降条款达成一致时，已来不及召回所有轰炸机，鹿特丹市中心遭到重创。同一天，荷兰温克尔曼将军决定销毁所有装备，为荷兰全军投降做准备。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	238		长文本
 After a day of heavy fighting the Leibstandarte seized the Klidi Pass.  The British immediately began to withdraw to a defensive line west of Mount Olympus and the Greek 1st Army began to pull out of Albania.	经过一天激战，警卫旗队(Leibstandarte)夺取了克利迪山口(Klidi Pass)。英军随即开始向奥林匹斯山(Mount Olympus)以西的一道防御线撤退，希腊第1集团军也开始撤出阿尔巴尼亚(Albania)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	172		长文本
 After a hard winter in Russia, your division is rested and re-equipped. The division is re-designated as SS Panzer-Grenadier Division Das Reich. As a reaction to the Allied landings in North-Africa, Hitler ordered Operation Anton - the occupation of Vichy France to protect it against the Allies. The French were allowed to hold the port of Toulon, to defend it against an Allied invasion. Now Hitler has changed his mind and wants Operation Lila executed. We are to move into Toulon and capture the Vichy French fleet that Hitler has promised to Mussolini. You will have to move fast because the French are expected to scuttle their fleet, rather than hand it over to us. French GMR and SOL forces are thought to be more favorable to our cause than the rest of the Vichy French troops.	在俄国经历一个严酷的冬天后，你的师得到休整和重新装备，并改称党卫军装甲掷弹兵「帝国」师。为回应盟军在北非登陆，希特勒下令执行「安东」行动——占领维希法国，以防其落入盟军之手。法国人获准保留土伦港，以抵御盟军入侵。如今希特勒改变了主意，要执行「百合」行动。我们要开进土伦，夺取希特勒许诺给墨索里尼的维希法国舰队。你必须行动迅速，因为预计法国人会凿沉舰队，而不是交给我们。据信，法国的 GMR 和 SOL 部队比维希法国其他部队更倾向于我方。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	428		长文本
-After a night marked by continuous infantry battles in puring rain, by dawn the Leibstandarte assaulted bunkers and fortified positions in the second line of defensive works.  In a day of heavy fighting, the panzers of the Leibstandarte engaged the 1st Guards Armoured Brigade and destroyed a large part of it.  The advanced carried the front line to Pokrovka, south-west of Prokhorovka.	在倾盆大雨中经历了一整夜接连不断的步兵战斗之后，拂晓时警卫旗队(Leibstandarte)向第二道防御工事线的地堡与坚固阵地发起突击。在一天的激烈战斗中，警卫旗队的装甲部队与近卫第1装甲旅交战，并歼灭了其大部。这次推进把前线推到了普罗霍罗夫卡(Prokhorovka)西南的波克罗夫卡(Pokrovka)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	269		长文本
+After a night marked by continuous infantry battles in puring rain, by dawn the Leibstandarte assaulted bunkers and fortified positions in the second line of defensive works.  In a day of heavy fighting, the panzers of the Leibstandarte engaged the 1st Guards Armoured Brigade and destroyed a large part of it.  The advanced carried the front line to Pokrovka, south-west of Prokhorovka.	在倾盆大雨中经历了一整夜接连不断的步兵战斗之后，拂晓时警卫旗队(Leibstandarte)向第二道防御工事线的地堡与坚固阵地发起突击。在一天的激烈战斗中，警卫旗队的装甲部队与近卫第1装甲旅交战，并歼灭了其大部。这次推进把前线推到了普罗霍夫卡(Prokhorovka)西南的波克罗夫卡(Pokrovka)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	267		长文本
 After Angloamerican's disembarks in the Afrikan coasts they'd surround us. Due to our lack of forces we failed to resist in battle.	英美军队在非洲海岸登陆后，就将我们合围。由于兵力不足，我们未能抵挡住。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	70		长文本
 After containing the Allied beachhead, but failing to capture Anzio, the Germans established defensive positions. This is your chance to change history. Be aware that your units are the only ones that can attack, so analyse if you main forces will attack Anzio or not. This battle will be harder than the last one.	在遏制住盟军登陆场、但未能夺取安齐奥之后，德军建立了防御阵地。这是你改变历史的机会。注意，你的部队是唯一能进攻的部队，所以要分析你的主力是否会进攻安齐奥。这一战将比上一战更难。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	176		长文本
 After crossing the Ardenne Forest, your task is to strike the enemy at Sedan, where the Frenchs don't expect an attack. Drive your Panzer divisions to cross the Meuse River, and clear this sector, from Sedan to Rethel. Although we surely will surprise the Frenchs, they will sent at least one Army Corps as reinforcements. Exploit at the maximun the Blitzkrieg here, and show what we are capable of.	穿过阿登森林(Ardenne Forest)之后，你的任务是在色当(Sedan)打击敌人，法国人没料到那里会遭到进攻。率领你的装甲师渡过默兹河(Meuse)，并肃清从色当到勒泰勒(Rethel)的这段地区。虽然我们肯定能打法国人一个措手不及，但他们至少会派一个军作为增援。在这里把闪击战发挥到极致，让他们看看我们的本事。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	282		长文本
@@ -5917,6 +5916,8 @@ Commander, the British Navy is fast approaching to aid the already entrenched de
 Commander, The city of Smolensk is your next objective. You will have some help from the 10th Mountain and 2nd Rangers. You must take the city by the end of the month.	指挥官，斯摩棱斯克(Smolensk)城是你的下一个目标。你将得到第10山地师与第2游骑兵的一些协助。你必须在月底之前夺取该城。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	115		长文本
 Commander, the Groundhog saw his shadow so we've got a long winter ahead. Now that Finland is free we need to consolidate our front and relieve Lithuania. The Russians have been knocked off balance so I don't expect this to be too much of a problem. General Patton is cleaning out the Balkans as we speak.	指挥官，土拨鼠看到了自己的影子，所以我们前面还有个漫长的冬天。既然芬兰已获自由，我们需要巩固我们的战线并为立陶宛(Lithuania)解围。俄国人已失去平衡，所以我不认为这会是什么大问题。巴顿(Patton)将军正在清剿巴尔干(Balkans)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	218		长文本
 Commander, the initial amphibious landing has stalled.  You must get on the beach and find a way to break through the enemy defenses.	指挥官，最初的登陆已经停滞。你必须登上滩头，找到突破敌军防御的办法。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	68		长文本
+Commander, the Red Army has torn a gap in our line along the Moselle and is pouring armor toward Arracourt. You will seal the breach and destroy their spearheads before the whole front unravels. Good luck, Commander.	指挥官，红军已在摩泽尔河(Moselle)一线撕开一道缺口，装甲集群正向阿拉库尔(Arracourt)涌来。你必须封住缺口、歼灭其矛头，否则整条战线都将瓦解。祝好运，指挥官。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	154		长文本
+Commander, the Red Army is massing for a decisive assault on the Pommernstellung position. You will hold the wall at all costs and bleed their tank armies white. One last thing: expect their air force to contest every mile of this battle.	指挥官，红军正在集结兵力，准备对「波美拉尼亚阵地」发动决定性突击。你必须不惜一切代价守住壁垒，让他们的坦克集团军在此流尽鲜血。最后一件事：预计敌空军将在这场战斗中争夺每一英里的天空。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	182		长文本
 Commander, the Russians have been slowed down and now it is our turn to take the initiative. Throw the red menace off German soil. You have strong armored and air support.	指挥官，俄国人已被迟滞，现在轮到我们夺取主动权了。把红色威胁赶出德国土地。你有强大的装甲与空中支援。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	100		长文本
 Commander, the stubborn defence put up by the Nazi has been a sort of nightmare for your assaulting troops, but at last you did it. Now please rest and refit for a while.	指挥官，纳粹的顽固防御对你突击的部队来说简直是场噩梦，但你终究做到了。现在请休整与整补一段时间。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	96		长文本
 Commander, the time has come to take the city of Orel. If you can accomplish your mission before the end of the month we still may have a chance to take Moscow by Christmas.	指挥官，夺取奥廖尔城的时候到了。如果你能在月底前完成任务，我们也许还有机会在圣诞节前拿下莫斯科。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	96		长文本
@@ -6040,7 +6041,7 @@ Comrade General you have failed to achieve complete success! The German are evac
 Comrade General you have failed to break the lines on the flanks of Sixth Army! We cannot expelled the Germans now! Vassiliev is very upset with your incompetence!	将军同志，你未能突破第6集团军两翼的防线！我们现在无法把德军逐出了！瓦西里耶夫对你的无能极为不满！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	97		长文本
 Comrade General you have failed to break the lines on the flanks of Sixth Army! We cannot expelled the Germans now! Vassiliev is very upset with your incompetence!	亚眠 - 索姆河	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	13		长文本
 Comrade General you have failed to destroy the Italian Eighth Army! The Germans still threaten to release Sixth Army! Vassiliev is very disatisfied!	将军同志，你未能消灭意大利第8集团军！德国人仍威胁着为第6集团军解围！瓦西里耶夫极为不满！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	88		长文本
-Comrade General you have failed to destroy the Italian Eighth Army! The Germans still threaten to release Sixth Army! Vassiliev is very disatisfied!	普罗霍罗夫卡	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	12		长文本
+Comrade General you have failed to destroy the Italian Eighth Army! The Germans still threaten to release Sixth Army! Vassiliev is very disatisfied!	普罗霍夫卡	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	10		长文本
 Comrade General you have failed to disrupt the German plans! You undecided attack just established some beachheads here and there, but you failed to breach the Eastern wall! Vassiliev is very displeased! You have to do better!	将军同志，你未能打乱德军的计划！你犹疑不决的进攻只零零星星地建立了几个滩头阵地，却未能突破东方壁垒！瓦西里耶夫极为不满！你必须做得更好！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	136		长文本
 Comrade General you have failed to stop the German offensive. The German Sixth Army has escaped! Our southern front is wrecked! The Rodina is in great danger!	将军同志，你未能挡住德军的攻势。德国第6集团军已经逃脱！我们的南线已被打垮！祖国(Rodina)危在旦夕！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	97		长文本
 Comrade General you have failed to stop the Germans completely! Ponyri Station is still threatened! Vassiliev is not pleased with your performance!	将军同志，你未能彻底挡住德军！波内里(Ponyri)车站仍受威胁！瓦西里耶夫对你的表现很不满意！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	88		长文本
@@ -6085,6 +6086,7 @@ Comrade General, on our northern flank there is still danger of counterattack fr
 Comrade General, our troops continue pursuit after Germans. Now you have to cross the Dnieper before they establish stronger positions. For Comrade Stalin liberation of Ukraine is crucial.	将军同志，我军正在继续追击德军。现在你必须在他们建立更坚固的阵地之前渡过第聂伯河(Dnieper)。对斯大林同志来说，解放乌克兰(Ukraine)至关重要。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	138		长文本
 Comrade General, thanks to your previous merits and Comrade Zhukov's personal intercession you have saved your head. Now you have to rebuild your corps.	将军同志，由于你以往的功绩以及朱可夫(Zhukov)同志本人的说情，你保住了脑袋。现在你必须重建你的军。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	96		长文本
 Comrade General, the Wehrmacht has been crushed. Now towards Berlin; it's about 2000 km from our current positions...	将军同志，国防军已被击溃。现在向柏林进军；距我们当前位置约 2000 公里……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	72		长文本
+Comrade General, this is the final assault. Our fronts cross the Oder along the whole line: break through the Seelow Heights, crush the remnants of the Wehrmacht and raise the red banner over Berlin! For the Motherland!	将军同志，这是最后的突击。我各方面军正沿全线强渡奥得河(Oder)：突破塞洛高地(Seelow Heights)，碾碎国防军残部，把红旗插上柏林(Berlin)城头！为了祖国！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	146		长文本
 Comrade General, we congratulate you!  You are a true Hero of the Soviet Union.  Your forces have freed the world from the scourge of fascism, and the people of the world celebrate this victory with you.  The party, in order to show its gratitude, has secured for you an apartment in Moskva, and looks forward to your continued loyal service.  And now, let us drink tea.  The samovar is full!	将军同志，我们祝贺你！你是真正的苏联英雄。你的部队把世界从法西斯的祸害中解放出来，全世界的人民都在与你一同庆祝这场胜利。为表示感激，党已在莫斯科(Moskva)为你安排了一套公寓，并期待你继续忠诚服务。现在，我们来喝茶吧。茶炊是满的！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	226		长文本
 Comrade General, you have arrived early.  We can begin our meeting now.  The samovar has just been refilled if you would like a drink.  Very good.  Let us begin.  The historical dialectic propounded by Marx and Lenin and refined by the Great Stalin has proven its inevitable truth.  The fascist invaders of our homeland have over-extended themselves in a futile attempt to seize the city of Stalingrad.  Here along the Chir River, you and your forces will surge through their defenses and drive southward with maximum speed.  The Red Army of workers and peasants will surround the enemy and force his surrender.	将军同志，你来得早。我们现在可以开会了。茶炊刚续满，如果你想喝一杯的话。很好。我们开始吧。马克思(Marx)与列宁(Lenin)提出、并由伟大的斯大林加以完善的历史辩证法，已证明了它必然的真理。我们祖国的法西斯入侵者为了夺取斯大林格勒(Stalingrad)城而过度伸展，徒劳无功。就在这里，沿奇尔河(Chir)一线，你和你的部队将冲垮他们的防御，以最快速度向南推进。工农红军将包围敌人，迫其投降。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	367		长文本
 Comrade General, you have cleared the way to liberate Ukraine!	将军同志，你已为解放乌克兰清除了道路！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
@@ -6107,7 +6109,6 @@ Comrade General: Comrade Stalin is not pleased with your performance!!!	将军�
 Comrade General: Comrade Stalin is pleased with your performance! Despite some indecisions you were able to destroy Nazi Germany!!! Unfortunately we do not know about Hitler's fate!!!	将军同志：斯大林同志对你的表现很满意！尽管有一些犹疑，你终究消灭了纳粹德国！！！遗憾的是我们不知道希特勒的下场！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	116		长文本
 Comrade General: Comrade Stalin is very pleased with your performance!!! Communist doctrine has gained a precious ally in the Balkans!!!	将军同志：斯大林同志对你的表现非常满意！！！共产主义学说在巴尔干(Balkans)赢得了一个宝贵的盟友！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	99		长文本
 Comrade General: Comrade Stalin is very pleased with your performance!!! Koenigsberg and Danzig have lived, Kaliningrad and Gdansk are born, our borders are now secured for a long time!!!	将军同志：斯大林同志对你的表现非常满意！！！柯尼斯堡(Koenigsberg)与但泽(Danzig)已经消亡，加里宁格勒(Kaliningrad)与格但斯克(Gdansk)就此诞生，我们的边界将长期安全！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	166		长文本
-Comrade General: Comrade Stalin is very pleased with your performance!!! Koenigsberg and Danzig have lived, Kaliningrad and Gdansk are born, our borders are now secured for a long time!!!	将军同志：斯大林同志对你的表现非常满意！！！柯尼斯堡(Koenigsberg)与但泽(Danzig)已经消亡，加里宁格勒(Kaliningrad)与但泽(Gdansk)就此诞生，我们的边界将长期安全！！！	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	162		长文本
 Comrade General: Comrade Stalin is very pleased with your performance!!! Rocket science is no longer a secret for us!!!	将军同志：斯大林同志对你的表现非常满意！！！火箭科学对我们已不再是秘密！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	76		长文本
 Comrade General: Comrade Stalin is very pleased with your performance!!! The Romanian troops have surrendered and Romania has asked for an armistice! Soviet Republic of Moldavia is born, our borders are now secured for a long time!!!	将军同志：斯大林同志对你的表现非常满意！！！罗马尼亚(Romania)军队已经投降，罗马尼亚已请求停战！摩尔达维亚(Moldavia)苏维埃共和国诞生了，我们的边界将长期安全！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	161		长文本
 Comrade General: Comrade Stalin is very pleased with your performance!!! The world will remember that the Red Army liberated people from the most terrific Nazi extermination camp. This capture is an operation which will greatly benefit to the spread of our doctrine.	将军同志：斯大林同志对你的表现非常满意！！！全世界都会记住，是红军把人们从纳粹最恐怖的灭绝营中解放出来。这次夺取行动将大大有利于我们学说的传播。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	144		长文本
@@ -6146,6 +6147,7 @@ Comrade Stalin has ordered you to destroy with sudden assault the forces of capi
 Comrade Stalin wants to capture many scientists as possible. You will	斯大林同志想尽可能多地俘获科学家。你将	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
 Comrade Stalin wants to invade Great Britain.	斯大林同志想入侵大不列颠(Great Britain)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	41		长文本
 Comrade your job in the last battle was brillant, and Comrade Stalin has decided to begin a risked plan to invade America and he trusts you as his main leader to execute this operation.	同志，你在上一场战斗中的表现非常出色，斯大林同志已决定启动一项冒险的入侵美国计划，他信任你，要你作为主将执行这次作战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	118		长文本
+Comrade! The imperialists have landed at Gela on the southern coast of Sicily, trying to split our forces on the island in two. You are the nearest commander with available troops: seal off the beachhead and hurl them back into the sea before their armor comes ashore.	同志！帝国主义者在西西里岛(Sicily)南岸的杰拉(Gela)地域登陆，企图把我在岛集团切成两段。你是就近唯一握有可用部队的指挥员：封锁滩头阵地，趁敌装甲兵力尚未上岸，把他们赶回大海。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	172		长文本
 Comrade! we have a critical situation! we've been removed a large amount of equipment from Italy without realizing that the allies were preparing a massive counter-attack.	同志！我们的处境十分危急！我们在没有意识到盟军正筹备大规模反击的情况下，从意大利撤走了大量装备。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	96		长文本
 Comrade! Your task is to prevent Germans from stopping our offensive at the temporary positions at Mozhaisk.	同志！你的任务是阻止德军在莫扎伊斯克(Mozhaisk)的临时阵地上挡住我们的攻势。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	74		长文本
 Comrade, a proper socialist goverment has been established in Finland after our victory. Our campaign over Scandinavia must continue just now in Norway, before the allies can put a foot on Scandinavia. We have reports that the remaining Germans on Norway are helping the allies to build up a defense line against us, it would be a pleasure to destroy them once more.	同志，我们胜利之后，芬兰已建立起一个合适的社会主义政府。我们在斯堪的纳维亚(Scandinavia)的战役必须马上在挪威(Norway)继续，趁盟军还没能在斯堪的纳维亚落脚。我们有报告说，挪威境内残余的德国人正在帮助盟军建立对抗我们的防线，能再消灭他们一次将是一件乐事。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	249		长文本
@@ -6173,6 +6175,7 @@ Comrade, you have chosen the French path.	同志，你选择了法国路线。	T
 Comrade, you have chosen the Italian path.	同志，你选择了意大利的道路。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
 Comrade, you have chosen the Spanish path.	同志，你选择了西班牙路线。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	26		长文本
 Comrade, your counterattack has sent the enemy reeling, but, at the same time your men have suffered severe losses.  Nevertheless, the Red Army now holds the initiative.  It is the beginning of the end of the fascists. Comrade, to the west!	同志，你的反击把敌人打得踉跄后退；但与此同时，你的部下也遭受了严重损失。尽管如此，红军现在掌握了主动权。这是法西斯覆灭的开端。同志，向西！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	138		长文本
+Comrade, your counterattack has sent the enemy reeling, but, at the same time your men have suffered severe losses.  Nevertheless, the Red Army now holds the initiative.  It is the beginning of the end of the fascists. Comrade, to the west!	普罗霍夫卡 (RTB#8)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	18		长文本
 Comrade... all the socialist world is celebrating this victory... without any enemy in the Pacific, we'll use Los Angeles as a base for the invasion of the remaining US states...	同志……整个社会主义世界都在庆祝这场胜利……太平洋上再无敌人，我们将把洛杉矶(Los Angeles)作为入侵美国其余各州的基地……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	119		长文本
 Conflict between the USSR and The Western Allies breaks out on the	苏联与西方盟国之间的冲突在	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	26		长文本
 Congratulations Commander, that was brilliant.	恭喜你，指挥官，那真是出色。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
@@ -6189,8 +6192,8 @@ Congratulations Herr General your victory here has stopped the Americans. Our Af
 Congratulations Herr General. The American beachhead has been annihilated. Unfortunately the British and Canadians have broken through our lines near Caen. This has forced us to retreat in order to escape from getting surrounded. Our retreat allowed US forces that remained in the Cherbourg area to outflank us in the Coutance area. Your mission is to push West to the shore in order to restore the front line and cut off the US divisions that have broken through.	恭喜，将军阁下。美军滩头阵地已被肃清。遗憾的是，英军和加军在卡昂附近突破了我军防线，迫使我们后撤以免被合围。我军的后撤又让留在瑟堡地区的美军得以在库唐斯一带迂回到我们侧后。你的任务是向西推进到海岸，以恢复战线并切断已突破的美军各师。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	232		长文本
 Congratulations Herr General. With Yelnya captured, the next stop is Moscow!	恭喜，将军阁下。叶利尼亚既已拿下，下一站就是莫斯科！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	52		长文本
 Congratulations Herr General. You have broken through the first Russian defensive lines. This has however taken far more time than expected.	恭喜，将军阁下。你突破了俄军的第一道防线。但这花的时间远超预期。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	64		长文本
-Congratulations Herr General. You have broken through the Russian defenses and have ran into and beaten the lead elements of the 5th Guards Tank Army. Next stop on the way to Kursk is the village of Prokhorovka.	恭喜你，将军阁下。你已突破俄军防线，并撞上并击退了近卫第5坦克集团军的先头部队。通往库尔斯克的下一站是普罗霍罗夫卡村。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	117		长文本
-Congratulations Herr General. You have broken through the Russian defenses and have ran into and crushed the lead elements of the 5th Guards Tank Army. Next stop on the way to Kursk is the village of Prokhorovka.	恭喜你，将军阁下。你已突破俄军防线，并撞上并粉碎了近卫第5坦克集团军的先头部队。通往库尔斯克(Kursk)的下一站是普罗霍罗夫卡(Prokhorovka)村。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	137		长文本
+Congratulations Herr General. You have broken through the Russian defenses and have ran into and beaten the lead elements of the 5th Guards Tank Army. Next stop on the way to Kursk is the village of Prokhorovka.	恭喜你，将军阁下。你已突破俄军防线，并撞上并击退了近卫第5坦克集团军的先头部队。通往库尔斯克的下一站是普罗霍夫卡村。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	115		长文本
+Congratulations Herr General. You have broken through the Russian defenses and have ran into and crushed the lead elements of the 5th Guards Tank Army. Next stop on the way to Kursk is the village of Prokhorovka.	恭喜你，将军阁下。你已突破俄军防线，并撞上并粉碎了近卫第5坦克集团军的先头部队。通往库尔斯克(Kursk)的下一站是普罗霍夫卡(Prokhorovka)村。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	135		长文本
 Congratulations on your capture of Vyborg. The Finns have sued for peace, but they have declared neutrality and will maintain their archaic capitalist system.  And now, if you will excuse me, I have work to do.	恭喜你夺取维堡(Vyborg)。芬兰人已求和，但他们宣布中立，并将维持其陈旧的资本主义制度。那么现在，恕我失陪，我还有工作要做。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	120		长文本
 Congratulations on your promotion to commander of our reciently created People's Liberation Army!. Your actions were enough to support your upgrade decided in the ChCP council... Mao Zedong it's also pleased with you as PLA's general.	祝贺你晋升为我们新近组建的中国人民解放军指挥员！你的表现足以支撑中共中央委员会决定给你这次提拔...毛泽东对作为解放军将领的你也很满意。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	133		长文本
 Congratulations on your Regiment's success!! We have protected the beach-head and also cleared up a significant pocket of resistance. Well done!	恭喜你的团取得成功！！我们守住了滩头阵地，还肃清了一个不小的抵抗包围圈。干得好！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	80		长文本
@@ -6222,6 +6225,7 @@ Congratulations, Herr General!  You have accomplished what has not been done for
 Congratulations, Herr General!  You have accomplished what has not been done for centuries, the conquest of England.  Now, the English have no choice but to sue for peace.  I can assure you that your name shall be remembered alongside the greatest heroes of our nation.  I salute you, Herr General!	恭喜，将军阁下！你完成了数个世纪以来无人做到的事——征服英格兰。现在，英国人别无选择，只能求和。我可以向你保证，你的名字将与我们民族最伟大的英雄一道被铭记。我向你致敬，将军阁下！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	178		长文本
 Congratulations, Herr General.  Your aggressive leadership has shattered the British forces. Now, we must capture the port of Tobruk, before the English can prepare an effective defense.	祝贺你，将军阁下。你果断的领导已经击溃了英军。现在，我们必须赶在英国人做好有效防御之前，攻占托布鲁克港。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	104		长文本
 Congratulations, Herr General.  Your PanzerKorps is the pride of Germany!  Rather than waste your forces further, we are moving your army to the east for rest and refitting.	恭喜，将军阁下。你的装甲军是德国的骄傲！与其继续消耗你的部队，我们不如把你的集团军调往东线休整与整补。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	102		长文本
+Congratulations, Herr General.  Your PanzerKorps is the pride of Germany!  Rather than waste your forces further, we are moving your army to the east for rest and refitting.	市场花园行动 第二阶段	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	21		长文本
 Congratulations, Herr General.  Your troops have successfully cleared a corridor to our comrades in Sixth Army. We will be able to continue to send reinforcements and supplies to our brave men.  Bravo.	恭喜，将军阁下。你的部队成功打通了通往第6集团军战友们的走廊。我们将能够继续向勇敢的士兵们输送增援和补给。干得漂亮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	115		长文本
 Congratulations, Herr General. Your troops have successfully cleared a corridor to our comrades in Sixth Army. We will be able to continue to send reinforcements and supplies to our brave men. Bravo.	祝贺你，将军阁下。你的部队已成功为第6集团军的同志们打开一条走廊。我们将能继续向这些勇士输送援军和补给。好样的。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	111		长文本
 Congratulations, once more time you've demonstrated your skills.	恭喜，你又一次展示了你的本领。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	30		长文本
@@ -6357,6 +6361,7 @@ End this war and do it now.	结束这场战争，现在就动手。	TEXT	PEGWW2_
 Engage the enemy wherever he appears and capture the town.	无论敌人出现在何处都要与之交战，并夺取该镇。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	44		长文本
 England - September 5th, 1940	英格兰 - 1940 年 9 月 5 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	26		长文本
 England Midlands - April 3th, 1944	英格兰中部地区 - 1944 年 4 月 3 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	34		长文本
+English Midlands'43 - November 9th, 1943	英格兰中部'43 - 1943 年 11 月 9 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	34		长文本
 enough that we can't break through without suffering massive casualties.	我们若不付出惨重伤亡就无法突破。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 entering the action near the enemy positions to support us.	进入敌方阵地附近投入行动以支援我们。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	36		长文本
 Epsom Defence - June 28th, 1944	埃普索姆防御战战(Epsom Defence) - 1944 年 6 月 28 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	52		长文本
@@ -6591,6 +6596,7 @@ General, you have been promoted to C-I-C of the defense of Tokyo, it's an enormo
 General, you have captured the Polish capital and their forces are in disarray.  We expect surrender at any moment.  Well done.	将军，你已夺取波兰首都，其部队一片混乱。我们预计他们随时会投降。干得好。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	72		长文本
 General, you have made the impossible!, Stalin is glad with you and angry with the Americans, so he wants to invade America.	将军，你创造了不可能！斯大林对你很高兴，对美国很愤怒，所以他要入侵美国。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	72		长文本
 General, you only achieved a marginal victory.  This is unsatisfactory!  Either you must improve or you will be transferred to U-Boat Commander School.	将军，你只取得了一场险胜。这不能令人满意！你要么有所改进，要么就被调到潜艇指挥官学校去。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	88		长文本
+General, you only achieved a marginal victory.  This is unsatisfactory!  Either you must improve or you will be transferred to U-Boat Commander School.	库尔斯克(Kursk) (ZS#05)，1943 年 7 月 5 日	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	42		长文本
 General, your actions have been decisive!  A huge number of enemy units have been trapped, and the enemy resistance is being defeated in all sectors.  Our surprise and surgical strikes have given the Chinese what they deserved, Defeat!	将军，您的行动起到了决定性作用！大量敌军部队陷入重围，敌军在各处的抵抗正被逐一粉碎。我们的奇袭与精准打击让中国人得到了他们应得的东西——失败！	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	142		长文本
 General, your troops must quickly defeat our enemies!	将军，您的部队必须迅速击败我们的敌人！	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	38		长文本
 General, youve drawn the assignment to punch a hole through the	将军，你抽到了在	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	16		长文本
@@ -6667,6 +6673,7 @@ Good work. You have fulfilled Churchill's hopes!  Your attack has weakened enemy
 Good work. You have fulfilled the General Staff's hopes!  Your attack has weakened enemy resistance.  And now, the war with Norway will soon be over.	干得好。你实现了总参谋部的期望！你的进攻削弱了敌军抵抗。如今，对挪威的战争很快就要结束了。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	90		长文本
 Good! the capture of Brighton took much time than expected, but we did it!	好！夺取布赖顿(Brighton)比预期花了更多时间，但我们还是做到了！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
 Good. .	好。.	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	5		长文本
+Good. .	向乌兰乌德(Ulan Ude)推进	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	24		长文本
 government and our other allies have not yet learned to respect our	政府和我们的其他盟友，还没有学会尊重我们的	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	42		长文本
 government in Spain may prove to be a useful ally in the coming years.	西班牙政府，在未来几年里或许会证明是个有用的盟友。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	50		长文本
 grateful that the author has allowed us to take an excerpt from his book.)	感激作者允许我们从他的书中摘录一段。）	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
@@ -6779,13 +6786,16 @@ Herr General your wonderful victory has steadied Romanian will to resist the red
 Herr General!  Good work!  The crisis is over, and the Polish Army has collapsed.  Once you led us past the river, nothing could stop our panzers.  Congratulations.	将军阁下！干得好！危机已经解除，波兰军队已经崩溃。你率我们渡河之后，就再没有什么能阻挡我们的装甲部队了。祝贺你。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	112		长文本
 Herr General!  Very good work!  The crisis is over, and the Polish Army has collapsed.  Once you led us past the river, nothing could stop our panzers.  Congratulations.	将军阁下！干得非常好！危机已过，波兰军队已经崩溃。你一带我们渡河，就再没什么能挡住我们的装甲部队。恭喜。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	104		长文本
 Herr General,  it is your privilege to lead our attack here, south of Novgorod, in the Russian heartland.  A successful offensive here will sever communications between Moscow and Leningrad and trap several Soviet armies. It is, of course, imperative to take your objectives quickly.  Our thoughts are with you.	将军阁下，能在俄国腹地的诺夫哥罗德以南率领此次进攻，是您的殊荣。此处攻势若成，将切断莫斯科与列宁格勒之间的交通，并围困数个苏军集团军。当然，迅速夺取目标势在必行。我们挂念着您。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	176		长文本
+Herr General,  it is your privilege to lead our attack here, south of Novgorod, in the Russian heartland.  A successful offensive here will sever communications between Moscow and Leningrad and trap several Soviet armies. It is, of course, imperative to take your objectives quickly.  Our thoughts are with you.	卡朗唐(Carentan)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	16		长文本
 Herr General,  you narrowly accomplished what was expected of you.  Unfortunately, the Soviets held the Volokolamsk Highway long enough for more troops to arrive.  In addition, heavy snows are now falling.  Our offensive cannot continue under these conditions. Herr General, you are not suited to command at this level.  You will report to the officer training school at Metz. There is an opening for a panzer maintenance instructor.	将军阁下，你只是勉强完成了对你的期望。遗憾的是，苏军守住沃洛科拉姆斯克公路足够久，让更多部队得以抵达。此外，现在正下着大雪。在这种条件下，我们的攻势无法继续。将军阁下，你不适合这一层级的指挥。你将去梅斯的军官学校报到。那里有个装甲维护教官的空缺。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	246		长文本
 Herr General, "Wir fahren gegen Engeland..."	将军阁下，「Wir fahren gegen Engeland……」	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	43		长文本
+Herr General, after Gazala the remnants of the British Eighth Army have holed up inside the Tobruk perimeter. Panzerarmee Afrika attacks at dawn: breach the wire, seize the harbor and force the garrison to surrender before nightfall.	将军阁下，加扎拉(Gazala)之战后，英国第8集团军残部龟缩进托布鲁克(Tobruk)环形阵地。非洲装甲集团军将于拂晓发起强攻：突破外围防线、夺取港口，迫使守军在天黑之前投降。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	161		长文本
 Herr General, after your incredible victory, the entire Russian line is in complete collapse.	将军阁下，在你令人难以置信的胜利之后，俄军整条战线已彻底崩溃。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
 Herr General, Armeegruppe Sud is attacking Warsaw. You must occupy the roads and railroads south of Warsaw. This will allow you to use Karl railguns when needed.	将军阁下，南方集团军群正进攻华沙。你必须占领华沙以南的公路与铁路。这将使你能在需要时使用「卡尔」列车炮。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	104		长文本
-Herr General, as you know the Kursk Salient poses a serious threat to us. To reduce this salient and restore the integrity of our line, we will attack from the north and south, pocket, and then crush the enemy trapped inside. You and your command will lead the northern thrust of our offensive. You must penetrate as far as the town of Prokhorovka. Good Luck.	将军阁下，如你所知，库尔斯克突出部对我们构成严重威胁。为削平这个突出部、恢复我军战线的完整，我们将从南北两翼进攻，合围，然后歼灭被困之敌。你和你的指挥部将领导我军攻势的北翼。你必须推进到普罗霍罗夫卡镇。祝你好运。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	212		长文本
+Herr General, as you know the Kursk Salient poses a serious threat to us. To reduce this salient and restore the integrity of our line, we will attack from the north and south, pocket, and then crush the enemy trapped inside. You and your command will lead the northern thrust of our offensive. You must penetrate as far as the town of Prokhorovka. Good Luck.	将军阁下，如你所知，库尔斯克突出部对我们构成严重威胁。为削平这个突出部、恢复我军战线的完整，我们将从南北两翼进攻，合围，然后歼灭被困之敌。你和你的指挥部将领导我军攻势的北翼。你必须推进到普罗霍夫卡镇。祝你好运。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	210		长文本
 Herr General, as you know, Germany has declared war on the Soviet Union.  You have been chosen to play a key role in our drive into southern Russia. You will assist our Romanian Allies in their attempt to reclaim their lost province of Moldavia. The key city in this province is Kishinev, and it is also your primary objective.  Not only is this assignment strategically important, it is politically critical.  The world is watching, Herr General, do not disappoint.	将军阁下，如你所知，德国已对苏联宣战。你被选中在我们向俄国南部的进军中发挥关键作用。你将协助我们的罗马尼亚盟友，设法收复他们失去的摩尔达维亚省。这个省的关键城市是基什尼奥夫，它也是你的首要目标。这项任务不仅在战略上重要，在政治上同样至关重要。全世界都在注视，将军阁下，不要让我们失望。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	284		长文本
 Herr General, Barbarossa has begun!	将军阁下，巴巴罗萨行动(Barbarossa)已经开始！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	44		长文本
+Herr General, Bristol has fallen and the Severn crossings are ours. Your kampfgruppe now drives north-east on Gloucester: take the city and its docks before the British can improvise a new defensive line along the Severn. Every day of delay lets them dig in deeper.	将军阁下，布里斯托尔(Bristol)已经易手，塞文河(Severn)各渡口已在我们手中。你的战斗群现在向东北直取格洛斯特(Gloucester)：赶在英国人沿塞文河拼凑出新防线之前，夺取该城及其码头。每拖延一天，他们的工事就坚固一分。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	207		长文本
 Herr General, defeat these remaining Soviet forces.  We must have Khar'kov.	将军阁下，击败这些残余的苏军。我们必须得到哈尔科夫(Khar'kov)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
 Herr General, diplomatic representatives of Germany and the Soviet Union are meeting even as we speak... Your string of victories here, and in the west, are unparalleled.... You are to return home to a grateful nation.	将军阁下，德国与苏联的外交代表此刻正在会谈……你在此地以及在西线取得的一连串胜利都是前所未有的......你将返回祖国，接受一个感恩的国家的欢迎。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	140		长文本
 Herr General, fine performance.  The occupation of V'Az'ma will be critical towards your next objective.	将军阁下，干得漂亮。占领维亚济马(V'Az'ma)对你达成下一个目标至关重要。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	69		长文本
@@ -6812,6 +6822,8 @@ Herr General, on every other front the Russians are melting before our forces li
 Herr General, once again you and your courageous men have kept us from the brink of disaster. Italy remains firmly in our camp, and the invaders have been forced out of Salerno. The Fatherland owes you a great debt.	将军阁下，你和你的勇士们再一次使我们免于坠入灾难的边缘。意大利仍牢牢留在我们阵营，入侵者已被逐出萨莱诺。祖国欠你一份厚重的恩情。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	128		长文本
 Herr General, once again you and your courageous men have kept us from the brink of disaster. The invaders have been forced out of Salerno. The Fatherland owes you a great debt.	将军阁下，你和你英勇的部队再一次把我们从灾难边缘拉了回来。入侵者已被赶出萨莱诺。祖国欠你一份大恩。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	98		长文本
 Herr General, our drive on Moscow has been quite successful, but enemy resistance continues to stiffen.  You must break through along the Volokolamsk Highway.   There is no doubt; the enemy will commit his toughest units to defend the capital, but we will persevere.	将军阁下，我们对莫斯科的推进相当顺利，但敌军抵抗日益顽强。您必须沿沃洛科拉姆斯克公路实施突破。毫无疑问，敌人必将投入其最精锐的部队保卫首都，但我们定能坚持到底。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	160		长文本
+Herr General, Patton's Third Army has crossed the Moselle and its armor is probing toward the Saar. You will counterattack at once with the panzer reserves, smash the American spearheads around Arracourt and throw them back across the river.	将军阁下，巴顿(Patton)的第3集团军已渡过摩泽尔河(Moselle)，其装甲矛头正向萨尔(Saar)方向推进。你须立即率装甲预备队发起反击，粉碎阿拉库尔(Arracourt)地域的美军矛头，把他们赶回到河对岸。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	181		长文本
+Herr General, Sea Lion has succeeded beyond expectation: London is encircled and the British army is falling back in disorder. Your panzers now drive into the Midlands to seize Birmingham and the industrial heart of England before the enemy can form a new front.	将军阁下，「海狮」的成功超乎预期：伦敦(London)已被合围，英军正溃不成军地后撤。你的装甲集群现在挺进中部地区，赶在敌人重组战线之前，夺取伯明翰(Birmingham)与英格兰的工业心脏。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	172		长文本
 Herr General, Ternopil' is secure. German and Romanian troops are occupying the Ukraine.  This victory is worthy of great praise.  Soon, you will be needed at Army Group North. I am sure that you will do very well.	将军阁下，捷尔诺波尔(Ternopil')已确保无虞。德军与罗马尼亚军队正在占领乌克兰。这一胜利值得大加赞扬。很快，北方集团军群(Army Group North)就需要你。我相信你会干得非常出色。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	169		长文本
 Herr General, Ternopil' is secure. German and Romanian troops are occupying the Ukraine.  This victory is worthy of great praise. Soon, you will be needed at Army Group North.	将军阁下，捷尔诺波尔(Ternopil')已确保无虞。德军与罗马尼亚军队正在占领乌克兰。这一胜利值得大加赞扬。很快，北方集团军群(Army Group North)就需要你。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	145		长文本
 Herr General, Ternopil' is secure. German and Romanian troops are occupying the Ukraine.  This victory is worthy of great praise. Soon, you will be needed at Army Group North.	将军阁下，塔尔诺波尔(Ternopil')已确保无虞。德军与罗马尼亚军队正在占领乌克兰。这一胜利值得大加赞扬。很快，北方集团军群(Army Group North)就需要你。	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	145		长文本
@@ -6825,9 +6837,11 @@ Herr General, the British have successfully embarked their Expeditionary Force a
 Herr General, the enemy fought valiantly, but this did not stop you.  And now, the last Bolshevik reserves await our attack.  Your presence is requested else where leave this rabble to us and we'll end this war.	将军阁下，敌人打得英勇，但这并没有挡住你。而现在，布尔什维克最后的预备队正等着我们去进攻。别处需要你去——把这群乌合之众交给我们，我们会结束这场战争。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	150		长文本
 Herr General, the enemy fought valiantly, but this did not stop you.  And now, the last Bolshevik reserves await our attack.  Your presence is requested else where leave this rabble to us and we'll end this war.	逼近突尼斯	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	10		长文本
 Herr General, the enemy fought valiantly, but this did not stop you.  And now, the last Bolshevik reserves await your attack.  Defeat them and end this war.	将军阁下，敌军英勇作战，但这没能阻止你。如今，布尔什维克最后的预备队正等着你的进攻。击败他们，结束这场战争。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	108		长文本
+Herr General, the II SS Panzer Corps drives on Prokhorovka to rip open the southern face of the Kursk salient. The Soviet 5th Guards Tank Army is rushing to meet you head-on. Win this armored clash and the salient lies open.	将军阁下，亲卫队第2装甲军正向普罗霍夫卡(Prokhorovka)突击，以期撕开库尔斯克(Kursk)突出部的南面。苏军近卫第5坦克集团军正迎面扑来。赢下这场装甲对决，突出部就将门户大开。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	166		长文本
 Herr General, the invasion of France has begun.  Your force will move swiftly and quietly through the Ardennes and attack the French where they least expect.	将军阁下，入侵法国已经开始。你的部队将迅速而隐蔽地穿过阿登(Ardennes)，在法国人最意料不到之处发起攻击。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	102		长文本
 Herr General, The Russians are trying to cross the Dnepr river, the last barrier to Western Ukraine. You should prevented this. You will need your bridging units !!!	将军阁下，俄国人正试图渡过第聂伯河(Dnepr)，这是通往西乌克兰(Ukraine)的最后一道屏障。你应当阻止这件事。你会需要你的架桥部队！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	128		长文本
 Herr General, the Russians during Operation Zitadelle took the Orel Bulge. After your victory there you need to retake Orel to stabilize Army Group Center front.	将军阁下，俄国人在「堡垒」行动(Operation Zitadelle)期间夺取了奥廖尔突出部。你在那里取胜之后，需要夺回奥廖尔(Orel)，以稳住中央集团军群的战线。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	141		长文本
+Herr General, the time has come to eliminate the British fortress of Malta once and for all. General Student's paratroops will drop onto the northern airfields while the assault convoys close in from the sea. Take the island and open the sea lanes to Africa.	将军阁下，彻底拔除马耳他(Malta)这座英国要塞的时机已经成熟。施图登特(Student)将军的空降兵将伞降夺取岛北各机场，突击船队同时从海上逼近。夺取该岛，打通通往非洲的海上航道。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	168		长文本
 Herr General, the time has come to invade the British islands, your troops embark on Calais, along with other three division embarked on Boulogne-sur-Mer, both have to confront the enemy.	将军阁下，入侵不列颠诸岛的时刻到了。你的部队在加来(Calais)上船，另三个师在滨海布洛涅(Boulogne-sur-Mer)上船，两路都须与敌人交锋。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	128		长文本
 Herr General, the Western Allies have landed in Normandy. We need to drive them to the sea !!!	将军阁下，西方盟军已在诺曼底(Normandy)登陆。我们得把他们赶下海去！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	70		长文本
 Herr General, this defeat is out of the question, thanks to your stupidity the whole plan was unsuccessful.	将军阁下，这次失败绝不可容忍，多亏你的愚蠢，整个计划都未成功。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
@@ -6897,6 +6911,7 @@ Herr General,... well it would seem your year off has not improved your abilitie
 Herr General. Even now, enemy troops are advancing on our position.  Arm yourself with a rifle and seek redemption on the front lines. You may leave at once.	将军阁下。即便此刻，敌军正在向我阵地推进。拿起一支步枪，到前线去寻求救赎吧。你可以立即离开了。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	94		长文本
 Herr General. The crisis is over, and the Polish Army has collapsed.   Unfortunately, some of the enemy has retreated into Romania.  No doubt, we will encounter these tough and vengeful troops again.  There are other repercussions as well.  The British and French have now declared war on Germany.	将军阁下。危机已过，波兰军队已经崩溃。遗憾的是，部分敌人已撤入罗马尼亚。毫无疑问，我们还会再遇上这些顽强而复仇心切的部队。还有别的后果：英法现已对德宣战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	154		长文本
 Herr General. You and your brave men have saved 6th Army.  They will live to fight another day !!!.	将军阁下。你和你勇敢的部下救了第6集团军。他们还能活下去，改日再战！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	71		长文本
+Herr General. You and your brave men have saved 6th Army.  They will live to fight another day !!!.	英属索马里兰(British Somaliland)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	32		长文本
 Herr General: The 3rd Ukrainian Front has completed surrounded Budapest. The Hungarians and some of our troops resist bravely inside the city.  They can not hold for long. Relieve them Herr General!!!	将军阁下：乌克兰第3方面军已完成对布达佩斯(Budapest)的包围。匈牙利人和我们的一些部队正在城内英勇抵抗。他们撑不了多久。去解救他们，将军阁下！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	143		长文本
 Herr General: The western allies are about to break through the Monte Cassino area in Central Italy. This will be the end of our front. You should prevent it !!!	将军阁下：西方盟军即将突破意大利中部的卡西诺山(Monte Cassino)地区。这将是我们的战线的终结。你应当阻止他们！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	111		长文本
 Herr General: You achieved a complete victory !!!. You not only prevented the Russians from crossing the river, you also destroyed their beachheads !!!	将军阁下：你取得了完全的胜利！！！你不仅阻止了俄军渡河，还摧毁了他们的桥头堡！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	82		长文本
@@ -7121,6 +7136,7 @@ In February 1941, the Leibstandarte was transferred from Metz to Campalung in Ro
 In front of the Gustav Line the Germans made another defensive line called the Reinhard Line, a.k.a. "Winter Line". Here the Germans planned to delay the Allied offensive as long as possible with the goal to obtain the largest amount of time in order to strengthen the Gustav Line. The central point in the Reinhard Line was Mignano's throat and the two summits around: Camino mont and Sammucro mont. By the time however the Germans had neither the time nor the men to fortify it...	在古斯塔夫防线之前，德军又构筑了一道防线，称为莱因哈德防线(Reinhard Line)，又名「冬季防线」。德军打算在此尽可能久地迟滞盟军攻势，以争取最多时间来加强古斯塔夫防线。莱因哈德防线的中心点是米尼亚诺(Mignano)隘口及其周围的两座山峰：卡米诺山(Camino mont)与萨穆克罗山(Sammucro mont)。然而到那时，德军既无时间也无人力去把它筑垒设防……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	326		长文本
 In its advance through the Ardennes German II and XIX Panzercorps had to face fierce resistance from small Belgian detachments of "Chasseusr Ardennaises	在穿越阿登的推进中，德军第2和第19装甲军在许多地方（马特朗日、博当日、斯特兰尚、沙布雷埃）遭到比利时“Chasseusr Ardennaises	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	122		长文本
 In July 1939, the OKH decided to create a unique unit in preparation for the assault on Poland. This unit was officially designated as Panzer-Verbaende Ostpreussen, better known as Panzer Division Kempf. The division was composed of both Heer and Waffen SS units.	1939年7月，陆军总司令部决定组建一支独特的部队，为进攻波兰做准备。这支部队被正式命名为「东普鲁士装甲部队」，更广为人知的名字是肯普夫装甲师。该师由陆军和武装党卫军两部分单位编成。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	177		长文本
+In late August 1944 the British 8th Army opened Operation Olive along the Adriatic coast, aiming to rupture the eastern end of the Gothic Line, take Rimini and break out into the Po plain. Hold the ridge lines and the Conca crossings - the Line must not break here.	1944 年 8 月下旬，英国第8集团军沿亚得里亚海(Adriatic)沿岸发起「橄榄枝」行动(Operation Olive)，企图撕裂哥特防线(Gothic Line)东端、夺取里米尼(Rimini)并突入波河(Po)平原。守住山脊线与孔卡河(Conca)各渡口——防线绝不能在这里被突破。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	226		长文本
 In Mid August 1944 the British 8th Army was able to cross the Arno River and free Florence. The Germans were unable to confront them and had to retreat to the mountains, where they had some fortifications called the Gothic Line.	1944 年 8 月中旬，英国第8集团军得以渡过阿尔诺河(Arno)并解放佛罗伦萨(Florence)。德军无力与之对抗，只得退往山区，那里有他们称为哥特防线的一些工事。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	145		长文本
 In Mola's plan the main goal  was the capture of Madrid.  The North of Spain was a secondary problem at the beginning of the subdivision.  It was soon obvious that Madrid would not fall by a frontal assault. General Mola has selected you as his most trusted officer to spearhead the attacks on the non-loyal northern  provinces of the rebellion.  Then, who knows?	在莫拉的方案中，首要目标是夺取马德里。在作战划分之初，西班牙北部只是次要问题。但很快就清楚，马德里不会因正面强攻而陷落。莫拉将军已选定你为他最信任的军官，去带头攻击那些不忠于叛军的北方省份。此后会怎样，谁知道呢？	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	212		长文本
 In most cases the retreat of the Belgian army towards the Dyle River succeeded without too much difficulty but for some divisions it was a very hazardous undertaking (e.g. the evacuation of the 3rd and 2nd division from Liege (Luik) or the encirclement of the 14th division at Lummen).	大多数情况下，比利时军队向迪尔河的撤退都相当顺利，但对某些师而言却极为凶险（例如第3师和第2师从列日撤出，或第14师在吕门被围）。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	126		长文本
@@ -7218,6 +7234,7 @@ Ja Wolfgang, I was as surprised as you that they chose Normandy.... Ah, Herr Gen
 JagdG. 1	第1战斗机联队	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 JagdG. 53	第53战斗机联队	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	14		长文本
 JagdG. 54	第54战斗机联队	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	14		长文本
+January 1, 1945	1945年1月1日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		长文本
 January 12, 1945	1945年1月12日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 January 14, 1944	1944年1月14日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 January 14, 1945	1945年1月14日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
@@ -7228,6 +7245,7 @@ Jolly good job, Commander. The Soviets have been driven right back where they ca
 Jolly good job, Commander. The Soviets have been driven right back where they came from, and our research continues unabated.	干得真漂亮，指挥官。苏军已被逐回他们来的地方，我们的研究也丝毫未减地继续着。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	76		长文本
 July 1, 1945	1945 年 7 月 1 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	17		长文本
 July 12, 1943	1943年7月12日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
+July 13, 1942	1942年7月13日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 July 15, 1945	1945 年 7 月 15 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
 July 17, 1944	1944年7月17日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 July 24, 1945	1945 年 7 月 24 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
@@ -7242,6 +7260,7 @@ June 13, 1945	1945 年 6 月 13 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18	
 June 15, 1944	1944年6月15日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 June 15, 1945	1945 年 6 月 15 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
 June 1st, 1943	1943年6月1日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		长文本
+June 20, 1942	1942年6月20日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 June 25, 1945	1945 年 6 月 25 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
 June 30, 1944	1944年6月30日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 June 5, 1942	1942年6月5日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		长文本
@@ -7256,7 +7275,7 @@ Kanaal Gent-Terneuzen (Canal Gand-Terneuzen)	根特-泰尔讷曾运河	TEXT	EFIL
 Kaniow - Kanev (ZS#06), 09/23/1943	卡尼夫(Kaniow - Kanev) (ZS#06)，1943年9月23日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	45		长文本
 Kaniow-Kanev, crossing the Dnieper	卡尼乌夫-卡涅夫，横渡第聂伯河	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
 Kaniow-Kanev, crossing the Dniepr	卡尼乌夫-卡涅夫，横渡第聂伯河	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
-Kaniow-Kanev, crossing the Dniepr	库尔斯克(Kursk) (ZS#05)，1943 年 7 月 5 日	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	42		长文本
+Kaniow-Kanev, crossing the Dniepr	卡尼乌夫-卡涅夫，横渡第聂伯河	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	29		长文本
 Kazan - June 15th, 1946	喀山(Kazan) - 1946 年 6 月 15 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 Keep the pressure on Ivan, he's beginning to crack.	继续对伊万施压，他开始撑不住了。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 keep the pressure up and keep moving west.	保持压力，继续向西推进。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
@@ -7331,6 +7350,7 @@ Loading  K:\\Games\\PeG-WW2\\scenario\\RA_red01.scn:Found 5 Units that doesn't m
 Loading Scen: K:\\Games\\PeG-WW2\\SCENARIO\\BoB_BoB04.SCN - Map file: [K:\\Games\\PeG-WW2\\PeG\\CARENTAN.MAP] not found	Loading Scen: K:\\Games\\PeG-WW2\\SCENARIO\\BoB_BoB04.SCN - Map file: [K:\\Games\\PeG-WW2\\PeG\\CARENTAN.MAP] not found	TEXT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	119		保留原文政策
 Loading Scen: K:\\Games\\PeG-WW2\\SCENARIO\\BoB_BoB05.SCN - Map file: [K:\\Games\\PeG-WW2\\scenario\\CARENTAN.MAP] not found	Loading Scen: K:\\Games\\PeG-WW2\\SCENARIO\\BoB_BoB05.SCN - Map file: [K:\\Games\\PeG-WW2\\scenario\\CARENTAN.MAP] not found	TEXT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	124		保留原文政策
 Loading Scen: K:\\Games\\PeG-WW2\\scenario\\RA_red01.scn - Error on loading units	Loading Scen: K:\\Games\\PeG-WW2\\scenario\\RA_red01.scn - Error on loading units	TEXT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	81		保留原文政策
+Loading Scen: K:\Games\PeG-WW2\SCENARIO\BoB_BoB05.SCN - Map file: [K:\Games\PeG-WW2\scenario\CARENTAN.MAP] not found	突出部之战 (#12)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	16		长文本
 Loehr wil now begin to regroup our forces and start a fighting retreat that will probably only end north of Thermopylae. We could off course try to keep the Corinth Canal,but that would expose us to naval gunfire, and be far to dangerous. It is rumoued that your troops, that are not needed in this strategy, will be transferred to France.	勒尔现在将着手重整我们的部队，开始一场且战且退的撤退，这场撤退大概只会在温泉关以北才告结束。我们当然可以试着守住科林斯运河，但那会使我们暴露在舰炮火力之下，实在太危险。有传言说，这场战略中并不需要的您的部队将被调往法国。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	220		长文本
 London - April 30th, 1946	伦敦(London) - 1946 年 4 月 30 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	33		长文本
 London is surrounded and we have sent a surrender offer to the British.	伦敦(London)已被包围，我们已向英国人发出投降提议。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	50		长文本
@@ -7366,6 +7386,7 @@ March to Limoges - June 1944 L	向利摩日行军 1944年6月 失败	TEXT	PEGWW2
 March to Limoges - June 1944 TV	向利摩日行军 1944年6月 战术胜利	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	31		长文本
 March to Limoges - June 1944 V	向利摩日行军 1944年6月 胜利	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
 March to Limoges - June 8th, 1944	向利摩日(Limoges)进军 - 1944年6月8日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	36		长文本
+Marching Orders (#7) - November 19, 1942	行军命令 (#7) - 1942 年 11 月 19 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	35		长文本
 Marching orders - June 6th, 1946	行军命令(Marching orders) - 1946 年 6 月 6 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	45		长文本
 Marshall Zhukov Belorussian fronts have broken the German defenses at Seelow and are about to take Berlin. The Germans counterattack to hold the Russians off.	朱可夫(Zhukov)元帅的白俄罗斯方面军已突破塞洛(Seelow)的德军防线，即将攻取柏林。德军发起反击，以挡住俄军。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	104		长文本
 May 13, 1940	1940年5月13日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
@@ -7407,7 +7428,7 @@ Mission accomplished. The retreat was safe and our forces are almost intact.	巴
 mission. Casablanca is our ultimate objective: expect heavy resistance by the French only there. Also pay attention for the enemy vessels. Good luck.	任务。卡萨布兰卡(Casablanca)是我们的最终目标：只在那里才会遇到法国人的顽强抵抗。另外要留意敌方的舰艇。祝好运。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	110		长文本
 Mission: The chosen plan is to use two companies of Brandenburger and a battalion of San Marco to infiltrate in the coast of Malta, meanwhile the Raemcke Brigade and Folgore division will fall on the coast, after that, two infantry divisions will arrive by sea.	任务：选定的方案是用两连勃兰登堡部队和一个圣马可营渗透马耳他海岸，同时拉姆克旅和福尔戈雷师将在海岸实施空降，此后两个步兵师将经海路抵达。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	136		长文本
 Mius River (#3) - January 13, 1942	米乌斯河(Mius River) (#3) - 1942 年 1 月 13 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	46		长文本
-Model's 9th Army in the North and Kempf's III Panzer Corps on our right flank have not made much progress. Hoth's Fourth Panzer Army has done better and we are now in a position to capture Prokhorovka and extend the bridgehead over the Psel river west of Prokhorovka.	北面的莫德尔(Model)第9集团军与我们右翼的肯普夫(Kempf)第III装甲军进展不大。霍特(Hoth)的第4装甲集团军干得更好，我们现在有能力夺取普罗霍罗夫卡(Prokhorovka)，并把桥头堡扩展到普罗霍罗夫卡以西的普肖尔河(Psel)对岸。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	208		长文本
+Model's 9th Army in the North and Kempf's III Panzer Corps on our right flank have not made much progress. Hoth's Fourth Panzer Army has done better and we are now in a position to capture Prokhorovka and extend the bridgehead over the Psel river west of Prokhorovka.	北面的莫德尔(Model)第9集团军与我们右翼的肯普夫(Kempf)第III装甲军进展不大。霍特(Hoth)的第4装甲集团军干得更好，我们现在有能力夺取普罗霍夫卡(Prokhorovka)，并把桥头堡扩展到普罗霍夫卡以西的普肖尔河(Psel)对岸。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	204		长文本
 Mont St. Michel	圣米歇尔山	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	10		长文本
 Mont-St. Eloi	圣埃卢瓦山	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	10		长文本
 Monte Cassino - February 7th, 1944	卡西诺山(Monte Cassino) - 1944年2月7日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
@@ -7496,7 +7517,7 @@ Note: In Tebessa, Allies used to have a great oil reserve, if you capture the ci
 Note: In Tebessa, the Allies have a great oil reserve that once captured will make future offensive operations possible.	注：在泰贝萨，盟军有一大处石油储备，一旦夺取将使未来的攻势作战成为可能。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	72		长文本
 Note: In Tebessa, the allies used to have a great oil reserve, if you capture it, we could proceed to future offensive operations.	注：盟军过去在泰贝萨拥有大量石油储备，你若夺取它，我们便能着手未来的进攻作战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	78		长文本
 Note: PG2 scenario converted for PeG-WW2 by Robert Mary, use USA 46 or USSR 46 gameset depending on the chosen side.	Note: PG2 scenario converted for PeG-WW2 by Robert Mary, use USA 46 or USSR 46 gameset depending on the chosen side.	TEXT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	116		保留原文政策
-Note: REDUX campaigns have different victory conditions settings based on the nr of hexes rather than on the nr of turns. As a result you can win a scenario despite your unability to conquer all VH's. A victory might seem easier but...	注意：REDUX 战役的胜利条件设置不同，是以格数而非回合数为依据。因此，即使你未能攻占全部 VH，也可能赢得场景。胜利看似更容易，但……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	129		长文本
+Note: REDUX campaigns have different victory conditions settings based on the nr of hexes rather than on the nr of turns. As a result you can win a scenario despite your unability to conquer all VH's. A victory might seem easier but...	注意：REDUX 战役的胜利条件设置不同，是以格数而非回合数为依据。因此，即使你未能攻占全部 胜利格，也可能赢得场景。胜利看似更容易，但……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	133		长文本
 Note: This is a very difficult scenario, victory is achieved only by a careful combination of factors.  Speed is essential. Think carefully.	注意：这是一个非常困难的场景，只有把各种因素精心结合起来才能取胜。速度至关紧要。仔细思考。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	90		长文本
 Note: This was the last operation commanded by Rommel in the African arena.	注：这是隆美尔在非洲战场指挥的最后一次作战。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	44		长文本
 Note: this was the last operation commanded by Rommel in the Afrikan arena.	注：这是隆美尔(Rommel)在非洲战场指挥的最后一次作战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	52		长文本
@@ -7581,7 +7602,7 @@ On May 11th, 1944 the Allies launched a great offensive against the Gustav Line.
 On September 9th Vietinghoff was unable to establish comunication with Kesselring and give orders to the 14th Panzerkorps to quickly concentrate all forces in Salerno and try to eliminate the beachhead. As a result the Allies managed to disembark several divisions.	9 月 9 日，菲廷霍夫(Vietinghoff)未能与凯塞林(Kesselring)建立联络，因而无法命令第14装甲军迅速把全部兵力集中在萨莱诺(Salerno)，以图消除登陆场。其结果是盟军得以卸下几个师。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	169		长文本
 On special request of Patton, experienced Waffen SS units will be engaged to assist you.	应巴顿(Patton)的特别请求，经验丰富的武装党卫军部队将参战协助你。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	64		长文本
 On that May 14th 1940 General Student was hit in the head by a bullet from an SS sniper in Rotterdam. You and your SS friends are very lucky he survived.	1940年5月14日那天，施图登特将军在鹿特丹被一名党卫军狙击手的子弹击中头部。他和你们这些党卫军朋友非常走运，他活了下来。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	117		长文本
-On the 10th the SS-Panzer Corps regrouped for the assault on Prokharovka.  Fighting through a sea of mud to the banks of the Psel River, to the west of the town and the last natural obstacle before Kursk, the SS formations had by late afternoon crossed the river and were in position to attack the rear of the Soviet concentration.  To the south 3rd Panzer Corps began battling toward Prokharovka, attempting to link up with the SS-Panzer Corps before Soviet reserves could be brought up.	10 日，党卫军装甲军重新集结，准备突击普罗霍罗夫卡。党卫军各部队在泥海中苦战，推进到该镇以西、库尔斯克之前最后一道天然障碍普肖尔河(Psel)畔；到下午晚些时候，他们已渡过该河，并进入可以攻击苏军集结地后方的位置。在南面，第3装甲军开始向普罗霍罗夫卡苦战前进，力图在苏军预备队调上来之前与党卫军装甲军会合。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	298		长文本
+On the 10th the SS-Panzer Corps regrouped for the assault on Prokharovka.  Fighting through a sea of mud to the banks of the Psel River, to the west of the town and the last natural obstacle before Kursk, the SS formations had by late afternoon crossed the river and were in position to attack the rear of the Soviet concentration.  To the south 3rd Panzer Corps began battling toward Prokharovka, attempting to link up with the SS-Panzer Corps before Soviet reserves could be brought up.	10 日，党卫军装甲军重新集结，准备突击普罗霍夫卡。党卫军各部队在泥海中苦战，推进到该镇以西、库尔斯克之前最后一道天然障碍普肖尔河(Psel)畔；到下午晚些时候，他们已渡过该河，并进入可以攻击苏军集结地后方的位置。在南面，第3装甲军开始向普罗霍夫卡苦战前进，力图在苏军预备队调上来之前与党卫军装甲军会合。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	294		长文本
 On the 11th May things were getting worse. The arrival of the main German troops, and notably of the 3rd and the 4th Panzerdivision, was too much for the Belgian 7th division. The Germans expanded the bridgeheads and drove the Belgian troops back.	5月11日，情况进一步恶化。德军主力部队，尤其是第3和第4装甲师的抵达，对比利时第7师来说过于沉重。德军扩大了桥头堡，把比利时军队击退。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	130		长文本
 On the 12th, the Soviet Guards Tank Army launched a series of uncoordinated strikes with the intention to seperate the SS divisions.  In an area of only a few square miles, firing at almost point-blank range across the dust-choked plain, the superior German tank guns counted for nothing against suicidal attacks by Soviet tank crews.  In the heavy fighting that ensued the heavy company of the Leibstandarte's tank regiment engaged and destroyed the Soviet 181st Tank Regiment, without loss.  On both sides however, losses were high.  At the end of the day a thick pall of smoke hung over the battlefield.	12 日，苏军近卫坦克集团军发动了一系列互不协调的突击，意图把党卫军各师分割开来。在仅有几平方英里的地区内，在尘土窒塞的平原上以近乎抵近的距离对射，德军优越的坦克炮面对苏军坦克乘员自杀式的攻击也毫无用处。在随后爆发的激战中，警卫旗队(Leibstandarte)坦克团的重型连击毁并歼灭了苏军第181坦克团，自身毫无损失。然而双方损失都很高。一天结束时，浓重的烟幕笼罩着战场。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	355		长文本
 On the 20th of May three German divisions went over on the attack at Zelzate, Kwatrecht and Zingem. After some initial success, Belgians immediately started several counterattacks regaining most of the ground previously lost. All German attacks were repelled on the Belgian front and the Germans weren’t able to create bridgeheads over the Escaut and the Terneuzen Canal. Belgian command was confident that the Germans could be stopped at the Schelde/Escaut.	5月20日，德军三个师在泽尔扎特、夸特雷赫特和津海姆转入进攻。在取得初步胜利后，比利时人立即发起数次反击，夺回了先前失去的大部分土地。德军在比利时战线上的所有进攻均被击退，未能在斯海尔德河和泰尔讷曾运河上建立桥头堡。比利时指挥部相信，德军能够在斯海尔德河被挡住。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	259		长文本
@@ -7612,6 +7633,7 @@ Only their deep desire for revenge and to crush the German political	只有他�
 Only their deep desire for revenge and to crush the German political leadership drove the Soviet armies forward.	只有他们深切的复仇欲望，以及粉碎德国政治领导层的意志，驱使苏军各集团军向前推进。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	80		长文本
 open a direct path into Germany through East Prussia.	经东普鲁士(East Prussia)打开一条直通德国的通路。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	48		长文本
 Operacja Bagration - Operation "Bagration" (ZS#08), 06/22/1944	巴格拉季昂行动(Operacja Bagration - Operation "Bagration") (ZS#08)，1944 年 6 月 22 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	86		长文本
+Operacja Berlinska (ZS#14), 04/16/1945	柏林行动(Operacja Berlinska) (ZS#14)，1945 年 4 月 16 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	56		长文本
 Operacja Berlinska - Assault on Berlin (ZS#13), 04/16/1945	柏林行动(Operacja Berlinska - Assault on Berlin) (ZS#13)，1945 年 4 月 16 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	76		长文本
 Operacja Berlinska - Assault on Berlin (ZS#13), 04/16/1945	温莎 1945	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	9		长文本
 Operacja Uran - Operation "Uranus" (ZS#03), 11/18/1942	天王星行动(Operacja Uran - Operation "Uranus") (ZS#03)，1942 年 11 月 18 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	75		长文本
@@ -7795,6 +7817,7 @@ Please send comments or suggestions to michaelnowak@onlinehome.de and to pegww2@
 Please send comments or suggestions to pegww2@gmail.com!	请把意见或建议发送到 pegww2@gmail.com！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	39		长文本
 Please, go back and select Hong Kong, the Philippines or the Dutch East Indies.	请返回并选择香港、菲律宾或荷属东印度。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	38		长文本
 Ploesti (#11) - June 5, 1944	普洛耶什蒂(Ploesti) (#11) - 1944 年 6 月 5 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	45		长文本
+Plugging the Gap - September 16th, 1945	堵住缺口 - 1945 年 9 月 16 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
 Plugging the gap - September 17th, 1945	堵住缺口 - 1945 年 9 月 17 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
 Poland 1939 - September 3rd, 1939	波兰 1939 - 1939 年 9 月 3 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	29		长文本
 Poland 1945 - November 2nd, 1945	波兰'45 - 1945 年 11 月 2 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
@@ -7811,8 +7834,8 @@ Prepare your forces for a move to the Eastern front. The Bolsheviks have started
 Pretty soon we came to the conclusion that the Seine was also not suitable terrain for defense and such terrain will only be found along the Meuse and the Belgian border. We have clear indications that the Americans are planning an offensive in the direction of Nancy. You are to rush to the aid of the defenders there.	我们很快就得出结论：塞纳河同样不是适合防御的地形，这类地形只有在默兹河与比利时边境一线才能找到。我们有明确迹象表明，美国人正计划向南锡方向发起攻势。您须火速前往支援那里的守军。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	176		长文本
 Private Tovarich!  Nice to see you again.  It has been a while since our last meeting at Khabarovsk.  It was a shame to lose the battle against you, but now we can re-negotiate the conditions of the peace treaty.  This is Top Secret and I hope you have told no one of our plans.  As our men from the KGB have told you, we are ready to support you, if you finally decide to undertake a coup against Mao Zedong and his reformed communism.  It is literally destroying China.  We need to take China back to the right and true communist way.  We think you and your so-called ''Gang of Four'' are the perfect team to take down the Maoist system and that destructive plan named ''Great Leap Forward''.  That woman of your gang, ''Madame Mao'' can be very useful in the near future, when you will need to destroy the political image of Mao.	列兵达瓦里希！很高兴再次见到你。自上次在哈巴罗夫斯克会面以来已过了些时日。输给你那场战斗真是遗憾，但现在我们可以重新谈判和约条件了。这是最高机密，我希望你没有把我们计划的事告诉任何人。正如我们克格勃的人告诉你的，我们准备支持你，如果你最终决定对毛泽东及其改良共产主义发动政变的话。它正在实实在在地毁掉中国。我们需要把中国拉回正确而真正的共产主义道路。我们认为你和你那所谓的"四人帮"是推翻毛主义体制以及那个名为"大跃进"的破坏性计划的完美组合。你们团伙中的那个女人，"毛夫人"，在不久的将来会非常有用，那时你需要摧毁毛的政治形象。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	524		长文本
 pro-German government in Spain may prove to be a useful ally in the	西班牙亲德政府或许会证明是我们在	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
-Prokhorovka -  July 5th, 1943	普罗霍罗夫卡 - 1943 年 7 月 5 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
-Prokhorovka - July 11th, 1943	普罗霍罗夫卡(Prokhorovka) - 1943年7月11日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	41		长文本
+Prokhorovka -  July 5th, 1943	普罗霍夫卡 - 1943 年 7 月 5 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	30		长文本
+Prokhorovka - July 11th, 1943	普罗霍夫卡(Prokhorovka) - 1943年7月11日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	39		长文本
 Prusy Wschodnie - East Prussia (ZS#10), 08/20/1944	东普鲁士(Prusy Wschodnie - East Prussia) (ZS#10)，1944 年 8 月 20 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	68		长文本
 Przyczolek Magnuszewski - Magnuszew Bridgehead (ZS#09), 07/29/1944	马格努谢夫桥头堡(Przyczolek Magnuszewski - Magnuszew Bridgehead) (ZS#09)，1944 年 7 月 29 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	92		长文本
 Pt. 187	187号高地	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	9		长文本
@@ -7871,7 +7894,7 @@ Rommel's initial attacks have been stopped, good work. Unfortunately you were to
 Rommel's initial attacks have been stopped, good work. You are the best man to command our next offensive, so I have put in a good word for you.	隆美尔最初的进攻已被挡住，干得好。你是指挥我们下一次攻势的最佳人选，所以我已经为你说了好话。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	92		长文本
 Rostov Defence - November 22nd, 1941	罗斯托夫防御 - 1941 年 11 月 22 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	34		长文本
 Rostov was fully taken on the 21st November.  In its part in the attack the Leibstandarte had captured the main railway bridge intact, earning SS-Haupsturmfuhrer Heinrich Springer the Knights Cross.  Von Kleist's armour was able to pour over this vital crossing point and play a pivotal role in the victory.  For the division came the reward of 10,000 prisoners, 159 artillery pieces, 56 tanks and 2 armoured trains.	罗斯托夫(Rostov)于 11 月 21 日被完全攻占。在这次进攻中，警卫旗队(Leibstandarte)完整夺取了主要铁路桥，为党卫军上尉(SS-Haupsturmfuhrer)海因里希·施普林格(Heinrich Springer)赢得了骑士铁十字勋章(Knights Cross)。冯·克莱斯特(von Kleist)的装甲部队得以涌过这处至关重要的渡口，在胜利中发挥了关键作用。该师的回报是 10,000 名战俘、159 门火炮、56 辆坦克与 2 列装甲列车。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	359		长文本
-Royal Sussex Rgt. [BEF]	皇家萨塞克斯团/[BEF]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	20		长文本
+Royal Sussex Rgt. [BEF]	皇家萨塞克斯团/[英国远征军]	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
 Rumany will be be forced to reverse its alliance with German fascists and to fight on Soviet side.	罗马尼亚(Rumania)将被迫逆转与德国法西斯的联盟，转而站在苏联一边作战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	69		长文本
 Russians Production: Limited to only 2 of the same type of any Russian unit on the map at any one time except for unlimited normal Regular Infanty. (Automatically added Reinforcements dont count).	俄军生产：地图上同一时间，任意型号的俄军单位最多只能有 2 个，普通正规步兵不受此限。（自动加入的增援不计入）。	TEXT	EFILE_NASHORNPBEM	LOCKED	txt	HIGH	txt	SCOPE	109		长文本
 Rzhev-Vyazma Operation - January 29th, 1942	勒热夫(Rzhev)-维亚济马(Vyazma)战役 - 1942 年 1 月 29 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	55		长文本
@@ -7899,6 +7922,8 @@ September 1, 1940	1940年9月1日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		�
 September 11, 1943	1943年9月11日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 September 11, 1944	1944 年 9 月 11 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
 September 13, 1943	1943年9月13日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
+September 14, 1944	1944年9月14日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
+September 19, 1944	1944年9月19日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
 September 1940, after Great Britain denied to make a peace-treatry, Hitler decided to invade the British islands at once. On 24/09/1940, thirteen German divisions are preparing in France the upcoming battle, waiting the zero hour to cross the Channel while they know that the operations must be carried out perfectly in order to get the slightest chance of success. Due to the Royal Navy superiority you won't have another chance.	1940年9月，在大不列颠(Great Britain)拒绝缔结和约之后，希特勒决定立即入侵不列颠诸岛。1940年9月24日，十三个德国师正在法国(France)为即将到来的战斗做准备，等待跨越海峡的零时；他们知道，为了获得哪怕最微小的成功机会，这次作战也必须执行得完美无缺。由于皇家海军占据优势，你不会再有第二次机会。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	285		长文本
 September 20, 1940	1940 年 9 月 20 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	18		长文本
 September 23, 1943	1943年9月23日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	13		长文本
@@ -8007,6 +8032,7 @@ St. Pair-sur-Mer	圣派尔滨海	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	10		�
 St. Pierre Brouck	圣皮埃尔布鲁克	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	14		长文本
 St. Pierre-sur-Dives	圣皮埃尔叙迪夫	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	14		长文本
 St. Quentin	圣康坦	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	6		长文本
+St. Quentin	符拉迪沃斯托克(Vladivostok)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	27		长文本
 St. Quentin - May 14th, 1940	圣康坦(St. Quentin) - 1940 年 5 月 14 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	40		长文本
 St. Riquier	圣里基耶	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	8		长文本
 St. Venant	圣沃南	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	6		长文本
@@ -8024,6 +8050,7 @@ STAVKA is apparantly under the impression their troops are still advancing and h
 Stavka puts Koniev (Southern Army Group) and Zukov (Central Army Group) in competition for the capture of the Nazi lair.	最高统帅部让科涅夫(Koniev)（南方集团军群）与朱可夫(Zukov)（中央集团军群）竞争夺取这个纳粹巢穴。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	95		长文本
 Step by step - August 5th, 1946	步步为营(Step by step) - 1946 年 8 月 5 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	42		长文本
 Strock: At this crucial point in the war, we cannot allow any incompetent leaders to waste the lives of our men and equipment. Your XO will take over command and you will report immediately to the Chief of Staff in Berlin. Dismissed!	施特罗克：在战争的这一关键时刻，我们不能容许无能的指挥官白白浪费我们士兵的生命和装备。你的副指挥官(XO)将接掌指挥，你立即前往柏林向总参谋长报到。解散！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	150		长文本
+Strock: At this crucial point in the war, we cannot allow any incompetent leaders to waste the lives of our men and equipment. Your XO will take over command and you will report immediately to the Chief of Staff in Berlin. Dismissed!	小土星 (RTB#04)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	15		长文本
 Strock: Congratulations, Herr Feldmarschall! You have captured General Patton!. We now have an armistice signed, and all fighting can stop. The U.S. is very lucky to have General Patton. He's a very reasonable man. He was instrumental in helping to draft the armistice. And you, my friend, there's talk about renaming a city in your honor. Come now, let us celebrate!	施特罗克(Strock)：恭喜，元帅阁下！你俘获了巴顿(Patton)将军！我们现在已签署了停战协定，一切战斗都可以停止了。美国能有巴顿将军真是幸运。他是个非常通情达理的人。他在协助起草停战协定上起了关键作用。而你，我的朋友，有人在谈论要以你的名字给一座城市重新命名。来吧，让我们庆祝一下！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	274		长文本
 Strock: Due to your success in this campaign, the French are now on the run. Good job!	施特罗克：由于你在这场战役中的成功，法国人如今正在溃逃。干得好！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	64		长文本
 Strock: Excellent work! The Italians should not have to worry anymore about the Allies being on their soil. Now, you must hurry your men to France. You can take only some of your ground units and all of your Luftwaffe, and head to Normandy. The rest will go further north. I will brief you again when we get up there.	施特罗克(Strock)：干得漂亮！意大利人不必再担心盟军踏上他们的国土了。现在，你必须把你的部下急调往法国。你只能带上一部分地面部队和你的全部空军，前往诺曼底(Normandy)。其余的将开往更北面。等我们到了那里，我会再向你交代。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	216		长文本
@@ -8034,6 +8061,7 @@ Strock: Excellent work, Herr General. Now, you and your reconnaisance crew need 
 Strock: Excellent work, Herr General. You have stopped the British offensive!	施特罗克：干得漂亮，将军阁下。你已挡住英军的攻势！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	50		长文本
 Strock: Herr Feld-Marschall, the Soviets threaten Berlin. Zhukov is about to break the Oder Front and Konev has already broken the 3rd Panzer army lines in the South. You are the only one who can stop them !!! You are in the direct path of Konev. Feld Marschall Rommel came out of retirement to raise a Panzer Corps to slow down Zhukov.  He will try to buy some time for you. You should defeat Konev first and then Zhukov.	施特罗克(Strock)：元帅阁下，苏军威胁柏林。朱可夫(Zhukov)即将突破奥得河(Oder)防线，科涅夫(Konev)已突破南面的第3装甲集团军防线。只有你能挡住他们！！！你正处在科涅夫的正前方。隆美尔(Rommel)元帅已复出，组建了一个装甲军来迟滞朱可夫。他会尽力为你争取时间。你应当先击败科涅夫，再对付朱可夫。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	284		长文本
 Strock: Herr General or better ex-Herr General war it is a tough business. You should try another occupation.	施特罗克：将军阁下——或者该说，前将军阁下——战争可是门苦差事。你该换个行当试试。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	82		长文本
+Strock: Herr General or better ex-Herr General war it is a tough business. You should try another occupation.	西迪拜拉尼(Sidi Barrani)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	24		长文本
 Strock: Herr General or better ex-Herr General war it is a tough business.You should try another occupation.	施特罗克：将军阁下——或者该说，前将军阁下——战争可是门苦差事。你该换个行当试试。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	82		长文本
 Strock: Herr General or better ex-Herr General war it is a tough business.You should try another occupation.	沃洛科拉姆斯克	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	14		长文本
 Strock: Herr General or better ex-Herr General war it is a tough business.You should try another occupation. Telegramme incoming... Der Führer in his mercifulness recognizes that you had to fight against overwhelming forces, your knowledge of the French theatre and your excellent past records have given you a very last chance to keep an army leadership in the Wehrmacht. Make a good use of it!	施特罗克：将军阁下——或者该说，前将军阁下——战争可是门苦差事。你该换个行当试试。电报来了……元首(Der Führer)出于仁慈，承认你不得不对抗压倒优势的兵力；你对法国战场的了解与过去的优异履历，给了你最后一次在国防军中保留集团军指挥权的机会。好好利用它！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	249		长文本
@@ -8068,6 +8096,7 @@ Strock: The Oberkommando der Wehrmacht is highly dissapointed with your pitiful 
 Strock: Your great victory Herr General has reduced the threat to Sicily and improved Italy's moral !!!	施特罗克：将军阁下，你的重大胜利减轻了对西西里(Sicily)的威胁，也提升了意大利的士气！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	88		长文本
 Student - May 10th, 1940	施图登特(Student) - 1940 年 5 月 10 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
 Student's troops did such a great job, capturing the Dutch government and Queen Wilhelmina that the Dutch capitulated before the 9th Panzer division and your troops came to the scene.	施图登特(Student)的部队干得如此出色，俘获了荷兰政府与威廉明娜(Wilhelmina)女王，以致荷兰在第9装甲师与你的部队赶到之前就已投降。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	126		长文本
+Suburbs! - April 11th, 1945	郊区！ - 1945 年 4 月 11 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
 Suburbs! - November 14th, 1946	郊区！ - 1946 年 11 月 14 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
 Success will be encirclement of the Sixth Army.	成功即意味着对第6集团军的合围。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	31		长文本
 sufficiently to resume his offensive, however, his defense is strong	以恢复攻势，然而他的防御十分坚固，	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	34		长文本
@@ -8275,7 +8304,7 @@ The complete division reached Normandy about 20th June and was kept in reserve f
 The convoy's path is cleared with plenty of time to spare. And the Soviet forces are reeling from your counter-attack behind their lines. Keep it coming Commander.	运输队的通路已清空，还富余出大量时间。而苏军正因你在其战线后方的反击而踉跄后退。继续干，指挥官。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	96		长文本
 The convoy's path is cleared. And the Soviet forces are reeling	运输队的通路已清空。而苏军正因你在其战线后方的	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	46		长文本
 The cutting off of the Greek withdrawal to the south was accomplished by 20 April, following a pitched battle in the 5,000 foot high Metsovon Pass in the Pindus Mountains. Realizing the hopelessness of the situation, the Greek commander offered to surrender his army, which then consisted of fourteen divisions. After brief negotiations, which, on strict orders from Hitler, were kept secret from the Italians, the surrender was accepted with honorable terms for the defeated. In recognition of the valor with which the Greek troops had fought, their officers were permitted to retain their side arms. The soldiers were not treated as prisoners of war and were allowed to go home after the demobilization of their units.	4 月 20 日，在品都斯山脉(Pindus Mountains)中 5,000 英尺高的迈措翁山口(Metsovon Pass)进行了一场激战之后，切断希腊军队向南撤退的任务完成。希腊指挥官意识到局势已无望，提出率其当时由 14 个师组成的军队投降。经过短暂谈判——按照希特勒的严令，谈判对意大利人保密——投降被接受，战败方获得了体面的条件。为表彰希腊部队作战的英勇，他们的军官获准保留随身武器。士兵没有被当作战俘对待，在部队复员后获准回家。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	394		长文本
-The DAS REICH campaign puts you in control of the SS units known as SS-Division Verfuegungstruppe, SS-Division Das Reich, SS-Panzergrenadier-Division Das Reich and 2SS Panzer Division Das Reich. The division was one of the classic SS divisions that quickly earned a reputation for courage and bravery.	本「帝国」师战役让你指挥党卫军部队——党卫军「武装」师（SS-Verfuegungstruppe）、党卫军「帝国」师（SS-Division Das Reich）、党卫军装甲掷弹兵「帝国」师（SS-Panzergrenadier-Division Das Reich）和第2党卫军装甲师「帝国」师。该师是经典的党卫军师之一，很快以勇敢无畏赢得了声誉。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	271		长文本
+The DAS REICH campaign puts you in control of the SS units known as SS-Division Verfuegungstruppe, SS-Division Das Reich, SS-Panzergrenadier-Division Das Reich and 2SS Panzer Division Das Reich. The division was one of the classic SS divisions that quickly earned a reputation for courage and bravery.	本「帝国」师战役让你指挥党卫军部队——党卫军「武装」师(SS-Verfuegungstruppe)、党卫军「帝国」师(SS-Division Das Reich)、党卫军装甲掷弹兵「帝国」师(SS-Panzergrenadier-Division Das Reich)和第2党卫军装甲师「帝国」师。该师是经典的党卫军师之一，很快以勇敢无畏赢得了声誉。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	265		长文本
 The defense of Nancy is very important right now. President Beck is desperately trying to make peace with the western allies. In order to attain this he has permitted the Italians, the Bulgarians and the Finns to get out of the war, and has withdrawn from Greece. At this moment secret negotiations are taking place in Spain: though Churchill is still insisting on an unconditional surrender he is the only one receiving our envoy.	当前保卫南锡至关重要。贝克总统正拼命设法与西方盟国媾和。为此他已允许意大利、保加利亚和芬兰退出战争，并已从希腊撤军。此刻在西班牙正在进行秘密谈判：尽管丘吉尔仍坚持无条件投降，但他是唯一接见我方使者的人。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	202		长文本
 The disembark has been succesful, but now we've reached the heart of the British Empire: London. I am sure that the red flag will look very well in the top of the Big Ben. Churchill and the Royal Family have escaped from the country, and they are travelling to Canada, the British moral is broken, but it will not avoid a furious fight on the suburbs of London. Good Luck... you will need it.	登陆成功了，但我们现在已抵达大英帝国(British Empire)的心脏：伦敦(London)。我确信红旗挂在大本钟(Big Ben)顶上会非常好看。丘吉尔(Churchill)与王室已逃离这个国家，正在前往加拿大(Canada)，英国人的士气已经崩溃，但这仍无法避免在伦敦郊区的一场狂怒战斗。祝好运……你会需要它的。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	268		长文本
 The dissarray of the greeks against their goverment has lead to a people's revolution, where the comunists greek partisans are taking the lead of that revolt. Our mission is to help the partisans in their fight. In all the ways, Stavka have been planed to attack Greece to avoid a potential allied land here. Our comrades spies are sending reports us about the allied presence in this area, take care, a defeat here will bring the allies the opportunity to attack our motherland.\x00\x00	希腊人对其政府的混乱状态导致了一场人民革命，共产主义希腊游击队员正在领导这场起义。我们的任务是帮助游击队员进行斗争。无论如何，最高统帅部已计划进攻希腊，以防盟军在此登陆。我们的同志间谍正把这一地区盟军存在情况的报告送给我们，小心，这里的失败会给盟军进攻我们祖国的机会。\x00\x00	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	276		长文本
@@ -8422,6 +8451,7 @@ The invasion of this southern area of England has been succesfully, a beachhead 
 The Italian naval aircraft Re 2001 can be repaired and resupplied on the carrier and on any Axis airfield.	意大利海军飞机 Re 2001 可在航母上以及任何轴心国机场修理与补给。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	63		长文本
 The Italian naval aircraft Re 2001 can be repaired and resupplied on the carrier and on any Axis airfield.\x00	意大利海军飞机 Re 2001 可以在航母上以及任何轴心国机场进行修理与补给。\x00	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	73		长文本
 The Italians are grateful because we help them to recover their colonies	意大利人很感激，因为我们帮助他们收复了他们的殖民地	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	50		长文本
+The IV SS Panzer Corps strikes from the Veszprem area to break the Soviet ring around Budapest and relieve the encircled garrison. The attack must succeed before the city falls.	亲卫队第4装甲军自维斯普雷姆(Veszprem)地域发起突击，打破苏军对布达佩斯(Budapest)的合围圈，解救被围守军。必须在城市陷落之前达成突破。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	131		长文本
 The Japanese had their "reward", but this might happen to us too.	日本人得到了他们的「回报」，但这种事也可能发生在我们身上。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	58		长文本
 The Kharkov scenario and the map on which it is played are created by Hannes Gruber. Slight modifications were made: deployment hexes, supply hexes and prestige management.	哈尔科夫场景及其所用地图由 Hannes Gruber 制作。为使其适配本战役，仅作了轻微修改：部署格、补给格与威望管理。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	107		长文本
 The King himself wants to decorate you!  That will have to wait however,	国王(King)本人要亲自给你授勋！不过那得等一等，	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	46		长文本
@@ -8468,7 +8498,7 @@ The only positive result is that you and your troops have gained some	唯一的�
 The operation was a real challenge since the Belgian Army had to retreat in some cases 100 km, transport its ammo depots (a lot being destroyed/fired as it was not possible to transport it), use secondary roads (the main ones being used by French and British) packed with compatriot refugees, and all this under the constant presence of the Luftwaffe.	这次行动是真正的挑战，因为比利时军队有时必须后撤100公里，运送弹药库（由于无法运输，许多弹药被销毁或引爆），走满是同胞难民的次要道路（主要道路被法军和英军占用），而这一切都是在德国空军不断出现的情况下进行的。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	207		长文本
 The Party has brought the Great Patriotic War to a victorious end and we celebrate your role in this final battle.  The banners of the SSSR fly over the Reichstag, and our liberation mission is complete.  All the peoples of the world herald your name for freeing them from the fascist nightmare. Comrade General, a dacha on the Black Sea has been granted you and awaits your pleasure. And now, Vodka!	党已把伟大的卫国战争引向胜利的结局，我们在此庆祝你在这场最后之战中的作用。苏联(SSSR)的旗帜飘扬在国会大厦(Reichstag)上空，我们的解放使命已经完成。全世界的人民都在传颂你的名字，因为你把他们从法西斯的噩梦中解放出来。将军同志，黑海(Black Sea)畔的一座别墅已划拨给你，静候你享用。现在，上伏特加！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	290		长文本
 The people celebrates your recent victory ! Time is needed to rebuild those installations, this time is long enough for us to destroy them.	人民在庆祝你最近的胜利！重建那些设施需要时间，而这段时间足够我们摧毁它们。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	74		长文本
-The plan called for a converging strike by the 9th Army in the north and 4th Panzer Army to the south in the aim of enveloping the Kursk salient.  The Leibstandarte now with a new commander - Theodor Wisch, because of Dietrich's promotion - would operate in the south with 4th Panzer Army.  They were given the task of driving through the defences of the Voronezh Front before moving North-East to take Prokharovka.	计划要求北面的第9集团军与南面的第4装甲集团军实施向心突击，以包围库尔斯克突出部。警卫旗队此时换了新任指挥官——因迪特里希(Dietrich)晋升而由特奥多尔·维施(Theodor Wisch)接任——将在南面随第4装甲集团军作战。他们的任务是突穿沃罗涅日方面军的防御，然后向东北推进，夺取普罗霍罗夫卡。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	276		长文本
+The plan called for a converging strike by the 9th Army in the north and 4th Panzer Army to the south in the aim of enveloping the Kursk salient.  The Leibstandarte now with a new commander - Theodor Wisch, because of Dietrich's promotion - would operate in the south with 4th Panzer Army.  They were given the task of driving through the defences of the Voronezh Front before moving North-East to take Prokharovka.	计划要求北面的第9集团军与南面的第4装甲集团军实施向心突击，以包围库尔斯克突出部。警卫旗队此时换了新任指挥官——因迪特里希(Dietrich)晋升而由特奥多尔·维施(Theodor Wisch)接任——将在南面随第4装甲集团军作战。他们的任务是突穿沃罗涅日方面军的防御，然后向东北推进，夺取普罗霍夫卡。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	274		长文本
 The Plan was better than expected. Now we have to finish the second stage of Seelöwe.	计划进展得比预期更好。现在我们得完成「海狮」(Seeloewe)行动的第二阶段。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	70		长文本
 The Plattensee offensive - March 1945 BV	巴拉顿湖攻势 1945年3月 辉煌胜利	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	31		长文本
 The Plattensee offensive - March 1945 L	巴拉顿湖攻势 1945年3月 失败	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	27		长文本
@@ -8480,11 +8510,13 @@ The Poles are happy to be out from under Ivan's boot.	波兰人很高兴摆脱�
 The Poles are in utter confusion and have already sued for terms.	波兰人已陷入极度混乱，并已求和。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 The Polish army attempts to defend their homeland against the German	波兰军队试图保卫自己的家乡，抵御德国	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	36		长文本
 The position of the Greek First Army, still fighting in Albania, was seriously jeopardized by the rapid advance of the XL Panzer Corps via Florina and by the British withdrawal to positions behind the Aliakmon. The Greek command therefore had to come to grips with the necessity of withdrawing southward from Albania. However, it was not until 13 April that the first Greek elements began to withdraw toward the Pindus Mountains. On the next day an advance detachment of the 73d Infantry Division encountered Greek troops withdrawing from Albania across the Pindus Mountains into the area west of Kastoria. Heavy fighting took place on that and the following day, especially at Kastoria Pass, where the Germans blocked the Greek withdrawal, which by then extended to the entire Albanian front, with the Italians in hesitant pursuit.	仍在阿尔巴尼亚(Albania)作战的希腊第1集团军，其处境因第40装甲军经弗洛里纳(Florina)的快速推进，以及英军撤往阿利亚克蒙(Aliakmon)河后方阵地而严重恶化。因此希腊统帅部不得不面对从阿尔巴尼亚向南撤退的必要性。然而，直到 4 月 13 日，首批希腊部队才开始向品都斯山脉(Pindus Mountains)撤退。次日，第73步兵师的一支先遣支队遇到了正从阿尔巴尼亚越过品都斯山脉、撤入卡斯托里亚(Kastoria)以西地区的希腊部队。当天及随后一天发生了激战，尤其是在卡斯托里亚山口，德军在那里阻断了希腊人的撤退——此时撤退已扩展到整个阿尔巴尼亚战线，而意大利人则迟疑地尾随追击。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	534		长文本
-The Prokhorovka scenario is influenced by Jorge Gabitto's Kursk campaign.	普罗霍罗夫卡(Prokhorovka)这一场景受到 Jorge Gabitto 的库尔斯克(Kursk)战役的影响。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	81		长文本
+The Prokhorovka scenario is influenced by Jorge Gabitto's Kursk campaign.	普罗霍夫卡(Prokhorovka)这一场景受到 Jorge Gabitto 的库尔斯克(Kursk)战役的影响。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	79		长文本
 The quest for dominance of the Mediterranean begins with Malta.  The previous administration made the mistake of letting the British stay on this strategically placed island.  Malta must now become ours!	争夺地中海霸权的起点是马耳他(Malta)。前任政府犯下的错误，就是让英国人留在这座战略位置重要的岛上。马耳他现在必须归我们所有！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	123		长文本
 The quick defeat of Australia will allow us to continue the conquest of the South Pacific. Now it's New Zealand's turn, where some Australian and American troops have escaped to.  They must not have another base here, New Zealand is like a big carrier, and it eventually could support an allied invasion of our new possessions in Australia.  From Tokyo, your orders are to assault the Auckland sector from two sides.  Special Naval Landing Forces (2nd and 3rd Yokosuka with paratrooper training) will support your mission.  Also seize the key island of Waiheke and its airstrip.   Like other battles we must capture all the enemy airbases because they have relative air superiority.   At the beginning of this battle I advice you to keep your air units in a defensive role.	澳大利亚的迅速溃败使我们得以继续征服南太平洋。现在轮到新西兰了，一些澳大利亚和美国部队逃到了那里。他们绝不能在那里再拥有基地，新西兰就像一艘巨大的航母，最终可能支撑盟军对我们新占领的澳大利亚领土发起反攻。来自东京的命令是：从两个方向进攻奥克兰地区。特别海军陆战队（接受伞兵训练的第2、第3横须贺部队）将支援您的行动。同时夺取关键的怀赫科岛及其简易机场。与以往其他战斗一样，我们必须夺取敌军所有空军基地，因为他们拥有相对的空中优势。战斗开始时，我建议您让航空部队采取防御姿态。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	472		长文本
 The Red Army and Tito's partisans are liberating Belgrade together.	红军与铁托(Tito)的游击队正一同解放贝尔格莱德(Belgrade)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	56		长文本
 The Red army at Santander has been completely destroyed.  Only a few remnants have escaped to Asturias where they are now joined with the Asturian forces.  The enemy knows where to stop us in the mountains, but it's isolated.  The Republican government at Valencia can't send any kind of aid to the Asturians and it's just a matter of time until they are defeated.  However we must not allow the enemy to stage a heroic defense.  The winter in the mountains of Asturias is very hard and it will be the best ally for the Republicans.  Your task, mi General, is to get a quick and smashing victory.  Then, we will be able to turn our attention to the Aragon front.	桑坦德的红军已被彻底消灭。只有少数残部逃入阿斯图里亚斯，现在与阿斯图里亚斯部队会合。敌人知道在哪里能阻挡我们，但那是块与世隔绝的地方。巴伦西亚的共和派政府无法向阿斯图里亚斯人提供任何援助，他们被击败只是时间问题。然而我们绝不能容许敌人上演一场英雄式的防御。阿斯图里亚斯山区的冬天十分严酷，它将成为共和派最好的盟友。你的任务，将军阁下，是取得一场迅速而彻底的胜利。此后，我们就能把注意力转向阿拉贡前线。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	400		长文本
+The Red Army has opened a massive offensive on the Don bend, smashing into the sectors held by our Romanian allies. General, the Leader demands that you hold the river line and cover the flanks of our Stalingrad armies. Counterattack at once and restore the front.	红军在顿河(Don)弯道发起了大规模反攻，直冲罗马尼亚盟军据守的地段。将军，领袖要求你坚守沿河一线，掩护我斯大林格勒(Stalingrad)集团的两翼。立即反击，恢复战线。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	155		长文本
+The Red Army opens the Riga offensive, driving to cut Army Group North off from the Baltic coast.	苏军发起里加(Riga)攻势，直插波罗的海(Baltic)沿岸，力图切断北方集团军群的陆上联系。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	82		长文本
 The remnants of the British army have retreated south to fortified positions in the hills.  With no place left to run, expect massive amounts of troops to surrender.  It is believed that the enemy navy is operating out of the numerous ports in the region.	英军残部已南撤至山中的设防阵地。他们已无处可逃，要料到会有大量部队投降。据信敌军海军正以该地区众多港口为基地活动。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	114		长文本
 The Riukiu islands must not fall into the enemy hands!.	琉球群岛绝不能落入敌手！	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	24		长文本
 the Rodina you will still direct operations of the final assault on Berlin.	祖国立下的功绩，你仍将指挥对柏林最后突击的作战。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	48		长文本
@@ -8496,14 +8528,14 @@ The Romanians try desperately to close the mountain passes to the Red Army. A su
 The Romny scenario and the map on which it is played are created by Hannes Gruber. Slight modifications were made: deployment hexes, victory conditions and forced delayed arrival of core reinforcements during the scenario.	罗姆内(Romny)场景及其使用的地图由汉内斯·格鲁伯(Hannes Gruber)制作。做了一些小改动：部署格、胜利条件，以及场景中核心增援部队的强制延迟到达。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	140		长文本
 The Russian 33rd Army was able to relieve the 39rd Army, 29th Army and the 11th Cavalry Corps. Instead of Russian troops, lots of German divisions are now trapped behind enemy lines.	俄军第33集团军成功解救了第39集团军、第29集团军和第11骑兵军。如今被困在敌后的不是俄军，而是大批德军师。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	102		长文本
 The Russian 39rd Army followed by the 29th Army and the 11th Cavalry Corps have broken through our lines near Rzhev and are advancing South on Vyazma. Our Corps has just closed the lines behind these Bolshevik forces. Your orders are to hold Vyazma and stop the relief attempt by the Russian 33rd Army - that is advancing on Vyazma from the East - by capturing Maloyaroslavets and thus also cutting the 33rd Army off from their own lines.	俄军第39集团军，随后是第29集团军和第11骑兵军，已在勒热夫附近突破我军防线，正向南推进，直指维亚济马。我军已刚刚在这些布尔什维克部队身后封闭了战线。你的命令是守住维亚济马，并通过夺取小雅罗斯拉韦茨，阻止从东面向维亚济马推进的俄军第33集团军的解围企图——这样也就切断了第33集团军与其本方战线之间的联系。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	298		长文本
-The Russian 5th Guards tank army that got badly mauled at Prokhorovka when meeting your forces in mid July has been rebuilt, rushed through the gap between our 4th Pz Army and Group Kempf and is now threatening Kharkov. A Kampfgruppe of the 3rd Pz Division, the 198ID and some corps troops are defending the city. They urgently need your help to stop the flood of T34 tanks.	7 月中旬在普罗霍罗夫卡与我军遭遇时被打得残破不堪的俄国近卫第5坦克集团军已经重建，它穿过我们第4装甲集团军与肯普夫(Kempf)集群之间的缺口突进，如今正威胁哈尔科夫。第3装甲师的一支战斗群、第198步兵师和一些军属部队正在守卫该城。他们急需你的帮助来挡住洪流般的 T34 坦克。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	262		长文本
+The Russian 5th Guards tank army that got badly mauled at Prokhorovka when meeting your forces in mid July has been rebuilt, rushed through the gap between our 4th Pz Army and Group Kempf and is now threatening Kharkov. A Kampfgruppe of the 3rd Pz Division, the 198ID and some corps troops are defending the city. They urgently need your help to stop the flood of T34 tanks.	7 月中旬在普罗霍夫卡与我军遭遇时被打得残破不堪的俄国近卫第5坦克集团军已经重建，它穿过我们第4装甲集团军与肯普夫(Kempf)集群之间的缺口突进，如今正威胁哈尔科夫。第3装甲师的一支战斗群、第198步兵师和一些军属部队正在守卫该城。他们急需你的帮助来挡住洪流般的 T34 坦克。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	260		长文本
 The Russians are dazed and reeling from the blows you and your brave men have delivered! Not only did you succeed in relieving Buda-Pest, you drove the Reds back across the Danube. Herr General, diplomatic representatives of Germany and the Soviet Union are meeting even as we speak... Your string of victories here, and in the west, are unparalleled. You are to return home to a grateful nation.	俄国人被你和你英勇部队的重击打得晕头转向！你不仅成功解围了布达佩斯，还把红军赶回了多瑙河对岸。将军阁下，德国和苏联的外交代表此刻正在会晤……你在这里以及西线的一连串胜利无人能及。你将回到一个感恩的祖国。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	202		长文本
 The Russians attack Army Group Center holding to the Belorussian	俄军进攻据守白俄罗斯(Belorussian)	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	33		长文本
 The Russians attack the Finns at Viipuri.	俄军在维堡(Viipuri)进攻芬兰人。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	31		长文本
 The Russians attack the Finns at Viipuri. A victory here will put Finland out of the war.	俄军在维堡(Viipuri)进攻芬兰人。在此取胜将使芬兰(Finland)退出战争。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	66		长文本
 The Russians attack the German Capital from the East and South.  Germans try desperately to stop the Russian onslaught.	俄国人从东面和南面进攻德国首都。德国人拼死试图挡住俄国的猛攻。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
 The Russians attack the northern flank of Army Group Center trying to	俄军进攻中央集团军群的北翼，试图	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
-The Russians attack the rocket research center located at Peenemunde.	俄军进攻位于佩讷明德(Peenemunde)的火箭研究中心。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	48		长文本
+The Russians attack the rocket research center located at Peenemunde.	俄军进攻位于佩内明德(Peenemunde)的火箭研究中心。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	48		长文本
 The Russians attack Warsaw whereas Germans crushed the Poles during Warsaw uprising in October 1944.	俄军进攻华沙(Warsaw)，而德军已在1944年10月的华沙起义中镇压了波兰人。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	68		长文本
 The Russians attack Zhitomir trying to break the link between Army Groups Center and South.	俄国人进攻日托米尔(Zhitomir)，试图切断中央与南方两个集团军群之间的联系。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	72		长文本
 The Russians attempt to relieve their encircled forces at Kiev. You must respond with a counter attack.	俄国人试图解救他们在基辅被围的部队。你必须以反击回应。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	54		长文本
@@ -8512,7 +8544,7 @@ The Russians cross the Bug river into Romanian held territory. The Germans try t
 The Russians defeated the Finns at Viipuri. A combined German-Finnish Army counterattacks to recover Viipuri.	俄国人在维堡(Viipuri)击败了芬兰人。一支德芬联军反击，以夺回维堡。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	65		长文本
 The Russians have agreed to an armistice.	俄国人已同意停战。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	18		长文本
 The Russians have almost completely encircled Vienna. Your division's task is too hold open the bridges over the Danube to let as many troops as possible escape to the west.	俄国人几乎完全包围了维也纳。你师的任务是守住多瑙河上的桥梁通道，让尽可能多的部队西撤。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	86		长文本
-The Russians have assembled a Guards Tank Army at Prokhorovka, destroy them!	俄国人在普罗霍罗夫卡(Prokhorovka)集结了一个近卫坦克集团军，消灭他们！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	69		长文本
+The Russians have assembled a Guards Tank Army at Prokhorovka, destroy them!	俄国人在普罗霍夫卡(Prokhorovka)集结了一个近卫坦克集团军，消灭他们！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	67		长文本
 The Russians have erected considerable defenses around Moskva, but you must break through and capture their capitol.  Move quickly before they bring in more reinforcements from the east.	俄国人在莫斯科(Moskva)周边构筑了相当规模的防御，但你必须突破并夺取他们的首都。要在他们从东面调来更多补充兵员之前迅速行动。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	122		长文本
 The Russians have isolated Budapest the Hungarian Capital. The Germans counterattack to break the ring surrounding the City.	俄国人已孤立匈牙利首都布达佩斯(Budapest)。德军反击，以打破围住该城的包围圈。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	76		长文本
 The Russians have suffered horrific losses in the air over the past month so the only planes you should see overhead will be ours. Good luck Commander.	过去一个月里俄国人在空中遭受了惨重损失，所以你在头顶应该只会看到我们的飞机。祝好运，指挥官。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	92		长文本
@@ -8523,7 +8555,7 @@ The Russians try to cross the Dniepr river. It is the last great geographical ba
 The Russians try to cross the Kerch straits to invade Crimea.	俄国人试图渡过刻赤海峡(Kerch straits)入侵克里米亚(Crimea)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	59		长文本
 The Russians try to expel the Germans from Western Ukraine. The action starts after they have broken the German front.	俄国人试图把德国人逐出西乌克兰(Western Ukraine)。行动在他们突破德军战线之后开始。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	81		长文本
 The Russians were hoping a massive push down the East Flank around Salem plus increasingly supplied partisan activity in the SW and also a new Navy beachhead in the SE around Oil Depot Alpha would finally bring the Germans to their knees.	俄军则期望：沿东翼萨勒姆一带大举推进，加上西南方向补给日益充足的游击队活动，以及东南方向“阿尔法油库”一带新的海军登陆场，能最终迫使德军屈服。	TEXT	EFILE_NASHORNPBEM	LOCKED	txt	HIGH	txt	SCOPE	142		长文本
-The salient around Kursk, created by the Soviet advances after the German loss at Stalingrad, drew the Germans' attention.  The German plans, code named "Zitadelle", were to cut the bulge by capturing Prokhorovka.  While the Germans waited to receive their new Tiger and Panther tanks before attacking, the Soviets, knowing of the German plan, took this time to deploy their forces in depth.	德军在斯大林格勒失利后，苏军推进形成的库尔斯克周边突出部吸引了德军的注意。德军的计划代号「堡垒」，意图通过夺取普罗霍罗夫卡来切掉这个突出部。当德军等待接收新的「虎」式和「豹」式坦克再发动进攻时，已得知德军计划的苏军利用这段时间把部队作了纵深配置。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	246		长文本
+The salient around Kursk, created by the Soviet advances after the German loss at Stalingrad, drew the Germans' attention.  The German plans, code named "Zitadelle", were to cut the bulge by capturing Prokhorovka.  While the Germans waited to receive their new Tiger and Panther tanks before attacking, the Soviets, knowing of the German plan, took this time to deploy their forces in depth.	德军在斯大林格勒失利后，苏军推进形成的库尔斯克周边突出部吸引了德军的注意。德军的计划代号「堡垒」，意图通过夺取普罗霍夫卡来切掉这个突出部。当德军等待接收新的「虎」式和「豹」式坦克再发动进攻时，已得知德军计划的苏军利用这段时间把部队作了纵深配置。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	244		长文本
 The Sarin gas facility is down.  Although you accomplished your objectives,	沙林毒气设施已瘫痪。尽管你达成了目标，	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
 The Sarin gas facility is down.  Although you accomplished your objectives,	巴巴罗萨行动(Unternehmen Barbarossa)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	36		长文本
 The scientist you rescued in Riga has informed us of the location of Stalin's nuclear silos. Apparently they are being constructed in the area around Kiev, in the Ukraine. Luckily, our invasion forces in the southern part of Russia have managed to push into the surrounding area, and are supporting you in this operation. Hurry, Commander. If Stalin has nuclear missiles already built in these silos, then he could launch them at London, Paris and Berlin. We must capture the silos in Kiev before he gives the order to launch...	你在里加(Riga)救出的那位科学家已告知我们斯大林(Stalin)核导弹发射井的位置。看来它们正在乌克兰的基辅(Kiev)周边地区建造。幸运的是，我们在俄罗斯南部的入侵部队已成功突入周边地区，正在这次行动中支援你。快点，指挥官。如果斯大林已在这些发射井里造好了核导弹，他就能把它们射向伦敦(London)、巴黎(Paris)和柏林(Berlin)。我们必须在他下令发射之前夺取基辅的发射井……	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	351		长文本
@@ -8543,7 +8575,7 @@ The southern half of Haguenau is in our hands now and we are poised to enter the
 The Soviet "Pensylvanya Front" is attacking from the North, and it's already smashing the US defenses in the "Queens" quarter, while forces from the "NY Front" are heading to overrun the pocket of Brooklyn and then, join the forces coming from the North in order to cross the East river and smash the whole Manhattan, where the resistance will surely be even harder.	苏联「宾夕法尼亚方面军」(Pensylvanya Front)正从北面进攻，已经粉碎了「皇后区」(Queens)的美军防御，而「纽约方面军」(NY Front)的部队正向布鲁克林(Brooklyn)包围圈压去，随后将与从北面来的部队会合，渡过东河(East river)，粉碎整个曼哈顿(Manhattan)，那里的抵抗肯定会更加顽强。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	266		长文本
 The Soviet air force has retreated back home to Russia.  Our blockade of the Black Sea has kept the Soviet Navy in local waters.  You must make your landing immediately before they have a chance to stop us.	苏联空军已撤回俄国本土。我们对黑海(Black Sea)的封锁把苏联海军困在近海水域。你必须立即登陆，不能给他们阻止我们的机会。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	117		长文本
 The Soviet armies are fleeing east; The Fuher himself has demanded your presence in Berlin to award your medal!	苏军正向东逃窜；元首本人已要求你前往柏林，为你授勋！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	52		长文本
-The Soviet attack had been driven off, but at a heavy price, and the SS-Panzer Corps now held the area around Prokhorovka and the railroad.  In the north however, the Soviets had launched a strong counter-attack behind the 9th Army, threatining them with encirclement - forcing General Model to halt his advance, and pull back his forces.  With the situation in the north becoming increasingly precarious, Hitler called 'Zitadelle' off on the 13th July.	苏军的进攻已被打退，但代价沉重，党卫军装甲军(SS-Panzer Corps)现在控制着普罗霍罗夫卡(Prokhorovka)周边地区与铁路。然而在北面，苏军已在第9集团军后方发动强大反击，以合围相威胁——迫使莫德尔(Model)将军停止推进并后撤其部队。随着北面局势日益危急，希特勒于 7 月 13 日叫停了「堡垒」(Zitadelle)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	286		长文本
+The Soviet attack had been driven off, but at a heavy price, and the SS-Panzer Corps now held the area around Prokhorovka and the railroad.  In the north however, the Soviets had launched a strong counter-attack behind the 9th Army, threatining them with encirclement - forcing General Model to halt his advance, and pull back his forces.  With the situation in the north becoming increasingly precarious, Hitler called 'Zitadelle' off on the 13th July.	苏军的进攻已被打退，但代价沉重，党卫军装甲军(SS-Panzer Corps)现在控制着普罗霍夫卡(Prokhorovka)周边地区与铁路。然而在北面，苏军已在第9集团军后方发动强大反击，以合围相威胁——迫使莫德尔(Model)将军停止推进并后撤其部队。随着北面局势日益危急，希特勒于 7 月 13 日叫停了「堡垒」(Zitadelle)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	284		长文本
 The Soviet attacks Berlin, Stalin has put Zhukov and Koniev into competition for the fall of the Capital city of the Reich. You must put an end to this plan and defeat both Soviet armies, Berlin will be the place where Stalin was stopped!!!	苏军进攻柏林，斯大林已让朱可夫(Zhukov)与科涅夫(Koniev)竞争夺取帝国首都之功。你必须终结这一计划，击败两支苏军，柏林将成为斯大林被挡住的地方！！！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	144		长文本
 The Soviet forces attack the flanks of the Sixth Army guarded by	苏军进攻第6集团军由	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	19		长文本
 The soviet horde has been destroyed, and now our manchukoan allies can sleep well, without the red menace from the West. Emperor Pu-Yi sends you his congrats.	苏联大军已被消灭，如今我们的满洲国盟友可以安睡了，不必再担心来自西方的红色威胁。溥仪皇帝向您致以祝贺。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	102		长文本
@@ -8551,6 +8583,7 @@ The Soviet super tank is crushed. The base has been captured, but in the	苏联�
 The Soviet troops attack the city of Perekop to cut the land	苏军进攻佩列科普(Perekop)城，以切断	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	35		长文本
 The Soviet troops attack the city of Perekop to cut the land conmmunication between Ukraine and the Crimean peninsula.	苏军进攻佩列科普(Perekop)城，以切断乌克兰(Ukraine)与克里米亚半岛(Crimean peninsula)之间的陆上联系。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	99		长文本
 The Soviet Union has invaded Finland, Herr General, and our Finnish friends have trapped a Soviet division in the town of Suomussalmi. Unfortunately, an even greater Soviet relief force is moving to aid their comrades, and the Finns are outnumbered. It is your task to destroy the isolated enemy and prevent the relief force from reaching him. Of course, due to our non-aggression pact with the Soviet Union, you and your troops will be considered volunteers.  If you are defeated, the General Staff will deny any knowledge of your participation, and you may expect the worst if captured.	苏联已入侵芬兰，将军阁下，我们的芬兰友军已将一支苏军师围困在苏奥穆萨尔米镇。不幸的是，一支规模更大的苏军救援部队正前去接应他们的同志，而芬兰人兵力处于劣势。您的任务是歼灭这支被孤立的敌军，并阻止救援部队与之会合。当然，鉴于我们与苏联签有互不侵犯条约，您和您的部队将被视为志愿者。倘若您战败，总参谋部将否认知悉您的参与，而您一旦被俘，就别指望有什么好下场。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	354		长文本
+The Soviet winter offensive is rolling toward the Lutsk-Rovno sector and our front there is giving way. You will take over the sector, stop their rifle divisions and counterattack before the spring mud paralyzes all movement.	苏军冬季攻势正扑向卢茨克(Lutsk)—罗夫诺(Rovno)方向，我军该地段正在动摇。你立即接管该地段，挡住敌步兵集团，并赶在春季泥泞瘫痪一切机动之前发起反击。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	146		长文本
 The Soviets are disrupted and the Brits have stabilized their	苏军已被打乱，而英国人已稳住了他们的	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	36		长文本
 The Soviets are in control of Libya and they are ready to repel our offensive.  You must act quickly before they can entrench themselves.  A naval port is required to bring in reinforcements from Tunisia.	苏军控制着利比亚，并已准备好击退我们的攻势。你必须在他们得以构筑工事之前迅速行动。需要一处海军港口，以便从突尼斯运入补充兵员。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	126		长文本
 The Soviets are in disarray and the Brits are pushing them back in	苏军陷入混乱，英国人正把他们逼回	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
@@ -8589,7 +8622,7 @@ The Spanish Civil War was a major conflict in Spain that started after an attemp
 The Spanish Republic has been re-established. The leaders of the fascist rebellion has been sent to a long holidays in... Siberia. Good work, Comrade!	西班牙共和国已经重建。法西斯叛乱的头目们已被送去……西伯利亚(Siberia)度长假。干得好，同志！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	91		长文本
 The spy's information points to a submarine pen in southern Greece. The Soviets are developing new advanced submarines there that could disrupt Allied shipping and bring our war effort crashing to a halt. Unfortunately, Greece is currently being invaded by the Soviets, and our troops are stretched too wide to help them. Take your troops in, destroy those bloody submarines and get back before the main army discovers your force. The French have pledged their navy to assist us in this operation.	那名间谍的情报指向希腊(Greece)南部的一处潜艇洞库。苏联人正在那里研制新型先进潜艇，那可能破坏盟军航运，使我们的事业骤然停摆。不幸的是，希腊目前正遭苏联入侵，而我们的部队铺得太开，无力援助他们。率你的部队进去，摧毁那些该死的潜艇，并在苏军主力发现你的部队之前撤回。法国人已承诺派海军协助我们这次行动。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	298		长文本
 The SS-Division "Reich" and parts of the 10th Panzer Division were approaching the Borodino battlefield 100 km west of Moscow. Between them and the Russian Capital stood the reinforced 32nd Siberian Rifle Division, just arrived by train to man the partly completed Mozhaisk Defense Line. After five days of brutal fighting, the SS finally got through, but fresh units filled in behind the survivors.	党卫军「帝国」师和第10装甲师一部正逼近莫斯科以西100公里的博罗季诺战场。在他们与俄国首都之间，横着得到加强的第32西伯利亚步兵师——该师刚乘火车赶到，以守御尚未完工的莫扎伊斯克防线。经过五天残酷战斗，党卫军终于突破，但新鲜部队又填补到幸存者的背后。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	245		长文本
-The story of 3 SS divisions attacking Prokhorovka with hundreds of Tiger and Panther tanks is a myth and so is the SS divisions loosing +400 tanks in the engagement. The Panther battalions were in Germany and each division had only 1 Tiger company. At the start of  Zitadelle, the 3 divisions of II SS Panzer Corps, totalled no more than about 350 tanks. By the time the battle for Prokhorovka started, the number of operational tanks had dropped to 211. Only 15 were Tigers. After the battle, II SS Panzer Corps reported 163 operational tanks. Russian tank losses were close to 650. Leibstandarte's 13th Tiger company (leader) was commanded by 2nd Lt. Michael Wittmann.	所谓 3 个党卫军师以数百辆「虎」式与「豹」式坦克进攻普罗霍罗夫卡(Prokhorovka)的故事是个神话，说党卫军各师在此战中损失 400 多辆坦克同样如此。「豹」式营当时还在德国，每个师只有 1 个「虎」式连。在「堡垒」(Zitadelle)行动开始时，党卫军第2装甲军(II SS Panzer Corps)的 3 个师总计不过约 350 辆坦克。到普罗霍罗夫卡之战打响时，可用坦克数量已降到 211 辆。其中只有 15 辆是「虎」式。战斗结束后，党卫军第2装甲军报告有 163 辆可用坦克。俄军坦克损失接近 650 辆。警卫旗队(Leibstandarte)的第13「虎」式连（连长）由少尉米夏埃尔·维特曼(Michael Wittmann)指挥。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	537		长文本
+The story of 3 SS divisions attacking Prokhorovka with hundreds of Tiger and Panther tanks is a myth and so is the SS divisions loosing +400 tanks in the engagement. The Panther battalions were in Germany and each division had only 1 Tiger company. At the start of  Zitadelle, the 3 divisions of II SS Panzer Corps, totalled no more than about 350 tanks. By the time the battle for Prokhorovka started, the number of operational tanks had dropped to 211. Only 15 were Tigers. After the battle, II SS Panzer Corps reported 163 operational tanks. Russian tank losses were close to 650. Leibstandarte's 13th Tiger company (leader) was commanded by 2nd Lt. Michael Wittmann.	所谓 3 个党卫军师以数百辆「虎」式与「豹」式坦克进攻普罗霍夫卡(Prokhorovka)的故事是个神话，说党卫军各师在此战中损失 400 多辆坦克同样如此。「豹」式营当时还在德国，每个师只有 1 个「虎」式连。在「堡垒」(Zitadelle)行动开始时，党卫军第2装甲军(II SS Panzer Corps)的 3 个师总计不过约 350 辆坦克。到普罗霍夫卡之战打响时，可用坦克数量已降到 211 辆。其中只有 15 辆是「虎」式。战斗结束后，党卫军第2装甲军报告有 163 辆可用坦克。俄军坦克损失接近 650 辆。警卫旗队(Leibstandarte)的第13「虎」式连（连长）由少尉米夏埃尔·维特曼(Michael Wittmann)指挥。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	533		长文本
 The subs are at the bottom of the ocean. But now our men must recuperate from this shallow victory before we can proceed to our next objective.	潜艇已经沉到海底。但现在我们必须从这场惨胜中恢复过来，然后才能着手下一个目标。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	78		长文本
 The subs are lying at the bottom of the sea. But we have suffered a grievous loss in men and materials. Are you sure you're not a spy?	那些潜艇正躺在海底。但我们在人员与物资上遭受了惨重损失。你确定你不是间谍？	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	74		长文本
 The success of this mission was uncertain, and finally, the large number of reinforcements the allies sent to the battlefield have overwhelmed us. Now, it's time to retreat and reorganize our units.	这次任务本就胜负难料，最终盟军投向战场的大量增援压垮了我们。现在该撤退并重整我们的部队了。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	90		长文本
@@ -8677,6 +8710,7 @@ This exercise seriously got out of control. Apparently these spaghetti eaters mi
 This is a bitter defeat. Even now, enemy troops are advancing on our position.  Arm yourself with a rifle and seek redemption on the front lines.	这是一场惨痛的失败。此刻敌军正向我们的阵地推进。拿起步枪，到前线去寻求救赎吧。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	78		长文本
 This is a bitter defeat. Even now, enemy troops are advancing on our position.  Arm yourself with a rifle and seek redemption on the front lines.  I must leave you now, Herr General.	这是一场惨痛的失败。即便此刻，敌军正在向我阵地推进。拿起一支步枪，到前线去寻求救赎吧。我得走了，将军阁下。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	106		长文本
 This is a bitter defeat. Heavy snows are now falling.  We are forced to fight a winter war in the depths of Russia!	这是一场痛苦的失败。如今大雪纷飞。我们被迫在俄罗斯腹地打一场冬季战争！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	70		长文本
+This is a bitter defeat. Heavy snows are now falling.  We are forced to fight a winter war in the depths of Russia!	突击哥特防线	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	12		长文本
 This is a choice scenario, after the fall of Egypt and the defeat of the Allied invaders of the Vichy France African territories, you should decide where the Deutsches Afrika Korps will go this time. We have made two different plans;	这是一个选择场景，在埃及陷落和盟军对维希法国非洲领地的入侵者被击败之后，您应当决定德意志非洲军这次将去向何方。我们制定了两套不同的方案；	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	136		长文本
 This is a choice scenario, after the fall of Egypt, and the defeat of the Allied invaders over the Vichy France African territories, you should decide where the Deutsches Afrika Korps will go this time. We have made two different plans:	这是一个选择场景：在埃及陷落、盟军入侵者在维希法国非洲领地上的失败之后，你应当决定德国非洲军(Deutsches Afrika Korps)这次将开往何处。我们制定了两个不同的计划：	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	158		长文本
 This is a choice scenario. At this stage the campaign consists in two different paths and you can select which path you will follow.	这是一个分支选择场景。在这个阶段，战役由两条不同的路线组成，你可以选择走哪一条。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	80		长文本
@@ -8756,7 +8790,7 @@ Tokyo - July 7th, 1946	东京(Tokyo) - 1946 年 7 月 7 日	TEXT	PEGWW2_SCN	LOCK
 Tolvajarvi - December 9th, 1939	托尔瓦湖(Tolvajarvi) - 1939 年 12 月 9 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	41		长文本
 Tong gan ku!  The dirty Japanese invaders got a lesson in good old ancient Chinese tactics.  The enemy division is completely scattered and our troops can continue to harass them.	同甘苦！肮脏的日本侵略者领教了中国古老的好战术。敌师已被彻底打散，我们的部队可以继续袭扰他们了。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	96		长文本
 Too bloody commander, too bloody.  The high command thinks you are taking too many loses.  Anyway, the hills and the other strategic points are now in our hands.  By the way, Congratulations for your promotion as General of the Imperial Army.	太惨烈了，指挥官，太惨烈了。高层认为您的损失过大。不过，各高地及其他战略要点如今都在我们手中。顺便说一句，祝贺您晋升为帝国陆军将军。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	132		长文本
-Totenkopf's bridgehead is under heavy attack by the Russian 1st Tank Army and the 5th Guards Tank Army is counterattacking out of the Prokhorovka direction to our East.	「骷髅」师(Totenkopf)的桥头堡正遭到俄国第1坦克集团军的猛攻，而近卫第5坦克集团军正从我们东面的普罗霍罗夫卡(Prokhorovka)方向实施反击。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	132		长文本
+Totenkopf's bridgehead is under heavy attack by the Russian 1st Tank Army and the 5th Guards Tank Army is counterattacking out of the Prokhorovka direction to our East.	「骷髅」师(Totenkopf)的桥头堡正遭到俄国第1坦克集团军的猛攻，而近卫第5坦克集团军正从我们东面的普罗霍夫卡(Prokhorovka)方向实施反击。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	130		长文本
 Transnistria - April 15th, 1944	德涅斯特河沿岸(Transnistria) - 1944年4月15日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	44		长文本
 tried.  In any case, the world is a better place because of the British	无论如何，因为有那位英国	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	24		长文本
 Tripoli - December 7th, 1945	的黎波里(Tripoli) - 1945 年 12 月 7 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
@@ -8852,6 +8886,7 @@ Vienna - April 6th, 1945	维也纳(Vienna) - 1945 年 4 月 6 日	TEXT	PEGWW2_SC
 Vienna fell to the Russians and your division ends it glorious history is Bolshevik captivity. I am sure your troops wished they escaped to the west to seek refuge with our former enemies - the Western Allies.	维也纳落入俄国人之手，你的师在布尔什维克的战俘营中结束其光荣历史。我相信你的部队宁愿当初西撤，投奔我们昔日的敌人——西方盟国——寻求庇护。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	138		长文本
 Vienna fell to the Russians and your division ends it glorious history is Bolshevik captivity. I am sure your troops wished they escaped to the west to surrender to the Americans.	维也纳落入俄国人之手，你的师在布尔什维克的战俘营中结束其光荣历史。我相信你的部队宁愿当初西撤，向美国人投降。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	108		长文本
 Vienna fell to the Russians. The Der Führer regiment was sent to Prague for a (successful) rescue mission of the entrapped garrison forces, the Deutschland regiment clashed with American forces near St Poelten Austria and the rest of the division was sent to Dresden.	维也纳(Vienna)已落入俄军之手。元首(Der Führer)团被派往布拉格(Prague)，执行解救被围守军的任务（并获成功）；德意志(Deutschland)团在奥地利圣珀尔滕(St Poelten)附近与美军交火；该师其余部队则被派往德累斯顿(Dresden)。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	211		长文本
+Vienna is falling. Your division is ordered to fight a delaying action in the suburbs, holding the southern approaches while the remnants of the corps disengage to the west. Make the Russians pay for every street, Herr General - and then get your men out.	维也纳(Vienna)即将陷落。你师奉命在城郊实施迟滞作战，扼守南面通道，掩护军残部向西脱离接触。让俄国人为每一条街道付出代价，将军阁下——然后把你的人带出来。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	152		长文本
 VIII. Fliegerkorps	第VIII航空军	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		长文本
 Viipuri Counterattack - June 15th, 1944	维堡(Viipuri)反击 - 1944年6月15日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	33		长文本
 Villa S. G.	圣乔瓦尼别墅	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	12		长文本
@@ -8878,6 +8913,7 @@ Wacht am Rhein - December 1944 TV	「莱茵守望」行动 1944年12月 战术�
 Wacht am Rhein - December 1944 V	「莱茵守望」行动 1944年12月 胜利	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	32		长文本
 Wacht am Rhein - December 20th, 1944	莱茵守望(Wacht am Rhein) - 1944 年 12 月 20 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	46		长文本
 Wal Pomorski - "Pommernstellung" (ZS#12), 03/01/1945	波美拉尼亚壁垒(Wal Pomorski - "Pommernstellung") (ZS#12)，1945 年 3 月 1 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	75		长文本
+Wal Pomorski - "Pommernstellung" - July 14th, 1946	波美拉尼亚壁垒(Wal Pomorski) -「波美拉尼亚阵地」(Pommernstellung) - 1946 年 7 月 14 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	86		长文本
 Wan shan!  All the mission objectives were achieved before the Japanese could send reinforcements to this area.  Now your task is to hide your guerrillas and wait for new orders.	万岁！在日军能向这一地区派出增援之前，所有任务目标都已达成。现在你的任务是隐藏你的游击队，等待新的命令。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	104		长文本
 Wan Shan!  Did you see how the capitalists are escaping from us??   Pyongyang is again a communist stronghold, and we must continue to pursue and annihilate the UN forces.	万岁！你看到资本主义者是怎样从我们面前逃跑的吗？？平壤再次成为共产主义据点，我们必须继续追击并歼灭联合国军。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	108		长文本
 Wan shan!  The KMT have suffered a great defeat.  I'm sure we will be celebrating our victory over Chiang Kai Shek's troops during the coming year of 1948.	万岁！国民党遭到了一场大败。我相信在即将到来的1948年，我们将庆祝对蒋介石部队的胜利。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	84		长文本
@@ -9014,7 +9050,7 @@ Welcome to Poland, Herr General.	欢迎来到波兰，将军阁下。	TEXT	PEGWW
 Welcome to Red Menace! This is a fictional campaign which takes place in early post war Europe. The basic premise is that international tensions regarding the division of Germany become explosive and  minor border skirmishes between German and Russian forces erupts into a full scale Soviet invasion. The campaign takes the German commander from trying to resist the initial Soviet advances to taking the initiative and forcing the Russians all way back to Red Square.	欢迎来到「红色威胁」！这是一个虚构战役，发生在地中海战后初期的欧洲。基本前提是：围绕德国分裂的国际紧张局势变得一触即发，德军与俄军之间的小规模边境冲突升级为苏军的大规模入侵。本战役带领德军指挥官从力图抵抗苏军最初的推进，一直到夺取主动权，把俄国人一路逼回红场。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	260		长文本
 Welcome to Red Menace! This is a fictional campaign which takes place in early post war Europe. The basic premise is that international tensions regarding the division of Germany become explosive and  minor border skirmishes between US and Russian forces erupts into a full scale Soviet invasion. The campaign takes the US commander from trying to resist the initial Soviet advances to taking the initiative and forcing the Russins all way back to Red Square.	欢迎来到「红色威胁」！这是一个虚构战役，发生在战后初期的欧洲。基本前提是：围绕德国分裂的国际紧张局势变得一触即发，美军与俄军之间的小规模边境冲突升级为苏军的大规模入侵。本战役带领美军指挥官从力图抵抗苏军最初的推进，一直到夺取主动权，把俄国人一路逼回红场。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	254		长文本
 Welcome to Sevilla, General.	欢迎来到塞维利亚(Sevilla)，将军。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	33		长文本
-Welcome to Sevilla, General.	北非-17 欢迎来到塞维利亚(Sevilla)，将军。	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	41		长文本
+Welcome to Sevilla, General.	北非-17 温泉关	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	14		长文本
 Welcome to the Gohoku region.  The big allied base on this country must be removed if we want to secure our Empire.  Although our reports inform us that the area of Darwin is fortified, the surrounding areas are a desert; it seems the Australians have evacuated the population and some facilities to the inner part of the country.  With your troops clear Darwin and establish a beach head to allow further penetrations into Australia.	欢迎来到濠北地区。若要确保帝国安全，就必须拔除盟军在这个国家的大型基地。尽管我方情报显示达尔文一带筑有工事，但周边地区都是荒漠；看来澳大利亚人已把居民和部分设施撤往内陆。请率部肃清达尔文，建立一个滩头阵地，以便进一步向澳大利亚内陆挺进。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	236		长文本
 Well Bob this is the day we have waited for these last few years...the day we launch our attack on 'Fortress Europe'	好啊，鲍勃(Bob)，这就是我们这几年一直等待的日子……我们向「堡垒欧洲」发起进攻的日子	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	83		长文本
 Well Commander, you relieved Finland but unfortunately the Russians want it backl. G2 reports strong Russian forces are heading your way. Brace yoursef Commander, you must hold the line.	唉，指挥官，你解了芬兰(Finland)之围，但不幸的是俄国人想把它拿回去。G2 报告强大的俄军正朝你开来。振作起来，指挥官，你必须守住防线。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	130		长文本
@@ -9124,6 +9160,7 @@ who didn't know this, almost crushed the beachhead and might have	并不知道�
 Who would have expected such resistance in a futile effort?	谁会想到，一场徒劳的抵抗竟如此顽强？	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	36		长文本
 will be awarded at the end of the scenario).	将在场景结束时发放）。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	22		长文本
 Will you assist to the big ceremony at the Yasukuni Temple in Tokyo?...	您会出席东京靖国神社的盛大典礼吗？……	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	38		长文本
+Winter 1944 - February 1st, 1944	1944年冬 - 1944 年 2 月 1 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	28		长文本
 Winter Storm (#8) - January 9, 1943	冬季风暴(Winter Storm) (#8) - 1943 年 1 月 9 日	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	47		长文本
 With 8th army crushed we now only have three American bridgeheads left on Sicily. Two of these have linked up. So far we have been able to contain these by retreating to hills out of range of the naval artillery barrage.	第八集团军既已被击溃，我们在西西里如今只剩三个美军桥头堡。其中两个已连成一片。迄今为止我们退守到海军舰炮射程之外的山地，得以将其遏制。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	134		长文本
 With Berlin cutoff, Monty was able to take Berlin easily.	柏林被切断后，蒙蒂(Monty)得以轻松拿下柏林。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	43		长文本
@@ -9233,7 +9270,7 @@ You have again dealt a blow to the Americans, but they still refuse to receive o
 You have again stopped very powerfull forces attempting to conquer your positions ! Meanwhile, Manstein has moved up troops and armoured divisions to launch a counterattack that will decide the fait of sixth army and with it the future of our empire.	您再次挡住了试图攻占您阵地的强大敌军！与此同时，曼施坦因已调上部队与装甲师，即将发动一场反攻，此战将决定第六集团军的命运，也决定我们帝国的未来。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	144		长文本
 You have an explanation for this abysmal failure?	你对这次惨败有什么解释吗？	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	26		长文本
 You have been awarded with the Order of the Rising Sun 3rd Class.	您已被授予三等旭日章。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	22		长文本
-You have been defeated Comrade General.  The Party is most displeased with your performance.  Due to your failure, at Prohkorovka, many workers and peasants are no longer with us.  Report immediately for punishment, you will be informed of your trial date later.	你被打败了，将军同志。党对你的表现极为不满。由于你在普罗霍罗夫卡(Prohkorovka)的失败，许多工人和农民已不在我们身边。立即前去接受惩处，审判日期另行通知。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	151		长文本
+You have been defeated Comrade General.  The Party is most displeased with your performance.  Due to your failure, at Prohkorovka, many workers and peasants are no longer with us.  Report immediately for punishment, you will be informed of your trial date later.	你被打败了，将军同志。党对你的表现极为不满。由于你在普罗霍夫卡(Prohkorovka)的失败，许多工人和农民已不在我们身边。立即前去接受惩处，审判日期另行通知。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	149		长文本
 You have been defeated, but at least you've tried. Now the allies has overrun the Gustav Line and you must retreat to the Gothic Line.	你已被击败，但至少你努力过。现在盟军已突破古斯塔夫防线，你必须退往哥特防线。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	76		长文本
 You have captured the British Expeditionary Force, and the French have surrendered.  You have achieved a great victory, Herr General.	你俘虏了英国远征军，法国也已投降。你取得了一场大捷，将军阁下。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	62		长文本
 You have choosen to attack Anzio's beach.	你选择了进攻安齐奥(Anzio)滩头。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	31		长文本
@@ -9384,6 +9421,7 @@ You've got a tough nut to crack this time.	这次你要啃的可是块硬骨头�
 You've got nothing in front of you so drive like hell!	你面前什么都没有，拼命开进吧！	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	30		长文本
 You've got to delay Ivan for at least a few days or we'll have to swim to England.	你必须至少迟滞伊万几天，否则我们就得游回英格兰了。	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	50		长文本
 You've heard the casualty reports from Europe?	你听到来自欧洲(Europe)的伤亡报告了吗？	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	38		长文本
+You've heard the casualty reports from Europe?	朴茨茅斯(Portsmouth) - 怀特岛(Isle of Wight)	TEXT	PEGWW2_SCN_OVR	LOCKED	scn-ovr	HIGH	scn-ovr	SCOPE	44		长文本
 You've isolated the majority of Ivan's forces in the east and we should be	你已把伊万(Ivan)的大部分兵力孤立在东部，我们应该很快	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	52		长文本
 You've seen the intelligence reports about the buildup our "friends" are	你已看过情报报告了吧，我们的「朋友们」正在	TEXT	PEGWW2_SCN	LOCKED	scn	MID	scn	SCOPE	42		长文本
 You, the player, can determine which campaign you want to play by moving your unit either south to Gibraltar or southeast towards Tobruk. If you want to play the classical Blitzkrieg! scenario path you should choose Tobruk. If you want to play the campaign called Greater Europe (also originally by H. Craig Miller) you should capture Gibraltar.	您——玩家——可以通过将部队向南移动至直布罗陀或向东南移动至托布鲁克来决定游玩哪场战役。如果您想游玩经典的闪电战场景路线，应选择托布鲁克。如果您想游玩名为"大欧洲"的战役（同样原由 H. Craig Miller 设计），则应夺取直布罗陀。	TEXT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt	SCOPE	221		长文本
@@ -9516,7 +9554,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 1/4L	1/4L	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 1/6A	1/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 1/8G	1/8G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
-1/9SS	1/9SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 1/CB	1/CB	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 1/CB	1/CB	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 1/F	1/F	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
@@ -9530,23 +9567,18 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 10 Bn ca	10 Bn ca	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
 10 Bn Gn	10 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
 10 DI	10 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
-10 Pz Div	10 Pz Div	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 10 RA	10 RA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 10/6R	10/6R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 100/35G	100/35G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 101/35G	101/35G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-101a/19o	101a/19o	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 104RHA/2	104RHA/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	8		保留原文政策
-104RHA/2	104RHA/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 105mm M2/45	105mm M2/45	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	11		保留原文政策
 107RHA/2	107RHA/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	8		保留原文政策
-107RHA/2	107RHA/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 11 Bie DA	11 Bie DA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	9		保留原文政策
 11 DI	11 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 11/2/USAAF	11/2/USAAF	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	10		保留原文政策
 11/3/Luft I	11/3/Luft I	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	11		保留原文政策
 11/5GC	11/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-11/5GC	11/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 11/7R	11/7R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 11/MC	11/MC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 11/MC	11/MC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
@@ -9557,15 +9589,12 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 117/TFH	117/TFH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 119/50G	119/50G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 119/5GC	119/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-119/5GC	119/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 11e E / VIe G / 1er Ae	11e E / VIe G / 1er Ae	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	22		保留原文政策
 11e E / VIe G / Ier Ae	11e E / VIe G / Ier Ae	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	22		保留原文政策
 11e Esc / VIe Gr / Ier Aé	11e Esc / VIe Gr / Ier Aé	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	26		保留原文政策
 11H/7	11H/7	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-11PJ/90	11PJ/90	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 11R/7	11R/7	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 11R/7R	11R/7R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-11R/7R	11R/7R	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 12 Bn Gn	12 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
 12 DI	12 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 12 Esc Cy	12 Esc Cy	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	9		保留原文政策
@@ -9577,16 +9606,13 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 12/3C	12/3C	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 12/4/Luft I	12/4/Luft I	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	11		保留原文政策
 12/5GC	12/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-12/5GC	12/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 12/7R	12/7R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 1235/K	1235/K	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 127/59G	127/59G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 128/57G	128/57G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 12R/7	12R/7	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 12R/7R	12R/7R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-12R/7R	12R/7R	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 12RHA/2	12RHA/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-12RHA/2	12RHA/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 13 Cie ac	13 Cie ac	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	9		保留原文政策
 13 GB	13 GB	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 13 Li	13 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
@@ -9620,7 +9646,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 15 DI	15 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 15/6R	15/6R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 15/8SS	15/8SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-15/8SS	15/8SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 15/K	15/K	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 150/50G	150/50G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 152/50G	152/50G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
@@ -9630,9 +9655,7 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 16 Bn Gn	16 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
 16 Li	16 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 16 RA	16 RA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
-16/6P/4P	16/6P/4P	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 16/8SS	16/8SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-16/8SS	16/8SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 17 ACh	17 ACh	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	6		保留原文政策
 17 Bn Gn	17 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
 17 DI	17 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
@@ -9650,7 +9673,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 18 DI	18 DI	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 18 RACH	18 RACH	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 18/8SS	18/8SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-18/8SS	18/8SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 18/9R	18/9R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 180/60G	180/60G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 183/59G	183/59G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
@@ -9665,30 +9687,22 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 195/66G	195/66G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 19C/7	19C/7	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 1A/X	1A/X	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
-1E/H	1E/H	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 1ERY/1R	1ERY/1R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 1ERY/1R	1ERY/1R	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
-1ERY/1R [BEF]	1ERY/1R [BEF]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	13		保留原文政策
 1FFY	1FFY	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 1FFY/1R	1FFY/1R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 1FFY/1R	1FFY/1R	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
-1FFY/1R [BEF]	1FFY/1R [BEF]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	13		保留原文政策
 1HH	1HH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 1KDG/2	1KDG/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 1KDG/2	1KDG/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 1KRR/2	1KRR/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 1KRR/2	1KRR/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
-1PJ/1	1PJ/1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 1R/2	1R/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
-1RB/22/7	1RB/22/7	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 1RHA/1	1RHA/1	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-1RHA/1	1RHA/1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 1RHA/2	1RHA/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-1RHA/2	1RHA/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 1RM/15	1RM/15	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 1RNF/2	1RNF/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 1RNF/2	1RNF/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
-1RTR/22/7	1RTR/22/7	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 1T/X	1T/X	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 2 [Alp]	2 [Alp]	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 2 Bie Da	2 Bie Da	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
@@ -9700,15 +9714,12 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 2 DTCA	2 DTCA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	6		保留原文政策
 2 G (ex 1 RCP)	2 G (ex 1 RCP)	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	14		保留原文政策
 2 Li	2 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
-2 Mot./2 Pz.Div./[XIX]	2 Mot./2 Pz.Div./[XIX]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	22		保留原文政策
 2 RA	2 RA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
 2.J	2.J	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	3		保留原文政策
 2.J/88	2.J/88	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 2//MC	2//MC	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	5		保留原文政策
 2//MC	2//MC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-2/1/-/6th Australian	2/1/-/6th Australian	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	20		保留原文政策
 2/1/6A	2/1/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-2/11/19/6th Australian	2/11/19/6th Australian	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	22		保留原文政策
 2/11/6A	2/11/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 2/11R	2/11R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 2/11S	2/11S	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
@@ -9720,14 +9731,10 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 2/2/6A	2/2/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 2/2C	2/2C	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 2/2SS	2/2SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-2/2SS	2/2SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 2/4 [Alp]	2/4 [Alp]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	9		保留原文政策
-2/4/19/6th Australian	2/4/19/6th Australian	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 2/4/6A	2/4/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 2/4L	2/4L	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
-2/8/19/6th Australian	2/8/19/6th Australian	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 2/8/6A	2/8/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-2/9SS	2/9SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 2/CB	2/CB	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 2/CB	2/CB	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 2/F	2/F	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
@@ -9786,18 +9793,13 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 272/90G	272/90G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 28 Li	28 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 29 Li	29 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
-29 Mot.Div./[XXXVIII]	29 Mot.Div./[XXXVIII]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 29/14R	29/14R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-29th Pzg Div	29th Pzg Div	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	12		保留原文政策
 2C/10	2C/10	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 2C/27	2C/27	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 2C/6	2C/6	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
-2E/H	2E/H	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 2LC	2LC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 2NKVD/44	2NKVD/44	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	8		保留原文政策
 2NKVD/44	2NKVD/44	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
-2PJ/1	2PJ/1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-2PJ/15	2PJ/15	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 2T/X	2T/X	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 3 [Alp]	3 [Alp]	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 3 Bie DA	3 Bie DA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
@@ -9824,7 +9826,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 3/2LC	3/2LC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 3/2LC	3/2LC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 3/2SS	3/2SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-3/2SS	3/2SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 3/3 [Alp]	3/3 [Alp]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	9		保留原文政策
 3/F	3/F	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
 3/R	3/R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
@@ -9857,11 +9858,9 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 39/14 R	39/14 R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 39/14R	39/14R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 3A/3A	3A/3A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-3A/3A	3A/3A	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 3C/7	3C/7	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 3D/3C	3D/3C	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 3D/3C	3D/3C	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-3PJ/90	3PJ/90	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 3R/X	3R/X	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 4 [Alp]	4 [Alp]	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 4 Bie DTCA / Gpt K	4 Bie DTCA / Gpt K	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	18		保留原文政策
@@ -9882,7 +9881,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 4/2DLM	4/2DLM	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 4/2G	4/2G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 4/2SS	4/2SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-4/2SS	4/2SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 4/4 [Alp]	4/4 [Alp]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	9		保留原文政策
 4/6NZ	4/6NZ	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 4/6NZ	4/6NZ	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
@@ -9906,13 +9904,10 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 47/15M	47/15M	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 48/3C	48/3C	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 49/23SS	49/23SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-49/23SS	49/23SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 4A/XXI	4A/XXI	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 4C/3	4C/3	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 4CLY/22/7	4CLY/22/7	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
-4PJ/1	4PJ/1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 4T/3A	4T/3A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-4T/3A	4T/3A	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 5 Bn Gn	5 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 5 Ch	5 Ch	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
 5 Li	5 Li	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
@@ -9949,16 +9944,13 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 6/PC	6/PC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 6/PC	6/PC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 60/5GC	60/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-60/5GC	60/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 62/PC	62/PC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 62/PC	62/PC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 62/TFH	62/TFH	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 62/TFH	62/TFH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 63/5GC	63/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-63/5GC	63/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 64/4 [Alp]	64/4 [Alp]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留原文政策
 64/5GC	64/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-64/5GC	64/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 64/8G	64/8G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 67/3A	67/3A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 7 Bn Gn	7 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
@@ -9975,9 +9967,7 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 71/2DLM	71/2DLM	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 71/2DLM	71/2DLM	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 71/5GC	71/5GC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-71/5GC	71/5GC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 73/2C	73/2C	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-73rd Sqn	73rd Sqn	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 74/27G	74/27G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 76/2 [Alp]	76/2 [Alp]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留原文政策
 76/27G	76/27G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
@@ -9986,7 +9976,6 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 78/5LC	78/5LC	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 78/5LC	78/5LC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 7A/3A	7A/3A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-7A/3A	7A/3A	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 7H/2	7H/2	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
 8 Bn ca	8 Bn ca	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 8 Bn Gn	8 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
@@ -10002,13 +9991,9 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 86//PC	86//PC	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	6		保留原文政策
 86//PC	86//PC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 86/32SS	86/32SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-86/32SS	86/32SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 87/32SS	87/32SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-87/32SS	87/32SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 89/35SS	89/35SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-89/35SS	89/35SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 8B/132	8B/132	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-8SS	8SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 9 Bn ca	9 Bn ca	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 9 Bn Gn	9 Bn Gn	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	7		保留原文政策
 9 Ch	9 Ch	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
@@ -10021,19 +10006,15 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 9/F	9/F	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
 9/V/1Aé	9/V/1Aé	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	8		保留原文政策
 90/35SS	90/35SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-90/35SS	90/35SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 902/L	902/L	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 91/35SS	91/35SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
-91/35SS	91/35SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 94/TFH	94/TFH	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 94/TFH	94/TFH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 99/47G	99/47G	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
 9C/7R	9C/7R	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-9C/7R	9C/7R	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 9e Esc. / Ve Gr. / 1er Aé	9e Esc. / Ve Gr. / 1er Aé	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	26		保留原文政策
 [28] IA	[28] IA	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 [3FK]	[3FK]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-[9th]	[9th]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 [XIII]	[XIII]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 [XIX]	[XIX]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 [XX]	[XX]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
@@ -10042,11 +10023,7 @@ Zhukovs their best general and you whipped him good.	朱可夫(Zhukov)是他�
 [XXXXIX]	[XXXXIX]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 a R/KAR	a R/KAR	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 a R/KAR	a R/KAR	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
-A/10B	A/10B	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-A/I/327th GIR/101st	A/I/327th GIR/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	19		保留原文政策
-A/I/501st/101st	A/I/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
 AASC	AASC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
-Achilles	Achilles	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 Admiral Hipper	Admiral Hipper	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	14		保留原文政策
 AG	AG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Almirante Cervera	Almirante Cervera	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	17		保留原文政策
@@ -10054,7 +10031,6 @@ Alvise da Mosto	Alvise da Mosto	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xsc
 Andrea Doria	Andrea Doria	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	12		保留原文政策
 Andrea Doria	Andrea Doria	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	12		保留原文政策
 Antonio Pigafetta	Antonio Pigafetta	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	17		保留原文政策
-Antonio Pigafetta	Antonio Pigafetta	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
 Antoniotto Usodimare	Antoniotto Usodimare	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	20		保留原文政策
 Aquila	Aquila	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	6		保留原文政策
 Aquila	Aquila	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
@@ -10063,19 +10039,13 @@ Asakaze	Asakaze	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	7		保�
 Ascari	Ascari	UNIT	EFILE_OLGWW2	POLICY	txt+xscn+equip	POLICY	txt+xscn+equip	SCOPE	6		保留原文政策
 atB/HG D	atB/HG D	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	8		保留原文政策
 Aviere	Aviere	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	6		保留原文政策
-B/I/501st/101st	B/I/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
-B/I/502nd/101st	B/I/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
 Baltimore	Baltimore	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 Bartolomeo Colleoni	Bartolomeo Colleoni	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	19		保留原文政策
 BC	BC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 BD	BD	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
-Bismarck	Bismarck	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 BoB04.scn	BoB04.scn	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 Breda	Breda	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 Brooklyn	Brooklyn	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
-C/I/327th GIR/101st	C/I/327th GIR/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	19		保留原文政策
-C/I/501st/101st	C/I/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
-C/I/502nd/101st	C/I/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
 CA	CA	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	2		保留原文政策
 Choice1	Choice1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 Choice2	Choice2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
@@ -10087,48 +10057,35 @@ DG3	DG3	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 DG4	DG4	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 Dummy	Dummy	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 dummy	dummy	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-E [BEF]	E [BEF]	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
-E/II/327th GIR/101st	E/II/327th GIR/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	20		保留原文政策
-E/II/502nd/101st	E/II/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	16		保留原文政策
 EBtn/-/[12A]	EBtn/-/[12A]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	12		保留原文政策
 EC	EC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Emanuele Filiberto Duca d'Aosta	Emanuele Filiberto Duca d'Aosta	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	31		保留原文政策
 Equipment File: European E-File	Equipment File: European E-File	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	31		保留原文政策
-Equipment: DAK E-File or European E-File	Equipment: DAK E-File or European E-File	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	40		保留原文政策
 Equipment: European E-File	Equipment: European E-File	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	26		保留原文政策
 Equipment: European'46 E-File	Equipment: European'46 E-File	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	29		保留原文政策
 Equipment: PeG-WW2 European E-File	Equipment: PeG-WW2 European E-File	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	34		保留原文政策
 ErPrGr210	ErPrGr210	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 F.Mateos No.9/2 Col.	F.Mateos No.9/2 Col.	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	20		保留原文政策
 F.Perzagua No.10/2 Col.	F.Perzagua No.10/2 Col.	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	23		保留原文政策
-F/10B	F/10B	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 F/462	F/462	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-F/II/327th GIR/101st	F/II/327th GIR/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	20		保留原文政策
-F/II/502nd/101st	F/II/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	16		保留原文政策
 Farragut	Farragut	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策
 FC	FC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 FFI 1/1	FFI 1/1	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 FFI 1/2	FFI 1/2	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 FFI 1/3	FFI 1/3	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 FTP	FTP	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
-G/II/501st/101st	G/II/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	16		保留原文政策
-G/II/502nd/101st	G/II/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	16		保留原文政策
 Gameset: 1946 US gameset	Gameset: 1946 US gameset	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	24		保留原文政策
-Gameset: DAK or Germany West	Gameset: DAK or Germany West	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	28		保留原文政策
 Gameset: Germany 46	Gameset: Germany 46	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	19		保留原文政策
 Gameset: Germany East	Gameset: Germany East	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 Gameset: Germany East or West	Gameset: Germany East or West	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	29		保留原文政策
 Gameset: Germany West	Gameset: Germany West	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 Gameset: Great Britain	Gameset: Great Britain	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	22		保留原文政策
 Gameset: Great Britain 46	Gameset: Great Britain 46	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	25		保留原文政策
-Gameset: SS Germany East or West	Gameset: SS Germany East or West	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	32		保留原文政策
 Gameset: USA	Gameset: USA	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	12		保留原文政策
 Gameset: USSR	Gameset: USSR	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	13		保留原文政策
 GD/GD [48]	GD/GD [48]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留原文政策
 GH	GH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Giovanni Di Verazza	Giovanni Di Verazza	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	19		保留原文政策
-Giovanni Di Verazza	Giovanni Di Verazza	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	19		保留原文政策
-GM	GM	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Gordetxola No.16/2 Col.	Gordetxola No.16/2 Col.	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	23		保留原文政策
 GZ ZL / TBZL	GZ ZL / TBZL	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	12		保留原文政策
 H/C	H/C	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
@@ -10148,7 +10105,6 @@ HvH	HvH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 I / 1 Aé	I / 1 Aé	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	9		保留原文政策
 I-400	I-400	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 I-401	I-401	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
-I/III/502nd/101st	I/III/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
 IA	IA	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 IG	IG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 II CA	II CA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
@@ -10167,16 +10123,10 @@ Il Mitragliere	Il Mitragliere	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	
 Iowa	Iowa	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 IV CA	IV CA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	5		保留原文政策
 IX Gp AA	IX Gp AA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	8		保留原文政策
-J/III/501st/101st	J/III/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
-J/III/502nd/101st	J/III/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
 K/1F	K/1F	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 K/23SS	K/23SS	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政策
-K/23SS	K/23SS	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 K/88	K/88	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
-K/III/501st/101st	K/III/501st/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
-K/III/502nd/101st	K/III/502nd/101st	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
 K/K	K/K	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	3		保留原文政策
-K/K	K/K	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 KC	KC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 KK	KK	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 KKKAAAAAAAAAAABBBOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMM!!!!!!!!!!!!	KKKAAAAAAAAAAABBBOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMM!!!!!!!!!!!!	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	66		保留原文政策
@@ -10186,12 +10136,10 @@ KTR 9	KTR 9	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	5		保留原
 KTR 9	KTR 9	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 Lanciere	Lanciere	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	8		保留原文政策
 Lanzerotto Malocell	Lanzerotto Malocell	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	19		保留原文政策
-Lanzerotto Malocell	Lanzerotto Malocell	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	19		保留原文政策
 LD	LD	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 LR	LR	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Luca Tarigo	Luca Tarigo	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	11		保留原文政策
 Luigi Savoia Duca degli Abruzzi	Luigi Savoia Duca degli Abruzzi	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	31		保留原文政策
-LW	LW	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 M/M	M/M	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 M4A1/45	M4A1/45	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	7		保留原文政策
 M8/45	M8/45	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
@@ -10207,7 +10155,6 @@ NC/132	NC/132	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	6		保留原文政
 NC/132	NC/132	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	6		保留原文政策
 NG	NG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Niciloso Da Recco	Niciloso Da Recco	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	17		保留原文政策
-Niciloso Da Recco	Niciloso Da Recco	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	17		保留原文政策
 Nicoloso da Recco	Nicoloso da Recco	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	17		保留原文政策
 NKVD/-/[57SC]	NKVD/-/[57SC]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	13		保留原文政策
 Nowaki	Nowaki	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	6		保留原文政策
@@ -10218,8 +10165,6 @@ Oc	Oc	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 PA	PA	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 PC	PC	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 PeG-WW2: http://users.skynet.be/rmypegww2/	PeG-WW2: http://users.skynet.be/rmypegww2/	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	42		保留原文政策
-PJ/29	PJ/29	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-PJ/3	PJ/3	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 PJ/VK	PJ/VK	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 PSZ	PSZ	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 R/6A	R/6A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	4		保留原文政策
@@ -10232,26 +10177,17 @@ RG	RG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Richard Beitzen	Richard Beitzen	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	15		保留原文政策
 Richard Beitzen	Richard Beitzen	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
 RM Alpino	RM Alpino	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	9		保留原文政策
-RM Alpino	RM Alpino	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	9		保留原文政策
 RM Andrea Doria	RM Andrea Doria	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	15		保留原文政策
-RM Andrea Doria	RM Andrea Doria	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	15		保留原文政策
 RM C.Mirabello	RM C.Mirabello	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	14		保留原文政策
-RM C.Mirabello	RM C.Mirabello	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	14		保留原文政策
 RM Duca degli Abruzzi	RM Duca degli Abruzzi	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	21		保留原文政策
-RM Duca degli Abruzzi	RM Duca degli Abruzzi	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	21		保留原文政策
 RM L.Malocello	RM L.Malocello	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	14		保留原文政策
-RM L.Malocello	RM L.Malocello	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	14		保留原文政策
 Rm/Sm	Rm/Sm	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
-RN	RN	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Roz	Roz	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 RSG	RSG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
-Scharnhorst	Scharnhorst	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	11		保留原文政策
 SF	SF	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 SH	SH	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 SL	SL	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
-SM/RM	SM/RM	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	5		保留原文政策
 SMG Squalo	SMG Squalo	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	10		保留原文政策
-SMG Squalo	SMG Squalo	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	10		保留原文政策
 SRAF	SRAF	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	4		保留原文政策
 SST	SST	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 SUBtn./-/[57SC]	SUBtn./-/[57SC]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	15		保留原文政策
@@ -10259,7 +10195,6 @@ T-34/41[1]	T-34/41[1]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留
 T-34/41[4]	T-34/41[4]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留原文政策
 T19 HMC/45	T19 HMC/45	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	10		保留原文政策
 Tazzoli	Tazzoli	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	7		保留原文政策
-Tazzoli	Tazzoli	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	7		保留原文政策
 TNG	TNG	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	3		保留原文政策
 U/462	U/462	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	5		保留原文政策
 Ugolino Vivaldi	Ugolino Vivaldi	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	15		保留原文政策
@@ -10287,7 +10222,6 @@ V	V	UNIT	EFILE_OLGWW2	POLICY	txt+xscn	POLICY	txt+xscn	SCOPE	1		保留原文政�
 V CA	V CA	UNIT	EFILE_OLGWW2	POLICY	txt	POLICY	txt	SCOPE	4		保留原文政策
 Va	Va	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Victoria/[Col. A.Vega]	Victoria/[Col. A.Vega]	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	xscn	SCOPE	22		保留原文政策
-VL	VL	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	2		保留原文政策
 Wed Jul 29 10:40:26 1998	Wed Jul 29 10:40:26 1998	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	24		保留原文政策
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	73		保留原文政策
 Yorktown	Yorktown	UNIT	PEGWW2_SCN	POLICY	scn	MID	scn	SCOPE	8		保留原文政策

@@ -4,8 +4,15 @@
 """
 import os, struct
 
-GAME = r"D:\Program Files\PeG"
-OUT = r"D:\DSH\军事游戏汉化\peg\research\observations.tsv"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+OUT = os.path.join(WS, "peg", "research", "observations.tsv")
 
 def lines(fn):
     return open(os.path.join(GAME, fn), "rb").read().decode("cp1252").split("\r\n")

@@ -2,8 +2,16 @@
 """导出 PeG File Specs 中与本地化相关的表"""
 import xlrd, os, sys
 
-XL = r"D:\Program Files\PeG\Docs\File Specs\00 PeG File Specs (PFS).xls"
-OUT = r"D:\DSH\军事游戏汉化\work\peg\pfs"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+XL = os.path.join(GAME, "Docs", "File Specs", "00 PeG File Specs (PFS).xls")
+OUT = os.path.join(WS, "work", "peg", "pfs")
 os.makedirs(OUT, exist_ok=True)
 b = xlrd.open_workbook(XL)
 want = sys.argv[1:] if len(sys.argv) > 1 else [

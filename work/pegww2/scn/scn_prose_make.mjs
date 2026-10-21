@@ -1,11 +1,13 @@
 // Extract selected source rows by global id into a work batch file.
 // usage: node scn_prose_make.mjs <name> <id> [<id> ...]
+// ⚠️ 一次性工具（prose 批次）：输入 research/_scn-todo-prose.tsv 已于 2026-10-20 整理时归档，
+//    如需复跑请先恢复该输入。2026-10-20 脚本树合并：本工具与产出同驻 work/pegww2/scn/。
 import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = 'D:/DSH/军事游戏汉化/pegww2';
 const SRC = path.join(ROOT, 'research/_scn-todo-prose.tsv');
-const OUT = path.join(ROOT, 'work/scn');
+const OUT = 'D:/DSH/军事游戏汉化/work/pegww2/scn';
 
 const [name, ...idsRaw] = process.argv.slice(2);
 if (!name || idsRaw.length === 0) {

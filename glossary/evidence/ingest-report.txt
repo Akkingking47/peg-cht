@@ -1,17 +1,17 @@
 分层入库报告
 ============================================================
-输入：主库 23475 · 本作装备 906 · 场景 21870 · 文档 42
-原始记录 48517 ⇒ 去重后 48353（键=en+层）
-输出：COMMON 37877  SERIES 183  SCOPE 10293
-漂移 335 条 · 按适用规则超限 73 条
+输入：主库 23475 · 本作装备 906 · 场景 24044 · 文档 42
+原始记录 50751 ⇒ 去重后 50587（键=en+层）
+输出：COMMON 40177  SERIES 183  SCOPE 10227
+漂移 473 条 · 按适用规则超限 73 条
 
 按规则判定的超限：
    scn20B   上限 20bytes ⇒ 0 条
    ui5      上限 5hanzi ⇒ 73 条
 
 漂移分级：
-   政策差异       3
-   纯风格差       205
+   政策差异       8
+   纯风格差       230
    用词/音译差异    0
    待人工裁定      0
 
@@ -19,8 +19,8 @@
    663 B  For the rescue attempt von Manstei 为这次救援行动，冯·曼施坦因(von Manstein)
    647 B  Herr General, we have crossed the  将军阁下，我们已从勒阿弗尔(Le Havre)出发渡过英
    544 B  As the war in the east entered its 随着东线战争进入第四个年头，朱可夫(Zhukov)的乌克
-   537 B  The story of 3 SS divisions attack 所谓 3 个党卫军师以数百辆「虎」式与「豹」式坦克进攻普
    534 B  The position of the Greek First Ar 仍在阿尔巴尼亚(Albania)作战的希腊第1集团军，其
+   533 B  The story of 3 SS divisions attack 所谓 3 个党卫军师以数百辆「虎」式与「豹」式坦克进攻普
    524 B  Private Tovarich!  Nice to see you 列兵达瓦里希！很高兴再次见到你。自上次在哈巴罗夫斯克会面
    523 B  Operation Marita, the plan to capt 「马里塔」行动——夺取希腊的计划在南斯拉夫发生政变后变得
    502 B  As the year drew to a close, the 4 随着这一年接近尾声，12 月 24 日平安夜，4 个苏军

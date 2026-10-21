@@ -1,3 +1,39 @@
-  词库门 未过：缺失 1 · 新增偏离 0 · 自基线变动层表 1
-     ⚠️ 层表已变（对应成品需重建）：pegww2/research/WW2Tips-map.tsv
-  ⛔ 词库门未过 ⇒ 拒绝构建（先跑 work/glossary/layer_gate.py --full 看明细）
+  词库门 通过：缺失 0 · 新增偏离 0 · 自基线变动层表 3 ｜ 阵营维度：登记 65 ID（未解析 23）· 唯一阵营 79 / 多阵营 35 / 简称 29 / 复合标题 13 · 修键后放宽 0 条（真实门）
+     ⚠️ 层表已变（对应成品需重建）：pegww2/research/WW2Gui-map.tsv
+     ⚠️ 层表已变（对应成品需重建）：pegww2/research/ww2-eqp-map.tsv
+     ⚠️ 层表已变（对应成品需重建）：pegww2/research/ww2-scn-map.tsv
+========================================================================================
+[WW2Gui] WW2Gui.txt  10,757 B / 605 行元素
+========================================================================================
+  改动行 591 / 仍英文 13 / 映射条目 604
+  ⚠ 警告 15 条：
+     行15 映射表原文与备份不一致（表='Waffen 党卫军' 源='Waffen SS'）⇒ 按原文处理
+     行39 映射表原文与备份不一致（表="It's A Draw -" 源="It's A Draw - "）⇒ 按原文处理
+     行53 映射表原文与备份不一致（表='How To Play The Game -' 源='How To Play The Game - '）⇒ 按原文处理
+     行70 映射表原文与备份不一致（表='Gold Coins -' 源='Gold Coins - '）⇒ 按原文处理
+     行81 映射表原文与备份不一致（表='unused   GUI97.TXT modified by Redball March 16, 2004' 源='unused   GUI97.TXT modified by Redball March 16, 2004  '）⇒ 按原文处理
+     行84 映射表原文与备份不一致（表='unused   these 8 lines with asterisks peviously used for' 源='unused   these 8 lines with asterisks peviously used for '）⇒ 按原文处理
+     行107 映射表原文与备份不一致（表='Auxiliary -' 源='Auxiliary - '）⇒ 按原文处理
+     行168 映射表原文与备份不一致（表='Review A Dossier -' 源='Review A Dossier - '）⇒ 按原文处理
+     行198 映射表原文与备份不一致（表='Demo Version 1.0 -' 源='Demo Version 1.0 - '）⇒ 按原文处理
+     行209 映射表原文与备份不一致（表='Strategic Bombing -' 源='Strategic Bombing - '）⇒ 按原文处理
+  ✅ 四道校验通过 ⇒ pegww2\testbed\out\text\WW2Gui.txt  7,344 B（行尾 CRLF=604 裸LF=0 裸CR=0，与原文一致）
+     对照表 pegww2\research\_对照-WW2Gui.tsv
+
+========================================================================================
+[WW2Misc] WW2Misc.txt  471 B / 45 行元素
+========================================================================================
+  改动行 43 / 仍英文 2 / 映射条目 45
+  ✅ 四道校验通过 ⇒ pegww2\testbed\out\text\WW2Misc.txt  327 B（行尾 CRLF=44 裸LF=0 裸CR=0，与原文一致）
+     对照表 pegww2\research\_对照-WW2Misc.tsv
+
+========================================================================================
+[WW2Tips] WW2Tips.TXT  3,323 B / 44 行元素
+========================================================================================
+  改动行 43 / 仍英文 0 / 映射条目 43
+  ⚠ 警告 1 条：
+     行8 映射表原文与备份不一致（表='Never leave light infantry out in open and clear terrain.' 源='Never leave light infantry out in open and clear terrain. '）⇒ 按原文处理
+  ✅ 四道校验通过 ⇒ pegww2\testbed\out\text\WW2Tips.TXT  1,894 B（行尾 CRLF=43 裸LF=0 裸CR=0，与原文一致）
+     对照表 pegww2\research\_对照-WW2Tips.tsv
+
+总判定: ✅ 全部通过

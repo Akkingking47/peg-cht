@@ -1,5 +1,8 @@
 // Assemble final _scn-fill-prose.tsv from per-chunk output files, then self-check.
 // usage: node scn_prose_assemble.mjs <outfile> <chunkOut1> [<chunkOut2> ...]
+// ⚠️ 一次性工具（prose 批次）：输入 research/_scn-todo-prose.tsv 已于 2026-10-20 整理时归档；
+//    原 chunk 输出目录 pegww2/work/scn/out/（gitignore 派生物）已删除。
+//    2026-10-20 脚本树合并后本工具迁入 work/pegww2/scn/；chunk 参数按需传绝对路径。
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';

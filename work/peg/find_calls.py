@@ -9,7 +9,16 @@ import sys
 
 import capstone
 
-EXE = r"D:\Program Files\PeG\PeG030.exe"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+EXE = os.path.join(GAME, "PeG030.exe")
 TEXT_VA, TEXT_RAW, TEXT_RS = 0x401000, 0x400, 0x8A200
 
 md = capstone.Cs(capstone.CS_ARCH_X86, capstone.CS_MODE_32)

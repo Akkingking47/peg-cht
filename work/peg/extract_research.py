@@ -8,8 +8,15 @@
 """
 import os, re, glob, struct, collections
 
-GAME = r"D:\Program Files\PeG"
-OUT = r"D:\DSH\军事游戏汉化\peg\research\evidence"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+OUT = os.path.join(WS, "peg", "research", "evidence")
 os.makedirs(OUT, exist_ok=True)
 
 def readlines_cp(p):
@@ -49,7 +56,7 @@ open(os.path.join(OUT, "ply-narrative.txt"), "w", encoding="utf-8", newline="\n"
 print("ply-narrative.txt:", len(plies), "files")
 
 # ---------------- 3. exe 硬编码串 ----------------
-exe = r"D:\Program Files\PeG\PeG030.exe"
+exe = os.path.join(GAME, "PeG030.exe")
 d = open(exe, "rb").read()
 # .data 段 FO 0x8b800, VA 0x48e000
 def va(fo): return fo - 0x8b800 + 0x48e000

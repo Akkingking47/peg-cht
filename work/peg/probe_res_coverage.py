@@ -26,6 +26,14 @@ import os
 import struct
 import sys
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception:
@@ -34,7 +42,7 @@ except Exception:
 from capstone import Cs, CS_ARCH_X86, CS_MODE_32, CS_OP_IMM, CS_OP_MEM
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = r"D:\Program Files\PeG\PeG030.exe"
+SRC = os.path.join(GAME, "PeG030.exe")
 TSV = os.path.join(HERE, "out", "res_diff_v4.tsv")
 OUT = os.path.join(HERE, "out", "res_coverage_probe.txt")
 SRC_MD5 = "c462e897b3aa1c384870c857ce9e01df"

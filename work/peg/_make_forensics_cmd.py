@@ -4,9 +4,17 @@
 """
 import os
 
-PEg = r"D:\Program Files\PeG"
-SCRIPT = r"D:\DSH\军事游戏汉化\work\peg\peg_trace.py"
-LOG = r"D:\DSH\军事游戏汉化\work\peg\out\trace-log.txt"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+PEg = GAME
+SCRIPT = os.path.join(WS, "work", "peg", "peg_trace.py")
+LOG = os.path.join(WS, "work", "peg", "out", "trace-log.txt")
 
 lines = [
     "@echo off",

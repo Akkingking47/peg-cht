@@ -2,7 +2,15 @@
 """稳健解析 PeG030.exe 两种对话框模板 + 枚举控件（判中文输入能力）"""
 import pefile, struct, os, collections
 
-pe = pefile.PE(r"D:\Program Files\PeG\PeG030.exe")
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+pe = pefile.PE(os.path.join(GAME, "PeG030.exe"))
 
 ORD_CLASS = {0x80: "Button", 0x81: "Edit", 0x82: "Static", 0x83: "ListBox",
              0x84: "ScrollBar", 0x85: "ComboBox"}

@@ -746,7 +746,7 @@
 18days11.xscn	1	202	3 ChA	第3ChA	False	False
 18days11.xscn	1	202	1 DChA	第1DChA	False	False
 18days11.xscn	1	202	VI CA	第6军	False	False
-18days11.xscn	1	203	Bon Pontonniers d'Armée	第76架桥工兵营	False	False
+18days11.xscn	1	203	Bon Pontonniers d'Armée	集团军架桥营	False	False
 18days11.xscn	1	204	Panzer-Regiment 10	第10装甲团	False	False
 18days11.xscn	1	204	Pz.-Brig. 8	第8装甲旅	False	False
 18days11.xscn	1	204	8 Pz.Div.	第8装甲师	True	True
@@ -1391,7 +1391,7 @@
 18days2.xscn	1	17	I CA	第1军	False	False
 18days2.xscn	1	18	21 Bn Gn	第21营 Gn	False	False
 18days2.xscn	1	18	I CA	第1军	False	False
-18days2.xscn	1	20	Bn CyFr Limbourg	第76工兵营 塞法尔·林堡	False	False
+18days2.xscn	1	20	Bn CyFr Limbourg	工兵营 塞法尔·林堡	False	False
 18days2.xscn	1	20	I CA	第1军	False	False
 18days2.xscn	1	22	11 Li	第11 Li	False	False
 18days2.xscn	1	22	4 DI	第4步兵师	False	True
@@ -1631,7 +1631,7 @@
 18days3.xscn	1	4	Casemate 61	第61炮廓	False	False
 18days3.xscn	1	5	Casemate 63	第63炮廓	False	False
 18days3.xscn	1	6	1 DChA	第1DChA	False	False
-18days3.xscn	1	7	Bn Moto ChA	第76摩托化营 ChA	False	False
+18days3.xscn	1	7	Bn Moto ChA	摩托化营 ChA	False	False
 18days3.xscn	1	9	1 DChA	第1DChA	False	False
 18days3.xscn	1	10	1 DC	第1骑兵师	False	True
 18days3.xscn	1	12	7 ChA (CRI)	第7 ChA (CRI)	False	False
@@ -2418,7 +2418,7 @@
 18days6.xscn	1	16	IV CA	第4军	False	False
 18days6.xscn	1	17	2 Cy	第2Cy	False	False
 18days6.xscn	1	17	2 DC	第2DC	False	False
-18days6.xscn	1	18	Bn Pon	第76工兵营	False	False
+18days6.xscn	1	18	Bn Pon	工兵营	False	False
 18days6.xscn	1	19	4 RAA	第4RAA	False	False
 18days6.xscn	1	20	3eme Flotille	第3区舰队	False	False
 18days6.xscn	1	21	V CA	第5军	False	False
@@ -2666,7 +2666,7 @@
 18days6.xscn	1	95	MG-Btl. 15	第15机枪营	False	False
 18days6.xscn	1	95	XXVI AK	第26军	False	False
 18days6.xscn	1	95	AOK 18	第18集团军	False	False
-18days7.xscn	1	0	Bn Mo ChA	第76工兵营 Mo ChA	False	False
+18days7.xscn	1	0	Bn Mo ChA	工兵营 Mo ChA	False	False
 18days7.xscn	1	1	4L	第4L	False	False
 18days7.xscn	1	1	2 DC	第2DC	False	False
 18days7.xscn	1	2	2 CCy	第2CCy	False	False
@@ -2986,7 +2986,7 @@
 18days8.xscn	1	100	9 Bn Gn	第9营 Gn	False	False
 18days8.xscn	1	100	9 DI	第9步兵师	False	True
 18days8.xscn	1	100	VII CA	第7军	False	False
-18days8.xscn	1	102	Bn Gn	第76工兵营 Gn	False	False
+18days8.xscn	1	102	Bn Gn	工兵营 Gn	False	False
 18days8.xscn	1	102	1 DChA	第1DChA	False	False
 18days8.xscn	1	102	VI CA	第6军	False	False
 18days8.xscn	1	103	I-III	第1-3	False	False
@@ -3546,7 +3546,7 @@ CanalAlbert.xscn	1	48	4 Gr DA	第4Gr DA	False	False
 CanalAlbert.xscn	1	48	I CA	第1军	False	False
 CanalAlbert.xscn	1	49	21 Bon Gn	第21营 Gn	False	False
 CanalAlbert.xscn	1	49	I CA	第1军	False	False
-CanalAlbert.xscn	1	51	Bon CyFr Limbourg	第76工兵营 塞法尔·林堡	False	False
+CanalAlbert.xscn	1	51	Bon CyFr Limbourg	工兵营 塞法尔·林堡	False	False
 CanalAlbert.xscn	1	51	I CA	第1军	False	False
 CanalAlbert.xscn	1	53	11 Li	第11 Li	False	False
 CanalAlbert.xscn	1	53	4 DI	第4步兵师	False	True
@@ -5138,8 +5138,8 @@ GCN0.xscn	1	30	10 Zona	第10军区	False	False
 GCN0.xscn	1	32	10 Zona	第10军区	False	False
 GCN0.xscn	1	33	3 RA. Pesada	第3重炮兵团	False	False
 GCN0.xscn	1	33	6 DO	第6DO	False	False
-GCN0.xscn	1	34	Bon. Thaelmann	第76营 台尔曼	False	False
-GCN0.xscn	1	35	Bon. Commune de Paris	第76营 巴黎公社	False	False
+GCN0.xscn	1	34	Bon. Thaelmann	台尔曼营	False	False
+GCN0.xscn	1	35	Bon. Commune de Paris	巴黎公社营	False	False
 GCN0.xscn	1	36	Torpedera No.3	第3号鱼雷艇	False	False
 GCN0.xscn	1	37	6 Bon Z.	第6 Z营	False	False
 GCN0.xscn	1	37	6 DO	第6 DO	False	False
@@ -5152,11 +5152,11 @@ GCN1.xscn	1	10	12 Tercio	第12特西奥	False	False
 GCN1.xscn	1	25	VIII D.O.	第8军区	False	False
 GCN1.xscn	1	26	VIII D.O.	第8军区	False	False
 GCN1.xscn	1	27	VIII D.O.	第8军区	False	False
-GCN1.xscn	1	45	Bon. CNT No.4	第76营 CNT 第4号	False	False
-GCN1.xscn	1	47	Bon. CNT No.5	第76营 CNT 第5号	False	False
-GCN1.xscn	1	50	Bon. Caz. Asturias No.1	第76猎兵营 阿斯图里亚斯 第1号	False	False
-GCN1.xscn	1	51	Bon. Caz. Gijon No.2	第76猎兵营 希洪 第2号	False	False
-GCN1.xscn	1	52	Bon. Caz. Langreo No.3	第76猎兵营 兰格雷奥 第3号	False	False
+GCN1.xscn	1	45	Bon. CNT No.4	全国劳工联盟第4营	False	False
+GCN1.xscn	1	47	Bon. CNT No.5	全国劳工联盟第5营	False	False
+GCN1.xscn	1	50	Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	False	False
+GCN1.xscn	1	51	Bon. Caz. Gijon No.2	希洪猎兵第2营	False	False
+GCN1.xscn	1	52	Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	False	False
 GCN2.xscn	1	1	32 R. Milan	第32R.米兰	False	False
 GCN2.xscn	1	4	10 Tercio	第10特西奥	False	False
 GCN2.xscn	1	17	3 R.A.	第3炮兵团	False	False
@@ -5168,35 +5168,35 @@ GCN2.xscn	1	28	IV Tabor Alhucemas	第4阿卢塞马斯塔博尔	False	False
 GCN2.xscn	1	31	IV Tabor Ceuta	第4休达塔博尔	False	False
 GCN2.xscn	1	32	IV Tabor Larache	第4拉腊什塔博尔	False	False
 GCN2.xscn	1	33	IV Tabor Melilla	第4梅利利亚塔博尔	False	False
-GCN2.xscn	1	40	Bon. CNT No.5	第76营 CNT 第5号	False	False
-GCN2.xscn	1	42	Bon. Caz. Asturias No.1	第76猎兵营 阿斯图里亚斯 第1号	False	False
-GCN2.xscn	1	43	Bon. Caz. Gijon No.2	第76猎兵营 希洪 第2号	False	False
-GCN2.xscn	1	44	Bon. Caz. Langreo No.3	第76猎兵营 兰格雷奥 第3号	False	False
-GCN2.xscn	1	48	Bon. CNT No.1	第76营 CNT 第1号	False	False
-GCN2.xscn	1	49	Bon. Muniz	第76营 Muniz	False	False
-GCN2.xscn	1	50	Bon. IR Azana	第76营 IR Azana	False	False
-GCN2.xscn	1	51	Bon. Cienfuegos	第76营 西恩富戈斯	False	False
-GCN2.xscn	1	52	Bon. Jose Florez	第76营 Jose Florez	False	False
-GCN2.xscn	1	53	Bon. Llaneza	第76营 Llaneza	False	False
-GCN2.xscn	1	54	Bon. Dutor No.1	第76营 Dutor 第1号	False	False
-GCN2.xscn	1	55	Bon. A. de la Fuente	第76营 A. de la Fuente	False	False
-GCN2.xscn	1	56	Bon. CNT No.2	第76营 CNT 第2号	False	False
-GCN2.xscn	1	58	Bon. M. Fernandez	第76营 M. Fernandez	False	False
-GCN2.xscn	1	59	Bon. CNT No.9	第76营 CNT 第9号	False	False
-GCN2.xscn	1	60	Bon. F. Lopez	第76营 F. Lopez	False	False
-GCN2.xscn	1	61	Bon. D. Rodriguez	第76营 D. Rodriguez	False	False
-GCN2.xscn	1	66	Bon. Chuno	第76营 Chuno	False	False
-GCN2.xscn	1	67	Bon. J. Naves	第76营 J. Naves	False	False
-GCN2.xscn	1	68	Bon. D.G. Castro	第76营 D.G. Castro	False	False
-GCN2.xscn	1	69	Bon. Galicia	第76营 加利西亚	False	False
-GCN2.xscn	1	72	Bon. Sama	第76营 Sama	False	False
-GCN2.xscn	1	73	Bon. A. Naves	第76营 A. Naves	False	False
-GCN2.xscn	1	75	Bon. Daniel Secades	第76营 Daniel Secades	False	False
-GCN2.xscn	1	77	Bon. Sotrondio	第76营 Sotrondio	False	False
-GCN2.xscn	1	78	Bon. Larranaga	第76营 Larranaga	False	False
-GCN2.xscn	1	79	Bon. Meabe	第76营 Meabe	False	False
+GCN2.xscn	1	40	Bon. CNT No.5	全国劳工联盟第5营	False	False
+GCN2.xscn	1	42	Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	False	False
+GCN2.xscn	1	43	Bon. Caz. Gijon No.2	希洪猎兵第2营	False	False
+GCN2.xscn	1	44	Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	False	False
+GCN2.xscn	1	48	Bon. CNT No.1	全国劳工联盟第1营	False	False
+GCN2.xscn	1	49	Bon. Muniz	穆尼斯营	False	False
+GCN2.xscn	1	50	Bon. IR Azana	伊尔·阿萨尼亚营	False	False
+GCN2.xscn	1	51	Bon. Cienfuegos	先丰营	False	False
+GCN2.xscn	1	52	Bon. Jose Florez	何塞·弗洛雷斯营	False	False
+GCN2.xscn	1	53	Bon. Llaneza	利亚内萨营	False	False
+GCN2.xscn	1	54	Bon. Dutor No.1	杜托尔第1营	False	False
+GCN2.xscn	1	55	Bon. A. de la Fuente	A.德拉富恩特营	False	False
+GCN2.xscn	1	56	Bon. CNT No.2	全国劳工联盟第2营	False	False
+GCN2.xscn	1	58	Bon. M. Fernandez	营 M. 费尔南德斯	False	False
+GCN2.xscn	1	59	Bon. CNT No.9	营 CNT 第9号	False	False
+GCN2.xscn	1	60	Bon. F. Lopez	营 F. Lopez	False	False
+GCN2.xscn	1	61	Bon. D. Rodriguez	营 D. 罗德里格斯	False	False
+GCN2.xscn	1	66	Bon. Chuno	营 Chuno	False	False
+GCN2.xscn	1	67	Bon. J. Naves	营 J. Naves	False	False
+GCN2.xscn	1	68	Bon. D.G. Castro	营 D.G. Castro	False	False
+GCN2.xscn	1	69	Bon. Galicia	营 加利西亚	False	False
+GCN2.xscn	1	72	Bon. Sama	营 Sama	False	False
+GCN2.xscn	1	73	Bon. A. Naves	营 A. Naves	False	False
+GCN2.xscn	1	75	Bon. Daniel Secades	营丹尼尔·塞卡德斯	False	False
+GCN2.xscn	1	77	Bon. Sotrondio	营索特龙迪奥	False	False
+GCN2.xscn	1	78	Bon. Larranaga	拉腊尼亚加营	False	False
+GCN2.xscn	1	79	Bon. Meabe	梅亚贝营	False	False
 GCN3.xscn	1	0	5 Cia. Alava	第5阿拉瓦连	False	False
-GCN3.xscn	1	1	Bon.	第76营	False	False
+GCN3.xscn	1	1	Bon.	营	False	False
 GCN3.xscn	1	2	10 Bat.	第10营	False	False
 GCN3.xscn	1	2	2 RAM	第2 RAM	False	False
 GCN3.xscn	1	4	8 Cia. Alava	第8阿拉瓦连	False	False
@@ -5327,7 +5327,7 @@ GCN4.xscn	1	74	4 Bda.	第4旅	False	False
 GCN4.xscn	1	74	1 Div.	第1师	True	True
 GCN4.xscn	1	76	15 Bda.	第15旅	False	False
 GCN4.xscn	1	76	3 Div.	第3师	True	True
-GCN4.xscn	1	78	Bon. G. Hernandez	第76营 G. Hernandez	False	False
+GCN4.xscn	1	78	Bon. G. Hernandez	营 G. 埃尔南德斯	False	False
 GCN4.xscn	1	79	80 Bon.	第80营	False	False
 GCN4.xscn	1	84	1 Div.	第1师	True	True
 GCN4.xscn	1	85	2 Div.	第2师	True	True
@@ -5433,7 +5433,7 @@ GCN6.xscn	1	10	No. 3	第3号	False	False
 GCN6.xscn	1	13	1 BM Movil	第1 BM Movil	False	False
 GCN6.xscn	1	14	2 BM Movil	第2BM Movil	False	False
 GCN6.xscn	1	15	192 BM	第192BM	False	False
-GCN6.xscn	1	17	Bon. IdM	第76营 IdM	False	False
+GCN6.xscn	1	17	Bon. IdM	营 IdM	False	False
 GCN6.xscn	1	18	157 BM	第157BM	False	False
 GCN6.xscn	1	19	156 BM	第156BM	False	False
 GCN6.xscn	1	24	164 BM	第164BM	False	False

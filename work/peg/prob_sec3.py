@@ -2,7 +2,16 @@
 # read-only: sweep .data for rect-like word tuples (x1,y1,x2,y2) that are 800x600-era
 # and NOT patched in v10b. Focus on panel-sized rects.
 import sys
-sys.path.insert(0, r'D:\DSH\军事游戏汉化\work\peg')
+
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+sys.path.insert(0, os.path.join(WS, "work", "peg"))
 import hint_pe as H
 A = H.load(H.SRC); B = H.load(H.PORT)
 

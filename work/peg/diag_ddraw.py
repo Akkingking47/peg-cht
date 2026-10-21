@@ -17,18 +17,28 @@ import shutil
 import sys
 import time
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 import diag_run as DR                                        # noqa: E402
 import peg_launcher as PL                                    # noqa: E402
 
-PEG_DIR = r"D:\Program Files\PeG"
+k32 = ctypes.WinDLL("kernel32", use_last_error=True)
+
+PEG_DIR = GAME
 DDRAW = os.path.join(PEG_DIR, "ddraw.dll")
 BAK = os.path.join(PEG_DIR, "ddraw-Svens.dll.bak")
 INI = os.path.join(PEG_DIR, "DDrawCompat.ini")
 OUT = os.path.join(HERE, "out")
 GAME_LOG = os.path.join(OUT, "game-debugview.txt")
-DDC_SRC = r"D:\DSH\军事游戏汉化\archive\ddraw\ddraw-DDrawCompat-0.7.1.dll"
+DDC_SRC = os.path.join(WS, "archive", "ddraw", "ddraw-DDrawCompat-0.7.1.dll")
 SVENS_MD5 = "337866f0c870384f5a16c8a11c46a963"
 DDC_MD5 = "26275ed572a4df16141b26e952b50106"
 
@@ -37,7 +47,7 @@ def play_settings(mode):
     """试玩用 ini：mode = exclusive | borderless"""
     fs = "exclusive(0)" if mode == "exclusive" else "borderless"
     return ("; play test (%s)\n"
-            "LogLevel = trace\n"
+            "LogLevel = info\n"
             "FullscreenMode = %s\n"
             "MouseSensitivity = native\n"
             "MousePollingRate = native\n"

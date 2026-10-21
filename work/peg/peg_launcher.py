@@ -30,12 +30,20 @@ import struct
 import sys
 import time
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 
-MOTHER = r"D:\Program Files\PeG\PeG030.exe"
+MOTHER = os.path.join(GAME, "PeG030.exe")
 MOTHER_MD5 = "c462e897b3aa1c384870c857ce9e01df"
 IMAGE_BASE = 0x400000
 
@@ -51,6 +59,9 @@ CODE_EDITS = [
     (0x44C8B1, 0x258, "h", "视口裁剪组2 mov ecx,600"),
     (0x44CC68, 0x320, "w", "视口裁剪组3 mov edx,800"),
     (0x44CCAF, 0x258, "h", "视口裁剪组3 mov ecx,600"),
+    # 底栏（0x44C547，call 0x47047A）y=572 / 底边=600：**已回退，暂不修改**。
+    #   原因：实测改成 h-28 / h 之后游戏无法启动（这两个值疑似参与底栏源面的尺寸/索引，
+    #   拉到 1052/1080 后越界）。要动它们必须先弄清 0x47047A 的参数语义。
 ]
 
 # A 组：屏幕描述符（写死 799/599 的两个 DrawTarget 裁剪框）
@@ -63,6 +74,51 @@ CANVAS_SITES = [
 ]
 
 REPAINT = (0x4489D8, b"\x74\x1b", b"\x90\x90", "每帧强制整屏刷新（je->nop）")
+# R 组：地图屏每帧都执行「清层 + 整块重绘」。
+# 0x42CF61 是地图屏的每帧处理器（唯一调用者 0x44047C 落在状态机跳转表里的一格）：
+#   0x42CF82  movsx eax, byte[0x4af324]     ; 一次性"已初始化"标志
+#   0x42CF89  test eax, eax
+#   0x42CF8B  jne 0x42CF9E                  ; 已初始化 => 跳过 0x43F7E4
+#   0x42CF8D  mov byte[0x4af324], 1
+#   0x42CF96  call 0x43F7E4                 ; 清三层 + 按 extent 整块重绘地图
+#   0x42CF9E  call 0x42D0F2                 ; 每帧都在跑：重算移动范围并写遮挡层
+# 症状"选中单位后范围阴影只闪一帧 / 移动鼠标才稳定"与此吻合：0x42D0F2 每帧都在标记，
+# 但像素只在 0x43F7E4 那条整块重绘里落到地图面。把 jne 改成 nop 即每帧重绘一次。
+MAPREPAINT = (0x42CF8B, b"\x75\x11", b"\x90\x90",
+              "R 地图屏每帧整块重绘（jne->nop）")
+# S 组：地图每帧上屏（去掉「滚动位置没变就跳过 0x41FF8A 那一笔地图上屏 BltFast」的 je）。
+# 0x42D464 是地图屏的每帧处理器，后半段（不受 [0x498D74] 脏标志约束）逻辑：
+#   0x42D509  movsx eax, word[edx*2 + 0x498d34]   ; 缓存的 scrollX（按槽位）
+#   0x42D518  movsx ecx, word[0x4af2f8]           ; 当前 scrollX
+#   0x42D51F  cmp eax, ecx / jne 0x42D53D         ; 变了 -> 去上屏
+#   0x42D52A  movsx eax, word[edx*2 + 0x498d38]   ; 缓存的 scrollY
+#   0x42D532  movsx ecx, word[0x4af2fc]           ; 当前 scrollY
+#   0x42D539  cmp eax, ecx
+#   0x42D53B  je 0x42D581                         ; ← 两个滚动都【没变】就跳过上屏
+#   0x42D53D  ... 更新缓存
+#   0x42D579  call 0x41FF8A                       ; 地图面 -> 后备/主面 的那一笔 BltFast
+# 症状「选中单位后范围阴影只闪一帧 / 鼠标不动就不显示」正对应这条：0x42D0F2 每帧都把
+# 范围烘进地图面，但滚动没变时地图面根本不上屏。把 0x42D53B 的 je 改成 nop 即每帧上屏。
+PRESENT = (0x42D53B, b"\x74\x44", b"\x90\x90",
+           "S 地图每帧上屏（je->nop）")
+# T 组：移动范围每帧重算（默认**不打**，用 --range-every 打开）。
+#   函数 0x42D445 是地图屏的每帧回调（被 0x44047C 经状态机表调用），全文：
+#     0x42D445  push ebp / 0x42D446 mov ebp,esp / 0x42D448 call 0x471499
+#     0x42D44D  cmp dword [0x4af2f4], 0   ; [0x4af2f4] 由悬停/点选命令置 1
+#     0x42D454  je  0x42D45D              ; == 0 => 只画悬停单位信息
+#     0x42D456  call 0x42D1A5             ; != 0 => 重算移动范围并写格表 [0x622D4A]
+#     0x42D45B  jmp 0x42D462
+#     0x42D45D  call 0x42D3C3             ; 悬停信息分支
+#   每帧地图屏处理器 0x42D0F2 用「格表 [0x622D4A] == word[0x686FD4]」决定每格点亮/擦除，
+#   而格表只在悬停变化那一帧重算 ⇒ 选中单位后鼠标不动，格表还是旧内容，阴影不出来
+#   （用户 m05319 第 1 条）。9 字节等价改写：先无条件 call 0x42D1A5，再 jmp 到 0x42D45D，
+#   两个分支都保留（不会像直接 NOP 掉 je 那样弄丢悬停信息面板）。
+RANGE_EVERY = (0x42D44D, b"\x83\x3d\xf4\xf2\x4a\x00\x00\x74\x07",
+               b"\xe8\x53\xfd\xff\xff\xeb\x09\x90\x90",
+               "T 移动范围每帧重算（cmp/je -> call 0x42D1A5 + jmp 0x42D45D）")
+# P 组：0x450553 那个刷新器 = 读共享标志 -> 画地图/覆盖层 -> 清标志；
+# 把 0x45055C 的 je 改成 nop，让它每帧都尝试画这一层（清标志的逻辑保留）
+OVERLAY = (0x45055C, b"\x74\x2d", b"\x90\x90", "地图覆盖层每帧重画（je->nop，单点）")
 # 立即数地址（指令 0x45696D = 66 c7 05 <abs32> <imm16>，imm16 在 +7）
 PANEL = (0x456974, 799, "w-1", "右侧面板显示位置 mov word [0x4A42EC]")
 
@@ -197,7 +253,8 @@ def load_tsv(name):
 
 
 def build_plan(w, h, ui=True, repaint=True, canvas=True, tooltip=False, extra=True,
-               panel=True, dxdy=True, mapmargin=True):
+               panel=True, dxdy=True, mapmargin=True, scrollfix=True, maprepaint=True,
+               present=True, rangeevery=False):
     """返回 (entries, notes)；entry = dict(va,size,old,new,label)"""
     entries, notes = [], []
     seen = {}
@@ -249,6 +306,7 @@ def build_plan(w, h, ui=True, repaint=True, canvas=True, tooltip=False, extra=Tr
     if repaint:
         va, ob, nb, note = REPAINT
         add(va, len(ob), ob, nb, "B " + note)
+    # 4b) P/Q 组已回退（P 目标错、Q 无效）：见 work\peg 下记录
     # 5) D 组 UI 记录位移 + 面板位置
     if ui:
         n_ui = 0
@@ -318,12 +376,50 @@ def build_plan(w, h, ui=True, repaint=True, canvas=True, tooltip=False, extra=Tr
         notes.append("  · 布局表右对齐记录：%d 条 × 2 word = %d 处"
                      % (n_panel, 2 * n_panel))
     # 11) M 组：地图面尺寸与地图绘制界 1920 -> 4096（默认打，--no-map 关）
-    #     见 MAP_SITES 注释：每帧地图上屏 (0x41FF8A) 的源窗口 = 滚动坐标 + 视口宽高，
-    #     视口补宽后源矩形会越出 1920x1920 的地图面，整笔位块被拒 => 地图全黑/残留。
+    #     见 MAP_SITES 注释：每帧地图上屏 (0x41FF8A) 的源窗口 = 滚动坐标 + 视口宽高。
+    #     视口补宽到 1920 后，地图面仍是 1920x1920 => 只要 scrollX > 0，源矩形右边界
+    #     (scrollX + 1920) 就越出地图面（原生 DirectDraw 整笔拒绝）=> 地图区黑。
+    #     之前单独打 M 时进场景即全黑，是因为当时横向钳位仍把 scrollX 钳成 -202（源矩形左边界
+    #     为负，同样被拒）；N 组修掉钳位后 M 才有意义：面 4096 给了 2176 px 的横向余量、
+    #     3065 px 的纵向余量，scrollX/Y >= 0 时源矩形永远在面内。
     if mapmargin:
         for va, note in MAP_SITES:
             add(va, 4, b"\x80\x07\x00\x00", b"\x00\x10\x00\x00", "M " + note)
         notes.append("  · M 地图面/绘制界：%d 处 1920 -> 4096" % len(MAP_SITES))
+    # 12) N 组：横向滚动钳位（默认打，--no-scroll 关）
+    #     实测（diag_watch.py 日志）：视口 1920x1031，而引擎算出的横向钳位上限
+    #       max = mapW - 视口宽 - 1   （mapW=1719 时 = -203~-202；mapW=1631 时 = -290~-291）
+    #     是负数，引擎照做，把 scrollX 强设成负数 => 地图位块源矩形从负坐标开始取图
+    #     => 地图区黑/错位（"移动两下有时又正常"就是这笔时成时败）。母本 800x600 视口下
+    #     这个上限恒为正，所以母本从没暴露过这个问题。
+    #     8 处钳位站点结构完全相同：
+    #        sub edx,eax / sub edx,1 / cmp ecx,edx / jle 跳过 / ... / mov word [0x4af2f8],cx
+    #     把 cmp 改成 cmp eax,eax（ZF=1 => jle 恒成立 => 跳过 store）即可不再把 scrollX 钳成负数。
+    #     纵向（0x4af2fc）的 8 处钳位不加这一改：地图高 1351 > 视口 1031，纵向确实需要钳位。
+    if scrollfix:
+        for va, old in ((0x41F375, 0xd0), (0x4229DF, 0xca), (0x422B07, 0xca),
+                        (0x422FEE, 0xca), (0x424D91, 0xd0), (0x440FFF, 0xc1),
+                        (0x44DE89, 0xca), (0x4569CA, 0xd0)):
+            add(va, 1, bytes([old]), b"\xc0",
+                "N 横向滚动钳位: cmp -> cmp eax,eax（守卫 0x%08X）" % (va - 1))
+        notes.append("  · N 横向滚动钳位：8 处（不再强制负滚动；纵向钳位保留）")
+
+    # R 组：地图屏每帧整块重绘（见文件头 MAPREPAINT 的注释）。默认打；若性能变差或阴影异常，
+    # 用 --no-maprepaint 一键回退。
+    if maprepaint:
+        va, ob, nb, note = MAPREPAINT
+        add(va, len(ob), ob, nb, note)
+        notes.append("  · R 地图屏每帧整块重绘：1 处（选中单位后范围阴影立刻上屏）")
+    # S 组：地图每帧上屏（见文件头 PRESENT 的注释）。默认打；用 --no-present 一键回退。
+    if present:
+        va, ob, nb, note = PRESENT
+        add(va, len(ob), ob, nb, note)
+        notes.append("  · S 地图每帧上屏：1 处（滚动不变也把地图面 BltFast 上屏）")
+    # T 组：移动范围每帧重算（默认不打，用 --range-every 打开）。见文件头 RANGE_EVERY 注释。
+    if rangeevery:
+        va, ob, nb, note = RANGE_EVERY
+        add(va, len(ob), ob, nb, note)
+        notes.append("  · T 移动范围每帧重算：1 处（鼠标不动也按当前格重算范围表）")
     return entries, notes
 
 
@@ -438,7 +534,20 @@ def main():
     ap.add_argument("--no-panel", action="store_true",
                     help="不打 I 组（0x4A96E8 布局表的 37 条右对齐记录）")
     ap.add_argument("--no-map", action="store_true",
-                    help="不打 M 组（地图面/地图绘制界 1920 -> 4096；默认打）")
+                    help="不打 M 组（地图面/地图绘制界 1920 -> 4096；默认打，实测配合 N 组才有效）")
+    ap.add_argument("--no-scroll", action="store_true",
+                    help="不打 N 组（横向滚动钳位修正；默认打）")
+    ap.add_argument("--maprepaint", action="store_true",
+                    help="打 R 组（地图屏每帧整块重绘；默认不打：实测对阴影无效，疑似退出卡死来源）")
+    ap.add_argument("--present", action="store_true",
+                    help="打 S 组（地图每帧上屏；默认不打：实测对阴影无效，疑似退出卡死来源）")
+    ap.add_argument("--range-every", action="store_true",
+                    help="打 T 组（移动范围每帧重算；默认不打。选中单位后鼠标不动也应出阴影）")
+    ap.add_argument("--relayout", action="store_true",
+                    help="打重排版 P1（docs\\80）：0x4A96E8 控件矩形表按“等比缩放+以屏幕中心为不动点”"
+                         "重排（1076 条站点）；自动关掉会冲突的 I 组（同表 37 条右对齐）与 K 组（dx/dy 平推）")
+    ap.add_argument("--relayout-strategy", default="S2", choices=["S1", "S2"],
+                    help="S2=高度优先 s=H/600（默认，16:9 玩法）；S1=等比 s=min(W/800,H/600)")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--log", default=os.path.join(OUT, "launcher-log.txt"),
                     help="日志文件（默认 work\\peg\\out\\launcher-log.txt）")
@@ -470,9 +579,18 @@ def main():
                                 canvas=not a.no_canvas,
                                 tooltip=a.no_tooltip,
                                 extra=not a.no_extra,
-                                panel=not a.no_panel,
-                                dxdy=("all" if a.dx_all else ("x" if a.dx else False)),
-                                mapmargin=not a.no_map)
+                                panel=(not a.no_panel) and not a.relayout,
+                                dxdy=(False if a.relayout else
+                                      ("all" if a.dx_all else ("x" if a.dx else False))),
+                                mapmargin=not a.no_map, scrollfix=not a.no_scroll,
+                                maprepaint=a.maprepaint, present=a.present,
+                                rangeevery=a.range_every)
+    if a.relayout:
+        sys.path.insert(0, os.path.join(HERE, "relayout"))
+        import resolve as _relayout
+        rl_entries, rl_notes = _relayout.relayout_plan(a.w, a.h, a.relayout_strategy)
+        entries += rl_entries
+        notes += rl_notes
     print("补丁站点：%d 条" % len(entries))
     for n in notes:
         print(n)

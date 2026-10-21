@@ -237,13 +237,17 @@ def main():
                 ovf_note.append((en, zh, sub + "/" + fname, "同键多译"))
                 n_ovf_divrow += 1
                 continue
-            if en in MAP_ZH and MAP_ZH[en] != en and MAP_ZH[en] != zh:
+            if en in MAP_ZH and MAP_ZH[en] != zh:
                 # ⭐ 用户裁定「并入」（m01713-②）：映射表另有中文**不再排除**。
                 #    同一英文键在映射表与 per-file 覆盖表各有一个中文，是**两个优先级层**
                 #    的真实取值；两者 scope 不同（PEGWW2_SCN / PEGWW2_SCN_OVR），
                 #    去重键 (en, 层, scope) 不冲突，可并存。
                 #    ⚠️ 但**两侧的值都要登记**到 override.tsv：只登记覆盖表那侧时，
                 #       另一侧的映射表中文就成了未登记偏离 ⇒ 门报「跨层多译/通用层内多译」。
+                # ⭐ 补登记（2026-10-19）：映射表**留英文**（`MAP_ZH[en] == en`）的键同属此列 ——
+                #    层表里 COMMON 拿覆盖表中文、SCOPE 拿映射表原样，值不同 ⇒ 同样是
+                #    「跨层多译」新增偏离（实测 88 条番号）。原判据写成
+                #    `MAP_ZH[en] != en and ...` 把这一类漏掉，只收「中文不同」的一类。
                 n_ovf_clashrow += 1
                 ovf_keep_pairs.append((en, MAP_ZH[en]))
             if en in done:

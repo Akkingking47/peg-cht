@@ -4,12 +4,15 @@
 结构（全库同源）：
   <场景数据>  <N:####>  标题(u16 len + bytes)  组1(u16 cnt) [u16 len + bytes]...  组2 ...
 
-用法：
+用法（`--root` 可放在任意位置，默认 `D:/OpenPG2`）：
   python xscn.py --efile AG verify [--detail]
   python xscn.py --efile AO export [--full] [--out FILE]
   python xscn.py --efile AO apply --map FILE [--apply]        # 按 src->dst 替换（默认 dry-run）
   python xscn.py --efile AG zhfix --sub 旧 新 [--apply]       # 中文侧二次修正（子串）
   python xscn.py --efile AG zhfix --map FILE [--apply]        # 中文侧二次修正（整条）
+
+服务其它安装（如 OpenGeneral 波兰发行版）：
+  python xscn.py --root D:/OpenGeneral --efile GUS_Zx verify
 
 来源：`work/glossary/ag_xscn.py`（AG 专用版）的泛化。**parse() 逐字沿用**，
 以保证与既有 AG 结果完全一致（已用 `verify` 对拍）。
@@ -31,10 +34,60 @@ import os
 import sys
 import collections
 
-ROOT = r"D:/OpenPG2"
+# 默认游戏根目录。可用命令行 `--root D:/OpenGeneral` 或环境变量 XSCN_ROOT 覆盖，
+# 以便同一套工具同时服务 D:\OpenPG2（默认）与 D:\OpenGeneral 等其它安装。
+ROOT = os.environ.get("XSCN_ROOT") or r"D:/OpenPG2"
 BACKUP = r"D:/DSH/军事游戏汉化/backup"
 ENC_IN = "cp1252"
 ENC_OUT = "gbk"
+
+# True = 源文本不是 GBK（该 root 下从未汉化过）⇒ decode() 跳过 GBK 探测。
+# 由 set_src_first() 设置；apply_master.py 默认按 root 是否含 TEXT-ZH 自动判定。
+SRC_FIRST = False
+
+
+def set_src_first(on):
+    """见 decode()：True 时禁用 GBK 探测。返回现值。"""
+    global SRC_FIRST
+    SRC_FIRST = bool(on)
+    return SRC_FIRST
+
+# cp1252 下会解出的「可疑」字符 —— 波兰语 cp1250 文本按 cp1252 读时会大量冒出它们
+# （`Pułk`→`Pu³k`、`Jastrząb`→`Jastrz¹b`、`Jeńcy`→`Jeñcy`）。仅用于 guess_enc_in 打分。
+SUSPECT_CP1252 = "\u00b9\u00b2\u00b3\u00bc\u00bd\u00be"
+
+
+def set_enc_in(name):
+    """覆盖原文侧单字节表。波兰 efile（`D:\\OpenGeneral` 的 GUS/GUS_PeG/GUS_Wx/GUS_Zx、
+    `EFILE_ALBERICH`）的 `.xscn`/根级文件是 **cp1250**，非 cp1252 —— 见 `docs\\75`。
+
+    不传/传 auto 时按 guess_enc_in 对文件探测。"""
+    global ENC_IN
+    if name and name != "auto":
+        ENC_IN = name
+    return ENC_IN
+
+
+def pick_enc_from_bytes(raw, text_file=True):
+    """在 cp1252 / cp1250 间选原文侧单字节表：取「解出可疑字符 SUSPECT_CP1252 更少」者；
+    打平时**退回 cp1252**（保持既有 PG2 行为不变）。
+
+    text_file=True 时先试严格 UTF-8（`EFILE_OLGWW2\\names.txt` 那类混入）。
+    二进制/多文件拼接场景传 False。"""
+    if text_file and any(b >= 0x80 for b in raw):
+        try:
+            raw.decode("utf-8")
+            return "utf-8"
+        except UnicodeDecodeError:
+            pass
+    a = raw.decode("cp1252", "replace")
+    b = raw.decode("cp1250", "replace")
+    return "cp1250" if sum(b.count(c) for c in SUSPECT_CP1252) < sum(a.count(c) for c in SUSPECT_CP1252) else "cp1252"
+
+
+def guess_enc_in(path):
+    """探测**单个文本文件**的原文侧编码（详见 pick_enc_from_bytes）。"""
+    return pick_enc_from_bytes(open(path, "rb").read())
 
 
 def norm_efile(s):
@@ -44,10 +97,27 @@ def norm_efile(s):
     return s
 
 
+def resolve_dir(parent, name):
+    """按磁盘上的**真实大小写**解析子目录名；找不到返回 None。
+
+    ⚠️ 为什么要这一步：Windows 文件系统本就不区分大小写，`os.path.join(ROOT, "EFILE_GUS_WX")`
+    其实能打开 `D:\\OpenGeneral\\EFILE_GUS_Wx`；但把真实名带回来，备份路径、work 目录与
+    日志才会显示成与实际一致的名字（否则目录里出现一个「不存在的」大写名，排查时极具误导性）。
+    """
+    if not os.path.isdir(parent):
+        return None
+    for d in sorted(os.listdir(parent)):
+        if d.upper() == name.upper() and os.path.isdir(os.path.join(parent, d)):
+            return d
+    return None
+
+
 class Ctx(object):
-    def __init__(self, efile):
-        self.efile = norm_efile(efile)
-        self.game = os.path.join(ROOT, self.efile, "SCENARIO")
+    def __init__(self, efile, root=None):
+        self.root = os.path.abspath(root or ROOT)
+        ef = norm_efile(efile)
+        self.efile = resolve_dir(self.root, ef) or ef   # 用磁盘真实大小写
+        self.game = os.path.join(self.root, self.efile, "SCENARIO")
         self.bak = os.path.join(BACKUP, "ORIGINAL-" + self.efile, "SCENARIO")
         self.tag = self.efile.split("_", 1)[1]
         self.work = os.path.join(r"D:/DSH/军事游戏汉化/work", self.tag.lower())
@@ -117,6 +187,12 @@ def raw_at(data, off, L):
 
 
 def decode(raw):
+    if SRC_FIRST:
+        # 源文本从未汉化（`docs\76`：`D:\OpenGeneral` 5 个 efile 全无 TEXT-ZH）⇒ 不可能出现 GBK。
+        # 必须跳过 GBK 探测，否则波兰/西文串会被吞成假汉字：
+        #   GUS      `p³k. Gustlik`            -> `p砶. Gustlik`      （2,636 / 2,963 条被吞）
+        #   ALBERICH `San Martín del Tesorillo` -> `San Mart韓 del Tesorillo`（16 / 19 条被吞）
+        return ENC_IN, raw.decode(ENC_IN, "replace")
     try:
         s = raw.decode(ENC_OUT)
         if any("\u4e00" <= c <= "\u9fff" for c in s):
@@ -464,7 +540,14 @@ def main():
         print(__doc__)
         return
     i = argv.index("--efile")
-    ctx = Ctx(argv[i + 1])
+    root = argv[argv.index("--root") + 1] if "--root" in argv else None
+    if "--enc-in" in argv:
+        set_enc_in(argv[argv.index("--enc-in") + 1])
+    if "--src-first" in argv:
+        set_src_first(True)
+    elif "--gbk-first" in argv:
+        set_src_first(False)
+    ctx = Ctx(argv[i + 1], root)
     cmd = next((a for a in argv if a in OPS), None)
     if cmd is None:
         print(__doc__)

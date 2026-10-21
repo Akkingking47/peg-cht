@@ -27,10 +27,18 @@ import sys
 
 import pefile
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 TABLE = 0x4A22F8
 STRIDE = 0x24
 BASE_W, BASE_H = 800, 600
-MOTHER = r"D:\Program Files\PeG\PeG030.exe"
+MOTHER = os.path.join(GAME, "PeG030.exe")
 MOTHER_MD5 = "c462e897b3aa1c384870c857ce9e01df"
 DEFAULT_BASE = os.path.join(os.path.dirname(os.path.abspath(__file__)),
                             "out", "PeG030-1920x1080.exe")

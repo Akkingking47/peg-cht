@@ -2289,7 +2289,7 @@ src	dst	layer	n
 1 168 RCT	第1营/第168团级战斗队	xscn	2
 1 18MB/-/-/18BM/6LA	1 第18混合营/-/-/第18混合旅/6LA	prose	1
 1 A.Highlander Btn.	第1阿盖尔-萨瑟兰高地营	glossary	1
-1 A.Highlander Btn./27 Bde./[I]	第1 A.Highlander营/第27旅/[I]	xscn	2
+1 A.Highlander Btn./27 Bde./[I]	第1 阿盖尔高地营/第27旅/[I]	xscn	2
 1 AA R/17 Indian ID/IV Corps	第1高射炮团/第17印度步兵师/第IV军	xscn	3
 1 AR	第1炮兵团	glossary	1
 1 AR/10 Arm.D/[X]	第1炮兵团/第10装甲师/[X]	xscn	2
@@ -2349,7 +2349,7 @@ src	dst	layer	n
 1 B/7/16 Br/17 Indian Div	英印第17师第7/16英营第1营	xscn	3
 1 B/90 Pzjgr R/10 Pz	第1营/第90反坦克团/第10装甲师	xscn	2
 1 B/EA	第1营/EA	xscn	2
-1 B/Habforce/Arab Legion	第1营/Habforce/阿拉伯军团	xscn	2
+1 B/Habforce/Arab Legion	第1营/哈巴尼亚部队/阿拉伯军团	xscn	2
 1 BC/2 Army	第1骑兵旅/第2集团军	xscn	2
 1 BM	第1混成旅	xscn	2
 1 BM Movil	第1机动混成旅	glossary	1
@@ -2733,7 +2733,7 @@ src	dst	layer	n
 1 R/33  Div/2 Corps	第1团/第33师/第2军	xscn	3
 1 R/38 ID/Y Force	第1团/第38步兵师/Y部队	xscn	3
 1 R/39 ID/Y Force	第1团/第39步兵师/Y部队	xscn	3
-1 R/4 Br/Habforce/Arab Legion	第1团/4 Br/Habforce/阿拉伯军团	xscn	2
+1 R/4 Br/Habforce/Arab Legion	第1团/4 Br/哈巴尼亚部队/阿拉伯军团	xscn	2
 1 R/4 ID Marroco/1 Army Free	第1团/第4摩洛哥步兵师/第1自由集团军	xscn	2
 1 R/4 Littorio/[CTV]	第1团/第4利托里奥师/[CTV]	xscn	1
 1 R/47 ID/14 Army	第1团/第47步兵师/第14集团军	xscn	3
@@ -2861,7 +2861,7 @@ src	dst	layer	n
 1 USMC/[III]	第1海军陆战队/[III]	xscn	3
 1 Ukr F	第1乌克兰方面军	xscn	1
 1 Ulcester	第1阿尔斯特营	glossary	1
-1 Ulcester/29 Bde./[I]	第1 Ulcester/第29旅/[I]	xscn	2
+1 Ulcester/29 Bde./[I]	第1 阿尔斯特/第29旅/[I]	xscn	2
 1 UmK/1 Kvkz/[I Kvkz]	1 UmK/第1骑兵军/[第1骑兵军]	xscn	1
 1 Umansky/1 Kvkz Kz Kav	1 Umansky/第1骑兵军 Kz Kav	xscn	1
 1 Vitebskaya AG	第1维捷布斯克集团军	xscn	1
@@ -4743,7 +4743,7 @@ src	dst	layer	n
 10 BM/46 ID/[V]	第10营/第46步兵师/[V]	xscn	2
 10 Bat.	第10营	glossary	1
 10 Bat. Saper體/ 10th Dyw.	第10营工兵/ 第10师	xscn	1
-10 Bat./2 RAM/[Col. Iglesias]	第10营/第2 RAM/[Col. Iglesias]	xscn	2
+10 Bat./2 RAM/[Col. Iglesias]	第10营/第2 RAM/[伊格莱西亚斯上校]	xscn	2
 10 Bda.	第10旅	xscn	2
 10 Bde	10旅	glossary	1
 10 Bde.	第10旅	glossary	1
@@ -8517,7 +8517,7 @@ src	dst	layer	n
 15 B	第15营	glossary	1
 15 B/7 ID/X Army	第15营/第7步兵师/第10集团军	xscn	2
 15 B/9 ID/II Corps/I Army	第15营/第9步兵师/第2军/第1集团军	xscn	2
-15 B/Imperiali D/XXX/V	第15营/因佩里亚利师/第30军/第5军	xscn	2
+15 B/Imperiali D/XXX/V	第15营/因佩里亚利师/第30军/第5集团军	xscn	2
 15 BGU	第15独立守备队	glossary	1
 15 BGU/-/[5A]	第15BGU/-/[5A]	xscn	3
 15 BM	第15混合旅	glossary	1
@@ -9125,7 +9125,7 @@ src	dst	layer	n
 15×°¼×²½±øÍÅ/15×°¼×Ê¦/[·ÇÖÞ¾ü]	15装甲步兵团/15装甲师/[非洲军]	prose	1
 15×°¼×ÍÅ/8×°¼×ÂÃ/5×°¼×Ê¦/µÚ15Ä¦ÍÐ»¯¾ü/µÚ4¼¯ÍÅ¾ü	15装甲团/8装甲旅/5装甲师/第15摩托化军/第4集团军	prose	1
 16 ''Mejillones'' R	“梅希约内斯”第16团	glossary	1
-16 ''Mejillones'' R/II Div.	第16 ''Mejillones'' 团/第2师	xscn	2
+16 ''Mejillones'' R/II Div.	第16“梅希约内斯”团/第2师	xscn	2
 16 A/16 RD/[5]	16 A/第16步兵师/[5]	xscn	1
 16 Air Army	第16航空集团军	xscn	2
 16 BCP/3 DCR	第16摩托化猎兵营/第3装甲师	xscn	2
@@ -9433,7 +9433,7 @@ src	dst	layer	n
 168/55GRD [XX] 28A	第168/第55近卫步兵师 [XX] 第28集团军	xscn	1
 168e DI/ 20e CA/ VI Arm閑	第168步兵师/ 第20军/ 第6集团军	xscn	1
 169 B	第169营	glossary	1
-169 B/Habforce/Arab Legion	第169营/Habforce/阿拉伯军团	xscn	2
+169 B/Habforce/Arab Legion	第169营/哈巴尼亚部队/阿拉伯军团	xscn	2
 169 BM	第169混成旅	glossary	1
 169 BM/''B'' Div./[XIV]	第169BM/''B''师/[XIV]	xscn	2
 169 PLA Div.	解放军第169师	glossary	1
@@ -10274,8 +10274,8 @@ src	dst	layer	n
 18e Chasseurs / 3e BC / 2e DLC / 2e Arm閑 / GA 1	第18猎兵营 / 第3BC / 第2DLC / 第2集团军 / 第1集团军群	xscn	1
 18e DI/ 5e CA/ III Arm閑	第18步兵师/ 第5军/ 第3集团军	xscn	1
 18e GRCA	18军属侦察群	glossary	1
-18e GRCA / - / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第18GRCA / - / 第16军 / Forces Maritimes du Nord (ex 7 Armee)	glossary	1
-18e GRCA / - / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第18GRCA / - / 第16军 / Forces Maritimes du Nord (ex 7 Armee)	xscn	1
+18e GRCA / - / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第18GRCA / - / 第16军 / 北方海上部队 (前第7集团军)	glossary	1
+18e GRCA / - / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第18GRCA / - / 第16军 / 北方海上部队 (前第7集团军)	xscn	1
 18e RD	18龙骑兵团	glossary	1
 18e RD / 1e BLM / 1e DLM / ex 7e Armée / Groupe d'Armées 1	第18RD / 第1BLM / 第1轻机械化师 / 原第7集团军 / 第1集团军群	glossary	1
 18e RD / 1e BLM / 1e DLM / ex 7e Arm閑 / Groupe d'Arm閑s 1	第18RD / 第1BLM / 第1轻机械化师 / 原第7集团军 / 第1集团军群	xscn	1
@@ -12019,7 +12019,7 @@ src	dst	layer	n
 2  MG Btn-/-/109 Div.	第2 机枪营-/-/第109师	xscn	3
 2 "Borea"	第2"博雷阿"	xscn	2
 2 ''Ytororo'' R	“伊托罗罗”第2团	glossary	1
-2 ''Ytororo'' R/1 Div.	第2''Ytororo''团/第1师	xscn	2
+2 ''Ytororo'' R/1 Div.	第2“伊托罗罗”团/第1师	xscn	2
 2 (2OxfBucks)/6 Airlanding/6 AbnDiv [XVIIIAbn]	第2(第2牛津-白金汉郡)/第6机降/第6空降师 [第18空降军]	xscn	1
 2 / 4 Alpini	第2/第4阿尔卑斯山地兵	xscn	2
 2 / ROA	第2/ROA	xscn	1
@@ -12071,7 +12071,7 @@ src	dst	layer	n
 2 B/7 SG/RAA/WDD	第2营/第7SG/RAA/WDD	xscn	2
 2 B/90 Pzjgr R/10 Pz	第2营/第90反坦克团/第10装甲师	xscn	2
 2 B/EA	第2营/EA	xscn	2
-2 B/Habforce/Arab Legion	第2营/Habforce/阿拉伯军团	xscn	2
+2 B/Habforce/Arab Legion	第2营/哈巴尼亚部队/阿拉伯军团	xscn	2
 2 BArm	第2营	glossary	1
 2 BArm/Br	第2BArm/旅	xscn	2
 2 BM	第2营	xscn	1
@@ -12187,7 +12187,7 @@ src	dst	layer	n
 2 Cen. Alava/[Col. A.Vega]	第2Cen. Alava/[A.Vega上校]	xscn	2
 2 Cen. FET Alava/2 M.Bda/IV Bda.	第2中队 FET阿拉瓦/第2摩洛哥旅/第4旅	xscn	1
 2 Cen.Alava	阿拉瓦第2中队	glossary	1
-2 Cen.Alava/1 Bda./[1Agrp.]	第2Cen.Alava/第1旅/[1Agrp.]	xscn	2
+2 Cen.Alava/1 Bda./[1Agrp.]	第2阿拉瓦百人队/第1旅/[1Agrp.]	xscn	2
 2 Ch / 5 DI / VI CA	第2Ch / 第5步兵师 / 第6军	xscn	2
 2 Ch/4/II Cav/[6]	2 Ch/4/第2骑兵/[6]	xscn	1
 2 ChA	2阿登猎兵团	glossary	1
@@ -12391,7 +12391,7 @@ src	dst	layer	n
 2 R/194 Div/79 Corps/10 Army	第2团/第194师/第79军/第10集团军	xscn	3
 2 R/199 Div/18 Corps	第2团/第199师/第18军	xscn	3
 2 R/199 Div/66 Corps/10 Army	第2团/第199师/第66军/第10集团军	xscn	3
-2 R/2 Bde./[V Reservas]	第2团/第2旅/[V预备队]	xscn	2
+2 R/2 Bde./[V Reservas]	第2团/第2旅/[第5预备队]	xscn	2
 2 R/2 Indian ID	第2团/第2印度步兵师	xscn	2
 2 R/2 NZ/XXX/VIII	第2团/第2新西兰师/第30军/第8集团军	xscn	2
 2 R/2 USMC	第2团/第2海军陆战队	xscn	3
@@ -12402,7 +12402,7 @@ src	dst	layer	n
 2 R/33  Div/2 Corps	第2团/第33师/第2军	xscn	3
 2 R/38 ID/Y Force	第2团/第38步兵师/Y部队	xscn	3
 2 R/39 ID/Y Force	第2团/第39步兵师/Y部队	xscn	3
-2 R/4 Br/Habforce/Arab Legion	第2团/第4旅/Habforce/阿拉伯军团	xscn	2
+2 R/4 Br/Habforce/Arab Legion	第2团/第4旅/哈巴尼亚部队/阿拉伯军团	xscn	2
 2 R/4 ID Marroco/1 Army Free	第2团/第4摩洛哥步兵师/第1自由集团军	xscn	2
 2 R/4 Littorio/[CTV]	第2团/第4利托里奥师/[CTV]	xscn	1
 2 R/47 ID/14 Army	第2团/第47步兵师/第14集团军	xscn	3
@@ -16787,7 +16787,7 @@ src	dst	layer	n
 272/90G [6G]	第272/第90近卫 [6G]	xscn	2
 272/90GRD [22G] 6GA	第272/第90近卫步兵师 [22G] 第6近卫集团军	xscn	1
 272e DBI	272步兵半旅	glossary	1
-272e DBI / - / Secteur Fortifié de Flandres	第272DBI / - / Secteur Fortifie de Flandres	xscn	2
+272e DBI / - / Secteur Fortifié de Flandres	第272DBI / - / 佛兰德筑垒地域	xscn	2
 272nd FlaK Abt.	第272高炮营	xscn	2
 272²½±ø°ëÂÃ/-/·ðÀ¼µÂÖþÀÝµØÓò	272步兵半旅/-/佛兰德筑垒地域	prose	1
 273 Btn	第273大队	glossary	1
@@ -16894,8 +16894,8 @@ src	dst	layer	n
 27d/6/V	第27多罗班齐/第6/第5	xscn	1
 27e BCA	第27 BCA	xscn	1
 27e GRDI	27步兵师侦察群	glossary	1
-27e GRDI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第27GRDI / 第21步兵师 / 第16军 / Forces Maritimes du Nord (前第7集团军)	glossary	1
-27e GRDI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第27GRDI / 第21步兵师 / 第16军 / Forces Maritimes du Nord (前第7集团军)	xscn	1
+27e GRDI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第27GRDI / 第21步兵师 / 第16军 / 北方海上部队 (前第7集团军)	glossary	1
+27e GRDI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第27GRDI / 第21步兵师 / 第16军 / 北方海上部队 (前第7集团军)	xscn	1
 27e RA/ 51e DIR/ 30e CA	第27炮兵团/ 第51 DIR/ 第30军	xscn	1
 27e RI/ 30e Brig./ 15e DI/ 8e CA/ I Arm閑	第27步兵团/ 第30旅/ 第15步兵师/ 第8军/ 第1集团军	xscn	1
 27e TS/17e DI/IXe CA/9e	第27 TS/第17步兵师/第9军/第9	xscn	1
@@ -17101,8 +17101,8 @@ src	dst	layer	n
 289ATR [16]	第289反坦克团 [16]	xscn	1
 289Rhodesian(att)/-/-/9Aus [XXX]	第289罗得西亚(配属)/-/-/第9澳大利亚 [XXX]	xscn	1
 289e RALD	289师属重炮兵团	glossary	1
-289e RALD / 68e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第289RALD / 第68步兵师 / 第16军 / Forces Maritimes du Nord (前第7集团军)	glossary	1
-289e RALD / 68e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第289RALD / 第68步兵师 / 第16军 / Forces Maritimes du Nord (前第7集团军)	xscn	1
+289e RALD / 68e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	第289RALD / 第68步兵师 / 第16军 / 北方海上部队 (前第7集团军)	glossary	1
+289e RALD / 68e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	第289RALD / 第68步兵师 / 第16军 / 北方海上部队 (前第7集团军)	xscn	1
 289th Hvy/m/batt	第289重型/迫击炮/炮兵连	xscn	1
 289Ê¦ÊôÖØÅÚ±øÍÅ/68²½±øÊ¦/µÚ16¾ü/±±²¿º£ÉÏ²¿¶Ó(Ô­µÚ7¼¯ÍÅ¾ü)	289师属重炮兵团/68步兵师/第16军/北部海上部队(原第7集团军)	prose	1
 28ATArtB [-] 6GA	第28反坦克炮兵营 [-] 第6近卫集团军	xscn	1
@@ -17238,7 +17238,7 @@ src	dst	layer	n
 29/9th div	29/第9师	xscn	1
 290 NKVD Bde/18 Army	第290内务人民委员部旅/第18集团军	xscn	1
 290 R	第290团	glossary	1
-290 R/Saharian Grouping	第290团/Saharian Grouping	xscn	2
+290 R/Saharian Grouping	第290团/撒哈拉战斗群	xscn	2
 290/-/160RD [33]	第290/-/第160步兵师 [33]	xscn	1
 290/104RD [CXXXIII] 27A	第290/第104步兵师 [CXXXIII] 第27集团军	xscn	1
 290/186RD [XXXXVI] 65A	第290/第186步兵师 [XXXXVI] 第65集团军	xscn	1
@@ -18256,7 +18256,7 @@ src	dst	layer	n
 3 Aé	第3航空队	glossary	1
 3 B	第3营	glossary	1
 3 B/Burma Br/17 Indian Div	第3营/缅甸旅/第17印度师	xscn	3
-3 B/Habforce/Arab Legion	第3营/Habforce/阿拉伯军团	xscn	2
+3 B/Habforce/Arab Legion	第3营/哈巴尼亚部队/阿拉伯军团	xscn	2
 3 B/Pistoia D/XXI/I	第3营/皮斯托亚师/第21军/第1集团军	xscn	2
 3 BC/2 DLC	第3骑兵旅/第2轻骑兵师	xscn	2
 3 BM	第3混成旅	xscn	2
@@ -18383,7 +18383,7 @@ src	dst	layer	n
 3 Field AR/-/[25A]	第3野战炮兵团/-/[25A]	xscn	3
 3 Flotille	第3分舰队	glossary	1
 3 Ft.A/-/Guard/[2]	3 Ft.A/-/近卫/[2]	xscn	1
-3 G/Imperiali D/XXX/V	第3G/Imperiali师/第30军/第5军	xscn	2
+3 G/Imperiali D/XXX/V	第3团/因佩里亚利师/第30军/第5集团军	xscn	2
 3 GA	第3近卫集团军	xscn	2
 3 GAlp./ 6 DI/ XIV CA/ 7 Arm.	3 GAlp./ 第6步兵师/ 第14军/ 第7集团军	xscn	1
 3 GK Brig/Gd.K/HKK I/[9]	3 GK 旅/Gd.K/HKK I/[9]	xscn	1
@@ -18461,7 +18461,7 @@ src	dst	layer	n
 3 PzD	第3装甲师	glossary	1
 3 R	第3团	glossary	1
 3 R ''Corrales''	“科拉莱斯”第3团	glossary	1
-3 R ''Corrales''/2 Div.	第3团 ''Corrales''/第2师	xscn	2
+3 R ''Corrales''/2 Div.	第3团“科拉莱斯”/第2师	xscn	2
 3 R.A.	第3炮兵团	xscn	3
 3 R/ II Bda.	第3团/第2旅	xscn	1
 3 R/1 Arm	第3团/第1装甲师	xscn	2
@@ -18489,7 +18489,7 @@ src	dst	layer	n
 3 R/194 Div/79 Corps/10 Army	第3团/第194师/第79军/第10集团军	xscn	3
 3 R/199 Div/18 Corps	第3团/第199师/第18军	xscn	3
 3 R/199 Div/66 Corps/10 Army	第3团/第199师/第66军/第10集团军	xscn	3
-3 R/2 Bde/[XV Reservas]	第3团/第2旅/[XV预备队]	xscn	2
+3 R/2 Bde/[XV Reservas]	第3团/第2旅/[第15预备队]	xscn	2
 3 R/2 Indian ID	第3团/第2印度步兵师	xscn	2
 3 R/23 Indian ID/IV Corps	第3团/第23印度步兵师/第4军	xscn	3
 3 R/3 Div/10 Corps/9 War Area	第3团/第3师/第10军/第9战区	xscn	3
@@ -18500,7 +18500,7 @@ src	dst	layer	n
 3 R/33  Div/2 Corps	第3团/第33师/第2军	xscn	3
 3 R/38 ID/Y Force	第3团/第38步兵师/Y部队	xscn	3
 3 R/39 ID/Y Force	第3团/第39步兵师/Y部队	xscn	3
-3 R/4 Br/Habforce/Arab Legion	第3团/第4旅/Habforce/阿拉伯军团	xscn	2
+3 R/4 Br/Habforce/Arab Legion	第3团/第4旅/哈巴尼亚部队/阿拉伯军团	xscn	2
 3 R/5 Bde/2 SA Div/[XIII]	第3团/第5旅/第2南非师/[XIII]	xscn	2
 3 R/50 ID/Y Force	第3团/第50步兵师/Y部队	xscn	3
 3 R/51 Div/74 Corps/Wang Army	第3团/第51师/第74军/王集团军	xscn	3
@@ -22102,7 +22102,7 @@ src	dst	layer	n
 4 "Drago"	第4"德拉戈"	xscn	2
 4 & 7 BCC / 9 Army	第4&第7坦克营/第9集团军	xscn	2
 4 ''Curupayti'' R	“库鲁帕伊蒂”第4团	glossary	1
-4 ''Curupayti'' R/1 Div.	第4 ''Curupayti'' 团/第1师	xscn	2
+4 ''Curupayti'' R/1 Div.	第4“库鲁帕伊蒂”团/第1师	xscn	2
 4 ''Ingavi'' RC	“因加维”第4骑兵团	glossary	1
 4 ''Ingavi'' RC/III Div.	第4 ''Ingavi'' RC/第3师	xscn	2
 4 ''Loa'' R	“洛阿”第4团	glossary	1
@@ -22832,7 +22832,7 @@ src	dst	layer	n
 404e RI / 121e DI [2]	第404步兵团 / 第121步兵师 [2]	xscn	1
 404th Hvy AA	第404重型防空	xscn	1
 405 Bru.-Btl.	第405架桥工兵营	glossary	1
-405 Bru.-Btl. / IX AK / AOK 6	第405Bru.-Btl. / 第9军 / 第6集团军	xscn	2
+405 Bru.-Btl. / IX AK / AOK 6	第405架桥营 / 第9军 / 第6集团军	xscn	2
 405 Pi Bn [GK Norw.]	第405工兵营 [挪威山地军]	xscn	2
 405//8AD	第405//第8装甲师	xscn	1
 405GBtn [VIIIGMech] 1GTA	第405近卫营 [第8近卫机械化军] 第1近卫坦克集团军	xscn	1
@@ -25064,13 +25064,13 @@ src	dst	layer	n
 502nd Pz. Abt.	第502装甲营	xscn	2
 502nd Schwere Pz. Abt.	第502重型装甲营	xscn	2
 503. s.Pz.Abt.	第503重型装甲营	xscn	1
-503/1 Boeitai/[Okinawa]	第503/1防卫队/[Okinawa]	xscn	3
+503/1 Boeitai/[Okinawa]	第503/1防卫队/[冲绳]	xscn	3
 503rd Hy. Pz. Abt.	第503重型装甲营	xscn	1
 503rd Pz. Abt.	第503装甲营	xscn	1
 504 Mar. Art Bn [GK Norw.]	第504海军炮兵营 [挪威山地军]	xscn	2
 504 Schwere Pz Abt	第504重型坦克营	glossary	1
 504 Schwere Pz Abt/-/[DAK]	第504重装甲营/-/[非洲军]	xscn	2
-504/1 Boeitai/[Okinawa]	第504/1防卫队/[Okinawa]	xscn	3
+504/1 Boeitai/[Okinawa]	第504/1防卫队/[冲绳]	xscn	3
 504FAR(att)/104/15RD	第504野战炮兵团(att)/104/第15步兵师	xscn	1
 505(att)/-/5Pz	第505(配属)/-/第5装甲	xscn	1
 505/-/Kempf [I]	第505/-/肯普夫 [I]	xscn	1
@@ -25215,9 +25215,9 @@ src	dst	layer	n
 51 Pio Abt	第51工兵营	glossary	1
 51 Pio Abt / - / - / XXVII AK / 6 Armee	第51工兵营 / - / - / 第27军 / 第6集团军	xscn	2
 51 R	第51团	glossary	1
-51 R/1 African D	第51团/第1 African D	xscn	2
+51 R/1 African D	第51团/第1南非师	xscn	2
 51 R/15 ID/15 Army	第51团/第15步兵师/第15集团军	xscn	3
-51 R/2 African D	第51团/第2 African D	xscn	2
+51 R/2 African D	第51团/第2南非师	xscn	2
 51 R/51 ID(PA)/USAFFE	第51团/第51步兵师(PA)/USAFFE	xscn	3
 51 Sch黷. Brig./ 26 Sch黷. Div. / Fath Korps/ 4 Armee/ Heeresgruppe Linsingen	第51射击兵旅/ 第26射击兵师 / Fath 军/ 第4集团军/ 集团军群 Linsingen	xscn	1
 51 Static Bde	第51守备旅	prose	1
@@ -25378,7 +25378,7 @@ src	dst	layer	n
 52 B.C. : For Vercingetorix!	公元前52年：为了维钦托利！	prose	1
 52 B.C. : Gergovia	公元前52年：热尔戈维亚	prose	1
 52 B.C. : The liberation of the homeland	公元前52年：解放家园	prose	1
-52 B/1 African D	第52营/第1 African D	xscn	2
+52 B/1 African D	第52营/第1南非师	xscn	2
 52 Bn	第52营	glossary	1
 52 Bn/24 Div./[8A]	第52营/第24师/[8A]	xscn	2
 52 Btn.	第52营	glossary	1
@@ -25394,7 +25394,7 @@ src	dst	layer	n
 52 Pion.-Btl. / XXVI AK / AOK 18	第52工兵营 / 第26军 / 第18集团军	xscn	2
 52 PzAb/46 ID/[XLII]	第52装甲营/第46步兵师/[XLII]	xscn	1
 52 R	第52团	glossary	1
-52 R/2 African D	第52团/第2 African D	xscn	2
+52 R/2 African D	第52团/第2南非师	xscn	2
 52 R/51 ID(PA)/USAFFE	第52团/第51步兵师(PA)/USAFFE	xscn	3
 52 Sch黷. Brig./ 26 Sch黷. Div. / Fath Korps/ 4 Armee/ Heeresgruppe Linsingen	第52射击兵旅/ 第26射击兵师 / Fath 军/ 第4集团军/ 集团军群 Linsingen	xscn	1
 52 Str K	第52步兵军	xscn	1
@@ -25483,7 +25483,7 @@ src	dst	layer	n
 53 IR / 14 ID / X AK / AOK 6	第53步兵团 / 第14步兵师 / 第10军 / 第6集团军	xscn	2
 53 Ind Tk Bn [40]	第53印度坦克营 [40]	xscn	1
 53 R	第53团	glossary	1
-53 R/1 African D	第53团/第1 African D	xscn	2
+53 R/1 African D	第53团/第1南非师	xscn	2
 53 R/51 ID(PA)/USAFFE	第53团/第51步兵师(PA)/USAFFE	xscn	3
 53 RD	第53步兵师	glossary	1
 53 RD/[16A]	第53 RD/[16A]	xscn	3
@@ -25589,7 +25589,7 @@ src	dst	layer	n
 54 Keibitai	第54警备队	xscn	3
 54 Pnr/1 GbJgr	第54工兵/第1山地猎兵	xscn	2
 54 R	第54团	glossary	1
-54 R/2 African D	第54团/第2 African D	xscn	2
+54 R/2 African D	第54团/第2南非师	xscn	2
 54 R/54 ID/[28A]	第54团/第54步兵师/[28A]	xscn	3
 54 Recce/1 GbJgr	第54侦察/第1山地猎兵	xscn	2
 54 Rgt	第54团	glossary	1
@@ -26616,7 +26616,7 @@ src	dst	layer	n
 6 R/4 ID Marroco/1 Army Free	第6团/第4摩洛哥步兵师/自由法国第1集团军	xscn	2
 6 R/5 Bde./3 Div./[SEF]	上海派遣军第3师团第5旅团第6联队/[SEF]	prose	2
 6 R/III Bda.	第6团/第3旅	xscn	1
-6 R/Imperiali D/XXX/V	第6团/帝国师/第30军/第5军	xscn	2
+6 R/Imperiali D/XXX/V	第6团/帝国师/第30军/第5集团军	xscn	2
 6 RA / 6 DI / V CA	第6炮兵团 / 第6步兵师 / 第5军	xscn	2
 6 RAA/12 Bde./[SC]	第12旅第6皇家炮兵团/[SC]	xscn	3
 6 RAAF Bomb.Sqd.	澳大利亚皇家空军第6轰炸中队	xscn	3
@@ -26861,9 +26861,9 @@ src	dst	layer	n
 60 R	第60团	glossary	1
 60 R/15 ID/15 Army	第60团/第15步兵师/第15集团军	xscn	3
 60 R/9 ID/II Corps/I Army	第60团/第9步兵师/第2军/第1集团军	xscn	2
-60 R/Habforce/Arab Legion	第60团/Habforce/阿拉伯军团	xscn	2
+60 R/Habforce/Arab Legion	第60团/哈巴尼亚部队/阿拉伯军团	xscn	2
 60 RA	60皇家炮兵团	glossary	1
-60 RA/[8 Army]	第60炮兵团/[8 Army]	xscn	2
+60 RA/[8 Army]	第60炮兵团/[第8集团军]	xscn	2
 60 Res.FA/77R/XXXIX R/[10]	60 预备役野战炮兵/77R/XXXIX R/[10]	xscn	1
 60 Sabratha	60萨布拉塔师	glossary	1
 60 aaB	第60高射炮营	glossary	1
@@ -32034,7 +32034,7 @@ AR (mot.) 29	29摩托化炮兵团	glossary	1
 AR (mot.) 29 / 29 (mot.) ID / XLI AK / AOK 4	炮兵团 (摩托化) 29 / 第29步兵师 (摩托化) / 第41军 / 第4集团军	xscn	2
 AR (mot.) I./58 / 20 (mot.) ID / XIV (mot.) AK / AOK 4	炮兵团 (摩托化) 1./58 / 第20步兵师 (摩托化) / 第14军 (摩托化) / 第4集团军	xscn	2
 AR 185	第185炮兵团	glossary	1
-AR 185/185 Folgore/[X]	第185炮兵团/第185Folgore师/[X]	xscn	2
+AR 185/185 Folgore/[X]	第185炮兵团/第185“闪电”师/[X]	xscn	2
 AR 190	第190炮兵团	glossary	1
 AR 190/90 LD/[DAK]	第190炮兵团/第90LD师/[非洲军]	xscn	2
 AR 617	第617炮兵团	xscn	2
@@ -32057,6 +32057,7 @@ AS Fanteria 40	AS 步兵 40	root	1
 AS Fanteria 42	AS 步兵 42	root	1
 ASH/10/4CdnArm [IICdn]	阿盖尔与萨瑟兰高地团/第10/第4加拿大集团军 [加拿大第2军]	xscn	1
 ASTRAKHAN - 13 MAY 1942	阿斯特拉罕——1942年5月13日	prose	1
+ASW	反潜战	glossary	1
 AT	反坦克营	glossary	1
 AT 1P	反坦克部队/第1师	xscn	2
 AT Block (not used)	反坦克障碍 (未使用)	root	2
@@ -32418,6 +32419,7 @@ Adapted for "The war of Morocco" campaign by Urica.	由乌里卡为「摩洛哥�
 Adaryan	阿达良	xscn	1
 AddisAbaba	亚的斯亚贝巴	xscn	2
 Addison	艾迪生	xscn	1
+Additional Options	更多选项	glossary	1
 Adelaide	阿德莱德	xscn	3
 Ademeit	阿德迈特	root	1
 Aderbal	阿德巴尔	root	1
@@ -32501,6 +32503,7 @@ Adzic	阿季奇	root	1
 Aegean Sea	爱琴海	xscn	1
 Aegean SeaAegean Sea	爱琴海	xscn	1
 Aegina	埃伊纳	xscn	1
+Aegis Cruiser	宙斯盾巡洋舰	glossary	1
 Aeradrom Mhic Easmainn	埃斯蒙德机场	xscn	1
 Aerchinshan	阿钦山	xscn	3
 Aerfort Bhaile Atha Cliath	都柏林机场	xscn	1
@@ -32995,15 +32998,19 @@ Ain et Turk	艾因图尔克	xscn	1
 Aina Haina	艾纳海纳	xscn	1
 Aineas	埃涅阿斯	root	1
 Ainsdale	安斯代尔	xscn	1
-Air	空中	root	1
+Air	空中	root	2
 Air Army	空军集团军	xscn	2
 Air Attack	空中攻击	root	2
 Air Defence	航空防御	xscn	1
 Air Defense	防空	root	2
+Air Defense Killed	击毁防空	glossary	1
 Air Drop	空中空投	root	1
 Air Force	空军	xscn	1
+Air Mission	空中任务 / 出击	glossary	1
+Air Mode	空中模式	glossary	1
 Air Recon	空中侦察	root	1
 Air Recon 5LA	空中侦察5LA	xscn	2
+Air Support	空中支援	glossary	1
 Air Transport	运输机	root	2
 Air Units fired within AD range	空中单位在防空射程内会被射击	glossary	1
 Air defence/ Army of the Dobrogea	空中防御/ 集团军 of the Dobrogea	xscn	1
@@ -33026,6 +33033,7 @@ Airan	艾朗	xscn	1
 Airborne	空降	root	1
 Airborne Engineers 42	空降工兵 42	root	1
 Airborne Field Command	空降野战司令部	xscn	1
+Airborne Inf	空降步兵	glossary	1
 Airborne Regiment [20]	空降团 [20]	xscn	1
 Airborne Scout Jeep	空降侦察吉普	root	1
 Aircraft Engine Production	航空发动机生产	xscn	1
@@ -33061,7 +33069,8 @@ Airfields in Sicily	西西里机场	xscn	1
 Airfields in Tunisia	突尼斯机场	xscn	1
 Airfields in northern Africa	北非机场	xscn	1
 Airimo	艾里莫	root	1
-Airmobile	空中机动	root	1
+Airliftable	可空运	glossary	1
+Airmobile	空中机动	root	2
 Airo	艾罗	root	1
 Airodrome	机场	xscn	1
 Airon River	艾龙河	xscn	1
@@ -33483,6 +33492,7 @@ All German Kavallerie Divisions have been put under command of 6th Armee. Their 
 All German attacks have been repelled and you have retreated the forces under your command in an ordered manner. Your defence has enabled our army to safely take positions on the "Ligne KW" (Dyle line).	德军的进攻全部被击退，您以有序的方式撤出了麾下部队。您的防御使我军得以安全进入“KW 防线”（迪尔河防线）阵地。	glossary	1
 All Nations	所有国家	root	1
 All Terrain	全地形	root	1
+All Terrain Vehicle	全地形车辆	glossary	1
 All VHs must be taken.	必须夺取全部胜利点。	prose	1
 All airfields got destoyed. You have to build one.	所有机场都已被摧毁。你必须建造一座。	prose	1
 All airfields have been destroyed in the previous battles and need repairs!	所有机场已在此前的战斗中被摧毁，需要修复！	prose	1
@@ -33837,6 +33847,8 @@ Ambrose P. Hill	Ambrose P. 山丘	xscn	1
 Ambrosio	安布罗西奥	root	1
 Ambulance	救护车	root	1
 Amburskoye	安布尔斯科耶	xscn	1
+Ambushed!	遭伏击！	glossary	1
+Ambusher	伏击者	glossary	1
 Amde Mikael	阿姆德·米卡埃尔	root	1
 Amdrup	阿姆德鲁普	root	1
 Amedo	阿梅多	root	1
@@ -33893,7 +33905,7 @@ Amore	阿莫雷	xscn	1
 Amorebieta	阿莫雷别塔	xscn	2
 AmpSIG Art (not used)	AmpSIG 炮兵(未使用)	root	2
 AmpTruck (not used)	两栖卡车 (未使用)	root	2
-Amphibious	两栖	root	1
+Amphibious	两栖	root	2
 Amphibious operations are always tough.	两栖作战总是艰难。	prose	1
 Amphiteatre	圆形剧场	xscn	3
 Ampuanagus	阿姆普阿纳古斯	root	1
@@ -33908,7 +33920,7 @@ Amsterdam-Noord Airfield	阿姆斯特丹-北机场	xscn	2
 Amsterdam-Rhine canal	阿姆斯特丹—莱茵运河	xscn	2
 Amtissa	阿姆蒂萨	xscn	3
 Amuategi No.35	阿穆阿特吉35号	glossary	1
-Amuategi No.35/6 Bda./2 Div.	Amuategi No.35/6 Bda./第2师	xscn	2
+Amuategi No.35/6 Bda./2 Div.	阿穆阿特吉第35营/6 Bda./第2师	xscn	2
 Amunátegui	阿穆纳特吉	root	1
 Amur	阿穆尔	xscn	3
 Amur Cossack Reg./ Southern Manchuria Column	Amur 哥萨克团/ 南部 Manchuria 纵队	xscn	1
@@ -34140,6 +34152,7 @@ Anti-Aircraft MG	防空 MG	root	1
 Anti-Aircraft Redoubt	防空堡垒	xscn	1
 Anti-Tank	反坦克	root	1
 Anti-tank	AT	root	1
+Anti-tank Killed	击毁反坦克	glossary	1
 Anti-tank ditch	反坦克壕	xscn	1
 Anti-tank guns	反坦克炮	xscn	1
 Anti-tank trench	反坦克壕	root	1
@@ -35490,6 +35503,7 @@ Artilleriewagen	炮兵车	xscn	1
 Artillery	炮兵	xscn	3
 Artillery Bunker	炮兵碉堡	xscn	3
 Artillery Hill	炮兵山丘	xscn	1
+Artillery Killed	击毁炮兵	glossary	1
 Artillery Observer	炮兵 Observer	xscn	1
 Artillery Observer/12 Div	炮兵 Observer/第12师	xscn	1
 Artillery Production	炮兵生产	xscn	1
@@ -35967,7 +35981,9 @@ Atris	阿特里斯	root	1
 Attached Fleet Air Arm	配属舰队航空兵	glossary	1
 Attached to FEF	隶属远东方面军	xscn	3
 Attachments can be sold off later and you will get back the prestige.	附件可稍后出售，您将收回相应的威望。	prose	1
+Attack Broken Off!	攻击中止！	glossary	1
 Attack Gibraltar, anihilate the enemy fleet and capture all VHs in 12/15/22 turns for a BV/V/TV.	进攻直布罗陀，歼灭敌军舰队，并在12/15/22回合内夺取全部胜利点以获得BV/V/TV。	prose	1
+Attack Helicopter	攻击直升机	glossary	1
 Attack Riga and its surrounding area and capture all VHs in 16/20/24 turns for a Brilliant Victory/Victory/Tactical Victory.	进攻里加及其周边地区，并在16/20/24回合内夺取全部胜利点以获得辉煌胜利/胜利/战术胜利。	prose	1
 Attack Tobruk	进攻托布鲁克	prose	1
 Attack on Gibraltar	直布罗陀进攻战	prose	1
@@ -35988,6 +36004,7 @@ Attention, General: the rebels are completely desperate and have nothing to loos
 Attention, in  Craonne and Laon are reported French armoured troops, which want to attack or flank and logistic area.	注意，据报克劳讷与拉昂一带有法军装甲部队，企图进攻或迂回我后勤区。	prose	1
 Attigny	阿蒂尼	xscn	2
 Attila	阿提拉	root	1
+Attk: / Dfnd: / Ent:	杀伤:/防御:/工事:	glossary	1
 Attlee	艾德礼	root	1
 Attrition. That's the ultimate goal of our new operation. We can't break through the Entente lines, nor can we defend ourselves forever. So we'll set a trap for the French Army. We'll launch an offensive against Verdun and its ring of forts. Naturally, taking the town would be very important, but what the OHL really wants is forcing the French to counterattack in order to retake the lost terrain. Then we'll be able to annihilate them with our artillery fire, standing on safe positions.	消耗。这就是我们这次新行动的终极目标。我们既无法突破协约国的战线，也无法永远自守。所以我们要给法军设下陷阱。我们将对凡尔登及其环城要塞群发动攻势。当然，夺取这座城市非常重要，但最高陆军指挥部真正想要的，是迫使法军为了夺回失地而发动反攻。到那时，我们就能安然据守阵地，用炮火将他们歼灭。	prose	1
 Attygalle	阿蒂加勒	root	1
@@ -36193,8 +36210,8 @@ Aufkl.-Abt. 9 / - / 9 Pz.Div. / XIV (mot.) AK / AOK 4	侦察营 9 / - / 第9装�
 Aufkl.-Abt. 90	90侦察营	glossary	1
 Aufkl.-Abt. 90 / 10 Pz.Div. / XIX (mot.) AK / Gr. Kleist	侦察营 90 / 第10装甲师 / 19 (摩托化) 军 / 克莱斯特集群	xscn	2
 Aufkl.-Abt. SS-V	党卫队特别机动师侦察营	glossary	1
-Aufkl.-Abt. SS-V / SS-Verfügungs-Division (mot.)	侦察营 SS-V / SS-Verfugungs-Division (摩托化)	glossary	1
-Aufkl.-Abt. SS-V / SS-Verf黦ungs-Division (mot.)	侦察营 SS-V / SS-Verfugungs-Division (摩托化)	xscn	1
+Aufkl.-Abt. SS-V / SS-Verfügungs-Division (mot.)	侦察营 SS-V / 党卫军特别机动师 (摩托化)	glossary	1
+Aufkl.-Abt. SS-V / SS-Verf黦ungs-Division (mot.)	侦察营 SS-V / 党卫军特别机动师 (摩托化)	xscn	1
 AufklAbt 3/21. PzDiv	第3侦察营/第21装甲师	xscn	1
 AufklAbt 3/5. leD	第3侦察营/第5轻装师	xscn	1
 AufklAbt5/2Pz [XIX]	第5侦察营/第2装甲 [XIX]	xscn	1
@@ -36455,7 +36472,7 @@ Avekapelle	阿弗卡佩勒	xscn	2
 Aveley	阿夫利	xscn	3
 Aveleyra	阿韦莱拉	root	1
 Avellaneda No.38	阿韦利亚内达38号	glossary	1
-Avellaneda No.38/12 Bda./2 Div.	Avellaneda No.38/12 Bda./第2师	xscn	2
+Avellaneda No.38/12 Bda./2 Div.	阿韦利亚内达第38营/12 Bda./第2师	xscn	2
 Avellino	阿韦利诺	xscn	3
 Avenay	阿弗奈	xscn	2
 Avenelles	阿弗内勒	xscn	1
@@ -36620,7 +36637,7 @@ B Group	B 集群	xscn	1
 B ID/[III]	B步兵师/[III]	xscn	1
 B Melilla	梅利利亚营	glossary	1
 B Melilla/4 Bda.	梅利利亚营/第4旅	xscn	1
-B Melilla/4 Bda./[1Agrp.]	B Melilla/第4旅/[1Agrp.]	xscn	2
+B Melilla/4 Bda./[1Agrp.]	梅利利亚旅/第4旅/[1Agrp.]	xscn	2
 B&D/23/-/3AD [VII]	B&D连/第23/-/第3装甲师 [VII]	xscn	1
 B,O/1RHA/SpGp/2Arm[Cyrcom]	B,O连/第1皇家骑炮兵/特别群/第2集团军[昔兰尼加司令部]	xscn	1
 B-17B Fortress	B-17B 要塞	root	1
@@ -37939,7 +37956,7 @@ Bazuel	巴聚埃尔	xscn	1
 Bazzano	巴扎诺	xscn	1
 BdM Frau Cmdr 'Gordeba	BdM女士指挥官 'Gordeba	xscn	1
 Bda. Vol. Santander	桑坦德志愿旅	glossary	1
-Bda. Vol. Santander/[S.Esteban]	桑坦德志愿旅/[S.Esteban]	xscn	2
+Bda. Vol. Santander/[S.Esteban]	桑坦德志愿旅/[圣埃斯特万]	xscn	2
 Be as quick as you can and close the Mediterranean's coast to avoid enemy reinforcements.	尽可能快速行动并封锁地中海沿岸，以阻止敌军增援。	glossary	1
 Be aware of the confederate fleet !	当心南方军舰队！	prose	1
 Be aware of the enemy AA defense in the Ruhr area between the cities of Duisburg and Dortmund.	请注意杜伊斯堡与多特蒙德两城之间鲁尔区的敌军防空火力。	prose	1
@@ -39089,6 +39106,7 @@ Blitz 2008	闪击 2008	glossary	1
 Blitz 2008 choice scenario	闪电2008 抉择场景	glossary	1
 Blitz 2012	闪电战 2012	prose	1
 Blitz or DTR?	闪击还是DTR？	prose	1
+Blitzer	闪电战	glossary	1
 Blitzkrieg Complete	闪击战完成	prose	1
 Blitzkrieg World - German World Campaign	闪电战世界——德国世界战役	prose	1
 Bliunstein	布利翁施泰因	xscn	1
@@ -39145,12 +39163,12 @@ Blyukher	布柳赫尔	root	1
 Bláha	布拉哈	root	1
 Bn B Las Navas/4	B营 拉斯纳瓦斯/4	xscn	1
 Bn CyFr Limbourg	林堡边防自行车营	glossary	1
-Bn CyFr Limbourg / I CA	第76工兵营 塞法尔·林堡 / 第1军	xscn	2
-Bn Gn / 1 DChA / VI CA	第76工兵营 Gn / 第1DChA / 第6军	xscn	2
-Bn Mo ChA / CC	第76工兵营 Mo ChA / 骑兵军	xscn	2
+Bn CyFr Limbourg / I CA	工兵营 塞法尔·林堡 / 第1军	xscn	2
+Bn Gn / 1 DChA / VI CA	工兵营 Gn / 第1DChA / 第6军	xscn	2
+Bn Mo ChA / CC	工兵营 Mo ChA / 骑兵军	xscn	2
 Bn Moto ChA	阿登猎兵摩托化营	glossary	1
-Bn Moto ChA / Gpt K	第76摩托化营 ChA / K集群	xscn	2
-Bn Pon	第76工兵营	xscn	2
+Bn Moto ChA / Gpt K	摩托化营 ChA / K集群	xscn	2
+Bn Pon	工兵营	xscn	2
 Bn. C Melilla/4	C营 梅利利亚/4	xscn	1
 Bn./133/34Inf	营/第133/第34步兵	xscn	1
 Bn./61'Vladimirskiy'/16ID [VI]	营/61'Vladimirskiy'/第16步兵师 [VI]	xscn	1
@@ -39524,18 +39542,18 @@ Bomber Command	轰炸机司令部	glossary	1
 Bomber/Scout	轰炸机/侦察机	root	1
 Bomilcar	波米尔卡	root	1
 Bon CyFr Limbourg	Bon CyFr 林堡	glossary	1
-Bon CyFr Limbourg / - / I CA	第76工兵营 塞法尔·林堡 / - / 第1军	xscn	2
+Bon CyFr Limbourg / - / I CA	工兵营 塞法尔·林堡 / - / 第1军	xscn	2
 Bon CyFr ÁÖ±¤ / - / I CA	Bon CyFr 林堡 / - / I CA	prose	1
 Bon Menil	邦梅尼勒	xscn	1
 Bon Pontonniers d'Armée	集团军架桥营	glossary	1
-Bon Pontonniers d'Arm閑	第76架桥工兵营	xscn	1
+Bon Pontonniers d'Arm閑	集团军架桥营	xscn	1
 Bon.	营	glossary	1
 Bon. 1 de Mayo/Arce	5月1日营/阿尔塞	xscn	1
 Bon. 1º de Arratia	营1o de Arratia	xscn	1
 Bon. 1º de Castilla	营1o de Castilla	xscn	1
 Bon. A. Naves	A.纳韦斯营	glossary	1
-Bon. A. Naves/[S.Esteban]	第76营 A. Naves/[圣埃斯特班]	xscn	3
-Bon. A. de la Fuente	第76营 A. de la Fuente	xscn	3
+Bon. A. Naves/[S.Esteban]	营 A. Naves/[圣埃斯特班]	xscn	3
+Bon. A. de la Fuente	A.德拉富恩特营	xscn	3
 Bon. Acero/Barcelo	钢铁营/巴塞洛	xscn	1
 Bon. Albacete/Prada	阿尔瓦塞特营/普拉达	xscn	1
 Bon. Altar y Trono	营 Altar y Trono	xscn	1
@@ -39547,17 +39565,17 @@ Bon. Asalto/Prada	突击营/普拉达	xscn	1
 Bon. Balas Carabineros/Prada	卡宾枪手子弹营/普拉达	xscn	1
 Bon. Balas Rojas	红色子弹营	xscn	1
 Bon. Balas Rojas/Prada	红色子弹营/普拉达	xscn	1
-Bon. CNT No.1	第76营 CNT 第1号	xscn	3
-Bon. CNT No.2	第76营 CNT 第2号	xscn	3
+Bon. CNT No.1	全国劳工联盟第1营	xscn	3
+Bon. CNT No.2	全国劳工联盟第2营	xscn	3
 Bon. CNT No.4	全国劳工联盟第4营	xscn	2
-Bon. CNT No.5	第76营 CNT 第5号	xscn	3
+Bon. CNT No.5	全国劳工联盟第5营	xscn	3
 Bon. CNT No.9	全国劳工联盟第9营	glossary	1
-Bon. CNT No.9/[Sograndio]	第76营 CNT 第9号/[索格兰迪奥]	xscn	3
+Bon. CNT No.9/[Sograndio]	营 CNT 第9号/[索格兰迪奥]	xscn	3
 Bon. Canarias/6 Columna	加那利营/第6纵队	xscn	1
 Bon. Castellon/Prada	卡斯特利翁营/普拉达	xscn	1
-Bon. Caz. Asturias No.1	第76猎兵营 阿斯图里亚斯 第1号	xscn	3
-Bon. Caz. Gijon No.2	第76猎兵营 希洪 第2号	xscn	3
-Bon. Caz. Langreo No.3	第76猎兵营 兰格雷奥 第3号	xscn	3
+Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	xscn	3
+Bon. Caz. Gijon No.2	希洪猎兵第2营	xscn	3
+Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	xscn	3
 Bon. Cazadores Las Navas, 14	营猎兵 Las Navas, 14	xscn	1
 Bon. Cazadores de Alcolea, 22	营猎兵 de Alcolea, 22	xscn	1
 Bon. Cazadores de Arapiles, 9	营猎兵 de Arapiles, 9	xscn	1
@@ -39578,20 +39596,20 @@ Bon. Cazadores de Talavera, 18	营猎兵 de Talavera, 18	xscn	1
 Bon. Cazadores de Tarifa, 5	营猎兵 de Tarifa, 5	xscn	1
 Bon. Cazadores de Tarifa, 6	营猎兵 de Tarifa, 6	xscn	1
 Bon. Chuno	丘尼奥营	glossary	1
-Bon. Chuno/[Manjoya]	第76营 Chuno/[曼霍亚]	xscn	3
-Bon. Cienfuegos	第76营 西恩富戈斯	xscn	3
-Bon. Commune de Paris	第76营 巴黎公社	xscn	3
+Bon. Chuno/[Manjoya]	营 Chuno/[曼霍亚]	xscn	3
+Bon. Cienfuegos	先丰营	xscn	3
+Bon. Commune de Paris	巴黎公社营	xscn	3
 Bon. Cordoba/Arce	科尔多瓦营/阿尔塞	xscn	1
 Bon. D. Rodriguez	D.罗德里格斯营	glossary	1
 Bon. D. Rodriguez/[Sograndio]	第76营 D. Rodriguez/[索格兰迪奥]	xscn	3
 Bon. D.G. Castro	D.G.卡斯特罗营	glossary	1
-Bon. D.G. Castro/[Manjoya]	第76营 D.G. Castro/[曼霍亚]	xscn	3
+Bon. D.G. Castro/[Manjoya]	营 D.G. Castro/[曼霍亚]	xscn	3
 Bon. Daniel Secades	丹尼尔·塞卡德斯营	glossary	1
 Bon. Daniel Secades/[Lugones]	第76营 Daniel Secades/[卢戈内斯]	xscn	3
 Bon. De la Victoria	维多利亚营	xscn	1
 Bon. Deportivo/Prada	体育营/普拉达	xscn	1
 Bon. Dimitroff/Barcelo	季米特洛夫营/巴塞罗	xscn	1
-Bon. Dutor No.1	第76营 Dutor 第1号	xscn	3
+Bon. Dutor No.1	杜托尔第1营	xscn	3
 Bon. E. de Francisco/Mena	第E.de Francisco营/梅纳	xscn	1
 Bon. Edificacion/Barcelo	建筑营/巴塞罗	xscn	1
 Bon. El Aguila/Mena	雄鹰营/梅纳	xscn	1
@@ -39599,34 +39617,34 @@ Bon. Espartaco/Prada	斯巴达克营/普拉达	xscn	1
 Bon. Especial	特种营	glossary	1
 Bon. Especial/[XV]	特别营/[XV]	xscn	1
 Bon. F. Lopez	F.洛佩斯营	glossary	1
-Bon. F. Lopez/[Sograndio]	第76营 F. Lopez/[索格兰迪奥]	xscn	3
+Bon. F. Lopez/[Sograndio]	营 F. Lopez/[索格兰迪奥]	xscn	3
 Bon. F.de Rosa/Arce	第F.de Rosa营/阿尔塞	xscn	1
 Bon. Frente Rojo/Arce	红色阵线营/阿尔塞	xscn	1
 Bon. G. Hernandez	G.埃尔南德斯营	glossary	1
-Bon. G. Hernandez/-/[XIV]	第76营 G. Hernandez/-/[XIV]	xscn	2
+Bon. G. Hernandez/-/[XIV]	营 G. 埃尔南德斯/-/[XIV]	xscn	2
 Bon. Galicia	加利西亚营	glossary	1
-Bon. Galicia/[Manjoya]	第76营 加利西亚/[曼霍亚]	xscn	3
+Bon. Galicia/[Manjoya]	营 加利西亚/[曼霍亚]	xscn	3
 Bon. IM/ 1re R間. de marche/ 1re Brig./ CET	营 IM/ 1re 团 de marche/ 1re 旅/ CET	xscn	1
-Bon. IR Azana	第76营 IR Azana	xscn	3
+Bon. IR Azana	伊尔·阿萨尼亚营	xscn	3
 Bon. IdM	本土防御营	glossary	1
-Bon. IdM/''A'' Div./[XIV]	第76营 IdM/''A''师/[XIV]	xscn	2
+Bon. IdM/''A'' Div./[XIV]	营 IdM/''A''师/[XIV]	xscn	2
 Bon. Infanter韆 de Marina	营步兵 de 海军	xscn	1
 Bon. J. Naves	J.纳韦斯营	glossary	1
-Bon. J. Naves/[Manjoya]	第76营 J. Naves/[曼霍亚]	xscn	3
-Bon. Jose Florez	第76营 Jose Florez	xscn	3
+Bon. J. Naves/[Manjoya]	营 J. Naves/[曼霍亚]	xscn	3
+Bon. Jose Florez	何塞·弗洛雷斯营	xscn	3
 Bon. Joven Guardia/Arce	青年卫队营/阿尔塞	xscn	1
-Bon. Larranaga	第76营 Larranaga	xscn	3
+Bon. Larranaga	拉腊尼亚加营	xscn	3
 Bon. Las Navas	拉斯纳瓦斯营	xscn	1
 Bon. Leones Rojos/Mena	红色雄狮营/梅纳	xscn	1
 Bon. Leones Rojos/Prada	红色雄狮营/普拉达	xscn	1
-Bon. Llaneza	第76营 Llaneza	xscn	3
+Bon. Llaneza	利亚内萨营	xscn	3
 Bon. M. Fernandez	M.费尔南德斯营	glossary	1
 Bon. M. Fernandez/[Sograndio]	第76营 M. Fernandez/[索格兰迪奥]	xscn	3
 Bon. Mangada	曼加达营	xscn	1
 Bon. Martinez Barrios	马丁内斯·巴里奥斯营	xscn	1
-Bon. Meabe	第76营 Meabe	xscn	3
+Bon. Meabe	梅亚贝营	xscn	3
 Bon. Melilla	梅利利亚营	xscn	1
-Bon. Muniz	第76营 Muniz	xscn	3
+Bon. Muniz	穆尼斯营	xscn	3
 Bon. No 1 (Octubre)	第1营(十月)	xscn	1
 Bon. Octubre/Mena	十月营/梅纳	xscn	1
 Bon. Pablo Iglesias	巴勃罗·伊格莱西亚斯营	xscn	1
@@ -39635,14 +39653,14 @@ Bon. Prov. Puerto Rico nº.1/ 2ª Brig./ Div. Santiago de Cuba	营 Prov. Puerto 
 Bon. Reg. San Fernando, 11	营团 San Fernando, 11	xscn	1
 Bon. Rio Tinto/Mena	红廷托营/梅纳	xscn	1
 Bon. Sama	萨马营	glossary	1
-Bon. Sama/[S.Esteban]	第76营 Sama/[圣埃斯特班]	xscn	3
+Bon. Sama/[S.Esteban]	营 Sama/[圣埃斯特班]	xscn	3
 Bon. Sevilla/6 Columna	塞维利亚营/第6纵队	xscn	1
 Bon. Sgt. Vazquez/Arce	中士巴斯克斯营/阿尔塞	xscn	1
 Bon. Socialista/Mena	社会主义营/梅纳	xscn	1
 Bon. Sotrondio	索特龙迪奥营	glossary	1
 Bon. Sotrondio/[Cayes]	第76营 Sotrondio/[卡耶斯]	xscn	3
 Bon. Talavera peninsular nº.4/ 2ª Brig./ Div. Santiago de Cuba	营 Talavera peninsular no.4/ 2a 旅/ 师 Santiago de Cuba	xscn	1
-Bon. Thaelmann	第76营 台尔曼	xscn	3
+Bon. Thaelmann	台尔曼营	xscn	3
 Bon. Triana/Mena	特里亚纳营/梅纳	xscn	1
 Bon. UHP/Mena	UHP营/梅纳	xscn	1
 Bon. Zapadores	营工兵	xscn	1
@@ -39667,7 +39685,7 @@ Bon. del Rey	营 del Rey	xscn	1
 Bon. del pr韓cipe Don Jaime	营 del príncipe Don Jaime	xscn	1
 Bon. 羏rica, 3	营非洲, 3	xscn	1
 Bon. 羏rica, 8	营非洲, 8	xscn	1
-Bon./[Col. Iglesias]	第76营/[伊格莱西亚斯上校]	xscn	2
+Bon./[Col. Iglesias]	营/[伊格莱西亚斯上校]	xscn	2
 Bon.1	第1营	glossary	1
 Bon.2	第2营	glossary	1
 Bon.4	第4营	glossary	1
@@ -40204,8 +40222,11 @@ Bridging 43	架桥 43	root	1
 Bridging 44	架桥 44	root	1
 Bridging 82	架桥 82	root	1
 Bridging 90	架桥 90	root	1
+Bridging Engineers	架桥工兵	glossary	1
 Bridging Engineers of Dubris	杜布里斯的架桥工兵	xscn	1
+Bridging Engnrs	架桥工兵	glossary	1
 Bridging Matilda II	架桥队 Matilda II	root	1
+Bridging Unit	架桥单位	glossary	1
 Bridging and Fast Builder abilities will be useful.	架桥与快速建造能力将很有用。	prose	1
 Bridging[4]	架桥队[第4集团军]	xscn	2
 Bridok	布里多克	xscn	1
@@ -40324,7 +40345,7 @@ Brigobanis	布里戈巴尼斯	xscn	1
 Brihuega	布里韦加	xscn	3
 Brilevka	布里列夫卡	xscn	1
 Brillevast	布里勒瓦	xscn	1
-Brilliant Victory	辉煌胜利	root	1
+Brilliant Victory	决定性胜利	root	2
 Brilliant Victory: Should you choose a Brilliant Victory in this choice scenario, you will command your corps on the North-Western Front.  Stavka has begun drafting plans for a winter offensive from the Polish Salient into Eastern Prussia.	大捷：若您在此选择场景中达成大捷，您将指挥您的军前往西北战线。大本营已开始拟订从波兰突出部向东普鲁士发动冬季攻势的计划。	prose	1
 Brilliant victory is achieved by taking all eight Victory Hexes in the next 12 days (24 turns) or by exiting a Brigade size force (6 units) East of the Nieuport-Dixmude rail road. Not exiting a brigade but taking seven Victory Hexes will give you a victory, six Victory hexes a tactical victory.	在未来12天（24回合）内夺取全部八个胜利点，或让一支旅级部队（6个单位）从尼乌波特-迪克斯迈德铁路以东离开地图，即可获得大捷。不让旅级部队离开地图但夺取七个胜利点，可获胜利；夺取六个胜利点则获小捷。	prose	1
 Brilliant work. You have fulfilled the General Staff's hopes!  Your drive to Avranches has forced the last of the American and British forces from Europe.  Now we can concentrate on building up our forces to invade England next year.  You and your men will rest and refit for a key role in our invasion.  I am happy to inform you that you are promoted to Feldmarschall!	漂亮的工作。您实现了总参谋部的期望！您向阿夫朗什的推进迫使最后的美军和英军部队撤离欧洲。现在我们可以集中力量积蓄部队，准备明年入侵英格兰。您和您的部下将休整并补充装备，在我们的入侵行动中承担关键角色。我很高兴地通知您，您已被晋升为元帅！	prose	2
@@ -40493,6 +40514,7 @@ Brough Lodge	布拉夫庄园	xscn	1
 Brouis	布鲁伊	glossary	1
 Brovtsino	布罗夫齐诺	xscn	1
 Brown	布朗	xscn	3
+Brown Water Boat	内河炮艇	glossary	1
 Browndown Battery	布朗当炮兵连	xscn	1
 Browning	勃朗宁	root	1
 Brownongyi	布劳农吉	xscn	3
@@ -42055,7 +42077,7 @@ Caballerie	骑兵	root	1
 Caballero	卡瓦列罗	root	1
 Caballería	骑兵	root	2
 Caballería 20	骑兵 20	root	1
-Caballería FET	FET 骑兵	root	2
+Caballería FET	长枪党骑兵	root	2
 Caballer韆/ Marqu閟 de Valdespina	骑兵/ Marqués de Valdespina	xscn	1
 Caballo Island : HILL	卡巴略岛：丘陵	xscn	3
 Caballos	马	root	1
@@ -42480,6 +42502,7 @@ Canao	卡纳奥	root	1
 Canarias	加那利号	xscn	2
 Canaro	卡纳罗	xscn	1
 Cancale	康卡勒	xscn	1
+Cancel Move	取消移动	glossary	1
 Canche	康什	xscn	1
 Canche River	康什河	xscn	1
 Canche river	康什河	xscn	2
@@ -42601,6 +42624,7 @@ Capt. Schulz	上尉 Schulz	xscn	1
 Capt. Von Lieberman	上尉 Von Lieberman	xscn	1
 Capt. Wagner	瓦格纳舰长	xscn	2
 Capt. Witgens	上尉 Witgens	xscn	1
+Captain	上尉	glossary	1
 Captain I.G.Starchak Btn [43]	斯塔尔恰克上尉营 [43]	xscn	1
 Captain, you must be ashamed of yourself!	上尉，您应该为自己感到羞耻！	prose	1
 Captitano Piazza	皮亚扎上尉	xscn	1
@@ -43418,6 +43442,7 @@ Chasseurs/ 77e DI/ 5e CA/ III Arm閑	猎兵/ 第77步兵师/ 第5军/ 第3集团
 Chasseurs/ 7e Corps d'Arm閑/ Arm閑 de Ch鈒ons	猎兵/ 第7军军/ 集团军 de Chalons	xscn	1
 Chasseurs/ 81e Brig./ 41e DI/ Arm閑 d'Alsace	猎兵/ 第81旅/ 第41步兵师/ 集团军 d'Alsace	xscn	1
 Chasseurs/ 8e CA/ I Arm閑	猎兵/ 第8军/ 第1集团军	xscn	1
+Chat	聊天	glossary	1
 Chatakh	恰塔赫	xscn	1
 Chatal-Bashi	恰塔尔巴希	xscn	1
 Chatan	北谷	xscn	3
@@ -44132,7 +44157,7 @@ Clay	克莱	root	1
 Clayburn Run	克莱本溪	xscn	1
 Cle Cannavinelle	坎纳维内莱丘	xscn	1
 Cle Cedro	切德罗丘	xscn	1
-Clear	开阔地	xscn	2
+Clear	开阔地	xscn	3
 Clement Leslie Smith	克莱门特·莱斯利·史密斯	xscn	1
 Clemon	克莱蒙	xscn	1
 Clemskerke (Klemskerke)	克莱姆斯凯尔克 (克莱姆斯凯尔克)	xscn	1
@@ -44170,6 +44195,9 @@ Clodius Albinus	克洛狄乌斯·阿尔比努斯	root	1
 Clondalkin	克朗多金	xscn	1
 Clonmel	克朗梅尔	xscn	1
 Cloppenburg	克洛彭堡	xscn	1
+Close Attack	近距杀伤	glossary	1
+Close Defense	近距防御	glossary	1
+Close Support Fire	近距支援火力	glossary	1
 Close defense	近战防御	root	2
 Close in on the french strongholds and capture all VHs in 12/16/20 turns for a Brilliant Victory/Victory/Tactical Victory.	逼近法军据点，并在12/16/20回合内夺取所有胜利点，可获辉煌胜利/胜利/战术胜利。	prose	1
 Close the Trap  * L	收网 * 失败	prose	1
@@ -44271,7 +44299,7 @@ Coal Mine	煤矿	xscn	2
 Coal Mines	煤矿	xscn	3
 Coalfield	煤田镇	xscn	2
 Coarnele Caprii	科尔内莱卡普里	xscn	2
-Coastal	沿海	root	1
+Coastal	沿海	root	2
 Coastal Battery 10	第10海岸炮台	xscn	1
 Coastal Battery 12	第12海岸炮台	xscn	1
 Coastal Battery 18	第18海岸炮台	xscn	1
@@ -44406,6 +44434,7 @@ Colombia	哥伦比亚	root	2
 Colombiers sur Seulles	塞勒河畔科隆比耶	xscn	2
 Colomby	科隆比	xscn	1
 Colomby sur Thaon	塔翁河畔科隆比	xscn	2
+Colonel	上校	glossary	1
 Colonel Bertaux-Levillain	贝尔托-勒维兰上校	prose	1
 Colonel Bertaux-Levillain, as usual, you were succesful. But now, you are ordered to come back to France... it seems, that the international Situation becomes more and more difficult.	贝尔托-勒维兰上校，如往常一样，您成功了。但现在，您奉命返回法国……看来国际局势正变得越来越艰难。	prose	1
 Colonel Bertaux-Levillain, as usual, you were successful. Soon you'll be promoted to  général. But now you must come back to France. It seems that the international situation is becoming more and more difficult.	贝尔托-勒维兰上校，您一如既往地取得了成功。不久您将被提升为将军。但现在您必须回法国。看来国际局势正变得越来越艰难。	prose	1
@@ -44508,12 +44537,14 @@ Comando/185ª "Folgore"	司令部/第185“闪电”	xscn	1
 Comando/25ª "Bologna"	司令部/第25“博洛尼亚”	xscn	1
 Comando/27ª "Brescia"	司令部/第27“布雷西亚”	xscn	1
 Comarna	科马尔纳	xscn	2
+Combat Engineer	工兵	glossary	1
 Combat Engineers 21	战斗工兵 21	root	1
 Combat Engineers 32	战斗工兵 32	root	1
 Combat Engineers 39	战斗工兵 39	root	1
 Combat Engineers 40	战斗工兵 40	root	1
 Combat Engineers 42	战斗工兵 42	root	1
 Combat Engineers 43	战斗工兵 43	root	1
+Combat Support	战斗支援	glossary	1
 Combat Support used by Command units	司令部单位具备战斗支援	glossary	1
 Combat operations around Zhashkiv took a place in a boggy terrain full of mines, barbed wire and MG nests. Brigade held the positions on river Horny Tikich and around Buzivka. Czechoslovaks were ordered to stop any German attack against Zhashkiv and thus prevent their escape from Soviet encirclement.	扎什基夫周边的战斗发生在一片遍布地雷、铁丝网和机枪巢的泥泞地带。旅在戈尔内季基奇河畔和布济夫卡周围据守阵地。捷克斯洛伐克人奉命阻止德军对扎什基夫的任何进攻，从而堵住他们从苏军合围中逃脱的去路。	prose	1
 Combat operations in Lesser Fatra were not only bloody, but also extremely demanding when it comes to soldiers' physical and mental powers. Soldiers were fighting in altitudes reaching 1000 metres above the sea level, in a harsh weather and against determined enemy. The success of Mala Fatra operation says much about Czechoslovaks' capabilities.	小法特拉山的作战不仅血腥，对士兵的身心也是极大的考验。士兵们在海拔高达1000米的恶劣天气中，与顽强的敌人作战。小法特拉行动的成功充分说明了捷克斯洛伐克人的能力。	prose	1
@@ -44544,6 +44575,7 @@ Command Post	指挥所	xscn	2
 Command Ship	指挥舰	root	1
 Command Station	指挥站	xscn	2
 Command Train	指挥列车	root	1
+Command+Support	指挥+支援	glossary	1
 Commandament	司令部	xscn	2
 Commandament 00	司令部 00	root	1
 Commandament 15	司令部 15	root	1
@@ -45062,6 +45094,7 @@ Corps Aty [I]	军炮兵 [I]	xscn	1
 Corps Aty [VIIR]	军炮兵 [VIIR]	xscn	1
 Corps Boundary	军分界线	xscn	1
 Corps Expeditionnaire des Autos-Canons-Mitrailleuses Belges en Russie	军 Expeditionnaire des Autos-Canons-Mitrailleuses Belges en Russie	xscn	1
+Corps HQ	军司令部	glossary	1
 Corps HQ(LXI)	军司令部(第61)	xscn	1
 Corps de Marine	海军部队	glossary	1
 Corpul 1 Armata	军第1火炮	xscn	1
@@ -45134,6 +45167,7 @@ Counter Attack on the Mius - August 1943 V	米乌斯河反击 1943年8月 胜利
 Counter Attack on the Mius - July 1943	米乌斯河反击 1943年7月	prose	1
 Counterattack	反击	prose	1
 Counterattack at Caen	卡昂反击	prose	2
+Counterbattery Fire!	炮火反击！	glossary	1
 Counterstrike at Orel	奥廖尔反击	prose	1
 Country	国家	root	2
 Coup de Grace: Smashing the Ebro's Army	致命一击：粉碎埃布罗河集团军	prose	2
@@ -45411,7 +45445,7 @@ Culloden Muir	卡洛登荒原	xscn	1
 Culo River	库洛河	xscn	3
 Cult of the New Dawn	新黎明教团	root	1
 Cult.yDep. No.43	文化与体育43号	glossary	1
-Cult.yDep. No.43/1 Bda./1 Div.	Cult.yDep. 第43/1旅/第1师	xscn	2
+Cult.yDep. No.43/1 Bda./1 Div.	文化体育第43/1旅/第1师	xscn	2
 Cumali	朱马利	xscn	1
 Cumberland	坎伯兰	xscn	1
 Cumi鑢es	屈米耶尔	xscn	1
@@ -45424,6 +45458,7 @@ Cupello	库佩洛	xscn	2
 Cupello Airfield	库佩洛机场	xscn	2
 Cupertino	库比蒂诺	xscn	3
 Curado	库拉多	root	1
+Current Strength	当前兵力	glossary	1
 Currie	柯里	root	1
 Curtis	柯蒂斯	root	1
 Curtiss 1912 Sea Plane	Curtiss 1912 水上飞机	root	1
@@ -45444,7 +45479,7 @@ Cyclistes Frontière	边境自行车兵	root	2
 Cyclistes/-/-/BelColMotBdeGp	自行车兵/-/-/比利时殖民地摩托化旅群	xscn	1
 Cyclists	自行车兵	root	2
 Cyclone	气旋号	glossary	1
-Cyclone / 6e Div. Torpilleurs	Cyclone / 第6鱼雷艇分队	xscn	2
+Cyclone / 6e Div. Torpilleurs	“旋风”号 / 第6鱼雷艇分队	xscn	2
 Cydon	库冬	root	1
 Cygan	齐甘	xscn	1
 Cyklista Pechota	自行车兵步兵	root	1
@@ -45494,6 +45529,7 @@ Cölian	Colian	root	1
 Cölian (Waffen)	Colian (Waffen)	root	1
 Cöln	Coln	root	1
 C韆. Ingenieros	连工兵	xscn	1
+D&S	部署与补给	glossary	1
 D'Albiac	达尔比亚克	root	1
 D'Amico	达米科	root	1
 D'Angelo	丹杰洛	root	1
@@ -46128,7 +46164,7 @@ Dedno	杰德诺	xscn	1
 Dedovichi	杰多维奇	xscn	3
 Dedovsk	杰多夫斯克	xscn	3
 Deed River	迪德河	xscn	1
-Deep Naval	远洋	root	1
+Deep Naval	远洋	root	2
 Deep Run	迪普溪	xscn	1
 Deer Park	迪尔帕克	xscn	1
 Deere	迪尔	root	1
@@ -46158,6 +46194,7 @@ Defense of Normandy (25 Jul 1944)	诺曼底防御战（1944年7月25日）	prose
 Defense of Voronezh	沃罗涅日防御战	prose	1
 Defensive	防御	prose	1
 Defensive Line	防线	xscn	2
+Defensive Support	防御支援	glossary	1
 Defensive wall	防御墙	xscn	1
 Deg	代格	xscn	2
 Degana	德加纳	xscn	3
@@ -46270,11 +46307,13 @@ Dennison's Scouts/ Methuen's column	Dennison's 侦察兵/ Methuen's 纵队	xscn	
 Dense Forest	密林	xscn	2
 Dense Jungle	密林	xscn	3
 Dense Thorn Brush	茂密荆棘丛	xscn	2
+Dense Urban	密集城区	glossary	1
 Denton	丹顿	xscn	1
 Dentz	当茨	root	1
 Deny's Wood	Deny's 树林	xscn	1
 Deo Quao	德奥阔	xscn	1
 Deploy Aty here	在此部署炮兵	xscn	1
+Deploy and Supply	部署与补给	glossary	1
 Deploy your Carrier and some ships but don't try to attack with ships, keep them away. Enemy has many subs, radars, mines and coastal Canons. Also use your fighters to support your Branderburgers.	部署你的航母和一些舰船，但不要试图用舰船进攻，让它们保持距离。敌军有许多潜艇、雷达、水雷和海岸炮。还要用你的战斗机支援你的勃兰登堡部队。	prose	1
 Deploy your forces and begin the attack.  One more thing my General, In the near future I'm planning a personal meeting with General Franco.  We will discuss my role in the new government, so I will be gone for a couple of days.  Oh, one last thing.  Thanks to our Italian friends you can add some Italian units to your army.	部署您的部队并开始进攻。还有一件事，我的将军，不久的将来我打算与佛朗哥将军私下会晤。我们将讨论我在新政府中的角色，所以我会离开几天。哦，最后一件事。多亏我们的意大利朋友，您可以给您的军队增添一些意大利部队。	prose	2
 Deploy your mountain units to the hills. Units that have the Landwasserschlepper transport can move at sea, coastal canons can't attack them.	把山地部队部署到丘陵地带。装备Landwasserschlepper运输车的部队可以在海上移动，海岸炮打不到它们。	prose	1
@@ -46428,6 +46467,7 @@ Destroy 160 out of 170 enemy units in 12/14/16 turns for a BV/V/TV.	在 12/14/16
 Destroy all marked enemy units.	消灭所有标记的敌军部队。	prose	1
 Destroy iit and  occupy Laon and bridges to St.Quentin.	歼灭该部，占领拉昂及通往圣康坦的桥梁。	prose	1
 Destroy the marked Bf-109F4,  Z.1007 bis, and Transmitter...	摧毁标记的 Bf-109F4、Z.1007 bis 和电台……	prose	1
+Destroyed	已击毁	glossary	1
 Destroyed Airfield	被摧毁的机场	xscn	2
 Destroyed Bridge	被毁桥梁	xscn	2
 Destroyed Tank	损毁坦克	root	1
@@ -46445,6 +46485,7 @@ Destroyer escort Aegir	护航驱逐舰 埃吉尔	prose	1
 Destroyer escort Draug	护航驱逐舰 德劳格	prose	1
 Destroyer escort Garm	护航驱逐舰 加尔姆	prose	1
 Destroying the Demyansk Pocket	摧毁杰米扬斯克包围圈	prose	1
+Destroys Entrenchments	摧毁工事	glossary	1
 Destructor	驱逐舰	root	1
 Desvres	代夫尔	xscn	1
 Desyatyy Oktyabr	十月镇	xscn	1
@@ -46644,7 +46685,7 @@ Disaster. There is nothing that stands between the Allies and Tripoli now. North
 Disaster. We lost thousands of men and the Italians vastly extended their area of control around Trablus.	灾难。我们损失了数千人，意大利人在的黎波里周围的控制区大幅扩大。	prose	1
 Disaster. Your brigades had to flee into the woods and your division has ceased to be an effective fighting force.	一场灾难。您的各旅不得不逃入树林，您的师已不再是有效的作战力量。	prose	1
 Disciplinario No.64	惩戒营64号	glossary	1
-Disciplinario No.64/-/[XIV]	Disciplinario 第64/-/[XIV]	xscn	2
+Disciplinario No.64/-/[XIV]	惩戒营第64/-/[XIV]	xscn	2
 Disembark Railgun	卸下轨道炮	xscn	1
 Disembark at Alhucemas	阿尔胡塞马斯登陆	prose	1
 Disembarking in Siboney was extremely easy. Now we're supposed to flank the other brigade of our division, but you know what? We've spotted some Spanish troops in Las Guásimas, guarding the road to Santiago. Wouldn't it be good to have some action after that terrible journey by sea?	在西博内登陆异常顺利。如今我们本该去包抄我们师里的另一个旅，但您知道吗？我们在拉斯瓜西马斯发现了一些西班牙部队，正把守着通往圣地亚哥的道路。在经历了那段可怕的海上航行之后，来点战斗岂不正好？	prose	1
@@ -46710,6 +46751,7 @@ Divin Depot	Divin 兵站	xscn	1
 Divin Fort	Divin 要塞	xscn	1
 Division Azul	蓝色师	root	1
 Division Ceuta	休达师	xscn	1
+Division HQ	师司令部	glossary	1
 Division Hamburg	汉堡师	xscn	1
 Division Navale Fran鏰ise/ Seymour's Relief Force	师 Navale Francaise/ Seymour's Relief Force	xscn	1
 Division Tetuan	得土安师	xscn	1
@@ -47081,6 +47123,7 @@ Dos Santos	多斯桑托斯	root	2
 Doshita no?, nani?... excuse me General, we are in an unexpected situation now!, the Soviets are launching a full scale offensive against Manchukuo. Some border units together with Manchukoan army units are already trying to stop the bolshevik onslaught!. Although the Kwantung Army is strong enough... could you help us with your troops?, you can drive them quickly to the Xingkai lake to help the Kwantung and Manchukoan units...	怎么了？什么？……抱歉，将军，我们现在处于意想不到的局面之中！苏联正对满洲国发动全面进攻。一些边境部队连同满洲国军部队已经在努力阻止布尔什维克的猛攻！尽管关东军足够强大……您能否率领您的部队帮助我们？您可以迅速把他们开赴兴凯湖，去支援关东军和满洲国部队……	prose	1
 Doskovka	多斯科夫卡	xscn	1
 Doss	多斯	root	1
+Dossier	战后报告	glossary	1
 Dossin	多辛	root	1
 Dost Mohammed	多斯特·穆罕默德	root	1
 Douai	杜埃	xscn	1
@@ -47183,7 +47226,7 @@ Dragones 00	龙骑兵 00	root	1
 Dragones 12	龙骑兵 12	root	1
 Dragones 95	龙骑兵 95	root	1
 Dragones No.22	龙骑兵22号	glossary	1
-Dragones No.22/11 Bda./2 Div.	Dragones 第22/11旅/第2师	xscn	2
+Dragones No.22/11 Bda./2 Div.	龙骑兵第22/11旅/第2师	xscn	2
 Dragoni	龙骑兵	xscn	2
 Dragons	龙骑兵	root	1
 Dragons 00	龙骑兵 00	root	1
@@ -47314,6 +47357,7 @@ Druzhina Urmia	民团 Urmia	xscn	1
 Druzhina Van	民团 Van	xscn	1
 Druzhino	德鲁日诺	xscn	1
 Druzina	民团	root	1
+Dry	干燥	glossary	1
 Drybus	德雷布斯	xscn	1
 Drygaly	德雷加利	xscn	1
 Drygaly Depot	Drygaly 兵站	xscn	1
@@ -48650,6 +48694,7 @@ Encircle all soviet units near Minsk city and destroy them. You must be as swift
 Encoded 'Eni' Message to Berlin from Amerika --(Uncoded] --  Their Stupidity here amazes Me.They still walk with a Swagger as everything is in hand.These set-backs to the Nips affect nothing.They think at anytime the Armaments Production can be increased enough to beat the Nips and Us.There is some major improvements in manufacturing of Naval beginning on both coast.A enormous Aircraft industry is going up at a place called 'Willow Run'.A few Top Secret Projects have started in Oak Ridge.Our network here My Fuhress is still not detected.As ordered We are sacrificing a few to keep them busy thinking their little women are dedicated to the Amerikan Way and followers of the 'BdM' are nothing but a sideshow for Radicals.The 'Loop' here is as secure as it has always been.Our subservant Males filtered into the American Press System have all blinded here thinking America can 'Get it done at anytime'.That includes those in the Capitial moved to Chicago.As far as Our nearing the End in Russia the Amerikans believe We have bled Ourselves dry and will want no more Combat when We are done there.We are 'Europe's Problem' You know.I have a long list of places the 'Batts can visit when they are let out of the Cave.Sascha's brilliance in having them send out Radar signals for a signature at the moment will be a surprise here when they don't.The Frau's wait,I will enjoy a Soda at the Corner shop.Meine Fuhress,tell Us 'When'.	自美国发往柏林的“埃尼”密电——（已解码）——  这里的人的愚蠢令我惊讶。他们依然昂首阔步，仿佛一切尽在掌握。日本人的这些挫折对他们毫无影响。他们以为随时都能把军备生产提高到足以击败日本人和我们的程度。两海岸的海军制造已开始有一些重大改进。一个叫“柳树溪”的地方正建起一座庞大的飞机工业。橡树岭启动了若干绝密项目。我的女元首，我们在这里的网络仍未被侦破。按您的命令，我们牺牲了几个人，好让他们忙于相信：他们那些小女人不过是在忠于“美国方式”，而“BdM”的追随者不过是激进分子的余兴节目。这里的“循环”一如既往地安全。我们安插进美国报界的那些顺从的男性，全都在这边蒙着眼睛，以为美国“随时都能搞定”。包括迁到芝加哥的那些首都人士。至于我们在俄国即将收尾，美国人相信我们已经把自己耗干，等我们在那边打完，就不会再想打仗了。你知道的，我们“是欧洲的问题”。我有一长串地方，等“Batt 们被放出洞穴后可以去造访。萨莎的聪明之处在于让它们此刻发出雷达信号、形成一个假回波——等信号不再出现时，这里会大吃一惊。“女士”们等着，我会去街角小店喝一杯苏打水。我的女元首，告诉我们“何时”。	prose	1
 Encounter with the Boii	与波伊人的遭遇	prose	1
 Encs	恩奇	xscn	1
+End Turn	结束回合	glossary	1
 End level here	此处为关卡终点	prose	1
 Enda Gerima	恩达格里马	xscn	1
 Enda Kidane Meret	恩达基达内梅雷特	xscn	1
@@ -48695,6 +48740,7 @@ Engenheiros	工兵	root	2
 Engern	恩格恩	xscn	1
 Engineer	工兵	root	2
 Engineer '44	工兵 '44	root	1
+Engineer / Sappers	工兵	glossary	1
 Engineer 38	工兵 38	root	1
 Engineer 41	工兵 41	root	1
 Engineer 43	工兵 43	root	1
@@ -48778,6 +48824,7 @@ Entrenched MG	堑壕 MG	root	1
 Entrenched Militia	堑壕民兵	xscn	1
 Entrenched Mortar	掘壕 迫击炮	root	1
 Entrenched Troops	据壕部队	root	1
+Entrenches Quickly	快速构筑工事	glossary	1
 Entrenchment	堑壕	root	2
 Entrincheirado de Infantaria	据壕步兵	root	1
 Entrincheirado de Infantaria 17	据壕步兵 17	root	1
@@ -49374,6 +49421,7 @@ Exeter	埃克塞特	xscn	2
 Exit	退出	root	2
 Exit 6 Ground units...	撤出 6 支地面部队……	prose	1
 Exit 8 units at one of the three red retreat hexes along the Eastern map edge..	让8支部队从地图东缘三个红色撤退格中的任一处退出..	prose	1
+Exit Game	退出游戏	glossary	1
 Exit [Take ONLY on TV Turns]	撤离点 [仅在TV回合占领]	xscn	2
 Exit a total of five units through any of the exit hexes on the North of the map.	让总共五个单位从地图北部的任一撤离格撤离。	prose	1
 Expect a counter-attack	预计会有反击	xscn	1
@@ -49395,6 +49443,7 @@ Expect the enemy forces to be heavily entrenched. Allied reinforcements will arr
 Expect the main Soviet attack to be dirrected towards Krymsk. There are reports of very strong enemy air presence.	预计苏军主攻将指向克雷姆斯卡亚。有报告称敌军空中力量极为强大。	prose	1
 Expect very strong Soviet forces attacking . Try using engineer type units to enhance defenses with mines and fortifications.	预计苏军将发起极为猛烈的进攻。建议使用工程兵单位，以地雷和工事加强防御。	prose	1
 Expect very strong Soviet forces attacking . Try using engineer type units to enhance defenses with mines and fortifications.  The enemy has air superiority.	预计苏军将发起极为猛烈的进攻。建议使用工程兵单位，以地雷和工事加强防御。敌军掌握制空权。	prose	1
+Expected Losses:	预计损失:	glossary	1
 Expedition against Montenegro	对黑山的远征	prose	1
 Experience	经验	root	2
 Experience and superior firepower soon led the french to victory. Marrakech fall into French hands again, after a few hours of battle.	经验和优势火力很快使法国人取得了胜利。经过几小时的战斗，马拉喀什再次落入法国人手中。	prose	1
@@ -49903,6 +49952,7 @@ Failure! You did not succeed in keeping all the German divisions engaged. Let al
 Failure! You were unable to push back the Belgian 1st Cavalry Division. Enemy artillery fire is forcing us to move back to Halen and wait for the 1st Armee infantry divisions - tied up at Liege - to arrive at the front to resume the offensive.	失败！您未能击退比利时第1骑兵师。敌军炮火迫使我们退回哈伦，等待被牵制在列日的第1集团军步兵师抵达前线，以恢复攻势。	prose	1
 Fainga	法因加	root	1
 Faipa	法伊帕	root	1
+Fair	晴好	glossary	1
 Fair Haven	费尔黑文	xscn	1
 Fairfax	费尔法克斯	xscn	2
 Fairfield	费尔菲尔德	xscn	1
@@ -50071,6 +50121,7 @@ Farwell Commander and good luck in France!!	再见，指挥官，祝您在法国
 Farwell Commander and good luck in France!!!	再见，指挥官，祝您在法国好运！！！	prose	1
 Farwell Commander and good luck in the Middle East!!	再会了，指挥官，祝您在中东好运！！	prose	1
 Fasam	法萨姆	xscn	2
+Fast Support Ship	快速支援舰	glossary	1
 Fast Truck (not used)	快速卡车 (未使用)	root	2
 Fast units of the Turkish Expedtionary Corps will arrive as reinforcements. So very exotic equipment is - theoretically - available.	土耳其远征军的快速部队将作为援军抵达。因此——理论上——可以使用非常奇特的装备。	prose	1
 Fast units of the XV Turkish Expedtionary Corps will arrive as reinforcements. So very exotic equipment is - theoretically - available.	土耳其第15远征军的快速部队将作为援军抵达。因此——理论上——可以使用非常奇特的装备。	prose	1
@@ -50415,8 +50466,9 @@ Field Fortifications	野战筑垒	xscn	1
 Field Gun (r) (not used)	野战炮 (r) (未使用)	root	2
 Field Gun Bty/Gaza Garrison	野战火炮炮兵连/Gaza 卫戍部队	xscn	1
 Field Guns/Anafarta Det.	野战火炮/Anafarta 支队	xscn	1
+Field HQ	战地司令部	glossary	1
 Field HQ 1st Sib. Rifle Div.	野战司令部第1西伯利亚步枪师	xscn	1
-Field Headquarters	野战指挥部	xscn	2
+Field Headquarters	野战指挥部	xscn	3
 Field Hospital	野战医院	root	1
 Field Hospital 2	野战医院 2	root	1
 Field Hospital 3	野战医院 3	root	1
@@ -50543,6 +50595,7 @@ Fir Tree Wood	Fir Tree 树林	xscn	1
 Fire Ant	火蚁	root	1
 Fire Island Inlet	火岛湾	xscn	1
 Fire Island Light	火岛灯塔	xscn	1
+Fire Range	射程	glossary	1
 Fire in Bibiheybat, Baku, Early XX century.	巴库比比埃巴特的火灾，20世纪初。	prose	1
 Fire in the Sky	天空之火	prose	1
 Fire support only takes place if the supporting artillery is adjacent to the defender.	只有当支援炮兵与防御方相邻时，才会发生火力支援。	glossary	1
@@ -50689,6 +50742,7 @@ Fld/18Ind(att)/1SA [XXX]	野战炮兵/第18印度(配属)/第1南非 [XXX]	xscn	
 Fleeing Bolshevik leaders	Fleeing 布尔什维克 leaders	xscn	1
 Fleeing French supplies	Fleeing 法国 supplies	xscn	1
 Fleeing HQ Column	Fleeing 司令部纵队	xscn	1
+Fleeing Port	弃港而逃	glossary	1
 Fleeing Serbian equipment	Fleeing 塞尔维亚 equipment	xscn	1
 Fleet Recon	舰队侦察	xscn	1
 Fleet TB	舰队 TB	xscn	1
@@ -50942,6 +50996,7 @@ Ford Voiture	福特汽车	root	2
 Ford-T armored	Ford-T 装甲	root	1
 Fordham	福德姆	xscn	3
 Fordon	福德龙	xscn	3
+Foreign Legion	外籍军团	glossary	1
 Forest	森林	root	1
 Forest Row	福里斯特罗	xscn	1
 Forest d'Haiatte	森林 d'Haiatte	xscn	1
@@ -51258,6 +51313,7 @@ Forward Base	前进基地	xscn	2
 Forward Command	前进指挥部	xscn	2
 Forward Command Post	前进指挥所	prose	1
 Forward HQ	前进司令部	prose	1
+Forward Observer	炮兵观察员	glossary	1
 Forward Patrols	前沿巡逻队	xscn	1
 Forward Post 'Gheer	前哨'Gheer	xscn	1
 Forward Supply Base	前进补给基地	xscn	2
@@ -51559,6 +51615,7 @@ Froschmaenner [EA)	蛙人 [EA)	root	1
 Frosinone	弗罗西诺内	xscn	2
 Frossard	弗罗萨尔	root	1
 Frost	弗罗斯特	root	2
+Frozen	冻结	glossary	1
 Frozen Canal	冰封运河	prose	1
 Frozen Gulf	冰封海湾	xscn	2
 Frozen Inlet	冰封海湾	xscn	2
@@ -51683,6 +51740,7 @@ Fulbourn	富尔本	xscn	3
 Fule	富莱	xscn	1
 Fuleheu	富莱赫乌	root	1
 Fuling	涪陵	xscn	3
+Full Screen	全屏	glossary	1
 Fuller	富勒	root	1
 Fulnek	富尔内克	xscn	1
 Fumerton	富默顿	root	1
@@ -52000,6 +52058,7 @@ Gambara	甘巴拉	root	1
 Gambia Co./ Nigerian Brigade	Gambia 连/ 尼日利亚旅	xscn	1
 Gamboa	甘博亚	root	2
 Gambut	甘布特	xscn	2
+Game Functions	游戏功能	glossary	1
 Gamelin	甘末林	root	1
 Gamera	卡美拉	root	1
 Gamero	加梅罗	root	1
@@ -52598,7 +52657,7 @@ Gendarmes	宪兵	root	2
 Genelkurmay	总参谋部	root	2
 Genelkurmay reinf.	土耳其总参谋部增援	xscn	1
 Genemuiden	赫内梅登	xscn	2
-General	将军	root	2
+General	将军	root	3
 General "Your name"	「你的名字」将军	xscn	1
 General 'Popoff's HQ	将军'Popoff's司令部	xscn	1
 General -- the Italian Army, supported by other Entente divisions, has launched a major offensive and crossed the Piave. This war is lost. There are rumors about Charles IV abdicating any minute and the declaration of an independent Hungary. Probably we are fighting for a country that no longer exists.	将军——意大利军队在其他协约国师的支援下发动了大规模攻势，并渡过了皮亚韦河。这场战争已经输了。有传闻说查理四世随时会退位，匈牙利将宣布独立。也许我们正在为一个已不复存在的国家而战。	prose	1
@@ -53271,6 +53330,7 @@ Gnilusha	格尼卢沙	xscn	3
 Gnjilane	格尼拉内	xscn	1
 Go	乡	xscn	3
 Go East!	向东进军！	prose	1
+Go To Unit	定位部队	glossary	1
 Go back to England you are expected there already to train your troops in major amphibious landing maneuvers.	返回英格兰，那里已经有人在等着你，要把你的部队训练成大规模两栖登陆的行家。	prose	1
 Go into Battle with them, they persecute you anyway ...	与他们开战吧，反正他们也在追杀你 ...	prose	1
 Go on to the north-west and take Bay City on Lake Huron and ensure that the escape route via Detroit to Canada is also be cut off.	继续向西北推进，夺取休伦湖畔的贝城，并确保经底特律逃往加拿大的路线也被切断。	prose	1
@@ -53860,7 +53920,7 @@ Gp 'Bad Weisen 1	第1巴德魏森群	xscn	1
 Gp 'Bad Wiesen 5	第5巴德维森群	xscn	1
 Gp Cy  / 16 DI / I CA	骑  / 第16步兵师 / 第1军	xscn	2
 Gp Cy  / 17 DI / I CA	骑  / 第17步兵师 / 第1军	xscn	2
-Gp Cy / 13 DI / I CA - pont Mariakerkebrug	骑 / 第13步兵师 / 第1军 - pont Mariakerkebrug	xscn	2
+Gp Cy / 13 DI / I CA - pont Mariakerkebrug	骑 / 第13步兵师 / 第1军 - 马里亚教堂桥	xscn	2
 Gp Cy / 13 DI / I CA - ÂíÀïÑÇ¿ËÇÅ	Gp Cy / 13 DI / I CA - 马里亚克桥	prose	1
 Gp Cy / 15 DI / IV CA	骑 / 第15步兵师 / 第4军	xscn	2
 Gp Cy / 18 DI / I CA	骑 / 第18步兵师 / 第1军	xscn	2
@@ -54281,7 +54341,9 @@ Grote Wacht/3Ch/17BM/5LA	Grote 哨兵/3Ch/17BM/5LA	xscn	2
 Grote Wetering river	大韦特灵河	xscn	2
 Grotteria	格罗泰里亚	xscn	1
 Ground	地面	root	1
+Ground Defense	对地防御	glossary	1
 Ground Frau Commanders had come to expect it.How could all the SS Forces along the vast Russian Conflict Zones have Air-cover.Slowly the Fighters showing in the Skies were the weak 'Kris models as the Frau-Z's and others needed maintenance.So far nothing dramatic had happened.Was this the incident that was going to cause a little more Caution to the Frau's movement.In Moscow Joseph Stalin hoped so.So the 10th Guards of 'Helmonchek had been reinforced with some Armor of the Brits and French plus even a Group of Americans had arrived.The Frau's wore out as they was had made a Dash to not let the 10th Guards separate them from other SS forces.SS/BdM Air units had intervenned but not in the numbers the situation called for so the 10th Guards moved in to cut off 'Elfi's Gruppe.Russian Commander Borisko Lutt Helmonchek expected some aid from stragglers of the 51st Shock but most who had fought and escaped were useless,they didn't want to tangle with the Nazi Bitches again.Even shooting them to motivate them did no good.So Helmonchek would have to do it on His own with a few Allies there to Spy on the Red Army so He would make plans for His 'Friends to be used as 'Panzer Fodder' while attempting not to have His Forces become another 51st.	地面部队的“女士”指挥官们早已料到这一点。在辽阔的俄国战区，党卫军各部队怎么可能都有空中掩护。渐渐出现在天空的战斗机，都是孱弱的“克里斯”型号，因为“Frau-Z”和其他机型都需要维护。到目前为止还没出什么大事。会不会就是这一回，让“女士”们的行动多几分谨慎？在莫斯科，约瑟夫·斯大林但愿如此。于是“赫尔蒙切克”的近卫第10集团军得到了英法的一些装甲部队加强，甚至还有一批美国人抵达。疲惫不堪的“女士”们奋力冲击，不让近卫第10集团军把她们与其他党卫军部队隔开。党卫军/BdM 的空中单位介入了，但投入的数量达不到形势所需，于是近卫第10集团军插了进来，试图切断“埃尔菲”的集群。俄军指挥官鲍里斯科·卢特·赫尔蒙切克本指望第51突击集团军的散兵游勇前来支援，但那些打过仗又逃出来的人大多派不上用场——他们不想再跟这些纳粹娘们纠缠。连枪毙他们以激励士气都没用。于是赫尔蒙切克只能靠自己，身边还有几个“盟友”——那些人其实是来监视红军的；他于是打算让这些“朋友”充当“装甲饲料”，同时尽量别让自己的部队变成第二个第51集团军。	prose	1
+Ground Taker	攻坚专家	glossary	1
 Ground Transport	地面运输	root	2
 Ground condition can cycle through DRY, FROZEN, and MUD, depending on the season, climate, and persistent and prolonged weather patterns, and will affect movement rates accordingly.	地面状况会在干燥、冻结与泥泞之间循环，取决于季节、气候以及持续而持久的天气模式，并相应影响移动力消耗。	glossary	1
 Ground conditions cant change	地面状况不可改变	glossary	1
@@ -54503,8 +54565,9 @@ Guenes	格内斯	xscn	2
 Guerat Esc-Sciah	斯西亚赫丘	xscn	1
 Gueret	盖雷	xscn	1
 Gueret Garrison	盖雷卫戍部队	xscn	1
-Guerilla	游击队	root	1
+Guerilla	游击队	root	2
 Guerilla [M]	游击队 [M]	root	1
+Guerillas	游击队	glossary	1
 Guernica	格尔尼卡	xscn	2
 Guerrant's (Virginia) Artillery	Guerrant's (Virginia) 炮兵	xscn	1
 Guerrero	格雷罗	prose	1
@@ -54744,7 +54807,7 @@ GÃ³mez	戈麦斯	root	2
 Gábor	加博尔	root	1
 Gál	加尔	root	1
 Gáspár	加什帕尔	root	1
-Gén. Defontaine / VII CA	Gen. Defontaine / 第7军	glossary	1
+Gén. Defontaine / VII CA	德丰坦将军 / 第7军	glossary	1
 Gén. Vander Veken	范德维肯将军	glossary	1
 Gén. Vander Veken / I CA	范德维肯将军 / 第1军	glossary	1
 Gén. Verstraete	韦斯特拉特将军	glossary	1
@@ -54806,7 +54869,7 @@ Gürman	居尔曼	root	1
 G醨dony	加尔多尼	xscn	1
 G醫閞	加泰尔	xscn	1
 G錼dst錸ga	戈兹通阿	xscn	1
-G閚. Defontaine / VII CA	Gen. Defontaine / 第7军	xscn	1
+G閚. Defontaine / VII CA	德丰坦将军 / 第7军	xscn	1
 G閚. Vander Veken / I CA	范德维肯将军 / 第1军	xscn	1
 G閚. Verstraete / VI CA	韦尔斯特拉特将军 / 第6军	xscn	1
 G閚.Massenet 39DI [XX]	Gén.Massenet 第39步兵师 [XX]	xscn	1
@@ -55644,6 +55707,7 @@ Halen - Battle of the Silver Helmets - August 12th 1914	哈伦 - 银盔之战 - 
 Halen: Battle of the Silver Helmets	哈伦：银盔之战	prose	1
 Half Moon Battery	Half Moon 炮兵连	xscn	1
 Half Tracked	半履带式	root	1
+Half-Tracked	半履带式	glossary	1
 HalfTractor (not used)	半履带牵引车 (未使用)	root	2
 Halfaia Pass	Halfaia 山口	xscn	1
 Halfaia Position	Halfaia 阵地	xscn	1
@@ -55842,6 +55906,7 @@ Harbour Defence	港口防御	xscn	1
 Harcha	哈尔沙	xscn	1
 Hard	硬目标	root	1
 Hard Attack	硬目标攻击	root	2
+Hard Target	硬目标	glossary	1
 Hard puszta [FOREST]	哈德普斯塔[森林]	xscn	2
 Hard target	硬目标	root	2
 Hard version	困难版本	prose	1
@@ -56090,10 +56155,12 @@ Heavy Alelaj	重型 Alelaj	root	1
 Heavy Battery	重型炮台	root	1
 Heavy Bomber	重型轰炸机	root	1
 Heavy Bomber/Zeppelin	重型轰炸机/飞艇	root	1
+Heavy Bunker	重型碉堡	glossary	1
 Heavy Camel reg./ Desert Column	重型骆驼团/ 沙漠纵队	xscn	1
 Heavy Cavalry	重骑兵	root	1
 Heavy Cavalry/Tanks	重型骑兵/坦克	root	1
 Heavy Coastal Gun	重型海岸火炮	root	1
+Heavy Cruiser	重巡洋舰	glossary	1
 Heavy Hestevogn	重型马车	root	1
 Heavy Horse	重型马	root	1
 Heavy How Bn I/-/20th Corps	重型榴弹炮营 I/-/第20军	xscn	1
@@ -56191,6 +56258,7 @@ Helensville	赫伦斯维尔	xscn	3
 Helfrich	赫尔弗里希	root	1
 Helibrunna	海利布伦纳	xscn	1
 Helicopter	直升机	root	1
+Helicopter Attack	对直升机杀伤	glossary	1
 Helipuerto de Algeciras	阿尔赫西拉斯直升机场	xscn	1
 Hell Farm	Hell 农庄	xscn	1
 Hellebos	海勒森林	xscn	3
@@ -56813,7 +56881,7 @@ Heydte I/FJgrRgt3/Ramcke	海特 第1/第3伞兵团/拉姆克	xscn	1
 Heye	海耶	root	1
 Heyn	海因	root	1
 Heyte	海特	glossary	1
-Heyte/Raemcke Bde./[DAK]	Heyte/第Raemcke旅/[非洲军]	xscn	2
+Heyte/Raemcke Bde./[DAK]	海特/第拉姆克旅/[非洲军]	xscn	2
 Heyuan	河源	xscn	3
 Heyward	海沃德	xscn	1
 Hi, General, welcome back! It must be tiring to cross most of France in just a few days, but I hope that you're ready for more action.	嗨，将军，欢迎回来！短短几天内横穿大半个法国想必十分疲惫，但我希望您已准备好迎接更多行动。	prose	1
@@ -57679,7 +57747,7 @@ Hudson's Baty.	Hudson's 炮兵连	xscn	1
 Hue	于埃	root	1
 Huebner	许布纳	glossary	1
 Huebner II/FJgrRgt5/Ramcke	许布纳 第2/第5伞兵团/拉姆克	xscn	2
-Huebner/Raemcke Bde./[DAK]	Huebner/第Raemcke旅/[非洲军]	xscn	2
+Huebner/Raemcke Bde./[DAK]	许布纳/第拉姆克旅/[非洲军]	xscn	2
 Huenxe	胡恩克瑟	xscn	1
 Huerta	韦尔塔	xscn	2
 Huertas	韦尔塔斯	root	1
@@ -58521,7 +58589,7 @@ I.FldArmee Belgisch-Kongo	比利时刚果第1野战集团军	xscn	1
 I.Ldw.Fld./-/-/Mar.Div.Flandern [IIIR]	第1后备野战营/-/-/佛兰德海军师 [第3预备军]	xscn	2
 I.Palm	棕榈岛	xscn	1
 I.Puente No.11	I.普恩特11号	glossary	1
-I.Puente No.11/2 Col.	I.Puente No.11/第2纵队	xscn	2
+I.Puente No.11/2 Col.	伊萨克·普恩特第11营/第2纵队	xscn	2
 I.R. 136/ 46. I.D.	第136步兵团/第46步兵师	xscn	2
 I.R. 137/ 46. I.D.	第137步兵团/第46步兵师	xscn	2
 I.R. 138/ 46. I.D.	第138步兵团/第46步兵师	xscn	2
@@ -67776,6 +67844,7 @@ Ignatkovo	伊格纳特科沃	xscn	1
 Ignatovka	伊格纳托夫卡	xscn	2
 Ignatovo	伊格纳托沃	xscn	2
 Ignatovo Airfield	伊格纳托沃机场	xscn	2
+Ignore Entrenchments	无视工事	glossary	1
 Ignore this and muster your troops to push along the Volkhov River.	无视此威胁，集结部队沿沃尔霍夫河推进。	prose	1
 Igny	伊尼	xscn	1
 Igombe river	Igombe 河	xscn	1
@@ -67868,6 +67937,7 @@ Imp Camel Corps Bde	Imp 骆驼军旅	xscn	1
 Imp Camel Corps bde	Imp 骆驼军旅	xscn	1
 Impassable Carpathian Mountains	Impassable Carpathian 山脉	xscn	1
 Impassable Piave	不可通行的皮亚韦	xscn	1
+Impassable River	不可通行河流	glossary	1
 Impassable hex	不可通行格	xscn	1
 Impde	因普德	xscn	3
 Impde Castle	因普德城堡	xscn	3
@@ -68173,6 +68243,7 @@ Indigenous police	土著警察	xscn	1
 Indigenous police (Alc醶ar tabor)	土著警察 (阿尔卡萨尔塔博尔)	xscn	1
 Indija	因吉亚	xscn	1
 Indios Yaqui/ Villistas	雅基印第安人/ 比利亚派	xscn	1
+Indirect Defense	远程防御	glossary	1
 Indische Verst鋜kungen	印度增援部队	xscn	1
 Indomitable - Force Z	不挠号 - Z部队	xscn	1
 Indonesia	印度尼西亚	root	2
@@ -68559,7 +68630,7 @@ Infantería 95	步兵 95	root	1
 Infantería Atrincherada	步兵堑壕	root	1
 Infantería Atrincherada 12	步兵堑壕 12	root	1
 Infantería Atrincherada 95	步兵堑壕 95	root	1
-Infantería FET	FET 步兵	root	2
+Infantería FET	长枪党步兵	root	2
 Infantería Ligera	轻步兵	root	2
 Infantería Nativa	步兵土著	root	1
 Infantería Navarra	纳瓦拉步兵	root	2
@@ -68590,6 +68661,7 @@ Infantry Class A	步兵 A 级	root	1
 Infantry Class B	步兵 B 级	root	1
 Infantry Class C	步兵 C 级	root	1
 Infantry HW	步兵 HW	root	2
+Infantry Killed	击毁步兵	glossary	1
 Infantry Position	步兵阵地	root	1
 Infantry Position with Mortar	步兵阵地 with 迫击炮	root	1
 Infantry Transport	步兵运输	root	1
@@ -68602,6 +68674,7 @@ Infantry regiment/ Vardarska div./ Serbian 1st Army	步兵团/ Vardarska 师/ �
 Inferno	地狱火	root	1
 Infested Airfield	被蚁群盘踞的机场	xscn	2
 Infiesto	因菲耶斯托	xscn	2
+Infiltrator	渗透者	glossary	1
 Info: Max 3 core ground units can be deployed.	说明：最多可部署3个核心地面单位。	prose	1
 Informants have confirmed that Maceo, "El Titán de Bronce" ("Bronze Titan"), second-in-command of the "Ejército Libertador de Cuba" (Cuban Liberation Army) and probably its best field general, is leading the insurgent forces (around 2,000 men) in the area.	线人已确认，马塞奥——人称「青铜巨人」，古巴解放军副司令、很可能也是最优秀的野战将领——正率领该地区的起义军（约2000人）。	prose	1
 Ing-Abt./-/-/XXII Res. Korps	Ing-Abt./-/-/第22预备役军	xscn	1
@@ -68658,6 +68731,7 @@ Inotsch' River	伊诺奇河	xscn	1
 Insener	工兵	root	1
 Insp d Jagdflieger (1 VH)	战斗机航空兵总监(第1 VH)	xscn	1
 Insp d Panzer Truppen (3 VHs)	装甲兵总监(第3 VHs)	xscn	1
+Inspect Unit	查看部队	glossary	1
 Installations	设施	root	1
 Instead of sending your divisions to Paulus we have decided to send you to this part of the Roumanian sector. Though the Roumanians are tough fighters they do not have any Anti tank capability. You are to secure their positions by integrating your panzerjaeger regiments into their defensive positions.	我们没有把你的师派往保卢斯那里，而是决定把你派到罗马尼亚防区的这一地段。罗马尼亚人虽然作战顽强，却毫无反坦克能力。你要把你的反坦克歼击团编入他们的防御阵地，以稳固其阵地。	glossary	1
 Instead of waging another fruitless frontal assault on Gaza, there will be only a feint attack on the city. The main thrust will take place on the extreme left flank of the enemy, at Beersheba. With this town in our hands, we should have an open flank against which to operate, and full use could be made of our superiority in mounted troops. Moreover, a success here offered prospects of pursuing our advantage, and forcing the enemy to abandon the rest of his fortified positions.	不再对加沙发动又一次徒劳的正面突击，而只是对该城佯攻。主攻将落在敌军最左翼的贝尔谢巴。一旦拿下该镇，我们就有了一个可以施展的暴露侧翼，并能充分发挥我们在骑乘部队上的优势。此外，这里的成功还提供了乘胜追击、迫使敌人放弃其余筑垒阵地的前景。	prose	1
@@ -68734,6 +68808,7 @@ Interceptors	截击机	xscn	1
 Interceptors/ Army of the Dobrogea	Interceptors/ 集团军 of the Dobrogea	xscn	1
 Interceptors/ Heeresgruppe Mackensen	Interceptors/ 集团军群 Mackensen	xscn	1
 Interceptors/ XLVII Russian Corps	Interceptors/ 第47俄罗斯军	xscn	1
+Interdiction	空中封锁	glossary	1
 International Brigades	国际纵队	root	1
 International Reg./ Simbirsk Div./ 1st Army	International 团/ Simbirsk 师/ 第1集团军	xscn	1
 Interval position	Interval 阵地	xscn	1
@@ -68807,7 +68882,7 @@ Ippilato	骑兵	root	2
 Ippilaton	马	root	1
 Ipswich	伊普斯威奇	xscn	3
 Iraizabal No.15	伊拉伊萨瓦尔15号	glossary	1
-Iraizabal No.15/11 Bda./2 Div.	Iraizabal No.15/第11旅/第2师	xscn	2
+Iraizabal No.15/11 Bda./2 Div.	伊拉萨巴尔第15营/第11旅/第2师	xscn	2
 Iraq	伊拉克	root	2
 Iraqi	伊拉克	root	1
 Irashaimase!  Our Empire is secure in the Pacific.  Now, the Americans will pay for the years of humiliations against our glorious imperial nation... the high command has special plans for them...	欢迎光临！我们的帝国在太平洋已安然无虞。现在，美国人将为他们多年来对我们光荣帝国的羞辱付出代价……高层对他们另有特别的安排……	prose	2
@@ -69058,6 +69133,7 @@ It worked! While your attack across the Oder sucked away Russian forces, several
 It would be best to retreat across the Seine, but the Fuehrer has ordered that we have to take a stand here as long as possible.	最好是退过塞纳河，但元首已下令我们必须在此地尽可能长久地坚守。	glossary	1
 It would have been nice to see our new armoured vehicles fighting, but they didn’t arrive in time for the battle. They aren’t easy to deploy, and most of the time they don't see any action. Maybe they could be more useful in other parts of Europe. In fact, the Russians have showed some interest in them.	本来能看到我们新式装甲车参战会很好，但它们没能及时抵达战场。它们不容易部署，多数时候根本没参与任何战斗。也许它们在欧洲其他地方会更有用。事实上，俄国人已对它们表现出一些兴趣。	prose	1
 It wouldn't have happened without you. You've been our best commander, by far. You've played a large part in this victory. We all thank you for that. And now, it's time to rebuild the Empire. We'll need good statesmen for that. And, you know? You could teach them a couple of things. In fact, there is a rumour that, very soon, the Kaiser will ask you to do exactly that.	没有您，这一切就不可能发生。您是我们迄今最优秀的指挥官。在这场胜利中，您发挥了巨大的作用。我们都为此感谢您。而现在，是时候重建帝国了。这需要优秀的政治家。而且，您知道吗？您或许能教他们一两手。事实上，有传闻说，皇帝很快就要请您去做这件事了。	prose	1
+It's A Draw	平局	glossary	1
 It's a pity that we couldn't convince Bulgaria to join our side. They have a big and experienced army, with good officers, although with outdated equipment. They would have been excellent allies, but Serbia's intransigency ruined all our negotiation attempts.	很遗憾我们没能说服保加利亚加入我们这边。他们有一支庞大而有经验的军队，军官优秀，尽管装备过时。他们本会是极好的盟友，但塞尔维亚的顽固不化毁了我们所有的谈判努力。	prose	1
 It's a pity that you got ill due to the unhealthy conditions of the trenches. Fortunately we were able to retreat to safer positions in the rear. As for you, you'll have an opportunity to overcome our enemies at the Crna Valley.	很遗憾，由于战壕恶劣的卫生条件，您病倒了。所幸我们得以撤退到后方更安全的阵地。至于您，您将有机会在茨尔纳河谷战胜我们的敌人。	prose	1
 It's a shame that not all of your divisions where send to Sicily straight away. Now fortifications are not as good as they could have been, but I hope they will help somewhat. Reports indicate a large invasion is taking place, in view of our supply situation you are to attack as soon as possible.	遗憾的是并非您所有师都立即被派往西西里。如今工事不如本可建成的那样坚固，但我希望它们多少能派上用场。报告显示一场大规模登陆正在进行，鉴于我方补给状况，您须尽快发起进攻。	glossary	1
@@ -69135,8 +69211,8 @@ Itsuo	逸雄	root	1
 Itterbeek	伊特贝克	xscn	2
 Ituarte	伊图阿尔特	root	1
 Itxarkundia No.17	伊查昆迪亚17号	glossary	1
-Itxarkundia No.17/2 Col.	Itxarkundia No.17/第2纵队	xscn	2
-Itxarkundia No.17/7 Bda./3 Div.	Itxarkundia No.17/第7旅/第3师	xscn	2
+Itxarkundia No.17/2 Col.	伊查尔昆迪亚第17营/第2纵队	xscn	2
+Itxarkundia No.17/7 Bda./3 Div.	伊查尔昆迪亚第17营/第7旅/第3师	xscn	2
 Itxas-alde No.13/9 Bda./-/	伊查斯-阿尔德13号/第9旅/-/	xscn	2
 Itys	伊提斯	root	1
 It´s a pity but we cannot grant a rest to you and your men...	很遗憾，但我们无法让您和您的部下休整……	prose	1
@@ -71680,6 +71756,7 @@ Killeagh	基利亚	xscn	1
 Killeen Cross	基林克罗斯	xscn	1
 Killimster	基利姆斯特	xscn	1
 Killiney	基利尼	xscn	1
+Kills	击毁数	glossary	1
 Kilmacanogue	基尔马卡诺格	xscn	1
 Kilmessan	基尔梅桑	xscn	1
 Kilole	基洛莱	xscn	1
@@ -71820,7 +71897,7 @@ Kiretch Tepe Ridge	Kiretch Tepe 山脊	xscn	1
 Kireyevsk	基列耶夫斯克	xscn	2
 Kireykovo	基列伊科沃	xscn	1
 Kirikino No.55	基里基诺55号	glossary	1
-Kirikino No.55/12 Bda./2 Div.	Kirikino No.55/第12旅/第2师	xscn	2
+Kirikino No.55/12 Bda./2 Div.	基里基诺第55营/第12旅/第2师	xscn	2
 Kirillovskoye (Perkyarvi)	基里洛夫斯科耶 (佩尔基亚尔维)	xscn	1
 Kirishi	基里希	xscn	1
 Kiriwani	基里瓦尼	xscn	1
@@ -73721,6 +73798,7 @@ LRC/8/3rd Infantry	LRC/第8/第3步兵	xscn	1
 LRDG	远程沙漠群	root	1
 LRDG Truck	远程沙漠群卡车	root	1
 LRM/5/2nd Infantry	LRM/第5/第2步兵	xscn	1
+LRRP	远程侦察队	glossary	1
 LSSAH	党卫军警卫旗队师	prose	1
 LSSAH has departed for Italy. We got their armored vehicles, bringing our Panzer forces up to strength.	警卫旗队已开赴意大利。我们接收了他们的装甲车辆，使我方装甲部队恢复满编。	prose	1
 LSSAH/20	党卫军第1装甲师/第20	xscn	2
@@ -74451,7 +74529,7 @@ Larka	拉尔卡	root	1
 Laroche	拉罗什	xscn	2
 Larrabezua	拉腊贝苏阿	xscn	2
 Larrazabal No.49	拉拉萨瓦尔49号	glossary	1
-Larrazabal No.49/16 Bda./4 Div.	Larrazabal No.49/第16旅/第4师	xscn	2
+Larrazabal No.49/16 Bda./4 Div.	拉萨巴尔第49营/第16旅/第4师	xscn	2
 Larrañaga	拉腊尼亚加	root	1
 Larrondo	拉龙多	root	1
 Larsen	拉森	root	2
@@ -74734,7 +74812,8 @@ Leffinghe (Leffinge)	莱芬赫 (莱芬厄)	xscn	1
 Left Route Force	左路军	glossary	1
 Left Route HQ	左路军指挥部	xscn	2
 Left wing artillery command	Left 联队炮兵 command	xscn	1
-Leg	步行	root	1
+Leg	徒步	root	2
+Leg Infantry	徒步步兵	glossary	1
 Legacy of the Atom	原子的遗产	prose	1
 Leganes	莱加内斯	xscn	1
 Legasa	莱加萨	xscn	1
@@ -76215,7 +76294,7 @@ Lempire	朗皮尔	xscn	1
 Lemro	莱姆罗	xscn	3
 Len'kovtsy	连科夫齐	xscn	2
 Lenago-il No.33	莱纳戈-伊尔33号	glossary	1
-Lenago-il No.33/16 Bda./4 Div.	Lenago-il No.33/第16旅/第4师	xscn	2
+Lenago-il No.33/16 Bda./4 Div.	莱纳戈伊尔第33营/第16旅/第4师	xscn	2
 Lendvay	伦德瓦伊	root	2
 Lengvieji Pestininkai	Lengvieji 步兵	root	1
 Lengyel	伦杰尔	root	2
@@ -76639,7 +76718,7 @@ Light Forest	疏林	xscn	3
 Light Horses	轻马	root	1
 Light House Creek	轻型房屋溪	xscn	1
 Light House Inlet	轻型房屋 Inlet	xscn	1
-Light Infantry	轻步兵	root	1
+Light Infantry	轻步兵	root	2
 Light Infantry 41	轻步兵 41	root	1
 Light Infantry 43	轻步兵 43	root	1
 Light Infantry 44	轻步兵 44	root	1
@@ -76647,6 +76726,7 @@ Light Pine Forest	稀疏松林	xscn	2
 Light Tank Mk VIB  [P]	轻型坦克 Mk VIB  [P]	root	1
 Light Tank Mk VII  [P]	轻型坦克 Mk VII  [P]	root	1
 Light Tank MkVI	轻型坦克 MkVI	root	1
+Light Tracked	轻型履带式	glossary	1
 Light Tractor	轻型牵引车	root	1
 Light Train (Lt.Michel)	轻型列车 (Lt.Michel)	xscn	2
 Light Train Lt.Michel	轻型列车 Lt.Michel	xscn	2
@@ -77787,7 +77867,7 @@ MARTINIQUE - 4 NOV 1943	马提尼克——1943年11月4日	prose	1
 MAS Commando	MAS突击队	root	2
 MASS SOUTHBANK	马斯河南岸	prose	1
 MB Flandes	佛兰德斯摩托化营	glossary	1
-MB Flandes/4 Bda/[1Agrp.]	MB Flandes/第4旅/[1Agrp.]	xscn	2
+MB Flandes/4 Bda/[1Agrp.]	MB Flandes/第4旅/[第1集群]	xscn	2
 MB-Unimog	MB 乌尼莫克	root	1
 MC	第1100	xscn	2
 MCCCXI/173	第1311/第173	xscn	2
@@ -79460,6 +79540,7 @@ Marine Infantry 42	海军陆战队步兵 42	root	1
 Marine Infantry 43	海军陆战队步兵 43	root	1
 Marine Korps	海军陆战队军	xscn	1
 Marine Raiders 18	海军陆战队突击队 18	root	1
+Marine Recon	陆战队侦察队	glossary	1
 Marine Schutzen Btl. 250/KG Harzer	海军步兵营第250/哈策尔战斗群	xscn	1
 Marine Wing 'Boyington	海军陆战队大队'Boyington	xscn	1
 Marine Wing 'Lamphier	海军陆战队大队'Lamphier	xscn	1
@@ -79523,6 +79604,7 @@ Markovak	马尔科瓦茨	xscn	1
 Markovic	马尔科维奇	root	1
 Markovskaya	马尔科夫斯卡亚	xscn	1
 Markranst鋎t	马克兰施泰特	xscn	1
+Marksman	神射手	glossary	1
 Markulj	马尔库利	root	2
 Marle	马尔勒	xscn	1
 Marloarkhangelsk	小阿尔汉格尔斯克	xscn	2
@@ -79591,7 +79673,7 @@ Martaban Airfield	马达班机场	xscn	3
 Martelange	马特朗日	xscn	2
 Martfü	马尔特菲	xscn	1
 Martiartu No.56	马蒂亚尔图56号	glossary	1
-Martiartu No.56/4 Bda./1 Div.	Martiartu No.56/第4旅/第1师	xscn	2
+Martiartu No.56/4 Bda./1 Div.	马蒂亚尔图第56营/第4旅/第1师	xscn	2
 Martigues	马蒂格	xscn	1
 Martil	马尔蒂尔	xscn	1
 Martin	马丁	root	2
@@ -80476,6 +80558,7 @@ Meteren	梅特伦	xscn	1
 Methana	迈萨纳	xscn	1
 Methuen is heading to Lichtenburg with 1,300 men and he's decided to destroy us. Wouldn't it be great to ambush his column and turn the hunter into prey?	梅休因正率1300人前往利希滕堡，他决心消灭我们。伏击他的纵队、把猎人变成猎物，岂不快哉？	prose	1
 Metikos	梅蒂科什	root	2
+Metis	混血儿	glossary	1
 Metrozli River	梅特罗兹利河	xscn	1
 Mettenhof	梅滕霍夫	xscn	1
 Mettmann	梅特曼	xscn	1
@@ -80784,7 +80867,7 @@ Mine Run	矿 Run	xscn	1
 Mine field	雷场	xscn	1
 Mine the harbor entrance of Portsmouth and occupy or build as soon as possible an airfield.	在朴次茅斯港入口布设水雷，并尽快占领或修建一座机场。	prose	1
 Mined beach	Mined 海滩	xscn	1
-Minefield	雷区	xscn	1
+Minefield	雷区	xscn	2
 Minefield Bunker	雷区 地堡	root	1
 Minefields	雷区	xscn	1
 Minegumo	峰云号	xscn	2
@@ -81732,6 +81815,7 @@ Motorcycle Recon	摩托车侦察	root	1
 Motorcycles	摩托车	root	2
 Motorised Inf	摩托化步兵	root	2
 Motoristas	摩托车兵	root	1
+Motorized Infantry	摩托化步兵	glossary	1
 Motorkerekparos	摩托车兵	root	2
 Motorrad	摩托车	root	1
 Motorrad Aufklärer	摩托车侦察	root	1
@@ -81759,6 +81843,7 @@ Moulária	骡子	root	2
 Moung Bazar	孟巴扎	xscn	3
 Moungyaung	孟扬	xscn	3
 Mounir Motassedeq	穆尼尔·穆塔塞德克	root	1
+Mount - Dismount	上车 - 下车	glossary	1
 Mount Adrar Sedun	山 Adrar Sedun	xscn	1
 Mount Amekran	山 Amekran	xscn	1
 Mount Arayat	阿拉亚特山	xscn	3
@@ -82060,6 +82145,7 @@ Muller	米勒	root	2
 Mullet	穆利特	xscn	1
 Mullrose	米尔罗泽	xscn	3
 Mulsanne	米尔桑	xscn	1
+Multiple Counter-Battery	多次炮火压制	glossary	1
 Multiple Entente offensives in September 1918 retook the land in front of the Hindenburg line that was taking by the Germans earlier that year. In October the Hindenburg line was penetrated by attacks of Belgian, British and French forces.	1918年9月，协约国发动多次攻势，收复了当年早些时候被德军占领的兴登堡防线前方的土地。10月，比利时、英法军队突破了兴登堡防线。	prose	1
 Mulugeta Yeggazu	穆卢盖塔·耶加祖	root	1
 Mulugueta	穆卢格塔	root	2
@@ -82067,7 +82153,7 @@ Muly	骡子	root	2
 Munang	武安	xscn	3
 Munang River	穆南河	xscn	3
 Munatones No.57	穆纳托内斯57号	glossary	1
-Munatones No.57/10 Bda./3 Div.	Munatones No.57/第10旅/第3师	xscn	2
+Munatones No.57/10 Bda./3 Div.	穆纳托内斯第57营/第10旅/第3师	xscn	2
 Munawir	穆纳维尔	xscn	2
 Muncelu	蒙切卢	xscn	1
 Muncheberg	明谢贝格	xscn	3
@@ -82083,7 +82169,7 @@ Mungia	蒙吉亚	xscn	1
 Munglik	蒙力克	root	2
 Munguia	蒙吉亚	xscn	2
 Munguia No.40	蒙吉亚40号	glossary	1
-Munguia No.40/1 Bda./1 Div.	Munguia No.40/第1旅/第1师	xscn	2
+Munguia No.40/1 Bda./1 Div.	蒙吉亚第40营/第1旅/第1师	xscn	2
 Munib	穆尼布	root	1
 Munich	慕尼黑	xscn	2
 Munitions	军火	xscn	2
@@ -83237,6 +83323,7 @@ Newtown	纽敦	xscn	1
 Newtown Cut	纽敦卡特	xscn	1
 Newtown River	纽敦河	xscn	1
 Newtownmountkennedy	纽敦芒特肯尼迪	xscn	1
+Next Unit	下一部队	glossary	1
 Next deployment: 8 ground units, no air units.	下一轮部署：8个地面单位，无空中单位。	prose	1
 Next stop is Mersah Matruh - 80 miles East of your curent position.	下一站是梅尔萨马特鲁——在你当前位置以东80英里。	prose	1
 Next stop: Aghedabia, where the 90th Leichte Division is preparing strong defensive positions.	下一站：阿格达比亚，第90轻装师正在那里构筑坚固的防御阵地。	prose	1
@@ -84738,7 +84825,7 @@ October, 25., 1864  Petersburg	1864年10月25日，彼得斯堡	prose	1
 Octodurus	奥克托杜鲁斯	xscn	1
 Octodurus Fortifications	奥克托杜鲁斯工事	xscn	1
 Octubre No.46	十月46号	glossary	1
-Octubre No.46/8 Bda./4 Div.	Octubre No.46/第8旅/第4师	xscn	2
+Octubre No.46/8 Bda./4 Div.	第46“十月”营/第8旅/第4师	xscn	2
 Ocvirk	奥茨维尔克	root	2
 Odava	奥达瓦	xscn	1
 Odbrana Infanterija	守备步兵	root	2
@@ -86020,6 +86107,7 @@ Ourthe	乌尔特河	xscn	2
 Ourthe River	乌尔特河	xscn	2
 Ousseltia	乌塞尔提亚	xscn	1
 Out of desperation the Bolsheviks have raised a Shock Group composed mainly of Latvians and Estonians. They want to outflank us, forcing us to retreat or to risk encirclement. It's amusing how they still underestimate you. Hold the line, my brothers, and show them that all their efforts are useless!	绝望之下，布尔什维克组建了一个主要由拉脱维亚人和爱沙尼亚人组成的突击集群。他们想包抄我们，迫使我们撤退或冒被包围的风险。可笑的是，他们仍然低估了你们。守住防线，我的弟兄们，让他们看看，他们的一切努力都是徒劳的！	prose	1
+Out of the sun!	背阳突袭！	glossary	1
 Outcome of the war	战争结局	prose	1
 Outer Defensive Perimeter	外围防线	xscn	2
 Outgaarden	奥特哈登	xscn	1
@@ -86051,9 +86139,14 @@ Ovens	欧文斯	root	1
 Overakker	奥弗拉克	root	1
 Overall info: (Somewhere in USSR.) After weeks of heavy fighting, the Germans penetrate deeper and deeper to the East, but the flow of fresh enemy units seems to be endless and once again, the Russians have stopped the brigade.	总体情报：（苏联某地。）经过数周激战，德军越来越深入东方，但敌军生力军似乎源源不断，俄国人又一次挡住了这个旅。	prose	1
 Overall, the February Przasnysz Operation strengthened the Russian position, while weakening the German.  Strategically, it relieved the pressure on the Russian Warsaw salient and frustrated German plans for a decisive action in the east during the month of February.	总体而言，二月的普扎斯内什战役巩固了俄军的地位，同时削弱了德军。在战略上，它缓解了俄军华沙突出部所承受的压力，并挫败了德军在二月份于东线展开决定性行动的图谋。	prose	1
+Overcast	阴天	glossary	1
 Overflakkee	上弗拉凯	xscn	1
+Overrunning	碾压中	glossary	1
+Overstrength	超编	glossary	1
+Overstrength Unit	超编部队	glossary	1
 Overtornea	上托尔尼奥	xscn	2
 Overvalwagen	突击车	root	1
+Overwatch	警戒射击	glossary	1
 Overwhelmed by the numbers, you could not do more than repeat and multiply the admirable proofs of your courage. I can not, nor want to deal with the enemy. But I love you too much to let unnecessarily spill even a drop of your blood.	面对优势兵力，您所能做的只是不断展现您令人敬佩的勇气。我不能、也不愿与敌人交涉。但我太爱您，绝不忍心让您白白流一滴血。	prose	1
 Ovidiopol	奥维迪奥波尔	xscn	1
 Oviedo	奥维耶多	xscn	3
@@ -86739,6 +86832,7 @@ Parashutna Drujina	伞兵小队	root	2
 Paraskevopoulos	帕拉斯凯沃普洛斯	root	1
 Paraskovaya	帕拉斯科瓦亚	xscn	1
 Parasutisti	伞兵	root	2
+Paratroop	伞兵	glossary	1
 Paratrooper	伞兵	root	2
 Paratrooper 42	伞兵 42	root	1
 Paratrooper Eng.	伞兵工兵	root	2
@@ -87141,6 +87235,7 @@ Penyagino	佩尼亚吉诺	xscn	2
 Penza Div./ 1st Army	Penza 师/ 第1集团军	xscn	1
 People of Turciansky sv. Martin	图尔奇安斯基圣马丁人民	xscn	1
 People's Army	People's 集团军	xscn	1
+People's Militia	民兵	glossary	1
 Peoples Republic China	中华人民共和国	root	1
 Pepe	佩佩	root	1
 Pepelishte	佩佩利什特	xscn	1
@@ -87952,6 +88047,7 @@ Plakhino	普拉希诺	xscn	1
 Plamenac	普拉梅纳茨	root	1
 Planelles	普拉内列斯	root	1
 Planerskoye	普拉涅尔斯科耶	xscn	2
+Planes Killed	击落飞机	glossary	1
 Planes and ships stationed at Malta are again causing heavy shipping losses on our transport route from Italy to North Africa. At the same time, we have broken through 8th Army's defences at Mersa Matruh and only some weak British units stand in the between us and the Suez Canal.	驻马耳他的飞机和舰船再次给我们从意大利到北非的运输航线造成严重损失。与此同时，我们已突破第8集团军在梅尔萨马特鲁的防御，我们与苏伊士运河之间只剩下一些弱小的英军部队。	prose	1
 Planes use Fuel and must be resupplied at appropriate times.	飞机会消耗燃料，必须在适当时机补给。	glossary	1
 Plani	普拉尼	xscn	1
@@ -89022,6 +89118,7 @@ Presnovka	普列斯诺夫卡	xscn	1
 Presov	普雷绍夫	xscn	1
 Pressovsky	普列索夫斯基	root	1
 Prestatyn	普雷斯塔廷	xscn	1
+Prestige	威望	glossary	1
 Prestige given at the start of the battle can be used for refitting. The same amount of prestige will be available if chances for brilliant victory will be lost.	战斗开始时给予的声望可用于整补。即使失去获得大捷的机会，也会有同样数量的声望可用。	prose	1
 Prestige is captured so you need to be mobile.	威望靠夺取获得，所以你需要保持机动。	prose	1
 Prestige to win for Side 1 is 120	阵营1获胜所需声望为120	glossary	1
@@ -89039,6 +89136,8 @@ Preussen / Fernkampfgruppe Ostende-West	Preussen / 远程炮兵群 Ostende-West	
 Preux-au-Bois	普雷奥布瓦	xscn	1
 Prevent 30 units escaping	阻止30个单位逃脱	xscn	1
 Prevent the enemy from killing 25 allied units.	阻止敌军消灭25个盟军单位。	prose	1
+Preview/Demo	演示版	glossary	1
+Previous Unit	上一部队	glossary	1
 Previous attacks have already been made on this formidable mountain barrier and all have been thrown back by stubborn and persistent Italian counter-attacks.  The enemy is determined to hold on to these positions and is willing to fight to the death for them.  Your unit has been given the arduous task of capturing Fort Dologorodoc.  The 4th Indian Division and the 29th Brigade will advance on your flanks.	此前已对这道可畏的山岭屏障发起过多次进攻，都被意大利人顽强而持久的反攻所击退。敌军决意死守这些阵地，愿为之战斗到最后一刻。你的部队受领了夺取多洛戈罗多克堡的艰巨任务。第4印度师和第29旅将在你两翼推进。	prose	1
 Prezan	普雷赞	root	1
 Preze	普雷泽	prose	1
@@ -89137,6 +89236,7 @@ Prochorovka - July 1943 TV	普罗霍罗夫卡 1943年7月 战术胜利	prose	1
 Prochorovka - July 1943 V	普罗霍罗夫卡 1943年7月 胜利	prose	1
 Prodanesti	普罗达内什蒂	xscn	1
 Prodvino	普罗德维诺	xscn	2
+Profile	轮廓	glossary	1
 Profumo	普罗富莫	root	1
 Progar	普罗加尔	xscn	1
 Progress has been disappointing.  Poor weather and terrain, coupled with a skillful German defence has made our further advance slow and painful all across the front.  In front of us now is the Gustav Line, otherwise known as the Winter Line, the last defensive position the Germans are holding south of Rome.  Our unit, as part of the X Corps, will be the first to launch a co-ordinated attack on this line, while the U.S. VI Corps lands at Anzio, further up the coast.	进展令人失望。恶劣的天气和地形，加上德军老练的防御，使我们在全线的推进既缓慢又痛苦。此刻横在我们面前的是古斯塔夫防线，又称冬季防线——德军在罗马以南据守的最后一道防御阵地。我们部队作为第10军的一部分，将率先对这道防线发起协同进攻，而美军第6军则在沿海更北处的安齐奥登陆。	prose	1
@@ -90663,6 +90763,7 @@ Railway station	铁路 station	xscn	1
 Railway to Farsala	铁路 to Farsala	xscn	1
 Railway to Volos	铁路 to Volos	xscn	1
 Railway yo Larisa	铁路 yo Larisa	xscn	1
+Rain	雨天	glossary	1
 Raina	拉伊纳	root	1
 Rainford	雷恩福德	xscn	3
 Rainforest	雨林	prose	2
@@ -90782,7 +90883,7 @@ Ranger dv 'Franklin	游骑兵师'Franklin	xscn	1
 Ranger dv 'Matthews	游骑兵师'Matthews	xscn	1
 Ranger dv 'Soesby	游骑兵师'Soesby	xscn	1
 Ranger/1st	游骑兵/第1	xscn	2
-Rangers	突击队	root	1
+Rangers	游骑兵	root	2
 Rangoon	仰光	xscn	3
 Ranicke	拉尼克	root	1
 Ranki	兰基	xscn	1
@@ -90958,6 +91059,8 @@ Rcn/45/21A	侦察/第45/第21集团军	xscn	2
 Rcn/63/21A	侦察/第63/第21集团军	xscn	2
 RdfKomp.3/30.ID/XI/[3]	RdfKomp.3/第30步兵师/XI/[3]	xscn	1
 Rea	雷亚	root	1
+Reaction Hex	反应格	glossary	1
+Reactive Defense!	防御反击！	glossary	1
 Read	里德	root	1
 Read the scenario description and turn messages carefuly.	仔细阅读场景描述和回合消息。	prose	1
 Reading Street	雷丁街	xscn	1
@@ -90988,6 +91091,7 @@ Rearguard R.N.D.	后卫 R.N.D.	xscn	1
 Rearguard Strongpoint	后卫据点	xscn	2
 Rearguard X Corps	后卫第10军	xscn	1
 Rearguard/19th K.u.K Inf. Div.	后卫/第19 K.u.K 步兵师	xscn	1
+Reassign	重新指派	glossary	1
 Reassign Unit	重新指派	root	2
 Reata Hill	Reata 山丘	xscn	1
 Reay	雷伊	xscn	1
@@ -91090,6 +91194,7 @@ Recon Aircraft	侦察飞机	root	1
 Recon Balloon	侦察气球	root	2
 Recon Cavalry	骑兵侦察	root	1
 Recon Infantry	侦察步兵	root	2
+Recon Killed	击毁侦察	glossary	1
 Recon Plane	侦察机	root	1
 Recon planes	侦察飞机	xscn	1
 Recon planes/ 3rd Army	侦察飞机/ 第3集团军	xscn	1
@@ -91572,6 +91677,7 @@ Repell the last attacks and launch your counterattack. Take all VHs in 11/13/16 
 Repentigny	勒庞蒂尼	xscn	1
 Repino	列皮诺	xscn	1
 Replace losses OS/UG	补充OS/UG损失	xscn	1
+Replacements	补充兵员	glossary	1
 Repola	列波拉	xscn	3
 Repola Airfield	列波拉机场	xscn	2
 Report to the Fuhress on the World condition (July '39)  Our SS numbers have now reached 3.2 million Fraus.The French still have a formidable force.To beat them may take the rest of the year.'IL Duce has agreed to step up operations in North Afrika to pull Allied reserves there.Canada ,Netherland will join the Allies cause soon We believe.Poland is leaning towards joining but Russian armor forces on the border have them indecisive as well as the SS forces of Armee 'Erfert in East Prussia.The 'War Cabinet' has made the request 'Erfert should move and take Danzig/Gdynia so no supplies can come ashore in the area.This will make the decision for the Poles a little simpler but We need them off Our flanks as We move more forces West.Japan is reluctant for the request of more attacks on Russia,it seems they are moving to create their Co-prosperity Sphere in the Pacific.We have stated again "The Russians are the Real War".Sooner or later the great Industrial Giant,the United States will have to get involved.At the moment Our Gestapa spys say they see no movement in American industry turning to War,they still have Cars and Refridgerators coming off the Assembly line.As far as Our industrial mite We are in better shape than ever but We cannot fight the whole World.We need to beat the French and Brits first.We can do that.Then the Soviets which with their vast areas to cross will be a greater task.Europe can be Ours but We must not get involved with Amerika before then.	关于世界形势呈女元首的报告（39年7月）  我们的党卫军人数现已达到320万“女士”。法国仍拥有可观的兵力，要打败他们也许还要花上今年余下的时间。“领袖”已同意加大在北非的行动，以吸引盟军预备队前往该地。我们相信加拿大、荷兰很快会加入盟国阵营。波兰倾向于加入，但边境上的俄国装甲部队让他们举棋不定，东普鲁士“埃尔弗特”集团军的党卫军部队也是如此。战时内阁已要求“埃尔弗特”出动，夺取但泽／格丁尼亚，使任何补给都无法在该地区上岸。这将让波兰人的抉择稍微简单些；而且随着我们把更多兵力调往西线，我们需要他们离开我们的侧翼。日本不愿再对俄国发动更多进攻，看来他们正打算在太平洋建立自己的“共荣圈”。我们已再次声明：“俄国人才是真正的战争。”这个伟大的工业巨人——美国——迟早会被卷进来。目前我们的盖世太保间谍说，他们看不到美国工业转向战时轨道的迹象，汽车和冰箱还在从流水线上下来。就我们自己的工业实力而言，我们比以往任何时候都好，但我们无法与世界为敌。我们得先打败法国人和英国人。这我们做得到。然后是苏联人——要跨越他们辽阔的国土，那将是更艰巨的任务。欧洲可以归我们所有，但在此之前，绝不能与美国纠缠。	prose	1
@@ -91596,6 +91702,7 @@ Requetes	卡洛斯派民兵	root	1
 Requetes Alava	Requetes 阿拉瓦	xscn	1
 Requetés	雷克特民兵	root	2
 Requirements: Open General 0.90.28.4 (or later) and Efile Composite v1.02B (or later)	要求：Open General 0.90.28.4（或更高版本）以及 Efile Composite v1.02B（或更高版本）	prose	1
+Requisition	征募	glossary	1
 Res Bty/26th FA Regt/26 Div	预备役炮兵连/第26野战炮兵团/第26师	xscn	1
 Res bde /-/ [1]	预备役旅 /-/ [1]	xscn	1
 Res bde /-/ [2]	预备役旅 /-/ [2]	xscn	1
@@ -91704,7 +91811,7 @@ Reste/III/736/716th Infanterie	残部/第3/第736/第716步兵	xscn	1
 Reste/Ost-Bataillon 441	残部/第441东方营	xscn	1
 Restriction: If following historic rules, please deploy no more than 1 tank unit at the start of the scenario. Most of the remaining Italian tanks were in Ariete which arrives as reinforcements.	限制：若遵循历史规则，场景开始时请只部署不超过1个坦克单位。剩下的意军坦克大多编在“公羊”师里，而该师作为增援抵达。	prose	1
 Rests 48e/65e RI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Armée)	48/65步兵团残部/21步兵师/第16军/北部海上部队(原第7集团军)	glossary	1
-Rests 48e/65e RI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	残部 第48/第65步兵团 / 第21步兵师 / 第16军 / Forces Maritimes du Nord (前第7集团军)	xscn	1
+Rests 48e/65e RI / 21e DI / XVIe CA / Forces Maritimes du Nord (ex 7 Arm閑)	残部 第48/第65步兵团 / 第21步兵师 / 第16军 / 北方海上部队 (前第7集团军)	xscn	1
 Resultado: la conquista de Santander por parte del ejercito nacional supone uno de los mayores desastres hasta el momento para la República: pierde unos 60.000 hombres, muchos capturados, así como abundante material de guerra. Más importante aún es la práctica liquidación del frente norte, en el que solo resiste Asturias, que terminará cayendo el 21 de octubre.	结果：国民军夺取桑坦德是共和国至今遭受的最惨重灾难之一：损失约6万人，其中许多人被俘，还有大量军用物资。更重要的是，北部战线实际上已被肃清，仅剩阿斯图里亚斯仍在抵抗，该地最终将于10月21日陷落。	prose	1
 Resupply Command	补给指挥部	xscn	1
 Resuttano	雷苏塔诺	xscn	1
@@ -92090,6 +92197,7 @@ River	河流	xscn	2
 River Aa	阿河	xscn	1
 River Ajon	阿洪河	xscn	3
 River Alt	阿尔特河	xscn	1
+River Assault	渡河突击	glossary	1
 River Aure	奥尔河	xscn	3
 River Authie	奥迪河	xscn	1
 River Averon	阿韦龙河	xscn	1
@@ -93034,7 +93142,7 @@ S. African Infantry	S. 非洲步兵	root	1
 S. African Infantry 16	S. 非洲步兵 16	root	1
 S. Agato Militello	圣阿加托米利泰洛	xscn	1
 S. Bolivar No.70	S.玻利瓦尔70号	glossary	1
-S. Bolivar No.70/4 Bda./1 Div.	S. Bolivar No.70/第4旅/第1师	xscn	2
+S. Bolivar No.70/4 Bda./1 Div.	西蒙·玻利瓦尔第70营/第4旅/第1师	xscn	2
 S. C. Smuts	S·C·斯穆茨	xscn	1
 S. Croce Camerina	圣克罗切卡梅里纳	xscn	1
 S. Futog	S.富托格	xscn	1
@@ -93044,9 +93152,9 @@ S. Staffordshire R	南斯塔福德郡团	glossary	1
 S.E. el Generalisimo quiere agradecerle sus rápidas y decisivas acciones que tanto han ayudado a la derota de la resistencia republicana en Cataluña. Usted será condecorado con la Cruz Laureada de San Fernando en fechas futuras.	最高统帅阁下想感谢您迅速而果断的行动，这些行动极大地帮助击溃了加泰罗尼亚的共和军抵抗。您将在日后获颁圣费尔南多桂冠十字勋章。	prose	1
 S.E. el Generalisimo wants to thank you for your quick and decisive defeat of the Republican resistance at Catalonia.  You have been awarded the army's highest decoration.	大元帅阁下谨此感谢您迅速而果断地粉碎了共和派在加泰罗尼亚的抵抗。您已被授予陆军的最高勋章。	prose	2
 S.I.Loyola	圣伊格纳西奥·洛约拉	glossary	1
-S.I.Loyola/2 MB/1 Bda./[1Agrp.]	S.I.Loyola/第2MB/第1旅/[第1集团军群]	xscn	2
+S.I.Loyola/2 MB/1 Bda./[1Agrp.]	圣伊格纳西奥·洛约拉/第2MB/第1旅/[第1集团军群]	xscn	2
 S.Miguel	圣米格尔	glossary	1
-S.Miguel/2 MB/1 Bda./[1Agrp.]	S.Miguel/第2MB/第1旅/[第1集团军群]	xscn	2
+S.Miguel/2 MB/1 Bda./[1Agrp.]	圣米格尔/第2MB/第1旅/[第1集团军群]	xscn	2
 S.Sebastian	圣塞瓦斯蒂安	glossary	1
 S.Sebastian/10 Zona	S.Sebastian/第10军区	xscn	3
 S.²£ÀûÍß¶û70ºÅ/µÚ4ÂÃ/µÚ1Ê¦	S.玻利瓦尔70号/第4旅/第1师	prose	1
@@ -93075,6 +93183,8 @@ SA Berlin dv 61	第61冲锋队柏林师	xscn	1
 SA Berlin dv 81	第81冲锋队柏林师	xscn	1
 SA Rohr(att.)/-/-/6ID [III]	SA Rohr(att.)/-/-/第6步兵师 [III]	xscn	1
 SA Rohr/ 6 Div. / VII Res. Korps/ 5 Armee	SA Rohr/ 第6师 / 第7预备役军/ 第5集团军	xscn	1
+SA-6 Gainful	SA-6 有利	glossary	1
+SA-9 Gaskin	SA-9 灯笼裤	glossary	1
 SAAC//1D	SAAC//第1师	xscn	1
 SABLE ISLAND - 9 MAR 1944	塞布尔岛——1944年3月9日	prose	1
 SAE//1D	SAE//第1师	xscn	1
@@ -93551,8 +93661,8 @@ SS 234th m/batt	党卫军第234迫击炮/炮兵连	xscn	1
 SS 7.5cm Pak Ht	党卫军 7.5cm 反坦克炮半履带	root	2
 SS 96th m/batt	党卫军第96迫击炮/炮兵连	xscn	1
 SS AA.Abt SS-V	党卫队特别机动师防空营	glossary	1
-SS AA.Abt SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军防空营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS AA.Abt SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军防空营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS AA.Abt SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军防空营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS AA.Abt SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军防空营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS AT Brigade	党卫军反坦克旅	xscn	1
 SS AT/s 'Frauzer /1	党卫军反坦克/分队'Frauzer/第1	xscn	1
 SS AT/s 'Frauzer /2	党卫军反坦克/分队'Frauzer/第2	xscn	1
@@ -93770,16 +93880,16 @@ SS Schutzen 43	SS 步兵 43	root	1
 SS Solstad	运输船 索尔施塔德	xscn	1
 SS SpWg(5cm)	党卫军 SpWg(5cm)	root	2
 SS Standarte Artillerie-Regiment SS-V/ SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫队特别机动师旗队炮兵团/党卫队特别机动师(摩托化)/第41军/第4集团军	glossary	1
-SS Standarte Artillerie-Regiment SS-V/ SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军炮兵旗队 SS-V/ SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS Standarte Artillerie-Regiment SS-V/ SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军炮兵旗队 SS-V/ 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS Standarte Der Führer IR	党卫队元首旗队步兵团	glossary	1
-SS Standarte Der Führer IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军元首旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS Standarte Der F黨rer IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军元首旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS Standarte Der Führer IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军元首旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS Standarte Der F黨rer IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军元首旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS Standarte Deutschland IR	党卫队德意志旗队步兵团	glossary	1
-SS Standarte Deutschland IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军德意志旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS Standarte Deutschland IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军德意志旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS Standarte Deutschland IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军德意志旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS Standarte Deutschland IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军德意志旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS Standarte Germania IR	党卫队日耳曼尼亚旗队步兵团	glossary	1
-SS Standarte Germania IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军日耳曼旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS Standarte Germania IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军日耳曼旗队步兵团 / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS Standarte Germania IR / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军日耳曼旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS Standarte Germania IR / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军日耳曼旗队步兵团 / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS Statesman	运输船 政治家	xscn	1
 SS StuG  IV	党卫军 StuG IV	root	2
 SS Sturm Marine	党卫军突击陆战队	root	2
@@ -93830,14 +93940,14 @@ SS-Artillerie-Standarte / IR (mot.) LSSAH /- / XIV (mot.) AK / AOK 4	党卫军�
 SS-Brigadef黨rer August Zehender 22SS	党卫军旅队长 奥古斯特·策亨德 第22党卫军	xscn	1
 SS-Feldersatz.Btl.10	第10党卫军野战补充营	xscn	1
 SS-Pio.-Bat. SS-V	党卫队特别机动师工兵营	glossary	1
-SS-Pio.-Bat. SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军工兵营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS-Pio.-Bat. SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军工兵营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS-Pio.-Bat. SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军工兵营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS-Pio.-Bat. SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军工兵营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS-Pz.Abt. [KG W黱sche]	党卫军装甲营 [温舍战斗群]	xscn	1
 SS-Pz.Jg.Abt.11/-/11 Nordland [IIISS]	党卫军反坦克营第11/-/第11诺德兰 [党卫军第3装甲军]	xscn	1
 SS-Pz.Jg.Abt.54/-/Brig.Nederland  KG Lange	党卫军反坦克营第54/-/尼德兰旅 朗格战斗群	xscn	1
 SS-Pzjäg.Abt SS-V	党卫队特别机动师反坦克营	glossary	1
-SS-Pzjäg.Abt SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军反坦克营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	glossary	1
-SS-Pzj鋑.Abt SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军反坦克营 SS-V / SS-Verfugungs-Division (摩托化) / 第41军 / 第4集团军	xscn	1
+SS-Pzjäg.Abt SS-V / SS-Verfügungs-Division (mot.) / XLI AK / AOK 4	党卫军反坦克营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	glossary	1
+SS-Pzj鋑.Abt SS-V / SS-Verf黦ungs-Division (mot.) / XLI AK / AOK 4	党卫军反坦克营 SS-V / 党卫军特别机动师 (摩托化) / 第41军 / 第4集团军	xscn	1
 SS-Sturm. 'Walonia'	党卫军突击旅“瓦隆”	xscn	1
 SS-T/-/SS-T [XVI]	党卫军-T/-/党卫军-T [XVI]	xscn	1
 SS-V Division, Leibstandarte and Totenkopf have been moved south of Dunkirk to close the gaps between the Panzer divisions encircling the Belgian army, the B.E.F. and numerous French divisions.	党卫军第5师、警卫旗队和“骷髅”师已被调往敦刻尔克以南，以封闭包围比利时军队、英国远征军和大批法国师的各装甲师之间的空隙。	prose	1
@@ -94329,7 +94439,7 @@ Sachon River	萨孔河	xscn	1
 Sachsenberg	萨克森贝格	root	1
 Saclay	萨克雷	xscn	1
 Saco-Vanzetti No.12	萨科-万泽蒂12号	glossary	1
-Saco-Vanzetti No.12/2 Col.	Saco-Vanzetti No.12/第2纵队	xscn	2
+Saco-Vanzetti No.12/2 Col.	萨科-万泽蒂第12营/第2纵队	xscn	2
 SacristÃ¡n	萨克里斯坦	root	2
 Sad R	第萨德团	glossary	1
 Sad R/7 ID/[XXIV]	Sad R/第7步兵师/[XXIV]	xscn	3
@@ -95110,6 +95220,7 @@ Scauts/1 IR	Scauts/第1步兵团	xscn	1
 Scauts/1.Est reg	Scauts/1.Est 团	xscn	1
 Scavengers	拾荒者	root	1
 Sceaux	索	xscn	1
+Scenario Builder	场景编辑器	glossary	1
 Scenario Credits:	场景致谢：	prose	1
 Scenario Designer: Amona	场景设计：Amona	prose	1
 Scenario Designer: Dimitris GR	场景设计者：Dimitris GR	prose	1
@@ -95502,7 +95613,7 @@ Scotts 11	斯科茨 11	xscn	1
 Scotts 18	斯科茨 18	xscn	1
 Scotts 5	斯科茨 5	xscn	1
 Scotts Valley	斯科茨瓦利	xscn	3
-Scout	侦察兵	xscn	2
+Scout	侦察兵	xscn	3
 Scout Ant	侦察蚁	root	1
 Scout Car	侦察车	root	2
 Scout Ht	侦察半履带	root	2
@@ -95556,12 +95667,14 @@ Scouts/57鑝e div. inf./Arm閑 d'Orient	侦察兵/57ème 师步兵/集团军 d'O
 Scouts/5th div./ Army of the Dobrogea	侦察兵/第5师/ 集团军 of the Dobrogea	xscn	1
 Scream Hills	尖啸丘陵	xscn	2
 Scream Peaks	尖啸峰	xscn	2
+Screen	掩护	glossary	1
 Scrubby Knoll	灌木丘	xscn	1
 Scucyn	什丘钦	xscn	2
 Sculeni	斯库莱尼	xscn	1
 Sculthorpe Airbase	斯卡尔索普机场	xscn	1
 Scumpia	斯昆皮亚	xscn	1
 Scuti	斯库蒂	root	1
+Scuttling	自沉	glossary	1
 Scye River	西耶河	xscn	1
 Scyllaeum	斯基拉埃乌姆	xscn	1
 Sd. Kfz. 10/ 37 Pak 36	Sd. Kfz. 10/ 37 反坦克炮 36	root	1
@@ -95592,6 +95705,7 @@ Seabrook	西布鲁克	xscn	1
 Seabrook/ 28th div./ British Salonika Army	Seabrook/ 第28师/ 英国 Salonika 集团军	xscn	1
 Seaford	锡福德	xscn	1
 Seagrove	锡格罗夫	xscn	3
+Seal Team	海豹小队	glossary	1
 Sealion 40	海狮40	glossary	1
 Sealion Plus	海狮增强版	glossary	1
 Sealion43	海狮43	glossary	1
@@ -96265,6 +96379,7 @@ Sharp's Farm	Sharp's 农庄	xscn	1
 Sharpantier/KK/IV Kvkz	Sharpantier/KK/第4骑兵军	xscn	1
 Sharpe	夏普	root	2
 Sharpsburg	夏普斯堡	xscn	1
+Sharpshooter	精准射手	glossary	1
 Sharpshooters	神枪手	root	1
 Shashi	沙市	xscn	3
 Shat	沙特	xscn	1
@@ -96441,6 +96556,7 @@ Shoal Waters	浅滩水域	xscn	1
 Shock Inf	突击步兵	root	2
 Shock Para	突击伞兵	root	2
 Shock Regiment/ Volunteer Army	突击团/ 志愿兵集团军	xscn	1
+Shock Tactics	震慑战术	glossary	1
 Shock Troops	突击部队	root	2
 Shockoe Creek	Shockoe 溪	xscn	1
 Shodna	绍德纳	xscn	1
@@ -96453,6 +96569,7 @@ Shojikiro	庄子郎	root	1
 Sholohovo	绍洛霍沃	xscn	2
 Shomron	绍姆龙	root	1
 Shonguty	松古特	xscn	1
+Shoot and Scoot	打了就跑	glossary	1
 Shooting Training and Hollow Charge Course	射击训练与空心装药课程	xscn	1
 Shorakaro	绍拉卡罗	root	1
 Shore of the Mahiwa river	Shore of the Mahiwa 河	xscn	1
@@ -96460,6 +96577,7 @@ Shore of the Nakadi river	Shore of the Nakadi 河	xscn	1
 Shoreham	肖勒姆	xscn	1
 Shoreline of the Yucatan Peninsula, Mexico	墨西哥，尤卡坦半岛海岸线	prose	1
 Shorin	绍林	root	1
+Shorland S53	肖兰 S53	glossary	1
 Short 184 (RNAS)	Short 184 (皇家海军航空队)	xscn	1
 Short Hill Mountain	Short 山丘山地	xscn	1
 Short Range Radar	近程雷达	root	1
@@ -96474,6 +96592,8 @@ Shostka	绍斯特卡	xscn	1
 Shotton	肖顿	xscn	1
 Shou-hien	寿贤	root	1
 Shou-nien	守年	root	2
+Show Hexsides	显示网格	glossary	1
+Show Terrain	显示地形	glossary	1
 Show them who you are …	让他们看看你是谁……	prose	1
 Shpikolazy	什皮科拉齐	xscn	1
 Shpitka	什皮特卡	xscn	2
@@ -97213,6 +97333,7 @@ Sniper Team	狙击小队	root	1
 Sniper Team (not used)	狙击小组 (未使用)	root	2
 Snogeholmssj鰊	斯诺格霍尔姆湖	xscn	1
 Snova	斯诺瓦	xscn	3
+Snow	雪天	glossary	1
 Snow Blizzard	Snow 暴风雪	root	1
 Snyatin	斯尼亚廷	xscn	1
 So I actually prefer to be here, where I can serve my country by taking Moscow. The old capital that has been transformed into the Beast's lair. The horrific place where the Red godless demons lurk. Never before have I been so eager to fulfill my duty. This city must be saved from the communists.	所以我其实更愿意待在这里，通过夺取莫斯科来报效祖国。这座古都已沦为野兽的巢穴，这个可怕的地方潜伏着红色无神论的恶魔。我从未如此渴望履行自己的职责。必须把这城市从共产党人手中拯救出来。	prose	1
@@ -97288,6 +97409,7 @@ Sofroniev	索夫罗尼耶夫	root	1
 Sofronov	索夫罗诺夫	xscn	1
 Soft	软目标	root	1
 Soft Attack	软目标攻击	root	2
+Soft Target	软目标	glossary	1
 Soft target	软目标	root	2
 Soga	索加	xscn	1
 Sogekihei	狙击兵	root	1
@@ -97782,6 +97904,8 @@ Special Cavalry Group [5]	特种骑兵群 [5]	xscn	1
 Special Col.	特种纵队	glossary	1
 Special Column	特种纵队	glossary	1
 Special Detachment	特别支队	root	1
+Special Equipment	特种装备	glossary	1
+Special Forces	特种部队	glossary	1
 Special Thanks to Luis Guzman(God), Andrew Gordon(Muse) and everybody else who has made Open General over the years into the greatest of games.	特别感谢 Luis Guzman（上帝）、Andrew Gordon（缪斯），以及多年来所有把 Open General 打造成最伟大游戏的人们。	glossary	1
 Special Thanks:	特别鸣谢：	prose	1
 Special Units	特种部队	root	1
@@ -97864,6 +97988,7 @@ Spot	侦察	root	2
 Spotter	观察机	root	1
 Spotter in Breendonk church	布林东克教堂观察员	xscn	1
 Spotter in Tissel windmill	蒂瑟尔风车观察员	xscn	1
+Spotting Range	侦察范围	glossary	1
 Spree	施普雷	xscn	2
 Spree River	施普雷河	xscn	3
 Spreenhagen	施普伦哈根	xscn	3
@@ -98655,6 +98780,7 @@ Strassensperre	路障	xscn	1
 Strassensperre Ruaz	鲁阿兹路障	xscn	1
 Strasser	施特拉瑟	root	2
 Strategic Bomber	重型轰炸机	root	1
+Strategic Map	战略地图	glossary	1
 Strategical Map of Spain	西班牙战略地图	prose	1
 Strategically, Stavka's plans for war in the north require a swift strike toward Koenigsberg in the first weeks of the war with the 1st and 2nd Armies.  With the army fully mobilized, it will deploy in Poland for a decisive strike against Germany.	从战略上讲，大本营在北方的作战计划要求在开战头几周，以第1、第2集团军向柯尼斯堡发动快速突击。待部队完全动员后，它将部署在波兰，对德国发动决定性打击。	prose	1
 Stratford	斯特拉特福	xscn	1
@@ -99121,6 +99247,7 @@ Supply Drop Zone	补给空投区	xscn	1
 Supply Dump	补给堆场	xscn	2
 Supply HalfTruck	补给半履带	root	2
 Supply Halftruck	补给半履带	root	2
+Supply Hex	补给格	glossary	1
 Supply Line	补给线	xscn	2
 Supply Point	补给点	xscn	3
 Supply Route	补给路线	xscn	2
@@ -99134,6 +99261,7 @@ Supply depot	补给 depot	xscn	1
 Supply dump	补给堆场	xscn	1
 Supply line	补给线	xscn	1
 Supply lines	补给 lines	xscn	1
+Support Fire	支援火力	glossary	1
 Support Weapons	支援武器	root	1
 Support guns/ 21st div./ III Caucasian Corps/ 7th Army	支援 guns/ 第21师/ III Caucasian 军/ 第7集团军	xscn	1
 Supporting the allies: Galicia  - brilliant victory	支援盟友：加利西亚 - 大捷	prose	1
@@ -99146,6 +99274,7 @@ Supporting the allies: Kobadin - brilliant victory	支援盟友：科巴丁 - �
 Supporting the allies: Kobadin - loss	支援盟友：科巴丁 - 失败	prose	1
 Supporting the allies: Kobadin - tactical victory	支援盟友：科巴丁 - 战术胜利	prose	1
 Supporting the allies: Kobadin - victory	支援盟友：科巴丁 - 胜利	prose	1
+Suppressed	已压制	glossary	1
 Suppy Hex	补给六角格	xscn	1
 Suprasl River	Suprasl 河	xscn	1
 Suprasl'	苏普拉希尔	xscn	1
@@ -99169,6 +99298,8 @@ Surorovo	苏罗罗沃	xscn	2
 Surovikino	苏罗维基诺	xscn	2
 Surowikino	苏罗维基诺	xscn	2
 Surprise	瑟普赖斯	xscn	1
+Surprise Contact!	意外接触！	glossary	1
+Surrender	投降	glossary	1
 Sursko-Lytovske (Sursko-Litovskoye)	苏尔斯科利托夫斯凯 (苏尔斯科利托夫斯科耶)	xscn	1
 Sursko-Mykhailivka (Sursko Mikhaylovka)	苏尔斯科米哈伊利夫卡 (苏尔斯科米哈伊洛夫卡)	xscn	1
 Surviving the red tide	在红色浪潮中求生	prose	1
@@ -99708,8 +99839,9 @@ Tachikawa	立川	xscn	3
 Tachiwa Point	立和岬	xscn	3
 Tacoma Park	塔科马公园	xscn	2
 Tact. Bomber, Fighter-Bomber	战术轰炸机/战斗轰炸机	root	2
+Tactical Air Killed	击毁战术空军	glossary	1
 Tactical Bomber	战术轰炸机	root	2
-Tactical Victory	战术胜利	root	1
+Tactical Victory	战术胜利	root	2
 Tactical Victory: Galicia.  Preserving our Slavic bond with Serbia, our armies will defend the frontier against an Austro-Hungarian aggression on the South-Western Front.  With success, the way may be open to capture the Carpathian mountain passes into Vienna or, perhaps, for an invasion of German Silesia.	小捷：加利西亚。为维系我们与塞尔维亚的斯拉夫纽带，我军将在西南战线抵御奥匈帝国的侵略。若成功，通往喀尔巴阡山隘口直捣维也纳的道路或将洞开，甚至可能入侵德属西里西亚。	prose	1
 Tactical Victory: Tactical Victory in this scenario will transfer your troops to the Caucasus Front to join operations against Turkey.	小捷：本场景达成小捷后，您的部队将被调往高加索方面军，参与对土耳其的作战。	prose	1
 Tactically speaking, the Somme was another failure. Our advances were minimal, with hundreds of thousands casualties. But strategically, it was a great success. France was saved, and Germany was so weakened that, just a few months after the battle ended, its Army had to retire 40 miles, to the safety of the Hindenburg Line. I know that many orphans, widows and parents who lost their sons at the Somme will never find consolation in strategy, but for me it is important to acknowledge that, although we all paid a terrible price, our brave soldiers gave their lives for a reason and that their sacrifice was an unavoidable step towards our final victory.	从战术上说，索姆河战役是又一次失败。我们推进甚微，却付出了数十万人的伤亡。但从战略上说，它却是一次巨大的成功。法国得救了，德国被大大削弱，以至于战役结束仅几个月后，德军就不得不后撤40英里，退到兴登堡防线的安全地带。我知道许多在索姆河失去儿子的孤儿、寡妇和父母永远不会从战略中得到安慰，但对我而言，重要的是承认：尽管我们都付出了可怕的代价，我们英勇的士兵是为一个理由而献出生命，他们的牺牲是通向最终胜利的必经一步。	prose	1
@@ -99954,12 +100086,14 @@ Tank Reg./ Fourth Army	坦克团/ 第四集团军	xscn	1
 Tank Shells	坦克炮弹	xscn	1
 Tank Train	坦克列车	root	1
 Tank Trap	坦克 Trap	root	1
+Tank Traps	反坦克桩	glossary	1
 Tank Tread Production	坦克履带生产	xscn	1
 Tank Turrets	坦克炮塔	root	1
 Tank Turrets Light	Tank Turrets 轻装	root	1
 Tank and Anti-Tank	坦克与反坦克	xscn	1
 Tank battalion	坦克 battalion	xscn	1
 Tankovoye	坦科沃耶	xscn	1
+Tanks Killed	击毁坦克	glossary	1
 Tanks at Fort Knox, KY, June 1942.	坦克在肯塔基州诺克斯堡，1942年6月。	prose	1
 Tannay	塔奈	xscn	3
 Tannenberg	坦能堡	xscn	1
@@ -102681,7 +102815,7 @@ Tientsin defenders	天津守军	xscn	1
 Tierra island	蒂拉岛	xscn	1
 Tietensee	蒂滕塞	xscn	1
 Tietjen	蒂特延	glossary	1
-Tietjen/Pio Raemcke Bn/[DAK]	Tietjen/Pio Raemcke营/[DAK]	xscn	2
+Tietjen/Pio Raemcke Bn/[DAK]	蒂特延/Pio 拉姆克营/[DAK]	xscn	2
 Tieu	赵	root	1
 Tiflis	第比利斯	xscn	2
 Tiganca	蒂甘卡	xscn	1
@@ -103282,7 +103416,7 @@ Trabotiviste	特拉博蒂维什特	xscn	1
 Trabzon redif div./ XVII Army Corps/ 2nd Eastern Army	Trabzon 预备役师/ 第17集团军军/ 第2东部集团军	xscn	1
 Trachilos	特拉希洛斯	xscn	1
 Tracino	特拉奇诺	xscn	1
-Tracked	履带式	root	1
+Tracked	履带式	root	2
 Tracteur	牵引车	root	1
 Tracteur Chatillon-Panhard	牵引车 Chatillon-Panhard	root	1
 Tracteur lourd	重型牵引车	root	1
@@ -103494,6 +103628,7 @@ Trifona	特里福纳	xscn	2
 Trifonov	特里福诺夫	root	2
 Trifun Cosic	特里芬·乔西奇	root	1
 Trifunovic	特里富诺维奇	root	1
+Trigger Hex	触发格	glossary	1
 Trigger Hexes:	触发格：	glossary	1
 Trigh Abd	阿卜德小道	xscn	2
 Trigh Capuzzo	卡普佐古道	xscn	2
@@ -103797,6 +103932,7 @@ Tunisia	突尼斯	glossary	1
 Tunisia Counterattack	突尼斯反击战	glossary	1
 Tunisian Campaign	突尼斯战役	prose	1
 Tunnel	隧道	xscn	1
+Tunnel Rats	坑道兵	glossary	1
 Tunul de Camp cal.75mm	75mm 野战炮	root	1
 Tuompo	图奥姆波	root	2
 Tupaq Amaru	图帕克·阿马鲁	root	1
@@ -104145,6 +104281,7 @@ US Border House	美国边境房屋	xscn	1
 US Campaign for KG	凯撒将军美国战役	prose	1
 US Engineer Corps	美国 Engineer 军	xscn	1
 US Forces in Tunisia have been grouped into II US Corps, positioned South of British V Corps and French XIX Corps.	驻突尼斯的美军已整编为美军第2军，部署在英军第5军与法军第19军以南。	prose	1
+US Marine Corps	美国海军陆战队	glossary	1
 US Marine Corps/ Seymour's Relief Force	美国海军陆战队军/ Seymour's Relief Force	xscn	1
 US Navy	美国海军	xscn	4
 US Rangers	美国游骑兵	xscn	1
@@ -104622,6 +104759,7 @@ Under these circumstances, Haig decided that it was necessary to relieve our all
 Under your command is the Soomusrongide Kolon, which contains your 1st regiment and (still under formation) elements of Estonia's armored train fleet.  You are to requisition what armored train equipment is already available and report to the battlefield.  Once you recapture the initiative, expect more equipment to complement your Soomusrong.	您麾下指挥的是装甲列车纵队，其中包括您的第1团和（仍在组建中的）爱沙尼亚装甲列车舰队的部分力量。您要征用现有一切可用的装甲列车装备，并赶赴战场报到。一旦您重新夺回主动权，预计还会有更多装备来充实您的装甲列车纵队。	prose	1
 Underestimating the Italians after the battle of Karfreit would be a great mistake, though. They've put into practice a strategy of defence in depth, so moving on the mountain terrain may become difficult. If you're not careful, your casualties can be high.	不过，如果在卡波雷托战役之后低估意大利人，那将是一个巨大的错误。他们已经实行了纵深防御战略，因此在山地地形上行进可能会变得困难。如果您不谨慎行事，伤亡可能会很高。	prose	1
 Underhill	昂德希尔	root	1
+Undo Last Action	撤销上一步	glossary	1
 Unecha	乌涅恰	xscn	1
 Unfavorably the heavily fortified base Fort Bragg is located just between you and our distressed troops. Try to bypass Fort Bragg and attack the enemy in the back! Afterwards take care of the U.S. base and capture this main target!	不利的是，设防严密的布拉格堡基地恰好横在你与我们受困部队之间。设法绕过布拉格堡，从背后攻击敌人！之后再收拾这座美军基地，拿下这个主要目标！	prose	1
 Unfinished Earthworks	Unfinished 土木工事	xscn	1
@@ -104714,6 +104852,8 @@ Upa River	乌帕河	xscn	2
 Upatoi Creek	乌帕托伊溪	xscn	1
 Upenieks	乌佩尼耶克斯	root	1
 Upenja	乌佩尼亚	xscn	1
+Upgrade	升级	glossary	1
+Upgrade Unit	升级部队	glossary	1
 Upgrade your initial infantry unit. You can name it "1. pu³k piechoty legionów", or "1. pp".	升级您的初始步兵部队。您可以将它命名为「军团第1步兵团」，或简称「第1步兵团」。	prose	1
 Upgrades and Overstrengthening	升级与超编强化	xscn	1
 Upgrades and overstrengthening	升级与超编加强	xscn	1
@@ -105984,6 +106124,7 @@ Victorious - Force Z	胜利号 - Z部队	xscn	1
 Victory	胜利	root	2
 Victory Condition: Capture the enemy VHs. Don't lose the paratroopers holding the SE airfield!	胜利条件：夺取敌军胜利格。不要损失守住东南机场的伞兵！	prose	1
 Victory Conditions:	胜利条件：	prose	1
+Victory Hex / VH	胜利格	glossary	1
 Victory condition: Capture all VHs.	胜利条件：夺取所有胜利格。	prose	1
 Victory condition: Capture three VHs for a BV, two for a V and one for a TV.	胜利条件：夺取三个胜利格为辉煌胜利，两个为胜利，一个为战术胜利。	prose	1
 Victory condition: Exit the map with 12 units.	胜利条件：让12个单位撤出地图。	prose	1
@@ -106456,7 +106597,7 @@ Vokes	沃克斯	root	2
 Vokic	沃基奇	root	1
 Vokovice	沃科维采	xscn	1
 Vokshi	沃克希	root	1
-Vol. FET/[Diaz Dunabeitia]	FET志愿军/[Diaz Dunabeitia]	xscn	3
+Vol. FET/[Diaz Dunabeitia]	FET志愿军/[迪亚斯·杜纳贝蒂亚]	xscn	3
 Vol. Kuperjanow	库佩尔亚诺夫部队	root	1
 Vol. Santander/[S.Esteban]	桑坦德志愿/[圣埃斯特班]	prose	1
 Vol. de l'Ouest	西部志愿军	root	1
@@ -108140,7 +108281,7 @@ What!??  Where are you going with those troops!!??  What kind of retreat are you
 Whatever happens, don't do any deed of evil. Revenge on an innocent Russian civilians or captured soldiers won't help her in any way, but it will hurt many people, including you yourself.	无论发生什么，不要做任何恶事。报复无辜的俄国平民或俘虏，对她不会有任何帮助，却会伤害许多人，包括你自己。	prose	1
 Whatipu	瓦蒂普	xscn	3
 Wheaton	惠顿	xscn	2
-Wheeled	轮式	root	1
+Wheeled	轮式	root	2
 Wheeler	惠勒	root	1
 Wheeler Airforce Base	惠勒空军基地	xscn	1
 Whelan	惠兰	root	2
@@ -108336,6 +108477,7 @@ Wilcke	维尔克	root	1
 Wilcox	威尔科克斯	root	2
 Wilcox's Division Scouts	Wilcox's 师侦察兵	xscn	1
 Wilczkowo	维尔奇科沃	xscn	1
+Wild Weasel	防空压制	glossary	1
 Wildenguth	维尔登古特	xscn	3
 Wilderness Church	Wilderness 教堂	xscn	1
 Wildeshausen	维尔德斯豪森	xscn	1
@@ -109905,7 +110047,7 @@ You are to take command of Italian Legions transferred from Ethiopia to Spain as
 You are winnar.	你是赢家。	prose	1
 You became part of the conspiracy!	您成了密谋活动的一员！	prose	1
 You begin your campaign as a Kriegsmarine lieutenant. Naval battles await you, battles with only ground units, battles where your units simply have to survive, etc. In short, it is a campaign with all kinds of battles.	你以一名德国海军中尉的身份开始战役。等待你的是海战、只有地面部队参加的战斗、你的部队只须生存下来的战斗等等。简而言之，这是一场包含各种类型战斗的战役。	prose	1
-You better resign and open a "friterie	你最好辞职，去开一家“friterie	glossary	1
+You better resign and open a "friterie/frituur".	你最好辞职，去开一家“薯条店”。	glossary	1
 You better ressign and open a "gaufre" shop.	你最好辞职，去开一家“gaufre”店。	glossary	1
 You broke through the Soviet defense, pushed the enemy far back, and overran the approaches to Leningrad. The bogged down Tigers were saved before the enemy could have destroyed or captured them.	你突破苏军防御，把敌人击退很远，席卷了通往列宁格勒的要道。陷入泥泞的虎式在敌军摧毁或缴获之前就被救了出来。	prose	1
 You can also become part of the conspiracy called Polska Organizacja Wojskowa.	您也可以加入名为「波兰军事组织」的密谋。	prose	1
@@ -111714,7 +111856,7 @@ Zulu camp	祖鲁营地	xscn	1
 Zulu impi	祖鲁 impi	xscn	1
 Zumadian	驻马店	xscn	2
 Zumalac.	苏马拉卡雷吉	glossary	1
-Zumalac./1 MB/3 Bda./[1Agrp.]	Zumalac./1 MB/第3旅/[1Agrp.]	xscn	2
+Zumalac./1 MB/3 Bda./[1Agrp.]	苏马拉卡雷吉/1 MB/第3旅/[1Agrp.]	xscn	2
 Zumalacarregui	苏马拉卡雷吉	xscn	1
 Zumbach	聪巴赫	root	1
 Zumstein	楚姆施泰因	root	1
@@ -111975,7 +112117,7 @@ Z黨lsdorf	曲尔斯多夫	xscn	1
 [HQ Agrupacion Solchaga]	[司令部 Agrupacion Solchaga]	xscn	1
 [HQ Aranda]	[司令部 Aranda]	xscn	1
 [HQ CEA (Aranda)]	[CEA司令部(阿兰达)]	xscn	2
-[HQ Col. Iglesias]	[Col. Iglesias 司令部]	xscn	1
+[HQ Col. Iglesias]	[伊格莱西亚斯上校 司令部]	xscn	1
 [HQ Columna Beorlegui]	[贝奥雷吉纵队司令部]	xscn	2
 [HQ Columna Diaz Dunabeitia]	[迪亚斯·杜纳贝蒂亚纵队司令部]	xscn	2
 [HQ Columna Los Arcos]	[洛斯阿尔科斯纵队司令部]	xscn	2
@@ -112467,6 +112609,10 @@ accomadation in England for them and so	没有他们的驻地，于是	prose	1
 according to your high experience in warfare at sea and in amphibious maneuvers, you are sent to our south-eastern front... let us take all rebel harbors at first !	鉴于您在海战和两栖机动方面经验丰富，您被派往我们的东南前线……让我们先夺取所有叛军的港口！	prose	1
 across the Seelow Heights.  Feldmarschall Manstein will now take command and continue	过了泽洛高地。曼施泰因陆军元帅现在将接过指挥，继续	prose	1
 af Svinhufvud	阿夫·斯温胡夫武德	root	2
+air defense	对空防御（部队数值）/ 防空（兵种·战报）	glossary	1
+air mission	空中任务	glossary	1
+air support	空中支援	glossary	1
+air transport	空运 / 空中运输	glossary	1
 airborne and naval operation on Crete...	在克里特岛实施空降与海上作战……	prose	1
 airport	机场	xscn	1
 al Za'im	扎伊姆	root	1
@@ -112507,11 +112653,13 @@ at R	反坦克团	glossary	1
 at R/KAR	at 团/KAR	xscn	2
 at first, you should just hold the Kernstown-line, and take glasshouse in the west; then move with your glasshouse-group forward to Kernstown...then you can attack Kernstown from two sides...	首先，您只需守住克恩斯敦防线，并夺取西面的玻璃屋；然后率您的玻璃屋集群向克恩斯敦推进……这样您就能从两个方向进攻克恩斯敦了……	prose	1
 atB	反坦克营	glossary	1
-atB/Habforce/Arab Legion	atB/Habforce/阿拉伯军团	xscn	2
+atB/Habforce/Arab Legion	atB/哈巴尼亚部队/阿拉伯军团	xscn	2
 atB/Saharian Grouping	atB/撒哈拉集群	xscn	2
 atR	反坦克团	glossary	1
 atR/10 Indian Div	atR/第10印度师	xscn	2
+attachment	附件（挂载）	glossary	1
 aux Livorno	辅助舰 里窝那	xscn	2
+auxiliary / aux	辅助单位	glossary	1
 b.  take a V or TV for Jassy-Kishinev Offensive : Defense on Dniester	b. 在雅西-奇西瑙攻势：德涅斯特河防线取得胜利（V）或战术胜利（TV）	prose	1
 bFAR 12/ Bav ID 3 [8]	bFAR 12/ 巴伐利亚步兵师3 [8]	xscn	1
 bFuAR 4/ Jaeger Div	bFuAR 4/ 猎兵师	xscn	1
@@ -112531,6 +112679,7 @@ being our best general, you have the honor to start the attack...	作为我们�
 ben Boubker	本·布卜克尔	root	1
 ber. Schutztruppe	ber. 殖民部队	root	1
 berittene Boxer	berittene 义和团	xscn	1
+beta	测试版	glossary	1
 betonierter Stuetzpunkt	betonierter 支撑点	root	1
 bh.1/25.ID/II/[4]	bh.1/第25步兵师/II/[4]	xscn	1
 bh.3/31.ID/-/[9]	bh.3/第31步兵师/-/[9]	xscn	1
@@ -112556,6 +112705,7 @@ bk13	地堡13	xscn	1
 bk14	地堡14	xscn	1
 bk15	地堡15	xscn	1
 bombardment.	炮击。	prose	1
+brilliant victory	辉煌胜利	glossary	1
 brit. Ballon	brit. 气球	root	1
 by Dinstühler, March 1942.	摄影：Dinstühler，1942年3月。	prose	1
 by Nikolai Dobrovolsky	作者：Nikolai Dobrovolsky	prose	1
@@ -112564,6 +112714,7 @@ by Rudolf Kessler, July 1941.	摄影：Rudolf Kessler，1941年7月。	prose	1
 by Santiago Fuertes 2005.	作者 Santiago Fuertes，2005年。	prose	1
 by Weper Hermann,13 German Mobile Assault Unit. 4 June 1940.	摄影：Weper Hermann，德国第13机动突击队。1940年6月4日。	prose	1
 by now we only control the area east of Petersburg....	到目前为止，我们只控制着彼得斯堡以东的地区……	prose	1
+campaign	战役	glossary	1
 captured Circus	缴获的竞技场	xscn	1
 captured Watchtower	缴获的瞭望塔	xscn	1
 captured numidian Elephants	缴获的努米底亚的战象	xscn	1
@@ -112582,6 +112733,7 @@ congratulations to the "Revengers of Waghaeusel" !	祝贺「瓦格霍伊瑟尔�
 contrary to some other generals, I really appreciate my black units. Some of my best units are formed from black men...Finally we conduct this war for them and for the freedom of all men... as we did in 1848..	与某些其他将领不同，我真心看重我的黑人部队。我的一些精锐部队正是由黑人组成的……归根结底，我们进行这场战争是为了他们，也是为了所有人的自由……正如我们在1848年所做的那样……	prose	1
 control of northeastern Gaul!	掌控之中！	prose	1
 converted for OG - PL-Version: M. Kessler	为 OG 转换 - 波兰版：M.凯斯勒	prose	1
+core unit	核心单位	glossary	1
 cottages	村舍	root	1
 cykliste pechota	自行车步兵	root	1
 d'Adlerois	达德勒鲁瓦	root	2
@@ -112720,6 +112872,7 @@ del Rosal	德尔·罗萨尔	root	1
 del Toro	德尔·托罗	root	1
 den Bakker	登巴克	root	2
 den Ouden	登奥登	root	1
+deployment	部署	glossary	1
 deserted german Legionaires	逃亡的日耳曼军团兵	root	1
 deutsche Siedler	德国移民	xscn	1
 deutsche demokratische Legion	德国 demokratische 军团	xscn	1
@@ -112799,6 +112952,7 @@ el-Hakim	哈基姆	root	1
 el-Mzerra	姆宰拉	xscn	1
 empty	空	root	1
 entering the action near the enemy positions to support us.	进入敌方阵地附近投入行动以支援我们。	glossary	1
+entrench / entrenchment	构筑工事 / 工事	glossary	1
 entrenched Infantrie	entrenched 步兵	root	1
 entrenched Infantry	设防步兵	root	1
 entrenched Infantry (BI)	entrenched 步兵 (BI)	root	1
@@ -112808,6 +112962,7 @@ entrenched Infantry (com)	entrenched 步兵 (com)	root	1
 entrenched Infantry (soz)	entrenched 步兵 (soz)	root	1
 entrenched Infantry ´44	entrenched 步兵  44	root	1
 entrenched Partizansky	战壕游击队	root	1
+equipment / e-file	装备 / 装备文件（efile）	glossary	1
 etruscan Expedition Forces	伊特鲁里亚的远征部队	xscn	1
 etruscian Secret Service	伊特鲁里亚的秘密情报处	xscn	1
 ex 7e Armée	原第7集团军	glossary	1
@@ -112868,6 +113023,7 @@ heavy coastal Battery	重型海岸炮台	root	1
 heavy fortress battery	重型要塞炮台	root	1
 here will help liberate the Ukraine and force the Bolsheviks to make peace on our terms.	将有助于解放乌克兰，并迫使布尔什维克按我方条件求和。	prose	1
 herewith, we comply with your request: General Franz Sigel will be detached as commander or your cavalry to your army corps. Furthermore we comply with the request of some of your best cavalrists to built a cavalry regiment of their own:	兹就所请答复如下：弗朗茨·西格尔将军将被调派为您的军的骑兵指挥官。此外，我们批准您麾下几位最优秀骑兵的请求，让他们组建一个属于他们自己的骑兵团：	prose	1
+hex	格	glossary	1
 hide House	hide 房屋	root	1
 hider Bunker	hider 碉堡	root	1
 http://es.geocities.com/latingenerals/ - The Latin Generals home	http://es.geocities.com/latingenerals/ - 拉丁将军之家	glossary	1
@@ -112882,6 +113038,7 @@ hvy. Wagon	重马车	root	1
 if you plan to run for presidency in the future, I could help you with advice...	如果您将来打算竞选总统，我可以为您出谋划策……	prose	1
 in fact Claudius, follower of the hated Caligula and grandson of Caesars heir Augustus, finally conquered England some decades after year zero.	实际上，是克劳狄——可憎的卡利古拉的追随者、凯撒的继承人奥古斯都之孙——在公元后数十年最终征服了英格兰。	prose	1
 indische Reserve	indische 预备役	xscn	1
+initiative	先手	glossary	1
 intended for reconnaissance.	侦察。	prose	1
 into southern Russia. Our Romanian Allies have rejoined us and will help you to liberate their	向俄国南部推进中扮演关键角色。我们的罗马尼亚盟友已重新加入我们，并将帮助你解放他们	prose	1
 it is now that we are in front of the lion´s hole... the lion is hurted and has drawn back to the outmost corner of his cave... but he still is really dangerous..... may be even more dangerous then ever... before as he knows there is nothing to lose for him....	此刻我们正站在狮穴之前……这头狮子受了伤，已经退缩到洞穴的最深处……但它依然极其危险……也许比以往任何时候都更危险……因为它知道自己已没有什么可失去的了……	prose	1
@@ -112912,6 +113069,7 @@ leKpw II	轻型坦克 II	root	1
 leKpw II/K	轻型坦克 II/K	root	1
 lePferdewagen	轻马车	root	1
 lePzSpWg (not used)	lePzSpWg (未使用)	root	2
+leader	指挥官	glossary	1
 leichtes MG	轻机枪	root	1
 lght.Auxiliares	轻装辅助军	root	1
 lght.Auxiliares w. rom. Officer	轻装辅助军（罗马军官）	root	1
@@ -112926,6 +113084,7 @@ light MG	light 机枪	root	1
 light carriage	轻型马车	root	1
 light coastal Battery	light 海岸炮台	root	1
 light fortress battery	轻型要塞炮台	root	1
+loss / defeat	失败	glossary	1
 lost province of Moldavia. The key city in this province is Kishinev, and it is also your primary	失去的摩尔达维亚省。该省的要城是基希讷乌，它也是你的首要	prose	1
 m/batt 11	迫击炮/第11炮兵连	xscn	1
 m/batt 12	迫击炮/第12炮兵连	xscn	1
@@ -112941,6 +113100,7 @@ m/batt 21	迫击炮/第21炮兵连	xscn	1
 m/batt 22	迫击炮/第22炮兵连	xscn	1
 m/batt 26	迫击炮/第26炮兵连	xscn	1
 macAdler	麦克阿德勒	root	2
+major / minor / tactical victory	大胜 / 小胜 / 战术胜利	glossary	1
 maybe a modern MG would be a wise decision, too....	也许装备一挺现代机枪也是个明智的决定……	prose	1
 mech.Art.Reg./183	mech.Art.Reg./第183	xscn	2
 mech.Art.Reg./42CD	机械化炮兵团/第42骑兵师	xscn	2
@@ -112949,8 +113109,10 @@ med. Auxiliares	中型辅助军	root	1
 med. Catapult	中型投石机	root	1
 minelayer Trygvason	布雷舰 特吕格瓦松	prose	1
 minesweeper Rauma	扫雷艇 劳马	prose	1
+mod / modification	MOD / 修改版	glossary	1
 motInfReg9/3.mot	第9摩托化步兵团/第3摩托化师	xscn	2
 mounted guardia de asalto	骑乘突击卫队	root	1
+movement rate	移动力	glossary	1
 nativ transporters	土著运输	root	1
 nd Bn./ Gloucestershire Reg./ 13th Brig./ 6th Div	nd 营/ Gloucestershire 团/ 第13旅/ 第6师	xscn	1
 needed in Hungary where the situation is critical.  The Bolsheviks have besieged Budapest,	在匈牙利十分急需，那里的局势危急。布尔什维克已包围布达佩斯，	prose	1
@@ -112962,6 +113124,7 @@ now the time has come to draw our attack into enemy country...	现在，把我�
 now we have planned your corps for reconniassance and sabotage missions in the enemy country....	现在我们已安排您的军深入敌国执行侦察和破坏任务……	prose	1
 now you should advance to the interior of Missouri with caution.	现在您应谨慎地向密苏里腹地推进。	prose	1
 nyet	绝不	prose	1
+objective	目标	glossary	1
 objective.  Not only is this assignment strategically important, it is politically critical.  With	目标。这项任务不仅在战略上重要，在政治上也很关键。随着	prose	1
 of collapse and Russia on the brink of a	崩溃的危险之中，俄国濒临	prose	1
 of the ANZACs:	由此开始：	prose	1
@@ -112979,6 +113142,7 @@ our drive to free all of the Fatherland from the Bolsheviks.  Your superb tactic
 our order is to secure Arkansas for the Union !	我们的命令是为联邦确保阿肯色州！	prose	1
 our spies report that a legion has already landed directly in front of us, and even more are just before the landing ....	我们的探子报告，已有一个军团就在我们正前方登陆，还有更多正准备上岸 ....	prose	1
 ours accomplishments in Africa pitch in attack on English base on Malta. At last this island occupy and gain control of whole region Mediterranean sea. English fleet base on Gibraltar and  Alexandria will step by step destroyed - gone and Rommel forces will set England heavy overthrow.	我们在非洲的战果将投入对马耳他英军基地的进攻。最终占领该岛，掌控整个地中海地区。驻直布罗陀与亚历山大的英国舰队将逐步被摧毁，隆美尔的部队将给英格兰以沉重打击。	prose	1
+overrun	击溃	glossary	1
 oz. Luky	卢基湖	xscn	1
 oz. Pulemec'ke	普莱梅茨湖	xscn	1
 oz. Svitjaz'	斯维佳济湖	xscn	1
@@ -113006,6 +113170,7 @@ palisade SW + Tower	木栅 西南 + 塔楼	root	1
 palisade SW-N	木栅 西南-北	root	1
 palisade W	木栅 西	root	1
 palisade W + Tower	木栅 西 + 塔楼	root	1
+patch	补丁	glossary	1
 pf鋖zisch-badische Revolutionsarmee	普法尔茨-巴登革命军	xscn	1
 pf鋖zische Revolutions Armee	pfalzische Revolutions 集团军	xscn	1
 phoenician Wargalley	腓尼基战桨船	root	1
@@ -113037,8 +113202,10 @@ praetoriani Legio I / V	禁卫第1军团/第5大队	xscn	1
 praetoriani Legio I / VI	禁卫第1军团/第6大队	xscn	1
 praetoriani Legio I / VII	禁卫第1军团/第7大队	xscn	1
 praetoriani Legio I / VIII	禁卫第1军团/第8大队	xscn	1
+prestige	威望	glossary	1
 prestige and "ammunition". They also can creat "Lilia fields", the ancient equivalent of minefields. A "Lilia" is a camouflaged hole in the ground with a sharpened pile at its bottom.	声望与「弹药」。他们还能制造「百合场」——古代的雷场。一根「百合」就是地上一个伪装过的坑，坑底插着削尖的木桩。	prose	1
 preussische Landwehr	preussische 国民军	xscn	1
+prototype	原型机 / 原型装备	glossary	1
 pulk artylerii/ 1st Dyw. Litewsko-Bialoruska	团 artylerii/ 第1师 Litewsko-Bialoruska	xscn	1
 pzmaniac rgt (att) [5GT] 6GTA	pzmaniac团(配属) [5GT] 第6近卫坦克集团军	xscn	1
 r B	侦察营	glossary	1
@@ -113046,11 +113213,13 @@ r B/10 Indian Div	r B/第10印度师	xscn	2
 rB/50 ID/XIII/VIII	侦察营/第50步兵师/第13军/第8集团军	xscn	2
 re	侦察营	glossary	1
 re/1 ID	re/第1步兵师	xscn	2
+readme	说明	glossary	1
 really?	真的吗？	prose	1
 rebellious Slaves	叛乱的奴隶	xscn	2
 received news that there was no	得知在英格兰	prose	1
 recommended prestige is 100-125.	建议威望设为 100—125。	prose	1
 recommended setting for two expierenced Generals: 100:100	两位有经验的统帅的推荐设置：100:100	prose	1
+reinforcement	补充（兵员）	glossary	1
 reinforcements, so do whatever you can and take the needed oil for the Deutsches Reich !	调来的第10印度师，所以尽您所能，为德意志帝国夺取所需的石油！	glossary	1
 response to their treacherous attack you have been chosen to play a key role in our drive	对他们背信弃义进攻的回应，你被选中在我方	prose	1
 rest of the confederate Navy gather near Fort Fisher...	邦联海军残部在费舍尔堡附近集结……	prose	1
@@ -113100,6 +113269,7 @@ rt.AD.6/8.KD/-/[2]	rt.AD.6/第8骑兵师/-/[2]	xscn	1
 rt.AD.7/1.KD/-/[3]	rt.AD.7/第1骑兵师/-/[3]	xscn	1
 rt.AD.9/9.KD/Hauer/[9]	rt.AD.9/第9骑兵师/Hauer/[9]	xscn	1
 rt.HAD.1/11.HKD/KuK VI/[11]	rt.HAD.1/11.HKD/奥匈 VI/[11]	xscn	1
+rugged defense	顽强防御	glossary	1
 s'Arenal	萨雷纳尔	xscn	1
 s.Afrk.UnionsTruppen	南非联邦部队	xscn	1
 s.Art Abt 637 [Arko 128]	重炮兵第637营 [Arko 128]	xscn	1
@@ -113127,6 +113297,7 @@ sPzJg.Abt. 313/XI	sPzJg.Abt. 313/第11	xscn	2
 sPzKp/-/2Pz/SSDasReich [2SS]	重装甲连/-/第2装甲/党卫军帝国师 [2SS]	xscn	1
 sRFAR.1/7.KD/-/[4]	sRFAR.1/第7骑兵师/-/[4]	xscn	1
 sTk.Btl./184MD	重型坦克营/第184摩托化师	xscn	2
+scenario	场景	glossary	1
 schw. Cavallery	重骑兵	root	1
 schwere Artillerie-Abteilung 456	第456重型炮兵营	xscn	1
 schwere Artillerie-Abteilung 457	第457重型炮兵营	xscn	1
@@ -113145,6 +113316,8 @@ so let us draw out of Virginia for the moment...	那么，我们暂且撤出弗�
 sofafi - Height 226	索法菲-226高地	xscn	1
 some more help: http://www.vhu.sk/data/att/619_obr1.jpg	更多帮助：http://www.vhu.sk/data/att/619_obr1.jpg	prose	1
 some ours army troops stayed deep in back of the neck Soviet army and try fight to our lines. You must eat help go round or surmount Soviet defence,occupy airport, which is to hand our transport aeroplanes and from here then will evacuating to the our back of the back area.	我军部分部队深陷苏军后方，正奋力向我军防线突围。你必须绕过或突破苏军防线，占领机场——那里有我方运输机待命，随后便能将他们撤离至后方腹地。	prose	1
+spotting / spot	侦察 / 侦察范围	glossary	1
+squad / platoon / company / battalion / regiment / division / corps / army	班 / 排 / 连 / 营 / 团 / 师 / 军 / 集团军	glossary	1
 stone-fortress gate	石堡垒门	root	1
 stone-fortress wall	石堡垒墙	root	1
 stonewall E	石墙 东	root	1
@@ -113167,6 +113340,7 @@ stonewall l u	石墙 左上	root	1
 stonewall r d	石墙 右下	root	1
 stonewall r u	石墙 右上	root	1
 sual	苏阿尔	xscn	3
+supply	补给	glossary	1
 support Gp 11	第11支援群	xscn	1
 support Gp 21	第21支援群	xscn	1
 support Gp 26	第26支援群	xscn	1
@@ -113182,6 +113356,7 @@ s黡Afrikanische UnionsTruppen	南非联邦部队	xscn	1
 tchn.Einht.Songa/dt.OstAfrkSchtzTr.	松加技术分队/德属东非殖民军	xscn	1
 temporary bridge	临时桥	root	1
 ter Poorten	特尔波尔滕	root	1
+terrain	地形	glossary	1
 test	测试	xscn	1
 that has some characteristics of aircrafts, but can´t pass over Rivers and have to stop there like all other units. You can choose them with the "eye" button (like the aircraft button in PG)	它具有飞机的某些特性，但不能越过河流，必须像其他所有单位一样在河边停下。你可以用「眼睛」按钮选择它们（相当于 PG 里的飞机按钮）	prose	1
 the 20th Estonian SS-Freiwilligen-Divison at Debrecia....	德布勒森的第20党卫军爱沙尼亚志愿师……	prose	1
@@ -113225,6 +113400,8 @@ together with the Battle of Alesia this is Caesars masterpiece... a hard Nut for
 took over the power of the fortified towns,the North Sea Station,the encircling land of Oldenburg in Ostfriesland and all the surrounding islands, without resistance of the military station commands and declared on 10 November 1918 in front of 100,000 enthusiastic demonstrators in Wilhelmshaven,	接管了各设防城镇、北海站、东弗里斯兰环绕奥尔登堡的土地以及周围所有岛屿的权力，未遭军事驻地司令部的抵抗，并于1918年11月10日在威廉港十万名群情激昂的示威者面前宣布，	prose	1
 training ship Tordenskjold	训练舰 托登舍尔德	prose	1
 transport of weapons	武器的运输	xscn	1
+turn	回合	glossary	1
+unit	单位	glossary	1
 v 1.0 - Fictional scenario	v 1.0 - 虚构场景	prose	1
 van Adler	范·阿德勒	root	2
 van Beek	范贝克	root	2
@@ -113278,6 +113455,7 @@ very well done but we cannot take profit out of our victory: our troops are tied
 very well done!	干得非常好！	prose	1
 very well done, Sir, but now we haveto call you back.... at the moment we are not able to send you support... and even more important:	干得非常好，长官，但现在我们不得不把您调回来……眼下我们无法给您派去支援……而且更重要的是：	prose	1
 very well done. You have secured this part of the coast !	干得非常好。您已确保了这段海岸的安全！	prose	1
+victory hex	胜利格	glossary	1
 von Abele/2KD(d)/-/[SdW]	von Abele/第2骑兵师(d)/-/[SdW]	xscn	1
 von Adler	冯·阿德勒	root	2
 von Alten	冯·阿尔滕	root	1
@@ -113586,6 +113764,25 @@ von und zu Bodman	冯·翁德·楚·博德曼	root	1
 von zur Mühlen	冯楚尔米伦	root	1
 von Üxküll-Gyllenband	冯·于克斯屈尔-吉伦班德	root	1
 vos Arechauskae	阿列豪斯卡耶湖	xscn	1
+w/Bren	布伦机枪车运载	glossary	1
+w/Camion	卡车牵引	glossary	1
+w/Carro	车辆牵引	glossary	1
+w/Charrette	马车牵引	glossary	1
+w/Ciezarowka	卡车牵引	glossary	1
+w/Gruzovik	卡车牵引	glossary	1
+w/Jeep	吉普车牵引	glossary	1
+w/Krad	摩托车牵引	glossary	1
+w/Kuoma	库尔马卡车牵引	glossary	1
+w/Kuorma	库尔马卡车牵引	glossary	1
+w/LKW	卡车牵引	glossary	1
+w/M	M3A1 运载	glossary	1
+w/Pferden	骡马牵引	glossary	1
+w/Szeker	马车牵引	glossary	1
+w/Teherkocsi	卡车牵引	glossary	1
+w/Truck	卡车牵引	glossary	1
+w/Vagon	马车牵引	glossary	1
+w/Vogn	马车牵引	glossary	1
+w/Wagon	马车牵引	glossary	1
 wagon	马车	root	1
 war hell, biggest counter-offensive against Armeegruppe Mitte.	战争炼狱，针对中央集团军群的最大规模反攻。	prose	1
 water catchment	集水区	xscn	3
@@ -113600,6 +113797,7 @@ we have to srtike quickly into the heart of the beast !	我们必须迅速打击
 we have won, I fullfilled my duty: I resign as general, return to my school and teach young people again.....	我们赢了，我尽到了职责：我辞去将军职务，回到我的学校，重新教导年轻人……	prose	1
 we were able to secure this area.... but we have to retreat....General Lee is moving with a large army towards Washington....	我们得以守住了这一地区……但我们必须撤退……李将军正率领一支大军向华盛顿开来……	prose	1
 we've fought very brave, but the Prussians sent more and more troops against us... at last our front collapsed....	我们打得很英勇，但普鲁士人派来越来越多的部队进攻我们……最终我们的战线崩溃了……	prose	1
+weather	天气	glossary	1
 well done ! now we must try to move further into Virginia...!	干得好！现在我们必须设法继续向弗吉尼亚深处推进……！	prose	1
 well done General,	干得好，将军，	prose	1
 well done but we cannot take profit out of our victory: our troops are tied everywhere...	干得好，但我们无法从胜利中获益：我们的部队到处都被牵制住了……	prose	1
@@ -121383,8 +121581,8 @@ zu Eulenberg	楚奥伊伦贝格	root	1
 ÄãÕæÒÔÎªÎÒÃÇÊÇÔÚÊ»ÏòÕäÖé¸ÛÂð£¿ ÇëÔÊÐíÎÒËµÃ÷¸ø¹ó²¿ÕæÕýµÄ¼Æ»®¡£ ÓëÎÒÃÇÍ¬ÐÐµÄÄÇÖ§±à¶ÓÈ·ÊµÊÇÈ¥ÕäÖé¸Û£¬¶øÄãµÄ²¿¶Ó½«Í¬Ê±ÔÚ¾É½ðÉ½ÒÔÄÏµÄÃÉÌØÀ×º£Ì²ÊµÊ©Ò¹¼äµÇÂ½¡£ Õâ´ÎË«ÖØÍ»»÷½«³¹µ×´òÃÀ¹úÈËÒ»¸ö´ëÊÖ²»¼°£¬ÒòÎªËûÃÇÖ»ÔÚµÈ´ý¶ÔÕäÖé¸Û»ò°¢À­Ë¹¼ÓµÄ½ø¹¥£¬¶ø¾øÃ»Ïëµ½»áÓÐÈË½ø¹¥ÃÀ¹ú±¾ÍÁ£¡ ËûÃÇÒÑ¿ªÊ¼ÔÚº£Ì²ÉÏÐÞ½¨·ÀÓù¹¤ÊÂ£¬µ«±øÁ¦²»×ãÒÔ×èµ²ÎÒÃÇµÄÒ¹Ï®¡£ ËûÃÇÖ»ÓÐ¼¸¸öÐÂ±à³ÉµÄÊ¦ºÍ¼ÓÀû¸£ÄáÑÇµÄ"¹úÃñ¾¯ÎÀ¶Ó"¡£	你真以为我们是在驶向珍珠港吗？ 请允许我说明给贵部真正的计划。 与我们同行的那支编队确实是去珍珠港，而你的部队将同时在旧金山以南的蒙特雷海滩实施夜间登陆。 这次双重突击将彻底打美国人一个措手不及，因为他们只在等待对珍珠港或阿拉斯加的进攻，而绝没想到会有人进攻美国本土！ 他们已开始在海滩上修建防御工事，但兵力不足以阻挡我们的夜袭。 他们只有几个新编成的师和加利福尼亚的"国民警卫队"。	prose	1
 ÄãÖ»ÓÐÒ»¸öÈÎÎñ£»ÏûÃð×Ê±¾Ö÷ÒåÊÆÁ¦µÄ²ÐÓà¡£·ñÔò£¬ËûÃÇ½«´ÓÆä¸ªÉ½¾Ýµã»ñµÃ¸ü¶àÔöÔ®ºÍÖ§³Ö¡£Ñ¸ËÙ°ÑËûÃÇ¸ÏÏÂº££¬³¯ÏÊ½«³ÉÎªÍ³Ò»µÄ³¯ÏÊÈËÃñ¹²ºÍ¹ú¡£	你只有一个任务；消灭资本主义势力的残余。否则，他们将从其釜山据点获得更多增援和支持。迅速把他们赶下海，朝鲜将成为统一的朝鲜人民共和国。	prose	1
 ÄãÖÕÓÚµÃÒÔÔÚÒ¹¼ä½«²ÐÓà²¿¶Ó×°ÔØÉÏ´¬¡­¡­ÎÒÏ£ÍûÄãµÄÎäÊ¿ÃÇÃ»ÓÐÔâÊÜÌ«´óËðÊ§¡£ ÈÕ±¾º£¾ü×î¸ßÍ³Ë§²¿ÒªÇóÄãÒÔÔÚÌìÄþµºÍ¬ÑùµÄ·½Ê½·ÀÊØ¹Øµº¡£	你终于得以在夜间将残余部队装载上船……我希望你的武士们没有遭受太大损失。 日本海军最高统帅部要求你以在天宁岛同样的方式防守关岛。	prose	1
-Äã×îºÃ´ÇÖ°£¬È¥¿ªÒ»¼Ò¡°friterie/frituur¡±¡£	你最好辞职，去开一家“friterie/frituur”。	prose	1
 Äã×îºÃ´ÇÖ°£¬È¥¿ªÒ»¼Ò¡°gaufre¡±µê¡£	你最好辞职，去开一家“gaufre”店。	prose	1
+Äã×îºÃ´ÇÖ°£¬È¥¿ªÒ»¼Ò¡°ÊíÌõµê¡±¡£	你最好辞职，去开一家“薯条店”。	prose	1
 Äã×÷Îª½â·Å¾üÖ¸»ÓÔ±µÄµÚÒ»ÏîÈÎÎñ½«ÔÚ¼ªÁÖÊ¡£¬ÎÒÃÇÔÚÄÇÀïµÄ»ùµØÉèÔÚÁÙ½­¡£ÂúÖÞµÄ¾ÖÊÆºÜ¸´ÔÓ¡£ÎÒÃÇÐèÒªÂúÖÞÓÐ¼¸¸öÔ­Òò£ºµÚÒ»£¬ËüµÄ±ß½ç¿¿½üËÕÁª£¬Ò²¿¿½üÎÒÃÇÕý´ÓËÕÁª»ñµÃµÄÖ§Ô®£»µÚ¶þ£¬ÂúÖÞÊÇÈ«ÖÐ¹ú¹¤Òµ»¯³Ì¶È×î¸ßµÄµØÇø£¬ÎÒÃÇÐèÒªÕâÀïµÄ×ÊÔ´£¬Ò²ÐèÒª·ÀÖ¹¹úÃñµ³´ÓÖÐ»ñÀû¡£	你作为解放军指挥员的第一项任务将在吉林省，我们在那里的基地设在临江。满洲的局势很复杂。我们需要满洲有几个原因：第一，它的边界靠近苏联，也靠近我们正从苏联获得的支援；第二，满洲是全中国工业化程度最高的地区，我们需要这里的资源，也需要防止国民党从中获利。	prose	1
 Äô¼ÒºÓ	聂家河	prose	1
 Äù¶û¸ÇÊ²É½£¨É­ÁÖ£©	涅尔盖什山（森林）	prose	1

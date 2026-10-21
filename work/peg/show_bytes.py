@@ -18,6 +18,14 @@
 import sys
 import os
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 BASE = 0x400000
@@ -32,7 +40,7 @@ SECS = [
     ]
 ]
 
-V4 = r"D:\Program Files\PeG-1\PeG030res.exe"
+V4 = os.path.join(GAME_ALT, "PeG030res.exe")
 
 # 默认要看的候选点（VA:长度）——v5 变体要动的立即数附近
 DEFAULT = [

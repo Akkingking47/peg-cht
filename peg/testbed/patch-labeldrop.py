@@ -24,7 +24,14 @@
 """
 import os, sys, shutil, hashlib
 
-GAME = r"D:\Program Files\PeG"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 ORIG = os.path.join(GAME, "PeG030.exe.orig-backup")   # 原版（2026-10-10 备份）
 OUT  = os.path.join(GAME, "PeG030zh.exe")             # 补丁版（同时含补丁 #1 的行尾类别表）
 LIVE = os.path.join(GAME, "PeG030.exe")

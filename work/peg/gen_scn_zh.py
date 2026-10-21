@@ -29,11 +29,18 @@ import sys
 import shutil
 import collections
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from lineage import parse_argv, rel, show_help, want_help  # noqa: E402  D-1 溯源（缺省关闭）
 
-ROOT = r"D:\DSH\军事游戏汉化"
-GAME = r"D:\Program Files\PeG"
+ROOT = WS
 SRC_DIRS = [os.path.join(GAME, "Scenario"), os.path.join(GAME, "Userscen")]
 BACKUP = os.path.join(ROOT, r"peg\testbed\backup")
 OUTDIR = os.path.join(ROOT, r"peg\testbed\scn-zh")

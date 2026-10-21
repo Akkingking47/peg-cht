@@ -209,10 +209,6 @@ Bierset	EFILE_OLGWW2	比尔塞特	比尔塞特×3 | 比尔塞×1	REAL	PLACE	4
 Bir Kamayla	EFILE_OLGWW2	比尔卡马伊拉	比尔卡马伊拉×2 | 比尔卡迈拉×2	REAL	PLACE	4
 Bir Shimeina	EFILE_OLGWW2	比尔希梅纳	比尔希梅纳×2 | 比尔希迈纳×2	REAL	PLACE	4
 Bizerte : PORT	EFILE_OLGWW2	比塞大 : 港口	比塞大 : 港口×3 | 比塞大：港口×1	REAL	PLACE	4
-Bon. Caz. Asturias No.1	EFILE_OLGWW2	阿斯图里亚斯猎兵第1营	阿斯图里亚斯猎兵第1营×2 | 第76猎兵营 阿斯图里亚斯 第1号×2	REAL	PLACE	4
-Bon. Caz. Gijon No.2	EFILE_OLGWW2	希洪猎兵第2营	希洪猎兵第2营×2 | 第76猎兵营 希洪 第2号×2	REAL	PLACE	4
-Bon. Caz. Langreo No.3	EFILE_OLGWW2	兰格雷奥猎兵第3营	兰格雷奥猎兵第3营×2 | 第76猎兵营 兰格雷奥 第3号×2	REAL	PLACE	4
-Bon. CNT No.5	EFILE_OLGWW2	全国劳工联盟第5营	全国劳工联盟第5营×2 | 第76营 CNT 第5号×2	REAL	PLACE	4
 Bourbourgville	EFILE_OLGWW2	布尔堡城	布尔堡城×2 | 布尔堡维尔×2	REAL	PLACE	4
 Br	EFILE_OLGWW2	第1装甲旅	第1装甲旅×2 | 英国×2	REAL	PLACE	4
 Bray Dunes	EFILE_OLGWW2	布赖迪讷	布赖迪讷×2 | 布雷迪讷×2	REAL	PLACE	4
@@ -779,21 +775,6 @@ Auckland - NZ Invasion	EFILE_OLGWW2	奥克兰——新西兰入侵	奥克兰—�
 Aufkl.-Abt. 3 / 3 Pz.Div./ XVI AK / AOK 6	EFILE_OLGWW2	3侦察营/3装甲师/第16军/第6集团军	3侦察营/3装甲师/第16军/第6集团军×1 | 第3侦察营 / 第3装甲师/ 第16军 / 第6集团军×1	REAL	TEXT	2
 Bataan; The annihilation Pursuit	EFILE_OLGWW2	巴丹；歼灭追击	巴丹；歼灭追击×1 | 巴丹；歼灭追击战×1	REAL	TITLE	2
 Battle for Nanchang	EFILE_OLGWW2	南昌战役	南昌战役×1 | 南昌之战×1	REAL	TITLE	2
-Bon Pontonniers d'Armée	EFILE_OLGWW2	集团军架桥营	集团军架桥营×1 | 第76架桥工兵营×1	REAL	PLACE	2
-Bon. A. de la Fuente	EFILE_OLGWW2	A.德拉富恩特营	A.德拉富恩特营×1 | 第76营 A. de la Fuente×1	REAL	PLACE	2
-Bon. Cienfuegos	EFILE_OLGWW2	先丰营	先丰营×1 | 第76营 西恩富戈斯×1	REAL	PLACE	2
-Bon. CNT No.1	EFILE_OLGWW2	全国劳工联盟第1营	全国劳工联盟第1营×1 | 第76营 CNT 第1号×1	REAL	PLACE	2
-Bon. CNT No.2	EFILE_OLGWW2	全国劳工联盟第2营	全国劳工联盟第2营×1 | 第76营 CNT 第2号×1	REAL	PLACE	2
-Bon. CNT No.4	EFILE_OLGWW2	全国劳工联盟第4营	全国劳工联盟第4营×1 | 第76营 CNT 第4号×1	REAL	PLACE	2
-Bon. Commune de Paris	EFILE_OLGWW2	巴黎公社营	巴黎公社营×1 | 第76营 巴黎公社×1	REAL	PLACE	2
-Bon. Dutor No.1	EFILE_OLGWW2	杜托尔第1营	杜托尔第1营×1 | 第76营 Dutor 第1号×1	REAL	PLACE	2
-Bon. IR Azana	EFILE_OLGWW2	伊尔·阿萨尼亚营	伊尔·阿萨尼亚营×1 | 第76营 IR Azana×1	REAL	PLACE	2
-Bon. Jose Florez	EFILE_OLGWW2	何塞·弗洛雷斯营	何塞·弗洛雷斯营×1 | 第76营 Jose Florez×1	REAL	PLACE	2
-Bon. Larranaga	EFILE_OLGWW2	拉腊尼亚加营	拉腊尼亚加营×1 | 第76营 Larranaga×1	REAL	PLACE	2
-Bon. Llaneza	EFILE_OLGWW2	利亚内萨营	利亚内萨营×1 | 第76营 Llaneza×1	REAL	PLACE	2
-Bon. Meabe	EFILE_OLGWW2	梅亚贝营	梅亚贝营×1 | 第76营 Meabe×1	REAL	PLACE	2
-Bon. Muniz	EFILE_OLGWW2	穆尼斯营	穆尼斯营×1 | 第76营 Muniz×1	REAL	PLACE	2
-Bon. Thaelmann	EFILE_OLGWW2	台尔曼营	台尔曼营×1 | 第76营 台尔曼×1	REAL	PLACE	2
 Canal Albert (I CA)	EFILE_OLGWW2	阿尔贝运河 (第1军)	阿尔贝运河 (第1军)×1 | 阿尔贝特运河 (第1军)×1	REAL	PLACE	2
 Canarias	EFILE_OLGWW2	加那利号	加那利号×1 | 加那利×1	REAL	PLACE	2
 Carro Leggero	EFILE_OLGWW2	轻型马车	轻型马车×1 | 轻型坦克×1	REAL	EQUIP	2

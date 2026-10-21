@@ -1,24 +1,6 @@
 # 短名层：槽位受限的长→短对照（对齐 pg-cht glossary_short）
 # 判据见 slot-rules.tsv；未有据可查的行**不臆断**，只记 bytes
 en	zh_long	zh_short	bytes_long	bytes_short	slot	note
-英文原文	原译文	新译文	6	6	eqp	来源:_eqp-carrier-shorten
-21cm M18 w/251/1	21cm M18 臼炮（SdKfz 251 半履带车运载）	21cm M18 臼炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
-8.8cm PaK w/251/1	8.8cm 反坦克炮（SdKfz 251 半履带车运载）	8.8cm 反坦克炮（SdKfz 251/1）	40	29	eqp	来源:_eqp-carrier-shorten
-Sturmpioniere (E) w/ 251/1	突击工兵连（E）（SdKfz 251 半履带车运载）	突击工兵连（E）（SdKfz 251/1）	41	30	eqp	来源:_eqp-carrier-shorten
-15 sFH 18  w/251/1	15 sFH 18 重型榴弹炮（SdKfz 251 半履带车运载）	15 sFH 18 重型榴弹炮（SdKfz 251/1）	46	35	eqp	来源:_eqp-carrier-shorten
-17 K18 w/ 251/1	17 K18 加农炮（SdKfz 251 半履带车运载）	17 K18 加农炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
-8.8cm FlaK36 w/251/1	8.8cm FlaK36 高炮（SdKfz 251 半履带车运载）	8.8cm FlaK36 高炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
-8.8 FK18 ATG w/251/1	8.8 FK18 反坦克炮（SdKfz 251 半履带车运载）	8.8 FK18 反坦克炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
-21 Morser 18 w/251/1	21 Morser 18 臼炮（SdKfz 251 半履带车运载）	21 Morser 18 臼炮（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
-SS Leibstandarte w/251/1	党卫军警卫旗队（SdKfz 251 半履带车运载）	党卫军警卫旗队（SdKfz 251/1）	40	29	eqp	来源:_eqp-carrier-shorten
-SS Brückenbau (B) w/251/1	党卫军架桥连（B）（SdKfz 251 半履带车运载）	党卫军架桥连（B）（SdKfz 251/1）	43	32	eqp	来源:_eqp-carrier-shorten
-21 K38 w/251/1	21 K38 加农炮（SdKfz 251 半履带车运载）	21 K38 加农炮（SdKfz 251/1）	39	28	eqp	来源:_eqp-carrier-shorten
-Fusilier w/251/1	燧发枪兵（SdKfz 251 半履带车运载）	燧发枪兵（SdKfz 251/1）	34	23	eqp	来源:_eqp-carrier-shorten
-MG Infanterie w/251/1	机枪步兵（SdKfz 251 半履带车运载）	机枪步兵（SdKfz 251/1）	34	23	eqp	来源:_eqp-carrier-shorten
-SS Panzergrenadiere w/251/1	党卫军装甲掷弹兵（SdKfz 251 半履带车运载）	党卫军装甲掷弹兵（SdKfz 251/1）	42	31	eqp	来源:_eqp-carrier-shorten
-SS Hitlerjugend w/251/1	党卫军希特勒青年团师（SdKfz 251 半履带车运载）	党卫军希特勒青年团师（SdKfz 251/1）	46	35	eqp	来源:_eqp-carrier-shorten
-88 mm ARTY w/251/1	88 mm 炮兵（SdKfz 251 半履带车运载）	88 mm 炮兵（SdKfz 251/1）	36	25	eqp	来源:_eqp-carrier-shorten
-12.8cm PaK44 w/251/1	12.8cm PaK44 反坦克炮（SdKfz 251 半履带车运载）	12.8cm PaK44 反坦克炮（SdKfz 251/1）	47	36	eqp	来源:_eqp-carrier-shorten
 %d victory hexes for %s	%d 个胜利格属于 %s		18		ui5	超限,待补短名
 %d victory hexes for %s	%d 个胜利格属于 %s		18		ui5	超限,待补短名
 %s turn %d of %d	%s 第 %d 回合，共 %d 回合		25		ui5	超限,待补短名

@@ -2,8 +2,17 @@
 """peek_va.py <hexva> [<hexva>...] [--exe <path>] -- dump words/dwords at a VA from the on-disk EXE."""
 import sys
 import pefile
+
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
 args = list(sys.argv[1:])
-EXE = r"D:\Program Files\PeG\PeG030.exe"
+EXE = os.path.join(GAME, "PeG030.exe")
 if "--exe" in args:
     i = args.index("--exe")
     EXE = args[i + 1]

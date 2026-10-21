@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Tiller's Campaign Series 中文本地化可行性分析</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#1f2328; --muted:#57606a; --line:#d0d7de; --accent:#0969da;
+    --ok:#1a7f37; --warn:#9a6700; --bad:#cf222e; --chip:#eef2f6;
+  }
+  body{font-family:"Microsoft YaHei","PingFang SC","Segoe UI",system-ui,sans-serif;
+       max-width:1080px;margin:24px auto;padding:0 20px;color:var(--fg);background:var(--bg);line-height:1.65;}
+  h1{font-size:26px;border-bottom:3px solid var(--accent);padding-bottom:8px;}
+  h2{font-size:21px;margin-top:34px;border-left:5px solid var(--accent);padding-left:10px;}
+  h3{font-size:17px;margin-top:22px;color:#0a3069;}
+  table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px;}
+  th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top;}
+  th{background:var(--chip);font-weight:600;}
+  code{background:#f3f4f6;padding:1px 5px;border-radius:4px;font-size:12.5px;}
+  .box{border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin:14px 0;background:#fafbfc;}
+  .verdict{border-left:6px solid var(--ok);background:#f0fdf4;}
+  .warnbox{border-left:6px solid var(--warn);background:#fff8eb;}
+  .badbox{border-left:6px solid var(--bad);background:#fff5f5;}
+  .tag{display:inline-block;padding:1px 8px;border-radius:20px;font-size:12px;font-weight:600;margin-right:6px;}
+  .t-ok{background:#dafbe1;color:#1a7f37;}
+  .t-warn{background:#fff1c9;color:#9a6700;}
+  .t-bad{background:#ffebe9;color:#cf222e;}
+  .t-info{background:#ddf4ff;color:#0969da;}
+  .small{font-size:12.5px;color:var(--muted);}
+  ul{margin:8px 0 8px 0;}
+  li{margin:4px 0;}
+  .ev{font-size:13px;color:#0a3069;background:#eef6ff;padding:2px 6px;border-radius:4px;}
+  footer{margin-top:40px;border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:12.5px;}
+  .kbd{font-family:monospace;background:#eef2f6;padding:1px 5px;border-radius:3px;}
+</style>
+</head>
+<body>
+
+<h1>John Tiller's Campaign Series 中文本地化可行性分析</h1>
+<p class="small">只读扫描 · 目标目录 <code>D:\Program Files\John Tiller's Campaign Series</code> · 分析日期 2026-10-20 · <b>2026-10-20 补充：2.05 版（2025-09-08 重编译）重新核验，结论见第十节</b> · 所有结论均基于实际文件与结构，无法验证处已明确标注「推测」。</p>
+
+<!-- ============ 1. 可行性结论 ============ -->
+<h2>一、可行性结论</h2>
+<div class="box verdict">
+<p><b>总体判定：技术可行（有条件）。</b> 本系列三作共用<b>同一套文本渲染机制</b>：文本走 <b>Win32 GDI 的 TrueType 系统字体</b>（<code>MS Sans Serif</code> / <code>Times New Roman</code>），绝大多数用户可见数据（单位名、场景名、战役、描述）存在于<b>纯文本外部文件</b>中。2.05 版（2025-09-08 重编译，工具链由旧 Borland OWL 换为 <b>MFC9 / MSVC2008</b>，主引擎约 1.6MB）后，三作引擎<b>不再是字节一致</b>（ef.exe 1,609,488 B；wf.exe / risun.exe 1,610,000 B，Rising Sun 引擎改名为 <code>risun.exe</code>），但<b>字体调用与 GDI API 与旧版完全相同</b>，故汉化路径不变。这两点决定了中文汉化在技术上不存在根本性障碍。</p>
+<p>落地需要同时满足四个条件，缺一不可：</p>
+<ul>
+  <li><b>① 字体补丁</b>：把 exe 中硬编码字体名替换为中文字体（如 <code>SimSun</code> 宋体 / <code>SimHei</code> 黑体），确保渲染链路支持 CJK 字形。</li>
+  <li><b>② 中文代码页运行环境</b>：引擎使用 <code>*A</code> 系列 ANSI API（<code>CreateFontA</code>/<code>TextOutA</code>/<code>DrawTextA</code>）并按系统 ANSI 代码页读取文本，需在 <b>cp936（中文）</b> 下运行（中文 Windows 或 Locale Emulator / NTLEA 强制）。</li>
+  <li><b>③ 海量文本翻译与 GBK 重编码</b>：约数千个纯文本文件需按字段抽取、翻译、<code>decode(cp1252)→encode(GBK)</code> 回写。</li>
+  <li><b>④ 少量含英文 baked 图的重绘</b>：6–8 张 8-bit BMP（主菜单、报告框、控制条、教程、胜利画面等）内嵌英文文字，需图形重绘或替换。</li>
+</ul>
+<p class="small">置信度：文本类资源汉化与中文渲染路径 = <b>高</b>；含字图重绘 = <b>中（技术简单、工作量中等）</b>；<code>EastFont.BMP</code> 是否被某处文字使用 = <b>待运行时确认（当前证据指向"未被引用"）</b>；存档兼容 = <b>待实测</b>。</p>
+</div>
+
+<!-- ============ 2. 目录、资源关系与可翻译内容 ============ -->
+<h2>二、目录、文件类型与三部作品资源关系</h2>
+<p>顶层目录含三个游戏子目录 <b>East Front / West Front / Rising Sun（即 Pacific War）</b>，以及共享的 <code>campres.exe</code>（战役资源工具）、<code>JTCSUpdate.exe</code>、<code>Tools/</code>（UnitViewer、ScnPick）、<code>Manuals/</code>、<code>User_Mods/</code> 等。三作结构高度一致：各自拥有独立的数据文件集合，但<b>共用同一引擎二进制与同一套图形/字体资源</b>。</p>
+
+<h3>2.1 资源关系与可翻译内容定位</h3>
+<table>
+<tr><th>资源类别</th><th>代表文件 / 类型</th><th>编码 / 格式（实测）</th><th>提取与回写方式</th><th>本地化安全评级</th></tr>
+<tr>
+<td><b>EXE 内嵌 UI 字符串</b><br>（菜单、对话框、提示）</td>
+<td><code>ef.exe</code> 等；UTF-16LE 资源串 670 条 + ASCII 串 14,669 条（旧版数值；2.05 重编译后资源布局可能变化，MVP 时按新 exe 重新抽取）</td>
+<td>菜单/对话框为 <b>UTF-16 资源</b>；部分提示为 ASCII 字面量</td>
+<td>Resource Hacker 提取字符串表/菜单/对话框模板；ASCII 字面量用十六进制编辑器就地替换</td>
+<td><span class="tag t-warn">高风险修改</span>改 exe，需先备份、注意对话框定宽裁剪</td>
+</tr>
+<tr>
+<td><b>外部文本数据文件</b></td>
+<td><code>.oob</code>(单位/编制) <code>.scn</code>(场景) <code>.org</code> <code>.scl</code>(场景列表) <code>.lcg</code>(战役) <code>.pdt</code> <code>.pdx</code> <code>.btl</code> <code>.tag</code> <code>.txt</code>(描述) <code>.map</code> <code>.dat</code></td>
+<td><b>纯文本</b>（printable 率≈1.0，null≈0）。150/1299 文件含 cp1252 变音字符(ü ö ä ß ñ é)（2.05 重测）</td>
+<td>按文件格式只抽取"显示字符串"字段；<code>decode(cp1252/latin-1)→翻译→encode(GBK)</code> 回写，保留数字/分隔/换行</td>
+<td><span class="tag t-ok">可安全替换</span>外部文件，不动 exe，可逆</td>
+</tr>
+<tr>
+<td><b>含英文 baked 的位图</b></td>
+<td><code>Menu Screen.BMP</code>(640×480) <code>Command Reports.BMP</code>(250×300) <code>Controls2.BMP</code>(216×176) <code>Tutorial.bmp</code> <code>Victory0/1.BMP</code> <code>Charport.BMP</code></td>
+<td>均为 <b>8-bit 调色板 BMP</b>（非文本）</td>
+<td>用 GIMP/Photoshop 重绘中文（保持尺寸、调色板、布局），或整图替换</td>
+<td><span class="tag t-warn">高风险修改</span>需像素级重绘，破坏布局即错位</td>
+</tr>
+<tr>
+<td><b>位图字体（疑似遗留）</b></td>
+<td><code>EastFont.BMP</code>(256×256,8-bit)</td>
+<td>8-bit BMP，命名像字体表，但<b>全安装内无任何 exe/dll 引用该文件名（字节扫描 0 命中）</b></td>
+<td>若确被使用：需确认其用途；否则忽略</td>
+<td><span class="tag t-bad">不宜修改（若被用则阻塞）</span>当前证据指向未使用</td>
+</tr>
+<tr>
+<td><b>非文本资源</b></td>
+<td><code>.bmp</code> 地形/单位图(数千) <code>.bit</code>(1-bit 单色图标) <code>.ogg</code> 音效 <code>Pictures/*.bmp</code>(1269 张照片) <code>.hlp</code>(编译帮助,7)</td>
+<td>地形/图标/音频/照片=无文字或语言无关；<code>.hlp</code>=二进制编译帮助</td>
+<td>一般不改；<code>.hlp</code> 可留英文或后期用 HC 重编译</td>
+<td><span class="tag t-ok">不宜修改 / 非目标</span></td>
+</tr>
+</table>
+
+<h3>2.2 实测证据摘要</h3>
+<ul>
+<li><span class="ev">引擎（2.05 重编译）</span> 三作主引擎于 <b>2025-09-08</b> 统一重编译，工具链为 <b>MFC9 / MSVC2008</b>（导入 <code>mfc90.dll</code>/<code>MSVCP90.dll</code>）。大小不再一致：ef.exe <b>1,609,488 B</b>、wf.exe / risun.exe <b>1,610,000 B</b>；Rising Sun 引擎改名为 <code>risun.exe</code>。三作字体调用与 GDI API 一致（均已复核）。</li>
+<li><span class="ev">渲染 API（2.05 重测）</span> <code>ef.exe</code> / <code>wf.exe</code> / <code>risun.exe</code> 均导入 <code>CreateFontA</code>、<code>TextOutA</code>、<code>ExtTextOutA</code>、<code>DrawTextA</code> —— 全部 <b>ANSI</b> 版本（无 <code>...W</code> 宽字符版），按系统代码页渲染，故方案依赖 cp936。</li>
+<li><span class="ev">UTF-16 资源</span> 670 条 UTF-16LE 串（旧版数值），含 <code>&File &Help &Turn &Units &Victory... Exit program</code> 等菜单项，以及 <code>UNITLISTDIALOG / VICTORYDIALOG / TARGETDIALOG</code> 等对话框标识（2.05 重编译后需按新 exe 重新抽取并确认）。</li>
+<li><span class="ev">数据文件</span> <code>Army00.oob</code> 含 <code>Rifle Corps / Tank Brigade / Anti-Tank Regiment</code> 等单位名；<code>Agard.scn</code> 含 <code>25 Kilometers to Budapest</code> 场景标题 —— 皆为纯文本、可直接翻译。</li>
+<li><span class="ev">EastFont.BMP 未引用</span> 对 East Front 目录下<b>所有 exe/dll 做字节扫描，未发现 "EastFont" 字样</b>；字体名（<code>MS Sans Serif</code>×8 / <code>Times New Roman</code>×7 / <code>System</code>×2，ASCII 字面量）出现在 <code>ef.exe</code> 及 MFC9 框架中。结论：当前构建里 <code>EastFont.BMP</code> 疑似<b>遗留/未用资产</b>，文字渲染依赖 TrueType 系统字体。</li>
+<li><span class="ev">编码隐患</span> 1299 个文本文件中 150 个含 cp1252 变音字符（如 <code>Günther, Küchler, Skijäger, Lübbenau, Batallón, Pätzold, Säiniö, Häkkinen, Björkman</code>，2.05 重测）。在 cp936 下这些单字节会变乱码，必须 <code>decode(cp1252)→encode(GBK)</code> 转换。</li>
+</ul>
+
+<!-- ============ 3. East Front 中文渲染可行性 ============ -->
+<h2>三、East Front 中文渲染专项评估</h2>
+<div class="box">
+<p><b>是否支持中文 / 双字节渲染？</b> 引擎本身不"内置"中文，但它通过 <code>CreateFontA</code> 请求系统 TrueType 字体并以 ANSI 方式绘制。TrueType 字体内部是 Unicode，<b>能否显示中文取决于两件事</b>：(a) 请求到的字体是否含 CJK 字形（把 <code>MS Sans Serif</code> 换成 <code>SimSun</code>/<code>SimHei</code> 即可）；(b) 传入的文本字节是否被按正确代码页解读（必须 cp936）。二者齐备则中文正常显示。</p>
+<p><b>当前字体与字符集：</b>硬编码 <code>MS Sans Serif</code>（UI）与 <code>Times New Roman</code>（报告/地图文本），均为西文 TrueType，<b>不含中文 glyph</b>；字符集参数由 <code>CreateFontA</code> 的 <code>fdwCharSet</code> 决定，该值未以字符串形式出现，<b>需反汇编确认</b>（推测为 <code>ANSI_CHARSET</code>/<code>DEFAULT_CHARSET</code>）。GBK 与 DEFAULT_CHARSET 的 TrueType 字体搭配时，GDI 会按字体 Unicode 映射渲染，对中文友好。</p>
+<p><b>GBK 兼容性：</b>可行，但<b>前提是运行于 cp936</b>。若保持英文系统(cp1252)运行，GBK 双字节会被误读为西文 → 乱码。因此方案不是"让引擎支持 GBK"，而是"让引擎在中文代码页下用中文字体渲染"。</p>
+<p><b>需要替换字体 / 自制字体 / 改程序？</b> <b>替换字体名即可，无需自制字体，也无需改程序逻辑。</b> 用十六进制编辑器把 <code>MS Sans Serif\0</code> 替换为 <code>SimSun\0</code>（更短，零填充），<code>Times New Roman\0</code> 同理。若反汇编发现 charset 参数强制为某西文值，再针对性 patch 该字节为 <code>134 (GB2312_CHARSET)</code>。</p>
+</div>
+
+<!-- ============ 4. 主要障碍与证据 ============ -->
+<h2>四、主要障碍与证据</h2>
+<table>
+<tr><th>#</th><th>障碍</th><th>证据 / 说明</th><th>严重度</th></tr>
+<tr><td>1</td><td><b>代码页依赖</b>：引擎用 *A ANSI API，按系统代码页读文本</td><td>导入表含 <code>CreateFontA/TextOutA/DrawTextA</code>；UTF-16 资源存在但运行时走 ANSI 通道。非 cp936 下 GBK 双字节变乱码。</td><td><span class="tag t-bad">高</span> 须 cp936 环境或 patch 代码页</td></tr>
+<tr><td>2</td><td><b>字体不含中文</b>：硬编码西文字体名</td><td><code>MS Sans Serif</code>(×8) / <code>Times New Roman</code>(×7) / <code>System</code>(×2) ASCII 字面量出现在 <code>ef.exe</code> 及 MFC9 框架；对话框模板中可能另有 UTF-16 字体名，替换时需一并覆盖 exe 内全部字面量。</td><td><span class="tag t-warn">中</span> 替换字体名即可解</td></tr>
+<tr><td>3</td><td><b>cp1252 变音字符</b>：94/1043 文件含 ü ö ä ß ñ é</td><td>样本：<code>Günther, Küchler, Skijäger, Lübbenau, Batallón</code>。直接按 ASCII 处理会丢失或错码。</td><td><span class="tag t-warn">中</span> 须 decode(cp1252)→GBK</td></tr>
+<tr><td>4</td><td><b>含字 baked 图</b>：6–8 张 8-bit BMP 内嵌英文</td><td><code>Menu Screen / Command Reports / Controls2 / Tutorial / Victory0-1 / Charport</code> 均为 8-bit 调色板位图，文字烤进像素。</td><td><span class="tag t-warn">中</span> 需像素重绘，工作量中等</td></tr>
+<tr><td>5</td><td><b>对话框定宽裁剪</b>：中文较宽易溢出</td><td>UI 串在对话框模板中，控件尺寸为固定 dialog units。中文短语更长 → 可能截断/重叠。</td><td><span class="tag t-warn">中</span> 需 Resource Hacker 加宽控件或用紧凑中文字体</td></tr>
+<tr><td>6</td><td><b>EastFont.BMP 用途未完全确认</b></td><td>全安装字节扫描 0 命中引用；但 256×256/8-bit 命名像字体表。不排除运行时以其他方式加载用于某处文字。</td><td><span class="tag t-bad">待定</span> 须运行时/反汇编确认</td></tr>
+<tr><td>7</td><td><b>存档兼容</b></td><td>场景为外部文件，存档(<code>.btx/.btt</code>)多存单位/场景 ID 而非全文；但若存了场景名等显示串，后期翻译可能不一致。</td><td><span class="tag t-info">待实测</span> 新开游戏规避</td></tr>
+<tr><td>8</td><td><b>exe 修改不可逆风险</b></td><td>UI 串与字体名在 exe 内；改错字节会导致启动崩溃。</td><td><span class="tag t-warn">中</span> 全程备份 + 小步验证</td></tr>
+</table>
+
+<!-- ============ 5. 最小可行验证 (MVP) ============ -->
+<h2>五、最小可行验证（MVP）</h2>
+<div class="box warnbox">
+<p class="small">⚠️ 本 MVP 在执行阶段<b>只作用于备份副本</b>，不触碰 <code>Program Files</code> 下的原文件；改 exe 前必须先做全量备份。下面给出可立即执行的方案，是否启动实机由你确认。</p>
+</div>
+
+<h3>5.1 步骤</h3>
+<ol>
+<li><b>备份</b>：把整个 <code>East Front\</code> 复制到隔离工作目录（如 <code>work\jtscan\MVP\</code>）。同时单独备份 <code>ef.exe</code> + 一张 <code>.oob</code>（如 <code>Army00.oob</code>）+ <code>Menu Screen.BMP</code>。</li>
+<li><b>选样本</b>：① 一份 <code>.oob</code> 中 3–5 个单位名（如 <code>Rifle Corps→步兵军, Tank Brigade→坦克旅</code>），按 <code>decode(cp1252)→zh→encode(GBK)</code> 回写；② 在备份副本的 <code>ef.exe</code> 中把 <code>MS Sans Serif</code> 替换为 <code>SimSun</code>（零填充），并把一处 UTF-16 菜单串（如 <code>Exit program</code>）改为 <code>退出程序</code>。</li>
+<li><b>字体/代码页</b>：在 cp936 环境（中文 Windows，或 Locale Emulator 以中文区域启动备份副本的 <code>ef.exe</code>）下运行，进入任一场景，查看单位信息面板与菜单。</li>
+</ol>
+
+<h3>5.2 成功判定标准</h3>
+<ul>
+<li>✅ 单位信息面板出现中文单位名且无乱码（非 ? 或 □）；</li>
+<li>✅ 菜单出现"退出程序"等中文且无崩溃；</li>
+<li>✅ 原英文其他处仍正常显示，无报错弹窗。</li>
+</ul>
+
+<h3>5.3 失败回滚</h3>
+<ul>
+<li>任何异常：用备份的 <code>ef.exe</code> / <code>.oob</code> 直接覆盖副本即可（本 MVP 不改动原目录，原目录天然安全）。</li>
+<li>若中文显示为方块(□)：说明字体未生效 → 检查字体名写入是否准确、运行环境字体是否安装。</li>
+<li>若中文显示为问号(?)：说明代码页不对或字节被当作 ASCII → 确认 cp936 运行 + GBK 编码。</li>
+<li>若启动崩溃：说明 exe 字节改坏 → 还原 exe，改回字体名或缩小改动范围。</li>
+</ul>
+
+<h3>5.4 后续决策条件</h3>
+<ul>
+<li>MVP 全部 ✅ → 进入<b>第六节的完整分阶段实施</b>。</li>
+<li>仅数据文件中文成功、exe 菜单未变 → 排查 Resource Hacker 重编译 / UTF-16 串是否生效。</li>
+<li>出现方块/问号 → 优先解决字体名与 cp936 环境，再扩大范围。</li>
+<li>若发现某处文字（如地图标签）不随字体替换而变化 → 指向 <code>EastFont.BMP</code> 被使用，回到障碍#6 专项排查。</li>
+</ul>
+
+<!-- ============ 6. East Front 分阶段实施方案 ============ -->
+<h2>六、East Front 分阶段实施方案</h2>
+<table>
+<tr><th>阶段</th><th>目标</th><th>工具</th><th>输入 → 输出</th><th>主要风险</th><th>验证方法</th></tr>
+<tr>
+<td><b>0 准备/备份</b></td>
+<td>全量备份；建工作副本；搭工具链</td>
+<td>robocopy/xcopy；Python 3.13</td>
+<td>原 <code>East Front\</code> → 隔离副本 + 清单</td>
+<td>备份不全导致无法回滚</td>
+<td>比对文件数/大小；保留原目录只读</td>
+</tr>
+<tr>
+<td><b>1 文本清点<br>与对照表</b></td>
+<td>扫描所有文本文件，按格式只抽"显示串"字段，建 en→zh 对照表(TSV)</td>
+<td>Python 扫描脚本（字段感知）；Excel/CSV</td>
+<td>*.oob/.scn/.org/.scl/.lcg/.pdt/.pdx/.btl/.tag/.txt/.map/.dat → 抽取串 + 对照表</td>
+<td>误抽数字/标记字段破坏格式；cp1252 字符漏转</td>
+<td>逐文件"译文/保留"分布统计；抽检保留行；GBK 可解码校验</td>
+</tr>
+<tr>
+<td><b>2 UI 资源<br>翻译</b></td>
+<td>翻译 exe 的 UTF-16 串表/菜单/对话框；替换字体名；必要时 patch charset</td>
+<td>Resource Hacker；HxD/010 Editor</td>
+<td><code>ef.exe</code> 资源 → 重编译 exe（含中文字体名）</td>
+<td>对话框定宽裁剪；exe 改坏崩溃；控件重叠</td>
+<td>Resource Hacker 重编译通过；小范围启动核对；逐对话框截图</td>
+</tr>
+<tr>
+<td><b>3 数据文件<br>翻译与重编码</b></td>
+<td>按字段翻译并 <code>decode(cp1252)→zh→encode(GBK)</code> 回写，保留格式/换行/分隔</td>
+<td>Python 批处理脚本（幂等、dry-run）</td>
+<td>原文文本文件 → GBK 中文文件</td>
+<td>长度/定长字段溢出；误改非显示字段；cp1252→GBK 漏转</td>
+<td>脚本回读：GBK 可解码、行数对齐、无残留英文抽样；三态换行保留</td>
+</tr>
+<tr>
+<td><b>4 图形<br>文字重绘</b></td>
+<td>重绘 6–8 张含字 BMP 为中文（保尺寸/调色板/布局）</td>
+<td>GIMP/Photoshop；保持 8-bit 调色板</td>
+<td>原 BMP → 中文 BMP</td>
+<td>调色板不一致导致色偏；布局错位；文字超出原区域</td>
+<td>同尺寸叠加对比；游戏内逐画面核对</td>
+</tr>
+<tr>
+<td><b>5 字体与<br>代码页</b></td>
+<td>确认 cp936 运行；字体名生效</td>
+<td>Locale Emulator/NTLEA 或中文 Windows；或 patch 代码页为 936</td>
+<td>运行环境配置</td>
+<td>非 cp936 下乱码；字体未安装</td>
+<td>启动后全界面中文无乱码为金标准</td>
+</tr>
+<tr>
+<td><b>6 界面与<br>战役测试</b></td>
+<td>逐界面核对；跑完整战役数回合</td>
+<td>手动实机（你执行，我不启动游戏）</td>
+<td>汉化副本 → 测试报告</td>
+<td>崩溃/乱码/缺字/布局错乱/存档兼容</td>
+<td>主菜单、对话框、单位信息、场景列表、简报、报告、胜负画面逐项目检；存档读档</td>
+</tr>
+<tr>
+<td><b>7 收尾<br>与校验</b></td>
+<td>全量回读校验；交付对照表与说明；可选走 User_Mods 部署</td>
+<td>Python 校验脚本；User_Mods 目录参考</td>
+<td>汉化包 + 对照表 + 说明</td>
+<td>残留英文；部署覆盖原文件</td>
+<td>全量 GBK 解码 + 残留英文扫描；用 User_Mods 机制不覆盖原文件</td>
+</tr>
+</table>
+
+<div class="box">
+<p class="small"><b>重点风险聚焦（按你要求）：</b></p>
+<ul>
+<li><b>长度溢出</b>：对话框控件定宽 + 中文更宽 → 在阶段 2 用 Resource Hacker 加宽控件，或选紧凑中文字体（如 <code>SimSun</code>）。</li>
+<li><b>乱码</b>：根因是代码页(阶段5)与 cp1252→GBK 漏转(阶段3)。金标准＝cp936 下全界面无 ?/□。</li>
+<li><b>缺字</b>：GBK 不含极生僻字/军语异体 → 用通用译名或保留原文+注释；避免依赖 GB18030 除非确认环境支持。</li>
+<li><b>布局错乱</b>：含字 BMP 重绘需严格同尺寸同调色板(阶段4)；UI 控件需阶段2加宽。</li>
+<li><b>崩溃</b>：几乎全部来自 exe 字节改坏(阶段2) → 小步验证、全程备份、改前 md5。</li>
+<li><b>存档兼容</b>：阶段6实测；规避＝新开游戏，不用旧英文存档。</li>
+</ul>
+</div>
+
+<!-- ============ 7. 另两作复用与差异 ============ -->
+<h2>七、West Front / Rising Sun（Pacific War）的复用与差异</h2>
+<table>
+<tr><th>维度</th><th>结论</th></tr>
+<tr><td><b>可复用流程</b></td><td><b>方法 100% 复用，文件需逐作各打一次补丁</b>。2.05 三作引擎已非字节一致（ef 1,609,488 B；wf/risun 1,610,000 B），但字体调用、GDI API、UI 资源结构、代码页方案、含字 BMP 重绘模板完全相同，故<b>同一套方法直接套用，仅补丁偏移按各 exe 实际位置生成</b>（用字符串搜索而非固定偏移，天然兼容）。</td></tr>
+<tr><td><b>文件结构</b></td><td>一致：同扩展名体系（.oob/.scn/.org/.scl/.lcg/.pdt/.pdx/.btl/.tag/.txt/.map/.dat/.hlp/.bmp/.bit）。2.05 重新打包后内容普遍扩充（East Front 现 oob 185 / scn 258 / org 220 / scl 166 / map 333 / bmp 3375 等），West Front / Rising Sun 数量相近、以实机目录为准；差异仅在<b>数量与战区内容</b>。</td></tr>
+<tr><td><b>资源/字体</b></td><td><code>EastFont.BMP</code> 三作均为 256×256/8-bit（同源，仍未引用）；含字 BMP 同名同尺寸 → 重绘模板通用。字体名机制三作一致（均已复核），仅字节位置不同。</td></tr>
+<tr><td><b>程序版本</b></td><td>主引擎大小相近但不同，<b>启动包装器也不同</b>（<code>East Front.exe</code> 429,328 B / <code>West Front.exe</code> / <code>Rising Sun.exe</code> 各 449,808 B，均 2025-09-08 构建）。包装器内部字符串极少，影响小；实施时仍需逐作确认包装器是否也含需翻译的极少量串。</td></tr>
+<tr><td><b>内容差异注意</b></td><td>West Front 多 <code>.doc</code>（设计笔记，可翻译为次要文档）；三作单位/场景/战役文本按战区不同，需各自建对照表；地名/军语口径需三作统一（参照你既定的"国家规范+军语风格"约定）。</td></tr>
+</table>
+
+<!-- ============ 8. 世纪雷神线索 ============ -->
+<h2>八、"世纪雷神曾发行完全汉化版"线索的价值与遗留核实</h2>
+<div class="box">
+<p><b>参考价值（可作为"已有人走过这条路"的强证据）：</b>商业汉化版的存在，说明本系列在技术上<b>不存在根本性不可逾越障碍</b>——中文渲染、海量文本汉化、含字图处理都被实际做成过。这能显著降低试错成本，并暗示可行路径就是"字体替换 + 中文代码页 + 全文本翻译（+可能的图重绘）"组合。</p>
+<p><b>但不得视为已验证事实：</b>本安装是 TalonSoft/Matrix 英文原版，我未拿到其汉化版文件，无法确认具体手法。以下为<b>可进一步核实的遗留资源</b>（建议动手前核实，能大幅缩短试错）：</p>
+<ul>
+<li>① <b>世纪雷神汉化版的 exe/dll 与数据文件样本</b>：与本版做字节/文件对比，直接看出改了哪些字节、哪些文件、是否动过 <code>EastFont.BMP</code>。</li>
+<li>② <b>是否随包提供语言选择 / 注册表或 ini 设置</b>：本安装 <code>Setup.ini</code> 有 <code>EnableLangDlg=Y</code>（语言对话框开关），但其确切功能未验证，可能关联一个本安装<b>未随附</b>的语言包机制——这正是世纪雷神版最可能利用的入口。</li>
+<li>③ <b>是否重绘了 BMP / 是否要求中文系统或外挂(AppLocale/LE)</b>：决定了我们的阶段 4、阶段 5 是否与其一致。</li>
+<li>④ <b>其运行环境要求</b>：是否强制中文系统或带启动器，关系到部署方式。</li>
+</ul>
+<p class="small">说明：以上①②③④均为"推测性待核实项"，未作为本报告可行性判定的依据；本报告的"可行"结论仅建立在<b>本安装实测证据</b>之上。</p>
+</div>
+
+<!-- ============ 9. 工具与风险清单 ============ -->
+<h2>九、工具与风险清单</h2>
+<h3>9.1 工具清单</h3>
+<table>
+<tr><th>用途</th><th>工具</th><th>说明</th></tr>
+<tr><td>文本扫描/抽取/校验</td><td>Python 3.13（本分析已用脚本见 <code>work\jtscan\</code>）</td><td><code>extract_strings.py / peek_data.py / analyze_ef.py / survey_all.py / scan_consumer.py</code> 可复用为本地化流水线原型</td></tr>
+<tr><td>exe 资源编辑</td><td>Resource Hacker</td><td>提取/翻译/重编译 UTF-16 串表、菜单、对话框模板</td></tr>
+<tr><td>十六进制补丁/校验</td><td>HxD 或 010 Editor</td><td>字体名替换（<code>MS Sans Serif→SimSun</code>）、charset 字节 patch、md5 校验</td></tr>
+<tr><td>位图重绘</td><td>GIMP / Photoshop</td><td>8-bit 调色板 BMP 中文重绘，保持尺寸/调色板/布局</td></tr>
+<tr><td>代码页环境</td><td>中文 Windows / Locale Emulator / NTLEA</td><td>强制 cp936 运行，使 GBK 文本与中文字体正确渲染</td></tr>
+<tr><td>对照与差异</td><td>Beyond Compare / Excel</td><td>en→zh 对照表管理、原文/译文差异比对</td></tr>
+<tr><td>部署（不覆盖原文件）</td><td>User_Mods 机制</td><td>参考现有 <code>User_Mods\East Front\PANZER_BLITZ\</code> 结构做模块化覆盖</td></tr>
+</table>
+
+<h3>9.2 风险清单（汇总）</h3>
+<table>
+<tr><th>风险</th><th>等级</th><th>缓解</th></tr>
+<tr><td>非 cp936 下 GBK 乱码</td><td><span class="tag t-bad">高</span></td><td>中文环境/Locale Emulator；或 patch 代码页为 936</td></tr>
+<tr><td>exe 改坏导致崩溃</td><td><span class="tag t-bad">高</span></td><td>全程备份、md5、小步验证、先改字体名后改资源</td></tr>
+<tr><td>EastFont.BMP 被某处文字使用</td><td><span class="tag t-bad">待定</span></td><td>运行时/反汇编确认；若被用则定位该文字另行处理</td></tr>
+<tr><td>cp1252 变音字符漏转</td><td><span class="tag t-warn">中</span></td><td>统一 <code>decode(cp1252)→encode(GBK)</code> 流水线</td></tr>
+<tr><td>对话框定宽裁剪/重叠</td><td><span class="tag t-warn">中</span></td><td>Resource Hacker 加宽控件或紧凑中文字体</td></tr>
+<tr><td>含字 BMP 重绘错位/色偏</td><td><span class="tag t-warn">中</span></td><td>严格同尺寸同 8-bit 调色板；游戏内逐画面核对</td></tr>
+<tr><td>存档兼容</td><td><span class="tag t-info">待实测</span></td><td>新开游戏规避；阶段6实测旧档</td></tr>
+<tr><td>极生僻字/军语缺字</td><td><span class="tag t-info">低</span></td><td>通用译名或保留原文+注释</td></tr>
+</table>
+
+<!-- ============ 10. 2.05 重评 ============ -->
+<h2>十、2.05 版更新重新评估（2026-10-20 补充）</h2>
+<div class="box">
+<p><b>背景：</b>用户将游戏更新至 <b>V2.05（2025-09-08 构建）</b>。重新核验目录与三作主引擎二进制后确认：本次"更新"实为 <b>Matrix 的 2025 年整包重编译/重发</b>（V2.03 / 2.04 / 2.05 均在 2025 年，构建日期均为 2025-09-08），并非单纯补丁。更新日志（<code>changelog_205.txt</code>）明示 2.05 仅"修订胜利对话框以允许更大数值"，2025 系列改动集中在场景/数据/显卡兼容，<b>无任何字体、编码或语言相关条目</b>。</p>
+<p><b>变化（实测）：</b></p>
+<ul>
+<li><span class="ev">工具链更换</span> 旧版为 Borland OWL；2.05 主引擎导入 <code>mfc90.dll</code> / <code>MSVCP90.dll</code>（<b>MFC9 / MSVC2008</b>），依赖 VC2008 运行库（应在 <code>redist\</code> 随包，或测试机另装 vcredist_x86）。</li>
+<li><span class="ev">引擎体积与一致性</span> 主引擎由 1,085,440 B 增至约 1.6MB；三作<b>不再字节一致</b>：ef.exe 1,609,488 B、wf.exe / risun.exe 1,610,000 B（相差 512 B，应为各作战区资源差异）。</li>
+<li><span class="ev">Rising Sun 引擎改名</span> 因与 NVIDIA 命名冲突导致地图变形，引擎由 <code>rs.exe</code> 改名为 <code>risun.exe</code>（更新日志明示）。</li>
+<li><span class="ev">新增基础设施</span> <code>JSGME.exe</code>（Jones Soft 通用 Mod 管理器）+ <code>Mods/</code> / <code>User_Mods/</code> 目录 + <code>campres.exe/cdd</code> + <code>JTCSUpdate.exe</code>。</li>
+</ul>
+<p><b>未变（汉化方案仍成立的关键）：</b></p>
+<ul>
+<li><span class="ev">渲染机制不变</span> 三作仍仅导入 <code>CreateFontA / TextOutA / DrawTextA / ExtTextOutA</code>（ANSI），仍硬编码 <code>MS Sans Serif</code>(×8) / <code>Times New Roman</code>(×7) / <code>System</code>(×2)（ef.exe 实测；另两作同机制）。<code>EastFont.BMP</code> 仍 0 引用。</li>
+<li><span class="ev">清单已排查（排除新陷阱）</span> 解析 <code>ef.exe</code> 内嵌 manifest：存在（VC90 CRT 依赖），但<b>未声明 <code>activeCodePage=UTF-8</code></b>、未声明 <code>dpiAware</code>、无 <code>&lt;language&gt;</code>。即进程采用系统 ANSI 代码页（cp936 下即 GBK），<b>不会把 GBK 数据误当 UTF-8</b>——该潜在新风险已排除。</li>
+<li><span class="ev">数据编码不变</span> 文本文件仍为纯文本；2.05 重测 1299 个文本文件中 <b>150 个含 cp1252 变音字符</b>（Pätzold / Günther / Säiniö / Häkkinen / Björkman 等），<code>decode(cp1252)→encode(GBK)</code> 策略照旧。</li>
+</ul>
+<p><b>对原方案的三处调整：</b></p>
+<ol>
+<li><b>逐作各打一次 exe 补丁</b>：三引擎不再字节一致，字体名补丁用<b>字符串搜索</b>（非固定偏移）即可兼容各 exe；Rising Sun 注意目标是 <code>risun.exe</code>。</li>
+<li><b>借 JSGME 部署数据文件</b>：翻译后的 .oob/.scn/.org 等可做成 JSGME Mod（<code>Mods/</code> 下），开关即生效、不破坏原文件；exe 字体补丁仍须单独处理（JSGME 不改 exe）。</li>
+<li><b>确保 VC2008 运行库</b>：新引擎依赖 <code>mfc90 / msvcp90</code>，测试/部署机需有对应 vcredist，否则游戏根本无法启动（与汉化无关，但是运行前提）。</li>
+</ol>
+<p class="small"><b>结论：</b>2.05 更新<b>不改变汉化可行性</b>——文字渲染路径与字体机制与旧版完全一致，且已确认无 UTF-8 代码页陷阱。第一～九节的方法论全部有效，仅上述三处部署细节需按 2.05 调整。下一步仍从第五节 MVP 起步（备份副本 → 字体名替换为中文字体 + cp936 启动 → 验证中文上屏）。</p>
+</div>
+
+<footer>
+<p>本报告为只读扫描产物，未修改 <code>Program Files\John Tiller's Campaign Series</code> 下任何原文件。所有"可行/高可行"结论基于本安装实测（文件大小、字节扫描、字符串抽取、BMP 头解析、文本编码分类）；标注「推测/待核实」之处均未作为判定依据。下一步建议：在你确认后，从第五节 MVP 开始，先对备份副本验证字体替换 + 代码页 + 单文件数据翻译三件套。（2026-10-20 已据 2.05 版重新核验，详见第十节。）</p>
+<p class="small">支撑脚本与中间产物：<code>D:\DSH\军事游戏汉化\work\jtscan\</code>（extract_strings.py、peek_data.py、analyze_ef.py、survey_all.py、scan_other_exes.py、scan_consumer.py、reeval_205.py、reeval2_205.py，及 ef.exe.ascii.txt / ef.exe.utf16.txt 字符串清单）。</p>
+</footer>
+
+</body>
+</html>

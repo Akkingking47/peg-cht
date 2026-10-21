@@ -16,7 +16,9 @@ import sys
 WS = r"D:\DSH\军事游戏汉化"
 BK = os.path.join(WS, "pegww2", "testbed", "backup", "text")
 RES = os.path.join(WS, "pegww2", "research")
+DER = os.path.join(RES, "_derived")          # 生成器产出（可复算，勿手改；见 research/README.md）
 OUT = os.path.join(WS, "pegww2", "testbed", "out", "text")
+os.makedirs(DER, exist_ok=True)
 _sink = io.StringIO()
 
 TARGETS = {
@@ -137,7 +139,7 @@ def build(key):
     print(f"  ✅ 校验通过 ⇒ {os.path.relpath(dst, WS)}  {len(back):,} B "
           f"(CRLF={crlf} 裸LF={back.count(b'\n') - crlf} 裸CR={back.count(b'\r') - crlf})")
     # 行级对照表
-    cmpf = os.path.join(RES, f"_对照-{key}.tsv")
+    cmpf = os.path.join(DER, f"_对照-{key}.tsv")
     with open(cmpf, "w", encoding="utf-8", newline="\n") as f:
         f.write(f"# {src_name} 行级对照表（生成器产出）\n行号\t原文\t译文\t来源\n")
         for i, ln in enumerate(lines):

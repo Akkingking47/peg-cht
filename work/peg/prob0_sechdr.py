@@ -1,7 +1,16 @@
 # -*- coding: utf-8 -*-
 """prob0_sechdr.py — 打印真实节表。"""
 import struct
-D = r"D:\Program Files\PeG\PeG030.exe"
+
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+D = os.path.join(GAME, "PeG030.exe")
 d = open(D, "rb").read()
 e = struct.unpack_from("<I", d, 0x3C)[0]
 nsec = struct.unpack_from("<H", d, e + 6)[0]

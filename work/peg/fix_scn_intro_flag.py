@@ -28,8 +28,15 @@ import shutil
 import struct
 import sys
 
-ROOT = r"D:\DSH\军事游戏汉化"
-GAME = r"D:\Program Files\PeG"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+ROOT = WS
 SNAP = os.path.join(ROOT, r"peg\testbed\backup-scn-flag")   # 改动前的原始快照
 
 OFF_INTRO = 11329          # Scenario intro file name（20B，含或不含扩展名）

@@ -37,13 +37,21 @@ import os
 import struct
 import sys
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception:
     pass
 
-SRC = r"D:\Program Files\PeG\PeG030.exe"
-DST_V4 = r"D:\Program Files\PeG-1\PeG030res.exe"
+SRC = os.path.join(GAME, "PeG030.exe")
+DST_V4 = os.path.join(GAME_ALT, "PeG030res.exe")
 SRC_MD5 = "c462e897b3aa1c384870c857ce9e01df"
 DST_V4_MD5 = "2107b73bbfd4213719b622a1a9d4c6ad"
 HERE = os.path.dirname(os.path.abspath(__file__))

@@ -14,13 +14,20 @@ import os
 import shutil
 import sys
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import gen_scn_zh as G  # noqa: E402
 
-WS = r"D:\DSH\军事游戏汉化"
 TMP = os.path.join(WS, "peg", "testbed", "_regen-name-converge")
 CUR = os.path.join(WS, "peg", "testbed", "scn-zh")
-GAMEDIR = r"D:\Program Files\PeG"
+GAMEDIR = GAME
 BACKUP = os.path.join(WS, "backup", "before-name-converge", "peg-game")
 
 # 旧名 → 新名（与 fix_name_converge.py 同源；用于「只改预期」证明）

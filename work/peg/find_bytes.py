@@ -10,7 +10,16 @@ import sys
 
 import pefile
 
-EXE = r"D:\Program Files\PeG\PeG030.exe"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+EXE = os.path.join(GAME, "PeG030.exe")
 SECTIONS = {".text": (0x401000, 0x400, 565760), ".rdata": (0x48C000, 0x8A600, 4608),
             ".data": (0x48E000, 0x8B800, 136192), ".idata": (0x6AA000, 0xACC00, 5632),
             ".rsrc": (0x6AC000, 0xAE200, 21504)}

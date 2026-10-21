@@ -12,8 +12,16 @@ import os
 import struct
 import sys
 
-ORIG = r"D:\Program Files\PeG-1\PeG030.exe"
-PROD = r"D:\Program Files\PeG-1\PeG030res.exe"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+ORIG = os.path.join(GAME_ALT, "PeG030.exe")
+PROD = os.path.join(GAME_ALT, "PeG030res.exe")
 
 SECTIONS = [(".text", 0x401000, 0x400, 565760), (".rdata", 0x48C000, 0x8A600, 4608),
             (".data", 0x48E000, 0x8B800, 136192), (".idata", 0x6AA000, 0xACC00, 5632),

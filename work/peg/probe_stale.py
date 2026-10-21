@@ -12,8 +12,17 @@
 import struct
 import sys
 
-ORIG = r"D:\Program Files\PeG-1\PeG030.exe"
-PROD = r"D:\Program Files\PeG-1\PeG030res.exe"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+ORIG = os.path.join(GAME_ALT, "PeG030.exe")
+PROD = os.path.join(GAME_ALT, "PeG030res.exe")
 STALE = {800: "w", 799: "w-1", 796: "w-4", 600: "h", 599: "h-1", 572: "h-28",
          571: "h-28", 570: "h-30", 762: "btn-x", 787: "btn-right", 756: "vbtn-x",
          781: "vbtn-right", 745: "panel", 760: "panel2", 768: "h_of_1024"}

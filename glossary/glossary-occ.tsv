@@ -32601,7 +32601,7 @@ RE / 44th (Home Counties) Div / III Corps / BEF	皇家工兵 / 第44(本土诸�
 4th AAR RA / 2nd AA Br/ - / BEF	第4AAR RA / 第2防空旅/ - / 英国远征军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#200
 EM Gen. de la Laurencie / 3e CA / 1ère Armée / Groupe d'armées 1	EM 德洛朗西将军 / 第3军 / 第1集团军 / 第1集团军群	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#201
 3 ChA / 1 DChA / VI CA	第3ChA / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#202
-Bon Pontonniers d'Armée	第76架桥工兵营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#203
+Bon Pontonniers d'Armée	集团军架桥营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#203
 Panzer-Regiment 10 / Pz.-Brig. 8 / 8 Pz.Div. / XLI AK / AOK 4	第10装甲团 / 第8装甲旅 / 第8装甲师 / 第41军 / 第4集团军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#204
 Schützen-Regiment 8 / Schütz.-Brig. 8 / 8 Pz.Div. / XLI AK / AOK 4	第8步兵团 / 第8步兵旅 / 第8装甲师 / 第41军 / 第4集团军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#205
 Kradschützen Bataillon 8 / Schütz.-Brig. 8 / 8 Pz.Div. / XLI AK / AOK 4	第8摩托化步兵营 / 第8步兵旅 / 第8装甲师 / 第41军 / 第4集团军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days11.xscn:g1#206
@@ -32857,7 +32857,7 @@ Gén. Vander Veken / I CA	范德维肯将军 / 第1军	UNIT	EFILE_OLGWW2	xscn	SC
 4 Gr DTCA / I CA	第4Gr DTCA / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#17
 21 Bn Gn / I CA	第21营 Gn / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#18
 Garnison Fort Eben Emael I	埃本埃马尔堡守备部队 I	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#19
-Bn CyFr Limbourg / I CA	第76工兵营 塞法尔·林堡 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#20
+Bn CyFr Limbourg / I CA	工兵营 塞法尔·林堡 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#20
 Coupule Sud 75 Fort Eben Emael	库普勒南75 埃本埃马尔要塞	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#21
 11 Li / 4 DI / I CA	第11 Li / 第4步兵师 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#22
 15 Li / 4 DI / I CA	第15Li / 第4步兵师 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days2.xscn:g1#23
@@ -33007,7 +33007,7 @@ Les Deux Villes	莱德维尔	PLACE	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g0#53
 Casemate 61	第61炮廓	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#4
 Casemate 63	第63炮廓	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#5
 Cie T-13 / 1 DChA / Gpt K	Cie T-13 / 第1DChA / Gpt K	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#6
-Bn Moto ChA / Gpt K	第76摩托化营 ChA / K集群	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#7
+Bn Moto ChA / Gpt K	摩托化营 ChA / K集群	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#7
 QG Gen. Keyaerts / Gpt K	QG 凯阿尔茨将军 / K集群	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#8
 Cie AB / 1 DChA / Gpt K	Cie AB / 第1DChA / Gpt K	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#9
 Esc AB / 1 DC / Gpt K	Esc AB / 第1骑兵师 / Gpt K	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days3.xscn:g1#10
@@ -33321,7 +33321,7 @@ Défense du Bas-Escaut	下斯海尔德防御	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18d
 Cie AC / 12 DI / IV CA	Cie AC / 第12步兵师 / 第4军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#15
 2 Bn Gn / 12 DI / IV CA	第2Bn Gn / 第12步兵师 / 第4军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#16
 2 Cy / 2 DC / CC	第2Cy / 第2DC / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#17
-Bn Pon	第76工兵营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#18
+Bn Pon	工兵营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#18
 4 RAA / Artillerie Armée	第4RAA / 集团军炮兵	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#19
 Police de la Rade III / 3eme Flotille	港区警察第3队 / 第3区舰队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#20
 QG Gen. Vanden Bergen / V CA	QG 范登贝亨将军 / 第5军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days6.xscn:g1#21
@@ -33414,7 +33414,7 @@ Beveren	贝弗伦	PLACE	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g0#10
 Mortsel	莫策尔	PLACE	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g0#11
 Schelle	斯海勒	PLACE	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g0#12
 Edegem	埃德海姆	PLACE	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g0#13
-Bn Mo ChA / CC	第76工兵营 Mo ChA / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g1#0
+Bn Mo ChA / CC	工兵营 Mo ChA / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g1#0
 4L / 2 DC / CC	第4L / 第2DC / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g1#1
 2 CCy / 2DC / CC	第2CCy / 第2DC / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g1#2
 Esc AB/CC / CC	Esc AB/CC / 骑兵军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days7.xscn:g1#3
@@ -33637,7 +33637,7 @@ Cie ac / 1 DChA / VI CA	Cie ac / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	xscn	SCENA
 10 Bn Gn / 10 DI / VII CA	第10工兵营 / 第10步兵师 / 第VII军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#99
 9 Bn Gn / 9 DI / VII CA	第9营 Gn / 第9步兵师 / 第7军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#100
 3 RAA	3 RAA	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#101
-Bn Gn / 1 DChA / VI CA	第76工兵营 Gn / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#102
+Bn Gn / 1 DChA / VI CA	工兵营 Gn / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#102
 I-III/20 RA / 1 DChA / VI CA	第1-3/第20 RA / 1 DChA / 第6军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#103
 8 Bn ca / VII CA	第8营 ca / 第7军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#104
 Depot Armée belge	比利时军仓库	UNIT	EFILE_OLGWW2	xscn	SCENARIO/18days8.xscn:g1#105
@@ -33886,7 +33886,7 @@ EM / I CA	司令部 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g
 4 Gr DA / - / I CA	第4Gr DA / - / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#48
 21 Bon Gn / - / - / I CA	第21营 Gn / - / - / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#49
 Garnison Fort Eben Emael I	埃本埃马尔堡守备部队 I	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#50
-Bon CyFr Limbourg / - / I CA	第76工兵营 塞法尔·林堡 / - / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#51
+Bon CyFr Limbourg / - / I CA	工兵营 塞法尔·林堡 / - / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#51
 Coupule Sud 75 Fort Eben Emael	库普勒南75 埃本埃马尔要塞	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#52
 11 Li / 4 DI / I CA	第11 Li / 第4步兵师 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#53
 15 Li / 4 DI / I CA	第15Li / 第4步兵师 / 第1军	UNIT	EFILE_OLGWW2	xscn	SCENARIO/CanalAlbert.xscn:g1#54
@@ -35011,8 +35011,8 @@ S.Sebastian/10 Zona	圣塞瓦斯蒂安/第10军区	UNIT	EFILE_OLGWW2	xscn	SCENAR
 GC/Irun	GC/伊伦	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#31
 S.Sebastian/10 Zona	圣塞瓦斯蒂安/第10军区	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#32
 3 RA. Pesada/-/6 DO	第3重炮兵团/-/第6DO	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#33
-Bon. Thaelmann	第76营 台尔曼	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#34
-Bon. Commune de Paris	第76营 巴黎公社	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#35
+Bon. Thaelmann	台尔曼营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#34
+Bon. Commune de Paris	巴黎公社营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#35
 Torpedera No.3	第3号鱼雷艇	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#36
 6 Bon Z./-/6 DO	第6 Z营/-/第6 DO	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#37
 6 Bon./2 MBda./2 Bda.	第6营/第2 MBda./第2旅	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN0.xscn:g1#38
@@ -35098,12 +35098,12 @@ Columna Martin Blanco	马丁布兰科纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1
 Columna Martin Blanco	马丁布兰科纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#42
 Columna Martin Blanco	马丁布兰科纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#43
 Grupo Antonio Muniz	安东尼奥·穆尼斯支队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#44
-Bon. CNT No.4	第76营 CNT 第4号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#45
+Bon. CNT No.4	全国劳工联盟第4营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#45
 Grupo UGT	UGT支队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#46
-Bon. CNT No.5	第76营 CNT 第5号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#47
-Bon. Caz. Asturias No.1	第76猎兵营 阿斯图里亚斯 第1号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#50
-Bon. Caz. Gijon No.2	第76猎兵营 希洪 第2号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#51
-Bon. Caz. Langreo No.3	第76猎兵营 兰格雷奥 第3号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#52
+Bon. CNT No.5	全国劳工联盟第5营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#47
+Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#50
+Bon. Caz. Gijon No.2	希洪猎兵第2营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#51
+Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#52
 Rem. (Guerrilla)	残部 (游击队)	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#54
 Rem. (Guerrilla)	残部 (游击队)	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#55
 Rem. (Guerrilla)	残部 (游击队)	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN1.xscn:g1#56
@@ -35178,40 +35178,40 @@ Columna Arteaga	阿特亚加纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#
 Columna Arteaga	阿特亚加纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#37
 Columna Arteaga	阿特亚加纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#38
 Columna Arteaga	阿特亚加纵队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#39
-Bon. CNT No.5	第76营 CNT 第5号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#40
-Bon. Caz. Asturias No.1	第76猎兵营 阿斯图里亚斯 第1号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#42
-Bon. Caz. Gijon No.2	第76猎兵营 希洪 第2号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#43
-Bon. Caz. Langreo No.3	第76猎兵营 兰格雷奥 第3号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#44
+Bon. CNT No.5	全国劳工联盟第5营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#40
+Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#42
+Bon. Caz. Gijon No.2	希洪猎兵第2营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#43
+Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#44
 Esc. Hernandez Franch	埃尔南德斯·弗兰奇中队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#46
 Esc. Hernandez Franch	埃尔南德斯·弗兰奇中队	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#47
-Bon. CNT No.1	第76营 CNT 第1号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#48
-Bon. Muniz	第76营 Muniz	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#49
-Bon. IR Azana	第76营 IR Azana	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#50
-Bon. Cienfuegos	第76营 西恩富戈斯	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#51
-Bon. Jose Florez	第76营 Jose Florez	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#52
-Bon. Llaneza	第76营 Llaneza	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#53
-Bon. Dutor No.1	第76营 Dutor 第1号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#54
-Bon. A. de la Fuente	第76营 A. de la Fuente	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#55
-Bon. CNT No.2	第76营 CNT 第2号	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#56
+Bon. CNT No.1	全国劳工联盟第1营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#48
+Bon. Muniz	穆尼斯营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#49
+Bon. IR Azana	伊尔·阿萨尼亚营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#50
+Bon. Cienfuegos	先丰营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#51
+Bon. Jose Florez	何塞·弗洛雷斯营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#52
+Bon. Llaneza	利亚内萨营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#53
+Bon. Dutor No.1	杜托尔第1营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#54
+Bon. A. de la Fuente	A.德拉富恩特营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#55
+Bon. CNT No.2	全国劳工联盟第2营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#56
 Sector Sograndio HQ	索格兰迪奥防区司令部	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#57
-Bon. M. Fernandez/[Sograndio]	第76营 M. 费尔南德斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#58
-Bon. CNT No.9/[Sograndio]	第76营 CNT 第9号/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#59
-Bon. F. Lopez/[Sograndio]	第76营 F. Lopez/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#60
-Bon. D. Rodriguez/[Sograndio]	第76营 D. 罗德里格斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#61
+Bon. M. Fernandez/[Sograndio]	营 M. 费尔南德斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#58
+Bon. CNT No.9/[Sograndio]	营 CNT 第9号/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#59
+Bon. F. Lopez/[Sograndio]	营 F. Lopez/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#60
+Bon. D. Rodriguez/[Sograndio]	营 D. 罗德里格斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#61
 Sector Manjoya HQ	曼霍亚防区司令部	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#65
-Bon. Chuno/[Manjoya]	第76营 Chuno/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#66
-Bon. J. Naves/[Manjoya]	第76营 J. Naves/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#67
-Bon. D.G. Castro/[Manjoya]	第76营 D.G. Castro/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#68
-Bon. Galicia/[Manjoya]	第76营 加利西亚/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#69
+Bon. Chuno/[Manjoya]	营 Chuno/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#66
+Bon. J. Naves/[Manjoya]	营 J. Naves/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#67
+Bon. D.G. Castro/[Manjoya]	营 D.G. Castro/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#68
+Bon. Galicia/[Manjoya]	营 加利西亚/[曼霍亚]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#69
 Bda. Vol. Santander/[S.Esteban]	桑坦德志愿旅/[圣埃斯特万]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#71
-Bon. Sama/[S.Esteban]	第76营 Sama/[圣埃斯特班]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#72
-Bon. A. Naves/[S.Esteban]	第76营 A. Naves/[圣埃斯特班]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#73
+Bon. Sama/[S.Esteban]	营 Sama/[圣埃斯特班]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#72
+Bon. A. Naves/[S.Esteban]	营 A. Naves/[圣埃斯特班]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#73
 Sector San Esteban HQ	圣埃斯特万防区司令部	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#74
-Bon. Daniel Secades/[Lugones]	第76营丹尼尔·塞卡德斯/[卢戈内斯]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#75
+Bon. Daniel Secades/[Lugones]	营丹尼尔·塞卡德斯/[卢戈内斯]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#75
 R. Muniz No.3/[Lugones]	R. Muniz No.3/[卢戈内斯]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#76
-Bon. Sotrondio/[Cayes]	第76营索特龙迪奥/[卡耶斯]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#77
-Bon. Larranaga	第76营 Larranaga	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#78
-Bon. Meabe	第76营 Meabe	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#79
+Bon. Sotrondio/[Cayes]	营索特龙迪奥/[卡耶斯]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#77
+Bon. Larranaga	拉腊尼亚加营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#78
+Bon. Meabe	梅亚贝营	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#79
 Name Error	Name Error	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#80
 Name Error	Name Error	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN2.xscn:g1#81
 Front of Alava	阿拉瓦前线	TITLE	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:title
@@ -35233,7 +35233,7 @@ Zurbano	苏尔瓦诺	PLACE	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g0#14
 Kuartango	库阿尔坦戈	PLACE	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g0#15
 Vitoria	维多利亚	PLACE	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g0#16
 5 Cia. Alava/[Col. Iglesias]	第5阿拉瓦连/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#0
-Bon./[Col. Iglesias]	第76营/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#1
+Bon./[Col. Iglesias]	营/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#1
 10 Bat./2 RAM/[Col. Iglesias]	第10营/第2 RAM/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#2
 Victoria/[Col. A.Vega]	Victoria/[Col. A.Vega]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#3
 8 Cia. Alava/[Col. A.Vega]	第8阿拉瓦连/[Col. A.Vega]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN3.xscn:g1#4
@@ -35388,7 +35388,7 @@ UHP No.5/4 Bda./1 Div.	UHP No.5/第4旅/第1师	UNIT	EFILE_OLGWW2	xscn	SCENARIO/
 UGT No.5 Madrid/[XIV]	UGT No.5 马德里/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#75
 UGT 1 No.9/15 Bda./3 Div.	UGT 1 No.9/第15旅/第3师	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#76
 Disciplinario No.64/-/[XIV]	惩戒营第64/-/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#77
-Bon. G. Hernandez/-/[XIV]	第76营 G. 埃尔南德斯/-/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#78
+Bon. G. Hernandez/-/[XIV]	营 G. 埃尔南德斯/-/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#78
 80 Bon./-/[XIV]	第80营/-/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#79
 HQ/1 Div.	HQ/第1师	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#84
 HQ/2 Div.	HQ/第2师	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN4.xscn:g1#85
@@ -35506,7 +35506,7 @@ FARE	FARE	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#12
 2 BM Movil/''A'' Div./[XIV]	第2BM Movil/第A师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#14
 192 BM/''B'' Div./[XIV]	第192BM/第B师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#15
 Art.Grp./''A'' Div./[XIV]	炮兵群/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#16
-Bon. IdM/''A'' Div./[XIV]	第76营 IdM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#17
+Bon. IdM/''A'' Div./[XIV]	营 IdM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#17
 157 BM/''A'' Div./[XIV]	第157BM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#18
 156 BM/''A'' Div./[XIV]	第156BM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#19
 MG/''A'' Div./[XIV]	机枪/''A''师/[XIV]	UNIT	EFILE_OLGWW2	xscn	SCENARIO/GCN6.xscn:g1#20

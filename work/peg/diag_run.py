@@ -123,9 +123,17 @@ class Listener:
             k32.CloseHandle(self.hmap)
 
 
-def launch_patched(exe, w, h, dry=False, stop_after=False):
-    """挂起启动 → 校验 → 写 236 条补丁 → 回读 → 放行；返回 (pid, hProcess) 或 (None, None)。"""
-    entries, notes = PL.build_plan(w, h, tooltip=False, extra=True, panel=True, dxdy=False)
+def launch_patched(exe, w, h, dry=False, stop_after=False, repaint=False):
+    """挂起启动 → 校验 → 写补丁 → 回读 → 放行；返回 (pid, hProcess) 或 (None, None)。
+
+    repaint=False 表示**不**打 B 组（0x4489D8 每帧强制整屏刷新）。
+    2026-xx 起因：0x498D74 这个「需要刷新」标志是共享的，母本里有很多处理器
+    各自「读到标志 → 重绘自己那部分 → 清零」；我们的 B 组每帧抢先把标志清掉，
+    导致地图/覆盖层（选中单位的移动范围阴影）拿不到刷新信号 —— 表现为
+    「选中单位后鼠标不动就不显示范围阴影」。所以试玩默认关掉 B 组。
+    """
+    entries, notes = PL.build_plan(w, h, tooltip=False, extra=True, panel=True, dxdy=False,
+                                   repaint=repaint)
     print("补丁站点：%d 条" % len(entries))
     for n in notes:
         print("  · %s" % n)

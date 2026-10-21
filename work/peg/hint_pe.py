@@ -7,8 +7,17 @@ SECS 与母本节表一致；提供 va/fo 互转、字节/字/dword 读取、cap
 import struct
 from capstone import Cs, CS_ARCH_X86, CS_MODE_32
 
-SRC = r"D:\Program Files\PeG\PeG030.exe"
-PORT = r"D:\DSH\军事游戏汉化\archive\exe\PeG030-16x9-v10b.exe"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+import os
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+SRC = os.path.join(GAME, "PeG030.exe")
+PORT = os.path.join(WS, "archive", "exe", "PeG030-16x9-v10b.exe")
 IMAGE_BASE = 0x400000
 
 # 真实节表（prob0_sechdr.py 实测）：

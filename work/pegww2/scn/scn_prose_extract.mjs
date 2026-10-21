@@ -1,5 +1,8 @@
 // Split _scn-todo-prose.tsv data rows into fixed-size work chunks.
 // Each chunk file: "# chunk <i>/<n> rows <a>-<b>" then lines "<globalIdx>\t<original>"
+// ⚠️ 一次性工具（prose 批次）：输入 research/_scn-todo-prose.tsv 已于 2026-10-20 整理时归档。
+//    2026-10-20 脚本树合并后本工具迁入 work/pegww2/scn/，但 OUT 仍指向数据原位
+//    pegww2/work/scn/chunks/（该目录是「原版英文原文名参照数据」，按 .gitignore 白名单留在 pegww2 侧）。
 import fs from 'node:fs';
 import path from 'node:path';
 

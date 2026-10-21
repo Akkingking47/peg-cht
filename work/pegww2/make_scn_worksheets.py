@@ -23,9 +23,11 @@ from tsv_esc import esc  # noqa: E402
 WS = r"D:\DSH\军事游戏汉化"
 GAME = r"D:\Program Files\PeG-WW2"
 RES = os.path.join(WS, "pegww2", "research")
+DER = os.path.join(RES, "_derived")          # 生成器产出（可复算，勿手改）
 PEGR = os.path.join(WS, "peg", "research")
 OUTMAP = os.path.join(RES, "ww2-scn-map.tsv")
-OUTSTAT = os.path.join(RES, "_scn-stats.tsv")
+OUTSTAT = os.path.join(DER, "_scn-stats.tsv")
+os.makedirs(DER, exist_ok=True)
 _sink = io.StringIO()
 
 EXCLUDE = re.compile(r"(?i)(^info\.txt$|read ?me|report)")

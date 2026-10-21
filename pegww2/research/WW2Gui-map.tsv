@@ -1,4 +1,4 @@
-# WW2Gui-map.tsv（行号模式=是）
+﻿# WW2Gui-map.tsv（行号模式=是）
 # 来源：PeG=前作行级已验 / PeG同串=同英文串在前作别处的已验译法 / 词库=术语总库精确命中
 #      新译=待人工填 / 保留=按型号规范原样保留
 行号	原文	译文	来源
@@ -16,7 +16,7 @@
 12	Nationalist	国民军	新译确认
 13	United Kingdom	英国	PeG同串
 14	Norway	挪威	词库
-15	Waffen SS	武装党卫军	词库
+15	Waffen 党卫军	武装党卫军	词库
 16	Poland	波兰	词库
 17	Bulgaria	保加利亚	词库
 18	Romania	罗马尼亚	词库
@@ -551,10 +551,10 @@
 547	(C) Warm Temperate	(C) 暖温带	PeG
 548	(D) Cold Temperate	(D) 冷温带	PeG
 549	(E) Polar	(E) 极地	PeG
-550	Set Axis Required VH Captures	设定轴心国所需夺取的胜利点	新译确认
-551	Set Allied Required VH Captures	设定盟军所需夺取的胜利点	新译确认
-552	AI must capture ALL VH to win	电脑须夺取全部胜利点方可获胜	新译确认
-553	AI can capture ANY VH to win	电脑夺取任一胜利点即可获胜	新译确认
+550	Set Axis Required 胜利格 Captures	设定轴心国所需夺取的胜利点	新译确认
+551	Set Allied Required 胜利格 Captures	设定盟军所需夺取的胜利点	新译确认
+552	AI must capture ALL 胜利格 to win	电脑须夺取全部胜利点方可获胜	新译确认
+553	AI can capture ANY 胜利格 to win	电脑夺取任一胜利点即可获胜	新译确认
 554	Scenario Title	场景标题	新译确认
 555	Weather	天气	PeG
 556	Climate Type	气候类型	PeG

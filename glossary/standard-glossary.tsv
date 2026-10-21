@@ -5354,7 +5354,7 @@
 50mm PstK/38	50mm PstK/38	EQUIP	EFILE_OPENPG	POLICY	equip	POLICY	
 50mm vz38	50mm vz38	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
 50R	50R	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-50R/35R	第50团/第35团	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
+50R/35R	第50团/第35预备师	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 50th (Northumbrian) Div	第50(诺森伯兰)师	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
 50th ATY Brig	第50炮兵旅	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
 50th Div art.	第50师炮兵团	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
@@ -5477,7 +5477,7 @@
 55e DI	55步兵师	UNIT	EFILE_OLGWW2	LOCKED	txt	MID	txt
 55mm Static	55mm 固定	EQUIP	EFILE_NASHORNPBEM	LOCKED	equip	ABBR	equip
 55R	55R	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-55R/35R	第55团/第35团	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
+55R/35R	第55团/第35预备师	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 56  Bn	第56营	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 56  Bn/Sakaguchi Detachment	第56营/坂口支队	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 56 AS	第56野战中队	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	ABBR	txt
@@ -5898,7 +5898,7 @@
 638 Ban	第638营	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 638 Ban/6 Grp./2 Div./[CTV]	第638大队/第6飞行集团/第2师/[CTV]	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 63R	63R	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-63R/35R	第63团/第35团	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
+63R/35R	第63团/第35预备师	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 64 Bde	第64旅团	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 64 BM	第64混成旅	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 64 BM/39 Div./[XIII]	第64 BM/第39师/[XIII]	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
@@ -5929,7 +5929,7 @@
 64e GRDI	64步兵师侦察群	PLACE	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 64e GRDI / 55e DI / Xe CA / 2e Armée / GA 1	第64 GRDI / 第55步兵师 / 第10军 / 第2集团军 / 第1集团军群	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 64R	64R	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-64R/35R	第64团/第35团	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
+64R/35R	第64团/第35预备师	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 65 AR	第65炮兵团	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 65 AR/44 ID/[XIII]	第65炮兵团/第44步兵师/[XIII]	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 65 AT R	65反坦克团	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
@@ -5988,7 +5988,7 @@
 67 R/3 ID Algeria/1 Army Free	第67团/第3阿尔及利亚步兵师/自由法国第1集团军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 67/3A	67/3A	UNIT	EFILE_OLGWW2	POLICY	xscn	POLICY	
 67R	67R	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-67R/35R	第67团/第35团	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
+67R/35R	第67团/第35预备师	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 68 Art.D	第68炮兵师	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 68 Art.D/[58]	第68炮兵师/[58]	UNIT	EFILE_OLGWW2	LOCKED	xscn	ABBR	xscn
 68 BM	第68混成旅	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
@@ -8991,14 +8991,14 @@ BM-8-36	BM-8-36	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY
 BM/56 Div./[XII]	BM/第56师/[XII]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 BMW R35	BMW R35	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
 Bn CyFr Limbourg	林堡边防自行车营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bn CyFr Limbourg / I CA	第76工兵营 塞法尔·林堡 / 第1军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bn CyFr Limbourg / I CA	工兵营 塞法尔·林堡 / 第1军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bn Gn	Bn Gn	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-Bn Gn / 1 DChA / VI CA	第76工兵营 Gn / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bn Gn / 1 DChA / VI CA	工兵营 Gn / 第1DChA / 第6军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bn Mo ChA	Bn Mo ChA	PLACE	EFILE_OLGWW2	POLICY	txt	POLICY	
-Bn Mo ChA / CC	第76工兵营 Mo ChA / 骑兵军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bn Mo ChA / CC	工兵营 Mo ChA / 骑兵军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bn Moto ChA	阿登猎兵摩托化营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bn Moto ChA / Gpt K	第76摩托化营 ChA / K集群	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bn Pon	第76工兵营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	xscn
+Bn Moto ChA / Gpt K	摩托化营 ChA / K集群	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bn Pon	工兵营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	xscn
 Bo'orchu	博尔术	LEADER	EFILE_OLGWW2	LOCKED	names	HIGH	names
 Boase	博斯	LEADER	EFILE_NASHORNPBEM	LOCKED	names	HIGH	names
 Boase	博斯	LEADER	EFILE_OLGWW2	LOCKED	names	HIGH	names
@@ -9069,58 +9069,58 @@ Bombard	臼炮	EQUIP	EFILE_OLGWW2	LOCKED	equip	HIGH	equip
 Bomber (not used)	轰炸机 (未使用)	EQUIP	EFILE_NASHORNPBEM	LOCKED	equip	HIGH	equip
 Bomber Command	轰炸机司令部	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
 Bon CyFr Limbourg	Bon CyFr 林堡	PLACE	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon CyFr Limbourg / - / I CA	第76工兵营 塞法尔·林堡 / - / 第1军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon Pontonniers d'Armée	集团军架桥营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon CyFr Limbourg / - / I CA	工兵营 塞法尔·林堡 / - / 第1军	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon Pontonniers d'Armée	集团军架桥营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon.	营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. A. de la Fuente	A.德拉富恩特营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. A. de la Fuente	A.德拉富恩特营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. A. Naves	A.纳韦斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. A. Naves/[S.Esteban]	第76营 A. Naves/[圣埃斯特班]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. A. Naves/[S.Esteban]	营 A. Naves/[圣埃斯特班]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. Alpino	Bon. Alpino	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
-Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. Caz. Gijon No.2	希洪猎兵第2营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. Caz. Asturias No.1	阿斯图里亚斯猎兵第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. Caz. Gijon No.2	希洪猎兵第2营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. Caz. Langreo No.3	兰格雷奥猎兵第3营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. Chuno	丘尼奥营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. Chuno/[Manjoya]	第76营 Chuno/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Cienfuegos	先丰营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. CNT No.1	全国劳工联盟第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. CNT No.2	全国劳工联盟第2营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. CNT No.4	全国劳工联盟第4营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. CNT No.5	全国劳工联盟第5营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. Chuno/[Manjoya]	营 Chuno/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Cienfuegos	先丰营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. CNT No.1	全国劳工联盟第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. CNT No.2	全国劳工联盟第2营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. CNT No.4	全国劳工联盟第4营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. CNT No.5	全国劳工联盟第5营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. CNT No.9	全国劳工联盟第9营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. CNT No.9/[Sograndio]	第76营 CNT 第9号/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Commune de Paris	巴黎公社营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. CNT No.9/[Sograndio]	营 CNT 第9号/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Commune de Paris	巴黎公社营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. D. Rodriguez	D.罗德里格斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. D. Rodriguez/[Sograndio]	第76营 D. 罗德里格斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. D. Rodriguez/[Sograndio]	营 D. 罗德里格斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. D.G. Castro	D.G.卡斯特罗营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. D.G. Castro/[Manjoya]	第76营 D.G. Castro/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. D.G. Castro/[Manjoya]	营 D.G. Castro/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. Daniel Secades	丹尼尔·塞卡德斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. Daniel Secades/[Lugones]	第76营丹尼尔·塞卡德斯/[卢戈内斯]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Dutor No.1	杜托尔第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. Daniel Secades/[Lugones]	营丹尼尔·塞卡德斯/[卢戈内斯]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Dutor No.1	杜托尔第1营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. Especial	特种营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
 Bon. F. Lopez	F.洛佩斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. F. Lopez/[Sograndio]	第76营 F. Lopez/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. F. Lopez/[Sograndio]	营 F. Lopez/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. G. Hernandez	G.埃尔南德斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. G. Hernandez/-/[XIV]	第76营 G. 埃尔南德斯/-/[XIV]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. G. Hernandez/-/[XIV]	营 G. 埃尔南德斯/-/[XIV]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. Galicia	加利西亚营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. Galicia/[Manjoya]	第76营 加利西亚/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Galicia/[Manjoya]	营 加利西亚/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. IdM	本土防御营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. IdM/''A'' Div./[XIV]	第76营 IdM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. IR Azana	伊尔·阿萨尼亚营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. IdM/''A'' Div./[XIV]	营 IdM/''A''师/[XIV]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. IR Azana	伊尔·阿萨尼亚营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. J. Naves	J.纳韦斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. J. Naves/[Manjoya]	第76营 J. Naves/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Jose Florez	何塞·弗洛雷斯营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. Larranaga	拉腊尼亚加营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. Llaneza	利亚内萨营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. J. Naves/[Manjoya]	营 J. Naves/[曼霍亚]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Jose Florez	何塞·弗洛雷斯营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. Larranaga	拉腊尼亚加营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. Llaneza	利亚内萨营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. M. Fernandez	M.费尔南德斯营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. M. Fernandez/[Sograndio]	第76营 M. 费尔南德斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Meabe	梅亚贝营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon. Muniz	穆尼斯营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Bon. M. Fernandez/[Sograndio]	营 M. 费尔南德斯/[索格兰迪奥]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Meabe	梅亚贝营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon. Muniz	穆尼斯营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Bon. Sama	萨马营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. Sama/[S.Esteban]	第76营 Sama/[圣埃斯特班]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Sama/[S.Esteban]	营 Sama/[圣埃斯特班]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon. Sotrondio	索特龙迪奥营	UNIT	EFILE_OLGWW2	LOCKED	txt	HIGH	txt
-Bon. Sotrondio/[Cayes]	第76营索特龙迪奥/[卡耶斯]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
-Bon. Thaelmann	台尔曼营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
-Bon./[Col. Iglesias]	第76营/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Sotrondio/[Cayes]	营索特龙迪奥/[卡耶斯]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
+Bon. Thaelmann	台尔曼营	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
+Bon./[Col. Iglesias]	营/[伊格莱西亚斯上校]	UNIT	EFILE_OLGWW2	LOCKED	xscn	HIGH	xscn
 Bon.1	第1营	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 Bon.2	第2营	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
 Bon.4	第4营	UNIT	EFILE_OLGWW2	LOCKED	txt	ABBR	txt
@@ -9777,7 +9777,7 @@ Centaur I	Centaur I	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY
 Centaur III	Centaur III	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
 Centaur IV CS	Centaur IV CS	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
 Centauro 5.7cm M/946	Centauro 5.7cm M/946	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	
-Centauro Div	半人马座师	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
+Centauro Div	半人马师	UNIT	EFILE_OLGWW2	LOCKED	txt+xscn	LOW	txt+xscn
 Central Plains Breakout	中原突围	TITLE	EFILE_OLGWW2	LOCKED	txt+xscn	HIGH	txt+xscn
 Centreville	森特维尔	PLACE	EFILE_OPENPG	LOCKED	xscn	HIGH	xscn
 Centurion	Centurion	EQUIP	EFILE_OLGWW2	POLICY	equip	POLICY	

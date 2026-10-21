@@ -2,7 +2,14 @@
 """枚举 PeG030.exe 对话框模板的控件类型 + 解析 CWGEN.dat 目录"""
 import pefile, struct, os, collections
 
-GAME = r"D:\Program Files\PeG"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 
 # ---------------- 1. 对话框控件 ----------------
 CtrlNames = {0x80:"BUTTON",0x81:"EDIT",0x82:"STATIC",0x83:"LISTBOX",0x84:"SCROLLBAR",

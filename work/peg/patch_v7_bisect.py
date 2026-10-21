@@ -23,9 +23,17 @@ import os
 import shutil
 import sys
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
-GAMEDIR = r"D:\Program Files\PeG-1"
+GAMEDIR = GAME_ALT
 TSV = os.path.join(OUT, "res_diff_v4.tsv")
 SRC = os.path.join(OUT, "v5c.exe")
 SRC_MD5 = "4657e47d9170aebf586fc52730e0a1f8"

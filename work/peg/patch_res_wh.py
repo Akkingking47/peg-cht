@@ -23,13 +23,21 @@ import os
 import struct
 import sys
 
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "out")
 TSV = os.path.join(OUT, "res_diff_v4.tsv")
 
-SRC = r"D:\Program Files\PeG\PeG030.exe"
+SRC = os.path.join(GAME, "PeG030.exe")
 SRC_MD5 = "c462e897b3aa1c384870c857ce9e01df"
 
 # ---- 代码侧尺寸补丁（imm32 地址，已用 show_bytes.py 逐个核对过）----

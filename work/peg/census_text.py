@@ -2,7 +2,14 @@
 """PeG 文本层普查：按扩展名统计文件数 / 内嵌可打印串 / 是否含拉丁字母文本"""
 import os, re, glob, collections
 
-GAME = r"D:\Program Files\PeG"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
 WORD = re.compile(rb"[\x20-\x7e]{4,}")
 LETTERS = re.compile(rb"[A-Za-z]{4,}")
 

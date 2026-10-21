@@ -17,8 +17,9 @@ import sys
 
 WS = r"D:\DSH\军事游戏汉化"
 RES = os.path.join(WS, "pegww2", "research")
+DER = os.path.join(RES, "_derived")
 MAP = os.path.join(RES, "ww2-scn-map.tsv")
-STAT = os.path.join(RES, "_scn-stats.tsv")
+STAT = os.path.join(DER, "_scn-stats.tsv")
 BUCKETS = ("m", "u", "prose")
 
 

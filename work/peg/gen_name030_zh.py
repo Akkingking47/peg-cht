@@ -11,8 +11,15 @@ PeG name030.txt（将领姓名表）中文化生成器
 """
 import os, re, sys
 
-ROOT = r"D:\DSH\军事游戏汉化"
-GAME = r"D:\Program Files\PeG"
+# ── 路径真源 ────────────────────────────────────────────────────────
+# 可用环境变量覆盖；缺省值＝本项目作者本机的目录布局。
+WS       = os.environ.get("PEG_WORKSPACE", r"D:\DSH\军事游戏汉化")
+GAME     = os.environ.get("PEG_GAME",      r"D:\Program Files\PeG")
+GAME_ALT = os.environ.get("PEG_GAME_ALT",  r"D:\Program Files\PeG-1")
+# ───────────────────────────────────────────────────────────────────
+
+
+ROOT = WS
 SRC = os.path.join(ROOT, r"peg\testbed\backup\name030.txt")
 DST = os.path.join(ROOT, r"peg\testbed\name030.txt.zh.txt")
 
