@@ -102,7 +102,7 @@
 *.bmp
 *.ico
 *.zip
-# 汉化包：精简版（4.5MB）与 PeG 包（0.6MB）可入库；完整版（77MB，含 WW2GEN.dat）走 GitHub Release 资产
+# 汉化包：PeG 与 PeG-WW2 成品包可入库；含史实旗帜的完整包不再分发（不入库、不上 Release）
 !release/PeG-WW2-汉化包-精简版-*.zip
 !release/PeG-汉化包-*.zip
 *.7z

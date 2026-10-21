@@ -146,14 +146,14 @@ peg-cht/
 | 包 | 文件 | 大小 | 内容 |
 |---|---|---|---|
 | PeG | `release/PeG-汉化包-20261021.zip` | 0.6 MB | `PeG030.exe`（中文补丁）+ 装备/界面/人名/提示 + Scenario/Userscen 文本 + 8 个 `.scn` 标志 |
-| PeG-WW2 精简版 | `release/PeG-WW2-汉化包-精简版-20261021.zip` | 4.5 MB | 3,703 场景文本 + 根目录文本 + 12 个中文 exe |
-| PeG-WW2 完整版 | `release/PeG-WW2-汉化包-完整版-20261021.zip` | 77.7 MB | 上述全部 + `WW2GEN.dat`（史实德国旗），建议走 Release 资产 |
+| PeG-WW2 | `release/PeG-WW2-汉化包-精简版-20261021.zip` | 4.5 MB | 3,703 场景文本 + 根目录文本 + 12 个中文 exe |
 
 安装：先备份游戏目录 → 按目录结构覆盖 → 启动对应 exe。包内附 `安装说明.txt` 与 `文件清单.txt`；
 还原：用备份覆盖回来即可。详见 [`release/README.md`](release/README.md)。
 
-> ⚠️ 包内含游戏 exe 与数据文件，公开分发前请确认原游戏/MOD 授权；仓库默认只跟踪小包，
-> 完整版与 77 MB 级资产请走 GitHub Release。
+> ⚠️ **不提供含史实德国旗 `WW2GEN.dat` 的完整包，也不分发任何旗帜替换物** ——
+> 该类素材在部分平台属于敏感内容，仓库只发布文字汉化与中文 exe。
+> 包内含游戏 exe 与译文文本，公开分发前请确认原游戏/MOD 授权。
 
 ---
 
@@ -316,8 +316,8 @@ python work\pegww2\deploy_scn.py --apply
 python work\regression.py
 ```
 
-**发布迭代**：小包（PeG 0.6 MB、WW2 精简 4.5 MB）随仓库跟踪；含 `WW2GEN.dat` 的完整版
-（77.7 MB）走 GitHub Release 资产。打包清单由「备份 vs 游戏目录逐文件 sha 比对」生成，不手写。
+**发布迭代**：成品包随仓库跟踪（PeG 0.6 MB、WW2 4.5 MB），只含文字汉化与中文 exe；
+**不含、也不分发史实德国旗 `WW2GEN.dat` 或任何旗帜替换物**。打包清单由「备份 vs 游戏目录逐文件 sha 比对」生成，不手写。
 
 ### 相关文档
 
